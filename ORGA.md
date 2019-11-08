@@ -1,6 +1,13 @@
 # Organisatorisches
 > Was gibt es in der ersten Sitzung zu besprechen?
 
+- [Organisatorisches](#organisatorisches)
+  - [Seminar-Klima](#seminar-klima)
+  - [Modul "Softwaretechnologie"](#modul-softwaretechnologie)
+  - [Hausaufgaben im Seminar](#hausaufgaben-im-seminar)
+  - [ILIAS](#ilias)
+  - [Im Seminar genutzte Software](#im-seminar-genutzte-software)
+
 ## Seminar-Klima
 - "Du" oder "Sie"?
 - Sind Audio-Mitschnitte erlaubt/erwünscht?
@@ -27,3 +34,7 @@ Die einzelnen Bestandteile des Moduls können (theoretisch) in beliebiger Reihen
 ## ILIAS
 - Zugang zum Kurs
 - Was ist da alles drin?
+
+## Im Seminar genutzte Software
+- Standard-Library, Compiler und Laufzeitumgebung: **JDK** *(Java Development Kit, siehe [Ressourcen > Downloads](RESSOURCEN.md#Downloads))*
+- Entwicklungsumgebung / IDE: **Eclipse** *(siehe [Ressourcen > Downloads](RESSOURCEN.md#Downloads))*

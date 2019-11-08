@@ -1,6 +1,6 @@
 # Softwaretechnologie I + II: Java
 
-> Work in progress ...
+> Work in progress :nerd_face:
 
 - [ORGA.md](ORGA.md) enthält eine Aufstellung der organisatorischen Aspekte des Seminars. Gut für die "erste Sitzung".
 - [INHALTE.md](INHALTE.md) enthält die Lehr-Inhalte mit Anwendungsfällen, Code-Beispielen, Links und zu passenden Hausaufgaben, welche ebenfalls in diesem Repository zu finden sind.

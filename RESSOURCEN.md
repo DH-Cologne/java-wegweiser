@@ -1,6 +1,13 @@
 # Ressourcen
 > Kategorisierten Links zu allgemeinen, seminarrelevanten Ressourcen, die begleitend genutzt und/oder empfohlen werden können
 
+- [Ressourcen](#ressourcen)
+  - [Java Lernen](#java-lernen)
+  - [Java Üben](#java-Üben)
+  - [Anleitungen](#anleitungen)
+  - [Downloads](#downloads)
+  - [Sonstiges](#sonstiges)
+
 ## Java Lernen
 - [WikiBooks: Java Standard](https://de.wikibooks.org/wiki/Java_Standard) - Ein offenes Lehrbuch für Java (sehr gut!)
 - [Oracle Java Tutorial](https://docs.oracle.com/javase/tutorial/java/) - Etwas trocken und angestaubt, aber bewährt
