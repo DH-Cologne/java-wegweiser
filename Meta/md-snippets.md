@@ -6,7 +6,7 @@ System.out.println("Hello World!");
 ```
 
 ## versteckt
-<details><summary>CODE</summary>
+<details><summary>CODE: Hello World!</summary>
 
 ```java
 System.out.println("Hello World!");

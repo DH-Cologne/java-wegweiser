@@ -36,5 +36,5 @@ Die einzelnen Bestandteile des Moduls können (theoretisch) in beliebiger Reihen
 - Was ist da alles drin?
 
 ## Im Seminar genutzte Software
-- Standard-Library, Compiler und Laufzeitumgebung: **JDK** *(Java Development Kit, siehe [Ressourcen > Downloads](RESSOURCEN.md#Downloads))*
+- Standard-Library, Compiler und Laufzeitumgebung: **JDK** *(Java Development Kit, mindestens JDK8, siehe [Ressourcen > Downloads](RESSOURCEN.md#Downloads))*
 - Entwicklungsumgebung / IDE: **Eclipse** *(siehe [Ressourcen > Downloads](RESSOURCEN.md#Downloads))*

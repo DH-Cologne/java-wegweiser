@@ -8,21 +8,34 @@
     - [Hello World! :rocket:](#hello-world-rocket)
     - [Pakete](#pakete)
     - [Java-Klassenbibliothek](#java-klassenbibliothek)
-  - [Eclipse IDE (WIP)](#eclipse-ide-wip)
-  - [Primitive Datentypen](#primitive-datentypen)
+  - [Eclipse IDE](#eclipse-ide)
+  - [Objektorientierte Programmierung (OOP)](#objektorientierte-programmierung-oop)
   - [Variablen](#variablen)
+  - [Datentypen](#datentypen)
+    - [Primitive Datentypen](#primitive-datentypen)
+    - [Komplexe Datentypen](#komplexe-datentypen)
+    - [Casting / Typumwandlung bei primitiven Datentypen](#casting--typumwandlung-bei-primitiven-datentypen)
   - [Methoden](#methoden)
   - [Operatoren](#operatoren)
+    - [Arithmetische- / Rechenoperatoren](#arithmetische---rechenoperatoren)
+    - [Vergleichsoperatoren](#vergleichsoperatoren)
+    - [Boolsche / Logische Operatoren](#boolsche--logische-operatoren)
+    - [Operatoren zur Bit-Manipulation (erstmal weglassen?)](#operatoren-zur-bit-manipulation-erstmal-weglassen)
+    - [Zuweisungsoperatoren](#zuweisungsoperatoren)
   - [Strings / Zeichenketten](#strings--zeichenketten)
   - [Arrays](#arrays)
   - [Kontrollstrukturen](#kontrollstrukturen)
   - [Fehlerbehandlung](#fehlerbehandlung)
   - [JavaDoc](#javadoc)
-  - [Objektorientierte Programmierung (OOP)](#objektorientierte-programmierung-oop)
-  - [Klassen-Konzepte](#klassen-konzepte)
-    - [Klassenvariablen](#klassenvariablen)
+  - [OOP-Klassenkonzepte](#oop-klassenkonzepte)
     - [Konstruktoren](#konstruktoren)
     - [Sichtbarkeits-/Zugriffsmodifizierer](#sichtbarkeits-zugriffsmodifizierer)
+    - [Getter & Setter](#getter--setter)
+    - [Vererbung](#vererbung)
+      - [Einfache Vererbung](#einfache-vererbung)
+      - [Abstrakte Klassen](#abstrakte-klassen)
+      - [Interfaces](#interfaces)
+      - [Casting von komplexen Datentypen](#casting-von-komplexen-datentypen)
 
 
 ##  Die Programmiersprache Java
@@ -34,6 +47,7 @@
 - sehr umfangreiche Standard-Library / Klassenbibliothek
 
 ![Java Platform Diagram](Materialien/Java-Platform-Diagram.png)
+Grafik: [#](Materialien/Java-Platform-Diagram.png)
 
 ## Erste Schritte
 
@@ -44,7 +58,7 @@
   - Einstiegspunkt ins Programm
   - Was ist ein String / Zeichenkette (Klasse/Objekt!)?
 
-<details><summary>CODE</summary>
+<details><summary>CODE: Hello World!</summary>
 
 ```java
 public class HelloWorld {
@@ -63,28 +77,113 @@ public class HelloWorld {
 - Beispiele für häufig verwendete Klassen [#](https://de.wikibooks.org/wiki/Java_Standard:_Erste_Schritte#Klassenbibliothek)
 - Paketstruktur der Klassenbibliothek
 
-## Eclipse IDE (WIP)
-- Hintergründe [#](https://de.wikibooks.org/wiki/Java_Standard:_Einrichten_der_Programmierumgebung#Eclipse)
-- die verschiedenen Views...
-- erstes Projekt anlegen
-  - was ist alles drin?
-- Import / Export von Projekten...
-- ...
+## Eclipse IDE
+- Was ist das für ein Programm? [#](https://de.wikibooks.org/wiki/Java_Standard:_Einrichten_der_Programmierumgebung#Eclipse)
+- Die wichtigsten Views (Package Manager, Editor, Outline, Console)
+- Das erste Projekt anlegen
+  - Was ist da alles drin?
+  - Wo findet man das Paket-Konzept wieder?
+- Import / Export von Projekten
+- Programme ausführen über Kontextmenü und "Play"-Button
 
-## Primitive Datentypen
-...
+## Objektorientierte Programmierung (OOP)
+- Was ist **OOP**? [#](https://de.wikibooks.org/wiki/Java_Standard:_Objektorientierung_Sinn_und_Zweck)
+- Was ist eine **Klasse** (*konzeptuell, im Kontext d. OOP*)?
+- Was ist ein **Objekt** (*konzeptuell, im Kontext d. OOP*)?
 
 ## Variablen
-...
+- sind Bezeichner für Werte in bestimmten Speicherbereichen, die mit der Variable angesprochen werden können
+- Java ist streng typisiert, Deklaration daher immer unter Angabe des Datentyps
+- naming conventions (lowerCamelCase)
+- Gültigkeitsbereiche
+  - Methode, Kontrollstruktur oder Klasse (**Klassenvariablen**!)
+
+## Datentypen
+### Primitive Datentypen
+- `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, `char`
+- Welche **default values** haben diese Datentypen?
+
+![primitive types overview](Materialien/primitive-data-types.png)
+Grafik: [#](Materialien/primitive-data-types.png)
+
+### Komplexe Datentypen
+- Klassen und Arrays sind komplexe Datentypen (dazu später mehr!)
+
+### Casting / Typumwandlung bei primitiven Datentypen
+- Implizite Typumwandlung: Ein "niederwertiger" Typ wird einem "höherwertigen" Typ zugewiesen (Umwandlung geschieht automatisch)
+  - `double d; int i = 2; d = i;`
+
+![upcast](Materialien/typecast_1.jpg)
+Grafik: [#](Materialien/typecast_1.jpg), Quelle: [#](https://www.java-tutorial.org/typecasting.html)
+
+- Explizite Typumwandlung: Ein "höherwertiger" Typ wird in "niederwertigen" Typ umgewandelt
+  - geschieht mittels cast-Operator
+  - Ziel-Typ **muss** angegeben werden
+  - `double d = 2.2d; int i; i = (int) d;`
+
+![upcast](Materialien/typecast_2.jpg)
+Grafik: [#](Materialien/typecast_2.jpg), Quelle: [#](https://www.java-tutorial.org/typecasting.html)
 
 ## Methoden
-...
+- Rückgabetyp / `void`
+- Parameter
+- `return`
+- naming: `lowerCamelCase()`
+- Überlagerung von Methoden
 
 ## Operatoren
-...
+### Arithmetische- / Rechenoperatoren
+- Einfache: ` + - * / % `
+- Post-/Preinkrement `++` / `--`
+
+<details><summary>CODE: Unterschied Post-/Preinkrement</summary>
+
+```java
+int i = 5;
+int x = ++i; // i = 6 und a = 6 (hochzählen, dann zuweisen)
+
+int i = 5;
+int x = i++; // i = 6 und b = 5 (zuweisen, dann hochzählen)
+```
+</details>
+
+### Vergleichsoperatoren
+- Ergebnis von Vergleichsoperationen ist **immer** `true` oder `false`!
+- `==`, `!=`, `>`, `<`, `>=`, `<=`
+
+### Boolsche / Logische Operatoren
+- `&&` und `||`
+- Negation: `!` (invertiert einen Ausdruck)
+- Exklusives ODER: `!=` (wenn nur 1 Operand `true` ist)
+
+### Operatoren zur Bit-Manipulation (erstmal weglassen?)
+- `~`, `&`, `|`, `^`
+- `>>`, `>>>`, `<<`
+
+### Zuweisungsoperatoren
+- Einfache: `=`
+- Arithmetische: `+=`, `-=`, `/=`, `*=`, `%=`
+- Logische: `&=`, `|=`, ...
+
+<details><summary>CODE: Logische Zuweisungsoperatoren</summary>
+
+```java
+boolean t = true;
+boolean f = false;
+t &= f; // hiernach: t = false, weil nicht beide true
+```
+</details>
 
 ## Strings / Zeichenketten
-...
+- `String` ist eine Klasse in Java
+- Ein `String` ist eine Zeichenkette, also eine Sequenz (intern: Array) von `char`-Werten
+- Strings sind in Java **nicht veränderlich** (denn sie sind Arrays von `char`s)
+- String-Literals erzeugen Strings ohne den `new`-Operator werden mit `"doppelten Anführungszeichen"` gebildet
+- Konkatenation/Verkettung von Strings mit `+`
+- Spezial-Zeichen
+  - `"\n"` (newline) und `"\t"` (tab)
+  - `\` muss deshalb maskiert werden: `"\\"`
+- Für viele Veränderungen: `StringBuffer`
 
 ## Arrays
 ...
@@ -98,15 +197,8 @@ public class HelloWorld {
 ## JavaDoc
 ...
 
-## Objektorientierte Programmierung (OOP)
-- Was ist **OOP**? [#](https://de.wikibooks.org/wiki/Java_Standard:_Objektorientierung_Sinn_und_Zweck)
-- Was ist eine **Klasse** (*konzeptuell, im Kontext d. OOP*)?
-- Was ist ein **Objekt** (*konzeptuell, im Kontext d. OOP*)?
-
-## Klassen-Konzepte
+## OOP-Klassenkonzepte
 Welche Konzepte stehen zum Aufbau von Klassen zur Verfügung?
-### Klassenvariablen
-...
 ### Konstruktoren
 ...
 ### Sichtbarkeits-/Zugriffsmodifizierer
@@ -114,3 +206,10 @@ Welche Konzepte stehen zum Aufbau von Klassen zur Verfügung?
 - `(default)`
 - `protected`
 - `public`
+### Getter & Setter
+### Vererbung
+- Alle Klassen erben automatisch von `Object`
+#### Einfache Vererbung
+#### Abstrakte Klassen
+#### Interfaces
+#### Casting von komplexen Datentypen
