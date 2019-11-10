@@ -18,6 +18,7 @@
   - [Methoden](#methoden)
   - [Operatoren](#operatoren)
     - [Arithmetische- / Rechenoperatoren](#arithmetische---rechenoperatoren)
+  - [Post-/Preinkrement](#post-preinkrement)
     - [Vergleichsoperatoren](#vergleichsoperatoren)
     - [Boolsche / Logische Operatoren](#boolsche--logische-operatoren)
     - [Operatoren zur Bit-Manipulation (erstmal weglassen?)](#operatoren-zur-bit-manipulation-erstmal-weglassen)
@@ -68,8 +69,6 @@ Grafik: [#](Materialien/Java-Platform-Diagram.png)
   - Einstiegspunkt ins Programm
   - Was ist ein String / Zeichenkette (Klasse/Objekt!)?
 
-<details><summary>CODE: Hello World!</summary>
-
 ```java
 public class HelloWorld {
       public static void main(String[] args) {
@@ -77,7 +76,6 @@ public class HelloWorld {
       }
 }
 ```
-</details>
 
 ### Pakete
 - Was sind Pakete und wozu sind sie da? [#](https://de.wikibooks.org/wiki/Java_Standard:_Erste_Schritte#Pakete)
@@ -144,18 +142,17 @@ Grafik: [#](Materialien/typecast_2.jpg), Quelle: [#](https://www.java-tutorial.o
 ## Operatoren
 ### Arithmetische- / Rechenoperatoren
 - Einfache: ` + - * / % `
-- Post-/Preinkrement `++` / `--`
-
-<details><summary>CODE: Unterschied Post-/Preinkrement</summary>
+## Post-/Preinkrement
+- Ausdruck und Operation mittels: `++` / `--`
 
 ```java
+// Unterschied Post-/Preinkrement:
 int i = 5;
 int x = ++i; // i = 6 und x = 6 (hochzählen, dann zuweisen)
 
 int i = 5;
 int x = i++; // i = 6 und x = 5 (zuweisen, dann hochzählen)
 ```
-</details>
 
 ### Vergleichsoperatoren
 - Ergebnis von Vergleichsoperationen ist **immer** `true` oder `false`!
@@ -175,14 +172,12 @@ int x = i++; // i = 6 und x = 5 (zuweisen, dann hochzählen)
 - Arithmetische: `+=`, `-=`, `/=`, `*=`, `%=`
 - Logische: `&=`, `|=`, ...
 
-<details><summary>CODE: Logische Zuweisungsoperatoren</summary>
-
 ```java
+// Logische Zuweisungsoperatoren
 boolean t = true;
 boolean f = false;
 t &= f; // hiernach: t = false, weil nicht beide true
 ```
-</details>
 
 ## Strings / Zeichenketten
 - `String` ist eine Klasse in Java
@@ -209,11 +204,6 @@ Grafik: [#](Materialien/array.jpeg), Quelle [#](https://javatutorial.net/java-ar
 ### Deklaration und Initialisierung
 - Deklaration mit `typ[] arrayName` bzw. `Typ[] arrayName`
 - Initialisierung mit `new typ[n]` bzw. `new Typ[n]`, wobei `n` die Größe des Arrays angibt 
-- Die initialien Werte eines leeren Arrays entsprechen den default-Werten des entsprechenden Datentyps
-- Array Literals mit enthaltenen Werten: `{E1, E2, E2, E4, ..., En}`
-  - Länge des Arrays ist dann implizit!
-
-<details><summary>CODE: Arrays - Deklaration / Initialisierung</summary>
 
 ```java
 // ein Array für 5 int-Werte
@@ -221,21 +211,24 @@ int[] numbers = int[5];
 // ein Array für 5 String-Objekte
 String[] worte = new String[5];
 ```
-</details>
 
-<details><summary>CODE: Array-Literals</summary>
+- Die initialien Werte eines leeren Arrays entsprechen den default-Werten des entsprechenden Datentyps
 
 ```java
-int[] numbers = {3, 6, 345, 1, 0, 4};
-String[] worte = {"Dies", "sind", "Strings!"};
+int[] numbers = int[5]; // entspricht {0, 0, 0, 0, 0}
 ```
-</details> 
+
+- Array Literals mit enthaltenen Werten: `{E1, E2, E2, E4, ..., En}`
+  - Länge des Arrays implizit!
+
+```java
+int[] numbers = {3, 6, 345, 1, 0, 4}; // Länge: 6
+String[] worte = {"Dies", "sind", "Strings!"}; // Länge: 3
+```
 
 ### Zugriff und Manipulation
 - Zugriff auf Elemente mit numerischem Index-Wert: `array[i]`
 - Manipulation der Elemente mittels Zuweisung: `array[i] = 3`
-
-<details><summary>CODE: Arrays - Zugriff und Manipulation</summary>
 
 ```java
 // ein Array für 3 int-Werte
@@ -245,13 +238,10 @@ numbers[0] = 45; // erstes Element
 numbers[1] = 2; // zweites Element
 numbers[3] = numbers[0]; // drittes Element
 ```
-</details> 
 
 ### Mehrdimensionale Arrays
 - Arrays können (theoretisch) beliebig viele Dimensionen besitzen bzw. beliebig tief "verschachtelt" sein
 - Jedes Array einer Unter-Ebene *kann* dabei eine andere Länge besitzen
-
-<details><summary>CODE: Mehrdimensionale Arrays</summary>
 
 ```java
 // zwei-dimensionales int-Array; entspricht einem
@@ -264,11 +254,30 @@ int[][] twoDimensions = new int[4][];
 // auch hier sind Litarals möglich:
 int[][] twoDimLiteral = {{2, 4}, {1, 54, 6}};
 ```
-</details> 
 
 ## Kontrollstrukturen
+- steuern den Ablauf des Programms
+- bilden eigene Gültigkeitsbereiche
 ### if, else if, else
+- Ausführung von Code abhängig von Wahrheitswert einer Aussage / eines boolschen Ausdrucks
+- Lässt sich gut übersetzen mit *"wenn", "dann", "sonst"* bzw. *"wenn", "dann", "sonst wenn", ..., "sonst"*
+- besteht mindestens aus **einem** `if`-Block, einer **beliebigen Anzahl von** `else if`-Blöcken und **maximal einem** `else`-Block
+
+```java
+boolean t = true;
+boolean f = false;
+
+if (t && f){
+  // beides wahr!
+} else if (t || f) {
+  // eins von beidem wahr
+} else {
+  // beides unwahr
+}
+```
+
 ### Ternary-Operator
+
 ### switch-case
 ### Schleifen
 #### for
