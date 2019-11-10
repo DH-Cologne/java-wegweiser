@@ -24,7 +24,17 @@
     - [Zuweisungsoperatoren](#zuweisungsoperatoren)
   - [Strings / Zeichenketten](#strings--zeichenketten)
   - [Arrays](#arrays)
+    - [Deklaration und Initialisierung](#deklaration-und-initialisierung)
+    - [Zugriff und Manipulation](#zugriff-und-manipulation)
+    - [Mehrdimensionale Arrays](#mehrdimensionale-arrays)
   - [Kontrollstrukturen](#kontrollstrukturen)
+    - [if, else if, else](#if-else-if-else)
+    - [Ternary-Operator](#ternary-operator)
+    - [switch-case](#switch-case)
+    - [Schleifen](#schleifen)
+      - [for](#for)
+      - [while](#while)
+      - [do-while](#do-while)
   - [Fehlerbehandlung](#fehlerbehandlung)
   - [JavaDoc](#javadoc)
   - [OOP-Klassenkonzepte](#oop-klassenkonzepte)
@@ -104,7 +114,7 @@ public class HelloWorld {
 - Welche **default values** haben diese Datentypen?
 
 ![primitive types overview](Materialien/primitive-data-types.png)
-Grafik: [#](Materialien/primitive-data-types.png)
+Grafik: [#](Materialien/primitive-data-types.png), Quelle [#](https://de.wikibooks.org/wiki/Java_Standard)
 
 ### Komplexe Datentypen
 - Klassen und Arrays sind komplexe Datentypen (dazu später mehr!)
@@ -140,10 +150,10 @@ Grafik: [#](Materialien/typecast_2.jpg), Quelle: [#](https://www.java-tutorial.o
 
 ```java
 int i = 5;
-int x = ++i; // i = 6 und a = 6 (hochzählen, dann zuweisen)
+int x = ++i; // i = 6 und x = 6 (hochzählen, dann zuweisen)
 
 int i = 5;
-int x = i++; // i = 6 und b = 5 (zuweisen, dann hochzählen)
+int x = i++; // i = 6 und x = 5 (zuweisen, dann hochzählen)
 ```
 </details>
 
@@ -178,18 +188,92 @@ t &= f; // hiernach: t = false, weil nicht beide true
 - `String` ist eine Klasse in Java
 - Ein `String` ist eine Zeichenkette, also eine Sequenz (intern: Array) von `char`-Werten
 - Strings sind in Java **nicht veränderlich** (denn sie sind Arrays von `char`s)
-- String-Literals erzeugen Strings ohne den `new`-Operator werden mit `"doppelten Anführungszeichen"` gebildet
+- String-Literals erzeugen Strings ohne den `new`-Operator
+  - werden mit `"doppelten Anführungszeichen"` gebildet
 - Konkatenation/Verkettung von Strings mit `+`
 - Spezial-Zeichen
   - `"\n"` (newline) und `"\t"` (tab)
   - `\` muss deshalb maskiert werden: `"\\"`
-- Für viele Veränderungen: `StringBuffer`
+- Für viele/wiederholte Manipulationen: `StringBuffer`
 
 ## Arrays
-...
+- lineare Datenstruktur (Elemente haben klare Reihenfolge)
+- Indizes von `0` bis `array.length - 1` (!)
+- Arrays müssen typisiert werden, alle Typen (primitive und komplexe) möglich
+- Arrays sind in Größe/Länge **unveränderlich**!
+- Arrays **sind Objekte** und vom Typ `Object` (siehe [JLS Java SE 8 Edition](https://docs.oracle.com/javase/specs/jls/se8/html/jls-10.html))
+
+![array](Materialien/array.jpeg)
+Grafik: [#](Materialien/array.jpeg), Quelle [#](https://javatutorial.net/java-array)
+
+### Deklaration und Initialisierung
+- Deklaration mit `typ[] arrayName` bzw. `Typ[] arrayName`
+- Initialisierung mit `new typ[n]` bzw. `new Typ[n]`, wobei `n` die Größe des Arrays angibt 
+- Die initialien Werte eines leeren Arrays entsprechen den default-Werten des entsprechenden Datentyps
+- Array Literals mit enthaltenen Werten: `{E1, E2, E2, E4, ..., En}`
+  - Länge des Arrays ist dann implizit!
+
+<details><summary>CODE: Arrays - Deklaration / Initialisierung</summary>
+
+```java
+// ein Array für 5 int-Werte
+int[] numbers = int[5];
+// ein Array für 5 String-Objekte
+String[] worte = new String[5];
+```
+</details>
+
+<details><summary>CODE: Array-Literals</summary>
+
+```java
+int[] numbers = {3, 6, 345, 1, 0, 4};
+String[] worte = {"Dies", "sind", "Strings!"};
+```
+</details> 
+
+### Zugriff und Manipulation
+- Zugriff auf Elemente mit numerischem Index-Wert: `array[i]`
+- Manipulation der Elemente mittels Zuweisung: `array[i] = 3`
+
+<details><summary>CODE: Arrays - Zugriff und Manipulation</summary>
+
+```java
+// ein Array für 3 int-Werte
+int[] numbers = new int[2];
+// Zugriff und Manipulation
+numbers[0] = 45; // erstes Element
+numbers[1] = 2; // zweites Element
+numbers[3] = numbers[0]; // drittes Element
+```
+</details> 
+
+### Mehrdimensionale Arrays
+- Arrays können (theoretisch) beliebig viele Dimensionen besitzen bzw. beliebig tief "verschachtelt" sein
+- Jedes Array einer Unter-Ebene *kann* dabei eine andere Länge besitzen
+
+<details><summary>CODE: Mehrdimensionale Arrays</summary>
+
+```java
+// zwei-dimensionales int-Array; entspricht einem
+// Array aus vier int-Arrays der Länge 2
+int[][] matrix = new int[4][2];
+// Die Länge der Arrays in tieferen Dimensionen kann
+// (vorerst) unbestimmt bleiben und sich letztendlich 
+// unterscheiden
+int[][] twoDimensions = new int[4][];
+// auch hier sind Litarals möglich:
+int[][] twoDimLiteral = {{2, 4}, {1, 54, 6}};
+```
+</details> 
 
 ## Kontrollstrukturen
-...
+### if, else if, else
+### Ternary-Operator
+### switch-case
+### Schleifen
+#### for
+#### while
+#### do-while
 
 ## Fehlerbehandlung
 ...
