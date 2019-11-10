@@ -31,22 +31,22 @@
   - [Kontrollstrukturen](#kontrollstrukturen)
     - [if, else if, else](#if-else-if-else)
     - [Ternary-Operator](#ternary-operator)
-    - [switch-case](#switch-case)
+    - [switch](#switch)
     - [Schleifen](#schleifen)
       - [for](#for)
       - [while](#while)
       - [do-while](#do-while)
-  - [Fehlerbehandlung](#fehlerbehandlung)
-  - [JavaDoc](#javadoc)
   - [OOP-Klassenkonzepte](#oop-klassenkonzepte)
     - [Konstruktoren](#konstruktoren)
     - [Sichtbarkeits-/Zugriffsmodifizierer](#sichtbarkeits-zugriffsmodifizierer)
     - [Getter & Setter](#getter--setter)
     - [Vererbung](#vererbung)
       - [Einfache Vererbung](#einfache-vererbung)
+      - [Casting von komplexen Datentypen](#casting-von-komplexen-datentypen)
       - [Abstrakte Klassen](#abstrakte-klassen)
       - [Interfaces](#interfaces)
-      - [Casting von komplexen Datentypen](#casting-von-komplexen-datentypen)
+  - [Fehlerbehandlung](#fehlerbehandlung)
+  - [JavaDoc](#javadoc)
 
 
 ##  Die Programmiersprache Java
@@ -270,28 +270,31 @@ boolean f = false;
 if (t && f){
   // beides wahr!
 } else if (t || f) {
-  // eins von beidem wahr
+  // eins von beidem wahr!
 } else {
-  // beides unwahr
+  // beides unwahr!
 }
 ```
 
 ### Ternary-Operator
+- Ausdruck nimmt den einen oder anderen Wert an, in Abhängigkeit von der Bedingung / Wahrheitsgehalt der Aussage
+- Syntax: `Bedingung ? Wert wenn wahr : Wert wenn unwahr`
 
-### switch-case
+```java
+boolean condition = true;
+String istEsWirklichWahr = condition ? "wahr" : "unwahr";
+```
+
+### switch
+- Ersetzt sperrige `if`/`else`-Konstrukte, die nur den Wert eines einzigen Ausdrucks überprüfen
+- ...
 ### Schleifen
 #### for
 #### while
 #### do-while
 
-## Fehlerbehandlung
-...
-
-## JavaDoc
-...
 
 ## OOP-Klassenkonzepte
-Welche Konzepte stehen zum Aufbau von Klassen zur Verfügung?
 ### Konstruktoren
 ...
 ### Sichtbarkeits-/Zugriffsmodifizierer
@@ -303,6 +306,12 @@ Welche Konzepte stehen zum Aufbau von Klassen zur Verfügung?
 ### Vererbung
 - Alle Klassen erben automatisch von `Object`
 #### Einfache Vererbung
+#### Casting von komplexen Datentypen
 #### Abstrakte Klassen
 #### Interfaces
-#### Casting von komplexen Datentypen
+
+## Fehlerbehandlung
+...
+
+## JavaDoc
+...
