@@ -9,7 +9,7 @@
     - [Pakete](#pakete)
     - [Java-Klassenbibliothek](#java-klassenbibliothek)
   - [Eclipse IDE](#eclipse-ide)
-  - [Objektorientierte Programmierung (OOP)](#objektorientierte-programmierung-oop)
+  - [Was ist Objektorientierte Programmierung (OOP)?](#was-ist-objektorientierte-programmierung-oop)
   - [Variablen](#variablen)
   - [Datentypen](#datentypen)
     - [Primitive Datentypen](#primitive-datentypen)
@@ -36,7 +36,7 @@
       - [for](#for)
       - [while](#while)
       - [do-while](#do-while)
-  - [OOP-Klassenkonzepte](#oop-klassenkonzepte)
+  - [OOP-Sprachkonzepte](#oop-sprachkonzepte)
     - [Konstruktoren](#konstruktoren)
     - [Sichtbarkeits-/Zugriffsmodifizierer](#sichtbarkeits-zugriffsmodifizierer)
     - [Getter & Setter](#getter--setter)
@@ -94,8 +94,8 @@ public class HelloWorld {
 - Import / Export von Projekten
 - Programme ausführen über Kontextmenü und "Play"-Button
 
-## Objektorientierte Programmierung (OOP)
-- Was ist **OOP**? [#](https://de.wikibooks.org/wiki/Java_Standard:_Objektorientierung_Sinn_und_Zweck)
+## Was ist Objektorientierte Programmierung (OOP)?
+> siehe z.B. [hier](https://de.wikibooks.org/wiki/Java_Standard:_Objektorientierung_Sinn_und_Zweck)
 - Was ist eine **Klasse** (*konzeptuell, im Kontext d. OOP*)?
 - Was ist ein **Objekt** (*konzeptuell, im Kontext d. OOP*)?
 
@@ -207,7 +207,7 @@ Grafik: [#](Materialien/array.jpeg), Quelle [#](https://javatutorial.net/java-ar
 
 ```java
 // ein Array für 5 int-Werte
-int[] numbers = int[5];
+int[] numbers = new int[5];
 // ein Array für 5 String-Objekte
 String[] worte = new String[5];
 ```
@@ -215,7 +215,7 @@ String[] worte = new String[5];
 - Die initialien Werte eines leeren Arrays entsprechen den default-Werten des entsprechenden Datentyps
 
 ```java
-int[] numbers = int[5]; // entspricht {0, 0, 0, 0, 0}
+int[] numbers = new int[5]; // entspricht {0, 0, 0, 0, 0}
 ```
 
 - Array Literals mit enthaltenen Werten: `{E1, E2, E2, E4, ..., En}`
@@ -237,6 +237,16 @@ int[] numbers = new int[2];
 numbers[0] = 45; // erstes Element
 numbers[1] = 2; // zweites Element
 numbers[3] = numbers[0]; // drittes Element
+```
+
+- Zugriff auch über for-each-Schleife
+
+```java
+int[] numbers = {3, 6, 345, 1, 0, 4};
+
+for (int n : numbers){
+  // n referenziert aktuellen Wert
+}
 ```
 
 ### Mehrdimensionale Arrays
@@ -294,7 +304,7 @@ String istEsWirklichWahr = condition ? "wahr" : "unwahr";
 #### do-while
 
 
-## OOP-Klassenkonzepte
+## OOP-Sprachkonzepte
 ### Konstruktoren
 ...
 ### Sichtbarkeits-/Zugriffsmodifizierer
