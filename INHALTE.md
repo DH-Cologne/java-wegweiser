@@ -9,7 +9,6 @@
     - [Pakete](#pakete)
     - [Java-Klassenbibliothek](#java-klassenbibliothek)
   - [Eclipse IDE](#eclipse-ide)
-  - [Was ist Objektorientierte Programmierung (OOP)?](#was-ist-objektorientierte-programmierung-oop)
   - [Variablen](#variablen)
   - [Datentypen](#datentypen)
     - [Primitive Datentypen](#primitive-datentypen)
@@ -36,17 +35,27 @@
       - [for](#for)
       - [while](#while)
       - [do-while](#do-while)
-  - [OOP-Sprachkonzepte](#oop-sprachkonzepte)
+  - [Objektorientierte Programmierung mit Java](#objektorientierte-programmierung-mit-java)
+    - [Was ist OOP?](#was-ist-oop)
+    - [Klassenvariablen](#klassenvariablen)
+    - [this](#this)
     - [Konstruktoren](#konstruktoren)
-    - [Sichtbarkeits-/Zugriffsmodifizierer](#sichtbarkeits-zugriffsmodifizierer)
+    - [Sichtbarkeits- / Zugriffsmodifizierer](#sichtbarkeits---zugriffsmodifizierer)
     - [Getter & Setter](#getter--setter)
+    - [final](#final)
+    - [static](#static)
+    - [Konstanten in Java](#konstanten-in-java)
     - [Vererbung](#vererbung)
-      - [Einfache Vererbung](#einfache-vererbung)
+      - [Terminologie](#terminologie)
+      - [Wozu ist das gut?](#wozu-ist-das-gut)
+      - [Wie funktioniert das?](#wie-funktioniert-das)
       - [Casting von komplexen Datentypen](#casting-von-komplexen-datentypen)
-      - [Abstrakte Klassen](#abstrakte-klassen)
+      - [toString()](#tostring)
+      - [equals()](#equals)
+      - [Abstrakte Klassen und Methoden](#abstrakte-klassen-und-methoden)
       - [Interfaces](#interfaces)
   - [Fehlerbehandlung](#fehlerbehandlung)
-  - [JavaDoc](#javadoc)
+  - [Dokumentation JavaDoc](#dokumentation-javadoc)
 
 
 ##  Die Programmiersprache Java
@@ -94,19 +103,15 @@ public class HelloWorld {
 - Import / Export von Projekten
 - Programme ausführen über Kontextmenü und "Play"-Button
 
-## Was ist Objektorientierte Programmierung (OOP)?
-> siehe z.B. [hier](https://de.wikibooks.org/wiki/Java_Standard:_Objektorientierung_Sinn_und_Zweck)
-- Was ist eine **Klasse** (*konzeptuell, im Kontext d. OOP*)?
-- Was ist ein **Objekt** (*konzeptuell, im Kontext d. OOP*)?
-
 ## Variablen
 - sind Bezeichner für Werte in bestimmten Speicherbereichen, die mit der Variable angesprochen werden können
 - Java ist streng typisiert, Deklaration daher immer unter Angabe des Datentyps
 - naming conventions (lowerCamelCase)
 - Gültigkeitsbereiche
-  - Methode, Kontrollstruktur oder Klasse (**Klassenvariablen**!)
+  - Methode, Kontrollstruktur oder Klasse (siehe [Klassenvariablen](#klassenvariablen))
 
 ## Datentypen
+
 ### Primitive Datentypen
 - `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, `char`
 - Welche **default values** haben diese Datentypen?
@@ -140,8 +145,10 @@ Grafik: [#](Materialien/typecast_2.jpg), Quelle: [#](https://www.java-tutorial.o
 - Überlagerung von Methoden
 
 ## Operatoren
+
 ### Arithmetische- / Rechenoperatoren
 - Einfache: ` + - * / % `
+  
 ## Post-/Preinkrement
 - Ausdruck und Operation mittels: `++` / `--`
 
@@ -186,7 +193,7 @@ t &= f; // hiernach: t = false, weil nicht beide true
 - String-Literals erzeugen Strings ohne den `new`-Operator
   - werden mit `"doppelten Anführungszeichen"` gebildet
 - Konkatenation/Verkettung von Strings mit `+`
-- Spezial-Zeichen
+- Zeichen mit Sonderfunktionen
   - `"\n"` (newline) und `"\t"` (tab)
   - `\` muss deshalb maskiert werden: `"\\"`
 - Für viele/wiederholte Manipulationen: `StringBuilder`
@@ -250,6 +257,33 @@ for (int n : numbers){
 }
 ```
 
+**Anwendungs-Beispiel**
+```java
+/*
+  * Alle Wörter eines Strings "umkehren",
+  * die länger sind als 4 Zeichen...
+  */
+
+String text = "Ein Raabe geht im Feld spazieren";
+String[] words = text.split(" ");
+
+for (int i = 0; i < words.length; i++) {
+  // wenn Wort länger als 4...
+  if (words[i].length() > 4) {
+    // ...Wort "umkehren"
+    String reversed = "";
+    for (int j = words[i].length() - 1; j >= 0; j--) {
+      reversed += words[i].charAt(j); // teuer!
+    }
+    words[i] = reversed;
+  }
+}
+
+for (int i = 0; i < words.length; i++) {
+  System.out.print(words[i] + " ");
+}
+```
+
 ### Mehrdimensionale Arrays
 - Arrays können (theoretisch) beliebig viele Dimensionen besitzen bzw. beliebig tief "verschachtelt" sein
 - Jedes Array einer Unter-Ebene *kann* dabei eine andere Länge besitzen
@@ -269,6 +303,7 @@ int[][] twoDimLiteral = {{2, 4}, {1, 54, 6}};
 ## Kontrollstrukturen
 - steuern den Ablauf des Programms
 - bilden eigene Gültigkeitsbereiche
+  
 ### if, else if, else
 - Ausführung von Code abhängig von Wahrheitswert einer Aussage / eines boolschen Ausdrucks
 - Lässt sich gut übersetzen mit *"wenn", "dann", "sonst"* bzw. *"wenn", "dann", "sonst wenn", ..., "sonst"*
@@ -299,34 +334,186 @@ String istEsWirklichWahr = condition ? "wahr" : "unwahr";
 ### switch
 - Ersetzt sperrige `if`/`else`-Konstrukte, die nur den Wert eines einzigen Ausdrucks überprüfen
 - ...
+  
 ### Schleifen
+Schleifen wiederholen die Ausführung einer Menge von Anweisungen (oder: bestimmter Code-Blöcke) in Abhängigkeit bestimmter Voraussetzungen.
+
 #### for
+Zählschleife ...
+
 #### while
-#### do-while
-
-
-## OOP-Sprachkonzepte
-### Konstruktoren
 ...
-### Sichtbarkeits-/Zugriffsmodifizierer
-- `private`
-- `(default)`
-- `protected`
-- `public`
+
+#### do-while
+...
+
+
+## Objektorientierte Programmierung mit Java
+
+### Was ist OOP?
+> siehe z.B. [hier](https://de.wikibooks.org/wiki/Java_Standard:_Objektorientierung_Sinn_und_Zweck)
+- Was ist eine **Klasse** (*konzeptuell, im Kontext d. OOP*)?
+- Was ist ein **Objekt** (*konzeptuell, im Kontext d. OOP*)?
+
+### Klassenvariablen
+- werden im Klassenkörper deklariert
+- per Konvention *ganz oben* im Klassenkörper
+- haben ihren Gültigkeitsbereich in der gesamten Klasse
+
+### this
+Mit dem Schlüsselwort `this` referenziert sich ein Objekt selbst!
+
+### Konstruktoren
+- Konstruktoren bieten die Möglichkeit, die Initialisierung von Objekten zu kontrollieren und für die Initialisierung benötigte Daten einzufordern.
+- Jede Klasse hat (automatisch) einen Konstruktor, nämlich mindestens den default-Konstruktor (oder auch *no-argument-constructor*) ihrer Superklasse.
+  - auch der default-Konstruktor lässt sich explizit machen
+- Konstruktoren lassen sich überlagern (wie Methoden auch).
+
+```java
+public class User {
+
+  String name;
+
+  // ein überschriebener default-Konstruktor
+  public User(){
+    this.name = "No Name"; // hier verhindert "this" einen Namenskonflikt!
+    System.out.println("A User instance was created using the " +
+      "no-argument-constructor! This user has no name :(");
+  }
+
+  // ein weiterer Konstruktor, der nach einem String verlangt
+  public User(String name){
+    this.name = name; // hier verhindert "this" einen Namenskonflikt!
+    System.out.println("A User instance was created! " +
+      "The user's name seems to be " + name + "!");
+  }
+
+}
+```
+
+### Sichtbarkeits- / Zugriffsmodifizierer
+Sichtbarkeitsmodifizierer beeinflussen die Sichtbarkeit von Klassen, Klassenvariablen und Methoden. Dabei sind Konstrukte markiert als ...
+- ... `private` sichtbar innerhalb der Klasse.
+- ... `(default)` sichtbar wie `private` und in dem Package, in dem sich die Klasse befindet (nicht aber in Unter-/Überpackages).
+- ... `protected` sichtbar wie `(default)` und in allen (erbenden) Unterklassen.
+- ... `public` überall sichtbar.
+
+```java
+/*
+ * Beispiel zur Benutzung von Sichtbarkeitsmodifizierern ...
+ */
+
+//... bei Klassen
+public class User {
+
+  //... bei Klassenvariablen
+  protected String name;
+  private UserLogin login;
+
+  //... bei Methoden
+  public void sayName(){
+    System.out.println(name);
+  }
+
+  ///... oder bei lokalen Klassen
+  private class UserLogin {
+    private String userName;
+    private String password;
+  }
+
+}
+```
+  
 ### Getter & Setter
+...
+
+### final
+- finale Variablen
+  - primitive: Wert kann nicht geändert werden
+  - komplexe: Referenz kann nicht auf anderes Objekt geändert werden, aber Felder des Objektes können geändert werden
+- finale Methoden können nicht überschrieben werden
+- finale Klassen können nicht erweitert werden
+- 
+
+### static
+`static` bedeutet *"an die Klasse gebunden"* im Gegensatz zu *"an das Objekt gebunden"*. Dies hat folgende Auswirkungen:
+- Statische Methoden **und** Klassenvariablen sind **ohne** Instanz der Klasse verfügbar.
+- Statische Klassenvariablen haben klassenweit, also in jeder Instanz der Klasse, immer den selben Wert.
+
+### Konstanten in Java
+Konstanten werden für gewöhnlich mit `static` *und* `final` definiert und befolgen die naming conventions:
+```java
+private static final int THIS_IS_A_PRIVATE_CONSTANT = 2;
+```
+
 ### Vererbung
-- Alle Klassen erben automatisch von `Object`
-#### Einfache Vererbung
-- Wozu braucht man das?
-- `extends`
+Klassen können Eigenschaften (Klassenvariablen) und Fähigkeiten (Methoden) von anderen Klassen erben.
+
+#### Terminologie
+Die *vererbenden* Klassen werden als **Superklassen**, **Elternklassen** oder **Überklassen** (Englisch *parent class* oder *super class*) bezeichnet, die *erbenden* hingegen respektive als **Subklassen**, **Kindklassen** oder **Unterklassen** (Englisch *child class* oder *sub class*).  
+Die *erbende* Klasse **erweitert** die Klasse, von der sie erbt, da sie (normalerweise) Eigenschaften und Fähigkeiten besitzt, die über jene der Superklasse hinausgehen.
+
+#### Wozu ist das gut?
+- wiederverwendbarer Code
+- klare Abhängigkeiten zwischen Klassen
+- es ermöglicht [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)) unter Typen, denn jede Instanz einer Klasse ist auch eine Instanz aller Superklassen
+
+#### Wie funktioniert das?
+- Alle Klassen erben automatisch von der Klasse `Object` (denn alle Instanzen von Klassen sind Objekte).
+- Mit dem Schlüsselwort `extends` wird eine Verwandschaft markiert
+
+```java
+// jede Person ist auch ein Object
+public class Person(){
+  protected String name;
+}
+
+// jeder User ist auch eine Person und ein Object
+// und hat einen Namen UND einen Username
+public class User extends Person {
+  private String userName;
+}
+```
+
+- Methoden von Superklassen können in Subklassen überschrieben werden (markiert durch die `@Override`-Annotation)
+
+```java
+// jede Person ist auch ein Object
+public class Person(){
+  public String something(){
+    // ...
+  }
+}
+
+// jeder User ist auch eine Person und ein Object
+// und hat einen Namen UND einen Username
+public class User extends Person {
+  @Override
+  public String something(){
+    // eigene, unabhängige Implementation!
+  }
+}
+```
+
 #### Casting von komplexen Datentypen
 - möglich von Elternklassen zu Kindklassen (auf eigene Verantwortung)
 - unnötig von Kindklassen zu Elternklassen
-#### Abstrakte Klassen
+- ...
+
+#### toString()
+...
+
+#### equals()
+...
+
+#### Abstrakte Klassen und Methoden
+...
+
 #### Interfaces
+...
 
 ## Fehlerbehandlung
 ...
 
-## JavaDoc
+## Dokumentation JavaDoc
 ...
