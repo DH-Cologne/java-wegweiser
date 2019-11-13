@@ -189,7 +189,7 @@ t &= f; // hiernach: t = false, weil nicht beide true
 - Spezial-Zeichen
   - `"\n"` (newline) und `"\t"` (tab)
   - `\` muss deshalb maskiert werden: `"\\"`
-- Für viele/wiederholte Manipulationen: `StringBuffer`
+- Für viele/wiederholte Manipulationen: `StringBuilder`
 
 ## Arrays
 - lineare Datenstruktur (Elemente haben klare Reihenfolge)
@@ -203,7 +203,8 @@ Grafik: [#](Materialien/array.jpeg), Quelle [#](https://javatutorial.net/java-ar
 
 ### Deklaration und Initialisierung
 - Deklaration mit `typ[] arrayName` bzw. `Typ[] arrayName`
-- Initialisierung mit `new typ[n]` bzw. `new Typ[n]`, wobei `n` die Größe des Arrays angibt 
+- Initialisierung mit `new typ[n]` bzw. `new Typ[n]`, wobei `n` die Größe des Arrays angibt
+  - Größe der (mind.) ersten Dimension muss angegeben werden!
 
 ```java
 // ein Array für 5 int-Werte
@@ -316,7 +317,11 @@ String istEsWirklichWahr = condition ? "wahr" : "unwahr";
 ### Vererbung
 - Alle Klassen erben automatisch von `Object`
 #### Einfache Vererbung
+- Wozu braucht man das?
+- `extends`
 #### Casting von komplexen Datentypen
+- möglich von Elternklassen zu Kindklassen (auf eigene Verantwortung)
+- unnötig von Kindklassen zu Elternklassen
 #### Abstrakte Klassen
 #### Interfaces
 
