@@ -1,7 +1,7 @@
 # Softwaretechnologie Java: Inhalte
 
 > **Was ist dieses Dokument bzw. was ist es nicht?**  
-> Dies ist eine Übersicht über die Inhalte, die im Seminar besprochen werden sollten. Der Sinn dieses Dokumentes ist es *nicht*, Erläuterungen zu allen Inhalten des Seminars bereitzustellen. Dies ist keine Lern-Ressource oder gar "Script" zum Seminar. Ziel ist vielmehr eine möglichst vollständige und semantisch bzw. didaktisch strukturierte Aufstellung aller Themen und Aspekte, ergänzt durch unterstützende Materialien (siehe Ordner `Materialien`), Links zu relevanten, weiterführenden Ressourcen (mit `#` gekennzeichnet), sowie passende Übungs- und Hausaufgaben aus diesem Repository (siehe Ordner `Hausaufgaben`).
+> Dies ist eine Übersicht über die Inhalte, die im Seminar besprochen werden sollten. Der Sinn dieses Dokumentes ist es *nicht*, Erläuterungen zu allen Inhalten des Seminars bereitzustellen. Dies ist keine Lern-Ressource oder gar "Script" zum Seminar. Ziel ist vielmehr eine möglichst vollständige und semantisch bzw. didaktisch strukturierte Aufstellung aller Themen und Aspekte, ergänzt durch unterstützende Materialien (siehe Ordner `Materialien`), Links zu relevanten, weiterführenden Ressourcen (mit `#` gekennzeichnet), sowie passende Übungs- und Hausaufgaben aus diesem Repository (siehe Ordner `Projekte`).
 
 - [Softwaretechnologie Java: Inhalte](#softwaretechnologie-java-inhalte)
 - [Die Programmiersprache Java](#die-programmiersprache-java)
@@ -49,8 +49,9 @@
   - [Konstanten in Java](#konstanten-in-java)
   - [Vererbung](#vererbung)
     - [Terminologie](#terminologie)
-    - [Wozu ist das gut?](#wozu-ist-das-gut)
+    - [Wozu ist Vererbung gut?](#wozu-ist-vererbung-gut)
     - [Wie funktioniert das?](#wie-funktioniert-das)
+    - [Überschreiben von Methoden](#Überschreiben-von-methoden)
     - [Casting von komplexen Datentypen](#casting-von-komplexen-datentypen)
     - [toString()](#tostring)
     - [equals()](#equals)
@@ -507,6 +508,9 @@ Konstanten werden für gewöhnlich mit `static` *und* `final` definiert und befo
 ```java
 private static final int THIS_IS_A_PRIVATE_CONSTANT = 2;
 ```
+***
+**Übungs-Projekt zur Wiederholung: [StringList](Projekte/StringList/)** 
+***
 
 ## Vererbung
 Klassen können Eigenschaften (Klassenvariablen / *features*) und Fähigkeiten (Methoden / *behavior*) von anderen Klassen *erben*.
@@ -515,15 +519,16 @@ Klassen können Eigenschaften (Klassenvariablen / *features*) und Fähigkeiten (
 Die *vererbenden* Klassen werden als **Superklassen**, **Elternklassen** oder **Überklassen** (Englisch *parent class* oder *super class*) bezeichnet, die *erbenden* hingegen respektive als **Subklassen**, **Kindklassen** oder **Unterklassen** (Englisch *child class* oder *sub class*).  
 Die *erbende* Klasse **erweitert** die Klasse, von der sie erbt, da sie (normalerweise) Eigenschaften und Fähigkeiten besitzt, die über jene der Superklasse hinausgehen.
 
-### Wozu ist das gut?
-- wiederverwendbarer Code
-- der Code modelliert "reale Phänomene" auf semantisch klare Weise
-- es ermöglicht [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)) unter Typen, denn jede Instanz einer Klasse ist auch eine Instanz aller Superklassen
+### Wozu ist Vererbung gut?
+- Eigenschaften und Fähigkeiten von Klassen werden zu Eigenschaften und Fähigkeiten aller Subklassen. So wird nicht nur Code wiederverwendet, sondern die Logik dieser Eigenschaften und Fähigkeiten lässt sich für *alle* Subklassen an einer einzigen Stelle ändern, ohne den Code der Subklassen zu verändern.
+- Der Code modelliert reale Phänomene und Beziehungen auf semantisch klare Weise.
+- Sie ermöglicht [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)) unter Typen, denn jede Instanz einer Klasse ist auch eine Instanz aller Superklassen.
 - ...
 
 ### Wie funktioniert das?
 - Alle Klassen erben automatisch von der Klasse `Object` (denn alle Instanzen von Klassen sind Objekte).
-- Mit dem Schlüsselwort `extends` wird eine Verwandschaft markiert
+- Mit dem Schlüsselwort `extends` wird eine Verwandschaft markiert.
+- Jede Klasse kann in Java nur von einer anderen Klasse erben. Es ist **keine Mehrfachvererbung** möglich!
 
 ```java
 // jede Person ist auch ein Object
@@ -538,7 +543,8 @@ public class User extends Person {
 }
 ```
 
-- Methoden von Superklassen können in Subklassen überschrieben werden (markiert durch die `@Override`-Annotation)
+### Überschreiben von Methoden
+Methoden von Superklassen können in Subklassen überschrieben werden (markiert durch die `@Override`-Annotation)
 
 > **(!) Aus den docs zu** `@Override` [#](https://docs.oracle.com/javase/8/docs/api/java/lang/Override.html)  
 > *Indicates that a method declaration is intended to override a method declaration in a supertype. If a method is annotated with this annotation type compilers are required to generate an error message unless at least one of the following conditions hold:*
@@ -648,7 +654,61 @@ public class Program {
 ```
 
 ### Abstrakte Klassen und Methoden
-...
+- Abstrakte Klassen können und sollen nicht direkt instanziiert werden, da sie lediglich (teilweise implementierte) Vorlagen für ihre Subklassen sind.
+- Das Schlüsselwort `abstract` macht eine Klasse zu einer abstrakten Klasse.
+- Eine abstrakte Klasse *kann* abstrakte Methoden enthalten, muss dies aber nicht.
+- Abstrakte Klassen werden benötigt, wenn sich mehrere Klassen gemeinsame Eigenschaften und Fähigkeiten teilen (also eine Superklasse brauchen), diese gemeinsamen Eigenschaften und Fähigkeiten aber noch keine sinnvolle/brauchbare Klasse ergeben, von der man Instanzen erzeugen können sollte.
+
+```java
+/*
+ * Diese abstrakte Klasse kann nicht
+ * direkt instanziiert werden (mit new Vehicle())
+ */
+public abstract class Vehicle {
+  private float speed;
+  private boolean flying;
+  private String name;
+	// ...
+}
+
+/*
+ * Diese Klasse erweitert die abstrakte Klasse
+ * Vehicle und kann instanziiert werden.
+ */
+public class Rocket extends Vehicle {
+  private double maxFuel;
+	// Rocket-Erweiterung von Vehicle ...
+}
+```
+
+Abstrakte Methoden müssen in der erweiternden (erbenden) Klasse implementiert werden:
+
+```java
+public abstract class Vehicle {
+
+  private float currentSpeed;
+  private float accelleration;
+  private boolean flying;
+  private String name;
+	
+  // abstrakte Methoden besitzen keinen
+  // Methoden-Körper!
+  public abstract void accellerate();
+}
+
+public class Rocket extends Vehicle {
+
+  private boolean inSpace;
+	
+  @Override
+  public void accellerate(){
+    currentSpeed += accelleration * (inSpace ? 2 : 1);
+  }
+
+}
+```
+
+**Ausnahme:** Die erweiternde/erbende Klasse ist selbst auch eine abstrakte Klasse. In diesem Fall kann sie die geerbte abstakte Methode ebenfalls als abstrakte Methode "weitergeben"!
 
 ### Interfaces
 ...
