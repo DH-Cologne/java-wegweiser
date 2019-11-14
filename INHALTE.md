@@ -53,6 +53,7 @@
     - [Wie funktioniert das?](#wie-funktioniert-das)
     - [Überschreiben von Methoden](#Überschreiben-von-methoden)
     - [Casting von komplexen Datentypen](#casting-von-komplexen-datentypen)
+    - [instanceof](#instanceof)
     - [toString()](#tostring)
     - [equals()](#equals)
     - [Abstrakte Klassen und Methoden](#abstrakte-klassen-und-methoden)
@@ -572,6 +573,17 @@ public class User extends Person {
 - möglich von Superklassen zu Subklassen (auf eigene Verantwortung)
 - unnötig von Subklassen zu Superklassen (wg. [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)))
 - ...
+
+### instanceof
+`instanceof` ist ein Operator, der die Zugehörigkeit eines Objektes zu einem bestimmten Typ überprüft:
+
+```java
+User user = new User("Tonky McWigglefritts");
+System.out.println(user instanceof Person); // true
+System.out.println(user instanceof Object); // true
+System.out.println(user instanceof CharSequence); // false
+System.out.println(user instanceof List); // false
+```
 
 ### toString()
 - gibt eine möglichst sinnvolle textuelle (*String*-) Repräsentation des Objektes zurück, für das es aufgerufen wird
