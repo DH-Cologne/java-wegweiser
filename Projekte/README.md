@@ -1,4 +1,4 @@
-# Hausaufgaben
+# Beispielprojekte und Hausaufgaben
 ᕕ(ᐛ)ᕗ
 
 ## Verzeichnisstruktur
