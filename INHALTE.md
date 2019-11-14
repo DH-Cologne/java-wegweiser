@@ -519,6 +519,7 @@ Die *erbende* Klasse **erweitert** die Klasse, von der sie erbt, da sie (normale
 - wiederverwendbarer Code
 - der Code modelliert "reale Phänomene" auf semantisch klare Weise
 - es ermöglicht [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)) unter Typen, denn jede Instanz einer Klasse ist auch eine Instanz aller Superklassen
+- ...
 
 ### Wie funktioniert das?
 - Alle Klassen erben automatisch von der Klasse `Object` (denn alle Instanzen von Klassen sind Objekte).
@@ -565,8 +566,8 @@ public class User extends Person {
 ```
 
 ### Casting von komplexen Datentypen
-- möglich von Elternklassen zu Kindklassen (auf eigene Verantwortung)
-- unnötig von Kindklassen zu Elternklassen
+- möglich von Superklassen zu Subklassen (auf eigene Verantwortung)
+- unnötig von Subklassen zu Superklassen (wg. [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)))
 - ...
 
 ### toString()
@@ -608,7 +609,40 @@ public class Program {
 
 
 ### equals()
-...
+Objekte werden **nicht** mit `==` verglichen, sondern mit `equals()`, denn `==` überprüft nicht die semantische Gleichheit von zwei Objekten, sondern bildet lediglich einen *wahren* Ausdruck, wenn es sich um zwei Referenzen *auf das selbe Objekt* handelt!  
+Genau wie `toString()`, sollte `equals()` grundsätzlich überschrieben werden (mindestens in Datenklassen / POJOs).
+
+```java
+public class User {
+	
+	private String eMail;
+	
+	public User(String eMail) {
+		this.eMail = eMail;
+	}
+	
+	public String getEMail() {
+		return eMail;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		return obj != null
+			&& obj instanceof User
+			&& ((User)obj).getEMail().equals(this.getEMail());
+	}
+	
+}
+
+public class Program {
+	public static void main(String[] args) {
+		User u1 = new User("otto@normal.de");
+		User u2 = new User("otto@normal.de");
+		System.out.println(u1 == u2); // false
+		System.out.println(u1.equals(u2)); // true
+	}
+}
+```
 
 ### Abstrakte Klassen und Methoden
 ...
