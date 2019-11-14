@@ -448,7 +448,7 @@ private static final int THIS_IS_A_PRIVATE_CONSTANT = 2;
 ```
 
 ## Vererbung
-Klassen können Eigenschaften (Klassenvariablen) und Fähigkeiten (Methoden) von anderen Klassen erben.
+Klassen können Eigenschaften (Klassenvariablen / *features*) und Fähigkeiten (Methoden / *behavior*) von anderen Klassen *erben*.
 
 ### Terminologie
 Die *vererbenden* Klassen werden als **Superklassen**, **Elternklassen** oder **Überklassen** (Englisch *parent class* oder *super class*) bezeichnet, die *erbenden* hingegen respektive als **Subklassen**, **Kindklassen** oder **Unterklassen** (Englisch *child class* oder *sub class*).  
@@ -456,7 +456,7 @@ Die *erbende* Klasse **erweitert** die Klasse, von der sie erbt, da sie (normale
 
 ### Wozu ist das gut?
 - wiederverwendbarer Code
-- klare Abhängigkeiten zwischen Klassen
+- der Code modelliert "reale Phänomene" auf semantisch klare Weise
 - es ermöglicht [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)) unter Typen, denn jede Instanz einer Klasse ist auch eine Instanz aller Superklassen
 
 ### Wie funktioniert das?
@@ -477,6 +477,13 @@ public class User extends Person {
 ```
 
 - Methoden von Superklassen können in Subklassen überschrieben werden (markiert durch die `@Override`-Annotation)
+
+> **(!) Aus den docs zu** `@Override` [#](https://docs.oracle.com/javase/8/docs/api/java/lang/Override.html)  
+> Indicates that a method declaration is intended to override a method declaration in a supertype. If a method is annotated with this annotation type compilers are required to generate an error message unless at least one of the following conditions hold:
+> - The method does override or implement a method declared in a supertype.
+> - The method has a signature that is override-equivalent to that of any public method declared in Object.  
+>  
+> &rarr; `@Override` ist also *nicht* nötig, macht aber den Code eindeutiger und veranlasst den Compiler dazu, hilfreiche Fehlermeldungen zu liefern!
 
 ```java
 // jede Person ist auch ein Object
