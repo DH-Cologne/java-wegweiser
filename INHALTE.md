@@ -1,64 +1,65 @@
-# Inhalte
+# Softwaretechnologie Java: Inhalte
+
 > **Was ist dieses Dokument bzw. was ist es nicht?**  
 > Dies ist eine Übersicht über die Inhalte, die im Seminar besprochen werden sollten. Der Sinn dieses Dokumentes ist es *nicht*, Erläuterungen zu allen Inhalten des Seminars bereitzustellen. Dies ist keine Lern-Ressource oder gar "Script" zum Seminar. Ziel ist vielmehr eine möglichst vollständige und semantisch bzw. didaktisch strukturierte Aufstellung aller Themen und Aspekte, ergänzt durch unterstützende Materialien (siehe Ordner `Materialien`), Links zu relevanten, weiterführenden Ressourcen (mit `#` gekennzeichnet), sowie passende Übungs- und Hausaufgaben aus diesem Repository (siehe Ordner `Hausaufgaben`).
 
-- [Inhalte](#inhalte)
-  - [Die Programmiersprache Java](#die-programmiersprache-java)
-  - [Erste Schritte](#erste-schritte)
-    - [Hello World! :rocket:](#hello-world-rocket)
-    - [Pakete](#pakete)
-    - [Java-Klassenbibliothek](#java-klassenbibliothek)
-  - [Eclipse IDE](#eclipse-ide)
-  - [Variablen](#variablen)
-  - [Datentypen](#datentypen)
-    - [Primitive Datentypen](#primitive-datentypen)
-    - [Komplexe Datentypen](#komplexe-datentypen)
-    - [Casting / Typumwandlung bei primitiven Datentypen](#casting--typumwandlung-bei-primitiven-datentypen)
-  - [Methoden](#methoden)
-  - [Operatoren](#operatoren)
-    - [Arithmetische- / Rechenoperatoren](#arithmetische---rechenoperatoren)
-  - [Post-/Preinkrement](#post-preinkrement)
-    - [Vergleichsoperatoren](#vergleichsoperatoren)
-    - [Boolsche / Logische Operatoren](#boolsche--logische-operatoren)
-    - [Operatoren zur Bit-Manipulation (erstmal weglassen?)](#operatoren-zur-bit-manipulation-erstmal-weglassen)
-    - [Zuweisungsoperatoren](#zuweisungsoperatoren)
-  - [Strings / Zeichenketten](#strings--zeichenketten)
-  - [Arrays](#arrays)
-    - [Deklaration und Initialisierung](#deklaration-und-initialisierung)
-    - [Zugriff und Manipulation](#zugriff-und-manipulation)
-    - [Mehrdimensionale Arrays](#mehrdimensionale-arrays)
-  - [Kontrollstrukturen](#kontrollstrukturen)
-    - [if, else if, else](#if-else-if-else)
-    - [Ternary-Operator](#ternary-operator)
-    - [switch](#switch)
-    - [Schleifen](#schleifen)
-      - [for](#for)
-      - [while](#while)
-      - [do-while](#do-while)
-  - [Objektorientierte Programmierung mit Java](#objektorientierte-programmierung-mit-java)
-    - [Was ist OOP?](#was-ist-oop)
-    - [Klassenvariablen](#klassenvariablen)
-    - [this](#this)
-    - [Konstruktoren](#konstruktoren)
-    - [Sichtbarkeits- / Zugriffsmodifizierer](#sichtbarkeits---zugriffsmodifizierer)
-    - [Getter & Setter](#getter--setter)
-    - [final](#final)
-    - [static](#static)
-    - [Konstanten in Java](#konstanten-in-java)
-    - [Vererbung](#vererbung)
-      - [Terminologie](#terminologie)
-      - [Wozu ist das gut?](#wozu-ist-das-gut)
-      - [Wie funktioniert das?](#wie-funktioniert-das)
-      - [Casting von komplexen Datentypen](#casting-von-komplexen-datentypen)
-      - [toString()](#tostring)
-      - [equals()](#equals)
-      - [Abstrakte Klassen und Methoden](#abstrakte-klassen-und-methoden)
-      - [Interfaces](#interfaces)
-  - [Fehlerbehandlung](#fehlerbehandlung)
-  - [Dokumentation JavaDoc](#dokumentation-javadoc)
+- [Softwaretechnologie Java: Inhalte](#softwaretechnologie-java-inhalte)
+- [Die Programmiersprache Java](#die-programmiersprache-java)
+- [Erste Schritte](#erste-schritte)
+  - [Hello World! :rocket:](#hello-world-rocket)
+  - [Pakete](#pakete)
+  - [Java-Klassenbibliothek](#java-klassenbibliothek)
+- [Eclipse IDE](#eclipse-ide)
+- [Variablen](#variablen)
+- [Datentypen](#datentypen)
+  - [Primitive Datentypen](#primitive-datentypen)
+  - [Komplexe Datentypen](#komplexe-datentypen)
+  - [Casting / Typumwandlung bei primitiven Datentypen](#casting--typumwandlung-bei-primitiven-datentypen)
+- [Methoden](#methoden)
+- [Operatoren](#operatoren)
+  - [Arithmetische- / Rechenoperatoren](#arithmetische---rechenoperatoren)
+- [Post-/Preinkrement](#post-preinkrement)
+  - [Vergleichsoperatoren](#vergleichsoperatoren)
+  - [Boolsche / Logische Operatoren](#boolsche--logische-operatoren)
+  - [Operatoren zur Bit-Manipulation (erstmal weglassen?)](#operatoren-zur-bit-manipulation-erstmal-weglassen)
+  - [Zuweisungsoperatoren](#zuweisungsoperatoren)
+- [Strings / Zeichenketten](#strings--zeichenketten)
+- [Arrays](#arrays)
+  - [Deklaration und Initialisierung](#deklaration-und-initialisierung)
+  - [Zugriff und Manipulation](#zugriff-und-manipulation)
+  - [Mehrdimensionale Arrays](#mehrdimensionale-arrays)
+- [Kontrollstrukturen](#kontrollstrukturen)
+  - [if, else if, else](#if-else-if-else)
+  - [Ternary-Operator](#ternary-operator)
+  - [switch](#switch)
+  - [Schleifen](#schleifen)
+    - [for](#for)
+    - [while](#while)
+    - [do-while](#do-while)
+- [Objektorientierte Programmierung mit Java](#objektorientierte-programmierung-mit-java)
+  - [Was ist OOP?](#was-ist-oop)
+  - [Klassenvariablen](#klassenvariablen)
+  - [Sichtbarkeits- / Zugriffsmodifizierer](#sichtbarkeits---zugriffsmodifizierer)
+  - [this](#this)
+  - [Getter & Setter](#getter--setter)
+  - [Konstruktoren](#konstruktoren)
+  - [final](#final)
+  - [static](#static)
+  - [Konstanten in Java](#konstanten-in-java)
+  - [Vererbung](#vererbung)
+    - [Terminologie](#terminologie)
+    - [Wozu ist das gut?](#wozu-ist-das-gut)
+    - [Wie funktioniert das?](#wie-funktioniert-das)
+    - [Casting von komplexen Datentypen](#casting-von-komplexen-datentypen)
+    - [toString()](#tostring)
+    - [equals()](#equals)
+    - [Abstrakte Klassen und Methoden](#abstrakte-klassen-und-methoden)
+    - [Interfaces](#interfaces)
+- [Fehlerbehandlung](#fehlerbehandlung)
+- [Dokumentation JavaDoc](#dokumentation-javadoc)
 
 
-##  Die Programmiersprache Java
+#  Die Programmiersprache Java
 - C-artige, universelle Programmiersprache
 - JVM [#](https://de.wikibooks.org/wiki/Java_Standard:_Java_Virtual_Machine)
 - Bytecode
@@ -69,9 +70,9 @@
 ![Java Platform Diagram](Materialien/Java-Platform-Diagram.png)
 Grafik: [#](Materialien/Java-Platform-Diagram.png)
 
-## Erste Schritte
+# Erste Schritte
 
-### Hello World! :rocket:
+## Hello World! :rocket:
 - Woraus besteht eine **Klasse** mindestens?
 - Was ist eine **Methode**?
 - **main**-Methode mit "Hello World!"
@@ -86,15 +87,15 @@ public class HelloWorld {
 }
 ```
 
-### Pakete
+## Pakete
 - Was sind Pakete und wozu sind sie da? [#](https://de.wikibooks.org/wiki/Java_Standard:_Erste_Schritte#Pakete)
 - Wie sehen Pakete auf meiner Festplatte aus?
   
-### Java-Klassenbibliothek
+## Java-Klassenbibliothek
 - Beispiele für häufig verwendete Klassen [#](https://de.wikibooks.org/wiki/Java_Standard:_Erste_Schritte#Klassenbibliothek)
 - Paketstruktur der Klassenbibliothek
 
-## Eclipse IDE
+# Eclipse IDE
 - Was ist das für ein Programm? [#](https://de.wikibooks.org/wiki/Java_Standard:_Einrichten_der_Programmierumgebung#Eclipse)
 - Die wichtigsten Views (Package Manager, Editor, Outline, Console)
 - Das erste Projekt anlegen
@@ -103,26 +104,26 @@ public class HelloWorld {
 - Import / Export von Projekten
 - Programme ausführen über Kontextmenü und "Play"-Button
 
-## Variablen
+# Variablen
 - sind Bezeichner für Werte in bestimmten Speicherbereichen, die mit der Variable angesprochen werden können
 - Java ist streng typisiert, Deklaration daher immer unter Angabe des Datentyps
 - naming conventions (lowerCamelCase)
 - Gültigkeitsbereiche
   - Methode, Kontrollstruktur oder Klasse (siehe [Klassenvariablen](#klassenvariablen))
 
-## Datentypen
+# Datentypen
 
-### Primitive Datentypen
+## Primitive Datentypen
 - `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, `char`
 - Welche **default values** haben diese Datentypen?
 
 ![primitive types overview](Materialien/primitive-data-types.png)
 Grafik: [#](Materialien/primitive-data-types.png), Quelle [#](https://de.wikibooks.org/wiki/Java_Standard)
 
-### Komplexe Datentypen
+## Komplexe Datentypen
 - Klassen und Arrays sind komplexe Datentypen (dazu später mehr!)
 
-### Casting / Typumwandlung bei primitiven Datentypen
+## Casting / Typumwandlung bei primitiven Datentypen
 - Implizite Typumwandlung: Ein "niederwertiger" Typ wird einem "höherwertigen" Typ zugewiesen (Umwandlung geschieht automatisch)
   - `double d; int i = 2; d = i;`
 
@@ -137,19 +138,19 @@ Grafik: [#](Materialien/typecast_1.jpg), Quelle: [#](https://www.java-tutorial.o
 ![upcast](Materialien/typecast_2.jpg)
 Grafik: [#](Materialien/typecast_2.jpg), Quelle: [#](https://www.java-tutorial.org/typecasting.html)
 
-## Methoden
+# Methoden
 - Rückgabetyp / `void`
 - Parameter
 - `return`
 - naming: `lowerCamelCase()`
 - Überlagerung von Methoden
 
-## Operatoren
+# Operatoren
 
-### Arithmetische- / Rechenoperatoren
+## Arithmetische- / Rechenoperatoren
 - Einfache: ` + - * / % `
   
-## Post-/Preinkrement
+# Post-/Preinkrement
 - Ausdruck und Operation mittels: `++` / `--`
 
 ```java
@@ -161,20 +162,20 @@ int i = 5;
 int x = i++; // i = 6 und x = 5 (zuweisen, dann hochzählen)
 ```
 
-### Vergleichsoperatoren
+## Vergleichsoperatoren
 - Ergebnis von Vergleichsoperationen ist **immer** `true` oder `false`!
 - `==`, `!=`, `>`, `<`, `>=`, `<=`
 
-### Boolsche / Logische Operatoren
+## Boolsche / Logische Operatoren
 - `&&` und `||`
 - Negation: `!` (invertiert einen Ausdruck)
 - Exklusives ODER: `!=` (wenn nur 1 Operand `true` ist)
 
-### Operatoren zur Bit-Manipulation (erstmal weglassen?)
+## Operatoren zur Bit-Manipulation (erstmal weglassen?)
 - `~`, `&`, `|`, `^`
 - `>>`, `>>>`, `<<`
 
-### Zuweisungsoperatoren
+## Zuweisungsoperatoren
 - Einfache: `=`
 - Arithmetische: `+=`, `-=`, `/=`, `*=`, `%=`
 - Logische: `&=`, `|=`, ...
@@ -186,7 +187,7 @@ boolean f = false;
 t &= f; // hiernach: t = false, weil nicht beide true
 ```
 
-## Strings / Zeichenketten
+# Strings / Zeichenketten
 - `String` ist eine Klasse in Java
 - Ein `String` ist eine Zeichenkette, also eine Sequenz (intern: Array) von `char`-Werten
 - Strings sind in Java **nicht veränderlich** (denn sie sind Arrays von `char`s)
@@ -198,7 +199,7 @@ t &= f; // hiernach: t = false, weil nicht beide true
   - `\` muss deshalb maskiert werden: `"\\"`
 - Für viele/wiederholte Manipulationen: `StringBuilder`
 
-## Arrays
+# Arrays
 - lineare Datenstruktur (Elemente haben klare Reihenfolge)
 - Indizes von `0` bis `array.length - 1` (!)
 - Arrays müssen typisiert werden, alle Typen (primitive und komplexe) möglich
@@ -208,7 +209,7 @@ t &= f; // hiernach: t = false, weil nicht beide true
 ![array](Materialien/array.jpeg)
 Grafik: [#](Materialien/array.jpeg), Quelle [#](https://javatutorial.net/java-array)
 
-### Deklaration und Initialisierung
+## Deklaration und Initialisierung
 - Deklaration mit `typ[] arrayName` bzw. `Typ[] arrayName`
 - Initialisierung mit `new typ[n]` bzw. `new Typ[n]`, wobei `n` die Größe des Arrays angibt
   - Größe der (mind.) ersten Dimension muss angegeben werden!
@@ -234,7 +235,7 @@ int[] numbers = {3, 6, 345, 1, 0, 4}; // Länge: 6
 String[] worte = {"Dies", "sind", "Strings!"}; // Länge: 3
 ```
 
-### Zugriff und Manipulation
+## Zugriff und Manipulation
 - Zugriff auf Elemente mit numerischem Index-Wert: `array[i]`
 - Manipulation der Elemente mittels Zuweisung: `array[i] = 3`
 
@@ -284,7 +285,7 @@ for (int i = 0; i < words.length; i++) {
 }
 ```
 
-### Mehrdimensionale Arrays
+## Mehrdimensionale Arrays
 - Arrays können (theoretisch) beliebig viele Dimensionen besitzen bzw. beliebig tief "verschachtelt" sein
 - Jedes Array einer Unter-Ebene *kann* dabei eine andere Länge besitzen
 
@@ -300,11 +301,11 @@ int[][] twoDimensions = new int[4][];
 int[][] twoDimLiteral = {{2, 4}, {1, 54, 6}};
 ```
 
-## Kontrollstrukturen
+# Kontrollstrukturen
 - steuern den Ablauf des Programms
 - bilden eigene Gültigkeitsbereiche
   
-### if, else if, else
+## if, else if, else
 - Ausführung von Code abhängig von Wahrheitswert einer Aussage / eines boolschen Ausdrucks
 - Lässt sich gut übersetzen mit *"wenn", "dann", "sonst"* bzw. *"wenn", "dann", "sonst wenn", ..., "sonst"*
 - besteht mindestens aus **einem** `if`-Block, einer **beliebigen Anzahl von** `else if`-Blöcken und **maximal einem** `else`-Block
@@ -322,7 +323,7 @@ if (t && f){
 }
 ```
 
-### Ternary-Operator
+## Ternary-Operator
 - Ausdruck nimmt den einen oder anderen Wert an, in Abhängigkeit von der Bedingung / Wahrheitsgehalt der Aussage
 - Syntax: `Bedingung ? Wert wenn wahr : Wert wenn unwahr`
 
@@ -331,67 +332,36 @@ boolean condition = true;
 String istEsWirklichWahr = condition ? "wahr" : "unwahr";
 ```
 
-### switch
+## switch
 - Ersetzt sperrige `if`/`else`-Konstrukte, die nur den Wert eines einzigen Ausdrucks überprüfen
 - ...
   
-### Schleifen
+## Schleifen
 Schleifen wiederholen die Ausführung einer Menge von Anweisungen (oder: bestimmter Code-Blöcke) in Abhängigkeit bestimmter Voraussetzungen.
 
-#### for
+### for
 Zählschleife ...
 
-#### while
+### while
 ...
 
-#### do-while
+### do-while
 ...
 
 
-## Objektorientierte Programmierung mit Java
+# Objektorientierte Programmierung mit Java
 
-### Was ist OOP?
+## Was ist OOP?
 > siehe z.B. [hier](https://de.wikibooks.org/wiki/Java_Standard:_Objektorientierung_Sinn_und_Zweck)
 - Was ist eine **Klasse** (*konzeptuell, im Kontext d. OOP*)?
 - Was ist ein **Objekt** (*konzeptuell, im Kontext d. OOP*)?
 
-### Klassenvariablen
+## Klassenvariablen
 - werden im Klassenkörper deklariert
 - per Konvention *ganz oben* im Klassenkörper
 - haben ihren Gültigkeitsbereich in der gesamten Klasse
 
-### this
-Mit dem Schlüsselwort `this` referenziert sich ein Objekt selbst!
-
-### Konstruktoren
-- Konstruktoren bieten die Möglichkeit, die Initialisierung von Objekten zu kontrollieren und für die Initialisierung benötigte Daten einzufordern.
-- Jede Klasse hat (automatisch) einen Konstruktor, nämlich mindestens den default-Konstruktor (oder auch *no-argument-constructor*) ihrer Superklasse.
-  - auch der default-Konstruktor lässt sich explizit machen
-- Konstruktoren lassen sich überlagern (wie Methoden auch).
-
-```java
-public class User {
-
-  String name;
-
-  // ein überschriebener default-Konstruktor
-  public User(){
-    this.name = "No Name"; // hier verhindert "this" einen Namenskonflikt!
-    System.out.println("A User instance was created using the " +
-      "no-argument-constructor! This user has no name :(");
-  }
-
-  // ein weiterer Konstruktor, der nach einem String verlangt
-  public User(String name){
-    this.name = name; // hier verhindert "this" einen Namenskonflikt!
-    System.out.println("A User instance was created! " +
-      "The user's name seems to be " + name + "!");
-  }
-
-}
-```
-
-### Sichtbarkeits- / Zugriffsmodifizierer
+## Sichtbarkeits- / Zugriffsmodifizierer
 Sichtbarkeitsmodifizierer beeinflussen die Sichtbarkeit von Klassen, Klassenvariablen und Methoden. Dabei sind Konstrukte markiert als ...
 - ... `private` sichtbar innerhalb der Klasse.
 - ... `(default)` sichtbar wie `private` und in dem Package, in dem sich die Klasse befindet (nicht aber in Unter-/Überpackages).
@@ -423,42 +393,73 @@ public class User {
 
 }
 ```
+
+## this
+Mit dem Schlüsselwort `this` referenziert sich ein Objekt selbst!
   
-### Getter & Setter
+## Getter & Setter
 ...
 
-### final
+## Konstruktoren
+- Konstruktoren bieten die Möglichkeit, die Initialisierung von Objekten zu kontrollieren und für die Initialisierung benötigte Daten einzufordern.
+- Jede Klasse hat (automatisch) einen Konstruktor, nämlich mindestens den default-Konstruktor (oder auch *no-argument-constructor*) ihrer Superklasse.
+  - auch der default-Konstruktor lässt sich explizit machen
+- Konstruktoren lassen sich überlagern (wie Methoden auch).
+
+```java
+public class User {
+
+  String name;
+
+  // ein überschriebener default-Konstruktor
+  public User(){
+    this.name = "No Name"; // hier verhindert "this" einen Namenskonflikt!
+    System.out.println("A User instance was created using the " +
+      "no-argument-constructor! This user has no name :(");
+  }
+
+  // ein weiterer Konstruktor, der nach einem String verlangt
+  public User(String name){
+    this.name = name; // hier verhindert "this" einen Namenskonflikt!
+    System.out.println("A User instance was created! " +
+      "The user's name seems to be " + name + "!");
+  }
+
+}
+```
+
+## final
 - finale Variablen
   - primitive: Wert kann nicht geändert werden
   - komplexe: Referenz kann nicht auf anderes Objekt geändert werden, aber Felder des Objektes können geändert werden
 - finale Methoden können nicht überschrieben werden
 - finale Klassen können nicht erweitert werden
-- 
+- ...
 
-### static
+## static
 `static` bedeutet *"an die Klasse gebunden"* im Gegensatz zu *"an das Objekt gebunden"*. Dies hat folgende Auswirkungen:
 - Statische Methoden **und** Klassenvariablen sind **ohne** Instanz der Klasse verfügbar.
 - Statische Klassenvariablen haben klassenweit, also in jeder Instanz der Klasse, immer den selben Wert.
 
-### Konstanten in Java
+## Konstanten in Java
 Konstanten werden für gewöhnlich mit `static` *und* `final` definiert und befolgen die naming conventions:
 ```java
 private static final int THIS_IS_A_PRIVATE_CONSTANT = 2;
 ```
 
-### Vererbung
+## Vererbung
 Klassen können Eigenschaften (Klassenvariablen) und Fähigkeiten (Methoden) von anderen Klassen erben.
 
-#### Terminologie
+### Terminologie
 Die *vererbenden* Klassen werden als **Superklassen**, **Elternklassen** oder **Überklassen** (Englisch *parent class* oder *super class*) bezeichnet, die *erbenden* hingegen respektive als **Subklassen**, **Kindklassen** oder **Unterklassen** (Englisch *child class* oder *sub class*).  
 Die *erbende* Klasse **erweitert** die Klasse, von der sie erbt, da sie (normalerweise) Eigenschaften und Fähigkeiten besitzt, die über jene der Superklasse hinausgehen.
 
-#### Wozu ist das gut?
+### Wozu ist das gut?
 - wiederverwendbarer Code
 - klare Abhängigkeiten zwischen Klassen
 - es ermöglicht [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)) unter Typen, denn jede Instanz einer Klasse ist auch eine Instanz aller Superklassen
 
-#### Wie funktioniert das?
+### Wie funktioniert das?
 - Alle Klassen erben automatisch von der Klasse `Object` (denn alle Instanzen von Klassen sind Objekte).
 - Mit dem Schlüsselwort `extends` wird eine Verwandschaft markiert
 
@@ -495,25 +496,25 @@ public class User extends Person {
 }
 ```
 
-#### Casting von komplexen Datentypen
+### Casting von komplexen Datentypen
 - möglich von Elternklassen zu Kindklassen (auf eigene Verantwortung)
 - unnötig von Kindklassen zu Elternklassen
 - ...
 
-#### toString()
+### toString()
 ...
 
-#### equals()
+### equals()
 ...
 
-#### Abstrakte Klassen und Methoden
+### Abstrakte Klassen und Methoden
 ...
 
-#### Interfaces
+### Interfaces
 ...
 
-## Fehlerbehandlung
+# Fehlerbehandlung
 ...
 
-## Dokumentation JavaDoc
+# Dokumentation JavaDoc
 ...
