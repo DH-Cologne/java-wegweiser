@@ -24,7 +24,7 @@
   - [Operatoren zur Bit-Manipulation (erstmal weglassen?)](#operatoren-zur-bit-manipulation-erstmal-weglassen)
   - [Zuweisungsoperatoren](#zuweisungsoperatoren)
 - [Strings / Zeichenketten](#strings--zeichenketten)
-- [Arrays](#arrays)
+- [Datenstrukturen I: Arrays](#datenstrukturen-i-arrays)
   - [Deklaration und Initialisierung](#deklaration-und-initialisierung)
   - [Zugriff und Manipulation](#zugriff-und-manipulation)
   - [Mehrdimensionale Arrays](#mehrdimensionale-arrays)
@@ -51,15 +51,32 @@
     - [Terminologie](#terminologie)
     - [Wozu ist Vererbung gut?](#wozu-ist-vererbung-gut)
     - [Wie funktioniert das?](#wie-funktioniert-das)
-    - [Überschreiben von Methoden](#Überschreiben-von-methoden)
     - [Casting von komplexen Datentypen](#casting-von-komplexen-datentypen)
     - [instanceof](#instanceof)
+    - [Überschreiben von Methoden](#Überschreiben-von-methoden)
     - [toString()](#tostring)
     - [equals()](#equals)
     - [Abstrakte Klassen und Methoden](#abstrakte-klassen-und-methoden)
     - [Interfaces](#interfaces)
 - [Fehlerbehandlung](#fehlerbehandlung)
+  - [Exceptions und Errors](#exceptions-und-errors)
+  - [try-catch-finally](#try-catch-finally)
+  - [try-with-resources](#try-with-resources)
 - [Dokumentation JavaDoc](#dokumentation-javadoc)
+- [Input/Output](#inputoutput)
+  - [Streams](#streams)
+  - [Buffering](#buffering)
+  - [Reader und Writer](#reader-und-writer)
+  - [Objekt-Serialisierung (Serializable)](#objekt-serialisierung-serializable)
+- [Datenstrukturen II: Verkettete Listen](#datenstrukturen-ii-verkettete-listen)
+  - [Einfach verkettete Listen](#einfach-verkettete-listen)
+  - [Zweifach verkettete Listen](#zweifach-verkettete-listen)
+- [Generics](#generics)
+- [Datenstrukturen III: Das Collections Framework](#datenstrukturen-iii-das-collections-framework)
+  - [List](#list)
+  - [Set](#set)
+  - [Map](#map)
+  - [Object equality im Kontext von HashMaps/Sets](#object-equality-im-kontext-von-hashmapssets)
 
 
 #  Die Programmiersprache Java
@@ -202,7 +219,7 @@ t &= f; // hiernach: t = false, weil nicht beide true
   - `\` muss deshalb maskiert werden: `"\\"`
 - Für viele/wiederholte Manipulationen: `StringBuilder`
 
-# Arrays
+# Datenstrukturen I: Arrays
 - lineare Datenstruktur (Elemente haben klare Reihenfolge)
 - Indizes von `0` bis `array.length - 1` (!)
 - Arrays müssen typisiert werden, alle Typen (primitive und komplexe) möglich
@@ -541,6 +558,22 @@ public class User extends Person {
 }
 ```
 
+### Casting von komplexen Datentypen
+- möglich von Superklassen zu Subklassen (auf eigene Verantwortung)
+- unnötig von Subklassen zu Superklassen (wg. [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)))
+- ...
+
+### instanceof
+`instanceof` ist ein Operator, der die Zugehörigkeit eines Objektes zu einem bestimmten Typ überprüft:
+
+```java
+User user = new User("Tonky McWigglefritts");
+System.out.println(user instanceof Person); // true
+System.out.println(user instanceof Object); // true
+System.out.println(user instanceof CharSequence); // false
+System.out.println(user instanceof List); // false
+```
+
 ### Überschreiben von Methoden
 Methoden von Superklassen können in Subklassen überschrieben werden (markiert durch die `@Override`-Annotation)
 
@@ -567,22 +600,6 @@ public class User extends Person {
     // eigene, unabhängige Implementation!
   }
 }
-```
-
-### Casting von komplexen Datentypen
-- möglich von Superklassen zu Subklassen (auf eigene Verantwortung)
-- unnötig von Subklassen zu Superklassen (wg. [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)))
-- ...
-
-### instanceof
-`instanceof` ist ein Operator, der die Zugehörigkeit eines Objektes zu einem bestimmten Typ überprüft:
-
-```java
-User user = new User("Tonky McWigglefritts");
-System.out.println(user instanceof Person); // true
-System.out.println(user instanceof Object); // true
-System.out.println(user instanceof CharSequence); // false
-System.out.println(user instanceof List); // false
 ```
 
 ### toString()
@@ -771,7 +788,43 @@ public class TextToUpperCase implements TextProcessor {
 Da die Methode `applyTextProcessor()` der Klasse `TextEditor` gegen das Interface `TextProcessor` entwickelt wurde, funktioniert sie mit **jeder** ordentlichen Implementation von `TextProcessor`.
 
 # Fehlerbehandlung
-...
-
+## Exceptions und Errors
+- Klassenhierarchie Exceptions...
+- ...
+## try-catch-finally
+- ...
+## try-with-resources
+- ...
 # Dokumentation JavaDoc
-...
+- ...
+
+# Input/Output
+## Streams
+- ...
+## Buffering
+- ...
+## Reader und Writer
+- ...
+## Objekt-Serialisierung (Serializable)
+- ...
+
+# Datenstrukturen II: Verkettete Listen
+## Einfach verkettete Listen
+- ...
+## Zweifach verkettete Listen
+- ...
+
+# Generics
+- ...
+- Implementation am Beispiel der verketteten Liste
+- ...
+
+# Datenstrukturen III: Das Collections Framework
+## List
+- ...
+## Set
+- ...
+## Map
+- ...
+## Object equality im Kontext von HashMaps/Sets
+- Vertrag zwischen `equals()` und `hashCode()`
