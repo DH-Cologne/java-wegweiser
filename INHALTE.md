@@ -399,7 +399,7 @@ public class User {
 Mit dem Schlüsselwort `this` referenziert sich ein Objekt selbst!
 
 ## super
-Mit dem Schlüsselwort `super` referenziert eine Klasse ihre Superklasse!
+Mit dem Schlüsselwort `super` referenziert eine Klasse ihre Superklasse (siehe [Vererbung](#vererbung))!
   
 ## Getter & Setter
 ...
@@ -409,7 +409,8 @@ Mit dem Schlüsselwort `super` referenziert eine Klasse ihre Superklasse!
 - Jede Klasse hat (automatisch) einen Konstruktor, nämlich mindestens den default-Konstruktor (oder auch *no-argument-constructor*) ihrer Superklasse.
   - auch der default-Konstruktor lässt sich explizit machen
 - Konstruktoren lassen sich überlagern (wie Methoden auch).
-
+- Wenn nur ein (oder mehrere) explizite/r Konstruktor/en **mit** Parametern existieren, dann hat die Klasse **keinen _no-argument-constructor_**
+  
 ```java
 public class User {
 
@@ -429,6 +430,30 @@ public class User {
       "The user's name seems to be " + name + "!");
   }
 
+}
+```
+
+- Es wird bei der Initialisierung automatisch ein Aufruf des *no-argument-constructor* der Superklasse gemacht, falls diese keinen Konstruktor mit Prametern besitzt. Falls doch, **muss** jeder Konstruktor jeder Subklasse als erstes (!) diesen (oder einen) Konstruktor der Superklasse aufrufen: `super(param1, param2);`
+
+```java
+public class User {
+  String name;
+
+  public User(String name){
+    this.name = name; // hier verhindert "this" einen Namenskonflikt!
+  }
+}
+
+public class SpecialUser extends User {
+  public SpecialUser(){
+    super("default name string");
+    //... whatever else ...
+  }
+
+  public SpecialUser(String name){
+    super(name);
+    //... whatever else ...
+  }
 }
 ```
 
