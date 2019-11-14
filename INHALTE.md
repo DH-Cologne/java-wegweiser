@@ -508,9 +508,6 @@ Konstanten werden für gewöhnlich mit `static` *und* `final` definiert und befo
 ```java
 private static final int THIS_IS_A_PRIVATE_CONSTANT = 2;
 ```
-***
-**Übungs-Projekt zur Wiederholung: [StringList](Projekte/StringList/)** 
-***
 
 ## Vererbung
 Klassen können Eigenschaften (Klassenvariablen / *features*) und Fähigkeiten (Methoden / *behavior*) von anderen Klassen *erben*.
@@ -681,6 +678,8 @@ public class Rocket extends Vehicle {
 }
 ```
 
+In diesem Beispiel ist `Vehicle` eine Abstraktion von `Rocket`. Andersherum ist `Rocket` eine Konkretisierung von `Vehicle`.
+
 Abstrakte Methoden müssen in der erweiternden (erbenden) Klasse implementiert werden:
 
 ```java
@@ -711,7 +710,53 @@ public class Rocket extends Vehicle {
 **Ausnahme:** Die erweiternde/erbende Klasse ist selbst auch eine abstrakte Klasse. In diesem Fall kann sie die geerbte abstakte Methode ebenfalls als abstrakte Methode "weitergeben"!
 
 ### Interfaces
-...
+- werden mit `interface` eingeleitet (nicht mit `class`, siehe Beispiel unten)
+- werden von Klassen *implementiert* (nicht erweitert) mit dem Schlüsselwort `implements`, oder von anderen Interfaces erweitert (in diesem Fall mit `extends`)
+- sind (wörtlich) eine **Schnittstelle** zu anderen Programmteilen
+- können nicht instanziiert werden
+- enthalten **keinerlei** Implementationen von Methoden, sondern nur abstrakte Methoden
+  - **Ausnahme:** Seit Java 8 gibt es [default methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
+- Methoden sind hier automatisch `abstract` und `public`, wobei `public` meist trotzdem mit angegeben wird.
+
+**Ein (kleines) Anwendungsbeispiel zu Interfaces:**  
+Mit einem Interface `TextProcessor`, welches die Fähigkeiten von Text-Prozessoren beschreibt (nämlich das Prozessieren von Text, was auch immer das bedeutet) ...
+
+```java
+public interface TextProcessor {
+
+  public String process(String input);
+
+}
+```
+
+... lässt sich ein Programm entwickeln, welches Text-Prozessoren einsetzt, ohne jemals zu wissen, um was für Text-Prozessoren es sich genau handelt:
+
+```java
+public class TextEditor {
+
+  private String text;
+
+  public void applyTextProcessor(TextProcessor tp){
+    text = tp.process(text);
+  }
+
+}
+```
+
+So kann das Entwickeln von Text-Prozessoren anderen Personen überlassen werden oder man fügt selbst später weitere mögliche Text-Prozessoren hinzu - und das alles ohne dass die Klasse `TextEditor` verändert werden müsste:
+
+```java
+public class TextToUpperCase implements TextProcessor {
+
+  @Override
+  public String process(String text){
+    return text.toUpperCase();
+  }
+
+}
+```
+
+Da die Methode `applyTextProcessor()` der Klasse `TextEditor` gegen das Interface `TextProcessor` entwickelt wurde, funktioniert sie mit **jeder** ordentlichen Implementation von `TextProcessor`.
 
 # Fehlerbehandlung
 ...
