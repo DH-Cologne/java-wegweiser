@@ -361,6 +361,7 @@ Zählschleife ...
 - werden im Klassenkörper deklariert
 - per Konvention *ganz oben* im Klassenkörper
 - haben ihren Gültigkeitsbereich in der gesamten Klasse
+- werden auch *Felder* oder (engl.) *member variables* genannt
 
 ## Sichtbarkeits- / Zugriffsmodifizierer
 Sichtbarkeitsmodifizierer beeinflussen die Sichtbarkeit von Klassen, Klassenvariablen und Methoden. Dabei sind Konstrukte markiert als ...
@@ -368,12 +369,9 @@ Sichtbarkeitsmodifizierer beeinflussen die Sichtbarkeit von Klassen, Klassenvari
 - ... `(default)` sichtbar wie `private` und in dem Package, in dem sich die Klasse befindet (nicht aber in Unter-/Überpackages).
 - ... `protected` sichtbar wie `(default)` und in allen (erbenden) Unterklassen.
 - ... `public` überall sichtbar.
+- Mit diesen Modifizierern lässt sich [Datenkapselung](https://de.wikipedia.org/wiki/Datenkapselung_(Programmierung)) (order auch das Geheimnisprinzip) umsetzen.
 
 ```java
-/*
- * Beispiel zur Benutzung von Sichtbarkeitsmodifizierern ...
- */
-
 //... bei Klassen
 public class User {
 
@@ -391,7 +389,6 @@ public class User {
     private String userName;
     private String password;
   }
-
 }
 ```
 
@@ -402,7 +399,38 @@ Mit dem Schlüsselwort `this` referenziert sich ein Objekt selbst!
 Mit dem Schlüsselwort `super` referenziert eine Klasse ihre Superklasse (siehe [Vererbung](#vererbung))!
   
 ## Getter & Setter
-...
+- einfache Methoden zum Lesen und Setzen von Klassenvariablen
+- bieten Kontrolle über die Werte, die gesetzt werden und können ggf. Fehler ausgeben oder Werte vorher manipulieren
+- Entsprechende Klassenvariablen werden `private` gesetzt, damit sie nur über die *Getter* bzw. *Setter* zugänglich sind.
+- können sehr gut in Konstruktoren wiederverwendet werden, damit die Logik zum Setzen von Werten auf Klassenvariablen an einem Ort ist
+- Getter und Setter sind Teil der [Datenkapselung](https://de.wikipedia.org/wiki/Datenkapselung_(Programmierung))
+
+```java
+public class User {
+
+  private String name;
+
+  public User(String name){
+    setName(name); // Setter in Konstruktor nutzen
+  }
+
+  public String getName(){
+    return name;
+  }
+
+  public void setName(String name){
+    // Logik zum Setzen der name-Klassenvariable
+    // Beispiel: Wert darf nicht null sein
+    if (name == null) {
+      // Oder wie auch immer man reagieren möchte...
+      System.err.println("So heißt doch niemand!");
+    } else {
+      this.name = name;
+    }
+  }
+
+}
+```
 
 ## Konstruktoren
 - Konstruktoren bieten die Möglichkeit, die Initialisierung von Objekten zu kontrollieren und für die Initialisierung benötigte Daten einzufordern.
@@ -437,14 +465,17 @@ public class User {
 
 ```java
 public class User {
+
   String name;
 
   public User(String name){
     this.name = name; // hier verhindert "this" einen Namenskonflikt!
   }
+
 }
 
 public class SpecialUser extends User {
+
   public SpecialUser(){
     super("default name string");
     //... whatever else ...
@@ -454,6 +485,7 @@ public class SpecialUser extends User {
     super(name);
     //... whatever else ...
   }
+
 }
 ```
 
@@ -545,6 +577,7 @@ public class User extends Person {
 Dieser Code ...
 ```java
 public class User {
+
 	private String name;
 	
 	public User(String name) {
@@ -559,13 +592,16 @@ public class User {
 	public String toString() {
 		return "User(" + name + ")";
 	}
+
 }
 
 public class Program {
+
 	public static void main(String[] args) {
 		User u = new User("Otto Normal");
 		System.out.println(u);
 	}
+
 }
 ```
 ... würde **ohne** überschriebene `toString()`-Methode in der Klasse User **User@4aa298b7** (o.ä.) ausgeben, gibt nun aber stattdessen **User(Otto Normal)** aus. Diese Repräsentation des User-Objektes ist wesentlich wertvoller.
