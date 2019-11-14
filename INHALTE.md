@@ -479,9 +479,9 @@ public class User extends Person {
 - Methoden von Superklassen können in Subklassen überschrieben werden (markiert durch die `@Override`-Annotation)
 
 > **(!) Aus den docs zu** `@Override` [#](https://docs.oracle.com/javase/8/docs/api/java/lang/Override.html)  
-> Indicates that a method declaration is intended to override a method declaration in a supertype. If a method is annotated with this annotation type compilers are required to generate an error message unless at least one of the following conditions hold:
-> - The method does override or implement a method declared in a supertype.
-> - The method has a signature that is override-equivalent to that of any public method declared in Object.  
+> *Indicates that a method declaration is intended to override a method declaration in a supertype. If a method is annotated with this annotation type compilers are required to generate an error message unless at least one of the following conditions hold:*
+> - *The method does override or implement a method declared in a supertype.*
+> - *The method has a signature that is override-equivalent to that of any public method declared in Object.* 
 >  
 > &rarr; `@Override` ist also *nicht* nötig, macht aber den Code eindeutiger und veranlasst den Compiler dazu, hilfreiche Fehlermeldungen zu liefern!
 
@@ -509,7 +509,38 @@ public class User extends Person {
 - ...
 
 ### toString()
-...
+- gibt eine möglichst sinnvolle textuelle (*String*-) Repräsentation des Objektes zurück, für das es aufgerufen wird
+- sollte in eigenen Klassen generell überschrieben werden, mindestens aber in Datenklassen/POJOs
+- falls `toString()` für den Typ des Objektes nicht überschrieben ist, wird (wie bei allen entsprechenden Methoden) die `toString()`-Methode der Superklasse - nämlich `Object` aufgerufen
+
+Dieser Code ...
+```java
+public class User {
+	private String name;
+	
+	public User(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+	
+	@Override
+	public String toString() {
+		return "User(" + name + ")";
+	}
+}
+
+public class Program {
+	public static void main(String[] args) {
+		User u = new User("Otto Normal");
+		System.out.println(u);
+	}
+}
+```
+... würde **ohne** überschriebene `toString()`-Methode in der Klasse User **User@4aa298b7** (o.ä.) ausgeben, gibt nun aber stattdessen **User(Otto Normal)** aus. Diese Repräsentation des User-Objektes ist wesentlich wertvoller.
+
 
 ### equals()
 ...
