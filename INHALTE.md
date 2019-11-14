@@ -612,6 +612,9 @@ public class Program {
 Objekte werden **nicht** mit `==` verglichen, sondern mit `equals()`, denn `==` überprüft nicht die semantische Gleichheit von zwei Objekten, sondern bildet lediglich einen *wahren* Ausdruck, wenn es sich um zwei Referenzen *auf das selbe Objekt* handelt!  
 Genau wie `toString()`, sollte `equals()` grundsätzlich überschrieben werden (mindestens in Datenklassen / POJOs).
 
+> **(!) Achtung:**  
+> Man versucht gern mit `"hallo" == "hallo"` zu beweisen, dass sich Strings in Java so nicht vergleichen lassen (aus oben genannten Gründen) und steht dann ziemlich dumm da, wenn der Ausdruck plötzlich doch `true` ergibt. Das liegt an Javas *[string interning](https://stackoverflow.com/questions/10578984/what-is-java-string-interning)*, wodurch identische Strings intern auf das selbe Objekt (und somit die selbe Speicher-Referenz) reduziert werden!
+
 ```java
 public class User {
 	
