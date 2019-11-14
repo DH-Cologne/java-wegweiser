@@ -41,6 +41,7 @@
   - [Klassenvariablen](#klassenvariablen)
   - [Sichtbarkeits- / Zugriffsmodifizierer](#sichtbarkeits---zugriffsmodifizierer)
   - [this](#this)
+  - [super](#super)
   - [Getter & Setter](#getter--setter)
   - [Konstruktoren](#konstruktoren)
   - [final](#final)
@@ -396,6 +397,9 @@ public class User {
 
 ## this
 Mit dem Schlüsselwort `this` referenziert sich ein Objekt selbst!
+
+## super
+Mit dem Schlüsselwort `super` referenziert eine Klasse ihre Superklasse!
   
 ## Getter & Setter
 ...
