@@ -42,7 +42,7 @@
   - [Sichtbarkeits- / Zugriffsmodifizierer](#sichtbarkeits---zugriffsmodifizierer)
   - [this](#this)
   - [super](#super)
-  - [Getter & Setter](#getter--setter)
+  - [Getter &amp; Setter](#getter-amp-setter)
   - [Konstruktoren](#konstruktoren)
   - [final](#final)
   - [static](#static)
@@ -509,21 +509,122 @@ public class SpecialUser extends User {
 ```
 
 ## final
+- markiert eine (benannte) Einheit (Variable, Methode oder Klasse), der nur ein einziges mal ein Wert (o.ä.) zugewiesen werden kann
 - finale Variablen
   - primitive: Wert kann nicht geändert werden
   - komplexe: Referenz kann nicht auf anderes Objekt geändert werden, aber Felder des Objektes können geändert werden
+  - Unterschied zu z.B. C++ `const`: finale Variablen können auch noch *nach* der Deklaration einen Wert erhalten, aber eben nur ein mal!
 - finale Methoden können nicht überschrieben werden
 - finale Klassen können nicht erweitert werden
-- ...
+
+```java
+final class ImmutableClass {
+  // Diese Klasse kann nicht erweitert werden!
+}
+```
+
+```java
+public final void someMethod(){
+  // Diese Methode kann nicht überschrieben werden!
+}
+```
+
+Im folgenden Beispiel kann der Name des Users nur einmal (bei Instanziierung der Klasse bzw. Erzeugung eines Objektes) gesetzt werden. Der Wert kann dann für dieses Objekt nicht mehr geändert werden. Die Instanziierung (Aufruf des Konstruktors) ist *der letzte mögliche Zeitpunkt zum Setzen eines Wertes für die finale Klassenvariable!*
+
+```java
+public class User {
+
+  private final String name;
+
+  public User(String name){
+    this.name = name;
+  }
+  
+}
+```
 
 ## static
 `static` bedeutet *"an die Klasse gebunden"* im Gegensatz zu *"an das Objekt gebunden"*. Dies hat folgende Auswirkungen:
-- Statische Methoden **und** Klassenvariablen sind **ohne** Instanz der Klasse verfügbar.
-- Statische Klassenvariablen haben klassenweit, also in jeder Instanz der Klasse, immer den selben Wert.
+- Statische *Methoden* **und** *Klassenvariablen* sind **ohne** Instanz der Klasse verfügbar (sofern sie sichtbar sind!).
+- Statische *Klassenvariablen* haben klassenweit - also in jeder Instanz der Klasse - immer den selben Wert.
+- In *statischen Methoden* kann **nicht** auf *nicht-statische Klassenvariablen* zugegriffen werden, da diese (anders als die statische Methode) an Instanzen der Klasse gebunden sind und ohne Instanziierung der Klasse keinen Wert haben **können**.
+
+**Beispiel für *statische Felder/Klassenvariablen*:**
+
+```java
+public class User {
+
+  private static String displayString;
+
+  public User(){
+    // default displayString setzen
+    this.displayString = "User";
+  }
+
+  public void setDisplayString(String displayString){
+    this.displayString = displayString;
+  }
+
+  public String getDisplayString(){
+    return this.displayString;
+  }
+  
+}
+
+
+public class Application {
+
+  public static void main(String[] args){
+    User userOne = new User();
+    User userTwo = new User();
+    // displayString für userOne ändern
+    userOne.setDisplayString("Benutzer");
+    // gibt "Benutzer" aus (erwartbar)
+    System.out.println(userOne.getDisplayString());
+    // gibt ebenfalls "Benutzer" aus, weil das Feld statisch ist!
+    System.out.println(userTwo.getDisplayString());
+  }
+
+}
+```
+
+**Beispiel für *statische Methoden*:**
+
+```java
+public class User {
+
+  private String id;
+  private String eMail;
+
+  public User(String eMail){
+    this.eMail = eMail;
+    this.id = User.generateUserID(eMail);
+  }
+
+  public static String generateUserID(String userMailAddress){
+    return "User" + Math.abs(userMailAddress.hashCode());
+  }
+  
+}
+
+
+public class Application {
+
+  public static void main(String[] args){
+    String someMailAddress = "this.is.my.email@provider.com";
+    // Welche ID hat ein User mit dieser Adresse?
+    // Wenn es sie/ihn gibt, dann diese ID (statische Methode
+    // wird ohne User-Objekt aufgerufen!):
+    System.out.println(User.generateUserID(someMailAddress));
+  }
+
+}
+```
 
 ## Konstanten in Java
-Konstanten werden für gewöhnlich mit `static` *und* `final` definiert und befolgen die naming conventions:
+Konstanten (hier: unveränderbare Felder, die über alle Instanzen hinweg den selben Wert haben) werden für gewöhnlich mit `static` *und* `final` definiert und befolgen die Naming Conventions:
 ```java
+// könnte auch "public" sein
 private static final int THIS_IS_A_PRIVATE_CONSTANT = 2;
 ```
 
