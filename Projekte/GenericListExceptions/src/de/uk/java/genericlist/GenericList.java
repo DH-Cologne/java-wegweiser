@@ -1,8 +1,8 @@
-package de.uk.java.stringlist;
+package de.uk.java.genericlist;
 
 /**
- * Diese Klasse beschriebt eine String-Liste,
- * in die beliebig viele Strings eingefügt
+ * Diese Klasse beschriebt eine generische Liste,
+ * in die beliebig viele Elemente eingefügt
  * und wieder gelöscht werden können.
  * Die Klasse soll die Nachteile eines Arrays,
  * wie etwa die feste Größe oder die beim Löschen
@@ -10,18 +10,18 @@ package de.uk.java.stringlist;
  * durch das Anbieten verschiedener Hilfmethoden
  * ausgleichen.
  * Die Klasse soll eine komfortable Verkapselung
- * eines String-Arrays darstellen. Man bezeichnet so etwas auch
+ * eines Arrays darstellen. Man bezeichnet so etwas auch
  * als einen "Wrapper", also eine "Verpackung" um etwas.
- * Ziel ist es, eine Abstraktionsschicht über ein String-Array
+ * Ziel ist es, eine Abstraktionsschicht über ein Array
  * zu bieten, die sich um Probleme wie die feste Größe eines Array
  * kümmerts.
  * 
  * @author bkis
  *
  */
-public class StringList {
+public class GenericList<T> {
 	
-	private String[] data;	//das String-Array, das intern benutzt wird
+	private Object[] data;	//das Array, das intern benutzt wird
 	private int nextInsertPosition;	//die nächste freie, beschreibbare Stelle des Arrays
 	
 	
@@ -31,18 +31,22 @@ public class StringList {
 	 * dass man bis zu n Elemente einfügen möchte.
 	 * @param initialSize
 	 */
-	public StringList(int initialSize) {
-		this.data = new String[initialSize];
+	public GenericList(int initialSize) {
+		if (initialSize < 0) {
+			throw new IllegalArgumentException(initialSize + 
+					" is not a valid initial size for this list!");
+		}
+		this.data = new Object[initialSize];
 		this.nextInsertPosition = 0;
 	}
 	
 	
 	/**
-	 * Ein Konstruktor, dem man ein bereits bestehendes String-Array übergeben kann,
-	 * welches als initiale Datenbasis für die StringList verwendet wird.
+	 * Ein Konstruktor, dem man ein bereits bestehendes Array übergeben kann,
+	 * welches als initiale Datenbasis für die GenericList verwendet wird.
 	 * @param initialArray
 	 */
-	public StringList(String[] initialArray) {
+	public GenericList(T[] initialArray) {
 		this.data = initialArray;
 		this.nextInsertPosition = initialArray.length;
 	}
@@ -54,28 +58,28 @@ public class StringList {
 	 * Arrays verwendet, indem ein anderer Konstruktor mit
 	 * dem entsprechenden Wert aufgerufen wird.
 	 */
-	public StringList() {
+	public GenericList() {
 		this(10);	//das Array soll zu Beginn die Länge 10 haben
 	}
 	
 	
 	/**
-	 * Diese Methode fügt der StringList am Ende einen neuen String hinzu.
-	 * @param s Der String, der hinzugefügt werden soll
+	 * Diese Methode fügt der GenericList am Ende ein neues Element hinzu.
+	 * @param s Das Element, das hinzugefügt werden soll
 	 */
-	public void add(String s) {
+	public void add(T s) {
 		if (full()) grow(); //überprüfen, ob Platz ist; wenn nicht, vergrößern (s.u.)
-		data[nextInsertPosition] = s; //den übergebenen String an die nächste freie Stelle schreiben
+		data[nextInsertPosition] = s; //das übergebene Element an die nächste freie Stelle schreiben
 		nextInsertPosition++; //den Wert für die nächste freie Stelle um 1 erhöhen
 	}
 	
 	
 	/**
-	 * Ersetzt den String an der gewünschten Stelle durch einen anderen
+	 * Ersetzt das Element an der gewünschten Stelle durch ein anderes
 	 * @param index Index des zu ersetzenden Elements
-	 * @param s String, durch den ersetzt werden soll
+	 * @param s Element, durch das ersetzt werden soll
 	 */
-	public void set(int index, String s) {
+	public void set(int index, T s) {
 		if (isIndexValid(index)) {
 			data[index] = s;
 		} else {
@@ -85,24 +89,15 @@ public class StringList {
 	
 	
 	/**
-	 * Diese Methode entfernt einen String aus der Liste.
+	 * Diese Methode entfernt ein Element aus der Liste.
 	 * Hierbei sollen keine Lücken im internen Array entstehen!
-	 * Es kann natürlich sein, dass es mehrere Strings mit
-	 * dem gleichen Inhalt in der Liste gibt. Es wird daher
-	 * (als Kompromisslösung) nur der erste passende String entfernt.
+	 * Es kann natürlich sein, dass es mehrere gleiche ELemente
+	 * in der Liste gibt. Es wird daher
+	 * (als Kompromisslösung) nur das erste passende Element entfernt.
 	 * 
-	 * WICHTIGER HINWEIS: Strings bitte NIEMALS so vergleichen:
-	 * if (string1 == string2) {...} 
-	 * Sondern IMMER so:
-	 * if (string1.equals(string2)) {...}
-	 *
-	 * Grund: Der Vergleichsoperator "==" überprüft, ob es sich um
-	 * dasselbe Objekt handelt - er überprüft hingegen nicht, ob es
-	 * sich um zwei (potentiell verschiedene) String-Objekte mit dem
-	 * selben Text-Inhalt handelt!
-	 * @param toRemove Der String, der entfernt werden soll
+	 * @param toRemove Das Element, das entfernt werden soll
 	 */
-	public void remove(String toRemove) {
+	public void remove(T toRemove) {
 		for (int i = 0; i < nextInsertPosition; i++) {
 			if (data[i].equals(toRemove)) {
 				//hier wird einfach die andere remove()-Methode verwendet:
@@ -115,7 +110,7 @@ public class StringList {
 	
 	
 	/**
-	 * Diese Methode entfernt den String an der Stelle "index"
+	 * Diese Methode entfernt das Element an der Stelle "index"
 	 * aus der Liste. Auch hier dürfen keine Lücken entstehen!
 	 * @param index
 	 */
@@ -134,31 +129,32 @@ public class StringList {
 	
 	/**
 	 * Diese Methode gibt den index des ersten Elements der Liste
-	 * zurück, das dem übergebenen String entspricht.
+	 * zurück, das dem übergebenen Element entspricht.
 	 * 
 	 * WICHTIGER HINWEIS: Siehe Kommentar der Methode remove(...)!
-	 * @param s String, dessen Index gesucht werden soll
-	 * @return Index des gesuchten Strings
+	 * @param s Element, dessen Index gesucht werden soll
+	 * @return Index des gesuchten Elements
 	 */
-	public int indexOf(String s) {
+	public int indexOf(T s) {
 		for (int i = 0; i < nextInsertPosition; i++) {
 			if (data[i].equals(s)) {
 				return i; //i wird zurückgegeben, Methode beendet
 			}
 		}
-		return -1; //String wurde nicht gefunden, also -1 zurückgeben
+		return -1; //Element wurde nicht gefunden, also -1 zurückgeben
 	}
 	
 	
 	/**
-	 * Diese Methode gibt den String an der Stelle "index"
+	 * Diese Methode gibt das Element an der Stelle "index"
 	 * aus der Liste zurück.
-	 * @param index Index des Strings, der zurückgegeben werden soll
-	 * @return Der String, der zurückgegeben werden soll
+	 * @param index Index des Elements, das zurückgegeben werden soll
+	 * @return Das Element, das zurückgegeben werden soll
 	 */
-	public String get(int index) {
+	@SuppressWarnings("unchecked")
+	public T get(int index) {
 		if (isIndexValid(index)) {
-			return data[index];
+			return (T) data[index];
 		} else {
 			return null;
 		}
@@ -166,7 +162,7 @@ public class StringList {
 	
 	
 	/**
-	 * Diese Methode gibt die StringList im aktuellen Zustand
+	 * Diese Methode gibt die GenericList im aktuellen Zustand
 	 * auf der Konsole aus. Hierfür wird die Klasse StringBuilder
 	 * aus der Java-Library verwendet, welche das Verketten von
 	 * Strings wesentlich beschleunigt
@@ -188,10 +184,10 @@ public class StringList {
 	
 	
 	/**
-	 * Kehrt die gesamte Liste um (Reihenfolge der Strings)
+	 * Kehrt die gesamte Liste um (Reihenfolge der Elemente)
 	 */
 	public void reverseList() {
-		String[] temp = new String[nextInsertPosition];
+		Object[] temp = new Object[nextInsertPosition];
 		
 		for (int i = 0; i < temp.length; i++) {
 			temp[i] = data[nextInsertPosition - 1 - i];
@@ -202,17 +198,18 @@ public class StringList {
 	
 	
 	/**
-	 * Gibt eine neue Instanz von StringList mit den Elementen
+	 * Gibt eine neue Instanz von GenericList mit den Elementen
 	 * von "start" bis "end" (exklusiv) zurück
 	 * @param start Start-Index der Teil-Liste
 	 * @param end End-Index der Teil-Liste + 1
 	 * @return
 	 */
-	public StringList getSubList(int start, int end) {
-		StringList subList = new StringList(end - start);
+	@SuppressWarnings("unchecked")
+	public GenericList<T> getSubList(int start, int end) {
+		GenericList<T> subList = new GenericList<T>(end - start);
 		
 		for (int i = start; i < end; i++) {
-			subList.add(data[i]);
+			subList.add((T) data[i]);
 		}
 		
 		return subList;
@@ -233,7 +230,12 @@ public class StringList {
 	 * überprüft, ob ein index überhaupt gültig ist
 	 */
 	private boolean isIndexValid(int index) {
-		return index < nextInsertPosition;
+		if (index < nextInsertPosition) {
+			return true;
+		} else {
+			throw new IndexOutOfBoundsException(index + 
+					" is not a valid index of this list!");
+		}
 	}
 	
 	
@@ -256,7 +258,7 @@ public class StringList {
 	 */
 	private void grow() {
 		//neues Array mit bisheriger Länge + 10
-		String[] temp = new String[data.length + 10];
+		Object[] temp = new Object[data.length + 10];
 		
 		//alle Elemente ins neue Array kopieren
 		for (int i = 0; i < data.length; i++) {
