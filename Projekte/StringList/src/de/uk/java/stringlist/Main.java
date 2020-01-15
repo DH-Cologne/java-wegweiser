@@ -1,3 +1,4 @@
+package de.uk.java.stringlist;
 
 public class Main {
 
@@ -9,28 +10,28 @@ public class Main {
 		System.out.println("Größe der Liste: " + list.size());
 		
 		//einige Strings hinzufügen
-		list.addString("Eins");
-		list.addString("Zwei");
-		list.addString("Drei");
-		list.addString("Vier");
-		list.addString("Fünf");
-		list.addString("Sechs");
-		list.addString("Sieben");
-		list.addString("Acht");
-		list.addString("Neun");
-		list.addString("Zehn");
+		list.add("Eins");
+		list.add("Zwei");
+		list.add("Drei");
+		list.add("Vier");
+		list.add("Fünf");
+		list.add("Sechs");
+		list.add("Sieben");
+		list.add("Acht");
+		list.add("Neun");
+		list.add("Zehn");
 		
 		//wieder die Größe der Liste ausgeben
 		System.out.println("Größe der Liste: " + list.size());
 		
 		//einen String aus der Mitte löschen
-		list.removeString(5);
+		list.remove(5);
 		
 		//wieder die Größe der Liste ausgeben
 		System.out.println("Größe der Liste: " + list.size());
 		
 		//alle Strings der Liste ausgeben
-		list.printStrings();
+		list.print();
 	}
 
 }
