@@ -376,6 +376,8 @@ Zählschleife ...
 - Was ist eine **Klasse** (*konzeptuell, im Kontext d. OOP*)?
 - Was ist ein **Objekt** (*konzeptuell, im Kontext d. OOP*)?
 
+![Mitarbeiter-Klasse](Materialien/Employee-Class.png)
+
 ## Klassenvariablen
 - werden im Klassenkörper deklariert
 - per Konvention *ganz oben* im Klassenkörper
@@ -888,6 +890,7 @@ public class TextToUpperCase implements TextProcessor {
 
 Da die Methode `applyTextProcessor()` der Klasse `TextEditor` gegen das Interface `TextProcessor` entwickelt wurde, funktioniert sie mit **jeder** ordentlichen Implementation von `TextProcessor`.
 
+
 # Fehlerbehandlung
 ## Exceptions und Errors
 - Klassenhierarchie Exceptions...
@@ -896,8 +899,11 @@ Da die Methode `applyTextProcessor()` der Klasse `TextEditor` gegen das Interfac
 - ...
 ## try-with-resources
 - ...
+
+
 # Dokumentation JavaDoc
 - ...
+
 
 # Input/Output
 ## Streams
@@ -909,16 +915,19 @@ Da die Methode `applyTextProcessor()` der Klasse `TextEditor` gegen das Interfac
 ## Objekt-Serialisierung (Serializable)
 - ...
 
+
 # Datenstrukturen II: Verkettete Listen
 ## Einfach verkettete Listen
 - ...
 ## Zweifach verkettete Listen
 - ...
 
+
 # Generics
 - ...
 - Implementation am Beispiel der verketteten Liste
 - ...
+
 
 # Datenstrukturen III: Das Collections Framework
 ## List
