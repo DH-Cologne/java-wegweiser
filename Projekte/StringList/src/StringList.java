@@ -106,7 +106,7 @@ public class StringList {
 	 * Da dies durch die feste Größe von Arrays eigentlich
 	 * nicht möglich ist, muss ein neues, größeres Array angelegt und
 	 * die Werte des alten Arrays kopiert werden. Danach muss
-	 * die Klassenvariable "strings" auf das neue Array "zeigen".
+	 * das Klassenattribut "strings" auf das neue Array "zeigen".
 	 */
 	private void increaseArraySize(){
 		//neues Array mit 5 weiteren Stellen anlegen
@@ -117,7 +117,7 @@ public class StringList {
 			newArray[i] = strings[i];
 		}
 		
-		//Klassenvariable auf das neue Array verweisen lassen
+		//Klassenattribut auf das neue Array verweisen lassen
 		strings = newArray;
 	}
 

@@ -38,7 +38,7 @@
     - [do-while](#do-while)
 - [Objektorientierte Programmierung mit Java](#objektorientierte-programmierung-mit-java)
   - [Was ist OOP?](#was-ist-oop)
-  - [Klassenvariablen](#klassenvariablen)
+  - [Klassenattribute](#klassenattribute)
   - [Sichtbarkeits- / Zugriffsmodifizierer](#sichtbarkeits---zugriffsmodifizierer)
   - [this](#this)
   - [super](#super)
@@ -129,7 +129,7 @@ public class HelloWorld {
 - Java ist streng typisiert, Deklaration daher immer unter Angabe des Datentyps
 - naming conventions (lowerCamelCase)
 - Gültigkeitsbereiche
-  - Methode, Kontrollstruktur oder Klasse (siehe [Klassenvariablen](#klassenvariablen))
+  - Methode, Kontrollstruktur oder Klasse (siehe [Klassenattribute](#klassenattribute))
 
 # Datentypen
 
@@ -377,15 +377,16 @@ Zählschleife ...
 - Was ist ein **Objekt** (*konzeptuell, im Kontext d. OOP*)?
 
 ![Mitarbeiter-Klasse](Materialien/Employee-Class.png)
+Quelle: [*Wikimedia: Von Binz - Own Creation, CC BY-SA 4.0*](https://commons.wikimedia.org/w/index.php?curid=62707688)
 
-## Klassenvariablen
+## Klassenattribute
+- sind Variablen, die ihren Gültigkeitsbereich in der gesamten Klasse haben
 - werden im Klassenkörper deklariert
 - per Konvention *ganz oben* im Klassenkörper
-- haben ihren Gültigkeitsbereich in der gesamten Klasse
 - werden auch *Felder* oder (engl.) *member variables* genannt
 
 ## Sichtbarkeits- / Zugriffsmodifizierer
-Sichtbarkeitsmodifizierer beeinflussen die Sichtbarkeit von Klassen, Klassenvariablen und Methoden. Dabei sind Konstrukte markiert als ...
+Sichtbarkeitsmodifizierer beeinflussen die Sichtbarkeit von Klassen, Klassenattributen und Methoden. Dabei sind Konstrukte markiert als ...
 - ... `private` sichtbar innerhalb der Klasse.
 - ... `(default)` sichtbar wie `private` und in dem Package, in dem sich die Klasse befindet (nicht aber in Unter-/Überpackages).
 - ... `protected` sichtbar wie `(default)` und in allen (erbenden) Unterklassen.
@@ -396,7 +397,7 @@ Sichtbarkeitsmodifizierer beeinflussen die Sichtbarkeit von Klassen, Klassenvari
 //... bei Klassen
 public class User {
 
-  //... bei Klassenvariablen
+  //... bei Klassenattributen
   protected String name;
   private UserLogin login;
 
@@ -420,11 +421,10 @@ Mit dem Schlüsselwort `this` referenziert sich ein Objekt selbst!
 Mit dem Schlüsselwort `super` referenziert eine Klasse ihre Superklasse (siehe [Vererbung](#vererbung))!
   
 ## Getter & Setter
-- einfache Methoden zum Lesen und Setzen von Klassenvariablen
+- einfache Methoden zum Lesen und Setzen von Klassenattributen
 - bieten Kontrolle über die Werte, die gesetzt werden und können ggf. Fehler ausgeben oder Werte vorher manipulieren
-- Entsprechende Klassenvariablen werden `private` gesetzt, damit sie nur über die *Getter* bzw. *Setter* zugänglich sind.
-- können sehr gut in Konstruktoren wiederverwendet werden, damit die Logik zum Setzen von Werten auf Klassenvariablen an einem Ort ist
-- Getter und Setter sind Teil der [Datenkapselung](https://de.wikipedia.org/wiki/Datenkapselung_(Programmierung))
+- Entsprechende Klassenattribute werden `private` gesetzt, damit sie nur über die *Getter* bzw. *Setter* zugänglich sind ([*Datenkapselung / Geheimnisprinzip*](https://de.wikipedia.org/wiki/Datenkapselung_(Programmierung))).
+- können sehr gut in Konstruktoren wiederverwendet werden, damit die Logik zum Setzen von Werten auf Klassenattribute an einem Ort ist
 
 ```java
 public class User {
@@ -440,7 +440,7 @@ public class User {
   }
 
   public void setName(String name){
-    // Logik zum Setzen der name-Klassenvariable
+    // Logik zum Setzen der name-Klassenattribut
     // Beispiel: Wert darf nicht null sein
     if (name == null) {
       // Oder wie auch immer man reagieren möchte...
@@ -531,7 +531,7 @@ public final void someMethod(){
 }
 ```
 
-Im folgenden Beispiel kann der Name des Users nur einmal (bei Instanziierung der Klasse bzw. Erzeugung eines Objektes) gesetzt werden. Der Wert kann dann für dieses Objekt nicht mehr geändert werden. Die Instanziierung (Aufruf des Konstruktors) ist *der letzte mögliche Zeitpunkt zum Setzen eines Wertes für die finale Klassenvariable!*
+Im folgenden Beispiel kann der Name des Users nur einmal (bei Instanziierung der Klasse bzw. Erzeugung eines Objektes) gesetzt werden. Der Wert kann dann für dieses Objekt nicht mehr geändert werden. Die Instanziierung (Aufruf des Konstruktors) ist *der letzte mögliche Zeitpunkt zum Setzen eines Wertes für dieas finale Klassenattribut!*
 
 ```java
 public class User {
@@ -547,11 +547,11 @@ public class User {
 
 ## static
 `static` bedeutet *"an die Klasse gebunden"* im Gegensatz zu *"an das Objekt gebunden"*. Dies hat folgende Auswirkungen:
-- Statische *Methoden* **und** *Klassenvariablen* sind **ohne** Instanz der Klasse verfügbar (sofern sie sichtbar sind!).
-- Statische *Klassenvariablen* haben klassenweit - also in jeder Instanz der Klasse - immer den selben Wert.
-- In *statischen Methoden* kann **nicht** auf *nicht-statische Klassenvariablen* zugegriffen werden, da diese (anders als die statische Methode) an Instanzen der Klasse gebunden sind und ohne Instanziierung der Klasse keinen Wert haben **können**.
+- Statische *Methoden* **und** *Klassenattribute* sind **ohne** Instanz der Klasse verfügbar (sofern sie sichtbar sind!).
+- Statische *Klassenattribute* haben klassenweit - also in jeder Instanz der Klasse - immer den selben Wert. Die werden auch *Klassenvariablen* genannt!
+- In *statischen Methoden* kann **nicht** auf *nicht-statische Klassenattribute* zugegriffen werden, da diese (anders als die statische Methode) an Instanzen der Klasse gebunden sind und ohne Instanziierung der Klasse keinen Wert haben **können**.
 
-**Beispiel für *statische Felder/Klassenvariablen*:**
+**Beispiel für *Klassenvariablen*:**
 
 ```java
 public class User {
@@ -631,7 +631,7 @@ private static final int THIS_IS_A_PRIVATE_CONSTANT = 2;
 ```
 
 ## Vererbung
-Klassen können Eigenschaften (Klassenvariablen / *features*) und Fähigkeiten (Methoden / *behavior*) von anderen Klassen *erben*.
+Klassen können Eigenschaften (Klassenattribute / *features*) und Fähigkeiten (Methoden / *behavior*) von anderen Klassen *erben*.
 
 ### Terminologie
 Die *vererbenden* Klassen werden als **Superklassen**, **Elternklassen** oder **Überklassen** (Englisch *parent class* oder *super class*) bezeichnet, die *erbenden* hingegen respektive als **Subklassen**, **Kindklassen** oder **Unterklassen** (Englisch *child class* oder *sub class*).  
