@@ -14,7 +14,7 @@ package de.uk.java.genericlist;
  * als einen "Wrapper", also eine "Verpackung" um etwas.
  * Ziel ist es, eine Abstraktionsschicht über ein Array
  * zu bieten, die sich um Probleme wie die feste Größe eines Array
- * kümmerts.
+ * kümmert.
  * 
  * @author bkis
  *
