@@ -42,7 +42,7 @@
   - [Sichtbarkeits- / Zugriffsmodifizierer](#sichtbarkeits---zugriffsmodifizierer)
   - [this](#this)
   - [super](#super)
-  - [Getter &amp; Setter](#getter-amp-setter)
+  - [Getter & Setter](#getter--setter)
   - [Konstruktoren](#konstruktoren)
   - [final](#final)
   - [static](#static)
@@ -62,6 +62,7 @@
   - [Exceptions und Errors](#exceptions-und-errors)
   - [try-catch-finally](#try-catch-finally)
   - [try-with-resources](#try-with-resources)
+  - [throws](#throws)
 - [Dokumentation JavaDoc](#dokumentation-javadoc)
 - [Input/Output](#inputoutput)
   - [Streams](#streams)
@@ -850,7 +851,7 @@ public class Rocket extends Vehicle {
   - **Ausnahme:** Seit Java 8 gibt es [default methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
 - Methoden sind hier automatisch `abstract` und `public`, wobei `public` meist trotzdem mit angegeben wird.
 
-**Ein (kleines) Anwendungsbeispiel zu Interfaces:**  
+**Ein (minimales) Anwendungsbeispiel zu Interfaces:**  
 Mit einem Interface `TextProcessor`, welches die Fähigkeiten von Text-Prozessoren beschreibt (nämlich das Prozessieren von Text, was auch immer das bedeutet) ...
 
 ```java
@@ -893,13 +894,99 @@ Da die Methode `applyTextProcessor()` der Klasse `TextEditor` gegen das Interfac
 
 # Fehlerbehandlung
 ## Exceptions und Errors
-- Klassenhierarchie Exceptions...
-- ...
-## try-catch-finally
-- ...
-## try-with-resources
-- ...
+- In Programmen können Fehler (**Exceptions** und **Errors**) auftreten (man sagt auch, es wird ein Fehler *"geworfen"*)
+- Errors sind Fehler, die *nicht aufgefangen werden können* (catch), sie bringen das Programm zum Absturz
+- Exceptions können *"aufgefangen"* werden (catch), d.h. es kann mit Hilfe einer gut durchdachten Fehlerbehandlung mit dem Fehler umgegangen werden, sodass das Programm nicht unerwartet beendet werden muss
+- **Exception** und **Error** sind vom Typ *Throwable* (deshalb *"Werfen"* von Fehlern), es steckt eine ganze Klassenhierarchie hinter den verschiedenen Fehlertypen
 
+![Exceptions/Errors Class Hierarchy](Materialien/Exception-Hierarchy-Diagram.jpeg)
+Quelle: [programcreek.com](http://www.programcreek.com/2009/02/diagram-for-hierarchy-of-exception-classes/)
+
+## try-catch-finally
+- Mit einem Code-Block aus `try`, `catch` und `finally` wird der Umgang mit potentiellen Exceptions definiert
+- `try`-Block enthält den Code, der eine Exception verursachen könnte.
+- `catch`-Block/Blöcke (einer oder mehrere) enthält den Code, der im Falle einer bestimmten Exception ausgeführt wird. Ein `catch`-Block wird nur dann ausgeführt, wenn die geworfene Exception
+- `finally`-Block (falls vorhanden, optional!) enthält den Code, der unabhängig von einem ausgelösten `catch`-Block **am Ende der Fehlerbehandlung** ausgeführt wird. Dabei spielt es keine Rolle, ob eine Fehler überhaupt aufgetreten ist!
+- Nach dem *try-catch(-finally)*-Block wird der darauf folgende Programm-Code weiter ausgeführt.
+- Falls im `try`-Block kein Fehler auftritt, werden alle `catch`-Blöcke ignoriert; ein etwaiges `finally` wird aber noch ausgeführt.
+- Falls kein `catch`-Block die geworfene Exception abfängt, wird trotzdem ein evtl. vorhandener `finally`-Block ausgeführt, bevor die Exception dann von der default-Fehlerbehandlung verarbeitet wird (Stack Trace über den ErrOut auf Konsole ausgeben).
+
+![try-catch-finally-flow](Materialien/java-try-catch-finally-flow.jpg)
+Quelle: [howtodoinjava.com](https://howtodoinjava.com/java/exception-handling/try-catch-finally/)
+
+**Syntax und Beispiel:**
+```java
+  int[] numbers = {1,2,3};
+  int number = 0;
+
+  try {
+    number = numbers[3]; //Index existiert nicht!
+  } catch (ArrayIndexOutOfBoundsException ex){
+    //auf diesen speziellen Fehler reagieren
+    System.out.println("Dieser Index existiert nicht!");
+  } catch (Exception ex) {
+    //ansonsten: Auf jeden anderen Fehler reagieren
+    System.out.println("Es ist ein Fehler aufgetreten!");
+  } finally {
+    //wird auf jeden Fall (ggf. am Ende der Fehlerbehandlung) ausgeführt:
+    if (number == 0) number = -1;
+    System.out.println(number);
+  }
+```
+Dieser Code würde für `number = numbers[2]` einfach `3` ausgeben. Falls aber ein Fehler auftritt, etwa wie im Beispiel bei `number = numbers[3]`, wäre die Ausgabe `Dieser Index existiert nicht! -1` (Zeilenumbruch hier entfernt).
+
+## try-with-resources
+- Spezialform der Fehlerbehandlung für im `try`-Block verwendete Ressourcen, die nach ihrer Verwendung wieder geschlossen werden müssen (etwa beim Arbeiten mit Datenströmen)
+- Normalerweise würde man die Ressourcen im `finally`-Block schließen - dies geschieht hier aber automatisch!
+
+**Beispiel Datei einlesen OHNE try-with-resources**
+```java
+  BufferedReader br = null;
+  String line;
+
+  try {
+    br = new BufferedReader(new FileReader("text.txt"));
+    while ((line = br.readLine()) != null) {
+      System.out.println("Zeile gelesen: " + line);
+    }
+  } catch (IOException e) {
+    System.out.println("IOException im try-Block: " + e.getMessage());
+  } finally {
+    System.out.println("Ausführung finally-Block...");
+    //so müsste man den Reader eigentlich schließen:
+    try {
+      if (br != null) {
+        br.close();
+      }
+    } catch (IOException e) {
+      System.out.println("IOException im finally-Block: " + e.getMessage());
+    }
+  }
+```
+
+**Beispiel Datei einlesen MIT try-with-resources**
+```java
+  String line;
+
+  try (BufferedReader br = new BufferedReader(new FileReader("text.txt"))) {
+    while ((line = br.readLine()) != null) {
+      System.out.println("Zeile gelesen: " + line);
+    }
+  } catch (IOException e) {
+    System.out.println("IOException im try-Block: " + e.getMessage());
+  }
+```
+
+## throws
+- Eine Methode kann explizit dazu in der Lage sein, eine bestimmte Exception zu "werfen". Dies wird mit dem Schlüsselwort `throws` markiert.
+- Der Typ der Exception muss dabei angegeben werden.
+- Methoden, in denen diese "werfende" Methode aufgerufen wird, müssen eine Fehlerbehandlung vornehmen!
+
+```java
+public int thisWillFail(int[] numbers) throws ArrayIndexOutOfBoundsException {
+  return numbers[numbers.length];
+}
+```
 
 # Dokumentation JavaDoc
 - ...
