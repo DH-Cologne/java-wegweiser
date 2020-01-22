@@ -937,7 +937,9 @@ Dieser Code würde für `number = numbers[2]` einfach `3` ausgeben. Falls aber e
 
 ## try-with-resources
 - Spezialform der Fehlerbehandlung für im `try`-Block verwendete Ressourcen, die nach ihrer Verwendung wieder geschlossen werden müssen (etwa beim Arbeiten mit Datenströmen)
+- Der `try`-Block deklariert die entsprechende(n) Ressource(n) (mehrere Ressourcen durch `;` getrennt möglich!)
 - Normalerweise würde man die Ressourcen im `finally`-Block schließen - dies geschieht hier aber automatisch!
+- Diese Form des `try`-Blocks funktioniert mit allen Ressourcen, die `java.lang.AutoCloseable` implementieren (schließt `java.lang.Closeable` ein, denn `Closeable` erweitert `AutoCloseable`). 
 
 **Beispiel Datei einlesen OHNE try-with-resources**
 ```java
