@@ -993,9 +993,11 @@ public int thisWillFail(int[] numbers) throws ArrayIndexOutOfBoundsException {
 # Dokumentation JavaDoc
 - ...
 
+> An dieser Stelle gut zur Wiederholung geeignet:  
+> **Projekt: [StringList](Projekte/StringList)**
 
 # Input/Output
-> Beispiel-Projekt: [IO-Benchmarking](Projekte/IO-Benchmarking)
+> **Projekt: [IO-Benchmarking](Projekte/IO-Benchmarking)**
 ## Streams
 - ...
 ## Buffering
@@ -1017,7 +1019,7 @@ public int thisWillFail(int[] numbers) throws ArrayIndexOutOfBoundsException {
 - ...
 - Implementation am Beispiel der verketteten Liste
 - ...
-
+> **Projekt: [GenericList](Projekte/GenericList)**
 
 # Datenstrukturen III: Das Collections Framework
 ## List
