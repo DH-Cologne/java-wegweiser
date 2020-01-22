@@ -995,6 +995,7 @@ public int thisWillFail(int[] numbers) throws ArrayIndexOutOfBoundsException {
 
 
 # Input/Output
+> Beispiel-Projekt: [IO-Benchmarking](Projekte/IO-Benchmarking)
 ## Streams
 - ...
 ## Buffering
