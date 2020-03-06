@@ -148,7 +148,7 @@ Grafik: [#](Materialien/primitive-data-types.png), Quelle [#](https://de.wikiboo
 - Implizite Typumwandlung: Ein "niederwertiger" Typ wird einem "höherwertigen" Typ zugewiesen (Umwandlung geschieht automatisch)
   - `double d; int i = 2; d = i;`
 
-![upcast](Materialien/typecast_1.jpg)
+![upcast](Materialien/typecast_1.jpg)  
 Grafik: [#](Materialien/typecast_1.jpg), Quelle: [#](https://www.java-tutorial.org/typecasting.html)
 
 - Explizite Typumwandlung: Ein "höherwertiger" Typ wird in "niederwertigen" Typ umgewandelt
@@ -156,7 +156,7 @@ Grafik: [#](Materialien/typecast_1.jpg), Quelle: [#](https://www.java-tutorial.o
   - Ziel-Typ **muss** angegeben werden
   - `double d = 2.2d; int i; i = (int) d;`
 
-![upcast](Materialien/typecast_2.jpg)
+![upcast](Materialien/typecast_2.jpg)  
 Grafik: [#](Materialien/typecast_2.jpg), Quelle: [#](https://www.java-tutorial.org/typecasting.html)
 
 # Methoden
@@ -227,7 +227,7 @@ t &= f; // hiernach: t = false, weil nicht beide true
 - Arrays sind in Größe/Länge **unveränderlich**!
 - Arrays **sind Objekte** und vom Typ `Object` (siehe [JLS Java SE 8 Edition](https://docs.oracle.com/javase/specs/jls/se8/html/jls-10.html))
 
-![array](Materialien/array.jpeg)
+![array](Materialien/array.jpeg)  
 Grafik: [#](Materialien/array.jpeg), Quelle [#](https://javatutorial.net/java-array)
 
 ## Deklaration und Initialisierung
@@ -239,7 +239,7 @@ Grafik: [#](Materialien/array.jpeg), Quelle [#](https://javatutorial.net/java-ar
 // ein Array für 5 int-Werte
 int[] numbers = new int[5];
 // ein Array für 5 String-Objekte
-String[] worte = new String[5];
+String[] words = new String[5];
 ```
 
 - Die initialien Werte eines leeren Arrays entsprechen den default-Werten des entsprechenden Datentyps
@@ -253,7 +253,7 @@ int[] numbers = new int[5]; // entspricht {0, 0, 0, 0, 0}
 
 ```java
 int[] numbers = {3, 6, 345, 1, 0, 4}; // Länge: 6
-String[] worte = {"Dies", "sind", "Strings!"}; // Länge: 3
+String[] words = {"Dies", "sind", "Strings!"}; // Länge: 3
 ```
 
 ## Zugriff und Manipulation
@@ -377,7 +377,7 @@ Zählschleife ...
 - Was ist eine **Klasse** (*konzeptuell, im Kontext d. OOP*)?
 - Was ist ein **Objekt** (*konzeptuell, im Kontext d. OOP*)?
 
-![Mitarbeiter-Klasse](Materialien/Employee-Class.png)
+![Mitarbeiter-Klasse](Materialien/Employee-Class.png)  
 Quelle: [*Wikimedia: Von Binz - Own Creation, CC BY-SA 4.0*](https://commons.wikimedia.org/w/index.php?curid=62707688)
 
 ## Klassenattribute
@@ -899,7 +899,7 @@ Da die Methode `applyTextProcessor()` der Klasse `TextEditor` gegen das Interfac
 - Exceptions können *"aufgefangen"* werden (catch), d.h. es kann mit Hilfe einer gut durchdachten Fehlerbehandlung mit dem Fehler umgegangen werden, sodass das Programm nicht unerwartet beendet werden muss
 - **Exception** und **Error** sind vom Typ *Throwable* (deshalb *"Werfen"* von Fehlern), es steckt eine ganze Klassenhierarchie hinter den verschiedenen Fehlertypen
 
-![Exceptions/Errors Class Hierarchy](Materialien/Exception-Hierarchy-Diagram.jpeg)
+![Exceptions/Errors Class Hierarchy](Materialien/Exception-Hierarchy-Diagram.jpeg)  
 Quelle: [programcreek.com](http://www.programcreek.com/2009/02/diagram-for-hierarchy-of-exception-classes/)
 
 ## try-catch-finally
@@ -911,7 +911,7 @@ Quelle: [programcreek.com](http://www.programcreek.com/2009/02/diagram-for-hiera
 - Falls im `try`-Block kein Fehler auftritt, werden alle `catch`-Blöcke ignoriert; ein etwaiges `finally` wird aber noch ausgeführt.
 - Falls kein `catch`-Block die geworfene Exception abfängt, wird trotzdem ein evtl. vorhandener `finally`-Block ausgeführt, bevor die Exception dann von der default-Fehlerbehandlung verarbeitet wird (Stack Trace über den ErrOut auf Konsole ausgeben).
 
-![try-catch-finally-flow](Materialien/java-try-catch-finally-flow.jpg)
+![try-catch-finally-flow](Materialien/java-try-catch-finally-flow.jpg)  
 Quelle: [howtodoinjava.com](https://howtodoinjava.com/java/exception-handling/try-catch-finally/)
 
 **Syntax und Beispiel:**

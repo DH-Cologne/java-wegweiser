@@ -5,4 +5,4 @@
 > [GitHub](https://www.github.com): Eine feine Plattform für Git-Repositories
 
 ## Als Quellen-Angabe
-Github [#](https://www.github.com)
+Quelle: [Github](https://www.github.com)
