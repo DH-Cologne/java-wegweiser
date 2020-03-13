@@ -1064,11 +1064,11 @@ public int thisWillFail(int[] numbers) throws ArrayIndexOutOfBoundsException {
 -   ...
 
 > An dieser Stelle gut zur Wiederholung geeignet:  
-> **Projekt: [StringList](Projekte/StringList)**
+> **Projekt: [StringList](/projects/StringList)**
 
 # Input/Output
 
-> **Projekt: [IO-Benchmarking](Projekte/IO-Benchmarking)**
+> **Projekt: [IO-Benchmarking](/projects/IO-Benchmarking)**
 
 ## Streams
 
@@ -1101,7 +1101,7 @@ public int thisWillFail(int[] numbers) throws ArrayIndexOutOfBoundsException {
 -   ...
 -   Implementation am Beispiel der verketteten Liste
 -   ...
-    > **Projekt: [GenericList](Projekte/GenericList)**
+    > **Projekt: [GenericList](/projects/GenericList)**
 
 # Datenstrukturen III: Das Collections Framework
 
