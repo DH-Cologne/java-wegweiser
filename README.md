@@ -1,12 +1,16 @@
-# Softwaretechnologie I + II: Java
+# Softwaretechnologie: Java
+**Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des Softwaretechnologie-Moduls (*BM4*) der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** *(Institut für Digital Humanities, Universität zu Köln)*.
 
-> Work in progress :nerd_face:
+> Work in progress.  
+> Forever. :snail:
 
 **Was ist das hier bzw. was ist es nicht?**  
 
+
+
 Dies ist eine Übersicht über die Inhalte, die im Seminar besprochen werden sollten. Der Sinn dieses Dokumentes ist es *nicht*, Erläuterungen zu allen Inhalten des Seminars bereitzustellen. Dies ist keine Lern-Ressource oder gar "Script" zum Seminar. Ziel ist vielmehr eine möglichst vollständige und semantisch bzw. didaktisch strukturierte Aufstellung aller Themen und Aspekte, ergänzt durch unterstützende Materialien (siehe Ordner `Materialien`), Links zu relevanten, weiterführenden Ressourcen (mit `#` gekennzeichnet), sowie passende Übungs- und Hausaufgaben aus diesem Repository (siehe Ordner `Projekte`).
 
-- [Softwaretechnologie I + II: Java](#softwaretechnologie-i--ii-java)
+- [Softwaretechnologie: Java](#softwaretechnologie-java)
 - [Die Programmiersprache Java](#die-programmiersprache-java)
 - [Erste Schritte](#erste-schritte)
   - [Hello World! :rocket:](#hello-world-rocket)
