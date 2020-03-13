@@ -1,4 +1,4 @@
 notes.*
-Meta/TODO.md
-Projekte/**/bin/
-Projekte/**/.settings/
+meta/TODO.md
+projects/**/bin/
+projects/**/.settings/

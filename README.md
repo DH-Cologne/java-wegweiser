@@ -95,8 +95,8 @@ Dies ist eine Übersicht über die Inhalte, die im Seminar besprochen werden sol
 - von Grund auf objektorientiert [#](https://de.wikibooks.org/wiki/Java_Standard:_Objektorientierung)
 - sehr umfangreiche Standard-Library / Klassenbibliothek
 
-![Java Platform Diagram](Materialien/Java-Platform-Diagram.png)
-Grafik: [#](Materialien/Java-Platform-Diagram.png)
+![Java Platform Diagram](/images/Java-Platform-Diagram.png)
+Grafik: [#](/images/Java-Platform-Diagram.png)
 
 # Erste Schritte
 
@@ -145,8 +145,8 @@ public class HelloWorld {
 - `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, `char`
 - Welche **default values** haben diese Datentypen?
 
-![primitive types overview](Materialien/primitive-data-types.png)
-Grafik: [#](Materialien/primitive-data-types.png), Quelle [#](https://de.wikibooks.org/wiki/Java_Standard)
+![primitive types overview](/images/primitive-data-types.png)
+Grafik: [#](/images/primitive-data-types.png), Quelle [#](https://de.wikibooks.org/wiki/Java_Standard)
 
 ## Komplexe Datentypen
 - Klassen und Arrays sind komplexe Datentypen (dazu später mehr!)
@@ -155,16 +155,16 @@ Grafik: [#](Materialien/primitive-data-types.png), Quelle [#](https://de.wikiboo
 - Implizite Typumwandlung: Ein "niederwertiger" Typ wird einem "höherwertigen" Typ zugewiesen (Umwandlung geschieht automatisch)
   - `double d; int i = 2; d = i;`
 
-![upcast](Materialien/typecast_1.jpg)  
-Grafik: [#](Materialien/typecast_1.jpg), Quelle: [#](https://www.java-tutorial.org/typecasting.html)
+![upcast](/images/typecast_1.jpg)  
+Grafik: [#](/images/typecast_1.jpg), Quelle: [#](https://www.java-tutorial.org/typecasting.html)
 
 - Explizite Typumwandlung: Ein "höherwertiger" Typ wird in "niederwertigen" Typ umgewandelt
   - geschieht mittels cast-Operator
   - Ziel-Typ **muss** angegeben werden
   - `double d = 2.2d; int i; i = (int) d;`
 
-![upcast](Materialien/typecast_2.jpg)  
-Grafik: [#](Materialien/typecast_2.jpg), Quelle: [#](https://www.java-tutorial.org/typecasting.html)
+![upcast](/images/typecast_2.jpg)  
+Grafik: [#](/images/typecast_2.jpg), Quelle: [#](https://www.java-tutorial.org/typecasting.html)
 
 # Methoden
 - Rückgabetyp / `void`
@@ -234,8 +234,8 @@ t &= f; // hiernach: t = false, weil nicht beide true
 - Arrays sind in Größe/Länge **unveränderlich**!
 - Arrays **sind Objekte** und vom Typ `Object` (siehe [JLS Java SE 8 Edition](https://docs.oracle.com/javase/specs/jls/se8/html/jls-10.html))
 
-![array](Materialien/array.jpeg)  
-Grafik: [#](Materialien/array.jpeg), Quelle [#](https://javatutorial.net/java-array)
+![array](/images/array.jpeg)  
+Grafik: [#](/images/array.jpeg), Quelle [#](https://javatutorial.net/java-array)
 
 ## Deklaration und Initialisierung
 - Deklaration mit `typ[] arrayName` bzw. `Typ[] arrayName`
@@ -384,7 +384,7 @@ Zählschleife ...
 - Was ist eine **Klasse** (*konzeptuell, im Kontext d. OOP*)?
 - Was ist ein **Objekt** (*konzeptuell, im Kontext d. OOP*)?
 
-![Mitarbeiter-Klasse](Materialien/Employee-Class.png)  
+![Mitarbeiter-Klasse](/images/Employee-Class.png)  
 Quelle: [*Wikimedia: Von Binz - Own Creation, CC BY-SA 4.0*](https://commons.wikimedia.org/w/index.php?curid=62707688)
 
 ## Klassenattribute
@@ -906,7 +906,7 @@ Da die Methode `applyTextProcessor()` der Klasse `TextEditor` gegen das Interfac
 - Exceptions können *"aufgefangen"* werden (catch), d.h. es kann mit Hilfe einer gut durchdachten Fehlerbehandlung mit dem Fehler umgegangen werden, sodass das Programm nicht unerwartet beendet werden muss
 - **Exception** und **Error** sind vom Typ *Throwable* (deshalb *"Werfen"* von Fehlern), es steckt eine ganze Klassenhierarchie hinter den verschiedenen Fehlertypen
 
-![Exceptions/Errors Class Hierarchy](Materialien/Exception-Hierarchy-Diagram.jpeg)  
+![Exceptions/Errors Class Hierarchy](/images/Exception-Hierarchy-Diagram.jpeg)  
 Quelle: [programcreek.com](http://www.programcreek.com/2009/02/diagram-for-hierarchy-of-exception-classes/)
 
 ## try-catch-finally
@@ -918,7 +918,7 @@ Quelle: [programcreek.com](http://www.programcreek.com/2009/02/diagram-for-hiera
 - Falls im `try`-Block kein Fehler auftritt, werden alle `catch`-Blöcke ignoriert; ein etwaiges `finally` wird aber noch ausgeführt.
 - Falls kein `catch`-Block die geworfene Exception abfängt, wird trotzdem ein evtl. vorhandener `finally`-Block ausgeführt, bevor die Exception dann von der default-Fehlerbehandlung verarbeitet wird (Stack Trace über den ErrOut auf Konsole ausgeben).
 
-![try-catch-finally-flow](Materialien/java-try-catch-finally-flow.jpg)  
+![try-catch-finally-flow](/images/java-try-catch-finally-flow.jpg)  
 Quelle: [howtodoinjava.com](https://howtodoinjava.com/java/exception-handling/try-catch-finally/)
 
 **Syntax und Beispiel:**
