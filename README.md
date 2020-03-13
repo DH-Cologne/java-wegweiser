@@ -989,7 +989,7 @@ Dieser Code würde für `number = numbers[2]` einfach `3` ausgeben. Falls aber e
 ## throws
 - Eine Methode kann explizit dazu in der Lage sein, eine bestimmte Exception zu "werfen". Dies wird mit dem Schlüsselwort `throws` markiert.
 - Der Typ der Exception muss dabei angegeben werden.
-- Methoden, in denen diese "werfende" Methode aufgerufen wird, müssen eine Fehlerbehandlung vornehmen!
+- Methoden, in denen diese "werfende" Methode aufgerufen wird, müssen eine Fehlerbehandlung vornehmen (Ausnahme: Exceptions vom Typ `RuntimeException`)!
 
 ```java
 public int thisWillFail(int[] numbers) throws ArrayIndexOutOfBoundsException {
