@@ -1,14 +1,13 @@
 # Softwaretechnologie: Java
-**Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des Softwaretechnologie-Moduls (*BM4*) der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** *(Institut für Digital Humanities, Universität zu Köln)*.
+
+**Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des Softwaretechnologie-Moduls (_BM4_) der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** _(Institut für Digital Humanities, Universität zu Köln)_.
 
 > Work in progress.  
 > Forever. :snail:
 
-**Was ist das hier bzw. was ist es nicht?**  
+**Was ist das hier bzw. was ist es nicht?**
 
-
-
-Dies ist eine Übersicht über die Inhalte, die im Seminar besprochen werden sollten. Der Sinn dieses Dokumentes ist es *nicht*, Erläuterungen zu allen Inhalten des Seminars bereitzustellen. Dies ist keine Lern-Ressource oder gar "Script" zum Seminar. Ziel ist vielmehr eine möglichst vollständige und semantisch bzw. didaktisch strukturierte Aufstellung aller Themen und Aspekte, ergänzt durch unterstützende Materialien (siehe Ordner `Materialien`), Links zu relevanten, weiterführenden Ressourcen (mit `#` gekennzeichnet), sowie passende Übungs- und Hausaufgaben aus diesem Repository (siehe Ordner `Projekte`).
+Dies ist eine Übersicht über die Inhalte, die im Seminar besprochen werden sollten. Der Sinn dieses Dokumentes ist es _nicht_, Erläuterungen zu allen Inhalten des Seminars bereitzustellen. Dies ist keine Lern-Ressource oder gar "Script" zum Seminar. Ziel ist vielmehr eine möglichst vollständige und semantisch bzw. didaktisch strukturierte Aufstellung aller Themen und Aspekte, ergänzt durch unterstützende Materialien (siehe Ordner `Materialien`), Links zu relevanten, weiterführenden Ressourcen (mit `#` gekennzeichnet), sowie passende Übungs- und Hausaufgaben aus diesem Repository (siehe Ordner `Projekte`).
 
 1. [Softwaretechnologie: Java](#softwaretechnologie-java)
 2. [Die Programmiersprache Java](#die-programmiersprache-java)
@@ -86,14 +85,14 @@ Dies ist eine Übersicht über die Inhalte, die im Seminar besprochen werden sol
    3. [Map](#map)
    4. [Object equality im Kontext von HashMaps/Sets](#object-equality-im-kontext-von-hashmapssets)
 
+# Die Programmiersprache Java
 
-#  Die Programmiersprache Java
-- C-artige, universelle Programmiersprache
-- JVM [#](https://de.wikibooks.org/wiki/Java_Standard:_Java_Virtual_Machine)
-- Bytecode
-- Garbage Collector
-- von Grund auf objektorientiert [#](https://de.wikibooks.org/wiki/Java_Standard:_Objektorientierung)
-- sehr umfangreiche Standard-Library / Klassenbibliothek
+-   C-artige, universelle Programmiersprache
+-   JVM [#](https://de.wikibooks.org/wiki/Java_Standard:_Java_Virtual_Machine)
+-   Bytecode
+-   Garbage Collector
+-   von Grund auf objektorientiert [#](https://de.wikibooks.org/wiki/Java_Standard:_Objektorientierung)
+-   sehr umfangreiche Standard-Library / Klassenbibliothek
 
 ![Java Platform Diagram](/images/Java-Platform-Diagram.png)
 Grafik: [#](/images/Java-Platform-Diagram.png)
@@ -101,11 +100,12 @@ Grafik: [#](/images/Java-Platform-Diagram.png)
 # Erste Schritte
 
 ## Hello World! :rocket:
-- Woraus besteht eine **Klasse** mindestens?
-- Was ist eine **Methode**?
-- **main**-Methode mit "Hello World!"
-  - Einstiegspunkt ins Programm
-  - Was ist ein String / Zeichenkette (Klasse/Objekt!)?
+
+-   Woraus besteht eine **Klasse** mindestens?
+-   Was ist eine **Methode**?
+-   **main**-Methode mit "Hello World!"
+    -   Einstiegspunkt ins Programm
+    -   Was ist ein String / Zeichenkette (Klasse/Objekt!)?
 
 ```java
 public class HelloWorld {
@@ -116,70 +116,80 @@ public class HelloWorld {
 ```
 
 ## Pakete
-- Was sind Pakete und wozu sind sie da? [#](https://de.wikibooks.org/wiki/Java_Standard:_Erste_Schritte#Pakete)
-- Wie sehen Pakete auf meiner Festplatte aus?
-  
+
+-   Was sind Pakete und wozu sind sie da? [#](https://de.wikibooks.org/wiki/Java_Standard:_Erste_Schritte#Pakete)
+-   Wie sehen Pakete auf meiner Festplatte aus?
+
 ## Java-Klassenbibliothek
-- Beispiele für häufig verwendete Klassen [#](https://de.wikibooks.org/wiki/Java_Standard:_Erste_Schritte#Klassenbibliothek)
-- Paketstruktur der Klassenbibliothek
+
+-   Beispiele für häufig verwendete Klassen [#](https://de.wikibooks.org/wiki/Java_Standard:_Erste_Schritte#Klassenbibliothek)
+-   Paketstruktur der Klassenbibliothek
 
 # Eclipse IDE
-- Was ist das für ein Programm? [#](https://de.wikibooks.org/wiki/Java_Standard:_Einrichten_der_Programmierumgebung#Eclipse)
-- Die wichtigsten Views (Package Manager, Editor, Outline, Console)
-- Das erste Projekt anlegen
-  - Was ist da alles drin?
-  - Wo findet man das Paket-Konzept wieder?
-- Import / Export von Projekten
-- Programme ausführen über Kontextmenü und "Play"-Button
+
+-   Was ist das für ein Programm? [#](https://de.wikibooks.org/wiki/Java_Standard:_Einrichten_der_Programmierumgebung#Eclipse)
+-   Die wichtigsten Views (Package Manager, Editor, Outline, Console)
+-   Das erste Projekt anlegen
+    -   Was ist da alles drin?
+    -   Wo findet man das Paket-Konzept wieder?
+-   Import / Export von Projekten
+-   Programme ausführen über Kontextmenü und "Play"-Button
 
 # Variablen
-- sind Bezeichner für Werte in bestimmten Speicherbereichen, die mit der Variable angesprochen werden können
-- Java ist streng typisiert, Deklaration daher immer unter Angabe des Datentyps
-- naming conventions (lowerCamelCase)
-- Gültigkeitsbereiche
-  - Methode, Kontrollstruktur oder Klasse (siehe [Klassenattribute](#klassenattribute))
+
+-   sind Bezeichner für Werte in bestimmten Speicherbereichen, die mit der Variable angesprochen werden können
+-   Java ist streng typisiert, Deklaration daher immer unter Angabe des Datentyps
+-   naming conventions (lowerCamelCase)
+-   Gültigkeitsbereiche
+    -   Methode, Kontrollstruktur oder Klasse (siehe [Klassenattribute](#klassenattribute))
 
 # Datentypen
 
 ## Primitive Datentypen
-- `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, `char`
-- Welche **default values** haben diese Datentypen?
+
+-   `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, `char`
+-   Welche **default values** haben diese Datentypen?
 
 ![primitive types overview](/images/primitive-data-types.png)
 Grafik: [#](/images/primitive-data-types.png), Quelle [#](https://de.wikibooks.org/wiki/Java_Standard)
 
 ## Komplexe Datentypen
-- Klassen und Arrays sind komplexe Datentypen (dazu später mehr!)
+
+-   Klassen und Arrays sind komplexe Datentypen (dazu später mehr!)
 
 ## Casting / Typumwandlung bei primitiven Datentypen
-- Implizite Typumwandlung: Ein "niederwertiger" Typ wird einem "höherwertigen" Typ zugewiesen (Umwandlung geschieht automatisch)
-  - `double d; int i = 2; d = i;`
+
+-   Implizite Typumwandlung: Ein "niederwertiger" Typ wird einem "höherwertigen" Typ zugewiesen (Umwandlung geschieht automatisch)
+    -   `double d; int i = 2; d = i;`
 
 ![upcast](/images/typecast_1.jpg)  
 Grafik: [#](/images/typecast_1.jpg), Quelle: [#](https://www.java-tutorial.org/typecasting.html)
 
-- Explizite Typumwandlung: Ein "höherwertiger" Typ wird in "niederwertigen" Typ umgewandelt
-  - geschieht mittels cast-Operator
-  - Ziel-Typ **muss** angegeben werden
-  - `double d = 2.2d; int i; i = (int) d;`
+-   Explizite Typumwandlung: Ein "höherwertiger" Typ wird in "niederwertigen" Typ umgewandelt
+    -   geschieht mittels cast-Operator
+    -   Ziel-Typ **muss** angegeben werden
+    -   `double d = 2.2d; int i; i = (int) d;`
 
 ![upcast](/images/typecast_2.jpg)  
 Grafik: [#](/images/typecast_2.jpg), Quelle: [#](https://www.java-tutorial.org/typecasting.html)
 
 # Methoden
-- Rückgabetyp / `void`
-- Parameter
-- `return`
-- naming: `lowerCamelCase()`
-- Überlagerung von Methoden
+
+-   Rückgabetyp / `void`
+-   Parameter
+-   `return`
+-   naming: `lowerCamelCase()`
+-   Überlagerung von Methoden
 
 # Operatoren
 
 ## Arithmetische- / Rechenoperatoren
-- Einfache: ` + - * / % `
-  
+
+-   Einfache: `+ - * / %`
+
 # Post-/Preinkrement
-- Ausdruck und Operation mittels: `++` / `--`
+
+-   Ausdruck und Operation mittels: `++` / `--`
 
 ```java
 // Unterschied Post-/Preinkrement:
@@ -191,22 +201,26 @@ int x = i++; // i = 6 und x = 5 (zuweisen, dann hochzählen)
 ```
 
 ## Vergleichsoperatoren
-- Ergebnis von Vergleichsoperationen ist **immer** `true` oder `false`!
-- `==`, `!=`, `>`, `<`, `>=`, `<=`
+
+-   Ergebnis von Vergleichsoperationen ist **immer** `true` oder `false`!
+-   `==`, `!=`, `>`, `<`, `>=`, `<=`
 
 ## Boolsche / Logische Operatoren
-- `&&` und `||`
-- Negation: `!` (invertiert einen Ausdruck)
-- Exklusives ODER: `!=` (wenn nur 1 Operand `true` ist)
+
+-   `&&` und `||`
+-   Negation: `!` (invertiert einen Ausdruck)
+-   Exklusives ODER: `!=` (wenn nur 1 Operand `true` ist)
 
 ## Operatoren zur Bit-Manipulation (erstmal weglassen?)
-- `~`, `&`, `|`, `^`
-- `>>`, `>>>`, `<<`
+
+-   `~`, `&`, `|`, `^`
+-   `>>`, `>>>`, `<<`
 
 ## Zuweisungsoperatoren
-- Einfache: `=`
-- Arithmetische: `+=`, `-=`, `/=`, `*=`, `%=`
-- Logische: `&=`, `|=`, ...
+
+-   Einfache: `=`
+-   Arithmetische: `+=`, `-=`, `/=`, `*=`, `%=`
+-   Logische: `&=`, `|=`, ...
 
 ```java
 // Logische Zuweisungsoperatoren
@@ -216,31 +230,34 @@ t &= f; // hiernach: t = false, weil nicht beide true
 ```
 
 # Strings / Zeichenketten
-- `String` ist eine Klasse in Java
-- Ein `String` ist eine Zeichenkette, also eine Sequenz (intern: Array) von `char`-Werten
-- Strings sind in Java **nicht veränderlich** (denn sie sind Arrays von `char`s)
-- String-Literals erzeugen Strings ohne den `new`-Operator
-  - werden mit `"doppelten Anführungszeichen"` gebildet
-- Konkatenation/Verkettung von Strings mit `+`
-- Zeichen mit Sonderfunktionen
-  - `"\n"` (newline) und `"\t"` (tab)
-  - `\` muss deshalb maskiert werden: `"\\"`
-- Für viele/wiederholte Manipulationen: `StringBuilder`
+
+-   `String` ist eine Klasse in Java
+-   Ein `String` ist eine Zeichenkette, also eine Sequenz (intern: Array) von `char`-Werten
+-   Strings sind in Java **nicht veränderlich** (denn sie sind Arrays von `char`s)
+-   String-Literals erzeugen Strings ohne den `new`-Operator
+    -   werden mit `"doppelten Anführungszeichen"` gebildet
+-   Konkatenation/Verkettung von Strings mit `+`
+-   Zeichen mit Sonderfunktionen
+    -   `"\n"` (newline) und `"\t"` (tab)
+    -   `\` muss deshalb maskiert werden: `"\\"`
+-   Für viele/wiederholte Manipulationen: `StringBuilder`
 
 # Datenstrukturen I: Arrays
-- lineare Datenstruktur (Elemente haben klare Reihenfolge)
-- Indizes von `0` bis `array.length - 1` (!)
-- Arrays müssen typisiert werden, alle Typen (primitive und komplexe) möglich
-- Arrays sind in Größe/Länge **unveränderlich**!
-- Arrays **sind Objekte** und vom Typ `Object` (siehe [JLS Java SE 8 Edition](https://docs.oracle.com/javase/specs/jls/se8/html/jls-10.html))
+
+-   lineare Datenstruktur (Elemente haben klare Reihenfolge)
+-   Indizes von `0` bis `array.length - 1` (!)
+-   Arrays müssen typisiert werden, alle Typen (primitive und komplexe) möglich
+-   Arrays sind in Größe/Länge **unveränderlich**!
+-   Arrays **sind Objekte** und vom Typ `Object` (siehe [JLS Java SE 8 Edition](https://docs.oracle.com/javase/specs/jls/se8/html/jls-10.html))
 
 ![array](/images/array.jpeg)  
 Grafik: [#](/images/array.jpeg), Quelle [#](https://javatutorial.net/java-array)
 
 ## Deklaration und Initialisierung
-- Deklaration mit `typ[] arrayName` bzw. `Typ[] arrayName`
-- Initialisierung mit `new typ[n]` bzw. `new Typ[n]`, wobei `n` die Größe des Arrays angibt
-  - Größe der (mind.) ersten Dimension muss angegeben werden!
+
+-   Deklaration mit `typ[] arrayName` bzw. `Typ[] arrayName`
+-   Initialisierung mit `new typ[n]` bzw. `new Typ[n]`, wobei `n` die Größe des Arrays angibt
+    -   Größe der (mind.) ersten Dimension muss angegeben werden!
 
 ```java
 // ein Array für 5 int-Werte
@@ -249,14 +266,14 @@ int[] numbers = new int[5];
 String[] words = new String[5];
 ```
 
-- Die initialien Werte eines leeren Arrays entsprechen den default-Werten des entsprechenden Datentyps
+-   Die initialien Werte eines leeren Arrays entsprechen den default-Werten des entsprechenden Datentyps
 
 ```java
 int[] numbers = new int[5]; // entspricht {0, 0, 0, 0, 0}
 ```
 
-- Array Literals mit enthaltenen Werten: `{E1, E2, E2, E4, ..., En}`
-  - Länge des Arrays implizit!
+-   Array Literals mit enthaltenen Werten: `{E1, E2, E2, E4, ..., En}`
+    -   Länge des Arrays implizit!
 
 ```java
 int[] numbers = {3, 6, 345, 1, 0, 4}; // Länge: 6
@@ -264,8 +281,9 @@ String[] words = {"Dies", "sind", "Strings!"}; // Länge: 3
 ```
 
 ## Zugriff und Manipulation
-- Zugriff auf Elemente mit numerischem Index-Wert: `array[i]`
-- Manipulation der Elemente mittels Zuweisung: `array[i] = 3`
+
+-   Zugriff auf Elemente mit numerischem Index-Wert: `array[i]`
+-   Manipulation der Elemente mittels Zuweisung: `array[i] = 3`
 
 ```java
 // ein Array für 3 int-Werte
@@ -276,7 +294,7 @@ numbers[1] = 2; // zweites Element
 numbers[3] = numbers[0]; // drittes Element
 ```
 
-- Zugriff auch über for-each-Schleife
+-   Zugriff auch über for-each-Schleife
 
 ```java
 int[] numbers = {3, 6, 345, 1, 0, 4};
@@ -287,6 +305,7 @@ for (int n : numbers){
 ```
 
 **Anwendungs-Beispiel**
+
 ```java
 /*
   * Alle Wörter eines Strings "umkehren",
@@ -314,15 +333,16 @@ for (int i = 0; i < words.length; i++) {
 ```
 
 ## Mehrdimensionale Arrays
-- Arrays können (theoretisch) beliebig viele Dimensionen besitzen bzw. beliebig tief "verschachtelt" sein
-- Jedes Array einer Unter-Ebene *kann* dabei eine andere Länge besitzen
+
+-   Arrays können (theoretisch) beliebig viele Dimensionen besitzen bzw. beliebig tief "verschachtelt" sein
+-   Jedes Array einer Unter-Ebene _kann_ dabei eine andere Länge besitzen
 
 ```java
 // zwei-dimensionales int-Array; entspricht einem
 // Array aus vier int-Arrays der Länge 2
 int[][] matrix = new int[4][2];
 // Die Länge der Arrays in tieferen Dimensionen kann
-// (vorerst) unbestimmt bleiben und sich letztendlich 
+// (vorerst) unbestimmt bleiben und sich letztendlich
 // unterscheiden
 int[][] twoDimensions = new int[4][];
 // auch hier sind Litarals möglich:
@@ -330,13 +350,15 @@ int[][] twoDimLiteral = {{2, 4}, {1, 54, 6}};
 ```
 
 # Kontrollstrukturen
-- steuern den Ablauf des Programms
-- bilden eigene Gültigkeitsbereiche
-  
+
+-   steuern den Ablauf des Programms
+-   bilden eigene Gültigkeitsbereiche
+
 ## if, else if, else
-- Ausführung von Code abhängig von Wahrheitswert einer Aussage / eines boolschen Ausdrucks
-- Lässt sich gut übersetzen mit *"wenn", "dann", "sonst"* bzw. *"wenn", "dann", "sonst wenn", ..., "sonst"*
-- besteht mindestens aus **einem** `if`-Block, einer **beliebigen Anzahl von** `else if`-Blöcken und **maximal einem** `else`-Block
+
+-   Ausführung von Code abhängig von Wahrheitswert einer Aussage / eines boolschen Ausdrucks
+-   Lässt sich gut übersetzen mit _"wenn", "dann", "sonst"_ bzw. _"wenn", "dann", "sonst wenn", ..., "sonst"_
+-   besteht mindestens aus **einem** `if`-Block, einer **beliebigen Anzahl von** `else if`-Blöcken und **maximal einem** `else`-Block
 
 ```java
 boolean t = true;
@@ -352,8 +374,9 @@ if (t && f){
 ```
 
 ## Ternary-Operator
-- Ausdruck nimmt den einen oder anderen Wert an, in Abhängigkeit von der Bedingung / Wahrheitsgehalt der Aussage
-- Syntax: `Bedingung ? Wert wenn wahr : Wert wenn unwahr`
+
+-   Ausdruck nimmt den einen oder anderen Wert an, in Abhängigkeit von der Bedingung / Wahrheitsgehalt der Aussage
+-   Syntax: `Bedingung ? Wert wenn wahr : Wert wenn unwahr`
 
 ```java
 boolean condition = true;
@@ -361,45 +384,54 @@ String istEsWirklichWahr = condition ? "wahr" : "unwahr";
 ```
 
 ## switch
-- Ersetzt sperrige `if`/`else`-Konstrukte, die nur den Wert eines einzigen Ausdrucks überprüfen
-- ...
-  
+
+-   Ersetzt sperrige `if`/`else`-Konstrukte, die nur den Wert eines einzigen Ausdrucks überprüfen
+-   ...
+
 ## Schleifen
+
 Schleifen wiederholen die Ausführung einer Menge von Anweisungen (oder: bestimmter Code-Blöcke) in Abhängigkeit bestimmter Voraussetzungen.
 
 ### for
+
 Zählschleife ...
 
 ### while
+
 ...
 
 ### do-while
-...
 
+...
 
 # Objektorientierte Programmierung mit Java
 
 ## Was ist OOP?
+
 > siehe z.B. [hier](https://de.wikibooks.org/wiki/Java_Standard:_Objektorientierung_Sinn_und_Zweck)
-- Was ist eine **Klasse** (*konzeptuell, im Kontext d. OOP*)?
-- Was ist ein **Objekt** (*konzeptuell, im Kontext d. OOP*)?
+
+-   Was ist eine **Klasse** (_konzeptuell, im Kontext d. OOP_)?
+-   Was ist ein **Objekt** (_konzeptuell, im Kontext d. OOP_)?
 
 ![Mitarbeiter-Klasse](/images/Employee-Class.png)  
-Quelle: [*Wikimedia: Von Binz - Own Creation, CC BY-SA 4.0*](https://commons.wikimedia.org/w/index.php?curid=62707688)
+Quelle: [_Wikimedia: Von Binz - Own Creation, CC BY-SA 4.0_](https://commons.wikimedia.org/w/index.php?curid=62707688)
 
 ## Klassenattribute
-- sind Variablen, die ihren Gültigkeitsbereich in der gesamten Klasse haben
-- werden im Klassenkörper deklariert
-- per Konvention *ganz oben* im Klassenkörper
-- werden auch *Felder* oder (engl.) *member variables* genannt
+
+-   sind Variablen, die ihren Gültigkeitsbereich in der gesamten Klasse haben
+-   werden im Klassenkörper deklariert
+-   per Konvention _ganz oben_ im Klassenkörper
+-   werden auch _Felder_ oder (engl.) _member variables_ genannt
 
 ## Sichtbarkeits- / Zugriffsmodifizierer
+
 Sichtbarkeitsmodifizierer beeinflussen die Sichtbarkeit von Klassen, Klassenattributen und Methoden. Dabei sind Konstrukte markiert als ...
-- ... `private` sichtbar innerhalb der Klasse.
-- ... `(default)` sichtbar wie `private` und in dem Package, in dem sich die Klasse befindet (nicht aber in Unter-/Überpackages).
-- ... `protected` sichtbar wie `(default)` und in allen (erbenden) Unterklassen.
-- ... `public` überall sichtbar.
-- Mit diesen Modifizierern lässt sich [Datenkapselung](https://de.wikipedia.org/wiki/Datenkapselung_(Programmierung)) (order auch das Geheimnisprinzip) umsetzen.
+
+-   ... `private` sichtbar innerhalb der Klasse.
+-   ... `(default)` sichtbar wie `private` und in dem Package, in dem sich die Klasse befindet (nicht aber in Unter-/Überpackages).
+-   ... `protected` sichtbar wie `(default)` und in allen (erbenden) Unterklassen.
+-   ... `public` überall sichtbar.
+-   Mit diesen Modifizierern lässt sich [Datenkapselung](<https://de.wikipedia.org/wiki/Datenkapselung_(Programmierung)>) (order auch das Geheimnisprinzip) umsetzen.
 
 ```java
 //... bei Klassen
@@ -423,16 +455,19 @@ public class User {
 ```
 
 ## this
+
 Mit dem Schlüsselwort `this` referenziert sich ein Objekt selbst!
 
 ## super
+
 Mit dem Schlüsselwort `super` referenziert eine Klasse ihre Superklasse (siehe [Vererbung](#vererbung))!
-  
+
 ## Getter & Setter
-- einfache Methoden zum Lesen und Setzen von Klassenattributen
-- bieten Kontrolle über die Werte, die gesetzt werden und können ggf. Fehler ausgeben oder Werte vorher manipulieren
-- Entsprechende Klassenattribute werden `private` gesetzt, damit sie nur über die *Getter* bzw. *Setter* zugänglich sind ([*Datenkapselung / Geheimnisprinzip*](https://de.wikipedia.org/wiki/Datenkapselung_(Programmierung))).
-- können sehr gut in Konstruktoren wiederverwendet werden, damit die Logik zum Setzen von Werten auf Klassenattribute an einem Ort ist
+
+-   einfache Methoden zum Lesen und Setzen von Klassenattributen
+-   bieten Kontrolle über die Werte, die gesetzt werden und können ggf. Fehler ausgeben oder Werte vorher manipulieren
+-   Entsprechende Klassenattribute werden `private` gesetzt, damit sie nur über die _Getter_ bzw. _Setter_ zugänglich sind ([_Datenkapselung / Geheimnisprinzip_](<https://de.wikipedia.org/wiki/Datenkapselung_(Programmierung)>)).
+-   können sehr gut in Konstruktoren wiederverwendet werden, damit die Logik zum Setzen von Werten auf Klassenattribute an einem Ort ist
 
 ```java
 public class User {
@@ -462,12 +497,13 @@ public class User {
 ```
 
 ## Konstruktoren
-- Konstruktoren bieten die Möglichkeit, die Initialisierung von Objekten zu kontrollieren und für die Initialisierung benötigte Daten einzufordern.
-- Jede Klasse hat (automatisch) einen Konstruktor, nämlich mindestens den default-Konstruktor (oder auch *no-argument-constructor*) ihrer Superklasse.
-  - auch der default-Konstruktor lässt sich explizit machen
-- Konstruktoren lassen sich überlagern (wie Methoden auch).
-- Wenn nur ein (oder mehrere) explizite/r Konstruktor/en **mit** Parametern existieren, dann hat die Klasse **keinen _no-argument-constructor_**
-  
+
+-   Konstruktoren bieten die Möglichkeit, die Initialisierung von Objekten zu kontrollieren und für die Initialisierung benötigte Daten einzufordern.
+-   Jede Klasse hat (automatisch) einen Konstruktor, nämlich mindestens den default-Konstruktor (oder auch _no-argument-constructor_) ihrer Superklasse.
+    -   auch der default-Konstruktor lässt sich explizit machen
+-   Konstruktoren lassen sich überlagern (wie Methoden auch).
+-   Wenn nur ein (oder mehrere) explizite/r Konstruktor/en **mit** Parametern existieren, dann hat die Klasse **keinen _no-argument-constructor_**
+
 ```java
 public class User {
 
@@ -490,7 +526,7 @@ public class User {
 }
 ```
 
-- Es wird bei der Initialisierung automatisch ein Aufruf des *no-argument-constructor* der Superklasse gemacht, falls diese keinen Konstruktor mit Prametern besitzt. Falls doch, **muss** jeder Konstruktor jeder Subklasse als erstes (!) diesen (oder einen) Konstruktor der Superklasse aufrufen: `super(param1, param2);`
+-   Es wird bei der Initialisierung automatisch ein Aufruf des _no-argument-constructor_ der Superklasse gemacht, falls diese keinen Konstruktor mit Prametern besitzt. Falls doch, **muss** jeder Konstruktor jeder Subklasse als erstes (!) diesen (oder einen) Konstruktor der Superklasse aufrufen: `super(param1, param2);`
 
 ```java
 public class User {
@@ -519,13 +555,14 @@ public class SpecialUser extends User {
 ```
 
 ## final
-- markiert eine (benannte) Einheit (Variable, Methode oder Klasse), der nur ein einziges mal ein Wert (o.ä.) zugewiesen werden kann
-- finale Variablen
-  - primitive: Wert kann nicht geändert werden
-  - komplexe: Referenz kann nicht auf anderes Objekt geändert werden, aber Felder des Objektes können geändert werden
-  - Unterschied zu z.B. C++ `const`: finale Variablen können auch noch *nach* der Deklaration einen Wert erhalten, aber eben nur ein mal!
-- finale Methoden können nicht überschrieben werden
-- finale Klassen können nicht erweitert werden
+
+-   markiert eine (benannte) Einheit (Variable, Methode oder Klasse), der nur ein einziges mal ein Wert (o.ä.) zugewiesen werden kann
+-   finale Variablen
+    -   primitive: Wert kann nicht geändert werden
+    -   komplexe: Referenz kann nicht auf anderes Objekt geändert werden, aber Felder des Objektes können geändert werden
+    -   Unterschied zu z.B. C++ `const`: finale Variablen können auch noch _nach_ der Deklaration einen Wert erhalten, aber eben nur ein mal!
+-   finale Methoden können nicht überschrieben werden
+-   finale Klassen können nicht erweitert werden
 
 ```java
 final class ImmutableClass {
@@ -539,7 +576,7 @@ public final void someMethod(){
 }
 ```
 
-Im folgenden Beispiel kann der Name des Users nur einmal (bei Instanziierung der Klasse bzw. Erzeugung eines Objektes) gesetzt werden. Der Wert kann dann für dieses Objekt nicht mehr geändert werden. Die Instanziierung (Aufruf des Konstruktors) ist *der letzte mögliche Zeitpunkt zum Setzen eines Wertes für dieas finale Klassenattribut!*
+Im folgenden Beispiel kann der Name des Users nur einmal (bei Instanziierung der Klasse bzw. Erzeugung eines Objektes) gesetzt werden. Der Wert kann dann für dieses Objekt nicht mehr geändert werden. Die Instanziierung (Aufruf des Konstruktors) ist _der letzte mögliche Zeitpunkt zum Setzen eines Wertes für dieas finale Klassenattribut!_
 
 ```java
 public class User {
@@ -549,17 +586,19 @@ public class User {
   public User(String name){
     this.name = name;
   }
-  
+
 }
 ```
 
 ## static
-`static` bedeutet *"an die Klasse gebunden"* im Gegensatz zu *"an das Objekt gebunden"*. Dies hat folgende Auswirkungen:
-- Statische *Methoden* **und** *Klassenattribute* sind **ohne** Instanz der Klasse verfügbar (sofern sie sichtbar sind!).
-- Statische *Klassenattribute* haben klassenweit - also in jeder Instanz der Klasse - immer den selben Wert. Die werden auch *Klassenvariablen* genannt!
-- In *statischen Methoden* kann **nicht** auf *nicht-statische Klassenattribute* zugegriffen werden, da diese (anders als die statische Methode) an Instanzen der Klasse gebunden sind und ohne Instanziierung der Klasse keinen Wert haben **können**.
 
-**Beispiel für *Klassenvariablen*:**
+`static` bedeutet _"an die Klasse gebunden"_ im Gegensatz zu _"an das Objekt gebunden"_. Dies hat folgende Auswirkungen:
+
+-   Statische _Methoden_ **und** _Klassenattribute_ sind **ohne** Instanz der Klasse verfügbar (sofern sie sichtbar sind!).
+-   Statische _Klassenattribute_ haben klassenweit - also in jeder Instanz der Klasse - immer den selben Wert. Die werden auch _Klassenvariablen_ genannt!
+-   In _statischen Methoden_ kann **nicht** auf _nicht-statische Klassenattribute_ zugegriffen werden, da diese (anders als die statische Methode) an Instanzen der Klasse gebunden sind und ohne Instanziierung der Klasse keinen Wert haben **können**.
+
+**Beispiel für _Klassenvariablen_:**
 
 ```java
 public class User {
@@ -578,7 +617,7 @@ public class User {
   public String getDisplayString(){
     return this.displayString;
   }
-  
+
 }
 
 
@@ -598,7 +637,7 @@ public class Application {
 }
 ```
 
-**Beispiel für *statische Methoden*:**
+**Beispiel für _statische Methoden_:**
 
 ```java
 public class User {
@@ -614,7 +653,7 @@ public class User {
   public static String generateUserID(String userMailAddress){
     return "User" + Math.abs(userMailAddress.hashCode());
   }
-  
+
 }
 
 
@@ -632,29 +671,35 @@ public class Application {
 ```
 
 ## Konstanten in Java
-Konstanten (hier: unveränderbare Felder, die über alle Instanzen hinweg den selben Wert haben) werden für gewöhnlich mit `static` *und* `final` definiert und befolgen die Naming Conventions:
+
+Konstanten (hier: unveränderbare Felder, die über alle Instanzen hinweg den selben Wert haben) werden für gewöhnlich mit `static` _und_ `final` definiert und befolgen die Naming Conventions:
+
 ```java
 // könnte auch "public" sein
 private static final int THIS_IS_A_PRIVATE_CONSTANT = 2;
 ```
 
 ## Vererbung
-Klassen können Eigenschaften (Klassenattribute / *features*) und Fähigkeiten (Methoden / *behavior*) von anderen Klassen *erben*.
+
+Klassen können Eigenschaften (Klassenattribute / _features_) und Fähigkeiten (Methoden / _behavior_) von anderen Klassen _erben_.
 
 ### Terminologie
-Die *vererbenden* Klassen werden als **Superklassen**, **Elternklassen** oder **Überklassen** (Englisch *parent class* oder *super class*) bezeichnet, die *erbenden* hingegen respektive als **Subklassen**, **Kindklassen** oder **Unterklassen** (Englisch *child class* oder *sub class*).  
-Die *erbende* Klasse **erweitert** die Klasse, von der sie erbt, da sie (normalerweise) Eigenschaften und Fähigkeiten besitzt, die über jene der Superklasse hinausgehen.
+
+Die _vererbenden_ Klassen werden als **Superklassen**, **Elternklassen** oder **Überklassen** (Englisch _parent class_ oder _super class_) bezeichnet, die _erbenden_ hingegen respektive als **Subklassen**, **Kindklassen** oder **Unterklassen** (Englisch _child class_ oder _sub class_).  
+Die _erbende_ Klasse **erweitert** die Klasse, von der sie erbt, da sie (normalerweise) Eigenschaften und Fähigkeiten besitzt, die über jene der Superklasse hinausgehen.
 
 ### Wozu ist Vererbung gut?
-- Eigenschaften und Fähigkeiten von Klassen werden zu Eigenschaften und Fähigkeiten aller Subklassen. So wird nicht nur Code wiederverwendet, sondern die Logik dieser Eigenschaften und Fähigkeiten lässt sich für *alle* Subklassen an einer einzigen Stelle ändern, ohne den Code der Subklassen zu verändern.
-- Der Code modelliert reale Phänomene und Beziehungen auf semantisch klare Weise.
-- Sie ermöglicht [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)) unter Typen, denn jede Instanz einer Klasse ist auch eine Instanz aller Superklassen.
-- ...
+
+-   Eigenschaften und Fähigkeiten von Klassen werden zu Eigenschaften und Fähigkeiten aller Subklassen. So wird nicht nur Code wiederverwendet, sondern die Logik dieser Eigenschaften und Fähigkeiten lässt sich für _alle_ Subklassen an einer einzigen Stelle ändern, ohne den Code der Subklassen zu verändern.
+-   Der Code modelliert reale Phänomene und Beziehungen auf semantisch klare Weise.
+-   Sie ermöglicht [Polymorphie](<https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)>) unter Typen, denn jede Instanz einer Klasse ist auch eine Instanz aller Superklassen.
+-   ...
 
 ### Wie funktioniert das?
-- Alle Klassen erben automatisch von der Klasse `Object` (denn alle Instanzen von Klassen sind Objekte).
-- Mit dem Schlüsselwort `extends` wird eine Verwandschaft markiert.
-- Jede Klasse kann in Java nur von einer anderen Klasse erben. Es ist **keine Mehrfachvererbung** möglich!
+
+-   Alle Klassen erben automatisch von der Klasse `Object` (denn alle Instanzen von Klassen sind Objekte).
+-   Mit dem Schlüsselwort `extends` wird eine Verwandschaft markiert.
+-   Jede Klasse kann in Java nur von einer anderen Klasse erben. Es ist **keine Mehrfachvererbung** möglich!
 
 ```java
 // jede Person ist auch ein Object
@@ -670,11 +715,13 @@ public class User extends Person {
 ```
 
 ### Casting von komplexen Datentypen
-- möglich von Superklassen zu Subklassen (auf eigene Verantwortung)
-- unnötig von Subklassen zu Superklassen (wg. [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)))
-- ...
+
+-   möglich von Superklassen zu Subklassen (auf eigene Verantwortung)
+-   unnötig von Subklassen zu Superklassen (wg. [Polymorphie](<https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)>))
+-   ...
 
 ### instanceof
+
 `instanceof` ist ein Operator, der die Zugehörigkeit eines Objektes zu einem bestimmten Typ überprüft:
 
 ```java
@@ -686,14 +733,16 @@ System.out.println(user instanceof List); // false
 ```
 
 ### Überschreiben von Methoden
+
 Methoden von Superklassen können in Subklassen überschrieben werden (markiert durch die `@Override`-Annotation)
 
 > **(!) Aus den docs zu** `@Override` [#](https://docs.oracle.com/javase/8/docs/api/java/lang/Override.html)  
-> *Indicates that a method declaration is intended to override a method declaration in a supertype. If a method is annotated with this annotation type compilers are required to generate an error message unless at least one of the following conditions hold:*
-> - *The method does override or implement a method declared in a supertype.*
-> - *The method has a signature that is override-equivalent to that of any public method declared in Object.* 
->  
-> &rarr; `@Override` ist also *nicht* nötig, macht aber den Code eindeutiger und veranlasst den Compiler dazu, hilfreiche Fehlermeldungen zu liefern!
+> _Indicates that a method declaration is intended to override a method declaration in a supertype. If a method is annotated with this annotation type compilers are required to generate an error message unless at least one of the following conditions hold:_
+>
+> -   _The method does override or implement a method declared in a supertype._
+> -   _The method has a signature that is override-equivalent to that of any public method declared in Object._
+>
+> &rarr; `@Override` ist also _nicht_ nötig, macht aber den Code eindeutiger und veranlasst den Compiler dazu, hilfreiche Fehlermeldungen zu liefern!
 
 ```java
 // jede Person ist auch ein Object
@@ -714,16 +763,18 @@ public class User extends Person {
 ```
 
 ### toString()
-- gibt eine möglichst sinnvolle textuelle (*String*-) Repräsentation des Objektes zurück, für das es aufgerufen wird
-- sollte in eigenen Klassen generell überschrieben werden, mindestens aber in Datenklassen/POJOs
-- falls `toString()` für den Typ des Objektes nicht überschrieben ist, wird (wie bei allen entsprechenden Methoden) die `toString()`-Methode der Superklasse - nämlich `Object` aufgerufen
+
+-   gibt eine möglichst sinnvolle textuelle (_String_-) Repräsentation des Objektes zurück, für das es aufgerufen wird
+-   sollte in eigenen Klassen generell überschrieben werden, mindestens aber in Datenklassen/POJOs
+-   falls `toString()` für den Typ des Objektes nicht überschrieben ist, wird (wie bei allen entsprechenden Methoden) die `toString()`-Methode der Superklasse - nämlich `Object` aufgerufen
 
 Dieser Code ...
+
 ```java
 public class User {
 
 	private String name;
-	
+
 	public User(String name) {
 		this.name = name;
 	}
@@ -731,7 +782,7 @@ public class User {
 	public String getName() {
 		return name;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "User(" + name + ")";
@@ -748,25 +799,26 @@ public class Program {
 
 }
 ```
+
 ... würde **ohne** überschriebene `toString()`-Methode in der Klasse User **User@4aa298b7** (o.ä.) ausgeben, gibt nun aber stattdessen **User(Otto Normal)** aus. Diese Repräsentation des User-Objektes ist wesentlich wertvoller.
 
-
 ### equals()
-Objekte werden **nicht** mit `==` verglichen, sondern mit `equals()`, denn `==` überprüft nicht die semantische Gleichheit von zwei Objekten, sondern bildet lediglich einen *wahren* Ausdruck, wenn es sich um zwei Referenzen *auf das selbe Objekt* handelt!  
+
+Objekte werden **nicht** mit `==` verglichen, sondern mit `equals()`, denn `==` überprüft nicht die semantische Gleichheit von zwei Objekten, sondern bildet lediglich einen _wahren_ Ausdruck, wenn es sich um zwei Referenzen _auf das selbe Objekt_ handelt!  
 Genau wie `toString()`, sollte `equals()` grundsätzlich überschrieben werden (mindestens in Datenklassen / POJOs).
 
 > **(!) Achtung:**  
-> Man versucht gern mit `"hallo" == "hallo"` zu beweisen, dass sich Strings in Java so nicht vergleichen lassen (aus oben genannten Gründen) und steht dann ziemlich dumm da, wenn der Ausdruck plötzlich doch `true` ergibt. Das liegt an Javas *[string interning](https://stackoverflow.com/questions/10578984/what-is-java-string-interning)*, wodurch identische Strings intern auf das selbe Objekt (und somit die selbe Speicher-Referenz) reduziert werden!
+> Man versucht gern mit `"hallo" == "hallo"` zu beweisen, dass sich Strings in Java so nicht vergleichen lassen (aus oben genannten Gründen) und steht dann ziemlich dumm da, wenn der Ausdruck plötzlich doch `true` ergibt. Das liegt an Javas _[string interning](https://stackoverflow.com/questions/10578984/what-is-java-string-interning)_, wodurch identische Strings intern auf das selbe Objekt (und somit die selbe Speicher-Referenz) reduziert werden!
 
 ```java
 public class User {
-	
+
 	private String eMail;
-	
+
 	public User(String eMail) {
 		this.eMail = eMail;
 	}
-	
+
 	public String getEMail() {
 		return eMail;
 	}
@@ -777,7 +829,7 @@ public class User {
 			&& obj instanceof User
 			&& ((User)obj).getEMail().equals(this.getEMail());
 	}
-	
+
 }
 
 public class Program {
@@ -791,10 +843,11 @@ public class Program {
 ```
 
 ### Abstrakte Klassen und Methoden
-- Abstrakte Klassen können und sollen nicht direkt instanziiert werden, da sie lediglich (teilweise implementierte) Vorlagen für ihre Subklassen sind.
-- Das Schlüsselwort `abstract` macht eine Klasse zu einer abstrakten Klasse.
-- Eine abstrakte Klasse *kann* abstrakte Methoden enthalten, muss dies aber nicht.
-- Abstrakte Klassen werden benötigt, wenn sich mehrere Klassen gemeinsame Eigenschaften und Fähigkeiten teilen (also eine Superklasse brauchen), diese gemeinsamen Eigenschaften und Fähigkeiten aber noch keine sinnvolle/brauchbare Klasse ergeben, von der man Instanzen erzeugen können sollte.
+
+-   Abstrakte Klassen können und sollen nicht direkt instanziiert werden, da sie lediglich (teilweise implementierte) Vorlagen für ihre Subklassen sind.
+-   Das Schlüsselwort `abstract` macht eine Klasse zu einer abstrakten Klasse.
+-   Eine abstrakte Klasse _kann_ abstrakte Methoden enthalten, muss dies aber nicht.
+-   Abstrakte Klassen werden benötigt, wenn sich mehrere Klassen gemeinsame Eigenschaften und Fähigkeiten teilen (also eine Superklasse brauchen), diese gemeinsamen Eigenschaften und Fähigkeiten aber noch keine sinnvolle/brauchbare Klasse ergeben, von der man Instanzen erzeugen können sollte.
 
 ```java
 /*
@@ -829,7 +882,7 @@ public abstract class Vehicle {
   private float accelleration;
   private boolean flying;
   private String name;
-	
+
   // abstrakte Methoden besitzen keinen
   // Methoden-Körper!
   public abstract void accellerate();
@@ -838,7 +891,7 @@ public abstract class Vehicle {
 public class Rocket extends Vehicle {
 
   private boolean inSpace;
-	
+
   @Override
   public void accellerate(){
     currentSpeed += accelleration * (inSpace ? 2 : 1);
@@ -850,13 +903,14 @@ public class Rocket extends Vehicle {
 **Ausnahme:** Die erweiternde/erbende Klasse ist selbst auch eine abstrakte Klasse. In diesem Fall kann sie die geerbte abstakte Methode ebenfalls als abstrakte Methode "weitergeben"!
 
 ### Interfaces
-- werden mit `interface` eingeleitet (nicht mit `class`, siehe Beispiel unten)
-- werden von Klassen *implementiert* (nicht erweitert) mit dem Schlüsselwort `implements`, oder von anderen Interfaces erweitert (in diesem Fall mit `extends`)
-- sind (wörtlich) eine **Schnittstelle** zu anderen Programmteilen
-- können nicht instanziiert werden
-- enthalten **keinerlei** Implementationen von Methoden, sondern nur abstrakte Methoden
-  - **Ausnahme:** Seit Java 8 gibt es [default methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
-- Methoden sind hier automatisch `abstract` und `public`, wobei `public` meist trotzdem mit angegeben wird.
+
+-   werden mit `interface` eingeleitet (nicht mit `class`, siehe Beispiel unten)
+-   werden von Klassen _implementiert_ (nicht erweitert) mit dem Schlüsselwort `implements`, oder von anderen Interfaces erweitert (in diesem Fall mit `extends`)
+-   sind (wörtlich) eine **Schnittstelle** zu anderen Programmteilen
+-   können nicht instanziiert werden
+-   enthalten **keinerlei** Implementationen von Methoden, sondern nur abstrakte Methoden
+    -   **Ausnahme:** Seit Java 8 gibt es [default methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
+-   Methoden sind hier automatisch `abstract` und `public`, wobei `public` meist trotzdem mit angegeben wird.
 
 **Ein (minimales) Anwendungsbeispiel zu Interfaces:**  
 Mit einem Interface `TextProcessor`, welches die Fähigkeiten von Text-Prozessoren beschreibt (nämlich das Prozessieren von Text, was auch immer das bedeutet) ...
@@ -898,30 +952,33 @@ public class TextToUpperCase implements TextProcessor {
 
 Da die Methode `applyTextProcessor()` der Klasse `TextEditor` gegen das Interface `TextProcessor` entwickelt wurde, funktioniert sie mit **jeder** ordentlichen Implementation von `TextProcessor`.
 
-
 # Fehlerbehandlung
+
 ## Exceptions und Errors
-- In Programmen können Fehler (**Exceptions** und **Errors**) auftreten (man sagt auch, es wird ein Fehler *"geworfen"*)
-- Errors sind Fehler, die *nicht aufgefangen werden können* (catch), sie bringen das Programm zum Absturz
-- Exceptions können *"aufgefangen"* werden (catch), d.h. es kann mit Hilfe einer gut durchdachten Fehlerbehandlung mit dem Fehler umgegangen werden, sodass das Programm nicht unerwartet beendet werden muss
-- **Exception** und **Error** sind vom Typ *Throwable* (deshalb *"Werfen"* von Fehlern), es steckt eine ganze Klassenhierarchie hinter den verschiedenen Fehlertypen
+
+-   In Programmen können Fehler (**Exceptions** und **Errors**) auftreten (man sagt auch, es wird ein Fehler _"geworfen"_)
+-   Errors sind Fehler, die _nicht aufgefangen werden können_ (catch), sie bringen das Programm zum Absturz
+-   Exceptions können _"aufgefangen"_ werden (catch), d.h. es kann mit Hilfe einer gut durchdachten Fehlerbehandlung mit dem Fehler umgegangen werden, sodass das Programm nicht unerwartet beendet werden muss
+-   **Exception** und **Error** sind vom Typ _Throwable_ (deshalb _"Werfen"_ von Fehlern), es steckt eine ganze Klassenhierarchie hinter den verschiedenen Fehlertypen
 
 ![Exceptions/Errors Class Hierarchy](/images/Exception-Hierarchy-Diagram.jpeg)  
 Quelle: [programcreek.com](http://www.programcreek.com/2009/02/diagram-for-hierarchy-of-exception-classes/)
 
 ## try-catch-finally
-- Mit einem Code-Block aus `try`, `catch` und `finally` wird der Umgang mit potentiellen Exceptions definiert
-- `try`-Block enthält den Code, der eine Exception verursachen könnte.
-- `catch`-Block/Blöcke (einer oder mehrere) enthält den Code, der im Falle einer bestimmten Exception ausgeführt wird. Ein `catch`-Block wird nur dann ausgeführt, wenn die geworfene Exception
-- `finally`-Block (falls vorhanden, optional!) enthält den Code, der unabhängig von einem ausgelösten `catch`-Block **am Ende der Fehlerbehandlung** ausgeführt wird. Dabei spielt es keine Rolle, ob eine Fehler überhaupt aufgetreten ist!
-- Nach dem *try-catch(-finally)*-Block wird der darauf folgende Programm-Code weiter ausgeführt.
-- Falls im `try`-Block kein Fehler auftritt, werden alle `catch`-Blöcke ignoriert; ein etwaiges `finally` wird aber noch ausgeführt.
-- Falls kein `catch`-Block die geworfene Exception abfängt, wird trotzdem ein evtl. vorhandener `finally`-Block ausgeführt, bevor die Exception dann von der default-Fehlerbehandlung verarbeitet wird (Stack Trace über den ErrOut auf Konsole ausgeben).
+
+-   Mit einem Code-Block aus `try`, `catch` und `finally` wird der Umgang mit potentiellen Exceptions definiert
+-   `try`-Block enthält den Code, der eine Exception verursachen könnte.
+-   `catch`-Block/Blöcke (einer oder mehrere) enthält den Code, der im Falle einer bestimmten Exception ausgeführt wird. Ein `catch`-Block wird nur dann ausgeführt, wenn die geworfene Exception
+-   `finally`-Block (falls vorhanden, optional!) enthält den Code, der unabhängig von einem ausgelösten `catch`-Block **am Ende der Fehlerbehandlung** ausgeführt wird. Dabei spielt es keine Rolle, ob eine Fehler überhaupt aufgetreten ist!
+-   Nach dem _try-catch(-finally)_-Block wird der darauf folgende Programm-Code weiter ausgeführt.
+-   Falls im `try`-Block kein Fehler auftritt, werden alle `catch`-Blöcke ignoriert; ein etwaiges `finally` wird aber noch ausgeführt.
+-   Falls kein `catch`-Block die geworfene Exception abfängt, wird trotzdem ein evtl. vorhandener `finally`-Block ausgeführt, bevor die Exception dann von der default-Fehlerbehandlung verarbeitet wird (Stack Trace über den ErrOut auf Konsole ausgeben).
 
 ![try-catch-finally-flow](/images/java-try-catch-finally-flow.jpg)  
 Quelle: [howtodoinjava.com](https://howtodoinjava.com/java/exception-handling/try-catch-finally/)
 
 **Syntax und Beispiel:**
+
 ```java
   int[] numbers = {1,2,3};
   int number = 0;
@@ -940,15 +997,18 @@ Quelle: [howtodoinjava.com](https://howtodoinjava.com/java/exception-handling/tr
     System.out.println(number);
   }
 ```
+
 Dieser Code würde für `number = numbers[2]` einfach `3` ausgeben. Falls aber ein Fehler auftritt, etwa wie im Beispiel bei `number = numbers[3]`, wäre die Ausgabe `Dieser Index existiert nicht! -1` (Zeilenumbruch hier entfernt).
 
 ## try-with-resources
-- Spezialform der Fehlerbehandlung für im `try`-Block verwendete Ressourcen, die nach ihrer Verwendung wieder geschlossen werden müssen (etwa beim Arbeiten mit Datenströmen)
-- Der `try`-Block deklariert die entsprechende(n) Ressource(n) (mehrere Ressourcen durch `;` getrennt möglich!)
-- Normalerweise würde man die Ressourcen im `finally`-Block schließen - dies geschieht hier aber automatisch!
-- Diese Form des `try`-Blocks funktioniert mit allen Ressourcen, die `java.lang.AutoCloseable` implementieren (schließt `java.lang.Closeable` ein, denn `Closeable` erweitert `AutoCloseable`). 
+
+-   Spezialform der Fehlerbehandlung für im `try`-Block verwendete Ressourcen, die nach ihrer Verwendung wieder geschlossen werden müssen (etwa beim Arbeiten mit Datenströmen)
+-   Der `try`-Block deklariert die entsprechende(n) Ressource(n) (mehrere Ressourcen durch `;` getrennt möglich!)
+-   Normalerweise würde man die Ressourcen im `finally`-Block schließen - dies geschieht hier aber automatisch!
+-   Diese Form des `try`-Blocks funktioniert mit allen Ressourcen, die `java.lang.AutoCloseable` implementieren (schließt `java.lang.Closeable` ein, denn `Closeable` erweitert `AutoCloseable`).
 
 **Beispiel Datei einlesen OHNE try-with-resources**
+
 ```java
   BufferedReader br = null;
   String line;
@@ -974,6 +1034,7 @@ Dieser Code würde für `number = numbers[2]` einfach `3` ausgeben. Falls aber e
 ```
 
 **Beispiel Datei einlesen MIT try-with-resources**
+
 ```java
   String line;
 
@@ -987,9 +1048,10 @@ Dieser Code würde für `number = numbers[2]` einfach `3` ausgeben. Falls aber e
 ```
 
 ## throws
-- Eine Methode kann explizit dazu in der Lage sein, eine bestimmte Exception zu "werfen". Dies wird mit dem Schlüsselwort `throws` markiert.
-- Der Typ der Exception muss dabei angegeben werden.
-- Methoden, in denen diese "werfende" Methode aufgerufen wird, müssen eine Fehlerbehandlung vornehmen (Ausnahme: Exceptions vom Typ `RuntimeException`)!
+
+-   Eine Methode kann explizit dazu in der Lage sein, eine bestimmte Exception zu "werfen". Dies wird mit dem Schlüsselwort `throws` markiert.
+-   Der Typ der Exception muss dabei angegeben werden.
+-   Methoden, in denen diese "werfende" Methode aufgerufen wird, müssen eine Fehlerbehandlung vornehmen (Ausnahme: Exceptions vom Typ `RuntimeException`)!
 
 ```java
 public int thisWillFail(int[] numbers) throws ArrayIndexOutOfBoundsException {
@@ -998,42 +1060,63 @@ public int thisWillFail(int[] numbers) throws ArrayIndexOutOfBoundsException {
 ```
 
 # Dokumentation JavaDoc
-- ...
+
+-   ...
 
 > An dieser Stelle gut zur Wiederholung geeignet:  
 > **Projekt: [StringList](Projekte/StringList)**
 
 # Input/Output
-> **Projekt: [IO-Benchmarking](Projekte/IO-Benchmarking)**
-## Streams
-- ...
-## Buffering
-- ...
-## Reader und Writer
-- ...
-## Objekt-Serialisierung (Serializable)
-- ...
 
+> **Projekt: [IO-Benchmarking](Projekte/IO-Benchmarking)**
+
+## Streams
+
+-   ...
+
+## Buffering
+
+-   ...
+
+## Reader und Writer
+
+-   ...
+
+## Objekt-Serialisierung (Serializable)
+
+-   ...
 
 # Datenstrukturen II: Verkettete Listen
-## Einfach verkettete Listen
-- ...
-## Zweifach verkettete Listen
-- ...
 
+## Einfach verkettete Listen
+
+-   ...
+
+## Zweifach verkettete Listen
+
+-   ...
 
 # Generics
-- ...
-- Implementation am Beispiel der verketteten Liste
-- ...
-> **Projekt: [GenericList](Projekte/GenericList)**
+
+-   ...
+-   Implementation am Beispiel der verketteten Liste
+-   ...
+    > **Projekt: [GenericList](Projekte/GenericList)**
 
 # Datenstrukturen III: Das Collections Framework
+
 ## List
-- ...
+
+-   ...
+
 ## Set
-- ...
+
+-   ...
+
 ## Map
-- ...
+
+-   ...
+
 ## Object equality im Kontext von HashMaps/Sets
-- Vertrag zwischen `equals()` und `hashCode()`
+
+-   Vertrag zwischen `equals()` und `hashCode()`
