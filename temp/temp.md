@@ -1,1 +1,0 @@
-![temp](/Materialien/array.jpeg)
