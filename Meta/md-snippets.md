@@ -9,6 +9,10 @@ Quelle: [Github](https://www.github.com)
 
 
 # Code-Beispiele
+Es ist zwar im Markdown etwas hässlich, räumt visuell aber ganz nett auf...
+
+<details>
+<summary>Code anzeigen</summary>
 
 <details>
 <summary>Code anzeigen</summary>
@@ -21,12 +25,3 @@ public class HelloWorld {
 }
 ```
 </details>
-
-
-
-<!---------------
-  DOCUMENT STYLES
------------------->
-<style>
-    summary { font-weight: bold; cursor: pointer; }
-</style>
