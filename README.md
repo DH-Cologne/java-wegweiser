@@ -1,408 +1,112 @@
-# Softwaretechnologie: Java
-
-**Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des Softwaretechnologie-Moduls (_BM4_) der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** _(Institut für Digital Humanities, Universität zu Köln)_.
-
-> Work in progress.  
-> Forever. :snail:
-
-**Was ist das hier bzw. was ist es nicht?**
-
-Dies ist eine Übersicht über die Inhalte, die im Seminar besprochen werden sollten. Der Sinn dieses Dokumentes ist es _nicht_, Erläuterungen zu allen Inhalten des Seminars bereitzustellen. Dies ist keine Lern-Ressource oder gar "Script" zum Seminar. Ziel ist vielmehr eine möglichst vollständige und semantisch bzw. didaktisch strukturierte Aufstellung aller Themen und Aspekte, ergänzt durch unterstützende Materialien (siehe Ordner `Materialien`), Links zu relevanten, weiterführenden Ressourcen (mit `#` gekennzeichnet), sowie passende Übungs- und Hausaufgaben aus diesem Repository (siehe Ordner `Projekte`).
-
-- [Softwaretechnologie: Java](#softwaretechnologie-java)
-- [Die Programmiersprache Java](#die-programmiersprache-java)
-- [Erste Schritte](#erste-schritte)
-  - [Hello World! :rocket:](#hello-world-rocket)
-  - [Pakete](#pakete)
-  - [Java-Klassenbibliothek](#java-klassenbibliothek)
-- [Eclipse IDE](#eclipse-ide)
-- [Variablen](#variablen)
-- [Datentypen](#datentypen)
-  - [Primitive Datentypen](#primitive-datentypen)
-  - [Komplexe Datentypen](#komplexe-datentypen)
-  - [Casting / Typumwandlung bei primitiven Datentypen](#casting--typumwandlung-bei-primitiven-datentypen)
-- [Methoden](#methoden)
-- [Operatoren](#operatoren)
-  - [Arithmetische- / Rechenoperatoren](#arithmetische---rechenoperatoren)
-- [Post-/Preinkrement](#post-preinkrement)
-  - [Vergleichsoperatoren](#vergleichsoperatoren)
-  - [Boolsche / Logische Operatoren](#boolsche--logische-operatoren)
-  - [Operatoren zur Bit-Manipulation (erstmal weglassen?)](#operatoren-zur-bit-manipulation-erstmal-weglassen)
-  - [Zuweisungsoperatoren](#zuweisungsoperatoren)
-- [Strings / Zeichenketten](#strings--zeichenketten)
-- [Datenstrukturen I: Arrays](#datenstrukturen-i-arrays)
-  - [Deklaration und Initialisierung](#deklaration-und-initialisierung)
-  - [Zugriff und Manipulation](#zugriff-und-manipulation)
-  - [Mehrdimensionale Arrays](#mehrdimensionale-arrays)
-- [Kontrollstrukturen](#kontrollstrukturen)
-  - [if, else if, else](#if-else-if-else)
-  - [Ternary-Operator](#ternary-operator)
-  - [switch](#switch)
-  - [Schleifen](#schleifen)
-    - [for](#for)
-    - [while](#while)
-    - [do-while](#do-while)
-- [Objektorientierte Programmierung mit Java](#objektorientierte-programmierung-mit-java)
-  - [Was ist OOP?](#was-ist-oop)
-  - [Klassenattribute](#klassenattribute)
-  - [Sichtbarkeits- / Zugriffsmodifizierer](#sichtbarkeits---zugriffsmodifizierer)
-  - [this](#this)
-  - [super](#super)
-  - [Getter & Setter](#getter--setter)
-  - [Konstruktoren](#konstruktoren)
-  - [final](#final)
-  - [static](#static)
-  - [Konstanten in Java](#konstanten-in-java)
-  - [Vererbung](#vererbung)
-    - [Terminologie](#terminologie)
-    - [Wozu ist Vererbung gut?](#wozu-ist-vererbung-gut)
-    - [Wie funktioniert das?](#wie-funktioniert-das)
-    - [Casting von komplexen Datentypen](#casting-von-komplexen-datentypen)
-    - [instanceof](#instanceof)
-    - [Überschreiben von Methoden](#Überschreiben-von-methoden)
-    - [toString()](#tostring)
-    - [equals()](#equals)
-    - [Abstrakte Klassen und Methoden](#abstrakte-klassen-und-methoden)
-    - [Interfaces](#interfaces)
-- [Fehlerbehandlung](#fehlerbehandlung)
-  - [Exceptions und Errors](#exceptions-und-errors)
-  - [try-catch-finally](#try-catch-finally)
-  - [try-with-resources](#try-with-resources)
-  - [throws](#throws)
-- [Dokumentation JavaDoc](#dokumentation-javadoc)
-- [Input/Output](#inputoutput)
-  - [Streams](#streams)
-  - [Buffering](#buffering)
-  - [Reader und Writer](#reader-und-writer)
-  - [Objekt-Serialisierung (Serializable)](#objekt-serialisierung-serializable)
-- [Datenstrukturen II: Verkettete Listen](#datenstrukturen-ii-verkettete-listen)
-  - [Einfach verkettete Listen](#einfach-verkettete-listen)
-  - [Zweifach verkettete Listen](#zweifach-verkettete-listen)
-- [Generics](#generics)
-- [Datenstrukturen III: Das Collections Framework](#datenstrukturen-iii-das-collections-framework)
-  - [List](#list)
-  - [Set](#set)
-  - [Map](#map)
-  - [Object equality im Kontext von HashMaps/Sets](#object-equality-im-kontext-von-hashmapssets)
-
-# Die Programmiersprache Java
-
--   C-artige, universelle Programmiersprache
--   JVM [#](https://de.wikibooks.org/wiki/Java_Standard:_Java_Virtual_Machine)
--   Bytecode
--   Garbage Collector
--   von Grund auf objektorientiert [#](https://de.wikibooks.org/wiki/Java_Standard:_Objektorientierung)
--   sehr umfangreiche Standard-Library / Klassenbibliothek
-
-![Java Platform Diagram](/images/Java-Platform-Diagram.png)
-Grafik: [#](/images/Java-Platform-Diagram.png)
-
-# Erste Schritte
-
-## Hello World! :rocket:
+# Der wachsende Reader zu Softwaretechnologie: Java
 
--   Woraus besteht eine **Klasse** mindestens?
--   Was ist eine **Methode**?
--   **main**-Methode mit "Hello World!"
-    -   Einstiegspunkt ins Programm
-    -   Was ist ein String / Zeichenkette (Klasse/Objekt!)?
+Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des Softwaretechnologie-Moduls (_BM4_) der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** _(Institut für Digital Humanities, Universität zu Köln)_.
 
-```java
-public class HelloWorld {
-      public static void main(String[] args) {
-          System.out.println("Hello World!"); // ach, was!
-      }
-}
-```
+> Work in progress. Forever. :snail:
 
-## Pakete
+[&ddarr; **Direkt zum Inhalt** &ddarr;](#inhalt)
 
--   Was sind Pakete und wozu sind sie da? [#](https://de.wikibooks.org/wiki/Java_Standard:_Erste_Schritte#Pakete)
--   Wie sehen Pakete auf meiner Festplatte aus?
 
-## Java-Klassenbibliothek
+## Was ist das hier bzw. was ist es nicht?
 
--   Beispiele für häufig verwendete Klassen [#](https://de.wikibooks.org/wiki/Java_Standard:_Erste_Schritte#Klassenbibliothek)
--   Paketstruktur der Klassenbibliothek
+Dies ist eine erläuterte Übersicht über die Inhalte des Moduls _Softwaretechnologie: Java_ (und einige mehr). Es handelt sich _nicht_ um eine vollständige Lösung zum Erlernen der behandelten Konzepte (Lehrbücher gibt es genug), sondern um eine ergänzende Ressource zur Wiederholung und Orientierung für TeilnehmerInnen des Moduls. Dieses Repository unterscheidet sich von einem Java-Lehrbuch also eben durch die bewusste Reduktion des Inhalts auf die für das Modul relevanten Inhalte und deren möglichst effektive Erläuterung (effektiv im Gegensatz zu ausschweifend!).
 
-# Eclipse IDE
+Es finden sich zwischen den Zeilen außerdem Code-Beispiele, unterstützende Materialien, Links zu weiterführenden Ressourcen (mit `#` gekennzeichnet), sowie passende Übungs-Aufgaben (siehe Ordner `projects`).
 
--   Was ist das für ein Programm? [#](https://de.wikibooks.org/wiki/Java_Standard:_Einrichten_der_Programmierumgebung#Eclipse)
--   Die wichtigsten Views (Package Manager, Editor, Outline, Console)
--   Das erste Projekt anlegen
-    -   Was ist da alles drin?
-    -   Wo findet man das Paket-Konzept wieder?
--   Import / Export von Projekten
--   Programme ausführen über Kontextmenü und "Play"-Button
+## Mitwirken / Contribution
 
-# Variablen
+In guter Open Source-Manier ist jede\*r TeilnehmerIn dazu eingeladen, dieses Repository mitzugestalten, inhaltlich zu erweitern oder auch einfach nur etwaige Fehler zu korrigieren.  
+Es wird darum gebeten, hierfür den üblichen Weg über einen Fork &rarr; neuer Branch &rarr; Pull Request zu gehen oder (einfacher) die Funktion zur direkten Editierung von Markodown-Files in GitHub zu nutzen (diese erstellt automatisch einen Pull Request).
 
--   sind Bezeichner für Werte in bestimmten Speicherbereichen, die mit der Variable angesprochen werden können
--   Java ist streng typisiert, Deklaration daher immer unter Angabe des Datentyps
--   naming conventions (lowerCamelCase)
--   Gültigkeitsbereiche
-    -   Methode, Kontrollstruktur oder Klasse (siehe [Klassenattribute](#klassenattribute))
+## Inhalt
 
-# Datentypen
+**[Die Programmiersprache Java](/documents/Die-Programmiersprache-Java.md)**  
+Warum Java? Warum lieber nicht? Was unterscheidet Java von anderen Programmiersprachen? Was ist das *Java Ecosystem*?
 
-## Primitive Datentypen
+**[Erste Schritte](/documents/Erste-Schritte.md)**  
+Hello World! 
 
--   `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, `char`
--   Welche **default values** haben diese Datentypen?
+**[Die IDE Eclipse](/documents/Die-IDE-Eclipse.md)**  
+Ein Beschreibung der wichtigsten Funktionen der *Eclipse* IDE (**I**ntegrated **D**evelopment **I**nvironment oder *Entwicklungsumgebung*)
 
-![primitive types overview](/images/primitive-data-types.png)
-Grafik: [#](/images/primitive-data-types.png), Quelle [#](https://de.wikibooks.org/wiki/Java_Standard)
+**[Variablen](/documents/Variablen.md)**  
+Referenzen auf Werte und Objekte
 
-## Komplexe Datentypen
+**[Datentypen](/documents/Datentypen.md)**  
+Alles zu primitiven und komplexen Datentypen
 
--   Klassen und Arrays sind komplexe Datentypen (dazu später mehr!)
+**[Casting](/documents/Casting.md)**  
+Typumwandlung von primitiven und komplexen Datentypen
 
-## Casting / Typumwandlung bei primitiven Datentypen
+**[Methoden](/documents/Methoden.md)**  
+Aufbau, Rückgabewerte, Parameter/Argumente, `return`-Statement
 
--   Implizite Typumwandlung: Ein "niederwertiger" Typ wird einem "höherwertigen" Typ zugewiesen (Umwandlung geschieht automatisch)
-    -   `double d; int i = 2; d = i;`
+**[Operatoren](/documents/Operatoren.md)**  
+Rechenoperatoren, Vergleichsoperatoren, logische Operatoren, Zuweisungsoperatoren 
 
-![upcast](/images/typecast_1.jpg)  
-Grafik: [#](/images/typecast_1.jpg), Quelle: [#](https://www.java-tutorial.org/typecasting.html)
+**[Strings](/documents/Strings.md)**  
+Zeichenketten in Java
 
--   Explizite Typumwandlung: Ein "höherwertiger" Typ wird in "niederwertigen" Typ umgewandelt
-    -   geschieht mittels cast-Operator
-    -   Ziel-Typ **muss** angegeben werden
-    -   `double d = 2.2d; int i; i = (int) d;`
+**[Arrays](/documents/Arrays.md)**  
+Eine grundlegende, lineare Datenstruktur
 
-![upcast](/images/typecast_2.jpg)  
-Grafik: [#](/images/typecast_2.jpg), Quelle: [#](https://www.java-tutorial.org/typecasting.html)
+**[Konditionale](/documents/Konditionale.md)**  
+`if`...`else if`...`else`, Ternary-Operator und `switch`
 
-# Methoden
+**[Schleifen](/documents/Arrays.md)**  
+`while`, `do`...`while`, `for` (...und for-each)
 
--   Rückgabetyp / `void`
--   Parameter
--   `return`
--   naming: `lowerCamelCase()`
--   Überlagerung von Methoden
 
-# Operatoren
 
-## Arithmetische- / Rechenoperatoren
 
--   Einfache: `+ - * / %`
 
-# Post-/Preinkrement
+-   [Objektorientierte Programmierung mit Java](#objektorientierte-programmierung-mit-java)
+    -   [Was ist OOP?](#was-ist-oop)
+    -   [Klassenattribute](#klassenattribute)
+    -   [Sichtbarkeits- / Zugriffsmodifizierer](#sichtbarkeits---zugriffsmodifizierer)
+    -   [this](#this)
+    -   [super](#super)
+    -   [Getter & Setter](#getter--setter)
+    -   [Konstruktoren](#konstruktoren)
+    -   [final](#final)
+    -   [static](#static)
+    -   [Konstanten in Java](#konstanten-in-java)
+    -   [Vererbung](#vererbung)
+        -   [Terminologie](#terminologie)
+        -   [Wozu ist Vererbung gut?](#wozu-ist-vererbung-gut)
+        -   [Wie funktioniert das?](#wie-funktioniert-das)
+        -   [Casting von komplexen Datentypen](#casting-von-komplexen-datentypen)
+        -   [instanceof](#instanceof)
+        -   [Überschreiben von Methoden](#Überschreiben-von-methoden)
+        -   [toString()](#tostring)
+        -   [equals()](#equals)
+        -   [Abstrakte Klassen und Methoden](#abstrakte-klassen-und-methoden)
+        -   [Interfaces](#interfaces)
+-   [Fehlerbehandlung](#fehlerbehandlung)
+    -   [Exceptions und Errors](#exceptions-und-errors)
+    -   [try-catch-finally](#try-catch-finally)
+    -   [try-with-resources](#try-with-resources)
+    -   [throws](#throws)
+-   [Dokumentation JavaDoc](#dokumentation-javadoc)
+-   [Input/Output](#inputoutput)
+    -   [Streams](#streams)
+    -   [Buffering](#buffering)
+    -   [Reader und Writer](#reader-und-writer)
+    -   [Objekt-Serialisierung (Serializable)](#objekt-serialisierung-serializable)
+-   [Datenstrukturen II: Verkettete Listen](#datenstrukturen-ii-verkettete-listen)
+    -   [Einfach verkettete Listen](#einfach-verkettete-listen)
+    -   [Zweifach verkettete Listen](#zweifach-verkettete-listen)
+-   [Generics](#generics)
+-   [Datenstrukturen III: Das Collections Framework](#datenstrukturen-iii-das-collections-framework)
+    -   [List](#list)
+    -   [Set](#set)
+    -   [Map](#map)
+    -   [Object equality im Kontext von HashMaps/Sets](#object-equality-im-kontext-von-hashmapssets)
 
--   Ausdruck und Operation mittels: `++` / `--`
 
-```java
-// Unterschied Post-/Preinkrement:
-int i = 5;
-int x = ++i; // i = 6 und x = 6 (hochzählen, dann zuweisen)
 
-int i = 5;
-int x = i++; // i = 6 und x = 5 (zuweisen, dann hochzählen)
-```
 
-## Vergleichsoperatoren
 
--   Ergebnis von Vergleichsoperationen ist **immer** `true` oder `false`!
--   `==`, `!=`, `>`, `<`, `>=`, `<=`
-
-## Boolsche / Logische Operatoren
-
--   `&&` und `||`
--   Negation: `!` (invertiert einen Ausdruck)
--   Exklusives ODER: `!=` (wenn nur 1 Operand `true` ist)
-
-## Operatoren zur Bit-Manipulation (erstmal weglassen?)
-
--   `~`, `&`, `|`, `^`
--   `>>`, `>>>`, `<<`
-
-## Zuweisungsoperatoren
-
--   Einfache: `=`
--   Arithmetische: `+=`, `-=`, `/=`, `*=`, `%=`
--   Logische: `&=`, `|=`, ...
-
-```java
-// Logische Zuweisungsoperatoren
-boolean t = true;
-boolean f = false;
-t &= f; // hiernach: t = false, weil nicht beide true
-```
-
-# Strings / Zeichenketten
-
--   `String` ist eine Klasse in Java
--   Ein `String` ist eine Zeichenkette, also eine Sequenz (intern: Array) von `char`-Werten
--   Strings sind in Java **nicht veränderlich** (denn sie sind Arrays von `char`s)
--   String-Literals erzeugen Strings ohne den `new`-Operator
-    -   werden mit `"doppelten Anführungszeichen"` gebildet
--   Konkatenation/Verkettung von Strings mit `+`
--   Zeichen mit Sonderfunktionen
-    -   `"\n"` (newline) und `"\t"` (tab)
-    -   `\` muss deshalb maskiert werden: `"\\"`
--   Für viele/wiederholte Manipulationen: `StringBuilder`
-
-# Datenstrukturen I: Arrays
-
--   lineare Datenstruktur (Elemente haben klare Reihenfolge)
--   Indizes von `0` bis `array.length - 1` (!)
--   Arrays müssen typisiert werden, alle Typen (primitive und komplexe) möglich
--   Arrays sind in Größe/Länge **unveränderlich**!
--   Arrays **sind Objekte** und vom Typ `Object` (siehe [JLS Java SE 8 Edition](https://docs.oracle.com/javase/specs/jls/se8/html/jls-10.html))
-
-![array](/images/array.jpeg)  
-Grafik: [#](/images/array.jpeg), Quelle [#](https://javatutorial.net/java-array)
-
-## Deklaration und Initialisierung
-
--   Deklaration mit `typ[] arrayName` bzw. `Typ[] arrayName`
--   Initialisierung mit `new typ[n]` bzw. `new Typ[n]`, wobei `n` die Größe des Arrays angibt
-    -   Größe der (mind.) ersten Dimension muss angegeben werden!
-
-```java
-// ein Array für 5 int-Werte
-int[] numbers = new int[5];
-// ein Array für 5 String-Objekte
-String[] words = new String[5];
-```
-
--   Die initialien Werte eines leeren Arrays entsprechen den default-Werten des entsprechenden Datentyps
-
-```java
-int[] numbers = new int[5]; // entspricht {0, 0, 0, 0, 0}
-```
-
--   Array Literals mit enthaltenen Werten: `{E1, E2, E2, E4, ..., En}`
-    -   Länge des Arrays implizit!
-
-```java
-int[] numbers = {3, 6, 345, 1, 0, 4}; // Länge: 6
-String[] words = {"Dies", "sind", "Strings!"}; // Länge: 3
-```
-
-## Zugriff und Manipulation
-
--   Zugriff auf Elemente mit numerischem Index-Wert: `array[i]`
--   Manipulation der Elemente mittels Zuweisung: `array[i] = 3`
-
-```java
-// ein Array für 3 int-Werte
-int[] numbers = new int[2];
-// Zugriff und Manipulation
-numbers[0] = 45; // erstes Element
-numbers[1] = 2; // zweites Element
-numbers[3] = numbers[0]; // drittes Element
-```
-
--   Zugriff auch über for-each-Schleife
-
-```java
-int[] numbers = {3, 6, 345, 1, 0, 4};
-
-for (int n : numbers){
-  // n referenziert aktuellen Wert
-}
-```
-
-**Anwendungs-Beispiel**
-
-```java
-/*
-  * Alle Wörter eines Strings "umkehren",
-  * die länger sind als 4 Zeichen...
-  */
-
-String text = "Ein Raabe geht im Feld spazieren";
-String[] words = text.split(" ");
-
-for (int i = 0; i < words.length; i++) {
-  // wenn Wort länger als 4...
-  if (words[i].length() > 4) {
-    // ...Wort "umkehren"
-    String reversed = "";
-    for (int j = words[i].length() - 1; j >= 0; j--) {
-      reversed += words[i].charAt(j); // teuer!
-    }
-    words[i] = reversed;
-  }
-}
-
-for (int i = 0; i < words.length; i++) {
-  System.out.print(words[i] + " ");
-}
-```
-
-## Mehrdimensionale Arrays
-
--   Arrays können (theoretisch) beliebig viele Dimensionen besitzen bzw. beliebig tief "verschachtelt" sein
--   Jedes Array einer Unter-Ebene _kann_ dabei eine andere Länge besitzen
-
-```java
-// zwei-dimensionales int-Array; entspricht einem
-// Array aus vier int-Arrays der Länge 2
-int[][] matrix = new int[4][2];
-// Die Länge der Arrays in tieferen Dimensionen kann
-// (vorerst) unbestimmt bleiben und sich letztendlich
-// unterscheiden
-int[][] twoDimensions = new int[4][];
-// auch hier sind Litarals möglich:
-int[][] twoDimLiteral = {{2, 4}, {1, 54, 6}};
-```
-
-# Kontrollstrukturen
-
--   steuern den Ablauf des Programms
--   bilden eigene Gültigkeitsbereiche
-
-## if, else if, else
-
--   Ausführung von Code abhängig von Wahrheitswert einer Aussage / eines boolschen Ausdrucks
--   Lässt sich gut übersetzen mit _"wenn", "dann", "sonst"_ bzw. _"wenn", "dann", "sonst wenn", ..., "sonst"_
--   besteht mindestens aus **einem** `if`-Block, einer **beliebigen Anzahl von** `else if`-Blöcken und **maximal einem** `else`-Block
-
-```java
-boolean t = true;
-boolean f = false;
-
-if (t && f){
-  // beides wahr!
-} else if (t || f) {
-  // eins von beidem wahr!
-} else {
-  // beides unwahr!
-}
-```
-
-## Ternary-Operator
-
--   Ausdruck nimmt den einen oder anderen Wert an, in Abhängigkeit von der Bedingung / Wahrheitsgehalt der Aussage
--   Syntax: `Bedingung ? Wert wenn wahr : Wert wenn unwahr`
-
-```java
-boolean condition = true;
-String istEsWirklichWahr = condition ? "wahr" : "unwahr";
-```
-
-## switch
-
--   Ersetzt sperrige `if`/`else`-Konstrukte, die nur den Wert eines einzigen Ausdrucks überprüfen
--   ...
-
-## Schleifen
-
-Schleifen wiederholen die Ausführung einer Menge von Anweisungen (oder: bestimmter Code-Blöcke) in Abhängigkeit bestimmter Voraussetzungen.
-
-### for
-
-Zählschleife ...
-
-### while
-
-...
-
-### do-while
-
-...
 
 # Objektorientierte Programmierung mit Java
 
@@ -413,7 +117,7 @@ Zählschleife ...
 -   Was ist eine **Klasse** (_konzeptuell, im Kontext d. OOP_)?
 -   Was ist ein **Objekt** (_konzeptuell, im Kontext d. OOP_)?
 
-![Mitarbeiter-Klasse](/images/Employee-Class.png)  
+![Mitarbeiter-Klasse](/assets/images/Employee-Class.png)  
 Quelle: [_Wikimedia: Von Binz - Own Creation, CC BY-SA 4.0_](https://commons.wikimedia.org/w/index.php?curid=62707688)
 
 ## Klassenattribute
@@ -961,7 +665,7 @@ Da die Methode `applyTextProcessor()` der Klasse `TextEditor` gegen das Interfac
 -   Exceptions können _"aufgefangen"_ werden (catch), d.h. es kann mit Hilfe einer gut durchdachten Fehlerbehandlung mit dem Fehler umgegangen werden, sodass das Programm nicht unerwartet beendet werden muss
 -   **Exception** und **Error** sind vom Typ _Throwable_ (deshalb _"Werfen"_ von Fehlern), es steckt eine ganze Klassenhierarchie hinter den verschiedenen Fehlertypen
 
-![Exceptions/Errors Class Hierarchy](/images/Exception-Hierarchy-Diagram.jpeg)  
+![Exceptions/Errors Class Hierarchy](/assets/images/Exception-Hierarchy-Diagram.jpeg)  
 Quelle: [programcreek.com](http://www.programcreek.com/2009/02/diagram-for-hierarchy-of-exception-classes/)
 
 ## try-catch-finally
@@ -974,7 +678,7 @@ Quelle: [programcreek.com](http://www.programcreek.com/2009/02/diagram-for-hiera
 -   Falls im `try`-Block kein Fehler auftritt, werden alle `catch`-Blöcke ignoriert; ein etwaiges `finally` wird aber noch ausgeführt.
 -   Falls kein `catch`-Block die geworfene Exception abfängt, wird trotzdem ein evtl. vorhandener `finally`-Block ausgeführt, bevor die Exception dann von der default-Fehlerbehandlung verarbeitet wird (Stack Trace über den ErrOut auf Konsole ausgeben).
 
-![try-catch-finally-flow](/images/java-try-catch-finally-flow.jpg)  
+![try-catch-finally-flow](/assets/images/java-try-catch-finally-flow.jpg)  
 Quelle: [howtodoinjava.com](https://howtodoinjava.com/java/exception-handling/try-catch-finally/)
 
 **Syntax und Beispiel:**
