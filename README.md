@@ -26,7 +26,7 @@ Warum Java? Warum lieber nicht? Was unterscheidet Java von anderen Programmiersp
 **[Erste Schritte](/documents/Erste-Schritte.md)**  
 Hello World! 
 
-**[Die IDE Eclipse](/documents/Die-IDE-Eclipse.md)**  
+**[Eclipse IDE](/documents/Eclipse-IDE.md)**  
 Ein Beschreibung der wichtigsten Funktionen der *Eclipse* IDE (**I**ntegrated **D**evelopment **I**nvironment oder *Entwicklungsumgebung*)
 
 **[Variablen](/documents/Variablen.md)**  
