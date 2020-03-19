@@ -9,10 +9,9 @@ Quelle: [Github](https://www.github.com)
 
 
 # Code-Beispiele
-Es ist zwar im Markdown etwas hässlich, räumt visuell aber ganz nett auf...
+Es ist zwar im Markdown etwas hässlich, räumt visuell aber ganz nett auf.
+Man *könnte* das mal einbauen...
 
-<details>
-<summary>Code anzeigen</summary>
 
 <details>
 <summary>Code anzeigen</summary>

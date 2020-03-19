@@ -24,4 +24,6 @@ Grafik: [#](/assets/images/typecast_2.jpg), Quelle: [#](https://www.java-tutoria
 
 **:warning: Achtung!** Der folgende Abschnitt ist erst relevant, wenn du bereits mit Vererbung und Klassenhierarchien vertraut bist!
 
-TODO
+-   möglich von Superklassen zu Subklassen (auf eigene Verantwortung)
+-   unnötig von Subklassen zu Superklassen (wg. [Polymorphie](<https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)>))
+-   ...

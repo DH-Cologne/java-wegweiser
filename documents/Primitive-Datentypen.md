@@ -7,7 +7,3 @@
 
 ![primitive types overview](/assets/images/primitive-data-types.png)
 Grafik: [#](/assets/images/primitive-data-types.png), Quelle [#](https://de.wikibooks.org/wiki/Java_Standard)
-
-## Komplexe Datentypen
-
-Klassen und Arrays sind komplexe Datentypen (dazu später mehr!)
