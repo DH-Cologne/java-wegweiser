@@ -23,14 +23,14 @@ Die einzelnen Themenbereiche sind hier kurz zusammengefasst - die jeweilige Übe
 
 ### Einstieg
 
-#### [Die Programmiersprache Java](/documents/Die-Programmiersprache-Java.md)
+#### [Die Programmiersprache Java](/documents/Die-Programmiersprache-Java.md) :coffee:
 
 > Warum Java? Warum lieber nicht? Was unterscheidet Java von anderen Programmiersprachen?;
 > Java Platform / Ecosystem;
 > Packages;
 > _Hello World_;
 
-#### [Eclipse IDE](/documents/Eclipse-IDE.md)
+#### [Eclipse IDE](/documents/Eclipse-IDE.md) :moon:
 
 > Was ist eine IDE (**I**ntegrated **D**evelopment **I**nvironment - oder auch _Entwicklungsumgebung_)?;
 > Warum Eclipse?;
@@ -38,56 +38,56 @@ Die einzelnen Themenbereiche sind hier kurz zusammengefasst - die jeweilige Übe
 
 ### Grundlagen
 
-#### [Variablen](/documents/Variablen.md)
+#### [Variablen](/documents/Variablen.md) :label:
 
 > Referenzen auf Werte und Objekte;
 
-#### [Datentypen](/documents/Datentypen.md)
+#### [Datentypen](/documents/Datentypen.md) :1234:
 
 > Alles zu Datentypen;
 
-#### [Casting](/documents/Casting.md)
+#### [Casting](/documents/Casting.md) :performing_arts:
 
 > Typumwandlung von primitiven und komplexen Datentypen;
 
-#### [Methoden](/documents/Methoden.md)
+#### [Methoden](/documents/Methoden.md) :clamp:
 
 > Rückgabewerte;
 > Parameter/Argumente;
 > `return`-Statement;
 > Überlagerung;
 
-#### [Operatoren](/documents/Operatoren.md)
+#### [Operatoren](/documents/Operatoren.md) :symbols:
 
 > Rechenoperatoren;
 > Vergleichsoperatoren;
 > logische Operatoren;
 > Zuweisungsoperatoren;
 
-#### [Strings](/documents/Strings.md)
+#### [Strings](/documents/Strings.md) :ab:
 
 > Alles rund um Zeichenketten in Java;
 
-#### [Conditional statements](/documents/Conditionals.md)
+#### [Conditional statements](/documents/Conditionals.md) :railway_track:
 
 > `if`...`else if`...`else`;
 > Ternary-Operator;
 > `switch`;
 
-#### [Schleifen](/documents/Arrays.md)
+#### [Schleifen](/documents/Arrays.md) :ribbon: 
 
 > `while`;
 > `do`...`while`;
 > `for` (...und for-each)
 
-#### [Arrays](/documents/Arrays.md)
+#### [Arrays](/documents/Arrays.md)  :package:
 
 > Was ist eine Datenstruktur?;
 > Deklaration und Initialisierung;
 > Zugriff und Manipulation;
 > Mehrdimensionale Arrays;
 
-#### [Fehlerbehandlung](/documents/Fehlerbehandlung.md)
+#### [Fehlerbehandlung](/documents/Fehlerbehandlung.md) :x:
 
 > Errors;
 > Exceptions;
@@ -95,19 +95,19 @@ Die einzelnen Themenbereiche sind hier kurz zusammengefasst - die jeweilige Übe
 > `try` with resources;
 > `throws`;
 
-#### [Dokumentation mit JavaDoc](/documents/JavaDoc.md)
+#### [Dokumentation mit JavaDoc](/documents/JavaDoc.md) :book:
 
 > ...
 
 ### Objektorientierte Programmierung (OOP)
 
-#### [OOP: Einführung](/documents/OOP-Einführung.md)
+#### [OOP: Einführung](/documents/OOP-Einführung.md) :moyai:
 
 > Was ist OOP?;
 > Wann und wozu braucht man das?;
 > Welche Rolle spielt OOP?;
 
-#### [Klassen und Objekte](/documents/Klassen-und-Objekte.md)
+#### [Klassen und Objekte](/documents/Klassen-und-Objekte.md) :building_construction:
 
 > Was ist eine Klasse?;
 > Was ist ein Objekt?;
@@ -125,7 +125,7 @@ Die einzelnen Themenbereiche sind hier kurz zusammengefasst - die jeweilige Übe
 > `hashCode()`;
 > Vertrag zwischen `equals()` und `hashCode()`;
 
-#### [Vererbung](/documents/Vererbung.md)
+#### [Vererbung](/documents/Vererbung.md) :family:
 
 > Wozu Vererbung?
 > Terminologie;
@@ -138,24 +138,24 @@ Die einzelnen Themenbereiche sind hier kurz zusammengefasst - die jeweilige Übe
 
 ### Fortgeschrittenes
 
-#### [Input / Output (I/O)](/documents/IO.md)
+#### [Input / Output (I/O)](/documents/IO.md) :fast_forward:
 
 > Streams;
 > Buffering;
 > Reader und Writer;
 > Objektserialisierung;
 
-#### [Selbstgebaute Datenstrukturen](/documents/Datenstrukturen.md)
+#### [Selbstgebaute Datenstrukturen](/documents/Datenstrukturen.md) :chains:
 
 > verkettete Listen;
 > Binärbäume;
 > binäre Suchbäume;
 
-#### [Generics](/documents/Generics.md)
+#### [Generics](/documents/Generics.md) :pushpin:
 
 > ...
 
-#### [Collections Framework](/documents/Collections-Framework.md)
+#### [Collections Framework](/documents/Collections-Framework.md) :card_index_dividers:
 
 > List;
 > Set;
