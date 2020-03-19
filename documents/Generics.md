@@ -1,0 +1,6 @@
+# Generics
+
+-   ...
+-   Implementation am Beispiel der verketteten Liste
+-   ...
+    > **Projekt: [GenericList](/projects/GenericList)**
