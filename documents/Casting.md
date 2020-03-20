@@ -16,7 +16,7 @@ Grafik: [#](/assets/images/typecast_1.jpg), Quelle: [#](https://www.java-tutoria
     -   Ziel-Typ **muss** angegeben werden
     -   `double d = 2.2d; int i; i = (int) d;`
 
-![upcast](/assets/images/typecast_2.jpg)  
+![downcast](/assets/images/typecast_2.jpg)  
 Grafik: [#](/assets/images/typecast_2.jpg), Quelle: [#](https://www.java-tutorial.org/typecasting.html)
 
 
@@ -25,5 +25,5 @@ Grafik: [#](/assets/images/typecast_2.jpg), Quelle: [#](https://www.java-tutoria
 **:warning: Achtung!** Der folgende Abschnitt ist erst relevant, wenn du bereits mit Vererbung und Klassenhierarchien vertraut bist!
 
 -   möglich von Superklassen zu Subklassen (auf eigene Verantwortung)
--   unnötig von Subklassen zu Superklassen (wg. [Polymorphie](<https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)>))
+-   unnötig von Subklassen zu Superklassen (wg. [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)))
 -   ...

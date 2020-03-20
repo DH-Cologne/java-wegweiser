@@ -4,7 +4,7 @@
 
 -   Einfache: `+ - * / %`
 
-## Post-/Preinkrement
+## Post- / Preinkrement
 
 -   Ausdruck und Operation mittels: `++` / `--`
 
