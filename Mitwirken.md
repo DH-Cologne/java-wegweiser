@@ -18,18 +18,10 @@ Gute Text-Editoren (die auch Markdown unterstützen) sind z.B. [VSCode](https://
 
 Eine Alternative wäre das direkte Bearbeiten der Dateien hier in GitHub (siehe Beschreibung unten!) - diese Variante ist aber eher nur für kleinere Änderungen oder Korrekturen geeignet, da der Editor von Github keine Autovervollständigung für Pfade zu anderen Dateien (o.ä.) bietet.
 
+> :warning: Bitte beachte außerdem die [**Konventionen zur Formatierung der Inhalte**](Konventionen.md) !!! 
+
 ## Wie kommen meine Änderungen in das offizielle Repository?
 
 > :construction: TODO: Diese Anleitung muss ausführlicher werden! :worried:
 
 Es wird darum gebeten, den [üblichen Weg](https://opensource.guide/how-to-contribute/) über einen Fork > clone > neuer Branch > hack > commit > push > Pull Request ...zu gehen oder (einfacher) die Funktion zur direkten Editierung von Markodown-Files in GitHub zu nutzen (diese erstellt automatisch einen Pull Request).
-
-## :loudspeaker: Konventionen zur Formatierung der Inhalte
-
-> :construction: TODO: Noch unvollständig...
-
-Es gibt eine Liste von Konventionen, die dabei helfen sollen, die Formatierung der Beiträge und den Einsatz von Markdown überall in diesem Repository einheitlich zu halten. Du findest sie gleich dort unten :point_down:
-
-> **Hinweis:** Es lässt sich über alles reden. Selbst über diese Konventionen. Wenn du der Meinung bist, dass man hier etwas grundlegend anders machen sollte, dann schlage das sehr gern vor! Nutze dazu bitte das [Issue-System dieses Repositories](../../issues). Falls Issues für dich etwas Neues sind, kannst du [hier](https://guides.github.com/features/issues/) mehr erfahren.
-
-...

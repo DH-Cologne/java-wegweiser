@@ -119,3 +119,6 @@ Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für Teilne
 <!-- :card_index_dividers: -->
 
 > `Aufbau`, `List`, `Set`, `Map`, `Objekt-Identität im Kontext von HashMaps/HashSets`, ...
+
+
+[top](#)
