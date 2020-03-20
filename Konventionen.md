@@ -8,3 +8,12 @@ Es gibt eine Liste von Konventionen, die dabei helfen sollen, die Formatierung d
 
 ### Lizenzen von eingefügten Grafiken u.ä.
 Du solltest natürlich darauf achten, dass alle Grafiken (und anderen Inhalte), die du in deine Beiträge einfügst, über eine Lizenz verfügen, die dies auch erlaubt!
+
+### Emojis
+Zum Einsatz von [GitHub-Emojis](https://marcomontalbano.github.io/github-emoji/) wird ausdrücklich ermutigt, solange sie zu visueller Orientierung, Lesbarkeit, Verständnis oder Genuss beitragen. Von allzu störenden und verstörenden Emojis sowie unansehnlichen Kombinationen ist jedoch abzulassen!
+
+### Das Inhaltsverzeichnis
+Du solltest der bestehenden Formatierung des Inhaltsverzeichnisses folgen. Und ja, das ist eigentlich das Markdown für Inline-Code, aber es macht sich ganz prima für die Schlagworte, weil es der üblichen Darstellung von Tags ähnelt.
+
+### Pfade und Veknüpfungen innerhalb des Repositories
+Links zu Dateien in diesem Repository kannst du am besten mit einem vorangestellten `/` im Dateipfad erzielen: `[Text](/documents/Datei.md)`. Dies erzeugt einen Link relativ zum Repository selbst!

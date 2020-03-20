@@ -1,7 +1,7 @@
 # Der wachsende Reader zu Softwaretechnologie: Java
 > Work in progress. Forever. :snail:
 
-Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des Softwaretechnologie-Moduls (_BM4_) der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** _(Institut für Digital Humanities, Universität zu Köln)_.
+Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des _Softwaretechnologie_-Moduls der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** (_Institut für Digital Humanities_, Universität zu Köln).
 
 -   :bulb: [**Was ist das hier bzw. was ist es nicht?**](Was-Ist-Das.md)
 -   :woman_technologist: [**Contribution, oder: Wie kann ich mitwirken?**](/Mitwirken.md)
@@ -10,7 +10,7 @@ Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für Teilne
 
 ## :book: Inhalt
 
-> :point_right: Die einzelnen Themenbereiche sind hier mit `Schlagworten` kurz zusammengefasst - die jeweilige Überschrift verlinkt auf das Dokument mit allen Inhalten zum entsprechenden Thema.
+> :point_right: Die einzelnen Themenbereiche sind hier mit `Schlagworten` kurz zusammengefasst und mit Emojis semantisch und ästhetisch veredelt. Die jeweilige Überschrift verlinkt auf das Dokument mit allen Inhalten zum entsprechenden Thema.
 
 ### Einstieg
 
@@ -102,4 +102,4 @@ Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für Teilne
 
 
 -----------------------
-Das ist alles. Bis jetzt! Wie wäre es mit einem [eigenen Beitrag](/Mitwirken.md)?
+Das ist alles. **Bis jetzt!** Wie wäre es mit [deinem Beitrag](/Mitwirken.md)?
