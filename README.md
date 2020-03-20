@@ -3,15 +3,14 @@
 
 Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des Softwaretechnologie-Moduls (_BM4_) der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** _(Institut für Digital Humanities, Universität zu Köln)_.
 
-:question: [**Was ist das hier bzw. was ist es nicht?**](Was-Ist-Das.md)
-
-:busts_in_silhouette: [**Contribution, oder: Wie kann ich mitwirken?**](/Mitwirken.md)
+-   [**Was ist das hier bzw. was ist es nicht?**](Was-Ist-Das.md)
+-   [**Contribution, oder: Wie kann ich mitwirken?**](/Mitwirken.md)
 
 
 
 ## :book: Inhalt
 
-> :point_up: Die einzelnen Themenbereiche sind hier mit `Schlagworten` kurz zusammengefasst - die jeweilige Überschrift verlinkt auf das Dokument mit allen Inhalten zum entsprechenden Thema.
+> :point_right: Die einzelnen Themenbereiche sind hier mit `Schlagworten` kurz zusammengefasst - die jeweilige Überschrift verlinkt auf das Dokument mit allen Inhalten zum entsprechenden Thema.
 
 ### Einstieg
 
