@@ -18,7 +18,7 @@ Gute Text-Editoren (die auch Markdown unterstützen) sind z.B. [VSCode](https://
 
 Eine Alternative wäre das direkte Bearbeiten der Dateien hier in GitHub (siehe Beschreibung unten!) - diese Variante ist aber eher nur für kleinere Änderungen oder Korrekturen geeignet, da der Editor von Github keine Autovervollständigung für Pfade zu anderen Dateien (o.ä.) bietet.
 
-> :warning: Bitte beachte außerdem die [**Konventionen zur Formatierung der Inhalte**](Konventionen.md) !!! 
+> :warning: Bitte beachte außerdem die [**Konventionen für Beiträge / Contributions**](Konventionen.md) !!! 
 
 ## Wie kommen meine Änderungen in das offizielle Repository?
 

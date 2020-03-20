@@ -3,8 +3,8 @@
 
 Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des Softwaretechnologie-Moduls (_BM4_) der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** _(Institut für Digital Humanities, Universität zu Köln)_.
 
--   :bulb: [**Was ist das hier bzw. was ist es nicht?**](Was-Ist-Das.md)
--   :gift: [**Contribution, oder: Wie kann ich mitwirken?**](/Mitwirken.md)
+-   [**Was ist das hier bzw. was ist es nicht?**](Was-Ist-Das.md)
+-   [**Contribution, oder: Wie kann ich mitwirken?**](/Mitwirken.md)
 
 
 
@@ -121,4 +121,5 @@ Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für Teilne
 > `Aufbau`, `List`, `Set`, `Map`, `Objekt-Identität im Kontext von HashMaps/HashSets`, ...
 
 
-[top](#)
+_______________
+Das ist alles. Bis jetzt! Wie wäre es mit einem [eigenen Beitrag](/Mitwirken.md)?

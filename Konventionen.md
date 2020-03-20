@@ -1,4 +1,4 @@
-## :loudspeaker: Konventionen zur Formatierung der Inhalte
+## :loudspeaker: Konventionen für Beiträge / Contributions
 
 > :construction: TODO: Noch unvollständig...
 
