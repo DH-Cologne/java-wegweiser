@@ -89,7 +89,7 @@ Die einzelnen Themenbereiche sind hier kurz zusammengefasst - die jeweilige Übe
 
 #### [Vererbung](/documents/Vererbung.md) :family:
 
-> `Wozu?`, `Terminologie`, `extends`, `super`, `instanceof-Operator`, `Überschreiben von Methoden`, `abstrakte Klassen`, `abstrakte Methoden`, `Interfaces`, ...
+> `Wozu?`, `Terminologie`, `extends`, `super`, `instanceof-Operator`, `Überschreiben von Methoden`, `abstrakte Klassen`, `abstrakte Methoden`, `abstract`, `Interfaces`, `default` ...
 
 ### Fortgeschrittenes
 
@@ -103,8 +103,8 @@ Die einzelnen Themenbereiche sind hier kurz zusammengefasst - die jeweilige Übe
 
 #### [Generics](/documents/Generics.md) :pushpin:
 
-> `Was?`, `Wozu?`, `Typsicherheit trotz generischer Programmierung`, `Gültigkeit bei Kompilierung und zur Laufzeit`, ...
+> `Was?`, `Wozu?`, `<Syntax>`, `Typsicherheit trotz generischer Programmierung`, `Gültigkeit bei Kompilierung und zur Laufzeit`, ...
 
 #### [Collections Framework](/documents/Collections-Framework.md) :card_index_dividers:
 
-> `List`, `Set`, `Map`, `Objekt-Identität im Kontext von HashMaps/HashSets`, ...
+> `Aufbau`, `List`, `Set`, `Map`, `Objekt-Identität im Kontext von HashMaps/HashSets`, ...
