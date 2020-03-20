@@ -1,4 +1,4 @@
-# Contribution, oder: Wie kann ich mitwirken?
+# :woman_technologist: Contribution, oder: Wie kann ich mitwirken?
 
 ## Wer wird hier angesprochen?
 
