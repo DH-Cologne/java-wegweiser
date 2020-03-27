@@ -1,7 +1,12 @@
 # Der wachsende Reader zu Softwaretechnologie: Java
-> Work in progress. Forever. :snail:
+
+
+> **Work in progress. Forever.** :construction: :snail:  
+> Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt, dann [trage es gerne selbst bei](/Mitwirken.md)!
+
 
 Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des _Softwaretechnologie_-Moduls der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** (_Institut für Digital Humanities_, Universität zu Köln).
+
 
 -   :bulb: [**Was ist das hier** - bzw. was ist es nicht?](/Was-Ist-Das.md)
 -   :woman_technologist: [**Contribution** - oder: Wie kann ich hier mitwirken?](/Mitwirken.md)
@@ -110,4 +115,4 @@ Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für Teilne
 
 
 -----------------------
-Das ist alles. **Bis jetzt!** Wie wäre es mit [deinem Beitrag](/Mitwirken.md)?
+Das ist alles. **Bis jetzt!** Wie wäre es mit [**deinem Beitrag**](/Mitwirken.md)?
