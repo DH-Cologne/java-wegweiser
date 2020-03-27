@@ -10,7 +10,7 @@ Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für Teilne
 
 ## :book: Inhalt
 
-> :point_right: Die einzelnen Themenbereiche sind hier mit `Schlagworten` kurz zusammengefasst und mit Emojis semantisch und ästhetisch veredelt. Die jeweilige Überschrift verlinkt auf das Dokument mit allen Inhalten zum entsprechenden Thema.
+> :point_right: Die einzelnen Themenbereiche sind hier mit `Schlagworten` kurz zusammengefasst. Die jeweilige Überschrift verlinkt auf das Dokument mit allen Inhalten zum entsprechenden Thema.
 
 ### Einstieg
 
