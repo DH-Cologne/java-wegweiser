@@ -1,5 +1,17 @@
 # :building_construction: Klassen und Objekte
 
+## Was ist eine Klasse?
+
+...
+
+## Was ist ein Objekt?
+
+...
+
+## Erzeugen eines Objektes: Der `new`-Operator
+
+...
+
 ## Klassenattribute
 
 -   sind Variablen, die ihren Gültigkeitsbereich in der gesamten Klasse haben
