@@ -1,4 +1,4 @@
-# Vererbung
+# :family: Vererbung
 
 Klassen können Eigenschaften (Klassenattribute / _features_) und Fähigkeiten (Methoden / _behavior_) von anderen Klassen _erben_.
 

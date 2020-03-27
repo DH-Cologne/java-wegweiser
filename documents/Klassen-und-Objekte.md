@@ -1,4 +1,4 @@
-# Klassen-Design
+# :building_construction: Klassen und Objekte
 
 ## Klassenattribute
 

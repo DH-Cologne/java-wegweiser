@@ -1,3 +1,3 @@
-# JavaDoc
+# :clipboard: Dokumentation mit JavaDoc
 
 ...

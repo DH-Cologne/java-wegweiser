@@ -1,4 +1,4 @@
-# Strings
+# :ab: Strings
 
 (auch: *Zeichenketten*)
 

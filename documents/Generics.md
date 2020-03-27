@@ -1,4 +1,4 @@
-# Generics
+# :pushpin: Generics
 
 -   ...
 -   Implementation am Beispiel der verketteten Liste

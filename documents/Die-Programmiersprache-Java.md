@@ -1,7 +1,5 @@
-# Erste Schritte
+# :coffee: Die Programmiersprache Java
 
-
-## Die Programmiersprache Java
 
 -   C-artige, universelle Programmiersprache
 -   JVM [#](https://de.wikibooks.org/wiki/Java_Standard:_Java_Virtual_Machine)

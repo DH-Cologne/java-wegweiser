@@ -1,4 +1,4 @@
-# Selbstgebaute Datenstrukturen
+# :chains: Selbstgebaute Datenstrukturen
 
 ## Verkettete Listen
 
