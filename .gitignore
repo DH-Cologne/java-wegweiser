@@ -1,6 +1,3 @@
-notes.*
-projects/**/bin/
-projects/**/.settings/
 
 # Compiled class file
 *.class
