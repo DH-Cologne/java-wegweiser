@@ -3,8 +3,9 @@
 
 Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des _Softwaretechnologie_-Moduls der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** (_Institut für Digital Humanities_, Universität zu Köln).
 
--   :bulb: [**Was ist das hier bzw. was ist es nicht?**](Was-Ist-Das.md)
--   :woman_technologist: [**Contribution, oder: Wie kann ich mitwirken?**](/Mitwirken.md)
+-   :bulb: [**Was ist das hier** - bzw. was ist es nicht?](/Was-Ist-Das.md)
+-   :woman_technologist: [**Contribution** - oder: Wie kann ich hier mitwirken?](/Mitwirken.md)
+-   :link: [**Links** - weitere empfehlenswerte (online-) Ressourcen](/Links.md)
 
 -----------------------
 
