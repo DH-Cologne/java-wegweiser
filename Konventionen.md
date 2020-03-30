@@ -6,14 +6,14 @@ Es gibt eine Liste von Konventionen, die dabei helfen sollen, die Formatierung d
 
 > **Hinweis:** Es lässt sich über alles reden. Selbst über diese Konventionen. Wenn du der Meinung bist, dass man hier etwas grundlegend anders machen sollte, dann schlage das sehr gern vor! Nutze dazu bitte das [Issue-System dieses Repositories](../../issues). Falls Issues für dich etwas Neues sind, kannst du [hier](https://guides.github.com/features/issues/) mehr erfahren.
 
-### Lizenzen von eingefügten Grafiken u.ä.
+### Lizenzen von eingefügten Grafiken u.ä. :balance_scale:
 Du solltest natürlich darauf achten, dass alle Grafiken (und anderen Inhalte), die du in deine Beiträge einfügst, über eine Lizenz verfügen, die dies auch erlaubt!
 
-### Emojis
+### Emojis :confused:
 Zum Einsatz von [GitHub-Emojis](https://marcomontalbano.github.io/github-emoji/) wird ausdrücklich ermutigt, solange sie zu visueller Orientierung, Lesbarkeit, Verständnis oder Genuss beitragen. Von allzu störenden und verstörenden Emojis sowie unansehnlichen Kombinationen ist jedoch abzulassen!
 
-### Das Inhaltsverzeichnis
+### Das Inhaltsverzeichnis :book:
 Du solltest der bestehenden Formatierung des Inhaltsverzeichnisses folgen. Und ja, das ist eigentlich das Markdown für Inline-Code, aber es macht sich ganz prima für die Schlagworte, weil es der üblichen Darstellung von Tags ähnelt.
 
-### Pfade und Veknüpfungen innerhalb des Repositories
-Links zu Dateien in diesem Repository kannst du am besten mit einem vorangestellten `/` im Dateipfad erzielen: `[Text](/documents/Datei.md)`. Dies erzeugt einen Link relativ zum Repository selbst!
+### Pfade und Veknüpfungen innerhalb des Repositories :link:
+Links zu Dateien in diesem Repository kannst du am besten mit einem vorangestellten `/` im Dateipfad erzielen: `[Text](/documents/Datei.md)`. Dies erzeugt einen absoluten Link, aber relativ zum Repository!

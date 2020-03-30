@@ -4,7 +4,7 @@
 
 In guter Open Source-Manier ist jede\*r Teilnehmer\*in des Softwaretechnologie-Moduls (und jede\*r Interessierte) dazu eingeladen, dieses Repository mitzugestalten, inhaltlich zu erweitern, Erläuterungen zu verbessern oder auch einfach nur eventuelle Fehler zu korrigieren.
 
-## :man_shrugging: Warum sollte ich?
+## Warum sollte ich? :man_shrugging:
 
 Du hilfst dabei, eine Ressource zu verbessern, von der du selbst profitierst. Du nimmst Open Source-Kultur teil und tust damit etwas Gutes. Davon abgesehen kannst du nebenbei lernen, wie man mit [Git](https://git-scm.com/) und [GitHub](https://github.com) umgeht und sich mit Hilfe dieser Werkzeuge an offenen Projekten beteiligt. :raised_hands:   
 Übrigens: Bei einer Bewerbung sehen Beteiligungen an Open Source-Projekten sicherlich auch nicht schlecht aus!
