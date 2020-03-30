@@ -37,10 +37,10 @@ Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für Teilne
 #### [Packages und `import`](/documents/Packages.md)
 > `Packages`, `Pakete`, `Paket-Pfade`, `import`
 
-#### [`main`-Methode](/document/Main-Methode.md)
+#### [`main`-Methode](/documents/Main-Methode.md)
 > `main`
 
-#### [Kommentare](/document/Kommentare.md)
+#### [Kommentare](/documents/Kommentare.md)
 > `// inline`, `/* multi-line */`
 
 #### [Variablen](/documents/Variablen.md)
