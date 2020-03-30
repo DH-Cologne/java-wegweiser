@@ -1,7 +1,7 @@
 # :building_construction: Klassen und Objekte
 
 ## Was ist eine Klasse?
-
+-   Woraus besteht eine **Klasse** mindestens?
 ...
 
 ## Was ist ein Objekt?
