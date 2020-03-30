@@ -31,6 +31,18 @@ Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für Teilne
 
 ### Grundlagen
 
+#### [Hello World](/documents/Hello-World.md)
+> `Das erste Programm`, `Was ist das alles?`
+
+#### [Packages und `import`](/documents/Packages.md)
+> `Packages`, `Pakete`, `Paket-Pfade`, `import`
+
+#### [`main`-Methode](/document/Main-Methode.md)
+> `main`
+
+#### [Kommentare](/document/Kommentare.md)
+> `// inline`, `/* multi-line */`
+
 #### [Variablen](/documents/Variablen.md)
 > `Was ist das?`, `Syntax`, `naming conventions`, `Typisierung`, ...
 
@@ -102,7 +114,7 @@ Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für Teilne
 > `Wozu?`, `Wie werden sie eingebunden?`, `Maven`, `Gradle` ...
 
 #### [Unit-Tests](/documents/Unit-Tests.md)
-> `Wozu?`, `Test-driven-development`, `JUnit`, ...
+> `Wozu?`, `Schreiben von Unit-Tests`, `Test-driven-development`, `JUnit`, ...
 
 
 ### Allgemeines / Sonstiges
