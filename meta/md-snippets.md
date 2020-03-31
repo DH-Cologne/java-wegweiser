@@ -1,26 +1,17 @@
-
 # Verweise auf Websites
-## Als vertiefende Ressource
-> **Siehe auch**  
+
+
+## ... als vertiefende Ressource
+> **Siehe auch:**  
 > [GitHub](https://www.github.com): Eine feine Plattform für Git-Repositories
 
-## Als Quellen-Angabe
-Quelle: [Github](https://www.github.com)
+
+## ... als Quellen-Angabe
+Quelle: [Github](https://www.github.com)  
+_oder_  
+Quelle: [#](https://www.github.com)
 
 
-# Code-Beispiele
-Es ist zwar im Markdown etwas hässlich, räumt visuell aber ganz nett auf.
-Man *könnte* das mal einbauen...
+# "Kritische" Hinweise
 
-
-<details>
-<summary>Code anzeigen</summary>
-
-```java
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello World!"); // ach, was!
-    }
-}
-```
-</details>
+> :warning: **Achtung:** An dieser stelle besteht die Gefahr einer Verwechslung (oder was auch immer) ...
