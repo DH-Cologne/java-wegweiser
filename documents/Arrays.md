@@ -1,47 +1,79 @@
 # Arrays
 
--   lineare Datenstruktur (Elemente haben klare Reihenfolge)
--   Indizes von `0` bis `array.length - 1` (!)
--   Arrays müssen typisiert werden, alle Typen (primitive und komplexe) möglich
--   Arrays sind in Größe/Länge **unveränderlich**!
--   Arrays **sind Objekte** und vom Typ `Object` (siehe [JLS Java SE 8 Edition](https://docs.oracle.com/javase/specs/jls/se8/html/jls-10.html))
+Ein Array ist eine lineare [Datenstruktur](https://de.wikipedia.org/wiki/Datenstruktur), das heißt, ein Array organisiert Daten (_"Elemente"_) in sequentieller Form. Oder einfacher: Die Daten/Objekte, die in einem Array organisiert sind, haben eine Reihenfolge.  
+
+- [Arrays](#arrays)
+  - [Funktionsweise](#funktionsweise)
+    - [Indizierung](#indizierung)
+    - [Feste Größe](#feste-größe)
+    - [Typisierung](#typisierung)
+  - [Erzeugen eines Arrays](#erzeugen-eines-arrays)
+    - [... mit dem `new`-Operator](#-mit-dem-new-operator)
+    - [... mit Array-Literals](#-mit-array-literals)
+  - [Zugriff und Manipulation](#zugriff-und-manipulation)
+  - [Mehrdimensionale Arrays](#mehrdimensionale-arrays)
+
+## Funktionsweise
+
+### Indizierung
+Die Elemente eines Arrays sind indiziert, d.h. fortlaufend durchnummeriert. Die Zählung beginnt dabei **immer bei** `0` und schreitet in ganzzahligen Schritten fort:
 
 ![array](/assets/images/array.jpeg)  
 Grafik: [#](/assets/images/array.jpeg), Quelle [#](https://javatutorial.net/java-array)
 
+Wie auf der Grafik zu sehen ist, hat das erste Element den Index `0`, das letzte Element den Index `4` (also **Länge des Arrays minus `1`!**). So können die Elemente eines Arrays über ihren Index (die Nummer) angesprochen und entweder gelesen oder manipuliert werden (_siehe unten!_).
 
-## Deklaration und Initialisierung
+### Feste Größe
+Ein Array hat, einmal erzeugt, eine **fest Größe**, d.h. es kann nicht verlängert oder gekürzt werden. Ein Array mit 5 Stellen wird immer 5 Stellen haben!
 
--   Deklaration mit `typ[] arrayName` bzw. `Typ[] arrayName`
--   Initialisierung mit `new typ[n]` bzw. `new Typ[n]`, wobei `n` die Größe des Arrays angibt
-    -   Größe der (mind.) ersten Dimension muss angegeben werden!
+### Typisierung
+In Java muss jedes Array typisiert sein, d.h. es muss festgelegt werden, von welchem Datentyp alle (!) Elemente des Arrays sein müssen.
+
+
+## Erzeugen eines Arrays
+
+Die Größe und der Datentyp eines Arrays **müssen** bei der Initialisierung festgelegt werden. Die Syntax für ein Array für Elemente mit einem bestimmten Datentyp ist `Typ[]`, wobei `Typ` den Datentyp angibt und die Klammern `[]` anzeigen, dass es sich um ein Array handelt bzw. wie groß dieses ist oder auf welches Element zugegriffen wird (das alles wird im Folgenden gezeigt).
+
+Ein Array kan auf zwei verschiedene Weisen erzeugt werden ...
+
+### ... mit dem `new`-Operator
+
+[Arrays sind Objekte](https://docs.oracle.com/javase/specs/jls/se8/html/jls-10.html) (vom Typ `Object`), somit können sie mit dem `new`-Operator erzeugt werden.
 
 ```java
-// ein Array für 5 int-Werte
 int[] numbers = new int[5];
-// ein Array für 5 String-Objekte
+```
+
+Im obigen Beispiel wird ein Array für `int`-Werte mit der Größe 5 initialisiert und einer entsprechend typisierten Variable zugewiesen. `[5]` legt hier die Größe fest. Das selbe wäre auch für Strings (und alle anderen Datentypen!) möglich:
+
+```java
 String[] words = new String[5];
 ```
 
--   Die initialien Werte eines leeren Arrays entsprechen den default-Werten des entsprechenden Datentyps
+Nach der initialisierung eines Arrays mit dem `new`-Operator haben alle Elemente des Arrays den default-Wert ihres entsprechenden Datentyps. Beim `new int[5]` im Beispiel oben wären das also fünf `int`-Werte, und zwar jeweils `0`.
+
+### ... mit Array-Literals
+
+Eine andere Variante der Initialisierung von Arrays sind Array-Literals. Ähnlich den String-Literals handelt es sich hierbei um eine spezielle Notation, die ein Objekt erzeugt und gleichzeitig seinen Inhalt festlegt.
+
+Angelehnt an die beiden Beispiele mit dem `new`-Operator sehen wir hier, wie `ìnt`- bzw. `String`-Arrays über Array-Literals erzeugt werden:
 
 ```java
-int[] numbers = new int[5]; // entspricht {0, 0, 0, 0, 0}
+int[] numbers = {3, 6, 345, 1, 0, 4};
+String[] words = {"Dies", "sind", "Strings!"};
 ```
 
--   Array Literals mit enthaltenen Werten: `{E1, E2, E2, E4, ..., En}`
-    -   Länge des Arrays implizit!
+Die erste Zeile erzeugt hier ein Array für `int`-Werte (`int[]`) mit der Länge 6 und fügt die Werte `3`, `6`, ..., `4` ein. Dieses Array wird (wie oben) einer entsprechend typisierten Variable zugewiesen.  
+In der zweiten Zeile geschieht das selbe für ein Array mit drei Strings.
 
-```java
-int[] numbers = {3, 6, 345, 1, 0, 4}; // Länge: 6
-String[] words = {"Dies", "sind", "Strings!"}; // Länge: 3
-```
+Eine explizite Angabe der Größe des erzeugten Arrays ist hier nicht nötig, denn diese ist durch die Anzahl der definierten Elemente bereits implizit festgelegt.
+
+> :warning: **Übrigens:** Es mag sehr reizvoll und elegant erscheinen, ein Array gleich mit allen Werten zu initialisieren, aber im Alltag wird das doch eher selten getan - immerhin muss die Person, die den Programm-Code schreibt, schon beim Programmieren genau wissen, welche Werte in das Array sollen. Das kommt nicht oft vor!
 
 
 ## Zugriff und Manipulation
 
--   Zugriff auf Elemente mit numerischem Index-Wert: `array[i]`
--   Manipulation der Elemente mittels Zuweisung: `array[i] = 3`
+Der Zugriff auf ein Element eines Arrays erfolgt über seinen _Index_ (also die Zahl zwischen `0` und Länge des Arrays - 1). Angesprochen wird das Array über eine Referenz (z.B. Variable), gefolgt von den eckigen Klammern mit dem Index, auf den zugegriffen werden soll:
 
 ```java
 // ein Array für 3 int-Werte
@@ -52,15 +84,10 @@ numbers[1] = 2; // zweites Element
 numbers[3] = numbers[0]; // drittes Element
 ```
 
--   Zugriff auch über for-each-Schleife
+In diesem Beispiel werden die drei Elemente eines `int`-Arrays von ihren default-Werten (`0`) auf andere Werte geändert. Die Zuweisung des dritten Elements zeigt dabei, dass der _"Lese"_-Zugriff auf ein Element genauso funktioniert. Am einfachsten ist es wohl, sich sich `numbers[0]`, `numbers[1]` und `numbers[3]` wie einzelne Variablen vorzustellen, die auf 3 verschiedene `int`-Werte verweisen. 
 
-```java
-int[] numbers = {3, 6, 345, 1, 0, 4};
 
-for (int n : numbers){
-  // n referenziert aktuellen Wert
-}
-```
+<!--
 
 **Anwendungs-Beispiel**
 
@@ -89,7 +116,7 @@ for (int i = 0; i < words.length; i++) {
   System.out.print(words[i] + " ");
 }
 ```
-
+-->
 
 ## Mehrdimensionale Arrays
 
