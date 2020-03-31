@@ -1,7 +1,7 @@
 
 # Hello World! :rocket:
 
-Zum Erlernen einer Programmiersprache gehört immer auch ein _"Hello World"_-Beispiel, das den Quelltext eines minimalen Programms zeigt, welches einfach nur die Worte _"Hello World!"_ auf der Konsole ausgibt. Mit dieser Tradition wollen wir hier auf keinen Fall brechen.
+Zum Erlernen einer Programmiersprache gehört immer auch ein _"Hello World"_-Beispiel, das den Quelltext eines minimalen Programms zeigt, welches einfach nur die Worte _"Hello World!"_ auf der Konsole ausgibt. Mit dieser Tradition wollen wir hier nicht brechen.
 
 Das folgende Java-Programm wäre lauffähig und würde die Worte _"Hello World!"_ auf der Konsole ausgeben:
 
