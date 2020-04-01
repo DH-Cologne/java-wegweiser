@@ -28,7 +28,7 @@ Code | Was ist das?
 `()` | die Klammern um die Parameter der Methode
 `String[]` | Datentyp des einzigen Methoden-Parameters (ein String-Array)
 `args` | Name des einzigen Methoden-Parameters
-`System.out.println()` | Aufruf der statischen Methode `println()` des Datenstroms, der Text-Ausgaben des Systems auf der Konsole transportiert
+`System.out.println()` | Aufruf der statischen Methode `println()` zum Ausgeben einer Textzeile in den Datenstrom, der Text-Ausgaben des Systems auf der Konsole transportiert
 `"Hello World!"` | Ein String. Genauer: Ein String-Literal, das die Worte _Hello World!_ beinhaltet
 `;` | Jede Anweisung wird in Java von einem `;` abgeschlossen.
 `{}` | Die geschweiften Klammern geben den Gültigkeitsbereich der verschiedenen Konstrukte (hier: Klasse oder Methode) an.
