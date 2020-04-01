@@ -64,6 +64,35 @@ name = name + " Duke";
 ... sorgt in Wirklichkeit dafür dass ein **neues** `String`-Objekt erzeugt und der Variable `name` zugewiesen wird! Diese Operation kostet relativ viel Rechenleistung. Es mag bei einer einzelnen String-Verkettung noch nicht auffallen, aber es ist nicht zu empfehlen (und wirklich *bad practice*), String-Verkettungen in Schleifen vorzunehmen - etwa beim zeilenweise Einlesen einer Datei. Um dieses Problem zu lösen, gibt es die Klasse `StringBuilder`, die mittels Pufferung die Verkettung von Strings enorm beschleunigt!
 
 
+## Zugriff auf einzelne Zeichen und andere Tokens
+
+Wie oben erwähnt, handelt es sich bei einem `String` um ein Array von `char`-Werten - oder, genauer gesagt, um eine `CharacterSequence`, die wiederum ein Array von `char`-Werten ist.  
+Deshalb ist es keine Überraschung, dass die Klasse `String` Methoden anbietet, die sich auf diese tiefere Strukturebene beziehen. So gibt `toCharArray()` ein `char[]` mit den Zeichen des Strings zurück; oder `charAt(int index)` gibt das Zeichen an der gewünschten Stelle des Strings zurück (wobei einfach auf den entsprechenden Index im internen Array zugegriffen wird).
+
+Für den Zugriff auf größere Einheiten als einzelne Zeichen, lässt sich etwa die Methode `split(String regex)` benutzen, die ein String-Array mit den Teilen des Strings zurückgibt, die übrig bleiben, nachdem der String an allen Stellen "zerteilt" wurde, die dem [regulären Ausdruck](https://de.wikipedia.org/wiki/Regul%C3%A4rer_Ausdruck) `regex` entsprechen:
+
+``` java
+String s = "Eins und zwei und drei und vier und";
+		
+// zerteilen bei "und"
+System.out.println(Arrays.toString(s.split("und")));
+
+// zerteilen bei Leerzeichen und anderen whitespaces
+System.out.println(Arrays.toString(s.split("\\s")));
+
+// zerteilen bei Wörtern, die ein "r" enthalten
+System.out.println(Arrays.toString(s.split("\\w*r\\w*")));
+```
+
+Ergibt folgende Ausgabe:
+
+```
+[Eins ,  zwei ,  drei ,  vier ]
+[Eins, und, zwei, und, drei, und, vier, und]
+[Eins und zwei und ,  und ,  und]
+```
+
+
 ## Spezial-Zeichen
 
 (oder: _special characters_)
