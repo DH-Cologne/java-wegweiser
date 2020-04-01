@@ -68,6 +68,21 @@ In der zweiten Zeile geschieht das selbe für ein Array mit drei Strings.
 
 Eine explizite Angabe der Größe des erzeugten Arrays ist hier nicht nötig, denn diese ist durch die Anzahl der definierten Elemente bereits implizit festgelegt.
 
+Soll eine Array-Variable deklariert, das Array aber erst an späterer Stelle initialisiert werden, ist folgende Syntax nötig:
+
+``` java
+String[] words;
+words = new String[]{"eins", "zwo", "drei"};
+```
+
+Die gleiche Syntax ermöglicht auch die direkte Rückgabe eines via Literal erzeugten Arrays im `return` einer Methode:
+
+``` java
+public int[] aUselessMethod(){
+  return new int[]{7, 6, 4, 9, 11};
+}
+```
+
 > :warning: **Übrigens:** Es mag sehr reizvoll und elegant erscheinen, ein Array gleich mit allen Werten zu initialisieren, aber im Alltag wird das doch eher selten getan - immerhin muss die Person, die den Programm-Code schreibt, schon beim Programmieren genau wissen, welche Werte in das Array sollen. Das kommt nicht oft vor!
 
 
@@ -86,51 +101,72 @@ numbers[3] = numbers[0]; // drittes Element
 
 In diesem Beispiel werden die drei Elemente eines `int`-Arrays von ihren default-Werten (`0`) auf andere Werte geändert. Die Zuweisung des dritten Elements zeigt dabei, dass der _"Lese"_-Zugriff auf ein Element genauso funktioniert. Am einfachsten ist es wohl, sich sich `numbers[0]`, `numbers[1]` und `numbers[3]` wie einzelne Variablen vorzustellen, die auf 3 verschiedene `int`-Werte verweisen. 
 
+Natürlich bietet sich für einen Zugriff auf jedes einzelne Element - also für ein _**Iterieren über alle Elemente**_ - eine `for`-Schleife an (_siehe dazu das Kapitel zu Schleifen!_).  
+Hier ein etwas umfassenderes Beispiel - eine Methode, die ein `int[]` mit einer bestimmten Sequenz aus der Potenzen-Reihe von `power` zurückgibt:
 
-<!--
+``` java
+public static int[] powerSequence(int power, int from, int to){
+  int[] seq = new int[to - from + 1];
 
-**Anwendungs-Beispiel**
-
-```java
-/*
-  * Alle Wörter eines Strings "umkehren",
-  * die länger sind als 4 Zeichen...
-  */
-
-String text = "Ein Raabe geht im Feld spazieren";
-String[] words = text.split(" ");
-
-for (int i = 0; i < words.length; i++) {
-  // wenn Wort länger als 4...
-  if (words[i].length() > 4) {
-    // ...Wort "umkehren"
-    String reversed = "";
-    for (int j = words[i].length() - 1; j >= 0; j--) {
-      reversed += words[i].charAt(j); // teuer!
-    }
-    words[i] = reversed;
+  for (int i = 0; i < seq.length; i++) {
+    seq[i] = (int) Math.pow(power, from + i);
   }
-}
 
-for (int i = 0; i < words.length; i++) {
-  System.out.print(words[i] + " ");
+  return seq;
 }
 ```
--->
+
+Der Aufruf `powerSequence(2, 1, 10)` (also ein Array mit den Zweier-Potenzen von `1` bis `8`) ergäbe folgendes Array: `[2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]`.
+
 
 ## Mehrdimensionale Arrays
 
--   Arrays können (theoretisch) beliebig viele Dimensionen besitzen bzw. beliebig tief "verschachtelt" sein
--   Jedes Array einer Unter-Ebene _kann_ dabei eine andere Länge besitzen
+Arrays können (theoretisch) beliebig viele Dimensionen besitzen bzw. beliebig tief "verschachtelt" sein. Dies bedeutet, dass die erste Dimension eines Arrays nicht etwa `int`- oder `String`-Werte enthält, sondern eben weitere Arrays. Jedes Array einer Unter-Ebene _kann_ dabei eine andere Länge besitzen:
 
 ```java
 // zwei-dimensionales int-Array; entspricht einem
 // Array aus vier int-Arrays der Länge 2
 int[][] matrix = new int[4][2];
+
 // Die Länge der Arrays in tieferen Dimensionen kann
 // (vorerst) unbestimmt bleiben und sich letztendlich
 // unterscheiden
 int[][] twoDimensions = new int[4][];
+
 // auch hier sind Litarals möglich:
 int[][] twoDimLiteral = {{2, 4}, {1, 54, 6}};
+```
+
+Als weiteres Beispiel soll eine Methode dienen, die ein 2-dimensionales Array mit der Multiplikationstabelle (_einmal-eins_) von `from` bis `to` mit der Länge `multiplyTo` zurückgibt:
+
+``` java
+public static int[][] multiplicationTable(int from, int to, int multiplyTo){
+  int[][] table = new int[to - from + 1][multiplyTo];
+  
+  for (int i = 0; i < table.length; i++) {
+    for (int j = 0; j < table[i].length; j++) {
+      table[i][j] = (i + 1) * (j + 1);
+    }
+  }
+  
+  return table;
+}
+```
+
+Der Aufruf `multiplicationTable(1, 10, 10)`, also eine Multiplikationstabelle mit den Ergebnissen für `1` bis `10`, jeweils multipliziert bis `10`, sähe (in formatierter Textform) so aus:
+
+```
+[
+  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  [2, 4, 6, 8, 10, 12, 14, 16, 18, 20],
+  [3, 6, 9, 12, 15, 18, 21, 24, 27, 30],
+  [4, 8, 12, 16, 20, 24, 28, 32, 36, 40],
+  [5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
+  [6, 12, 18, 24, 30, 36, 42, 48, 54, 60],
+  [7, 14, 21, 28, 35, 42, 49, 56, 63, 70],
+  [8, 16, 24, 32, 40, 48, 56, 64, 72, 80],
+  [9, 18, 27, 36, 45, 54, 63, 72, 81, 90],
+  [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+]
+
 ```
