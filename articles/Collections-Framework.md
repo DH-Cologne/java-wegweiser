@@ -15,7 +15,7 @@ Als eine _Collection_ bezeichnet man in Java jene Datenstrukturen, die das _Coll
 
 Von jeder dieser Datenstrukturen, die alle als Interfaces im Collections Framework vorhanden sind, sind unterschiedliche Implementationen möglich. Hierbei bleibt die Schnittstelle (Interface!) immer gleich - nur die Implementation, also die Art und Weise, wie die Schnittstelle bedient wird, ist verschieden. Somit sind z.B. alle Implementationen von `List` miteinander kompatibel (_dafür sind Interfaces ja auch da!_).
 
-Wir werden uns im Folgenden auf **_Listen_** und **_Sets_** beschränken.
+Wir werden uns im Folgenden auf Implementationen von `List` und `Set` beschränken.
 
 ![Collection](/assets/images/collections-framework-collection.png)  
 Hinweis: unvollständig!  
