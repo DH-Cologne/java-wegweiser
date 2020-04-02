@@ -1,6 +1,6 @@
 # Arrays
 
-Ein Array ist eine lineare [Datenstruktur](https://de.wikipedia.org/wiki/Datenstruktur), das heißt, ein Array organisiert Daten (_"Elemente"_) in sequentieller Form. Oder einfacher: Die Daten/Objekte, die in einem Array organisiert sind, haben eine Reihenfolge.  
+Ein [Array](https://de.wikipedia.org/wiki/Feld_(Datentyp)) ist eine lineare [Datenstruktur](https://de.wikipedia.org/wiki/Datenstruktur), das heißt, ein Array organisiert Daten (_"Elemente"_) in sequentieller Form. Oder einfacher: Die Daten/Objekte, die in einem Array organisiert sind, haben eine Reihenfolge.  
 
 - [Arrays](#arrays)
   - [Funktionsweise](#funktionsweise)
