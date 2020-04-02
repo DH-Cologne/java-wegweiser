@@ -30,7 +30,6 @@ Sie umfasst (unter anderem) die benötigten **Java-Programmbibliotheken** (_sieh
 Das **J**ava **D**evelopment **K**it (dt. _Java-Entwicklungspaket_ :thinking:) umfasst die oben erwähnte **JRE** sowie den Quellcode der Java Class Library (_siehe unten!_) und die Entwicklungswerkzeuge zum Entwickeln von Java-Programmen ([Compiler](https://de.wikipedia.org/wiki/Compiler), etc.).
 
 ### JVM und Bytecode
-
 Java-Programme laufen in einer [virtuellen Maschine](https://de.wikipedia.org/wiki/Virtuelle_Maschine), der _JVM ([Java Virtual Machine](https://de.wikipedia.org/wiki/Java_Virtual_Machine))_. Dies ist eine Software, die auf dem Zielsystem installiert sein muss. Da die JVM für alle gängigen Betriebssysteme verfügbar ist, sind Java-Programme theoretisch Betriebssystem-unabhängig (solange nicht auf plattformspezifische Funktionen zugegriffen wird). Es ist jedoch auch möglich, Java-Programme direkt für die Ausführung auf einem [bestimmten Betriebssystem zu kompilieren](https://de.wikipedia.org/wiki/Java_(Programmiersprache)#Native_Compiler) - auf Kosten der Plattform-Unabhängigkeit.
 
 Damit ein Java-Programm in einer JVM ausgeführt werden kann, muss es (statt in Maschinen-COde, s.o.) in sogenennten Java-[Bytecode](https://de.wikipedia.org/wiki/Bytecode) kompiliert werden. Dieser Code kann von der JVM ausgeführt werden.
