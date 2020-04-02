@@ -16,4 +16,4 @@ Zum Einsatz von [GitHub-Emojis](https://marcomontalbano.github.io/github-emoji/)
 Du solltest der bestehenden Formatierung des Inhaltsverzeichnisses folgen. Und ja, das ist eigentlich das Markdown für Inline-Code, aber es macht sich ganz prima für die Schlagworte, weil es der üblichen Darstellung von Tags ähnelt.
 
 ### Pfade und Veknüpfungen innerhalb des Repositories :link:
-Links zu Dateien in diesem Repository kannst du am besten mit einem vorangestellten `/` im Dateipfad erzielen: `[Text](/documents/Datei.md)`. Dies erzeugt einen absoluten Link, aber relativ zum Repository!
+Links zu Dateien in diesem Repository kannst du am besten mit einem vorangestellten `/` im Dateipfad erzielen: `[Text](/articles/Datei.md)`. Dies erzeugt einen absoluten Link, aber relativ zum Repository!

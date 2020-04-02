@@ -22,107 +22,107 @@ Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für Teilne
 
 ### Einstieg
 
-#### [Die Programmiersprache Java](/documents/Die-Programmiersprache-Java.md)
+#### [Die Programmiersprache Java](/articles/Die-Programmiersprache-Java.md)
 > `Warum Java?`, `Warum nicht?`, `Besonderheiten`, `Java Platform`, `Java Ecosystem`, `Packages`, `Hello World!`, ...
 
-#### [Eclipse IDE](/documents/Eclipse-IDE.md)
+#### [Eclipse IDE](/articles/Eclipse-IDE.md)
 > `IDE`, `Warum Eclipse?`, `Die wichtigsten Funktionen`, `Import`, `Export`, `Console`, `Run configurations`, ...
 
 
 ### Grundlagen
 
-#### [Hello World](/documents/Hello-World.md)
+#### [Hello World](/articles/Hello-World.md)
 > `Das erste Programm`, `Was ist das alles?`
 
-#### [Packages und `import`](/documents/Packages.md)
+#### [Packages und `import`](/articles/Packages.md)
 > `Packages`, `Pakete`, `Paket-Pfade`, `import`
 
-#### [`main`-Methode](/documents/Main-Methode.md)
+#### [`main`-Methode](/articles/Main-Methode.md)
 > `main`
 
-#### [Kommentare](/documents/Kommentare.md)
+#### [Kommentare](/articles/Kommentare.md)
 > `// inline`, `/* multi-line */`
 
-#### [Variablen](/documents/Variablen.md)
+#### [Variablen](/articles/Variablen.md)
 > `Was ist das?`, `Syntax`, `naming conventions`, `Typisierung`, ...
 
-#### [Datentypen](/documents/Datentypen.md)
+#### [Datentypen](/articles/Datentypen.md)
 > `primitive Datentypen`, `komplexe Datentypen`, `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, `char`, `default-Werte`, ...
 
-#### [Casting](/documents/Casting.md)
+#### [Casting](/articles/Casting.md)
 > `Typumwandlung`, `implizit`, `explizit`, `upcast`, `downcast`, `cast-Operator`, `Casting bei komplexen Datentypen`, ...
 
-#### [Methoden](/documents/Methoden.md)
+#### [Methoden](/articles/Methoden.md)
 > `Rückgabewerte`, `Parameter/Argumente`, `return`, `Überlagerung`, ...
 
-#### [Operatoren](/documents/Operatoren.md)
+#### [Operatoren](/articles/Operatoren.md)
 > `Rechenoperatoren`, `Vergleichsoperatoren`, `logische Operatoren`, `Zuweisungsoperatoren`, `+`, `-`, `*`, `/`, `%`, `++`, `--`, `==`, `!=`, `>`, `<`, `>=`, `<=`, `&&`, `||`, `=`, `+=`, `-=`, `/=`, `*=`, `%=`, `&=`, `|=`, ...
 
-#### [Strings](/documents/Strings.md)
+#### [Strings](/articles/Strings.md)
 > `die Klasse "String"`, `Literals`, `special characters`, `Unveränderbarkeit von Strings`, `UTF-16`, ...
 
-#### [Konditionale / Conditional statements](/documents/Conditionals.md)
+#### [Konditionale / Conditional statements](/articles/Conditionals.md)
 > `if`, `else`, `:? (Ternary-Operator)`, `switch`
 
-#### [Schleifen](/documents/Arrays.md)
+#### [Schleifen](/articles/Arrays.md)
 > `while`, `do-while`, `for`, `for-each`, :ribbon:
 
-#### [Arrays](/documents/Arrays.md)
+#### [Arrays](/articles/Arrays.md)
 > `Datenstrukturen`, `Deklaration`, `Typisierung`, `Initialisierung`, `Array Literals`, `Zugriff`, `Mehrdimensionale Arrays`, ...
 
 
-#### [Enums](/documents/Enums.md)
+#### [Enums](/articles/Enums.md)
 > `Enums`, ...
 
-#### [Fehlerbehandlung](/documents/Fehlerbehandlung.md)
+#### [Fehlerbehandlung](/articles/Fehlerbehandlung.md)
 > `Error`, `Exception`, `try`, `catch`, `finally`, `try-with-resources`, `throws`, ...
 
 
 ### Objektorientierte Programmierung (OOP)
 
-#### [OOP: Einführung](/documents/OOP-Einführung.md)
+#### [OOP: Einführung](/articles/OOP-Einführung.md)
 > `Definition`, `Nutzen`, `Beispiele`, `Wie stehen die Konzepte "Klasse" und "Objekt" zueinander?`, ...
 
-#### [Klassen und Objekte](/documents/Klassen-und-Objekte.md)
+#### [Klassen und Objekte](/articles/Klassen-und-Objekte.md)
 > `Klasse`, `Objekt`, `Klassenattribute`, `Klassenvariablen`, `Sichtbarkeits-/Zugriffsmodifizierer`, `private`, `(default)`, `protected`, `public`, `this`, `Getter`, `Setter`, `Konstruktoren`, `final`, `static`, `Konstanten in Java`, `toString()`, `Objekt-Identität`, `equals()`, `hashCode()`, `Vertrag zwischen equals() und hashCode()`, ...
 
-#### [Vererbung](/documents/Vererbung.md)
+#### [Vererbung](/articles/Vererbung.md)
 > `Wozu?`, `Terminologie`, `extends`, `super`, `instanceof-Operator`, `Überschreiben von Methoden`, `abstrakte Klassen`, `abstrakte Methoden`, `abstract`, `Interfaces`, `default` ...
 
 
 ### Fortgeschrittenes
 
-#### [Rekursion](/documents/Rekursion.md)
+#### [Rekursion](/articles/Rekursion.md)
 > `Um Rekursion zu verstehen, muss man zunächst Rekursion verstehen.`
 
-#### [Input / Output (I/O)](/documents/IO.md)
+#### [Input / Output (I/O)](/articles/IO.md)
 > `Streams`, `Buffering`, `Reader`, `Writer`, `Objektserialisierung`, ...
 
-#### [Datenstrukturen](/documents/Datenstrukturen.md)
+#### [Datenstrukturen](/articles/Datenstrukturen.md)
 > `verkettete Listen`, `zweifach verkettete Listen`, `Binärbäume`, `binäre Suchbäume`, `Iterable`, `Iterator` ...
 
-#### [Generics](/documents/Generics.md)
+#### [Generics](/articles/Generics.md)
 > `Was?`, `Wozu?`, `<Syntax>`, `Typsicherheit trotz generischer Programmierung`, `Gültigkeit bei Kompilierung und zur Laufzeit`, ...
 
-#### [Collections Framework](/documents/Collections-Framework.md)
+#### [Collections Framework](/articles/Collections-Framework.md)
 > `Aufbau`, `List`, `Set`, `Map`, `Objekt-Identität im Kontext von HashMaps/HashSets`, ...
 
-#### [Vergleichen und Sortieren](/documents/Vergleichen-Sortieren.md)
+#### [Vergleichen und Sortieren](/articles/Vergleichen-Sortieren.md)
 > `Comparable`, `Comparator`, `Collections.sort()`, `Sortieralgorithmen` ...
 
-#### [Externe Programmbibliotheken](/documents/Programmbibliotheken.md)
+#### [Externe Programmbibliotheken](/articles/Programmbibliotheken.md)
 > `Wozu?`, `Wie werden sie eingebunden?`, `Maven`, `Gradle` ...
 
-#### [Unit-Tests](/documents/Unit-Tests.md)
+#### [Unit-Tests](/articles/Unit-Tests.md)
 > `Wozu?`, `Schreiben von Unit-Tests`, `Test-driven-development`, `JUnit`, ...
 
 
 ### Allgemeines / Sonstiges
 
-#### [Naming Conventions](/documents/Naming-Conventions.md)
+#### [Naming Conventions](/articles/Naming-Conventions.md)
 > `Konventionen für Bezeichner in Java`, `Groß-/Kleinschreibung`, ...
 
-#### [Dokumentation mit JavaDoc](/documents/JavaDoc.md)
+#### [Dokumentation mit JavaDoc](/articles/JavaDoc.md)
 > `Wozu?`, `/**`, `@param`, `@return`, `<code></code>`, `best practices`, ...
 
 
