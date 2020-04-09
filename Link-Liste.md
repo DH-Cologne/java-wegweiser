@@ -25,8 +25,6 @@
 
 -   [Einstieg in Eclipse](http://www.java-programmieren.com/eclipse-erste-schritte.php) - "In diesem Eclipse Tutorial werden die erste Schritte in Eclipse aufgezeit, beispielsweie wie man ein Projekt anlegt und in diesem dann die erste Klasse samt Java-Code erstellt."
 -   [Java Debugging with Eclipse](https://www.vogella.com/tutorials/EclipseDebugging/article.html) - Wie funktioniert der debugger in Eclipse?
--   [Git Book](https://git-scm.com/book/de/v2) - Lernen, mit Git umzugehen
--   [Git einfach erklärt](https://rogerdudler.github.io/git-guide/index.de.html) - Eine sehr einfache, gut verständliche, dafür aber auch nicht ganz vollständige Anleitung zu Git. Gut für den Einstieg!
 
 ## Downloads :floppy_disk:
 
@@ -37,6 +35,9 @@
 
 ## Sonstiges :green_salad:
 
--   [Visualisierte Sortier-Algorithmen](https://www.toptal.com/developers/sorting-algorithms) - Für wenn man's mal braucht
 -   [StackOverflow](https://stackoverflow.com/) - Nur für den Fall, dass es jemand noch nicht kennt
 -   [DEV.to](https://dev.to/) - Freundliche Community, die sich gut gelaunt mit Themen zur Software-Entwicklung im Allgemeinen auseinandersetzt (Englisch)
+-   [Git Book](https://git-scm.com/book/de/v2) - Lernen, mit Git umzugehen
+-   [Git einfach erklärt](https://rogerdudler.github.io/git-guide/index.de.html) - Eine sehr einfache, gut verständliche, dafür aber auch nicht ganz vollständige Anleitung zu Git. Gut für den Einstieg!
+-   [CS visualized: Useful Git commands](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1) - Sehr gut geeignet, um einige komplexere Vorgänge in Git zu verstehen
+-   [Visualisierte Sortier-Algorithmen](https://www.toptal.com/developers/sorting-algorithms) - Für wenn man's mal braucht
