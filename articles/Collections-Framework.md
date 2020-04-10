@@ -8,6 +8,8 @@ Das gesamte Collections Framework arbeitet mit Generics (_siehe Kapitel zu Gener
 
 > :warning: **Achtung:** Das Collections Framework ist umfangreicher, als hier dargestellt. Wir wollen uns hier nur einigen ausgewählten, wichtigen Konzepten widmen. Eine vollständige Darstellung ist bei Bedarf [hier](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html), [hier](https://docs.oracle.com/javase/tutorial/collections/) oder [hier](https://duckduckgo.com/?q=java+collections+framework&ia=web) zu finden!
 
+> :link: **Auch ganz nett:** [Hier](https://en.wikiversity.org/wiki/Java_Collections_Overview#Comparison_of_Collections) findet ihr zusätzlich eine vergleichende Übersicht über die verschiedenen Collections!
+
 
 ## _Collection_-Interface und Implementationen
 
