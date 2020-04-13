@@ -138,7 +138,7 @@ Eine andere Variante des `Set` ist das `TreeSet`, welches `SortedSet` implementi
 
 Das _Map_-Interface ist zwar nicht Teil der Hierarchie unter dem _Collection_-Interface, dennoch werden _Maps_ zum Collection Framework gezählt.
 
-Eine [_Map_](https://docs.oracle.com/javase/7/docs/api/java/util/Map.html) ist eine Datenstruktur, die Schlüssel-Wert-Paare verwaltet. Dabei können sowohl Schlüssel, als auch Wert von einem beliebigen Datentyp sein (der jedoch pro Map-Instanz mittels Generics festgelegt werden muss/sollte!).  
+Eine [_Map_](https://docs.oracle.com/javase/7/docs/api/java/util/Map.html) ist eine Datenstruktur, die Schlüssel-Wert-Paare verwaltet. Dabei können sowohl Schlüssel, als auch Wert von einem beliebigen (komplexen) Datentyp sein, der mittels Generics festgelegt wird.  
 Ein Beispiel für Schlüssel-Wert-Paare wäre etwa eine Sammlung von Postleitzahlen, denen Ortsnamen zugeordnet sind (Schlüssel und Wert wären hier Strings, denn Postleitzahlen können mit einer führenden `0` beginnen, die bei `Integer` wegfiele) ...
 
 ```
