@@ -134,7 +134,7 @@ Schnittmenge: [zwo, drei]
 
 Eine andere Variante des `Set` ist das `TreeSet`, welches `SortedSet` implementiert (_siehe Grafik oben!_) und dessen Elemente deshalb eine feste Reihenfolge/Sortierung haben!
 
-## _Map_-Interface und Implementationen
+## Maps und Implementationen von `Map`
 
 Das _Map_-Interface ist zwar nicht Teil der Hierarchie unter dem _Collection_-Interface, dennoch werden _Maps_ zum Collection Framework gezählt.
 
@@ -159,9 +159,62 @@ UND: 2634677
 Ramlmn / [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0)  
 Quelle: [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Java.util.Map_hierarchy.svg) 
 
-> TODO :construction: :construction: :construction: 
+
+**Beispiel:**
+
+```java
+// neue HashMap erzeugen
+Map<String, String> map = new HashMap<String, String>();
+
+// einige Einträge hinzufügen
+map.put("Musterfrau, Maximiliane", "0221/1234567894");
+map.put("Mustermann, Max", "0162/14374566346");
+map.put("Mustermann, Max", "01234/56789"); // Schlüssel bereits vorhanden! Wert wird ersetzt!
+map.put("Otto Normal", "01234135/374237642");
+map.put("Mario Rossi", "0174/1035982");
+
+// gesamte Map auf der Konsole ausgeben
+System.out.println(map);
+
+System.out.println(""); // Leerzeile
+
+// einen bestimmten Wert auf der Konsole ausgeben
+System.out.println(map.get("Mustermann, Max"));
+
+System.out.println(""); // Leerzeile
+
+// Iterieren über Set von Einträgen (Map.Entry)
+for(Entry<String, String> e : map.entrySet()) {
+    System.out.println(e.getKey() + ": " + e.getValue());
+}
+
+System.out.println(""); // Leerzeile
+
+// Iterieren über Schlüssel-Set
+for(String key : map.keySet()) {
+    System.out.println(key + ": " + map.get(key));
+}
+```
+
+Konsolen-Ausgabe:
+
+```
+{Musterfrau, Maximiliane=0221/1234567894, Otto Normal=01234135/374237642, Mario Rossi=0174/1035982, Mustermann, Max=01234/56789}
+
+01234/56789
+
+Musterfrau, Maximiliane: 0221/1234567894
+Otto Normal: 01234135/374237642
+Mario Rossi: 0174/1035982
+Mustermann, Max: 01234/56789
+
+Musterfrau, Maximiliane: 0221/1234567894
+Otto Normal: 01234135/374237642
+Mario Rossi: 0174/1035982
+Mustermann, Max: 01234/56789
+```
 
 
-## Objekt-Identität bei Sets und Maps
+## Objekt-Identität und -Gleichheit bei Sets und Maps
+:construction: TODO
 
-> TODO :construction: :construction: :construction: 
