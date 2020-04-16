@@ -216,5 +216,7 @@ Mustermann, Max: 01234/56789
 
 
 ## Objekt-Identität und -Gleichheit bei Sets und Maps
-:construction: TODO
 
+Sets lassen, wie erwähnt, keine Duplikate zu. Auch die Schlüssel in einer Map _müssen_ unik sein. Wann zwei Elemente (oder Schlüssel) _gleich_ sind, entscheidet die `equals()`-Methode: Ein Objekt `o1` _gleicht_ einem Objekt `o2`, wenn `o1.equals(o2) == true`. Genau dafür ist `equals()` ja auch da! Duplikate sind also _gleich_ nicht aber unbedingt _identisch_, also wirklich die selben Objekte!
+
+> :speech_balloon: **Übrigens:** Eine Ausnahme von dieser Regel stellen die (extrem selten verwendeten) Klassen `IdentityHashSet` und `IdentityHashMap` dar: Diese vergleichen tatsächlich mittels `==`, was wirklich sehr selten (wenn nicht fast nie) der richtige Weg ist.
