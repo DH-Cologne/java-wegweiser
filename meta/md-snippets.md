@@ -12,6 +12,9 @@ _oder_
 Quelle: [#](https://www.github.com)
 
 
-# "Kritische" Hinweise
+# Hinweise und Bemerkungen
 
-> :warning: **Achtung:** An dieser stelle besteht die Gefahr einer Verwechslung (oder was auch immer) ...
+> :warning: **Achtung:** An dieser Stelle besteht die Gefahr einer Verwechslung (oder was auch immer) ...
+
+> :speech_balloon: **Übrigens:** Es gibt an dieser Stelle noch etwas mehr oder weniger interessantes zu sagen...
+
