@@ -3,7 +3,7 @@
 Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des _Softwaretechnologie_-Moduls der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** (_Institut für Digital Humanities_, Universität zu Köln).
 
 > **Work in progress. Forever.** :construction: :snail:  
-Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt, dann [trage es gerne selbst bei](/Mitwirken.md)!
+Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt unzureichend erläutert wird, dann [eröffne ein Issue](../../issues) oder [trage eigene Änderungen bei](/Mitwirken.md)!
 
 
 -   :bulb: [**Was ist das hier** - bzw. was ist es nicht?](/Was-Ist-Das.md)
