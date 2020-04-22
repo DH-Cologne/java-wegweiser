@@ -1,5 +1,10 @@
 # Vergleichen und Sortieren :bento:
 
+## Sortier-Algorithmen
+
+> :construction: **TODO:**
+> Es sollen hier keine Sortier-Algorithmen im Detail besprochen werden. Aber es soll klar werden, was ein Sortieralgorithmus ist und dass es unterschiedliche (und unterschiedlich leistungsfähige) Algorithmen gibt. Außerdem wäre wichtig, welche Algorithmen in der _JCL_ warum eingesetzt werden (z.B. in `Collections.sort()`).
+
 ## Das Interface `Comparable`
 
 Damit überhaupt an eine _Sortierung_\* gedacht werden kann, muss zunächst ein verlässlicher _Vergleich_\*\* zwischen den zu sortierenden Elementen gemacht werden können:
@@ -46,4 +51,54 @@ public class User {
 }
 ```
 
-Um dieses Problem zu lösen, gibt es das Interface `Comparable`.
+Um das Problem zu lösen, dass es keine natürliche Sortierung für solche Objekte gibt, kann die entsprechende Klasse das Interface [`Comparable`](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html) implementieren. Es schreibt nur eine Methode `compareTo()` vor, die einen `int`-Wert zurückgibt. Ist dieser Wert kleiner/gleich/größer als `0`, dann ist das Objekt, dessen `compareTo()`-Methode aufgerufen wurde, kleiner/gleich/größer als das Objekt, mit dem verglichen wurde. Mit Generics wird festgelegt, mit Objekten welchen Typs die Instanzen der Klasse (hier: mit anderen `User`-Objekten) verglichen werden können:
+
+```java
+public class User implements Comparable<User> {
+	
+	private String mail;
+	private long lastLoginTimestamp;
+	
+	public User(String mail, long lastLoginTimestamp) {
+		super();
+		this.mail = mail;
+		this.lastLoginTimestamp = lastLoginTimestamp;
+	}
+
+	@Override
+	public int compareTo(User o) {
+		return this.mail.compareTo(o.getMail());
+	}
+	
+	/*
+	 * Es folgen Getter und Setter
+	 * für die Felder "mail" und "lastLoginTimestamp"
+	 * sowie etwaige weitere Methoden...
+	 */
+
+}
+```
+
+Das obige Beispiel implementiert `compareTo()` so, dass bei einer Sortierung von `User`-Objekten alphabetisch nach der EMail-Adresse sortiert würde. Dafür wird ganz einfach die `compareTo()`-Methode der Klasse String genutzt.  
+Eine andere Implementation von `compareTo()`, bei der nach dem Timestamp des letzten Logins verglichen wird (hier ein `long`-Wert), könnte etwa so aussehen:
+
+```java
+@Override
+public int compareTo(User o) {
+	return this.lastLoginTimestamp - o.getLastLoginTimestamp();
+}
+```
+
+Dadurch würden in einer Sortierung _kleinere_ Werte (also _ältere_ Timestamps) weiter vorne einsortiert. Um dies umzukehren, kehrt man einfach die Rückgabe um: `o.getLastLoginTimestamp() - this.lastLoginTimestamp`.
+
+Natürlich sind auch alle anderen Sortier-Kriterien denkbar!
+
+
+## Das Interface `Comparator`
+
+> :construction: **TODO:** ...
+
+
+## Sortieren mit Mitteln aus dem Collections-Framework
+
+> :construction: **TODO:** ...
