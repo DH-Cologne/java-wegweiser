@@ -2,13 +2,19 @@
 
 ## Primitive Datentypen
 
--   `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, `char`
--   Welche **default values** haben diese Datentypen?
+> :construction: **TODO:** Erläuterungen
 
-![primitive types overview](/assets/images/primitive-data-types.png)
-Grafik: [#](/assets/images/primitive-data-types.png), Quelle [#](https://de.wikibooks.org/wiki/Java_Standard)
+| Datentyp | Größe | Default-Wert | Beschreibung |
+| --- | --- | --- | --- |
+| **`byte`** | 1 Byte | `0` | Speichert ganze Zahlen zwischen `-128` und `127` |
+| **`short`** | 2 Bytes | `0` | Speichert ganze Zahlen zwischen `-32.768` und `32.767` |
+| **`int`** | 4 Bytes | `0` | Speichert ganze Zahlen zwischen `-2.147.483.648` und `2.147.483.647` |
+| **`long`** | 8 Bytes | `0` | Speichert ganze Zahlen zwischen `-9.223.372.036.854.775.808` und `9.223.372.036.854.775.807` |
+| **`float`** | 4 Bytes | `0.0` | Speichert Fließkommazahlen mit 6 bis 7 Stellen |
+| **`double`** | 8 Bytes | `0.0` | Speichert Fließkommazahlen mit bis zu 15 Stellen |
+| **`boolean`** | 1 Bit | `false` | Speichert Wahrheitswerte (`true` oder `false`) |
+| **`char`** | 2 Bytes | `0` / _null_-Character | Speichert einzelne Symbole/Zeichen oder [ASCII](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange)-Werte |
 
-> :construction: **TODO:** Markdown-Tabelle mit den Werten statt einer Grafik
 
 ## Komplexe Datentypen
 
