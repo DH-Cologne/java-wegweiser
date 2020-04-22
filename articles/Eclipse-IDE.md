@@ -1,4 +1,4 @@
-# :waning_crescent_moon: Die IDE Eclipse
+# Die IDE Eclipse :waning_crescent_moon:
 
 - IDE (**I**ntegrated **D**evelopment **I**nvironment - oder auch _Entwicklungsumgebung_)
 -   Was ist das für ein Programm? [#](https://de.wikibooks.org/wiki/Java_Standard:_Einrichten_der_Programmierumgebung#Eclipse)

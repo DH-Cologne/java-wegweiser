@@ -1,4 +1,4 @@
-# :coffee: Die Programmiersprache Java
+# Die Programmiersprache Java :coffee:
 
 Java ist eine C-artige, universelle Programmiersprache. Das bedeutet, dass die [Syntax](https://de.wikipedia.org/wiki/Syntax) derer der Programmiersprache _C_ ähnelt, und dass das Einsatzgebiet von Java nicht auf einen bestimmten Bereich der IT beschränkt ist. Es gibt aber noch viel mehr zu wissen...
 

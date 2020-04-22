@@ -1,4 +1,4 @@
-# :symbols: Operatoren
+# Operatoren :symbols:
 
 ## Arithmetische- / Rechenoperatoren
 

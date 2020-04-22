@@ -17,7 +17,7 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 -----------------------
 
 
-## :book: Inhalt
+## Inhalt :book:
 
 > :point_right: Die einzelnen Themenbereiche sind hier mit `Schlagworten` kurz zusammengefasst. Die jeweilige Überschrift verlinkt auf das Dokument mit allen Inhalten zum entsprechenden Thema.
 

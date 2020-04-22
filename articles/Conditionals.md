@@ -1,4 +1,4 @@
-# :railway_track: Konditionale
+# Konditionale :railway_track:
 
 -   steuern den Ablauf des Programms
 -   bilden eigene Gültigkeitsbereiche

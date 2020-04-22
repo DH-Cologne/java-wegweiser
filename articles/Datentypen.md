@@ -1,4 +1,4 @@
-# :1234: Datentypen
+# Datentypen :1234:
 
 ## Primitive Datentypen
 

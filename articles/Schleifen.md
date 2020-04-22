@@ -1,4 +1,4 @@
-# :ribbon: Schleifen
+# Schleifen :ribbon:
 
 Schleifen wiederholen die Ausführung einer Menge von Anweisungen (oder: bestimmter Code-Blöcke) in Abhängigkeit bestimmter Voraussetzungen.
 

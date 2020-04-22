@@ -1,4 +1,4 @@
-# :card_index_dividers: Collections Framework
+# Collections Framework :card_index_dividers:
 
 Das _Java Collections Framework_ stellt zahlreiche verschiedene [Datenstrukturen](https://de.wikipedia.org/wiki/Datenstruktur), aber auch nützliche Hilfswerkzeuge zur Verfügung. Die Interfaces und Klassen des Collections Framework sind alle Teil der [_Java Class Library_](https://en.wikipedia.org/wiki/Java_Class_Library) (auch: _Java Standard Library_) und somit in der [JRE](https://de.wikipedia.org/wiki/Java_Runtime_Environment) verfügbar.
 
