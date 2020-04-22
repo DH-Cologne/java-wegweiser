@@ -1,0 +1,30 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "bkis",
+      "name": "bkis",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9215743?v=4",
+      "profile": "https://github.com/bkis",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "example",
+        "ideas",
+        "maintenance",
+        "projectManagement"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "softwaretechnologie-java",
+  "projectOwner": "bkis",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
