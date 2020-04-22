@@ -144,7 +144,7 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/bkis"><img src="https://avatars0.githubusercontent.com/u/9215743?v=4" width="64px;" alt=""/><br /><sub><b>bkis</b></sub></a><br /><a href="https://github.com/bkis/softwaretechnologie-java/commits?author=bkis" title="Code">💻</a> <a href="#content-bkis" title="Content">🖋</a> <a href="https://github.com/bkis/softwaretechnologie-java/commits?author=bkis" title="Documentation">📖</a> <a href="#example-bkis" title="Examples">💡</a> <a href="#ideas-bkis" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-bkis" title="Maintenance">🚧</a> <a href="#projectManagement-bkis" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://github.com/bkis"><img src="https://avatars0.githubusercontent.com/u/9215743?v=4" width="64px;" alt=""/><br /><sub><b>bkis</b></sub></a><br /><a href="https://github.com/bkis/softwaretechnologie-java/commits?author=bkis" title="Code">💻</a> <a href="#content-bkis" title="Content">🖋</a> <a href="#example-bkis" title="Examples">💡</a> <a href="#ideas-bkis" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-bkis" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 
