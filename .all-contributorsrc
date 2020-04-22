@@ -2,7 +2,7 @@
   "files": [
     "README.md"
   ],
-  "imageSize": 100,
+  "imageSize": 64,
   "commit": false,
   "contributors": [
     {
@@ -21,7 +21,7 @@
       ]
     }
   ],
-  "contributorsPerLine": 7,
+  "contributorsPerLine": 8,
   "projectName": "softwaretechnologie-java",
   "projectOwner": "bkis",
   "repoType": "github",
