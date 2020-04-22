@@ -3,7 +3,7 @@
 Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des _Softwaretechnologie_-Moduls der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** (_Institut für Digital Humanities_, Universität zu Köln).
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors--mitwirkende-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > **Work in progress. Forever.** :construction: :snail:  
@@ -135,7 +135,7 @@ Das ist alles. **Bis jetzt!** Wie wäre es mit [**deinem Beitrag**](/Mitwirken.m
 -----------------------
 
 
-## Contributors ✨
+## Contributors / Mitwirkende ✨
 
 Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen Mitwirkenden ([emoji legende](https://allcontributors.org/docs/en/emoji-key)):
 
