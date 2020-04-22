@@ -128,14 +128,9 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 > `Wozu?`, `/**`, `@param`, `@return`, `<code></code>`, `best practices`, ...
 
 
------------------------
+## Contributors ✨
 
 Das ist alles. **Bis jetzt!** Wie wäre es mit [**deinem Beitrag**](/Mitwirken.md)?  
-
------------------------
-
-
-## Contributors ✨
 
 Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen Mitwirkenden ([emoji legende](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -152,4 +147,4 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-Dieses Projekt hält sich an die [all-contributors](https://github.com/all-contributors/all-contributors)-Spezifikation. Contributions (Beiträge) jeder Art sind willkommen!
+Dieses Projekt hält sich an die [all-contributors](https://github.com/all-contributors/all-contributors)-Spezifikation. Contributions (Beiträge) jeder Art [sind willkommen](/Mitwirken.md)!
