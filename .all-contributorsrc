@@ -13,11 +13,9 @@
       "contributions": [
         "code",
         "content",
-        "doc",
         "example",
         "ideas",
-        "maintenance",
-        "projectManagement"
+        "maintenance"
       ]
     }
   ],
