@@ -9,6 +9,8 @@
 -   Lässt sich gut übersetzen mit _"wenn", "dann", "sonst"_ bzw. _"wenn", "dann", "sonst wenn", ..., "sonst"_
 -   besteht mindestens aus **einem** `if`-Block, einer **beliebigen Anzahl von** `else if`-Blöcken und **maximal einem** `else`-Block
 
+> :construction: **TODO:** Schöneres Beispiel
+
 ```java
 boolean t = true;
 boolean f = false;
@@ -28,11 +30,13 @@ if (t && f){
 -   Syntax: `Bedingung ? Wert wenn wahr : Wert wenn unwahr`
 
 ```java
-boolean condition = true;
-String istEsWirklichWahr = condition ? "wahr" : "unwahr";
+int i = 4;
+String kleinerFuenf = (i < 5) ? "kleiner" : "größer";
 ```
 
 ## switch
 
 -   Ersetzt sperrige `if`/`else`-Konstrukte, die nur den Wert eines einzigen Ausdrucks überprüfen
 -   ...
+
+> :construction: **TODO:** `switch`

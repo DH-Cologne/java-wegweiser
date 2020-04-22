@@ -1,5 +1,11 @@
 # Klassen und Objekte :building_construction:
 
+> :construction: **TODO:**  
+> - Klassen- und Objekt-Konzepte
+> - `new`-Operator
+> - gründlichere Formulierungen in ganzen Sätzen
+> - weitere Inhalte aus der Übersicht in der README!
+
 ## Was ist eine Klasse?
 -   Woraus besteht eine **Klasse** mindestens?
 ...

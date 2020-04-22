@@ -1,9 +1,8 @@
 # Methoden :clamp:
 
-TODO
-
--   Rückgabetyp / `void`
--   Parameter
--   `return`
--   naming: `lowerCamelCase()`
--   Überlagerung von Methoden
+> :construction: **TODO:**  
+> - Rückgabetyp / `void`
+> - Parameter
+> - `return`
+> - naming: `lowerCamelCase()`
+> - Überlagerung von Methoden

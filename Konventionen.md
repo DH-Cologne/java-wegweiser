@@ -1,6 +1,6 @@
 ## :loudspeaker: Konventionen für Beiträge / Contributions
 
-> :construction: TODO: Noch unvollständig...
+> :construction: **TODO:** Noch unvollständig...
 
 Es gibt eine Liste von Konventionen, die dabei helfen sollen, die Formatierung der Beiträge und den Einsatz von Markdown überall in diesem Repository einheitlich zu halten. Du findest sie gleich dort unten :point_down:
 

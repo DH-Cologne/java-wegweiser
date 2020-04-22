@@ -8,6 +8,7 @@
 ![primitive types overview](/assets/images/primitive-data-types.png)
 Grafik: [#](/assets/images/primitive-data-types.png), Quelle [#](https://de.wikibooks.org/wiki/Java_Standard)
 
+> :construction: **TODO:** Markdown-Tabelle mit den Werten statt einer Grafik
 
 ## Komplexe Datentypen
 

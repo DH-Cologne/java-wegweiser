@@ -1,5 +1,7 @@
 # Operatoren :symbols:
 
+> :construction: **TODO:** Alles. Bisher sind hier nur die zu besprechenden Inhalte aufgelistet. Es fehlen Erläuterungen.
+
 ## Arithmetische- / Rechenoperatoren
 
 -   Einfache: `+ - * / %`
@@ -28,7 +30,9 @@ int x = i++; // i = 6 und x = 5 (zuweisen, dann hochzählen)
 -   Negation: `!` (invertiert einen Ausdruck)
 -   Exklusives ODER: `!=` (wenn nur 1 Operand `true` ist)
 
-## Operatoren zur Bit-Manipulation (erstmal weglassen?)
+## Operatoren zur Bit-Manipulation
+
+> :question: **Fraglich:** Lieber erstmal weglassen?
 
 -   `~`, `&`, `|`, `^`
 -   `>>`, `>>>`, `<<`

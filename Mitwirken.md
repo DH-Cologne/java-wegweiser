@@ -22,7 +22,8 @@ Eine Alternative wäre das direkte Bearbeiten der Dateien hier in GitHub (siehe 
 
 ## Wie kommen meine Änderungen in das offizielle Repository?
 
-> :construction: TODO: Diese Anleitung muss ausführlicher werden! :worried:
+> :construction: **TODO:** Diese Anleitung muss ausführlicher werden! :worried:
 > - nicht für jede kleine Änderung einen neuen PR!
+> - ...
 
 Es wird darum gebeten, den [üblichen Weg](https://opensource.guide/how-to-contribute/) über einen Fork > clone > neuer Branch > hack > commit > push > Pull Request ...zu gehen oder (einfacher) die Funktion zur direkten Editierung von Markodown-Files in GitHub zu nutzen (diese erstellt automatisch einen Pull Request).

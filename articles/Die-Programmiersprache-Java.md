@@ -6,7 +6,7 @@ Java ist eine _C-artige_, [universelle](https://de.wikipedia.org/wiki/Turing-Vol
 ## Besonderheiten
 
 ### Objektorientierung
-Java ist eine ([beinahe](https://de.wikipedia.org/wiki/Java_(Programmiersprache)#Objektorientierung)) völlig [objektorientierte Programmiersprache](https://de.wikipedia.org/wiki/Objektorientierte_Programmierung). Mehr dazu erfährst du im entsprechenden Kapitel zur Objektorientierung.
+Java ist eine ([beinahe](https://de.wikipedia.org/wiki/Java_(Programmiersprache)#Objektorientierung)) völlig [objektorientierte Programmiersprache](https://de.wikipedia.org/wiki/Objektorientierte_Programmierung). Mehr dazu erfährst du im entsprechenden Kapitel zur _Objektorientierung_.
 
 ### JVM und Bytecode
 Java-Programme werden nicht direkt in Maschinen-Code übersetzt und können somit nicht [nativ](https://de.wikipedia.org/wiki/Mobile_App#Native_Apps) auf einem Computer ausgeführt werden, sondern laufen in einer virtuellen Maschine. _Mehr dazu weiter unten!_
@@ -38,3 +38,5 @@ Eine rohe, unkompilierte Java-Quelltextdatei hat die Endung `.java` - nach dem K
 
 ### Java Class Library
 Als [_Java Class Library_](https://en.wikipedia.org/wiki/Java_Class_Library) (auch: _Java Standard Library_) bezeichnet man die sehr umfangreiche Programmbibliothek, die fester Teil der Java-Plattform und somit in jeder JRE verfügbar ist.
+
+> :construction: **TODO:** Irgendeine schöne Übersicht über die _JCL_?

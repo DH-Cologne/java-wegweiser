@@ -1,6 +1,6 @@
 # Input / Output (I/O) :fast_forward:
 
-...
+> :construction: **TODO:** Alles...
 
 ## Streams
 

@@ -1,5 +1,7 @@
 # Selbstgebaute Datenstrukturen :chains:
 
+> :construction: **TODO:** Alles. Siehe auch README!
+
 ## Verkettete Listen
 
 ### Einfach verkettete Listen

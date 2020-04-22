@@ -1,6 +1,8 @@
 # Schleifen :ribbon:
 
-Schleifen wiederholen die Ausführung einer Menge von Anweisungen (oder: bestimmter Code-Blöcke) in Abhängigkeit bestimmter Voraussetzungen.
+> :construction: **TODO:** Alles.
+
+Schleifen wiederholen die Ausführung eines Blockes von Anweisungen in Abhängigkeit von bestimmten Voraussetzungen.
 
 
 ## while
