@@ -1,3 +1,5 @@
 theme: jekyll-theme-dinky
+title: "Softwaretechnologie: Java"
+show_downloads: "false"
 plugins:
   - jemoji
