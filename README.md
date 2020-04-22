@@ -3,7 +3,7 @@
 Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des _Softwaretechnologie_-Moduls der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** (_Institut für Digital Humanities_, Universität zu Köln).
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors--mitwirkende-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > **Work in progress. Forever.** :construction: :snail:  
@@ -144,7 +144,7 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/bkis"><img src="https://avatars0.githubusercontent.com/u/9215743?v=4" width="100px;" alt=""/><br /><sub><b>bkis</b></sub></a><br /><a href="https://github.com/bkis/softwaretechnologie-java/commits?author=bkis" title="Code">💻</a> <a href="#content-bkis" title="Content">🖋</a> <a href="https://github.com/bkis/softwaretechnologie-java/commits?author=bkis" title="Documentation">📖</a> <a href="#example-bkis" title="Examples">💡</a> <a href="#ideas-bkis" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-bkis" title="Maintenance">🚧</a> <a href="#projectManagement-bkis" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://github.com/bkis"><img src="https://avatars0.githubusercontent.com/u/9215743?v=4" width="64px;" alt=""/><br /><sub><b>bkis</b></sub></a><br /><a href="https://github.com/bkis/softwaretechnologie-java/commits?author=bkis" title="Code">💻</a> <a href="#content-bkis" title="Content">🖋</a> <a href="https://github.com/bkis/softwaretechnologie-java/commits?author=bkis" title="Documentation">📖</a> <a href="#example-bkis" title="Examples">💡</a> <a href="#ideas-bkis" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-bkis" title="Maintenance">🚧</a> <a href="#projectManagement-bkis" title="Project Management">📆</a></td>
   </tr>
 </table>
 
