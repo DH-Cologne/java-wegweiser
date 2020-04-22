@@ -1,6 +1,6 @@
 # Die Programmiersprache Java :coffee:
 
-Java ist eine C-artige, universelle Programmiersprache. Das bedeutet, dass die [Syntax](https://de.wikipedia.org/wiki/Syntax) derer der Programmiersprache _C_ ähnelt, und dass das Einsatzgebiet von Java nicht auf einen bestimmten Bereich der IT beschränkt ist. Es gibt aber noch viel mehr zu wissen...
+Java ist eine _C-artige_, [universelle](https://de.wikipedia.org/wiki/Turing-Vollst%C3%A4ndigkeit) Programmiersprache. Das bedeutet, dass die [Syntax](https://de.wikipedia.org/wiki/Syntax) derer der Programmiersprache _C_ ähnelt. Das Einsatzgebiet von Java ist nicht auf einen bestimmten Bereich der IT beschränkt. Es gibt aber noch viel mehr zu wissen...
 
 
 ## Besonderheiten
@@ -17,7 +17,7 @@ Eine JVM verfügt über einen [Garbage Collector](https://de.wikipedia.org/wiki/
 
 ## Java-Platform
 
-![Java Platform Diagram](/assets/images/Java-Platform-Diagram.png)
+![Java Platform Diagram](/assets/images/Java-Platform-Diagram.jpg)
 Grafik: [#](/assets/images/Java-Platform-Diagram.png);
 Quelle: [#](https://www.oracle.com/technetwork/java/javase/tech/index.html);
 Mehr dazu: [#](https://de.wikipedia.org/wiki/Java_Platform,_Standard_Edition)
