@@ -5,11 +5,11 @@ Ein [Array](https://de.wikipedia.org/wiki/Feld_(Datentyp)) ist eine lineare [Dat
 - [Arrays](#arrays)
   - [Funktionsweise](#funktionsweise)
     - [Indizierung](#indizierung)
-    - [Feste Größe](#feste-größe)
+    - [Feste Größe](#feste-gr%c3%b6%c3%9fe)
     - [Typisierung](#typisierung)
   - [Erzeugen eines Arrays](#erzeugen-eines-arrays)
-    - [... mit dem `new`-Operator](#-mit-dem-new-operator)
-    - [... mit Array-Literals](#-mit-array-literals)
+    - [... mit dem `new`-Operator](#mit-dem-new-operator)
+    - [... mit Array-Literals](#mit-array-literals)
   - [Zugriff und Manipulation](#zugriff-und-manipulation)
   - [Mehrdimensionale Arrays](#mehrdimensionale-arrays)
 
@@ -134,7 +134,7 @@ int[][] matrix = new int[4][2];
 int[][] twoDimensions = new int[4][];
 
 // auch hier sind Litarals möglich:
-int[][] twoDimLiteral = {{2, 4}, {1, 54, 6}};
+int[][] twoDimLiteral = { {2, 4}, {1, 54, 6} };
 ```
 
 Als weiteres Beispiel soll eine Methode dienen, die ein 2-dimensionales Array mit der Multiplikationstabelle (_einmal-eins_) von `from` bis `to` mit der Länge `multiplyTo` zurückgibt:
