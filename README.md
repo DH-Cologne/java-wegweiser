@@ -12,7 +12,7 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 
 -   :bulb: [**Was ist das hier** - bzw. was ist es nicht?](/Was-Ist-Das.md)
 -   :woman_technologist: [**Contribution** - oder: Wie kann ich hier mitwirken?](/Mitwirken.md)
--   :link: [**Link-Liste** - weitere empfehlenswerte (online-) Ressourcen](/Link-Liste.md)
+-   :link: [**Link-Liste** - weitere empfehlenswerte (online-) Ressourcen](/Links.md)
 
 -----------------------
 
