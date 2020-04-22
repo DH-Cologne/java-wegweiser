@@ -5,6 +5,8 @@
 > :construction: **TODO:**
 > Es sollen hier keine Sortier-Algorithmen im Detail besprochen werden. Aber es soll klar werden, was ein Sortieralgorithmus ist und dass es unterschiedliche (und unterschiedlich leistungsfähige) Algorithmen gibt. Außerdem wäre wichtig, welche Algorithmen in der _JCL_ warum eingesetzt werden (z.B. in `Collections.sort()`).
 
+> :speech_balloon: **Übrigens:** Hier findest du eine Seite mit sehr schönen [Visualisierungen verschiedener Sortier-Algorithmen](https://www.toptal.com/developers/sorting-algorithms)
+
 ## Das Interface `Comparable`
 
 Damit überhaupt an eine _Sortierung_\* gedacht werden kann, muss zunächst ein verlässlicher _Vergleich_\*\* zwischen den zu sortierenden Elementen gemacht werden können:
