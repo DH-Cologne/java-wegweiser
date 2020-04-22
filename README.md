@@ -1,10 +1,10 @@
 # Der wachsende Reader zu Softwaretechnologie: Java
 
-Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des _Softwaretechnologie_-Moduls der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** (_Institut für Digital Humanities_, Universität zu Köln).
-
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des _Softwaretechnologie_-Moduls der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** (_Institut für Digital Humanities_, Universität zu Köln).
 
 > **Work in progress. Forever.** :construction: :snail:  
 Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt unzureichend erläutert wird, dann [eröffne ein Issue](../../issues) oder [trage eigene Änderungen bei](/Mitwirken.md)!
@@ -135,7 +135,7 @@ Das ist alles. **Bis jetzt!** Wie wäre es mit [**deinem Beitrag**](/Mitwirken.m
 -----------------------
 
 
-## Contributors / Mitwirkende ✨
+## Contributors ✨
 
 Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen Mitwirkenden ([emoji legende](https://allcontributors.org/docs/en/emoji-key)):
 
