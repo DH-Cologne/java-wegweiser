@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
-title: "Softwaretechnologie: Java"
-description: ""
+title: 'Softwaretechnologie: Java'
+description: ':coffee: Eine wachsende Sammlung der Inhalte zum Modul "Softwaretechnologie: Java" der Studiengänge Informationsverarbeitung und Medieninformatik am IDH, Universität zu Köln.'
 show_downloads: false
 plugins:
   - jemoji
