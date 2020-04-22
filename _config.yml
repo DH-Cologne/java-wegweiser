@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
 title: "Softwaretechnologie: Java"
-show_downloads: "false"
+show_downloads: false
 plugins:
   - jemoji
