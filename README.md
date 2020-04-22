@@ -147,4 +147,4 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-Dieses Projekt hält sich an die [all-contributors](https://github.com/all-contributors/all-contributors)-Spezifikation. Contributions (Beiträge) jeder Art [sind willkommen](/Mitwirken.md)!
+Dieses Projekt hält sich an die [all-contributors](https://github.com/all-contributors/all-contributors)-Spezifikation.  Contributions (Beiträge) jeder Art [sind willkommen](/Mitwirken.md) und werden an dieser Stelle in gegebener Form aufgeführt!
