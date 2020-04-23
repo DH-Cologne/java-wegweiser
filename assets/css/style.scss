@@ -32,8 +32,8 @@ $hr-border-color: #eff0f1;
 }
 
 .project-tagline {
-    margin-top: 0;
-    margin-bottom: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
     font-size: 3.25rem;
     opacity: 1;
 }
@@ -48,7 +48,7 @@ $hr-border-color: #eff0f1;
 .main-content h4,
 .main-content h5,
 .main-content h6 {
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .main-content {
