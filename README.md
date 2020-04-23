@@ -1,10 +1,10 @@
-# Der wachsende Reader zum Java-Modul
+# Das wachsende Handbuch zum Java-Modul
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Ergänzende **Lernressource**, **Nachschlagewerk** und **Wegweiser** für TeilnehmerInnen des _Softwaretechnologie_-Moduls der Studiengänge **Informationsverarbeitung** und **Medieninformatik** des **IDH** (_Institut für Digital Humanities_, Universität zu Köln).
+Ein inhaltlicher Wegweiser, der mit seinen Aufgaben wächst. Für die Teilnehmer*innen des Moduls **Softwaretechnologie: Java** der Studiengänge _Informationsverarbeitung_ und _Medieninformatik_ am **IDH** (_Institut für Digital Humanities_, Universität zu Köln) und alle Interessierten.
 
 > **Work in progress. Forever.** :construction: :snail:  
 Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt unzureichend erläutert wird, dann [eröffne ein Issue](../../issues) oder [trage eigene Änderungen bei](/Mitwirken.md)!
