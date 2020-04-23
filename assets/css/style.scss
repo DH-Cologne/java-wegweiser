@@ -22,6 +22,7 @@ $table-border-color: #d3d5d7;
 $hr-border-color: #eff0f1;
 
 @import "{{ site.theme }}";
+@import "github-markdown.css";
 
 .page-header {
     padding: 2.25rem 6rem;
@@ -47,13 +48,6 @@ a.btn {
     border-radius: 3px;
 }
 
-.main-content h3,
-.main-content h4,
-.main-content h5,
-.main-content h6 {
-    font-weight: bold !important;
-}
-
 .main-content {
     background-color: #fff;
     border: 1px solid #d1d5da;
@@ -67,3 +61,4 @@ img.emoji {
     width: 1em;
     height: 1em;
 }
+
