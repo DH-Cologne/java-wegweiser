@@ -10,8 +10,7 @@ Ein Wegweiser zur Java-Programmierung, der mit seinen Aufgaben wächst. Für die
 > Forever.** :construction: :snail:  
 Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt oder unzureichend erläutert ist, dann [eröffne ein Issue](../../issues) oder [trage eigene Änderungen bei](/Mitwirken.md)!
 
-| :closed_book: Hier geht's zur [Lese-Ansicht](https://bkis.github.io/java-wegweiser) |
-| --- |
+> **Übrigens:** Hier geht's zur [**Lese-Ansicht**](https://bkis.github.io/java-wegweiser) :closed_book:
 
 -   :bulb: [**Was ist das hier** - bzw. was ist es nicht?](/Was-Ist-Das.md)
 -   :woman_technologist: [**Contribution** - oder: Wie kann ich hier mitwirken?](/Mitwirken.md)
