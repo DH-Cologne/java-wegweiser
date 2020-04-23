@@ -1,4 +1,4 @@
-## :loudspeaker: Konventionen für Beiträge / Contributions
+# :loudspeaker: Konventionen für Beiträge / Contributions
 
 > :construction: **TODO:** Noch unvollständig...
 
@@ -6,14 +6,43 @@ Es gibt eine Liste von Konventionen, die dabei helfen sollen, die Formatierung d
 
 > **Hinweis:** Es lässt sich über alles reden. Selbst über diese Konventionen. Wenn du der Meinung bist, dass man hier etwas grundlegend anders machen sollte, dann schlage das sehr gern vor! Nutze dazu bitte das [Issue-System dieses Repositories](../../issues). Falls Issues für dich etwas Neues sind, kannst du [hier](https://guides.github.com/features/issues/) mehr erfahren.
 
-### Lizenzen von eingefügten Grafiken u.ä. :balance_scale:
+## Lizenzen von eingefügten Grafiken u.ä. :balance_scale:
 Du solltest natürlich darauf achten, dass alle Grafiken (und anderen Inhalte), die du in deine Beiträge einfügst, über eine Lizenz verfügen, die dies auch erlaubt!
 
-### Emojis :confused:
+## Emojis :confused:
 Zum Einsatz von [GitHub-Emojis](https://marcomontalbano.github.io/github-emoji/) wird ausdrücklich ermutigt, solange sie zu visueller Orientierung, Lesbarkeit, Verständnis oder Genuss beitragen. Von allzu störenden und verstörenden Emojis sowie unansehnlichen Kombinationen ist jedoch abzulassen!
 
-### Das Inhaltsverzeichnis :book:
+## Das Inhaltsverzeichnis :book:
 Du solltest der bestehenden Formatierung des Inhaltsverzeichnisses folgen. Und ja, das ist eigentlich das Markdown für Inline-Code, aber es macht sich ganz prima für die Schlagworte, weil es der üblichen Darstellung von Tags ähnelt.
+
+## Verweise / Links
 
 ### Pfade und Veknüpfungen innerhalb des Repositories :link:
 Links zu Dateien in diesem Repository kannst du am besten mit einem vorangestellten `/` im Dateipfad erzielen: `[Text](/articles/Datei.md)`. Dies erzeugt einen absoluten Link, aber relativ zum Repository!
+
+### ... als vertiefende Ressource
+> :link: **Siehe auch:** [GitHub](https://www.github.com) - eine feine Plattform für Git-Repositories
+
+### ... als Quellen-Angabe
+Quelle: [Github](https://www.github.com)  
+_oder_  
+Quelle: [#](https://www.github.com)
+
+### ... auf Github-URLs unter diesem Repository
+... zum Beispiel zum [Issue-System dieses Repositories](../../issues):
+```
+[Issue-System dieses Repositories](../../issues)
+```
+
+
+## Hinweise und Bemerkungen
+
+An den entsprechenden Stellen sollten Hinweise und Bemerkungen unterschiedlicher Art entsprechend einheitlich gekennzeichnet sein. Die bisher bestehenden Formen sind hier aufgelistet:
+
+> :warning: **Achtung:** An dieser Stelle besteht die Gefahr einer Verwechslung (oder was auch immer) ...
+
+> :speech_balloon: **Übrigens:** Es gibt an dieser Stelle noch etwas mehr oder weniger interessantes zu sagen...
+
+> :construction: **TODO:** An dieser Stelle fehlt Inhalt XY. Wichtig wäre die Erwähnung von Blah Blah und Dings. Das muss noch gemacht werden!
+
+> :question: **Fraglich:** Lieber erstmal weglassen?
