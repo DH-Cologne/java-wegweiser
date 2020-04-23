@@ -1,13 +1,14 @@
-# Das wachsende Handbuch zum Java-Modul
+# Der wachsende Wegweiser zum Java-Modul
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Ein inhaltlicher Wegweiser, der mit seinen Aufgaben wächst. Für die Teilnehmer*innen des Moduls **Softwaretechnologie: Java** der Studiengänge _Informationsverarbeitung_ und _Medieninformatik_ am **IDH** (_Institut für Digital Humanities_, Universität zu Köln) und alle Interessierten.
+Ein Wegweiser zur Java-Programmierung, der mit seinen Aufgaben wächst. Für die Teilnehmer*innen des Moduls **"Softwaretechnologie: Java"** der Studiengänge **Informationsverarbeitung** und **Medieninformatik** am **IDH** (**I**nstitut für **D**igital **H**umanities, Universität zu Köln) und alle Interessierten! :open_hands:
 
-> **Work in progress. Forever.** :construction: :snail:  
-Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt unzureichend erläutert wird, dann [eröffne ein Issue](../../issues) oder [trage eigene Änderungen bei](/Mitwirken.md)!
+> **Work in progress.  
+> Forever.** :construction: :snail:  
+Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt oder unzureichend erläutert ist, dann [eröffne ein Issue](../../issues) oder [trage eigene Änderungen bei](/Mitwirken.md)!
 
 
 -   :bulb: [**Was ist das hier** - bzw. was ist es nicht?](/Was-Ist-Das.md)
