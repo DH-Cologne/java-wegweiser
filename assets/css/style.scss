@@ -22,7 +22,6 @@ $table-border-color: #d3d5d7;
 $hr-border-color: #eff0f1;
 
 @import "{{ site.theme }}";
-@import "{{ site.url }}{{ page.dir }}assets/css/github-markdown.scss";
 
 .page-header {
     padding: 2.25rem 6rem;
@@ -39,11 +38,6 @@ $hr-border-color: #eff0f1;
     opacity: 1;
 }
 
-/* .project-tagline > img {
-    width: 32px !important;
-    height: 32px !important;
-} */
-
 a.btn {
     border-radius: 3px;
 }
@@ -57,8 +51,49 @@ a.btn {
     margin-bottom: 3rem;
 }
 
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+    font-weight: bold !important;
+}
+
+
 img.emoji {
     width: 1em;
     height: 1em;
 }
 
+
+/* CODE */
+
+.markdown-body .highlight pre, .markdown-body pre {
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f6f8fa;
+    border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+    margin-bottom: 0;
+    word-break: normal;
+}
+
+.markdown-body pre {
+    word-wrap: normal;
+}
+
+
+/* TABLES */ 
+
+table {
+    border: 1px solid #c6cbd1 !important;
+}
+
+table tr:nth-child(2n) {
+    background-color: #f6f8fa !important;
+}
