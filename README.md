@@ -8,8 +8,8 @@ Ein Wegweiser zur Java-Programmierung, der mit seinen Aufgaben wächst. Für die
 
 > **Übrigens:** Hier geht's zur [**Lese-Ansicht**](https://bkis.github.io/java-wegweiser) :closed_book:
 
-> **Work in progress.  
-> Forever.** :construction: :snail:  
+> **Work in progress.** :construction:  
+> **Forever.** :snail:  
 Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt oder unzureichend erläutert ist, dann [eröffne ein Issue](../../issues) oder [trage eigene Änderungen bei](/Mitwirken.md)!
 
 -   :bulb: [**Was ist das hier** - bzw. was ist es nicht?](/Was-Ist-Das.md)
