@@ -17,7 +17,7 @@ Eine JVM verfügt über einen [Garbage Collector](https://de.wikipedia.org/wiki/
 
 ## Java-Platform
 
-![Java Platform Diagram](/assets/images/Java-Platform-Diagram.jpg)
+![Java Platform Diagram](../assets/images/Java-Platform-Diagram.jpg)
 Grafik: [#](/assets/images/Java-Platform-Diagram.png);
 Quelle: [#](https://www.oracle.com/technetwork/java/javase/tech/index.html);
 Mehr dazu: [#](https://de.wikipedia.org/wiki/Java_Platform,_Standard_Edition)
