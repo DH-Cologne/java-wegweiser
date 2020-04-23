@@ -3,8 +3,8 @@
 
 // Headers
 $header-heading-color: #fff;
-$header-bg-color: #3d6d9d;
-$header-bg-color-secondary: #1e456d;
+$header-bg-color: #18416a;
+$header-bg-color-secondary: #1e3346;
 
 // Text
 $section-headings-color: #24292e;
@@ -32,7 +32,8 @@ $hr-border-color: #eff0f1;
 }
 
 .project-tagline {
-    margin-top: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
     font-size: 3.25rem;
     opacity: 1;
 }
@@ -42,7 +43,11 @@ $hr-border-color: #eff0f1;
     height: 32px !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
     font-weight: bold;
 }
 
@@ -50,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff;
     border: 1px solid #d1d5da;
     border-radius: 3px;
-    padding: 3rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding: 3rem 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
