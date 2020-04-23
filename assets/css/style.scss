@@ -22,7 +22,7 @@ $table-border-color: #d3d5d7;
 $hr-border-color: #eff0f1;
 
 @import "{{ site.theme }}";
-@import "github-markdown.css";
+@import "github-markdown.scss";
 
 .page-header {
     padding: 2.25rem 6rem;
