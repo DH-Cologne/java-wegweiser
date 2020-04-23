@@ -1,4 +1,4 @@
-# :link: Link-Liste
+# Link-Liste :link:
 
 > Kategorisierte Links zu allgemeinen, Modul-relevanten Ressourcen, die begleitend genutzt werden können
 

@@ -1,4 +1,4 @@
-# :woman_technologist: Contribution, oder: Wie kann ich mitwirken?
+# Contribution: Wie kann ich mitwirken? :woman_technologist:
 
 > :construction: **TODO:** "_Wie bearbeite ich die Dateien?_" und "_Wie kommen meine Änderungen in das offizielle Repository?_" sollten zusammengelegt und gründlich ausgearbeitet werden!
 

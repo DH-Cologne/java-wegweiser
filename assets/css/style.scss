@@ -38,17 +38,15 @@ $hr-border-color: #eff0f1;
     opacity: 1;
 }
 
-.project-tagline > img {
+/* .project-tagline > img {
     width: 32px !important;
     height: 32px !important;
-}
+} */
 
 a.btn {
     border-radius: 3px;
 }
 
-.main-content h2,
-.main-content h3,
 .main-content h4,
 .main-content h5,
 .main-content h6 {
@@ -62,4 +60,9 @@ a.btn {
     padding: 3rem 4rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+img.emoji {
+    width: 1em;
+    height: 1em;
 }

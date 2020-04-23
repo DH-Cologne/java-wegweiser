@@ -84,7 +84,7 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 
 ### Objektorientierte Programmierung (OOP)
 
-#### [OOP: Einführung](/articles/OOP-Einführung.md)
+#### [OOP: Einführung](/articles/OOP-Einfuehrung.md)
 > `Definition`, `Nutzen`, `Beispiele`, `Wie stehen die Konzepte "Klasse" und "Objekt" zueinander?`, ...
 
 #### [Klassen und Objekte](/articles/Klassen-und-Objekte.md)
@@ -149,4 +149,4 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-> :speech_balloon: **Übrigens:** Dieses Projekt hält sich an die [all-contributors](https://github.com/all-contributors/all-contributors)-Spezifikation.  Contributions (Beiträge) jeder Art [sind willkommen](/Mitwirken.md) und werden an dieser Stelle in gegebener Form aufgeführt!
+> :speech_balloon: **Übrigens:** Dieses Projekt hält sich an die [all-contributors](https://github.com/all-contributors/all-contributors)-Spezifikation. Contributions (Beiträge) jeder Art [sind willkommen](/Mitwirken.md) und werden an dieser Stelle wie oben zu sehen aufgeführt!

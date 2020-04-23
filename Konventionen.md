@@ -1,4 +1,4 @@
-# :loudspeaker: Konventionen für Beiträge / Contributions
+# Konventionen für Beiträge / Contributions :loudspeaker:
 
 > :construction: **TODO:** Noch unvollständig...
 
@@ -15,9 +15,9 @@ Zum Einsatz von [GitHub-Emojis](https://marcomontalbano.github.io/github-emoji/)
 ## Das Inhaltsverzeichnis :book:
 Du solltest der bestehenden Formatierung des Inhaltsverzeichnisses folgen. Und ja, das ist eigentlich das Markdown für Inline-Code, aber es macht sich ganz prima für die Schlagworte, weil es der üblichen Darstellung von Tags ähnelt.
 
-## Verweise / Links
+## Verweise / Links :link:
 
-### Pfade und Veknüpfungen innerhalb des Repositories :link:
+### Pfade und Veknüpfungen innerhalb des Repositories
 Links zu Dateien in diesem Repository kannst du am besten mit einem vorangestellten `/` im Dateipfad erzielen: `[Text](/articles/Datei.md)`. Dies erzeugt einen absoluten Link, aber relativ zum Repository!
 
 ### ... als vertiefende Ressource
