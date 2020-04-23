@@ -6,11 +6,11 @@
 
 Ein Wegweiser zur Java-Programmierung, der mit seinen Aufgaben wächst. Für die Teilnehmer*innen des Moduls **"Softwaretechnologie: Java"** der Studiengänge **Informationsverarbeitung** und **Medieninformatik** am **IDH** (**I**nstitut für **D**igital **H**umanities, Universität zu Köln) und alle Interessierten! :open_hands:
 
+> **Übrigens:** Hier geht's zur [**Lese-Ansicht**](https://bkis.github.io/java-wegweiser) :closed_book:
+
 > **Work in progress.  
 > Forever.** :construction: :snail:  
 Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt oder unzureichend erläutert ist, dann [eröffne ein Issue](../../issues) oder [trage eigene Änderungen bei](/Mitwirken.md)!
-
-> **Übrigens:** Hier geht's zur [**Lese-Ansicht**](https://bkis.github.io/java-wegweiser) :closed_book:
 
 -   :bulb: [**Was ist das hier** - bzw. was ist es nicht?](/Was-Ist-Das.md)
 -   :woman_technologist: [**Contribution** - oder: Wie kann ich hier mitwirken?](/Mitwirken.md)
