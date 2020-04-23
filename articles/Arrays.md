@@ -18,8 +18,8 @@ Ein [Array](https://de.wikipedia.org/wiki/Feld_(Datentyp)) ist eine lineare [Dat
 ### Indizierung
 Die Elemente eines Arrays sind indiziert, d.h. fortlaufend durchnummeriert. Die Zählung beginnt dabei **immer bei** `0` und schreitet in ganzzahligen Schritten fort:
 
-![array](/assets/images/array.jpeg)  
-Grafik: [#](/assets/images/array.jpeg), Quelle [#](https://javatutorial.net/java-array)
+![array](../assets/images/array.jpeg)  
+Grafik: [#](../assets/images/array.jpeg), Quelle [#](https://javatutorial.net/java-array)
 
 Wie auf der Grafik zu sehen ist, hat das erste Element den Index `0`, das letzte Element den Index `4` (also **Länge des Arrays minus `1`!**). So können die Elemente eines Arrays über ihren Index (die Nummer) angesprochen und entweder gelesen oder manipuliert werden (_siehe unten!_).
 

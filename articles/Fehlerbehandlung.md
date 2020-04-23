@@ -7,7 +7,7 @@
 -   Exceptions können _"aufgefangen"_ werden (catch), d.h. es kann mit Hilfe einer gut durchdachten Fehlerbehandlung mit dem Fehler umgegangen werden, sodass das Programm nicht unerwartet beendet werden muss
 -   **Exception** und **Error** sind vom Typ _Throwable_ (deshalb _"Werfen"_ von Fehlern), es steckt eine ganze Klassenhierarchie hinter den verschiedenen Fehlertypen
 
-![Exceptions/Errors Class Hierarchy](/assets/images/Exception-Hierarchy-Diagram.jpeg)  
+![Exceptions/Errors Class Hierarchy](../assets/images/Exception-Hierarchy-Diagram.jpeg)  
 Quelle: [programcreek.com](http://www.programcreek.com/2009/02/diagram-for-hierarchy-of-exception-classes/)
 
 ## try-catch-finally
@@ -20,7 +20,7 @@ Quelle: [programcreek.com](http://www.programcreek.com/2009/02/diagram-for-hiera
 -   Falls im `try`-Block kein Fehler auftritt, werden alle `catch`-Blöcke ignoriert; ein etwaiges `finally` wird aber noch ausgeführt.
 -   Falls kein `catch`-Block die geworfene Exception abfängt, wird trotzdem ein evtl. vorhandener `finally`-Block ausgeführt, bevor die Exception dann von der default-Fehlerbehandlung verarbeitet wird (Stack Trace über den ErrOut auf Konsole ausgeben).
 
-![try-catch-finally-flow](/assets/images/java-try-catch-finally-flow.jpg)  
+![try-catch-finally-flow](../assets/images/java-try-catch-finally-flow.jpg)  
 Quelle: [howtodoinjava.com](https://howtodoinjava.com/java/exception-handling/try-catch-finally/)
 
 **Syntax und Beispiel:**

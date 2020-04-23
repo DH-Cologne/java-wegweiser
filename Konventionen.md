@@ -18,7 +18,7 @@ Du solltest der bestehenden Formatierung des Inhaltsverzeichnisses folgen. Und j
 ## Verweise / Links :link:
 
 ### Pfade und Veknüpfungen innerhalb des Repositories
-Links zu Dateien in diesem Repository kannst du am besten mit einem vorangestellten `/` im Dateipfad erzielen: `[Text](/articles/Datei.md)`. Dies erzeugt einen absoluten Link, aber relativ zum Repository!
+Links zu Dateien in diesem Repository sollten relativ zum verlinkenden Dokument sein, z.B.: `[Ein Dokument im gleichen Ordner](Das-Dokument.md)` oder `![Ein Bild](../assets/images/graphic.png)`.
 
 ### ... als vertiefende Ressource
 > :link: **Siehe auch:** [GitHub](https://www.github.com) - eine feine Plattform für Git-Repositories
