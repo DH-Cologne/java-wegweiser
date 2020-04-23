@@ -1,5 +1,7 @@
 # :woman_technologist: Contribution, oder: Wie kann ich mitwirken?
 
+> :construction: **TODO:** "_Wie bearbeite ich die Dateien?_" und "_Wie kommen meine Änderungen in das offizielle Repository?_" sollten zusammengelegt und gründlich ausgearbeitet werden!
+
 ## Wer wird hier angesprochen?
 
 In guter Open Source-Manier ist jede\*r Teilnehmer\*in des Softwaretechnologie-Moduls (und jede\*r Interessierte) dazu eingeladen, dieses Repository mitzugestalten, inhaltlich zu erweitern, Erläuterungen zu verbessern oder auch einfach nur eventuelle Fehler zu korrigieren.
