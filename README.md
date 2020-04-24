@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 # Der wachsende Wegweiser zum Java-Modul
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -150,3 +152,6 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 > :speech_balloon: **Übrigens:** Dieses Projekt hält sich an die [all-contributors](https://github.com/all-contributors/all-contributors)-Spezifikation. Contributions (Beiträge) jeder Art [sind willkommen](Mitwirken.md) und werden an dieser Stelle wie oben zu sehen aufgeführt!
+
+
+[:top:](#top)
