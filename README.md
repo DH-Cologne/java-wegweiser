@@ -6,7 +6,8 @@
 
 Ein Wegweiser zur Java-Programmierung, der mit seinen Aufgaben wächst. Für die Teilnehmer*innen des Moduls **"Softwaretechnologie: Java"** der Studiengänge **Informationsverarbeitung** und **Medieninformatik** am **IDH** (**I**nstitut für **D**igital **H**umanities, Universität zu Köln) und alle Interessierten! :open_hands:
 
-> **Übrigens:** Hier geht's zur [**Lese-Ansicht**](https://dh-cologne.github.io/java-wegweiser) :closed_book:
+> Hier geht's zur [**Lese-Ansicht**](https://dh-cologne.github.io/java-wegweiser) :closed_book:  
+> Hier geht's zum [**GitHub-Repository**](https://github.com/DH-Cologne/java-wegweiser) :woman_technologist:
 
 > **Work in progress.** :construction:  
 > **Forever.** :snail:  
