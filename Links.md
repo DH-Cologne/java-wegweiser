@@ -41,3 +41,7 @@
 -   [Git einfach erklärt](https://rogerdudler.github.io/git-guide/index.de.html) - Eine sehr einfache, gut verständliche, dafür aber auch nicht ganz vollständige Anleitung zu Git. Gut für den Einstieg!
 -   [CS visualized: Useful Git commands](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1) - Sehr gut geeignet, um einige komplexere Vorgänge in Git zu verstehen
 -   [Visualisierte Sortier-Algorithmen](https://www.toptal.com/developers/sorting-algorithms) - Für wenn man's mal braucht
+
+
+
+<a class="top-link" href="#">:arrow_up:</a>
