@@ -101,7 +101,7 @@ Natürlich sind auch alle anderen Sortier-Kriterien denkbar!
 > :construction: **TODO:** ...
 
 
-## Sortieren mit Mitteln aus dem Collections-Framework
+## Sortieren mit Mitteln des Collections-Framework
 
 > :construction: **TODO:** ...
 
