@@ -150,3 +150,6 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 > :speech_balloon: **Übrigens:** Dieses Projekt hält sich an die [all-contributors](https://github.com/all-contributors/all-contributors)-Spezifikation. Contributions (Beiträge) jeder Art [sind willkommen](Mitwirken.md) und werden an dieser Stelle wie oben zu sehen aufgeführt!
+
+
+<a class="top-link" href="#">:arrow_up:</a>
