@@ -43,4 +43,4 @@ String kleinerFuenf = (i < 5) ? "kleiner" : "größer";
 
 
 <!-- Dieser Link sollte am Ende der Datei stehen! -->
-<a class="top-link" href="#">:arrow_up:</a>
+<a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

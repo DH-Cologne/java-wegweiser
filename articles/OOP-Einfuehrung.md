@@ -14,4 +14,4 @@ Quelle: [_Wikimedia: Von Binz - Own Creation, CC BY-SA 4.0_](https://commons.wik
 
 
 <!-- Dieser Link sollte am Ende der Datei stehen! -->
-<a class="top-link" href="#">:arrow_up:</a>
+<a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

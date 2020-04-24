@@ -225,4 +225,4 @@ Bei der Benutzung von `HashSet` oder `HashMap`, also jenen Implementationen von 
 
 
 <!-- Dieser Link sollte am Ende der Datei stehen! -->
-<a class="top-link" href="#">:arrow_up:</a>
+<a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

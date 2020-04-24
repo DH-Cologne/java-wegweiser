@@ -43,4 +43,4 @@ Als [_Java Class Library_](https://en.wikipedia.org/wiki/Java_Class_Library) (au
 
 
 <!-- Dieser Link sollte am Ende der Datei stehen! -->
-<a class="top-link" href="#">:arrow_up:</a>
+<a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

@@ -52,10 +52,10 @@ Jeweils **am Ende jeder `.md`-Datei** sollte folgender Code für einen Link zum 
 
 ```html
 <!-- Dieser Link sollte am Ende der Datei stehen! -->
-<a class="top-link" href="#">:arrow_up:</a>
+<a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>
 ```
 
 Auf der Github-Pages-Seite wird dieser Link dann automatisch mit CSS in der rechten unteren Fenster-Ecke fixiert.
 
 <!-- Dieser Link sollte am Ende der Datei stehen! -->
-<a class="top-link" href="#">:arrow_up:</a>
+<a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>
