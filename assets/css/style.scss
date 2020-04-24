@@ -24,7 +24,7 @@ $hr-border-color: #eff0f1;
 @import "{{ site.theme }}";
 
 .page-header {
-    padding: 2.25rem 6rem;
+    padding: 2.25rem 1rem;
 }
 
 .project-name {
@@ -44,11 +44,8 @@ a.btn {
 
 .main-content {
     background-color: #fff;
-    border: 1px solid #d1d5da;
-    border-radius: 3px;
-    padding: 3rem 4rem;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .main-content h1,
