@@ -67,19 +67,6 @@ img.emoji {
 }
 
 
-/* SCROLL ANCHORS AND LINKS */
-p > a#top,
-a#top {
-    line-height: 0px;
-    height: 0px;
-    visibility: hidden;
-}
-
-a[href='#top']{
-    float: right;
-}
-
-
 /* CODE */
 
 .main-content .highlight pre, .main-content pre {
