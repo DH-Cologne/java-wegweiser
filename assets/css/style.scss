@@ -68,8 +68,11 @@ img.emoji {
 
 
 /* SCROLL ANCHORS AND LINKS */
+p > a#top,
 a#top {
-    display: none;
+    line-height: 0px;
+    height: 0px;
+    visibility: hidden;
 }
 
 a[href='#top']{
