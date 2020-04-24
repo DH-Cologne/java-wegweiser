@@ -1,4 +1,4 @@
-# Konventionen für Beiträge / Contributions :loudspeaker:
+# Konventionen für Contributions / Beiträge :loudspeaker:
 
 > :construction: **TODO:** Noch unvollständig...
 
