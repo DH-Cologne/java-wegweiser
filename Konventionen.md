@@ -29,9 +29,9 @@ _oder_
 Quelle: [#](https://www.github.com)
 
 ### ... auf Github-URLs unter diesem Repository
-... zum Beispiel zum [Issue-System dieses Repositories](../../issues):
+... zum Beispiel zum [Issue-System dieses Repositories](../../issues) als absoluten Link:
 ```
-[Issue-System dieses Repositories](../../issues)
+[Issue-System dieses Repositories](https://github.com/DH-Cologne/java-wegweiser/issues)
 ```
 
 
