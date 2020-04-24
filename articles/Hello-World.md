@@ -32,3 +32,8 @@ Code | Was ist das?
 `"Hello World!"` | Ein String. Genauer: Ein String-Literal, das die Worte _Hello World!_ beinhaltet
 `;` | Jede Anweisung wird in Java von einem `;` abgeschlossen.
 `{}` | Die geschweiften Klammern geben den Gültigkeitsbereich der verschiedenen Konstrukte (hier: Klasse oder Methode) an.
+
+
+
+<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<a class="top-link" href="#">:arrow_up:</a>

@@ -222,3 +222,7 @@ Sets lassen, wie erwähnt, [keine Duplikate zu](https://docs.oracle.com/javase/8
 > :speech_balloon: **Übrigens:** Eine Ausnahme von dieser Regel stellen die (extrem selten verwendeten) Klassen `IdentityHashSet` und `IdentityHashMap` dar: Diese vergleichen tatsächlich mittels `==`, was wirklich sehr selten (wenn nicht fast nie) der richtige Weg ist.
 
 Bei der Benutzung von `HashSet` oder `HashMap`, also jenen Implementationen von `Set` und `Map`, welche die Hash-Werte von Objekten nutzen, fällt dem [Vertrag zwischen `equals()` und `hashCode()`](https://www.programcreek.com/2011/07/java-equals-and-hashcode-contract/) eine besondere Bedeutung zu: Diese Datenstrukturen organisieren ihre Elemente zunächst nach deren Hash-Werten. Nur wenn zufällig ein angefordertes Element (etwa via `contains()` oder `get()`) den selben Hash-Wert besitzt, wie ein Element in der Datenstruktur, wird von einer "Gleichheit" ausgegangen. Wenn also eine Klasse zwar `equals()` korrekt implementiert, nicht aber `hashCode()`, dann ist der Vertrag gebrochen und es kann zu Komplikationen kommen, da dann zwei Objekte, die nach `equals()` gleich wären von `HashSet` und `HashMap` dennoch nicht als gleich angesehen werden.
+
+
+<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<a class="top-link" href="#">:arrow_up:</a>

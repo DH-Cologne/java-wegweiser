@@ -11,3 +11,7 @@
 
 ![Mitarbeiter-Klasse](../assets/images/Employee-Class.png)  
 Quelle: [_Wikimedia: Von Binz - Own Creation, CC BY-SA 4.0_](https://commons.wikimedia.org/w/index.php?curid=62707688)
+
+
+<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<a class="top-link" href="#">:arrow_up:</a>

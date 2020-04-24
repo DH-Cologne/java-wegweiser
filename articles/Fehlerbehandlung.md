@@ -104,3 +104,7 @@ public int thisWillFail(int[] numbers) throws ArrayIndexOutOfBoundsException {
   return numbers[numbers.length];
 }
 ```
+
+
+<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<a class="top-link" href="#">:arrow_up:</a>

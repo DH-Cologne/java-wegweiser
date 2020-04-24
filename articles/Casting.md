@@ -27,3 +27,7 @@ Grafik: [#](../assets/images/typecast_2.jpg), Quelle: [#](https://www.java-tutor
 -   möglich von Superklassen zu Subklassen (auf eigene Verantwortung)
 -   unnötig von Subklassen zu Superklassen (wg. [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)))
 -   ...
+
+
+<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<a class="top-link" href="#">:arrow_up:</a>

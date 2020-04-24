@@ -40,3 +40,7 @@ Eine rohe, unkompilierte Java-Quelltextdatei hat die Endung `.java` - nach dem K
 Als [_Java Class Library_](https://en.wikipedia.org/wiki/Java_Class_Library) (auch: _Java Standard Library_) bezeichnet man die sehr umfangreiche Programmbibliothek, die fester Teil der Java-Plattform und somit in jeder JRE verfügbar ist.
 
 > :construction: **TODO:** Irgendeine schöne Übersicht über die _JCL_?
+
+
+<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<a class="top-link" href="#">:arrow_up:</a>

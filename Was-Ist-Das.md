@@ -7,4 +7,5 @@ Dieses Repository unterscheidet sich von einem Java-Lehrbuch also eben durch die
 Es finden sich zwischen den Zeilen außerdem Code-Beispiele, unterstützende Materialien und Links zu weiterführenden Ressourcen (mit `#` gekennzeichnet).
 
 
+<!-- Dieser Link sollte am Ende der Datei stehen! -->
 <a class="top-link" href="#">:arrow_up:</a>

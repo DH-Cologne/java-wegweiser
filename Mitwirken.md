@@ -31,4 +31,5 @@ Eine Alternative wäre das direkte Bearbeiten der Dateien hier in GitHub (siehe 
 Es wird darum gebeten, den [üblichen Weg](https://opensource.guide/how-to-contribute/) über einen Fork > clone > neuer Branch > hack > commit > push > Pull Request ...zu gehen oder (einfacher) die Funktion zur direkten Editierung von Markodown-Files in GitHub zu nutzen (diese erstellt automatisch einen Pull Request).
 
 
+<!-- Dieser Link sollte am Ende der Datei stehen! -->
 <a class="top-link" href="#">:arrow_up:</a>

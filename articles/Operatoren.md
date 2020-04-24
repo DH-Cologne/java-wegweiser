@@ -49,3 +49,8 @@ boolean t = true;
 boolean f = false;
 t &= f; // hiernach: t = false, weil nicht beide true
 ```
+
+
+
+<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<a class="top-link" href="#">:arrow_up:</a>

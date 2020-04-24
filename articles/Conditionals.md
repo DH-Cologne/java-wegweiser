@@ -40,3 +40,7 @@ String kleinerFuenf = (i < 5) ? "kleiner" : "größer";
 -   ...
 
 > :construction: **TODO:** `switch`
+
+
+<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<a class="top-link" href="#">:arrow_up:</a>

@@ -127,3 +127,7 @@ Welt!
 ```
 
 > :warning: **Achtung:** Da der Backslash `\` die funktion der Maskierung erfüllt, muss er selbst maskiert werden, wenn er als Zeichen im String auftauchen soll. Also so: `"\\"`. Wenn nun der String `\\` lauten soll, dann wäre das String-Literal dazu `"\\\\"`, usw. 
+
+
+<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<a class="top-link" href="#">:arrow_up:</a>
