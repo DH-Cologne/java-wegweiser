@@ -1,11 +1,48 @@
 # Vergleichen und Sortieren :bento:
 
+
 ## Sortier-Algorithmen
 
 > :construction: **TODO:**
 > Es sollen hier keine Sortier-Algorithmen im Detail besprochen werden. Aber es soll klar werden, was ein Sortieralgorithmus ist und dass es unterschiedliche (und unterschiedlich leistungsfähige) Algorithmen gibt. Außerdem wäre wichtig, welche Algorithmen in der _JCL_ warum eingesetzt werden (z.B. in `Collections.sort()`).
 
+> :speech_balloon: **Übrigens:** Einige sehr gute Erläuterungen zu einzelnen Sortieralgorithmen findest du [hier](https://stackabuse.com/sorting-algorithms-in-java).
+
 > :speech_balloon: **Übrigens:** Hier findest du eine Seite mit sehr schönen [Visualisierungen verschiedener Sortier-Algorithmen](https://www.toptal.com/developers/sorting-algorithms)
+
+
+## Sortieren mit Mitteln des Collections Framework
+
+Das _Collections Framework_ bietet eine einfache Möglichkeit, Listen zu sortieren. Listen sind die einzige Art von Collection, die unabhängig von der Implementation immer eine Ordnung haben (sollten) - somit bietet sich eine Liste für eine Sortierung natürlich an:
+
+```java
+//Liste erstellen, Lieblingswörter hinzufügen
+List<String> myFavoriteWords = new ArrayList<String>();
+myFavoriteWords.add("Faszinationstoleranz");
+myFavoriteWords.add("Kein-Erlebnis-Urlub");
+myFavoriteWords.add("merkwürdig");
+myFavoriteWords.add("abwegig");
+myFavoriteWords.add("Rauschgift");
+myFavoriteWords.add("Sachverhalt");
+
+//Liste sortieren
+Collections.sort(myFavoriteWords);
+
+//Liste ausgeben
+System.out.println(myFavoriteWords);
+```
+
+Das Beispiel oben erzeugt folgende Ausgabe:
+
+```
+[Faszinationstoleranz, Kein-Erlebnis-Urlub, Rauschgift, Sachverhalt, abwegig, merkwürdig]
+```
+
+Also die Liste im sortierten Zustand - und zwar alphabetisch (wobei hier Großbuchstaben vor allen Kleinbuchstaben einsortiert werden). Aber wer entscheidet das? Was ist, wenn ich meine Strings nach Länge sortieren möchte? Und was passiert, wenn ich keine `List<String>` sondern eine `List<User>`oder `List<Animal>` habe?  
+Diese Fragen klären die folgenden Abschnitte...
+
+> :speech_balloon: **Übrigens:** In Java wurden von den Methoden `Arrays.sort()` und `Collections.sort()` lange die Algorithmen [_Mergesort_](https://de.wikipedia.org/wiki/Mergesort) und [_Quicksort_](https://de.wikipedia.org/wiki/Quicksort) [genutzt](https://stackoverflow.com/questions/32334319/why-does-collections-sort-use-mergesort-but-arrays-sort-does-not?noredirect=1). [In neueren Versionen](https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6804124) (ab Java 7) nutzen beide Methoden statdessen [_Timsort_](https://de.wikipedia.org/wiki/Timsort). 
+
 
 ## Das Interface `Comparable`
 
@@ -98,10 +135,7 @@ Natürlich sind auch alle anderen Sortier-Kriterien denkbar!
 
 ## Das Interface `Comparator`
 
-> :construction: **TODO:** ...
-
-
-## Sortieren mit Mitteln des Collections-Framework
+Dieser Abschnitt schließt inhaltlich direkt an `Comparable` an: Denn das `Comparable`-Interface bietet zwar einen nützlichen "Standard" zum vergleichen von Objekten, aber eben nur 
 
 > :construction: **TODO:** ...
 
