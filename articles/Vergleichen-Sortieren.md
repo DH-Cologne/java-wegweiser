@@ -118,7 +118,7 @@ public class User implements Comparable<User> {
 }
 ```
 
-Das obige Beispiel implementiert `compareTo()` so, dass bei einer Sortierung von `User`-Objekten alphabetisch nach der EMail-Adresse sortiert würde. Dafür wird ganz einfach die `compareTo()`-Methode der Klasse String genutzt.  
+Das obige Beispiel implementiert `compareTo()` so, dass bei einer Sortierung von `User`-Objekten alphabetisch nach der EMail-Adresse sortiert würde. Dafür wird ganz einfach die `compareTo()`-Methode der Klasse String genutzt **.  
 Eine andere Implementation von `compareTo()`, bei der nach dem Timestamp des letzten Logins verglichen wird (hier ein `long`-Wert), könnte etwa so aussehen:
 
 ```java
@@ -135,9 +135,53 @@ Natürlich sind auch alle anderen Sortier-Kriterien denkbar!
 
 ## Das Interface `Comparator`
 
-Dieser Abschnitt schließt inhaltlich direkt an `Comparable` an: Denn das `Comparable`-Interface bietet zwar einen nützlichen "Standard" zum vergleichen von Objekten, aber eben nur 
+Dieser Abschnitt schließt inhaltlich direkt an `Comparable` an: Denn das `Comparable`-Interface ist zwar eine nützliche Schnittstelle zum Vergleichbarmachen von Objekten, aber eben nur für den _einen_ "Standardfall". In komplexeren Anwendungen ist es durchaus üblich etwa eine Tabelle mit Daten (in deren Zeilen jeweils die Daten eines Daten-Objektes dargestellt sind) [mit einem Klick auf den Kopf einer der Spalten nach dem entsprechenden Kriterium zu sortieren](https://books.google.de/books?id=gYysqc06ofkC&lpg=PA137&dq=windows%2095%20explorer%20sortieren&hl=de&pg=PA137#v=onepage&q&f=false).
 
-> :construction: **TODO:** ...
+Für solch eine Funktionalität ist die Implementierung verschiedener Vergleiche notwendig. Mit einer `compareTo(...)`-Methode kommt man in diesem Fall also nicht weiter. Genau dafür gibt es das Interface `Comparator`. Es lagert die Logik für den Vergleich zweier Objekte aus der entsprechenden Klasse aus, sodass dann die Instanzen von `Comparator` (also die _Comparators_) dort, wo sie gebraucht werden, einfach benutzt und nach Belieben ausgetauscht werden können. Dafür erstellt man eine Klasse und implementiert `Comparator`. Die einzige Methode dieses Interfaces ist `compare(T o1, T o2)`, wobei `T` dem Datentyp entspricht, der mit den Generics festgelegt wurde:
+
+```java
+public class StringLengthComparator implements Comparator<String> {
+	@Override
+	public int compare(String o1, String o2) {
+		return o1.length() - o2.length();
+	}
+}
+```
+
+Und fertig ist ein `Comparator`, der Strings nach ihrer Länge vergleicht. Genau so ist es natürlich ein `Comparator` denkbar, der User-Objekte (aus dem vorigen Kapitel) z.B. nach der Domain der Mail-Adressen sortiert:
+
+```java
+public class UserMailDomainComparator implements Comparator<User> {
+	@Override
+	public int compare(User o1, User o2) {
+		// Domains aus den Mail-Adressen der beiden User extrahieren,
+		// indem das "@" und alles davor entfernt wird...
+		String mail1 = o1.getMail().replaceAll("^.*?@", "");
+		String mail2 = o2.getMail().replaceAll("^.*?@", "");
+
+		// die Domains einfach mit `compareTo()` vergleichen **
+		return mail1.compareTo(mail2);
+	}
+}
+```
+
+Eingesetzt werden kann solch ein `Comparator` dann in z.B. in einer anderen Variante von `Collections.sort()`:
+
+```java
+List<User> users = new ArrayList<User>();
+users.add(new User("maxi.musterfrau@art3abs1gg.de"));
+// ...usw ...
+
+// sortieren
+Collections.sort(users, new UserMailDomainComparator());
+```
+
+Natürlich sollte man lieber die Referenz auf einen vorher erzeugten `Comparator` übergeben, wenn man diesen mehrmals einsetzen möchte.
+
+
+-----------------------
+
+> :speech_balloon: **\*\* Übrigens:** Beim programmieren hilft Faulheit sehr oft dabei, den richtigen Weg zu finden!
 
 
 <!-- Dieser Link sollte am Ende der Datei stehen! -->
