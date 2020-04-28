@@ -16,10 +16,20 @@
         "ideas",
         "maintenance"
       ]
+    },
+    {
+      "login": "hntFulvan",
+      "name": "Nicolas David Werner",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/64469511?v=4",
+      "profile": "https://github.com/hntFulvan",
+      "contributions": [
+        "content",
+        "example"
+      ]
     }
   ],
   "contributorsPerLine": 8,
-  "projectName": "softwaretechnologie-java",
+  "projectName": "java-wegweiser",
   "projectOwner": "DH-Cologne",
   "repoType": "github",
   "repoHost": "https://github.com",
