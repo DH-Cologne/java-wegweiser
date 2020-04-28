@@ -23,7 +23,7 @@ Es wird aber nur das auskommentiert, was in `Zeile 10` hinter `//` geschrieben w
    13 
    14 //System.out.println("Obstsalat");
 ```
-Man kann Kommentare auch dazu benutzen Code, beispielsweise aus Testgründen, nicht auszuführen. Die Methode in `Zeile 14`
+Man kann Kommentare auch dazu benutzen, Code, beispielsweise aus Testgründen, nicht auszuführen. Die Methode in `Zeile 14`
 wird nicht compiliert.
 ## Mehrzeilige Kommentare
 
