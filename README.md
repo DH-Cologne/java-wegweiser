@@ -1,7 +1,7 @@
 # Der wachsende Wegweiser zum Java-Modul
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Ein Wegweiser zur Java-Programmierung, der mit seinen Aufgaben wächst. Für die Teilnehmer*innen des Moduls **"Softwaretechnologie: Java"** der Studiengänge **Informationsverarbeitung** und **Medieninformatik** am **IDH** (**I**nstitut für **D**igital **H**umanities, Universität zu Köln) und alle Interessierten! :open_hands:
@@ -142,9 +142,10 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/bkis"><img src="https://avatars0.githubusercontent.com/u/9215743?v=4" width="64px;" alt=""/><br /><sub><b>bkis</b></sub></a><br /><a href="#content-bkis" title="Content">🖋</a> <a href="#example-bkis" title="Examples">💡</a> <a href="#ideas-bkis" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-bkis" title="Maintenance">🚧</a></td>
-    <td align="center"><a href="https://github.com/hntFulvan"><img src="https://avatars3.githubusercontent.com/u/64469511?v=4" width="64px;" alt=""/><br /><sub><b>Nicolas David Werner</b></sub></a><br /><a href="#content-hntFulvan" title="Content">🖋</a> <a href="#example-hntFulvan" title="Examples">💡</a></td>
-    <td align="center"><a href="https://github.com/Lelalue"><img src="https://avatars1.githubusercontent.com/u/34158237?v=4" width="64px;" alt=""/><br /><sub><b>Lelalue</b></sub></a><br /><a href="#content-Lelalue" title="Content">🖋</a> <a href="#example-Lelalue" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/bkis"><img src="https://avatars0.githubusercontent.com/u/9215743?v=4" width="96px;" alt=""/><br /><sub><b>bkis</b></sub></a><br /><a href="#content-bkis" title="Content">🖋</a> <a href="#example-bkis" title="Examples">💡</a> <a href="#ideas-bkis" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-bkis" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/hntFulvan"><img src="https://avatars3.githubusercontent.com/u/64469511?v=4" width="96px;" alt=""/><br /><sub><b>Nicolas David Werner</b></sub></a><br /><a href="#content-hntFulvan" title="Content">🖋</a> <a href="#example-hntFulvan" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/Lelalue"><img src="https://avatars1.githubusercontent.com/u/34158237?v=4" width="96px;" alt=""/><br /><sub><b>Lelalue</b></sub></a><br /><a href="#content-Lelalue" title="Content">🖋</a> <a href="#example-Lelalue" title="Examples">💡</a></td>
+    <td align="center"><a href="https://allcontributors.org"><img src="https://avatars1.githubusercontent.com/u/46410174?v=4" width="96px;" alt=""/><br /><sub><b>All Contributors</b></sub></a><br /><a href="#tool-all-contributors" title="Tools">🔧</a></td>
   </tr>
 </table>
 
