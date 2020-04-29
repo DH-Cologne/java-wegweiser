@@ -4,7 +4,7 @@
 ## Sortier-Algorithmen
 
 > :construction: **TODO:**
-> Es sollen hier keine Sortier-Algorithmen im Detail besprochen werden. Aber es soll klar werden, was ein Sortieralgorithmus ist und dass es unterschiedliche (und unterschiedlich leistungsfähige) Algorithmen gibt. Außerdem wäre wichtig, welche Algorithmen in der _JCL_ warum eingesetzt werden (z.B. in `Collections.sort()`).
+> Es sollen hier keine Sortier-Algorithmen im Detail besprochen werden. Aber es soll klar werden, was ein Sortieralgorithmus ist und dass es unterschiedliche (und unterschiedlich leistungsfähige) Algorithmen gibt.
 
 > :speech_balloon: **Übrigens:** Einige sehr gute Erläuterungen zu einzelnen Sortieralgorithmen findest du [hier](https://stackabuse.com/sorting-algorithms-in-java).
 
