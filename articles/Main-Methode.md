@@ -1,10 +1,10 @@
 # `main`-Methode
 
-##Funktion
+## Funktion
 Jede Java-Anwendung muss eine main-Methode besitzen. Aber nur eine. Sie ist der Einstiegspunkt für die Ausführung des Java-Projektes.
 Von hier aus werden die Funktionen aller Klassen des Java-Projektes gestartet.
 
-##Aufbau
+## Aufbau
 
 Die Signatur der main-Methode sieht so aus:
 
