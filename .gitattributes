@@ -1,3 +1,3 @@
 assets/css/* linguist-vendored
-*.md linguist-language=Hack
-*.pdf linguist-language=Java
+*.md linguist-language=Java
+*.pdf linguist-language=Hack
