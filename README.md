@@ -69,7 +69,7 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 #### [Konditionale / Conditional statements](articles/Conditionals.md)
 > `if`, `else`, `:? (Ternary-Operator)`, `switch`
 
-#### [Schleifen](articles/Arrays.md)
+#### [Schleifen](articles/Schleifen.md)
 > `while`, `do-while`, `for`, `for-each`, :ribbon:
 
 #### [Arrays](articles/Arrays.md)
