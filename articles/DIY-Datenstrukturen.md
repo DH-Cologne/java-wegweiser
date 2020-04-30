@@ -1,7 +1,17 @@
 # Datenstrukturen
 
-> :construction: **TODO:** Ein Artikel über verschiedene Datenstrukturen und wie sie in Java implementiert sind bzw. werden können. 
+Dies ist ein Kapitel über verschiedene Arten von Datenstrukturen und wie sie in Java implementiert sind bzw. werden können. Die Liste ist aber natürlich [**keineswegs vollständig**](https://en.wikipedia.org/wiki/List_of_data_structures)! Es soll hier wirklich nur um jene Datenstrukturen gehen, die häufig im normalen, alltäglichen Gebrauch sind bzw. um "Klassiker", die sich gut zum Lernen einer Programmiersprache selbst implementieren lassen.
 
+- [Datenstrukturen](#datenstrukturen)
+  - [Arrays](#arrays)
+  - [Listen](#listen)
+    - [(Einfach) Verkettete Listen](#einfach-verkettete-listen)
+    - [Zweifach verkettete Listen](#zweifach-verkettete-listen)
+  - [Bäume](#b%c3%a4ume)
+    - [Binärbäume](#bin%c3%a4rb%c3%a4ume)
+    - [Binäre Suchbäume](#bin%c3%a4re-suchb%c3%a4ume)
+  - [Sets / Mengen](#sets--mengen)
+  - [Maps](#maps)
 
 ## Arrays
 
@@ -87,15 +97,31 @@ public class Node {
 
 Dadurch lassen sich bestimmte Operationen einfacher ausführen - etwa das Entfernen eines Knotens mit einem bestimmten Wert, denn der zu entfernende Knoten referenziert selbst die beiden Nachbarknoten, deren Referenzen (auf den zu löschenden Knoten) geändert werden müssen!
 
+
 ## Bäume
+
+...
+
 
 ### Binärbäume
 
+...
+
+
 ### Binäre Suchbäume
+
+...
+
 
 ## Sets / Mengen
 
+:point_right: siehe Artikel zum [Collections Framework](Collections-Framework.md)
+
+
 ## Maps
+
+:point_right: siehe Artikel zum [Collections Framework](Collections-Framework.md)
+
 
 
 
