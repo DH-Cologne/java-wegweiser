@@ -2,16 +2,19 @@
 
 > :construction: **TODO:** Ein Artikel über verschiedene Datenstrukturen und wie sie in Java implementiert sind bzw. werden können. 
 
+
 ## Arrays
 
 :point_right: siehe Artikel zu [Arrays](Arrays.md)
+
 
 ## Listen
 
 Eine Liste ist ein abstraktes Konzept einer Datenstruktur, deren Elemente eine stabile Reihenfolge besitzen, mehrfach vorkommen können und keine durch die Definition der Liste beschränkte Anzahl haben.  
 Es sollen hier als Beispiel für selbst implementierte Listen-Strukturen die verketteten Listen vorgestellt werden - für die in der _Java Class Library_ verfügbaren Implementationen von Listen, :point_right: siehe Artikel zum [Collections Framework](Collections-Framework.md)!
 
-### Verkettete Listen
+
+### (Einfach) Verkettete Listen
 
 > :speech_balloon: Es ist hier die Rede von _einfach verketteten Listen_. Im nächsten Abschnitt werden (darauf aufbauend) _zweifach verkettete Listen_ besprochen.
 
@@ -20,7 +23,7 @@ Bei einer verketteten Liste handelt es sich um eine sehr einfache Datenstruktur,
 Ein einzelner Knoten besteht dabei aus nur zwei Elementen: Dem Datenfeld und einem Verweis (_Referenz_) auf den **nächsten** Knoten (Verkettung!):
 
 ![Verkettete Liste](../assets/images/linked-list.png)  
-Beispiel: _Verkettete Liste mit Integer-Werten_
+Beispiel: _Verkettete Liste mit Integer-Werten; Löschung eines Knotens_
 
 Somit "kennt" ein Knoten immer nur den von ihm aus nächsten Knoten in der Liste. Soll ein Knoten aus der Liste entfernt werden, muss nur die Referenz auf diesen Knoten (ausgehend vom Knoten davor) auf den **nächsten** Knoten abgeändert werden (siehe Grafik oben).
 
@@ -61,9 +64,28 @@ Dieses effiziente Entfernen von Elementen ist einer der **Vorteile** von verkett
 
 Allerdings werden im obigen Beispiel auch die **Nachteile** von verketteten Listen deutlich: Einzelne Elemente lassen sich **nur über die Referenz vom Vorgänger-Knoten** ansprechen. Soll also ein Knoten mit einem ganz bestimmten Wert (oder etwa der `n`-te Knoten der Liste) gefunden werden, muss linear über die Liste iteriert werden, bis der gesuchte Knoten gefunden ist. Eine sehr teuere Operation!
 
+
 ### Zweifach verkettete Listen
 
-![Zweifach verkettete Liste](../assets/images/doubly-linked-list.png)
+Ausgehend von _einfach verketteten Listen_ (siehe oben!) lassen sich _zweifach verkettete Listen_ als eine konzeptuelle Erweiterung beschreiben, bei der jeder Knoten nicht nur den Folgeknoten, sondern auch den Vorgänger-Knoten referenziert. Somit kann (von jedem Knoten aus) die Liste in beide Richtungen durchlaufen werden:
+
+![Zweifach verkettete Liste](../assets/images/doubly-linked-list.png)  
+Beispiel: _Zweifach verkettete Liste mit Integer-Werten_
+
+Eine entsprechende Klasse sähe (wieder vereinfacht ohne private Klassenattribute!) etwa so aus:
+
+```java
+public class Node {
+
+    public int value;
+    public Node previous;
+    public Node next;
+
+    // Konstruktor für Wert, etc. ...
+}
+```
+
+Dadurch lassen sich bestimmte Operationen einfacher ausführen - etwa das Entfernen eines Knotens mit einem bestimmten Wert, denn der zu entfernende Knoten referenziert selbst die beiden Nachbarknoten, deren Referenzen (auf den zu löschenden Knoten) geändert werden müssen!
 
 ## Bäume
 
