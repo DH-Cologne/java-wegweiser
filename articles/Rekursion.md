@@ -6,7 +6,7 @@ Besser als bei Wikipedia wird die Definition nicht - deshalb an dieser Stelle ei
 
 Beim Programmieren findet Rekursion zum Beispiel dann statt, wenn eine Methode sich selbst aufruft. Vorsichtig sollte man natürlich mit potenziellen [Endlosschleifen](https://de.wikipedia.org/wiki/Endlosschleife) sein - es muss immer irgendwann einen Zustand geben, in dem die Rekursion "fertig" ist.
 
-Ein klassisches Standard-Beispiel ist eine Methode zur Errechnung der [Fakultät](https://de.wikipedia.org/wiki/Fakult%C3%A4t_(Mathematik)) einer Zahl. Mathematisch definiert sich die Fakultät einer (natürlichen) Zahl (`n!`) als das Produkt _aller_ natürlichen Zahlen von `1` bis `n` (also der Zahl selbst):
+Ein klassisches Standard-Beispiel ist eine Methode zur Errechnung der [Fakultät](https://de.wikipedia.org/wiki/Fakult%C3%A4t_(Mathematik)) einer Zahl. Mathematisch definiert sich die Fakultät einer (natürlichen) Zahl _n_ (also `n!`) als das Produkt _aller_ natürlichen Zahlen von `1` bis `n` (also der Zahl selbst):
 
 ```java
 public int factorial(int n) {
