@@ -124,7 +124,7 @@ Dieser Vorgang eignet sich natürlich hervorragend für eine [rekursive Implemen
 
 ## `Iterable` und `Iterator`
 
-...
+> :construction: **TODO:** `Iterable` und `Iterator`
 
 
 
