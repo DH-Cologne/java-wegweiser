@@ -1,4 +1,4 @@
-# Rekursion
+# Rekursion :dizzy_face:
 
 Besser als bei Wikipedia wird die Definition nicht - deshalb an dieser Stelle ein Zitat:
 
