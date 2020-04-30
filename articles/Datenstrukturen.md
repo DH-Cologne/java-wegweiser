@@ -1,6 +1,6 @@
 # Datenstrukturen
 
-Dies ist ein Kapitel über verschiedene Arten von Datenstrukturen und wie sie in Java implementiert sind bzw. werden können. Die Liste ist aber natürlich [**keineswegs vollständig**](https://en.wikipedia.org/wiki/List_of_data_structures)! Es soll hier wirklich nur um jene Datenstrukturen gehen, die häufig im normalen, alltäglichen Gebrauch sind bzw. um "Klassiker", die sich gut zum Lernen einer Programmiersprache selbst implementieren lassen.
+Dies ist ein Kapitel über verschiedene Arten von Datenstrukturen und wie sie in Java implementiert sind bzw. werden können. Die Liste ist aber natürlich [**keineswegs vollständig**](https://en.wikipedia.org/wiki/List_of_data_structures)! Es soll hier wirklich nur um jene Datenstrukturen gehen, die häufig im normalen, alltäglichen Gebrauch sind bzw. um "Klassiker", die sich gut zum Lernen einer Programmiersprache selbst implementieren lassen. Ebenfalls enorm wichtige Datenstrukturen (wie etwa [_Heap_](https://de.wikipedia.org/wiki/Heap_(Datenstruktur)) oder [_Stack_](https://de.wikipedia.org/wiki/Stapelspeicher) zur Speicherverwaltung) werden hier bewusst ausgespart, weil sie eher zu den IT-Grundlagen gehören, als in einen Java-Wegweiser.
 
 - [Datenstrukturen](#datenstrukturen)
   - [Arrays](#arrays)
@@ -12,6 +12,7 @@ Dies ist ein Kapitel über verschiedene Arten von Datenstrukturen und wie sie in
     - [Binäre Suchbäume](#bin%c3%a4re-suchb%c3%a4ume)
   - [Sets / Mengen](#sets--mengen)
   - [Maps](#maps)
+  - [`Iterable` und `Iterator`](#iterable-und-iterator)
 
 ## Arrays
 
@@ -123,6 +124,9 @@ Dadurch lassen sich bestimmte Operationen einfacher ausführen - etwa das Entfer
 :point_right: siehe Artikel zum [Collections Framework](Collections-Framework.md)
 
 
+## `Iterable` und `Iterator`
+
+...
 
 
 <!-- Dieser Link sollte am Ende der Datei stehen! -->
