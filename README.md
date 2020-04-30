@@ -103,7 +103,7 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 #### [Input / Output (I/O)](articles/IO.md)
 > `Streams`, `Buffering`, `Reader`, `Writer`, `Objektserialisierung`, ...
 
-#### [Datenstrukturen](articles/Datenstrukturen.md)
+#### [DIY-Datenstrukturen](articles/DIY-Datenstrukturen.md)
 > `verkettete Listen`, `zweifach verkettete Listen`, `Binärbäume`, `binäre Suchbäume`, `Iterable`, `Iterator`, `siehe auch "Collections Framework"!` ...
 
 #### [Generics](articles/Generics.md)
