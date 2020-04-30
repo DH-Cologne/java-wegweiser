@@ -32,7 +32,7 @@ Andere typische Anwendungsbeispiele für Rekursion sind die Errechnung der [Fibo
 Die Funktionsweise von rekursiven Methoden zu verstehen ist anfangs nicht ganz einfach. Eine sehr gute Übung es, eine Methode zu implementieren, die alle Dateien eines Ordners auflistet (auch jene aus allen Unterordnern) und den Ablauf dieser Methode genau nachzuvollziehen.
 
 ![Rekursion](../assets/images/recursion.gif)  
-Quelle: [#](https://commons.wikimedia.org/wiki/File:Recursion6.gif), _Unknown author / [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0)_
+> _Quelle: [#](https://commons.wikimedia.org/wiki/File:Recursion6.gif), Unknown author / [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0)_
 
 
 

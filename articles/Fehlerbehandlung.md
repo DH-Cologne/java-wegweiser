@@ -8,7 +8,7 @@
 -   **Exception** und **Error** sind vom Typ _Throwable_ (deshalb _"Werfen"_ von Fehlern), es steckt eine ganze Klassenhierarchie hinter den verschiedenen Fehlertypen
 
 ![Exceptions/Errors Class Hierarchy](../assets/images/Exception-Hierarchy-Diagram.jpeg)  
-Quelle: [programcreek.com](http://www.programcreek.com/2009/02/diagram-for-hierarchy-of-exception-classes/)
+> _Quelle: [programcreek.com](http://www.programcreek.com/2009/02/diagram-for-hierarchy-of-exception-classes/)_
 
 ## try-catch-finally
 
@@ -21,7 +21,7 @@ Quelle: [programcreek.com](http://www.programcreek.com/2009/02/diagram-for-hiera
 -   Falls kein `catch`-Block die geworfene Exception abfängt, wird trotzdem ein evtl. vorhandener `finally`-Block ausgeführt, bevor die Exception dann von der default-Fehlerbehandlung verarbeitet wird (Stack Trace über den ErrOut auf Konsole ausgeben).
 
 ![try-catch-finally-flow](../assets/images/java-try-catch-finally-flow.jpg)  
-Quelle: [howtodoinjava.com](https://howtodoinjava.com/java/exception-handling/try-catch-finally/)
+> _Quelle: [howtodoinjava.com](https://howtodoinjava.com/java/exception-handling/try-catch-finally/)_
 
 **Syntax und Beispiel:**
 

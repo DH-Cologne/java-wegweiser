@@ -20,9 +20,8 @@ Von jeder dieser Datenstrukturen, die alle als Interfaces im Collections Framewo
 Wir werden uns im Folgenden auf Implementationen von `List` und `Set` beschränken.
 
 ![Collection](../assets/images/collections-framework-collection.png)  
-Hinweis: unvollständig!  
-Ramlmn / [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0)  
-Quelle: [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Java.util.Collection_hierarchy.svg)
+> :warning: **Hinweis:** unvollständig!  
+> _Ramlmn / [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0); Quelle: [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Java.util.Collection_hierarchy.svg)_
 
 
 ### Listen und Implementationen von `List`
@@ -156,8 +155,7 @@ UND: 2634677
 ```
 
 ![Map](../assets/images/collections-framework-map.png)
-Ramlmn / [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0)  
-Quelle: [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Java.util.Map_hierarchy.svg) 
+> _Ramlmn / [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0); Quelle: [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Java.util.Map_hierarchy.svg)_
 
 
 **Beispiel:**

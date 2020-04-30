@@ -18,9 +18,9 @@ Eine JVM verfügt über einen [Garbage Collector](https://de.wikipedia.org/wiki/
 ## Java-Platform
 
 ![Java Platform Diagram](../assets/images/Java-Platform-Diagram.jpg)
-Grafik: [#](../assets/images/Java-Platform-Diagram.png);
-Quelle: [#](https://www.oracle.com/technetwork/java/javase/tech/index.html);
-Mehr dazu: [#](https://de.wikipedia.org/wiki/Java_Platform,_Standard_Edition)
+> _Grafik: [#](../assets/images/Java-Platform-Diagram.png);
+Quelle: [oracle.com](https://www.oracle.com/technetwork/java/javase/tech/index.html);
+Mehr dazu: [Wikipedia](https://de.wikipedia.org/wiki/Java_Platform,_Standard_Edition)_
 
 ### JRE
 Die **J**ava **R**untime **E**nvironment (dt. _Java Laufzeitumgebung_) bezeichnet all das, was ein fertig [kompiliertes](https://de.wikipedia.org/wiki/Compiler) Java-Programm braucht, um ausgeführt werden zu können.  

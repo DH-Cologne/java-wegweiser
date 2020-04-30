@@ -24,9 +24,7 @@ Links zu Dateien in diesem Repository sollten relativ zum verlinkenden Dokument 
 > :link: **Siehe auch:** [GitHub](https://www.github.com) - eine feine Plattform für Git-Repositories
 
 ### ... als Quellen-Angabe
-Quelle: [Github](https://www.github.com)  
-_oder_  
-Quelle: [#](https://www.github.com)
+> _Quelle: [Github](https://www.github.com)_  
 
 ### ... auf Github-URLs unter diesem Repository
 ... zum Beispiel zum [Issue-System dieses Repositories](../../issues) als absoluten Link:
