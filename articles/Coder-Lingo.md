@@ -1,0 +1,3 @@
+# Coder Lingo
+
+> :construction: **TODO**: Einleitung schreiben. Der Inhalt wird hier dann langsam anwachsen...

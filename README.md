@@ -130,6 +130,9 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 #### [Dokumentation mit JavaDoc](articles/JavaDoc.md)
 > `Wozu?`, `/**`, `@param`, `@return`, `<code></code>`, `best practices`, ...
 
+#### [Coder Lingo](articles/Coder-Lingo.md)
+> `Gespräche unter Programmierer*innen verstehen...` 
+
 
 ## Contributors ✨
 
