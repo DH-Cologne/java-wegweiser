@@ -4,9 +4,20 @@
 Schleifen wiederholen die Ausführung eines Blockes von Anweisungen in Abhängigkeit von bestimmten Voraussetzungen.
 In Java gibt es vier verschiedene Formen von Schleifen.
 
+## Inhalt :bookmark_tabs:
+- [while](#while)
+- [do-while](#do-while)
+- [for](#for)
+- [forEach](#forEach)
+- [Keywords](#loopKeywords)
+- [Worauf Du achten musst](#otherStuff) :speech_balloon:
+
+## :construction:__TODO__:
+- links zu anderen Seite
+
 ---
 
-## `while`
+## `while` <a name="while"></a>
 
 #### Syntax:
     
@@ -28,7 +39,7 @@ hier ein Beispiel:
 
 ---
 
-## `do-while`
+## `do-while` <a name="do-while"></a>
 
 #### Syntax:
 
@@ -50,7 +61,7 @@ hier ein Beispiel:
 
 ---
 
-## `for`
+## `for` <a name="for"></a>
 
 #### Syntax:
 
@@ -76,7 +87,7 @@ Hier ein einfaches Beispiel:
 
 ---
 
-## `forEach`
+## `forEach` <a name="forEach"></a>
 
 Eine `forEach`-Schleife läuft über eine [___Collection___](https://github.com/DH-Cologne/java-wegweiser/blob/master/articles/Collections-Framework.md) und gibt den Wert jedes Elementes zurück. 
 
@@ -102,7 +113,7 @@ Syntax:
 
 ---
 
-## Keywords
+### Keywords <a name="loopKeywords"></a>
 
 Es gibt zwei nützliche Schlüsselwörter, `continue` und `break` die im Anweisungblock der Schleifen verwendet werden können.
 
@@ -128,14 +139,21 @@ Durch `break` wird die Schleife unterbrochen. Damit können zusätzlich Abbruchb
 
 ---
 
-## Worauf Du achten musst :collision:
+### :speech_balloon: Worauf Du achten musst :collision: <a name="otherStuff"></a>
 
-#### Endlosschleife :cyclone:
+#### Endlosschleife :cyclone: 
 
 Endlosschleifen sind genau das, wonach es klingt, Schleifen ohne Ende. Das heißt, dass die Bedingung der Schleife nicht `false` wird. Um das zu vermeiden, kannst Du ein paar Sachen überprüfen:
 - ist die Bedingung der Schleife richtig formuliert?
 - Wurden alle Variablen initialisiert?
 - bei `while` oder `do-while`: Sorgt eine Anweisung innerhalb der Schleife dafür, dass die Bedingung false wird?
+
+#### Quellen und weitere Informationen
+
+>(http://www.java-programmieren.com/schleifen-java.php)  
+>(https://www.w3schools.com/java/java_while_loop.asp)  
+>(https://www.geeksforgeeks.org/loops-in-java/)  
+>(https://java-tutorial.org/schleifen.html)  
 
 
 <!-- Dieser Link sollte am Ende der Datei stehen! -->
