@@ -6,7 +6,7 @@ Schleifen wiederholen die Ausführung eines Blockes von Anweisungen in Abhängig
 
 ---
 
-## die `while`-Schleife
+## `while`
 
 #### Syntax:
     
@@ -14,13 +14,12 @@ Schleifen wiederholen die Ausführung eines Blockes von Anweisungen in Abhängig
         //Anweisung
     }
 
-Bei jedem Durchlauf der `while`-Schleife wird zunächst eine ___Bedingung___ mit einem Rückgabewert vom `boolean`-Datentyp überprüft. Gibt diese `true` zurück, wird die ___Anweisung___ ausgeführt. Wird die Bedingung nicht erfüllt, gibt also `false` zurück, wird die Schleife abgebrochen.
-Mit der while-Schleife kann eine Anweisung beliebig oft ausführen werden, ohne im Vorfeld die Anzahl der Durchläufe festzulegen.
+Bei jedem Durchlauf der `while`-Schleife wird zunächst eine ___Bedingung___ mit einem Rückgabewert vom `boolean`-Datentyp überprüft. Gibt diese `true` zurück, wird die ___Anweisung___ ausgeführt. Wird die Bedingung nicht erfüllt, gibt also `false` zurück, wird die Schleife abgebrochen. Mit der while-Schleife kann eine Anweisung beliebig oft ausführen werden, ohne im Vorfeld die Anzahl der Durchläufe festzulegen.
 
 
 ---
 
-## die `do-while`-Schleife
+## `do-while`
 
 #### Syntax:
 
@@ -33,8 +32,7 @@ Die `do-while`-Schleife funktioniert ähnlich wie die `while`-Schleife. Allerdin
 
 ---
 
-## die  `for`-Schleife
-
+## `for`
 
 #### Syntax:
 
@@ -60,9 +58,9 @@ Hier ein einfaches Beispiel:
 
 ---
 
-## die `for-each`-Schleife
+## `forEach`
 
-Eine `foreach`-Schleife läuft über eine [___Collection___](https://github.com/DH-Cologne/java-wegweiser/blob/master/articles/Collections-Framework.md) und gibt den Wert jedes Elementes zurück. 
+Eine `forEach`-Schleife läuft über eine [___Collection___](https://github.com/DH-Cologne/java-wegweiser/blob/master/articles/Collections-Framework.md) und gibt den Wert jedes Elementes zurück. 
 
 Syntax:
 
