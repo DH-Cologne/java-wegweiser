@@ -10,7 +10,7 @@ Schleifen wiederholen die Ausführung eines Blockes von Anweisungen in Abhängig
 
 #### Syntax:
     
-    while(Bedingung){
+    while(Bedingung) {
         //Anweisung
     }
 
@@ -24,9 +24,9 @@ Mit der while-Schleife kann eine Anweisung beliebig oft ausführen werden, ohne 
 
 #### Syntax:
 
-    do{
+    do {
         //Anweisung
-    }while(Bedingung);
+    } while(Bedingung);
 
 Die `do-while`-Schleife funktioniert ähnlich wie die `while`-Schleife. Allerdings wird hier immer erst die Anweisung ausgeführt und dann die Bedingung überprüft. Die Anweisung wird also immer mindestens einmal ausgeführt.  
 
@@ -38,10 +38,10 @@ Die `do-while`-Schleife funktioniert ähnlich wie die `while`-Schleife. Allerdin
 
 #### Syntax:
 
-    for(startwert;Bedingung;Iteration){
+    for(startwert;Bedingung;Iteration) {
         //Anweisung
     }
-die `for`Schleife iteriert über einen Laufindex.  
+Die `for`Schleife iteriert über einen Laufindex.  
 Der ___Startwert___ legt fest, mit welchem Wert die Schleife anfangen soll, zu zählen.  
 Die ___Bedingung___  wird vor jedem Durchlauf geprüft, wenn sie `true` ist, wird die Anweisung ausgeführt.   
 Sobald die ___Bedingung___ `false` ist, wird die Schleife unterbrochen.   
@@ -51,7 +51,7 @@ Außerdem ist bereits zu Beginn der Schleife festgelegt, wie oft sie ausgeführt
 
 Hier ein einfaches Beispiel:
 
-    for(int i = 0; i<=10; i++){
+    for(int i = 0; i<=10; i++) {
      System.out.println(i);
     }
 
@@ -66,7 +66,7 @@ Eine `foreach`-Schleife läuft über eine [___Collection___](https://github.com/
 
 Syntax:
 
-    for( Typ element : collektion ){
+    for(Typ element : collektion ) {
     // Anweisung, die "element" verwendet
     }
 
@@ -76,7 +76,7 @@ Syntax:
 
 ## Worauf Du achten musst :collision:
 
-- In einer Schleife sollte stets eine Anweisung ausgeführt werden, die dazu führt, dass die Schleifenbedingung (irgendwann)  wird. Ansonsten wird die Schleife nie beendet, man spricht von einer Endlosschleife. 
+- In einer Schleife sollte stets eine Anweisung ausgeführt werden, die dazu führt, dass die Schleifenbedingung (irgendwann)  wird. Ansonsten wird die Schleife nie beendet, man spricht von einer Endlosschleife. 
 
 
 <!-- Dieser Link sollte am Ende der Datei stehen! -->
