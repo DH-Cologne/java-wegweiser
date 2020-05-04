@@ -194,7 +194,7 @@ Hier wird die Schleife bei `i == 5` abgebrochen, auf der Konsole wird nur `0 1 2
 
 ## Endlosschleifen :boom:
 
-Endlosschleifen sind genau das, wonach es klingt, Schleifen ohne Ende. Das heißt, dass die Bedingung der Schleife nie den Wert `false` annimmt und die Schleife immer weiter ausgeführt wird. Das sollte natürlich generell vermieden werden.
+Endlosschleifen sind genau das, wonach es klingt: Schleifen ohne Ende. Das heißt, dass die Bedingung der Schleife nie den Wert `false` annimmt und die Schleife immer weiter ausgeführt wird. Das sollte natürlich generell vermieden werden.
 
 - Ist die Bedingung der Schleife richtig formuliert?
 - Wurden alle Variablen initialisiert?
