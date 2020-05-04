@@ -45,6 +45,16 @@
       "contributions": [
         "tool"
       ]
+    },
+    {
+      "login": "mkamphausen",
+      "name": "mkamphausen",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43293625?v=4",
+      "profile": "https://github.com/mkamphausen",
+      "contributions": [
+        "content",
+        "example"
+      ]
     }
   ],
   "contributorsPerLine": 8,
