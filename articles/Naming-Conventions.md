@@ -4,6 +4,16 @@
 
 Naming Conventions (dt.: _Namenskonvetionen_) machen Programmcode lesbarer und damit verständlicher. Mit der Einhaltung von Konventionen wird es möglich, verschiedene Komponenten - wie [Klassen](Klassen-und-Objekte.md), [Variablen](Variablen.md) oder Konstanten - auf den ersten Blick zu erkennen und unterscheiden.
 
+- [Naming Conventions](#naming-conventions)
+    - [Packages](#packages)
+    - [Klassen](#klassen)
+    - [Interfaces](#interfaces)
+    - [Methoden](#methoden)
+    - [Variablen](#variablen)
+    - [Konstanten](#konstanten)
+    - [Allgemein](#allgemein)
+
+
 ## Packages
 [Packages](Packages.md) werden in lowercase (dt.: _Kleinschreibung_) bennant. Die Top-Level-Domain einer Organisation dient in der Regel als Präfix, gefolgt von der Second-Level-Domain. Weitere Namensbestandteile können durch interne Konventionen festgelegt werden und beschreiben meist eine Aufgliederung in Programme, Abteilungen, Versionen etc. Alle Teile des Namens werden durch Punkte verkettet.
 
@@ -104,6 +114,7 @@ static final int MAX_COUNT = 100;
 Code sollte möglichst lesbar und verständlich geschrieben werden. Das erleichtert nicht nur die Entwickelung, sondern auch die spätere Wartung. Im Idealfall lässt der Name einer Funktion erkennen, was sie tut. Die Bezeichung einer Variablen sollte Aufschluss darüber geben, welchem Zweck sie dient. 
 Grundsätzlich sollten Entitäten simpel, jedoch deskriptiv benannt werden. Im Zweifel sollte man vor einem längeren, dafür aber verständlicheren Namen nicht zurückschrecken. 
 
+_Das Buch [Clean Code](CleanCode) beschäftigt sich ausführlich mit Benennungen und Naming Conventions, sodass es sich als Leseempfung an dieser Stelle eignet._ 📘
 
 ---------------
 > **Quellen und weitere Informationen:**
@@ -112,8 +123,9 @@ Grundsätzlich sollten Entitäten simpel, jedoch deskriptiv benannt werden. Im Z
 > - [https://www.oreilly.com/library/view/java-8-pocket/9781491901083/ch01.html](https://www.oreilly.com/library/view/java-8-pocket/9781491901083/ch01.html)  
 > - [https://www.geeksforgeeks.org/java-naming-conventions/](https://www.geeksforgeeks.org/java-naming-conventions/)  
 > - [https://medium.com/better-programming/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841](https://medium.com/better-programming/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841)
-> - [Clean Code: A Handbook of Agile Software Craftsmanship](https://books.google.de/books?id=_i6bDeoCQzsC&printsec=frontcover&hl=de#v=onepage&q&f=false)
+> - [Clean Code: A Handbook of Agile Software Craftsmanship](CleanCode)
 
+[CleanCode]: https://books.google.de/books?id=_i6bDeoCQzsC&printsec=frontcover&hl=de#v=onepage&q&f=false
 
 <!-- Dieser Link sollte am Ende der Datei stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>
