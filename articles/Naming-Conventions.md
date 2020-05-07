@@ -5,7 +5,7 @@
 Naming Conventions (dt.: _Namenskonvetionen_) machen Programmcode lesbarer und damit verständlicher. Mit der Einhaltung von Konventionen wird es möglich, verschiedene Komponenten - wie [Klassen](Klassen-und-Objekte.md), [Variablen](Variablen.md) oder Konstanten - auf den ersten Blick zu erkennen und unterscheiden.
 
 ## Packages
-[Packages](Packages.md) werden in lowercase (dt.: _Kleinschreibung_) bennant. Die Top-Level-Domain einer Organisation dient in der Regel als Präfix, gefolgt von der Second-Level-Domain. Weitere Namensbestandteile können durch interne Konventionen festgelegt werden und beschreiben meist eine Aufglieder in Programme, Abteilungen, Versionen etc. Alle Teile des Namens werden durch Punkte verkettet.
+[Packages](Packages.md) werden in lowercase (dt.: _Kleinschreibung_) bennant. Die Top-Level-Domain einer Organisation dient in der Regel als Präfix, gefolgt von der Second-Level-Domain. Weitere Namensbestandteile können durch interne Konventionen festgelegt werden und beschreiben meist eine Aufgliederung in Programme, Abteilungen, Versionen etc. Alle Teile des Namens werden durch Punkte verkettet.
 
 **Beispiele:**
 ``` java
@@ -39,7 +39,7 @@ class SpecialUser {
 ```
 
 ## Interfaces
-Die Konventionen für Interfaces entsprechen jenen für Klassen. 
+Die Konventionen für Interfaces entsprechen jenen für Klassen. Teilweise wird alternativ ein **ICamelCase** verwendet, um eine Abgrenzung zur Klasse deutlich zu machen.
 
 **Beispiele:**
 ``` java
@@ -49,6 +49,14 @@ interface UpperCamelCase {
 }
 
 interface UserDelegate {
+    //...
+}
+
+interface IUpperCamelCase {
+    //...
+}
+
+interface IUserDelegate {
     //...
 }
 
@@ -93,7 +101,7 @@ static final int MAX_COUNT = 100;
 ```
 
 ## Allgemein
-Code sollte möglichst lesbar und verständlich geschrieben werden. Das erleichtert nicht nur die Entwickeln, sondern auch die spätere Wartung. Im Idealfall lässt der Name einer Funktion erkennen, was sie tut. Die Bezeichung einer Variablen sollte Aufschluss darüber geben, welchem Zweck sie dient. 
+Code sollte möglichst lesbar und verständlich geschrieben werden. Das erleichtert nicht nur die Entwickelung, sondern auch die spätere Wartung. Im Idealfall lässt der Name einer Funktion erkennen, was sie tut. Die Bezeichung einer Variablen sollte Aufschluss darüber geben, welchem Zweck sie dient. 
 Grundsätzlich sollten Entitäten simpel, jedoch deskriptiv benannt werden. Im Zweifel sollte man vor einem längeren, dafür aber verständlicheren Namen nicht zurückschrecken. 
 
 
