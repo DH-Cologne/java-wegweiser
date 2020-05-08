@@ -5,13 +5,13 @@
 Naming Conventions (dt.: _Namenskonvetionen_) machen Programmcode lesbarer und damit verständlicher. Mit der Einhaltung von Konventionen wird es möglich, verschiedene Komponenten - wie [Klassen](Klassen-und-Objekte.md), [Variablen](Variablen.md) oder Konstanten - auf den ersten Blick zu erkennen und zu unterscheiden.
 
 - [Naming Conventions](#naming-conventions)
-    - [Packages](#packages)
-    - [Klassen](#klassen)
-    - [Interfaces](#interfaces)
-    - [Methoden](#methoden)
-    - [Variablen](#variablen)
-    - [Konstanten](#konstanten)
-    - [Allgemein](#allgemein)
+  - [Packages](#packages)
+  - [Klassen](#klassen)
+  - [Interfaces](#interfaces)
+  - [Methoden](#methoden)
+  - [Variablen](#variablen)
+  - [Konstanten](#konstanten)
+  - [Allgemein](#allgemein)
 
 
 ## Packages
