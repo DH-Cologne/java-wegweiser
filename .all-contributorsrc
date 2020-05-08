@@ -55,6 +55,16 @@
         "content",
         "example"
       ]
+    },
+    {
+      "login": "jkamphausen",
+      "name": "Julian Kamphausen",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29183752?v=4",
+      "profile": "http://#",
+      "contributions": [
+        "content",
+        "example"
+      ]
     }
   ],
   "contributorsPerLine": 8,
