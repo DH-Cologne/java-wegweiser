@@ -1,7 +1,7 @@
 # Der wachsende Wegweiser zum Java-Modul
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Ein Wegweiser zur Java-Programmierung, der mit seinen Aufgaben wächst. Für die Teilnehmer*innen des Moduls **"Softwaretechnologie: Java"** der Studiengänge **Informationsverarbeitung** und **Medieninformatik** am **IDH** (**I**nstitut für **D**igital **H**umanities, Universität zu Köln) und alle Interessierten! :open_hands:
@@ -147,6 +147,7 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
     <td align="center"><a href="https://github.com/Lelalue"><img src="https://avatars1.githubusercontent.com/u/34158237?v=4" width="96px;" alt=""/><br /><sub><b>Lelalue</b></sub></a><br /><a href="#content-Lelalue" title="Content">🖋</a> <a href="#example-Lelalue" title="Examples">💡</a></td>
     <td align="center"><a href="https://allcontributors.org"><img src="https://avatars1.githubusercontent.com/u/46410174?v=4" width="96px;" alt=""/><br /><sub><b>All Contributors</b></sub></a><br /><a href="#tool-all-contributors" title="Tools">🔧</a></td>
     <td align="center"><a href="https://github.com/mkamphausen"><img src="https://avatars2.githubusercontent.com/u/43293625?v=4" width="96px;" alt=""/><br /><sub><b>mkamphausen</b></sub></a><br /><a href="#content-mkamphausen" title="Content">🖋</a> <a href="#example-mkamphausen" title="Examples">💡</a></td>
+    <td align="center"><a href="http://#"><img src="https://avatars2.githubusercontent.com/u/29183752?v=4" width="96px;" alt=""/><br /><sub><b>Julian Kamphausen</b></sub></a><br /><a href="#content-jkamphausen" title="Content">🖋</a> <a href="#example-jkamphausen" title="Examples">💡</a></td>
   </tr>
 </table>
 
