@@ -2,7 +2,7 @@
   "files": [
     "README.md"
   ],
-  "imageSize": 96,
+  "imageSize": 110,
   "commit": false,
   "contributors": [
     {
@@ -67,7 +67,7 @@
       ]
     }
   ],
-  "contributorsPerLine": 8,
+  "contributorsPerLine": 5,
   "projectName": "java-wegweiser",
   "projectOwner": "DH-Cologne",
   "repoType": "github",
