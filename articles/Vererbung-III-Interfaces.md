@@ -62,6 +62,10 @@ public interface Bar extends Foo {
 Die entsprechenden Methoden von `Foo` müssen dann von Klassen, die `Bar` implementieren, ebenfalls implementiert werden.
 
 
+## `default`-Methoden
+
+> :construction: **TODO:** Abschnitt über [`default`-Methoden](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
+
 
 <!-- Dieser Link sollte am Ende der Datei stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>
