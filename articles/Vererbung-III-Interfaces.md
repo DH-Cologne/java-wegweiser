@@ -49,6 +49,17 @@ public class TextToUpperCase implements TextProcessor {
 Da die Methode `applyTextProcessor()` der Klasse `TextEditor` gegen das Interface `TextProcessor` entwickelt wurde, funktioniert sie mit **jeder** ordentlichen Implementation von `TextProcessor`.
 
 
+## Erweitern von Interfaces
+
+Ein Interface kann ein anderes Interface erweitern:
+
+```java
+public interface Bar extends Foo {
+    // ...
+}
+```
+
+Die entsprechenden Methoden von `Foo` müssen dann von Klassen, die `Bar` implementieren, ebenfalls implementiert werden.
 
 
 
