@@ -91,8 +91,14 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 #### [Klassen und Objekte](articles/Klassen-und-Objekte.md)
 > `Klasse`, `Objekt`, `Klassenattribute`, `Klassenvariablen`, `Sichtbarkeits-/Zugriffsmodifizierer`, `private`, `(default)`, `protected`, `public`, `this`, `Getter`, `Setter`, `Konstruktoren`, `final`, `static`, `Konstanten in Java`, `toString()`, `Objekt-Identität`, `Objekt-Gleichheit`, `equals()`, `hashCode()`, `Vertrag zwischen equals() und hashCode()`, `Anonyme Klassen`, `Innere Klassen`, ...
 
-#### [Vererbung](articles/Vererbung.md)
-> `Wozu?`, `Terminologie`, `extends`, `super`, `instanceof-Operator`, `Überschreiben von Methoden`, `abstrakte Klassen`, `abstrakte Methoden`, `abstract`, `Interfaces`, `default` ...
+#### [Vererbung I: Grundlagen](articles/Vererbung-I-Grundlagen.md)
+> `Wozu?`, `Terminologie`, `extends`, `super`, `instanceof-Operator`, `Überschreiben von Methoden`, ...
+
+#### [Vererbung II: Abstrakte Klassen und Methoden](articles/Vererbung-II-Abstrakte-Klassen-und-Methoden.md)
+> `abstrakte Klassen`, `abstrakte Methoden`, `abstract`, ...
+
+#### [Vererbung III: Interfaces](articles/Vererbung-III-Interfaces.md)
+> `Interfaces`, `Erweiterung von Interfaces`, `default-Methoden` ...
 
 
 ### Fortgeschrittenes
