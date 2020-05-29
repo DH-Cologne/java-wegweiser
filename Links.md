@@ -4,7 +4,8 @@
 
 ## Java Lernen :books:
 
--   [WikiBooks: Java Standard](https://de.wikibooks.org/wiki/Java_Standard) - Ein offenes Lehrbuch für Java
+-   [WikiBooks: Java Programming](https://en.wikibooks.org/wiki/Java_Programming) - Eine ganz ähnliche REssource wie dieses Repository, aber auf Englisch. Sehr gut und auf den Punkt, sehr empfehlenswert!
+-   [WikiBooks: Java Standard](https://de.wikibooks.org/wiki/Java_Standard) - Ein offenes Lehrbuch für Java (auf Deutsch); nicht so gut aufgearbeitet wie die englische Variante (siehe oben)
 -   [Oracle Java Tutorial](https://docs.oracle.com/javase/tutorial/java/) - Etwas trocken und angestaubt, aber bewährt
 -   [Java ist auch eine Insel](http://openbook.rheinwerk-verlag.de/javainsel/) - Solides Lehrbuch, kostenlos online
 -   [Operators in Java](https://www.codejava.net/java-core/the-java-language/summary-of-operators-in-java-with-examples) - Übersicht über jegliche Operatoren in Java
