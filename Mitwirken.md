@@ -45,7 +45,7 @@ Es gibt einen mehr oder weniger [üblichen Weg](https://opensource.guide/how-to-
 > :speech_balloon: **Übrigens:** Eine Alternative wäre das direkte Bearbeiten der Dateien hier in GitHub - diese Variante ist aber eher nur für kleinere Änderungen oder Korrekturen geeignet. GitHub erstellt dann automatisch einen [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) für die Änderungen.
 
 ### Markdown
-Es handelt sich bei den Dokumenten in diesem Repository um einfache [Markdown](https://de.wikipedia.org/wiki/Markdown)-Dateien, die sich ganz leicht in jedem Text-Editor bearbeiten lassen. Gute Text-Editoren (die auch Markdown unterstützen) sind z.B. [VSCode](https://code.visualstudio.com/), [SublimeText](https://www.sublimetext.com/) oder [Atom](https://atom.io/).
+Es handelt sich bei den Dokumenten in diesem Repository um [Markdown](https://de.wikipedia.org/wiki/Markdown)-Dateien (eine sehr einfache Auszeichnungssprache), die sich ganz leicht in jedem Text-Editor bearbeiten lassen. Gute Text-Editoren (die auch Markdown unterstützen) sind z.B. [VSCode](https://code.visualstudio.com/), [SublimeText](https://www.sublimetext.com/) oder [Atom](https://atom.io/).
 
 > :speech_balloon: **Übrigens:** Eine gute Einführung zu Markdown findest du [hier](https://guides.github.com/features/mastering-markdown/).  
 
