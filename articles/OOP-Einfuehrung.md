@@ -13,5 +13,5 @@
 Quelle: [_Wikimedia: Von Binz - Own Creation, CC BY-SA 4.0_](https://commons.wikimedia.org/w/index.php?curid=62707688)
 
 
-<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

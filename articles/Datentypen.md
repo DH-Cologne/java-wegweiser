@@ -43,5 +43,5 @@ Der Maximal-Wert für einen Integer ist: 2147483647
 ```
 
 
-<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

@@ -47,4 +47,11 @@ Alles, was sich zwischen diesen beiden Markierungen befindet,
 wird vom Compiler ignoriert. Auf diese Weise kann man einen Kommentar über mehrere Zeilen ziehen.
 
 
+
+
+
+
+
+
+<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

@@ -49,11 +49,11 @@ An den entsprechenden Stellen sollten Hinweise und Bemerkungen unterschiedlicher
 Jeweils **am Ende jeder `.md`-Datei** sollte folgender Code für einen Link zum Seitenanfang stehen:
 
 ```html
-<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>
 ```
 
 Auf der Github-Pages-Seite wird dieser Link dann automatisch mit CSS in der rechten unteren Fenster-Ecke fixiert.
 
-<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

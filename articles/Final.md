@@ -66,3 +66,9 @@ Konstanten (hier: unveränderbare Felder, die _immer_ den selben Wert haben) wer
 // könnte auch "public" sein
 private static final int THIS_IS_A_PRIVATE_CONSTANT = 2;
 ```
+
+
+
+
+<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
+<a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

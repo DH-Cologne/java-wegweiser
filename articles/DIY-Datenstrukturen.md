@@ -129,5 +129,5 @@ Dieser Vorgang eignet sich natürlich hervorragend für eine [rekursive Implemen
 
 
 
-<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

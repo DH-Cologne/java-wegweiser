@@ -54,5 +54,5 @@ Es handelt sich bei den Dokumenten in diesem Repository um [Markdown](https://de
 :warning: Bitte beachte den [**Leitfaden für Beiträge / Contributions**](Leitfaden.md) !!!
 
 
-<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

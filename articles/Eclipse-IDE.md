@@ -13,5 +13,5 @@ Diese Seite erläutert die ersten Grundlagen zum Umgang mit der Entwicklungsumge
 > -   Programme ausführen über Kontextmenü und "Play"-Button
 
 
-<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

@@ -75,5 +75,5 @@ Dies wird vor allem dann genutzt, wenn eine (eigentlich einzelne) Methode Parame
 > :speech_balloon: **Übrigens:** Das Überladen ist auch bei [Konstruktoren](Konstruktoren.md) möglich (und sogar sehr üblich!).
 
 
-<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

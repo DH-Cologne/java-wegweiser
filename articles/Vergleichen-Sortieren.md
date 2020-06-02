@@ -184,5 +184,5 @@ Natürlich sollte man lieber die Referenz auf einen vorher erzeugten `Comparator
 > :speech_balloon: **\*\* Übrigens:** Beim programmieren hilft Faulheit sehr oft dabei, den richtigen Weg zu finden!
 
 
-<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

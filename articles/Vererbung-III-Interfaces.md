@@ -67,5 +67,5 @@ Die entsprechenden Methoden von `Foo` müssen dann von Klassen, die `Bar` implem
 > :construction: **TODO:** Abschnitt über [`default`-Methoden](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
 
 
-<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

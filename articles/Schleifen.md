@@ -210,5 +210,5 @@ Endlosschleifen sind genau das, wonach es klingt: Schleifen ohne Ende. Das heiß
 
 
 
-<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

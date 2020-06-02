@@ -42,5 +42,5 @@ Als [_Java Class Library_](https://en.wikipedia.org/wiki/Java_Class_Library) (au
 > :construction: **TODO:** Irgendeine schöne Übersicht über die _JCL_?
 
 
-<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>

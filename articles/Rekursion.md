@@ -40,5 +40,5 @@ Die Funktionsweise von rekursiven Methoden zu verstehen ist anfangs nicht ganz e
 
 
 
-<!-- Dieser Link sollte am Ende der Datei stehen! -->
+<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
 <a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>
