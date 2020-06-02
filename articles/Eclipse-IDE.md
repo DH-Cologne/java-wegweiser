@@ -1,5 +1,7 @@
 # Die IDE Eclipse :waning_crescent_moon:
 
+Diese Seite erläutert die ersten Grundlagen zum Umgang mit der Entwicklungsumgebung _Eclipse_.
+
 > :construction: **TODO:**  
 > - IDE (**I**ntegrated **D**evelopment **I**nvironment - oder auch _Entwicklungsumgebung_)
 > -   Was ist das für ein Programm? [#](https://de.wikibooks.org/wiki/Java_Standard:_Einrichten_der_Programmierumgebung#Eclipse)
