@@ -9,8 +9,7 @@ Ein Wegweiser zur Java-Programmierung, der mit seinen Aufgaben wächst. Für die
 > Hier geht's zur [**Lese-Ansicht**](https://dh-cologne.github.io/java-wegweiser) :closed_book:  
 > Hier geht's zum [**GitHub-Repository**](https://github.com/DH-Cologne/java-wegweiser) :woman_technologist:
 
-> **Work in progress.** :construction:  
-> **Forever.** :snail:  
+> **Work in progress.** :construction: :snail:  
 Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt oder unzureichend erläutert ist, dann [eröffne ein Issue](https://github.com/dh-cologne/java-wegweiser/issues) oder [trage eigene Änderungen bei](Mitwirken.md)!
 
 -   :bulb: [**Was ist das hier** - bzw. was ist es nicht?](Was-Ist-Das.md)
