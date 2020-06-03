@@ -82,17 +82,40 @@ Die [_Console_](https://help.eclipse.org/2020-03/topic/org.eclipse.jdt.doc.user/
 
 ## Ein neues Projekt anlegen
 
-> :construction: TODO
+Ein neues Java-Projekt kann man auf drei verschiedene (und doch identische) Wege anlegen:
+
+- Im Menü: `File` &rarr; `New` &rarr; `Java Project`
+- Rechtsklick in den _Package Explorer_ (s.o.): `New` &rarr; `Java Project`
+- Oder: `Shift`+`Alt`+`N` &rarr; `Java Project`
+
+Egal, wie man es macht: Am Ende öffnet sich der Dialog zum Erstellen eines neuen Java-Projektes. Hier lässt sich u.a. der Name des Projektes (den Konventionen nach großgeschrieben) festlegen. Die restlichen Einstellungen sind im Normalfall so in Ordnung, wie sie sind. Ein Klick auf `Finish` legt dann das neue Prjekt an. Es ist jetzt im _Package Explorer_ (s.o.) zu sehen.
 
 
 ## Eine neue Klasse erzeugen
 
-> :construction: TODO
+Auch hier gibt es, wie bei einem neuen Projekt, viele Wege. Damit eine neue Klasse aber nicht aus Versehen in einem anderen (weil markierten) Projekt anlegt, sollte man so explizit wie möglich vorgehen:
+
+Rechtsklick auf den `src`-Ordner des gewünschten Projektes (oder direkt auf ein Package darin!) &rarr; `New` &rarr; `Class`
+
+Auch hier sind außer dem Klassen-Namen alle anderen Einstellungen für gewöhnlich in Ordnung - wenn man möchte, kann man noch eine `main`-Methode generieren lassen, aber der Zeitgewinn ist, nun ja, marginal.
 
 
 ## Import und Export von Projekten
 
-> :construction: TODO
+> :point_right: **Hinweis:** Dieser Punkt ist **sehr wichtig für die Hausaufgaben** im Java-Seminar: Das Importieren und Exportieren von Projekten in und aus Eclipse!
+
+**Projekt Exportieren** :arrow_up:
+1. Rechtsklick **auf den Projekt-Ordner im _Package Explorer_** &rarr; `Export` &rarr; `General` &rarr; `Archive File`
+2. Jetzt lässt sich der Pfad und Name des zu exportierenden `.zip`-Archivs festlegen!
+3. `Finish`
+
+**Projekt Importieren** :arrow_down:
+1. Im Menü `File` &rarr; `Import` **oder** Rechtsklick im _Package Explorer_ &rarr; `Import`
+2. :warning: Hier **NICHT** `General` &rarr; `Archive File` auswählen (auch wenn ein `.zip`-Archiv importiert werden soll!), **sondern:**
+3. `General` &rarr; `Existing Projects into Workspace` auswählen
+4. Oben entweder `Select root directory` (falls das Archiv schon entpackt wurde) oder (wahrscheinlicher) `Select archive file` auswählen
+5. Den entsprechenden Pfad anwählen
+6. `Finish`
 
 
 ## Programme ausführen
