@@ -2,15 +2,7 @@
 
 Diese Seite erläutert die ersten Grundlagen zum Umgang mit der Entwicklungsumgebung _Eclipse_.
 
-> :construction: **TODO:**  
-> - IDE (**I**ntegrated **D**evelopment **I**nvironment - oder auch _Entwicklungsumgebung_)
-> -   Was ist das für ein Programm? [#](https://de.wikibooks.org/wiki/Java_Standard:_Einrichten_der_Programmierumgebung#Eclipse)
-> -   Die wichtigsten Views (Package Manager, Editor, Outline, Console)
-> -   Das erste Projekt anlegen
->     -   Was ist da alles drin?
->     -   Wo findet man das Paket-Konzept wieder?
-> -   Import / Export von Projekten
-> -   Programme ausführen über Kontextmenü und "Play"-Button
+> :construction: **TODO:** Vorbereitete Struktur mit Text füllen
 
 
 ## Was ist eine IDE?
@@ -31,22 +23,46 @@ Da _Eclipse_ die meistgenutzte (kostenlose) Java-IDE ist, wird diese IDE auch im
 Quelle: [programmer9.com](https://programmer9.com/2019/02/06/largest-java-survey-2018.html)_
 
 
-## Package Manager
+## Views
+
+Das Hauptfenster von Eclipse ist in verschiedene Bereiche aufgeteilt, in denen sogenannte _Views_ eingeblendet werden können. Es handelt sich dabei um kleinere "Unterfenster", die auf die Darstellung verschiedener Inhalte spezialisiert sind.  
+Der eigentliche Editor ist immer groß in der Fenstermitte zu sehen, die anderen Views verteilen sich am Rand. Einige Views sind sehr wichtig und deshalb standardmäßig aktiviert (Package Manager, Outline, ...), andere können bei Bedarf über das Menü `Window` &rArr; `Show View` &rArr; `...` dazugeschaltet werden.
+
+
+### Editor
+
+In diesem View, einem leistungsfähigen Text-Editor mit jeder Menge Zusatzfunktionen, wird der eigentliche Programmcode geschrieben.
+
+
+#### Zusatzfunktionen
+- Zeilennummern: Selbsterklärend (links)
+- Folding: Code-Blöcke ein- oder ausklappen (links, kann und sollte am Anfang über Rechtsklick ausgeschaltet werden)
+- Farbige Hervorhebung des [Gültigkeitsbereichs](https://de.wikipedia.org/wiki/Variable_(Programmierung)#Scope), in dem sich der Cursor befindet (link, mit zusätzlichen Icons für `//TODO`-Kommentare, [Breakpoints](https://de.wikipedia.org/wiki/Haltepunkt_(Programmierung)) u.ä.)
+- Farbige Markierungen am Scroll-Balken für Fehler, Warnungen, `//TODO`-Kommentare und Vorkommen eines markierten [Identifiers](https://de.wikipedia.org/wiki/Bezeichner) (rechts)
+
+
+#### Keyboard-Shortcuts im Editor
+> :warning: **Achtung:** Bis auf den ersten brauchst du diese Shortcuts am Anfang noch nicht unbedingt!
+
+Der Editor bietet unzählige nützliche Keyboard-Shortcuts. Die mutmaßlich Wichtigsten sind:
+
+- `Strg`+`Space`: Code-Vervollständigung / -Vorschläge (diese Tastenkombination braucht man im Prinzip _die ganze Zeit_)
+- `Shift`+`Alt`+`R`: Refactor Identifier ([Refactoring](https://de.wikipedia.org/wiki/Refactoring) eines Identifiers, also Umbenennung mit Änderung aller Referenzen im gesamten Projekt)
+- `Strg`+`Shift`+`O`: Alle fehlenden Imports anlegen / importieren (bei Doppeldeutigkeiten wird eine Auswahl eingeblendet)
+- ...
+
+
+### Package Manager
 
 > :construction: TODO
 
 
-## Editor
+### Outline
 
 > :construction: TODO
 
 
-## Outline
-
-> :construction: TODO
-
-
-## Console
+### Console
 
 > :construction: TODO
 
