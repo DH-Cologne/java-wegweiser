@@ -1,8 +1,8 @@
 # Die IDE Eclipse :waning_crescent_moon:
 
-Diese Seite erläutert die ersten Grundlagen zum Umgang mit der Entwicklungsumgebung _Eclipse_.
-
 > :construction: **TODO:** Vorbereitete Struktur mit Text füllen
+
+Diese Seite erläutert die ersten Grundlagen zum Umgang mit der Entwicklungsumgebung _Eclipse_. Hier werden ausdrücklich **nicht alle Funktionen** von Eclipse erläutert, sondern nur diejenigen, die man für das anfängliche Arbeiten benötigt. Ein vollständiges Eclipse-Handbuch findet sich [hier](https://help.eclipse.org/2020-03/index.jsp).
 
 
 ## Was ist eine IDE?
@@ -23,10 +23,17 @@ Da _Eclipse_ die meistgenutzte (kostenlose) Java-IDE ist, wird diese IDE auch im
 Quelle: [programmer9.com](https://programmer9.com/2019/02/06/largest-java-survey-2018.html)_
 
 
+
+## Workspaces
+
+Als _Workspace_ wird in Eclipse (und anderen IDEs) ein Ordner (z.B. auf der lokalen Festplatte) bezeichnet, der Projekte enthält (oder auf sie verweist, falls sie an einem anderen Ort gespeichert sind). Workspaces sind eine gute Möglichkeit, die Entwicklungsumgebung aufgeräumt zu halten. Es empfiehlt sich z.B. sehr, einen eigenen Workspace für die Hausaufgaben aus dem Java-Seminar anzulegen, damit diese z.B. nicht mit anderen eigenen Projekten durcheinander kommen.  
+Beim ersten Start von Eclipse wird nach dem zu öffnenden Workspace gefragt (oder es wird einer angelegt). Möchte man später zu einem anderen Workspace wechseln oder einen neuen anlegen, geht das über das Menü `File` &rarr; `Switch Workspace` (hier kann über `Other...` ein neuer Ordner zum Workspace gemacht werden!)
+
+
 ## Views
 
 Das Hauptfenster von Eclipse ist in verschiedene Bereiche aufgeteilt, in denen sogenannte _Views_ eingeblendet werden können. Es handelt sich dabei um kleinere "Unterfenster", die auf die Darstellung verschiedener Inhalte spezialisiert sind.  
-Der eigentliche Editor ist immer groß in der Fenstermitte zu sehen, die anderen Views verteilen sich am Rand. Einige Views sind sehr wichtig und deshalb standardmäßig aktiviert (Package Manager, Outline, ...), andere können bei Bedarf über das Menü `Window` &rArr; `Show View` &rArr; `...` dazugeschaltet werden.
+Der eigentliche Editor ist immer groß in der Fenstermitte zu sehen, die anderen Views verteilen sich am Rand. Einige Views sind sehr wichtig und deshalb standardmäßig aktiviert (Package Manager, Outline, ...), andere können bei Bedarf über das Menü `Window` &rarr; `Show View` &rarr; `...` dazugeschaltet werden.
 
 
 ### Editor
@@ -54,7 +61,7 @@ Der Editor bietet unzählige nützliche Keyboard-Shortcuts. Die mutmaßlich Wich
 
 ### Package Manager
 
-> :construction: TODO
+Der _Package Manager_ befindet sich im Normalfall in der linken Seitenleiste. Er stellt den Inhalt des momentan geöffneten _Workspace_ dar. :construction:
 
 
 ### Outline
