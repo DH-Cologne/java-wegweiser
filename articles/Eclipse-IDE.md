@@ -48,7 +48,7 @@ In diesem View, einem leistungsfähigen Text-Editor mit jeder Menge Zusatzfunkti
 #### Zusatzfunktionen
 - Zeilennummern: Selbsterklärend (links)
 - Folding: Code-Blöcke ein- oder ausklappen (links, kann und sollte am Anfang über Rechtsklick ausgeschaltet werden)
-- Farbige Hervorhebung des [Gültigkeitsbereichs](https://de.wikipedia.org/wiki/Variable_(Programmierung)#Scope), in dem sich der Cursor befindet (link, mit zusätzlichen Icons für `//TODO`-Kommentare, [Breakpoints](https://de.wikipedia.org/wiki/Haltepunkt_(Programmierung)) u.ä.)
+- Farbige Hervorhebung des [Gültigkeitsbereichs](https://de.wikipedia.org/wiki/Variable_(Programmierung)#Scope), in dem sich der Cursor befindet (link, mit zusätzlichen Icons für `//TODO`-[Kommentare](Kommentare.md), [Breakpoints](https://de.wikipedia.org/wiki/Haltepunkt_(Programmierung)) u.ä.)
 - Farbige Markierungen am Scroll-Balken für Fehler, Warnungen, `//TODO`-Kommentare und Vorkommen eines markierten [Identifiers](https://de.wikipedia.org/wiki/Bezeichner) (rechts)
 
 
@@ -72,15 +72,20 @@ Es handelt sich aber um eine auf die Entwicklung von Java-Projekten spezielisier
 
 ### Outline
 
-> :construction: TODO
+Die [_Outline_](https://help.eclipse.org/2020-03/topic/org.eclipse.platform.doc.user/concepts/coutline.htm?resultof=%22%4f%75%74%6c%69%6e%65%22%20%22%6f%75%74%6c%69%6e%22%20) View stellt die innere Struktur der gerade im Editor geöffneten Klasse (Quelltextdatei) graphisch dar - eine sehr praktische Übersicht über alle Felder und Methoden sowie deren Sichtbarkeit!
 
 
 ### Console
 
-> :construction: TODO
+Die [_Console_](https://help.eclipse.org/2020-03/topic/org.eclipse.jdt.doc.user/reference/views/console/ref-console_view.htm?resultof=%22%43%6f%6e%73%6f%6c%65%22%20%22%63%6f%6e%73%6f%6c%22%20) View ist eine gewöhnliche Konsole, welche die Text-Ausgaben eines ausgeführten Programmes anzeigt. Hier werden Ausgaben über den [_Standard Output (stdout)_](https://en.wikipedia.org/wiki/Standard_streams#Standard_output_(stdout)) in schwarz (je nach Theme) und über den [_Error Output (stderr)_](https://en.wikipedia.org/wiki/Standard_streams#Standard_error_(stderr)) in rot ausgegeben. User-Eingaben erscheinen hingegen grün.
 
 
 ## Ein neues Projekt anlegen
+
+> :construction: TODO
+
+
+## Eine neue Klasse erzeugen
 
 > :construction: TODO
 
