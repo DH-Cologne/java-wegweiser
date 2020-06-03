@@ -1,7 +1,5 @@
 # Die IDE Eclipse :waning_crescent_moon:
 
-> :construction: **TODO:** Vorbereitete Struktur mit Text füllen
-
 Diese Seite erläutert die ersten Grundlagen zum Umgang mit der Entwicklungsumgebung _Eclipse_. Hier werden ausdrücklich **nicht alle Funktionen** von Eclipse erläutert, sondern nur diejenigen, die man für das anfängliche Arbeiten benötigt. Ein vollständiges Eclipse-Handbuch findet sich [hier](https://help.eclipse.org/2020-03/topic/org.eclipse.platform.doc.user/gettingStarted/qs-02a.htm?cp=0_1_0_0).
 
 
@@ -120,13 +118,11 @@ Auch hier sind außer dem Klassen-Namen alle anderen Einstellungen für gewöhnl
 
 ## Programme ausführen
 
-> :construction: TODO
+Zum Ausführen eines Projektes führt der "expliziteste" Weg über einen Rechtsklick auf das Projekt &rarr; `Run As` &rarr; `Java Application`. Sollte das Projekt mehrere Klassen mit `main`-Methoden enthalten (was durchaus möglich ist), dann fragt Eclipse nach, welche ausgeführt werden soll.
 
-### Über das Kontextmenu
-...
+> :speech_balloon: **Übrigens:** Es lässt sich auch direkt eine Klasse mit `main`-Methode über einen Rechtsklick auf die Klasse (und dann wie oben beschrieben) ausführen.
 
-### Über den "Play"-Button
-...
+> :point_right: **Eine Abkürzung** ist der Play-Button oben in der Toolbar. Aber Achtung: Dieser führt immer das zuletzt ausgeführte Programm noch einmal aus - nicht etwa das gerade geöffnete! Über den kleinen Pfeil daneben öffnet sich ein Dropdown-Menü mit den zuletzt ausgeführten Programmen.
 
 
 <!-- Dieser Link sollte am Ende jeder Seite stehen! -->
