@@ -1,9 +1,9 @@
-# Benötigte Software
+# Benötigte Software :woman_technologist:
 
 Für die Arbeit im Seminar und in den Übungen benötigen wir ein [JDK](Die-Programmiersprache-Java.md#jdk) und eine [IDE](Eclipse-IDE.md#was-ist-eine-ide). Was das genau ist, wird in den verlinkten Artikeln erklärt. Hier geht es zunähst nur darum, den richtigen Download zu finden und die Programme zu installieren!
 
 
-## Java Development Kit (JDK)
+## Java Development Kit (JDK) :coffee:
 
 Wir benötigen ein JDK der Version 11, passend für dein Betriebssystem. Wegen der [Umstellung des Lizenzmodells von Oracle im Jahr 2019](https://www.oracle.com/technetwork/java/javase/overview/oracle-jdk-faqs.html) sollten wir **unbedingt** ein **OpenJDK** benutzen:
 
@@ -14,7 +14,7 @@ Wir benötigen ein JDK der Version 11, passend für dein Betriebssystem. Wegen d
 | Linux | Falls du ein aktuelles Ubuntu-System (>=18.04) benutzt, kannst du das OpenJDK 11 einfach über folgenden Terminalbefehl installieren: `sudo apt install openjdk-11-jdk openjdk-11-doc openjdk-11-jre-headless openjdk-11-source`. Ansonsten gilt (wie auch bei Windows oder MacOS) die Empfehlung der Seite von [AdoptOpenJDK](https://adoptopenjdk.net) |
 
 
-## Eclipse IDE
+## Eclipse IDE :waning_crescent_moon:
 
 Für den Download der Entwicklungsumgebung _Eclipse_ (die wir im Seminar nutzen) enutzt man am besten die aktuelle Version der **Eclipse IDE for Java Developers** von [dieser Seite](https://www.eclipse.org/downloads/packages/).
 
