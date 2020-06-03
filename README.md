@@ -26,6 +26,9 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 
 ### Einstieg
 
+#### [Benötigte Software](articles/Benoetigte-Software.md)
+> `JDK`, `Eclipse IDE`, `Download`, `Installation`, ...
+
 #### [Die Programmiersprache Java](articles/Die-Programmiersprache-Java.md)
 > `Warum Java?`, `Warum nicht?`, `Besonderheiten`, `Java Platform`, `Java Ecosystem`, `Packages`, `Hello World!`, ...
 
