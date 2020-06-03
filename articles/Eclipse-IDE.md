@@ -2,7 +2,7 @@
 
 > :construction: **TODO:** Vorbereitete Struktur mit Text füllen
 
-Diese Seite erläutert die ersten Grundlagen zum Umgang mit der Entwicklungsumgebung _Eclipse_. Hier werden ausdrücklich **nicht alle Funktionen** von Eclipse erläutert, sondern nur diejenigen, die man für das anfängliche Arbeiten benötigt. Ein vollständiges Eclipse-Handbuch findet sich [hier](https://help.eclipse.org/2020-03/index.jsp).
+Diese Seite erläutert die ersten Grundlagen zum Umgang mit der Entwicklungsumgebung _Eclipse_. Hier werden ausdrücklich **nicht alle Funktionen** von Eclipse erläutert, sondern nur diejenigen, die man für das anfängliche Arbeiten benötigt. Ein vollständiges Eclipse-Handbuch findet sich [hier](https://help.eclipse.org/2020-03/topic/org.eclipse.platform.doc.user/gettingStarted/qs-02a.htm?cp=0_1_0_0).
 
 
 ## Was ist eine IDE?
@@ -12,10 +12,14 @@ Bei einer [IDE](https://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung) 
 
 ## Warum Eclipse?
 
-Es gibt viele [verschiedene _IDEs_ für die Entwicklung von Java](https://hackr.io/blog/best-java-ides). Am häufigsten läuft man aber wohl _IntelliJ IDEA_, _Netbeans_ und eben _Eclipse_ über den Weg.  
-Während _IntelliJ IDEA_ sehr beliebt ist, ist das Programm aber doch keine echte kostenlose Open-Source Software - das ist es nur in der Community-Edition. Die Vollversion kostet Geld, ist aber für Studierende kostenlos verfügbar.  
-_Netbeans_ ist eine sehr etablierte Open-Source IDE. Es steht Eclipse im Prinzip in nichts nach, auch wenn der Umfang der für Eclipse verfügbaren Plugins etwas größer ist.  
-_Eclipse_ wurde gezielt als IDE für Java entwickelt (auch wenn es genau wie die anderen beiden inzwischen auch andere Sprachen beherrscht). Es handelt sich um eine sehr umfangreiche IDE mit Werkzeugen für [Modelling](https://de.wikipedia.org/wiki/Unified_Modeling_Language), [Testing](https://de.wikipedia.org/wiki/Modultest) und [Debugging](https://de.wikipedia.org/wiki/Debugger).  
+Es gibt viele [verschiedene _IDEs_ für die Entwicklung von Java](https://hackr.io/blog/best-java-ides). Am häufigsten läuft man aber wohl _IntelliJ IDEA_, _Netbeans_ und eben _Eclipse_ über den Weg.
+
+Während _IntelliJ IDEA_ sehr beliebt ist, ist das Programm aber doch keine echte kostenlose Open-Source Software - das ist es nur in der Community-Edition. Die Vollversion kostet Geld, ist aber für Studierende kostenlos verfügbar.
+
+_Netbeans_ ist eine sehr etablierte Open-Source IDE. Es steht Eclipse im Prinzip in nichts nach, auch wenn der Umfang der für Eclipse verfügbaren Plugins etwas größer ist.
+
+_Eclipse_ wurde gezielt als IDE für Java entwickelt (auch wenn es genau wie die anderen beiden inzwischen auch andere Sprachen beherrscht). Es handelt sich um eine sehr umfangreiche IDE mit Werkzeugen für [Modelling](https://de.wikipedia.org/wiki/Unified_Modeling_Language), [Testing](https://de.wikipedia.org/wiki/Modultest) und [Debugging](https://de.wikipedia.org/wiki/Debugger).
+
 Da _Eclipse_ die meistgenutzte (kostenlose) Java-IDE ist, wird diese IDE auch im Java-Seminar genutzt und alle vermittelten Tipps und Tricks beziehen sich auf Eclipse. Natürlich ist darüber hinaus die persönliche Wahl der IDE jede*r/m freigestellt.
 
 ![Java IDE shares 2018](https://programmer9.com/assets/images/largest-java-survey-ever/which_IDE_developers_use.png)
@@ -23,10 +27,10 @@ Da _Eclipse_ die meistgenutzte (kostenlose) Java-IDE ist, wird diese IDE auch im
 Quelle: [programmer9.com](https://programmer9.com/2019/02/06/largest-java-survey-2018.html)_
 
 
-
 ## Workspaces
 
-Als _Workspace_ wird in Eclipse (und anderen IDEs) ein Ordner (z.B. auf der lokalen Festplatte) bezeichnet, der Projekte enthält (oder auf sie verweist, falls sie an einem anderen Ort gespeichert sind). Workspaces sind eine gute Möglichkeit, die Entwicklungsumgebung aufgeräumt zu halten. Es empfiehlt sich z.B. sehr, einen eigenen Workspace für die Hausaufgaben aus dem Java-Seminar anzulegen, damit diese z.B. nicht mit anderen eigenen Projekten durcheinander kommen.  
+Als _Workspace_ wird in Eclipse (und anderen IDEs) ein Ordner (z.B. auf der lokalen Festplatte) bezeichnet, der Projekte enthält (oder auf sie verweist, falls sie an einem anderen Ort gespeichert sind). Workspaces sind eine gute Möglichkeit, die Entwicklungsumgebung aufgeräumt zu halten. Es empfiehlt sich z.B. sehr, einen eigenen Workspace für die Hausaufgaben aus dem Java-Seminar anzulegen, damit diese z.B. nicht mit anderen eigenen Projekten durcheinander kommen.
+
 Beim ersten Start von Eclipse wird nach dem zu öffnenden Workspace gefragt (oder es wird einer angelegt). Möchte man später zu einem anderen Workspace wechseln oder einen neuen anlegen, geht das über das Menü `File` &rarr; `Switch Workspace` (hier kann über `Other...` ein neuer Ordner zum Workspace gemacht werden!)
 
 
@@ -59,9 +63,11 @@ Der Editor bietet unzählige nützliche Keyboard-Shortcuts. Die mutmaßlich Wich
 - ...
 
 
-### Package Manager
+### Package Explorer
 
-Der _Package Manager_ befindet sich im Normalfall in der linken Seitenleiste. Er stellt den Inhalt des momentan geöffneten _Workspace_ dar. :construction:
+Der [_Package Explorer_](https://help.eclipse.org/2020-03/topic/org.eclipse.jdt.doc.user/gettingStarted/qs-4.htm?cp=1_1_0_2) befindet sich im Normalfall in der linken Seitenleiste. Er stellt den Inhalt des momentan geöffneten _Workspace_ dar. Die Handhabung ähnelt sehr stark der eines gewöhnlichen [Verzeichnisbaumes](https://de.wikipedia.org/wiki/Verzeichnisstruktur) in einem [Dateimanager](https://de.wikipedia.org/wiki/Dateimanager).  
+
+Es handelt sich aber um eine auf die Entwicklung von Java-Projekten spezielisierte Variante eines Dateimanagers. Es werden nicht einfach die Dateien aus den Projektordnern in ihrer vorliegenden Hierarchie angezeigt, stattdessen werden [Packages](https://www.w3schools.com/java/java_packages.asp) in einer abgeflachten Hierarchie dargestellt und in das Projekt eingebundene Ressourcen (wie die [JRE System Library](Die-Programmiersprache-Java.md#java-class-library)) werden gesondert angezeigt.
 
 
 ### Outline
