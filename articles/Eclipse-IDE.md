@@ -100,7 +100,7 @@ Auch hier sind außer dem Klassen-Namen alle anderen Einstellungen für gewöhnl
 
 ## Import und Export von Projekten
 
-> :point_right: **Hinweis:** Dieser Punkt ist **sehr wichtig für die Hausaufgaben** im Java-Seminar: Das Importieren und Exportieren von Projekten in und aus Eclipse!
+> :point_right: **Hinweis:** Dieser Punkt ist **sehr wichtig für die Hausaufgaben** im Java-Seminar!
 
 **Projekt Exportieren** :arrow_up:
 1. Rechtsklick **auf den Projekt-Ordner im _Package Explorer_** &rarr; `Export` &rarr; `General` &rarr; `Archive File`
@@ -109,8 +109,8 @@ Auch hier sind außer dem Klassen-Namen alle anderen Einstellungen für gewöhnl
 
 **Projekt Importieren** :arrow_down:
 1. Im Menü `File` &rarr; `Import` **oder** Rechtsklick im _Package Explorer_ &rarr; `Import`
-2. :warning: Hier **NICHT** `General` &rarr; `Archive File` auswählen (auch wenn ein `.zip`-Archiv importiert werden soll!), **sondern:**
-3. `General` &rarr; `Existing Projects into Workspace` auswählen
+2. :x: Hier **NICHT** `General` &rarr; `Archive File` auswählen (auch wenn ein `.zip`-Archiv importiert werden soll!), **sondern:**
+3. :+1: `General` &rarr; `Existing Projects into Workspace` auswählen
 4. Oben entweder `Select root directory` (falls das Archiv schon entpackt wurde) oder (wahrscheinlicher) `Select archive file` auswählen
 5. Den entsprechenden Pfad anwählen
 6. `Finish`
