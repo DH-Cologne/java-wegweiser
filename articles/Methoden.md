@@ -184,5 +184,5 @@ Besonders schön ist hier die Erwähnung des Schlüsselwortes **pointer**, denn 
 <div class="top-link">
     <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
     <br/>
-    <a href="/" title="Zurück zur Übersicht!">Inhalt :book:</a>
+    <a href="../" title="Zurück zur Übersicht!">Inhalt :book:</a>
 </div>
