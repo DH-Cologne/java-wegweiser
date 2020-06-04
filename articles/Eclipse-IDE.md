@@ -122,7 +122,7 @@ Zum Ausführen eines Projektes führt der "expliziteste" Weg über einen Rechtsk
 
 > :speech_balloon: **Übrigens:** Es lässt sich auch direkt eine Klasse mit `main`-Methode über einen Rechtsklick auf die Klasse (und dann wie oben beschrieben) ausführen.
 
-> :point_right: **Eine Abkürzung** ist der Play-Button oben in der Toolbar. Aber Achtung: Dieser führt immer das zuletzt ausgeführte Programm noch einmal aus - nicht etwa das gerade geöffnete! Über den kleinen Pfeil daneben öffnet sich ein Dropdown-Menü mit den zuletzt ausgeführten Programmen.
+> :point_right: **Eine Abkürzung** ist der Play-Button oben in der Toolbar. Aber **Achtung**: Dieser führt immer das zuletzt ausgeführte Programm noch einmal aus - nicht etwa das gerade geöffnete! Über den kleinen Pfeil daneben öffnet sich ein Dropdown-Menü mit den zuletzt ausgeführten Programmen.
 
 
 <!-- Dieser Link sollte am Ende jeder Seite stehen! -->
