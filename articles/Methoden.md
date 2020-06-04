@@ -45,7 +45,7 @@ Bar: Good day, Foo!
 ```
 
 
-## return
+## `return`
 
 Das Schlüsselwort `return` (zu sehen im obigen Beispiel) hat zwei Aufgaben: Zum einen beendet es sofort die Methode (es muss nicht am Ende der Methode stehen und es kann auch mehrere `return`-Statements geben!). Zum anderen legt es fest, was genau die Methode zurückgibt. In Methoden mit einem Rückgabetyp folgt auf ein `return` immer die Rückgabe (siehe Beispiel oben).
 
