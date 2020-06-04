@@ -1,9 +1,9 @@
 
 # Hello World! :rocket:
 
-Zum Erlernen einer Programmiersprache gehört immer auch ein _"Hello World"_-Beispiel, das den Quelltext eines minimalen Programms zeigt, welches einfach nur die Worte _"Hello World!"_ auf der Konsole ausgibt. Mit dieser Tradition wollen wir hier nicht brechen.
+Zum Erlernen einer Programmiersprache gehört immer auch ein **_"Hello World"_**-Beispiel, das den Quelltext eines minimalen Programms zeigt, welches einfach nur die Worte `Hello World!` auf der Konsole ausgibt. Mit dieser Tradition wollen wir hier - Gott bewahre - nicht brechen!
 
-Das folgende Java-Programm wäre lauffähig und würde die Worte _"Hello World!"_ auf der Konsole ausgeben:
+Das folgende Java-Programm wäre lauffähig und würde die Zeichenkette `Hello World!` auf der Konsole ausgeben:
 
 ```java
 public class HelloWorld {
@@ -13,9 +13,9 @@ public class HelloWorld {
 }
 ```
 
-Wenn du Java nicht schon beherrschst, siehst du in diesem winzigen Beispiel bereits viele Dinge, die dir jetzt noch nichts sagen. Im Folgenden sollen die auseinandergenommenen Kleinteile dieses Codes benannt werden, damit du weißt, wonach du in den folgenden Kapiteln suchen musst, um wirklich _alles_ an diesem Beispiel zu verstehen.
 
-> :warning: **Du das nicht!** Es ergibt keinen Sinn. Nimm diesen Code erstmal so hin - du wirst in später noch verstehen! Die folgende Auflistung dient nur der Vollständigkeit. Lies sie dir gern durch, aber versuche vorerst nicht, alles nachzuvollziehen.
+> :warning: **Wenn du Java nicht schon beherrschst**, siehst du in diesem winzigen Beispiel bereits viele Dinge, die dir jetzt noch nichts sagen. **Das ist in Ordnung!** Nimm den Code einfach so hin, wie er ist. Später kannst du hierher zurückkehren und prüfen, ob du schon alle in diesem Beispiel vorkommenden Konzepte kennst. Im Folgenden sollen dazu die einzelnen Bestandteile des Beispiel-Codes benannt (**nicht** erklärt) werden, damit du weißt, wonach du in den weiteren Kapiteln suchen musst...
+
 
 Code | Was ist das?
 --- | ---
