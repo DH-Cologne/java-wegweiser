@@ -177,5 +177,12 @@ Zur weiteren Erläuterung: Ein User hat auf die [oben verlinkte SO-Antwort](http
 
 Besonders schön ist hier die Erwähnung des Schlüsselwortes **pointer**, denn mit [denen](https://de.wikipedia.org/wiki/Zeiger_(Informatik)) kommt man in Java normalerweise nicht wirklich in Berührung (anders als etwa in C++), aber **es gibt sie auch in Java** - und es lohnt sich offensichtlich auch hier, sie zu verstehen!
 
-<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
-<a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>
+
+
+
+<!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
+<div class="top-link">
+    <a href="#" title="Zurück zur Übersicht!">Inhalt:book:</a>
+    &mdash;
+    <a href="#" title="Zum Anfang scrollen!">Top:balloon:</a>
+</div>
