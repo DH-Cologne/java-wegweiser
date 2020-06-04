@@ -53,7 +53,7 @@ In diesem View, einem leistungsfähigen Text-Editor mit jeder Menge Zusatzfunkti
 #### Keyboard-Shortcuts im Editor
 > :warning: Bis auf den ersten brauchst du diese Shortcuts am Anfang noch nicht unbedingt!
 
-Der Editor bietet unzählige nützliche Keyboard-Shortcuts. Die mutmaßlich Wichtigsten sind:
+Der Editor bietet unzählige nützliche Keyboard-Shortcuts. Einige Beispiele sind sind...
 
 - `Strg`+`Space`: Code-Vervollständigung / -Vorschläge (diese Tastenkombination braucht man im Prinzip _die ganze Zeit_)
 - `Shift`+`Alt`+`R`: Refactor Identifier ([Refactoring](https://de.wikipedia.org/wiki/Refactoring) eines Identifiers, also Umbenennung mit Änderung aller Referenzen im gesamten Projekt)

@@ -41,8 +41,8 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 #### [Hello World](articles/Hello-World.md)
 > `Das erste Programm`, `Was ist das alles?`
 
-#### [Packages und `import`](articles/Packages.md)
-> `Packages`, `Pakete`, `Paket-Pfade`, `import`
+#### [Packages, `package` und `import`](articles/Packages-package-und-import.md)
+> `Packages`, `Pakete`, `Paket-Pfade`, `package`, `import`
 
 #### [`main`-Methode](articles/Main-Methode.md)
 > `main`
