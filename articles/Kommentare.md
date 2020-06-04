@@ -25,7 +25,7 @@ Es wird aber nur das auskommentiert, was in `Zeile 10` hinter `//` geschrieben w
 
 Man kann Kommentare auch dazu benutzen, Code z.B. zu Testzwecken nicht auszuführen. Der Methoden-Aufruf in `Zeile 14` etwa wird vom Compiler ignoriert.
 
-> :speech_balloon: **Übrigens:** In Eclipse werden mit `Strg + Shift + 7` oder `Strg + Shift + C` alle markierten Zeilen mit einem Inline-Kommentare versehen.
+> :point_right: In Eclipse werden mit `Strg + Shift + 7` oder `Strg + Shift + C` alle markierten Zeilen mit einem Inline-Kommentar versehen.
 
 
 ## Mehrzeilige Kommentare

@@ -6,9 +6,9 @@
 > :construction: **TODO:**
 > Es sollen hier keine Sortier-Algorithmen im Detail besprochen werden. Aber es soll klar werden, was ein Sortieralgorithmus ist und dass es unterschiedliche (und unterschiedlich leistungsfähige) Algorithmen gibt.
 
-> :speech_balloon: **Übrigens:** Einige sehr gute Erläuterungen zu einzelnen Sortieralgorithmen findest du [hier](https://stackabuse.com/sorting-algorithms-in-java).
+> :link: Einige sehr gute Erläuterungen zu einzelnen Sortieralgorithmen findest du [hier](https://stackabuse.com/sorting-algorithms-in-java).
 
-> :speech_balloon: **Übrigens:** Hier findest du eine Seite mit sehr schönen [Visualisierungen verschiedener Sortier-Algorithmen](https://www.toptal.com/developers/sorting-algorithms)
+> :link: Hier findest du eine Seite mit sehr schönen [Visualisierungen verschiedener Sortier-Algorithmen](https://www.toptal.com/developers/sorting-algorithms)
 
 
 ## Sortieren mit Mitteln des Collections Framework
@@ -41,7 +41,7 @@ Das Beispiel oben erzeugt folgende Ausgabe:
 Also die Liste im sortierten Zustand - und zwar alphabetisch (wobei hier Großbuchstaben vor allen Kleinbuchstaben einsortiert werden). Aber wer entscheidet das? Was ist, wenn ich meine Strings nach Länge sortieren möchte? Und was passiert, wenn ich keine `List<String>` sondern eine `List<User>`oder `List<Animal>` habe?  
 Diese Fragen klären die folgenden Abschnitte...
 
-> :speech_balloon: **Übrigens:** In Java wurden von den Methoden `Arrays.sort()` und `Collections.sort()` lange die Algorithmen [_Mergesort_](https://de.wikipedia.org/wiki/Mergesort) und [_Quicksort_](https://de.wikipedia.org/wiki/Quicksort) [genutzt](https://stackoverflow.com/questions/32334319/why-does-collections-sort-use-mergesort-but-arrays-sort-does-not?noredirect=1). [In neueren Versionen](https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6804124) (ab Java 7) nutzen beide Methoden statdessen [_Timsort_](https://de.wikipedia.org/wiki/Timsort). 
+> :speech_balloon: In Java wurden in den Methoden `Arrays.sort()` und `Collections.sort()` lange die Algorithmen [_Mergesort_](https://de.wikipedia.org/wiki/Mergesort) und [_Quicksort_](https://de.wikipedia.org/wiki/Quicksort) [genutzt](https://stackoverflow.com/questions/32334319/why-does-collections-sort-use-mergesort-but-arrays-sort-does-not?noredirect=1). [In neueren Versionen](https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6804124) (ab Java 7) nutzen beide Methoden stattdessen [_Timsort_](https://de.wikipedia.org/wiki/Timsort). 
 
 
 ## Das Interface `Comparable`
@@ -181,7 +181,7 @@ Natürlich sollte man lieber die Referenz auf einen vorher erzeugten `Comparator
 
 -----------------------
 
-> :speech_balloon: **\*\* Übrigens:** Beim programmieren hilft Faulheit sehr oft dabei, den richtigen Weg zu finden!
+> :speech_balloon: Beim programmieren hilft Faulheit sehr oft dabei, den richtigen Weg zu finden!
 
 
 <!-- Dieser Link sollte am Ende jeder Seite stehen! -->

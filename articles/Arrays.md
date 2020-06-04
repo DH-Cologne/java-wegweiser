@@ -5,11 +5,11 @@ Ein [Array](https://de.wikipedia.org/wiki/Feld_(Datentyp)) ist eine lineare [Dat
 - [Arrays](#arrays)
   - [Funktionsweise](#funktionsweise)
     - [Indizierung](#indizierung)
-    - [Feste Größe](#feste-gr%c3%b6%c3%9fe)
+    - [Feste Größe](#feste-größe)
     - [Typisierung](#typisierung)
   - [Erzeugen eines Arrays](#erzeugen-eines-arrays)
-    - [... mit dem `new`-Operator](#mit-dem-new-operator)
-    - [... mit Array-Literals](#mit-array-literals)
+    - [... mit dem `new`-Operator](#-mit-dem-new-operator)
+    - [... mit Array-Literals](#-mit-array-literals)
   - [Zugriff und Manipulation](#zugriff-und-manipulation)
   - [Mehrdimensionale Arrays](#mehrdimensionale-arrays)
 
@@ -83,7 +83,7 @@ public int[] aUselessMethod(){
 }
 ```
 
-> :warning: **Übrigens:** Es mag sehr reizvoll und elegant erscheinen, ein Array gleich mit allen Werten zu initialisieren, aber im Alltag wird das doch eher selten getan - immerhin muss die Person, die den Programm-Code schreibt, schon beim Programmieren genau wissen, welche Werte in das Array sollen. Das kommt nicht oft vor!
+> :warning: Es mag sehr reizvoll und elegant erscheinen, ein Array gleich mit allen Werten zu initialisieren, aber im Alltag wird das doch eher selten getan - immerhin muss die Person, die den Programm-Code schreibt, schon beim Programmieren genau wissen, welche Werte in das Array sollen. Das kommt nicht oft vor!
 
 
 ## Zugriff und Manipulation

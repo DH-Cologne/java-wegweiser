@@ -51,7 +51,7 @@ In diesem View, einem leistungsfähigen Text-Editor mit jeder Menge Zusatzfunkti
 
 
 #### Keyboard-Shortcuts im Editor
-> :warning: **Achtung:** Bis auf den ersten brauchst du diese Shortcuts am Anfang noch nicht unbedingt!
+> :warning: Bis auf den ersten brauchst du diese Shortcuts am Anfang noch nicht unbedingt!
 
 Der Editor bietet unzählige nützliche Keyboard-Shortcuts. Die mutmaßlich Wichtigsten sind:
 
@@ -120,7 +120,7 @@ Auch hier sind außer dem Klassen-Namen alle anderen Einstellungen für gewöhnl
 
 Zum Ausführen eines Projektes führt der "expliziteste" Weg über einen Rechtsklick auf das Projekt &rarr; `Run As` &rarr; `Java Application`. Sollte das Projekt mehrere Klassen mit `main`-Methoden enthalten (was durchaus möglich ist), dann fragt Eclipse nach, welche ausgeführt werden soll.
 
-> :speech_balloon: **Übrigens:** Es lässt sich auch direkt eine Klasse mit `main`-Methode über einen Rechtsklick auf die Klasse (und dann wie oben beschrieben) ausführen.
+> :speech_balloon: Es lässt sich auch direkt eine Klasse mit `main`-Methode über einen Rechtsklick auf die Klasse (und dann wie oben beschrieben) ausführen.
 
 > :point_right: **Eine Abkürzung** ist der Play-Button oben in der Toolbar. Aber **Achtung**: Dieser führt immer das zuletzt ausgeführte Programm noch einmal aus - nicht etwa das gerade geöffnete! Über den kleinen Pfeil daneben öffnet sich ein Dropdown-Menü mit den zuletzt ausgeführten Programmen.
 

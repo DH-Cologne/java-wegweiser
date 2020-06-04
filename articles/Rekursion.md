@@ -36,7 +36,7 @@ Die Funktionsweise von rekursiven Methoden zu verstehen ist anfangs nicht ganz e
 
 
 
-> :warning: **Achtung:** Sehr gute Informationen zum Thema Rekursion findest du [hier](Rekursion.md)!
+> :link: Sehr gute Informationen zum Thema Rekursion findest du [hier](Rekursion.md)!
 
 
 

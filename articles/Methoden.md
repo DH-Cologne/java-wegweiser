@@ -8,7 +8,7 @@ Zunächst muss an dieser Stelle geklärt werden, was _Funktionen_ sind: _Funktio
 Eine **Methode** ist eine _Funktion_, die an ein Objekt (nicht-statisch) oder eine Klasse (statisch) gebunden ist. Dadurch hat eine Methode Zugriff auf die Eigenschaften und Fähigkeiten eines Objektes (nicht-statisch) oder einer Klasse (statisch).  
 Da in Java **alles** in Klassen passiert - Java ist [fast](https://de.wikipedia.org/wiki/Java_(Programmiersprache)#Objektorientierung) völlig objektorientiert - gibt es in Java **nur Methoden** bzw. alle Funktionen in Java **sind Methoden**.
 
-> :speech_balloon: **Übrigens:** Eine gute Diskussion dieser Unterscheidung findet sich in dieser [SO-Frage](https://de.wikipedia.org/wiki/Java_(Programmiersprache)#Objektorientierung)!
+> :speech_balloon: Eine gute Diskussion dieser Unterscheidung findet sich in dieser [SO-Frage](https://de.wikipedia.org/wiki/Java_(Programmiersprache)#Objektorientierung)!
 
 
 ## Aufbau
@@ -72,7 +72,7 @@ public void something(int number1, int number2){
 
 Dies wird vor allem dann genutzt, wenn eine (eigentlich einzelne) Methode Parameter unterschiedlichen Typs verarbeiten können soll. Meist ruft dann (nach einer Umwandlung oder Verarbeitung der Parameter) die eine Methode eine andere gleichnamige Methode auf.
 
-> :speech_balloon: **Übrigens:** Das Überladen ist auch bei [Konstruktoren](Konstruktoren.md) möglich (und sogar sehr üblich!).
+> :speech_balloon: Das Überladen ist auch bei [Konstruktoren](Konstruktoren.md) möglich (und sogar sehr üblich!).
 
 
 <!-- Dieser Link sollte am Ende jeder Seite stehen! -->

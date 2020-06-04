@@ -6,9 +6,9 @@ Was alle Datenstrukturen im _Collections Framework_ von den primitiveren _Arrays
 
 Das gesamte Collections Framework arbeitet mit Generics (_siehe Kapitel zu Generics!_), d.h. der Datentyp der jeweils zu verwaltenden Elemende sollte/muss im Code mittels Generics festgelegt werden!
 
-> :warning: **Achtung:** Das Collections Framework ist umfangreicher, als hier dargestellt. Wir wollen uns hier nur einigen ausgewählten, wichtigen Konzepten widmen. Eine vollständige Darstellung ist bei Bedarf [hier](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html), [hier](https://docs.oracle.com/javase/tutorial/collections/) oder [hier](https://duckduckgo.com/?q=java+collections+framework&ia=web) zu finden!
+> :warning: Das Collections Framework ist umfangreicher, als hier dargestellt. Wir wollen uns hier nur einigen ausgewählten, wichtigen Konzepten widmen. Eine vollständige Darstellung ist bei Bedarf [hier](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html), [hier](https://docs.oracle.com/javase/tutorial/collections/) oder [hier](https://duckduckgo.com/?q=java+collections+framework&ia=web) zu finden!
 
-> :link: **Auch ganz nett:** [Hier](https://en.wikiversity.org/wiki/Java_Collections_Overview#Comparison_of_Collections) findet ihr zusätzlich eine vergleichende Übersicht über die verschiedenen Collections!
+> :link: [Hier](https://en.wikiversity.org/wiki/Java_Collections_Overview#Comparison_of_Collections) findet ihr zusätzlich eine vergleichende Übersicht über die verschiedenen Collections!
 
 
 ## _Collection_-Interface und Implementationen
@@ -217,7 +217,7 @@ Mustermann, Max: 01234/56789
 
 Sets lassen, wie erwähnt, [keine Duplikate zu](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html#add-E-). Auch die Schlüssel in einer Map [_müssen_ unik sein](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#put-K-V-). Wann zwei Elemente (oder Schlüssel) _gleich_ sind, entscheidet die `equals()`-Methode: Ein Objekt `o1` _gleicht_ einem Objekt `o2`, wenn `o1.equals(o2) == true`. Genau dafür ist `equals()` ja auch da! Duplikate sind also _gleich_, nicht aber unbedingt _identisch_, also wirklich die _selben_ Objekte!
 
-> :speech_balloon: **Übrigens:** Eine Ausnahme von dieser Regel stellen die (extrem selten verwendeten) Klassen `IdentityHashSet` und `IdentityHashMap` dar: Diese vergleichen tatsächlich mittels `==`, was wirklich sehr selten (wenn nicht fast nie) der richtige Weg ist.
+> :speech_balloon: **Eine Ausnahme** von dieser Regel stellen die (extrem selten verwendeten) Klassen `IdentityHashSet` und `IdentityHashMap` dar: Diese vergleichen tatsächlich mittels `==`, was wirklich sehr selten (wenn nicht fast nie) der richtige Weg ist.
 
 Bei der Benutzung von `HashSet` oder `HashMap`, also jenen Implementationen von `Set` und `Map`, welche die Hash-Werte von Objekten nutzen, fällt dem [Vertrag zwischen `equals()` und `hashCode()`](https://www.programcreek.com/2011/07/java-equals-and-hashcode-contract/) eine besondere Bedeutung zu: Diese Datenstrukturen organisieren ihre Elemente zunächst nach deren Hash-Werten. Nur wenn zufällig ein angefordertes Element (etwa via `contains()` oder `get()`) den selben Hash-Wert besitzt, wie ein Element in der Datenstruktur, wird von einer "Gleichheit" ausgegangen. Wenn also eine Klasse zwar `equals()` korrekt implementiert, nicht aber `hashCode()`, dann ist der Vertrag gebrochen und es kann zu Komplikationen kommen, da dann zwei Objekte, die nach `equals()` gleich wären von `HashSet` und `HashMap` dennoch nicht als gleich angesehen werden.
 

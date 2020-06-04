@@ -126,7 +126,7 @@ Hallo,
 Welt!
 ```
 
-> :warning: **Achtung:** Da der Backslash `\` die funktion der Maskierung erfüllt, muss er selbst maskiert werden, wenn er als Zeichen im String auftauchen soll. Also so: `"\\"`. Wenn nun der String `\\` lauten soll, dann wäre das String-Literal dazu `"\\\\"`, usw. 
+> :warning: Da der Backslash `\` die Funktion der Maskierung erfüllt, muss er selbst maskiert werden, wenn er als Zeichen im String auftauchen soll. Also so: `"\\"`. Wenn nun aber der String selbst `"\\"` lauten soll, dann wäre das String-Literal dazu `"\\\\"`, usw. 
 
 
 <!-- Dieser Link sollte am Ende jeder Seite stehen! -->

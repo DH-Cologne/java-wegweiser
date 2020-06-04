@@ -30,7 +30,7 @@ Wenn dir selbst keine Probleme aufgefallen sind, dann schau doch mal ins [Issue-
 ### Ablauf einer "Contribution"
 Es gibt einen mehr oder weniger [üblichen Weg](https://opensource.guide/how-to-contribute/), um an Open-Source-Projekten auf GitHub mitzuwirken. Dieser sei hier **in Kürze** (und in einer sehr vereinfachten Variante) beschrieben...
 
-> :warning: **Achtung:** Du brauchst vorher natürlich einen [GitHub-Account](https://github.com/join) und solltest ungefähr verstanden haben, was [Git](https://de.wikipedia.org/wiki/Git) ist, [wie](https://rogerdudler.github.io/git-guide/index.de.html) es [funktioniert](https://git-scm.com/book/de/v2) und du solltest es [auf deinem Computer installieren](https://git-scm.com/downloads)!
+> :warning: Du brauchst vorher natürlich einen [GitHub-Account](https://github.com/join) und solltest ungefähr verstanden haben, was [Git](https://de.wikipedia.org/wiki/Git) ist, [wie](https://rogerdudler.github.io/git-guide/index.de.html) es [funktioniert](https://git-scm.com/book/de/v2) und du solltest es [auf deinem Computer installieren](https://git-scm.com/downloads)!
 
 1) Besuche die GitHub-Seite dieses Repositories unter [https://github.com/DH-Cologne/java-wegweiser](https://github.com/DH-Cologne/java-wegweiser) und erstelle einen Fork des Repositories, indem du oben rechts auf den Button **"Fork"** klickst. Dadurch wird deine eigene Kopie des Repos in deinem GitHub-Account erstellt.
 2) Öffne ein Terminal (oder in Windows die _hoffentlich_ mitinstallierte Git-Bash) und [navigiere](https://duckduckgo.com/?q=navigieren+im+terminal) zu dem Ordner, in dem du die lokale Version deines Repos speichern möchtest und führe dann den Git-Befehl `git clone https://github.com/deinGitHubName/java-wegweiser.git` aus (ersetze bitte `deinGitHubName` durch deinen GitHub-Benutzernamen). Git "klont" nun das Repo in den Ordner `java-wegweiser`.
@@ -40,14 +40,14 @@ Es gibt einen mehr oder weniger [üblichen Weg](https://opensource.guide/how-to-
 6) Jetzt sollten deine Änderungen auf deinen "Fork" in deinem Account bei GitHub übertragen sein! Überprüfe das, indem du dir die Dateien bei GitHub ansiehst.
 7) Um nun die Änderungen, die in deinem Fork gemacht wurden, als Änderungen für das öffentliche `java-wegweiser`-Repository vorzuschlagen, musst du einen so genannten [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) bei GitHub stellen - also eine Anfrage zum Übernehmen der Änderungen an die Person, die für `java-wegweiser` verantwortlich ist. Gehe dazu auf die [GitHub-Seite von `java-wegweiser`](https://github.com/DH-Cologne/java-wegweiser) und klicke auf **"New pull request"**. Klicke dann auf den link "compare across forks", um als _head repository_ dein eigenes auswählen zu können (wähle deinen Namen aus der Liste aus). Jetzt kannst du den Pull Request stellen!
 
-> :speech_balloon: **Übrigens:** Falls du einen modernen Text-Editor / IDE mit einer Git-Integration benutzt, kannst du die Schritte **4** und **5** auch dort in der graphischen Oberfläche ausführen, statt die Git-Befehle im Terminal zu benutzen.
+> :speech_balloon: Falls du einen modernen Text-Editor / IDE mit einer Git-Integration benutzt, kannst du die Schritte **4** und **5** auch dort in der graphischen Oberfläche ausführen, statt die Git-Befehle im Terminal zu benutzen.
 
 > :speech_balloon: **Übrigens:** Eine Alternative wäre das direkte Bearbeiten der Dateien hier in GitHub - diese Variante ist aber eher nur für kleinere Änderungen oder Korrekturen geeignet. GitHub erstellt dann automatisch einen [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) für die Änderungen.
 
 ### Markdown
 Es handelt sich bei den Dokumenten in diesem Repository um [Markdown](https://de.wikipedia.org/wiki/Markdown)-Dateien (eine sehr einfache Auszeichnungssprache), die sich ganz leicht in jedem Text-Editor bearbeiten lassen. Gute Text-Editoren (die auch Markdown unterstützen) sind z.B. [VSCode](https://code.visualstudio.com/), [SublimeText](https://www.sublimetext.com/) oder [Atom](https://atom.io/).
 
-> :speech_balloon: **Übrigens:** Eine gute Einführung zu Markdown findest du [hier](https://guides.github.com/features/mastering-markdown/).  
+> :speech_balloon: Eine gute Einführung zu Markdown findest du [hier](https://guides.github.com/features/mastering-markdown/).  
 
 ### Leitfaden für dieses Repository
 

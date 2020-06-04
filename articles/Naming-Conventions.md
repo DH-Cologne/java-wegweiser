@@ -118,7 +118,7 @@ static final int MAX_COUNT = 100;
 Code sollte möglichst lesbar und verständlich geschrieben werden. Das erleichtert nicht nur die Entwicklung, sondern auch die spätere Wartung. Im Idealfall lässt der Name einer Methode erkennen, was sie tut. Die Bezeichung einer Variablen sollte Aufschluss darüber geben, welchem Zweck sie dient. 
 Grundsätzlich sollten Entitäten simpel, jedoch deskriptiv benannt werden. Im Zweifel sollte man vor einem längeren, dafür aber verständlicheren Namen nicht zurückschrecken. Das ist besonders in Java der Fall! Die Sprache (und ihre Konventionen) gilt deshalb bei manchen als zu [_verbose_](https://en.wikipedia.org/wiki/Verbosity) oder sperrig, es wird dadurch aber eine gute Lesbarkeit erreicht.
 
-> :speech_balloon: **Übrigens:** Das Buch [Clean Code](CleanCode) beschäftigt sich ausführlich mit Benennungen und Naming Conventions, sodass es sich als Leseempfung an dieser Stelle eignet. :books:
+> :speech_balloon: Das Buch [Clean Code](CleanCode) beschäftigt sich ausführlich mit Benennungen und Naming Conventions, sodass es sich als Leseempfehlung an dieser Stelle eignet. :books:
 
 
 ---------------

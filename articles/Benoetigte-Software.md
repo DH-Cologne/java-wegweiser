@@ -9,8 +9,8 @@ Wir benötigen ein JDK der Version 11, passend für dein Betriebssystem. Wegen d
 
 | Betriebssystem | Download OpenJDK 11 |
 | --- | --- |
-| Windows | Für Windows empfiehlt sich der Download des OpenJDK 11 (LTS) des Projektes [AdoptOpenJDK](https://adoptopenjdk.net), je nach OS-Architektur in der 64-bit oder 32-bit-Variante (x86). :warning: **Achtung:** Bitte darauf achten, nicht die **JRE**, sondern tatsächlich das **JDK** herunterzuladen! |
-| MacOS | Hier gilt das selbe wie bei Windows: Das Projekt [AdoptOpenJDK](https://adoptopenjdk.net) stellt für MacOS ein OpenJDK 11 (LTS) bereit. :warning: **Achtung:** Bitte darauf achten, nicht die **JRE**, sondern tatsächlich das **JDK** herunterzuladen! |
+| Windows | Für Windows empfiehlt sich der Download des OpenJDK 11 (LTS) des Projektes [AdoptOpenJDK](https://adoptopenjdk.net), je nach OS-Architektur in der 64-bit oder 32-bit-Variante (x86). :warning: Bitte darauf achten, nicht die **JRE**, sondern tatsächlich das **JDK** herunterzuladen! |
+| MacOS | Hier gilt das selbe wie bei Windows: Das Projekt [AdoptOpenJDK](https://adoptopenjdk.net) stellt für MacOS ein OpenJDK 11 (LTS) bereit. :warning: Bitte darauf achten, nicht die **JRE**, sondern tatsächlich das **JDK** herunterzuladen! |
 | Linux | Falls du ein aktuelles Ubuntu-System (>=18.04) benutzt, kannst du das OpenJDK 11 einfach über folgenden Terminalbefehl installieren: `sudo apt install openjdk-11-jdk openjdk-11-doc openjdk-11-jre-headless openjdk-11-source`. Ansonsten gilt (wie auch bei Windows oder MacOS) die Empfehlung der Seite von [AdoptOpenJDK](https://adoptopenjdk.net) |
 
 
@@ -18,6 +18,6 @@ Wir benötigen ein JDK der Version 11, passend für dein Betriebssystem. Wegen d
 
 Für den Download der Entwicklungsumgebung _Eclipse_ (die wir im Seminar nutzen) enutzt man am besten die aktuelle Version der **Eclipse IDE for Java Developers** von [dieser Seite](https://www.eclipse.org/downloads/packages/).
 
-> :speech_balloon: **Übrigens:** Natürlich ist die Wahl der IDE freigestellt. Es kann gerne auch mit _IntelliJ IDEA_, _Netbeans_, dem _Windows Notepad_ oder _vim_ programmiert werden - allerdings werden sich die Beispiele im Seminar immer auf Eclipse beziehen.
+> :speech_balloon: **Natürlich ist die Wahl der IDE freigestellt.** Es kann gerne auch mit _IntelliJ IDEA_, _Netbeans_, dem _Windows Notepad_ oder _vim_ programmiert werden - allerdings werden sich die Beispiele im Seminar immer auf Eclipse beziehen.
 
-> :speech_balloon: **Übrigens:** Einzelheiten zur Unterscheidung der IDEs und den Funktionen von Eclipse sind außerdem im Artikel zur [Eclipse IDE](Eclipse-IDE.md) zu finden!
+> :speech_balloon: **Einzelheiten** zur Unterscheidung der IDEs und den Funktionen von Eclipse sind außerdem im Artikel zur [Eclipse IDE](Eclipse-IDE.md) zu finden!
