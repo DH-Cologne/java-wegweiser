@@ -182,7 +182,7 @@ Besonders schön ist hier die Erwähnung des Schlüsselwortes **pointer**, denn 
 
 <!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
 <div class="top-link">
-    <a href="#" title="Zurück zur Übersicht!">Inhalt:book:</a>
-    &mdash;
-    <a href="#" title="Zum Anfang scrollen!">Top:balloon:</a>
+    <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
+    <br/>
+    <a href="#" title="Zurück zur Übersicht!">Inhalt :book:</a>
 </div>
