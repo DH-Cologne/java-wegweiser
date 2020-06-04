@@ -74,5 +74,5 @@ private static final int THIS_IS_A_PRIVATE_CONSTANT = 2;
 <div class="top-link">
     <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
     <br/>
-    <a href="https://dh-cologne.github.io/java-wegweiser" title="Zurück zur Übersicht!">Inhalt :book:</a>
+    <a href="https://dh-cologne.github.io/java-wegweiser#inhalt-book" title="Zurück zur Übersicht!">Inhalt :book:</a>
 </div>

@@ -11,5 +11,5 @@ Es finden sich zwischen den Zeilen außerdem Code-Beispiele, unterstützende Mat
 <div class="top-link">
     <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
     <br/>
-    <a href="https://dh-cologne.github.io/java-wegweiser" title="Zurück zur Übersicht!">Inhalt :book:</a>
+    <a href="https://dh-cologne.github.io/java-wegweiser#inhalt-book" title="Zurück zur Übersicht!">Inhalt :book:</a>
 </div>
