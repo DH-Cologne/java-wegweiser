@@ -132,5 +132,9 @@ Grundsätzlich sollten Entitäten simpel, jedoch deskriptiv benannt werden. Im Z
 > - [Clean Code: A Handbook of Agile Software Craftsmanship](https://books.google.de/books?id=_i6bDeoCQzsC&printsec=frontcover&hl=de#v=onepage&q&f=false)
 
 
-<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
-<a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>
+<!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
+<div class="top-link">
+    <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
+    <br/>
+    <a href="https://dh-cologne.github.io/java-wegweiser" title="Zurück zur Übersicht!">Inhalt :book:</a>
+</div>

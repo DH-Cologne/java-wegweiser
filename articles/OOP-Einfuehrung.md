@@ -13,5 +13,9 @@
 Quelle: [_Wikimedia: Von Binz - Own Creation, CC BY-SA 4.0_](https://commons.wikimedia.org/w/index.php?curid=62707688)
 
 
-<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
-<a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>
+<!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
+<div class="top-link">
+    <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
+    <br/>
+    <a href="https://dh-cologne.github.io/java-wegweiser" title="Zurück zur Übersicht!">Inhalt :book:</a>
+</div>

@@ -184,5 +184,9 @@ Natürlich sollte man lieber die Referenz auf einen vorher erzeugten `Comparator
 > :speech_balloon: Beim programmieren hilft Faulheit sehr oft dabei, den richtigen Weg zu finden!
 
 
-<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
-<a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>
+<!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
+<div class="top-link">
+    <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
+    <br/>
+    <a href="https://dh-cologne.github.io/java-wegweiser" title="Zurück zur Übersicht!">Inhalt :book:</a>
+</div>

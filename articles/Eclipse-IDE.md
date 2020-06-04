@@ -125,5 +125,9 @@ Zum Ausführen eines Projektes führt der "expliziteste" Weg über einen Rechtsk
 > :point_right: **Eine Abkürzung** ist der Play-Button oben in der Toolbar. Aber **Achtung**: Dieser führt immer das zuletzt ausgeführte Programm noch einmal aus - nicht etwa das gerade geöffnete! Über den kleinen Pfeil daneben öffnet sich ein Dropdown-Menü mit den zuletzt ausgeführten Programmen.
 
 
-<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
-<a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>
+<!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
+<div class="top-link">
+    <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
+    <br/>
+    <a href="https://dh-cologne.github.io/java-wegweiser" title="Zurück zur Übersicht!">Inhalt :book:</a>
+</div>

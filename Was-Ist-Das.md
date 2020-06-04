@@ -7,5 +7,9 @@ Dieses Repository unterscheidet sich von einem Java-Lehrbuch also eben durch die
 Es finden sich zwischen den Zeilen außerdem Code-Beispiele, unterstützende Materialien und Links zu weiterführenden Ressourcen (mit `#` gekennzeichnet).
 
 
-<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
-<a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>
+<!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
+<div class="top-link">
+    <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
+    <br/>
+    <a href="https://dh-cologne.github.io/java-wegweiser" title="Zurück zur Übersicht!">Inhalt :book:</a>
+</div>

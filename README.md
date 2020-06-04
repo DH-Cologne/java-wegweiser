@@ -185,5 +185,7 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
 > Contributions (Beiträge) jeder Art [sind willkommen](Mitwirken.md) und werden an dieser Stelle wie oben zu sehen aufgeführt!
 
 
-<!-- Dieser Link sollte am Ende jeder Seite stehen! -->
-<a class="top-link" href="#" title="Zum Anfang scrollen!">top:balloon:</a>
+
+<div class="top-link">
+    <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
+</div>

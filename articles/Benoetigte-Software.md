@@ -21,3 +21,15 @@ Für den Download der Entwicklungsumgebung _Eclipse_ (die wir im Seminar nutzen)
 > :speech_balloon: **Natürlich ist die Wahl der IDE freigestellt.** Es kann gerne auch mit _IntelliJ IDEA_, _Netbeans_, dem _Windows Notepad_ oder _vim_ programmiert werden - allerdings werden sich die Beispiele im Seminar immer auf Eclipse beziehen.
 
 > :speech_balloon: **Einzelheiten** zur Unterscheidung der IDEs und den Funktionen von Eclipse sind außerdem im Artikel zur [Eclipse IDE](Eclipse-IDE.md) zu finden!
+
+
+
+
+
+
+<!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
+<div class="top-link">
+    <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
+    <br/>
+    <a href="https://dh-cologne.github.io/java-wegweiser" title="Zurück zur Übersicht!">Inhalt :book:</a>
+</div>
