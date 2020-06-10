@@ -67,7 +67,7 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 #### [Strings](articles/Strings.md)
 > `die Klasse "String"`, `Literals`, `special characters`, `Unveränderbarkeit von Strings`, `UTF-16`, ...
 
-#### [Konditionale / Conditional statements](articles/Conditionals.md)
+#### [Konditionale / Conditional statements](articles/Konditionale.md)
 > `if`, `else`, `:? (Ternary-Operator)`, `switch`
 
 #### [Schleifen](articles/Schleifen.md)
