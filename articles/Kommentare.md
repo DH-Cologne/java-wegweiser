@@ -12,7 +12,7 @@ Inline-Kommentare (am Zeilen-Ende) werden mit `//` eingeleitet:
 11   
 12 System.out.println("Quarktasche");
 ```
-Es wird aber nur das auskommentiert, was in `Zeile 10` hinter `//` geschrieben wurde.  
+Es wird aber nur das auskommentiert, was in Zeile `10` hinter `//` geschrieben wurde.  
 
 
 ``` java
@@ -23,7 +23,7 @@ Es wird aber nur das auskommentiert, was in `Zeile 10` hinter `//` geschrieben w
 14 //System.out.println("Obstsalat");
 ```
 
-Man kann Kommentare auch dazu benutzen, Code z.B. zu Testzwecken nicht auszuführen. Der Methoden-Aufruf in `Zeile 14` etwa wird vom Compiler ignoriert.
+Man kann Kommentare auch dazu benutzen, Code z.B. zu Testzwecken nicht auszuführen. Der Methoden-Aufruf in Zeile `14` etwa wird vom Compiler ignoriert.
 
 > :point_right: In Eclipse werden mit `Strg + Shift + 7` oder `Strg + Shift + C` alle markierten Zeilen mit einem Inline-Kommentar versehen.
 
