@@ -45,10 +45,96 @@ System.out.println(i + " ist " + gt + " als fünf!")
 
 ## switch
 
--   Ersetzt sperrige `if`/`else`-Konstrukte, die nur den Wert eines einzigen Ausdrucks überprüfen
--   ...
+Das `switch`-Statement ersetzt sperrige `if`/`else`-Konstrukte, bei denen je nach dem Wert eines einzelnen Ausdrucks ein bestimmter Code-Block ausgeführt werden soll. `switch`-Statements funktionieren dabei nur mit `int`-Werten (sowie den kompatiblen Typen `byte`, `short` und `char`), [Enums](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html) und `String`-Objekten (seit Java 7).
 
-> :construction: **TODO:** `switch`
+```java
+int i = 1;
+
+switch (i) {
+case 1:
+  System.out.println("eins");
+  break;
+case 2:
+  System.out.println("zwei");
+  break;
+default:
+  System.out.println("nicht eins oder zwei");
+  break;
+}
+```
+
+Dieses `switch`-Statement lässt sich etwa folgendermaßen lesen: Wenn `i` den Wert `1` hat, `...`. Sonst: Wenn `i` den Wert `2` hat, `...`. In jedem anderen Fall: `...`.
+
+Die Ausgabe des Codes lautet `eins`, weil `case 1` mit einem `break`-Statement abschließt, welches das gesamte `switch`-Statement beendet. Würden die `break`-Statements fehlen, so würden ab dem zutreffenden Fall (`case`) **alle Code-Blöcke ohne weitere Überprüfung bis zu einem eventuellen `break` ausgeführt!**. Somit hätte der Code ...
+
+```java
+int i = 1;
+
+switch (i) {
+case 1:
+  System.out.println("eins");
+case 2:
+  System.out.println("zwei");
+default:
+  System.out.println("nicht eins oder zwei");
+}
+```
+
+... die Ausgabe ...
+
+```
+eins
+zwei
+nicht eins oder zwei
+```
+
+... denn die `break`-Statements fehlen hier. In den meisten Fällen ist ein `break`-Statement am Ende eines `case` erwünscht. Das sogenannte _Durchfallen_ (engl.: _fall through_) durch die folgenden Fälle bei fehlendem `break` kann aber auch nützlich sein. Die folgende Methode gibt für die Folgenzahl eine beliebigen Monats in einem beliebigen Jahr die Anzahl der Tage in diesem Monat zurück. Da mehrere Monate `30` bzw. `31` Tage haben, kann hier mit fehlenden `break`-Statements und also einem gewollen _fall through_ viel Code gespart werden:
+
+```java
+private static int daysInMonth(int month, int year) {
+  int days = 0;
+
+  switch (month) {
+    case 1: case 3: case 5: case 7:
+    case 8: case 10: case 12:
+      // Monate mit 31 Tagen
+      days = 31;
+      break;
+    case 4: case 6:
+    case 9: case 11:
+      // Monate mit 30 Tagen
+      days = 30;
+      break;
+    case 2:
+      // Februar (29 bzw. im Schaltjahr 28 Tage)
+      if (((year % 4 == 0) && !(year % 100 == 0))
+          || (year % 400 == 0)) {
+        days = 29;
+      } else {
+        days = 28;
+      }
+      break;
+    default:
+      System.out.println("Invalid month.");
+      break;
+  }
+  
+  return days;
+}
+```
+
+Die Ausgabe bei folgendem Aufruf dieser Methode ...
+
+```java
+System.out.println("Der Februar 2020 hatte " + daysInMonth(2, 2020) + " Tage.");
+```
+
+... die Ausgabe ...
+
+```
+Der Februar 2020 hatte 29 Tage.
+```
+
 
 
 <!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
