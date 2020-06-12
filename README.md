@@ -9,12 +9,12 @@ Ein Wegweiser zur Java-Programmierung, der mit seinen Aufgaben wächst. Für die
 > **Work in progress.** :construction: :snail:  
 Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt oder unzureichend erläutert ist, dann [eröffne ein Issue](https://github.com/dh-cologne/java-wegweiser/issues) oder [trage eigene Änderungen bei](Mitwirken.md)!
 
--   :book: [**Inhalt** - zum Inhaltsverzeichnis springen!](#inhalt-book)
--   :bulb: [**Was ist das hier** - bzw. was ist es nicht?](Was-Ist-Das.md)
--   :woman_technologist: [**Contribution** - oder: Wie kann ich hier mitwirken?](Mitwirken.md)
--   :closed_book: [**Lese-Ansicht** - wenn du aus Versehen im Repository gelandet bist!](https://dh-cologne.github.io/java-wegweiser)
--   :octocat: [**GitHub-Repository** - wenn du tatsächlich zum Repository willst!](https://github.com/DH-Cologne/java-wegweiser)
--   :link: [**Link-Liste** - weitere empfehlenswerte (online-) Ressourcen!](Links.md)
+:book: &nbsp; [**Inhalt** - zum Inhaltsverzeichnis springen!](#inhalt-book)  
+:bulb: &nbsp; [**Was ist das hier** - bzw. was ist es nicht?](Was-Ist-Das.md)  
+:woman_technologist: &nbsp; [**Contribution** - oder: Wie kann ich hier mitwirken?](Mitwirken.md)  
+:closed_book: &nbsp; [**Lese-Ansicht** - wenn du aus Versehen im Repository gelandet bist!](https://dh-cologne.github.io/java-wegweiser)  
+:octocat: &nbsp; [**GitHub-Repository** - wenn du tatsächlich zum Repository willst!](https://github.com/DH-Cologne/java-wegweiser)  
+:link: &nbsp; [**Link-Liste** - weitere empfehlenswerte (online-) Ressourcen!](Links.md)  
 
 -----------------------
 
