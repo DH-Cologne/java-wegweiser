@@ -41,7 +41,7 @@ Englisch für :point_right: [Kontrollfluss](#kontrollfluss)
 ## D
 
 ### Deklaration
-Die _Deklaration_ einer :telescope: [Variable](Variablen.md) besteht aus der Angabe ihres :telescope: [Datentyps](Datentypen.md) und ihres Namens (_Variablenname_), etwa `int thisIsAnInteger`.
+Die _Deklaration_ einer :telescope: [articles/Variable](Variablen.md) besteht aus der Angabe ihres :telescope: [Datentyps](articles/Datentypen.md) und ihres Namens (_Variablenname_), etwa `int thisIsAnInteger`.
 
 
 ## E
@@ -79,7 +79,7 @@ Auch: :point_right: [Statement](#statement) oder Anweisung; englisch.: _instruct
 ## K
 
 ### Kontrollfluss
-Die Steuerung des Ablaufs eine Programmes. Für den Kontrollfluss werden :telescope: [Konditionale](Konditionale.md) und :telescope: [Schleifen](Schleifen.md) genutzt, die das Programm abhängig von festgelegten :point_right: [Bedingungen](#bedingung) steuern.
+Die Steuerung des Ablaufs eine Programmes. Für den Kontrollfluss werden :telescope: [Konditionale](articles/Konditionale.md) und :telescope: [Schleifen](articles/Schleifen.md) genutzt, die das Programm abhängig von festgelegten :point_right: [Bedingungen](#bedingung) steuern.
 
 ## L
 
@@ -140,7 +140,7 @@ Eigentlich englisch für "Aussage", im Programmier-Kontext ist aber **_Anweisung
 ## W
 
 ### Wahrheitswert
-Wert einer :point_right:[Aussage](#aussage). Kann (im Programmier-Kontext) `true` oder `false` sein und ist somit vom :telescope: [Datentyp](Datentypen.md) `boolean` (bzw. `Boolean`).
+Wert einer :point_right:[Aussage](#aussage). Kann (im Programmier-Kontext) `true` oder `false` sein und ist somit vom :telescope: [Datentyp](articles/Datentypen.md) `boolean` (bzw. `Boolean`).
 
 
 ## X
@@ -155,4 +155,5 @@ Wert einer :point_right:[Aussage](#aussage). Kann (im Programmier-Kontext) `true
 
 ## Z
 
-...
+### Zuweisung
+Vorgang, bei dem einer :telescope: [Variable](articles/Variablen.md) mittels des _Zuweisungsoperators_ (`=`) ein Wert zugewiesen wird.
