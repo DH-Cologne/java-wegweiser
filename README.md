@@ -9,13 +9,16 @@ Ein Wegweiser zur Java-Programmierung, der mit seinen Aufgaben wächst. Für die
 > **Work in progress.** :construction: :snail:  
 Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt oder unzureichend erläutert ist, dann [eröffne ein Issue](https://github.com/dh-cologne/java-wegweiser/issues) oder [trage eigene Änderungen bei](Mitwirken.md)!
 
-:book: &nbsp; [**Inhalt** - zum Inhaltsverzeichnis springen!](#inhalt-book)  
-:bulb: &nbsp; [**Was ist das hier** - bzw. was ist es nicht?](Was-Ist-Das.md)  
-:woman_technologist: &nbsp; [**Contribution** - oder: Wie kann ich hier mitwirken?](Mitwirken.md)  
-:closed_book: &nbsp; [**Lese-Ansicht** - wenn du aus Versehen im Repository gelandet bist!](https://dh-cologne.github.io/java-wegweiser)  
-:link: &nbsp; [**Link-Liste** - weitere empfehlenswerte (online-) Ressourcen!](Links.md)  
 
------------------------
+## Übrigens :speech_balloon:
+:book: &nbsp; [**Inhalt**](#inhalt-book) - zum Inhaltsverzeichnis springen!  
+:bulb: &nbsp; [**Was ist das hier**](Was-Ist-Das.md) - bzw. was ist es nicht?  
+:speaking_head: &nbsp; [**Coding Lingo**](articles/Coding-Lingo.md) - Ein Verzeichnis mit Begriffen zur Kommunikation über Programmierung  
+:woman_technologist: &nbsp; [**Contribution**](Mitwirken.md) - oder: Wie kann ich hier mitwirken?  
+:closed_book: &nbsp; [**Lese-Ansicht**](https://dh-cologne.github.io/java-wegweiser) - wenn du aus Versehen im Repository gelandet bist!  
+:link: &nbsp; [**Link-Liste**](Links.md) - weitere empfehlenswerte (online-) Ressourcen!  
+
+
 
 
 ## Inhalt :book:
