@@ -2,7 +2,7 @@
 
 > :construction: :snail: Dieses Verzeichnis wird wohl für immer **_work in progress_** sein!
 
-Es ist am Anfang nicht immer leicht, den Überblick über die Terminologie in der Programmierung zu behalten. Dies ist aber extrem wichtig für das Verständnis von Erläuterungen, Dokumentationen etc.! Im Folgenden werden solche Begriffe alphabetisch sortiert aufgelistet und miteinander verknüpft.
+Es ist am Anfang nicht immer leicht, den Überblick über die Terminologie in der (objektorientierten) Programmierung zu behalten. Dies ist aber extrem wichtig für das Verständnis von Erläuterungen, Dokumentationen etc.! Im Folgenden werden solche Begriffe alphabetisch sortiert aufgelistet und miteinander verknüpft.
 
 :warning: **Achtung:** Hier sind die Java-spezifischen Themen aus dem eigentlichen [Java-Wegweiser](https://dh-cologne.github.io/java-wegweiser) **nicht noch einmal aufgeführt**.
 
@@ -13,7 +13,9 @@ Es ist am Anfang nicht immer leicht, den Überblick über die Terminologie in de
 :telescope: Verweis auf einen Artikel / Abschnitt im [Java-Wegweiser](https://dh-cologne.github.io/java-wegweiser)
 
 
-
+## TODO
+Eine Liste von Begriffen, die noch eingepflegt werden sollten:  
+_Instanz, Objekt, Klasse, Parameter, Argument ..._
 
 
 ## A
@@ -67,6 +69,9 @@ Englisch für :point_right: [Ausdruck](#ausdruck)
 
 ## I
 
+### Instanzvariable
+Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variablen)
+
 ### Instruktion
 Auch: :point_right: [Statement](#statement) oder Anweisung; englisch.: _instruction_
 
@@ -78,12 +83,16 @@ Auch: :point_right: [Statement](#statement) oder Anweisung; englisch.: _instruct
 
 ## K
 
+### Klassenvariable
+Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variablen)
+
 ### Kontrollfluss
 Die Steuerung des Ablaufs eine Programmes. Für den Kontrollfluss werden :telescope: [Konditionale](articles/Konditionale.md) und :telescope: [Schleifen](articles/Schleifen.md) genutzt, die das Programm abhängig von festgelegten :point_right: [Bedingungen](#bedingung) steuern.
 
 ## L
 
-...
+### Lokale Variable
+Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variablen)
 
 
 ## M
