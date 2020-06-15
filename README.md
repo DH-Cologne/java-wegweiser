@@ -13,7 +13,6 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 :bulb: &nbsp; [**Was ist das hier** - bzw. was ist es nicht?](Was-Ist-Das.md)  
 :woman_technologist: &nbsp; [**Contribution** - oder: Wie kann ich hier mitwirken?](Mitwirken.md)  
 :closed_book: &nbsp; [**Lese-Ansicht** - wenn du aus Versehen im Repository gelandet bist!](https://dh-cologne.github.io/java-wegweiser)  
-:octocat: &nbsp;[**GitHub-Repository** - wenn du tatsächlich zum Repository willst!](https://github.com/DH-Cologne/java-wegweiser)  
 :link: &nbsp; [**Link-Liste** - weitere empfehlenswerte (online-) Ressourcen!](Links.md)  
 
 -----------------------

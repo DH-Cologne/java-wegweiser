@@ -27,6 +27,8 @@ Wenn dir selbst keine Probleme aufgefallen sind, dann schau doch mal ins [Issue-
 
 ## Wie bearbeite ich die Inhalte?
 
+Zunächst einmal: Das Github-Repository zum Java-Wegweiser findest du [hier](https://github.com/DH-Cologne/java-wegweiser)!
+
 ### Ablauf einer "Contribution"
 Es gibt einen mehr oder weniger [üblichen Weg](https://opensource.guide/how-to-contribute/), um an Open-Source-Projekten auf GitHub mitzuwirken. Dieser sei hier **in Kürze** (und in einer sehr vereinfachten Variante) beschrieben...
 
