@@ -15,7 +15,7 @@ Es ist am Anfang nicht immer leicht, den Überblick über die Terminologie in de
 
 ## TODO
 Eine Liste von Begriffen, die noch eingepflegt werden sollten:  
-_Instanz, Objekt, Klasse, Parameter, Argument, Gültigkeitsbereich, ..._
+_Instanz, Objekt, Klasse, Parameter, Argument, Gültigkeitsbereich, Referenz, ..._
 
 
 ## A
