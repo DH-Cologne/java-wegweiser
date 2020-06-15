@@ -4,7 +4,7 @@
 
 ## Java Lernen :books:
 
--   [WikiBooks: Java Programming](https://en.wikibooks.org/wiki/Java_Programming) - Eine ganz ähnliche REssource wie dieses Repository, aber auf Englisch. Sehr gut und auf den Punkt, sehr empfehlenswert!
+-   [WikiBooks: Java Programming](https://en.wikibooks.org/wiki/Java_Programming) - Eine ganz ähnliche Ressource wie dieses Repository, aber auf Englisch. Sehr gut und auf den Punkt, sehr empfehlenswert!
 -   [WikiBooks: Java Standard](https://de.wikibooks.org/wiki/Java_Standard) - Ein offenes Lehrbuch für Java (auf Deutsch); nicht so gut aufgearbeitet wie die englische Variante (siehe oben)
 -   [Oracle Java Tutorial](https://docs.oracle.com/javase/tutorial/java/) - Etwas trocken und angestaubt, aber bewährt
 -   [Java ist auch eine Insel](http://openbook.rheinwerk-verlag.de/javainsel/) - Solides Lehrbuch, kostenlos online
