@@ -165,4 +165,4 @@ Wert einer :point_right:[Aussage](#aussage). Kann (im Programmier-Kontext) `true
 ## Z
 
 ### Zuweisung
-Operation, bei dem einer :telescope: [Variable](articles/Variablen.md) mittels des _Zuweisungsoperators_ (`=`) ein Wert zugewiesen wird.
+Operation, bei der einer :telescope: [Variable](articles/Variablen.md) mittels des _Zuweisungsoperators_ (`=`) ein Wert zugewiesen wird.
