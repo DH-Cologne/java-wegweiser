@@ -203,10 +203,10 @@ Als "teuer" wird umgangssprachlich eine Operation bezeichnet, die vergleichsweis
 ## Ü
 
 ### Überladen
-Siehe :telescope: [Methoden &Rarr; Überladen von Methoden](articles/Methoden.md#%C3%BCberladen-von-methoden).
+Siehe :telescope: [Methoden &rArr; Überladen von Methoden](articles/Methoden.md#%C3%BCberladen-von-methoden).
 
 ### Überschreiben
-Siehe :telescope: [Vererbung-I-Grundlagen &Rarr; Überschreiben von Methoden](articles/Vererbung-I-Grundlagen.md#%C3%BCberschreiben-von-methoden).
+Siehe :telescope: [Vererbung-I-Grundlagen &rArr; Überschreiben von Methoden](articles/Vererbung-I-Grundlagen.md#%C3%BCberschreiben-von-methoden).
 
 
 ## V
