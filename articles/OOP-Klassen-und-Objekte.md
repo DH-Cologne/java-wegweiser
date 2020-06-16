@@ -30,11 +30,6 @@ Quelle: [_Wikimedia: Von Binz - Own Creation, CC BY-SA 4.0_](https://commons.wik
 ...
 
 
-## Initialisierung: Der `new`-Operator
-
-...
-
-
 
 
 

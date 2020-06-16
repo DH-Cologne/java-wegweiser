@@ -17,7 +17,7 @@ Die _vererbenden_ Klassen werden als **Superklassen**, **Elternklassen** oder **
 Die _erbende_ Klasse **erweitert** die Klasse, von der sie erbt, da sie (normalerweise) Eigenschaften und Fähigkeiten besitzt, die über jene der Superklasse hinausgehen.
 
 
-## extends
+## `extends`
 
 -   Alle Klassen erben automatisch von der Klasse `Object` (denn alle Instanzen von Klassen sind Objekte).
 -   Mit dem Schlüsselwort `extends` wird eine Verwandschaft markiert.
@@ -37,12 +37,12 @@ public class User extends Person {
 ```
 
 
-## super
+## `super`
 
 Mit dem Schlüsselwort `super` referenziert eine Klasse ihre Superklasse (siehe [Vererbung](#vererbung))!
 
 
-## instanceof
+## `instanceof`
 
 `instanceof` ist ein Operator, der die Zugehörigkeit eines Objektes zu einem bestimmten Typ überprüft:
 
