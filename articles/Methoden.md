@@ -13,7 +13,7 @@ Da in Java **alles** in Klassen passiert - Java ist [fast](https://de.wikipedia.
 
 ## Aufbau
 
-Eine gewöhnliche (nicht-statische) Methode hat den folgenden Aufbau:
+Eine Instanz-Methode (also nicht-statische Methode) hat den folgenden Aufbau:
 
 ```java
 public String greet(String name){
