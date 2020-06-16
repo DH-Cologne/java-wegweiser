@@ -9,13 +9,14 @@ Es ist am Anfang nicht immer leicht, den Überblick über die Terminologie in de
 > Dieses Verzeichnis wird wohl für immer **_work in progress_** sein!
 
 > :warning:
-> **Achtung:** Hier sind die Java-spezifischen Themen aus dem eigentlichen [Java-Wegweiser](https://dh-cologne.github.io/java-wegweiser) **nicht noch einmal aufgeführt**.
+> **Achtung:** Hier sind die Java-spezifischen Themen aus dem eigentlichen [Java-Wegweiser](https://dh-cologne.github.io/java-wegweiser) **nicht noch einmal aufgeführt**. Es geht hier um **allgemeine** Software-Terminologie!
 
 > :speech_balloon:
 > In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
 
 > :milky_way:
-> **TODO:** ...
+> **TODO:** Komplexität, Abstraktion, low-level, Wrapper, Schnittstelle, Literal, Attribut, Deployment, Compiler, Test ...
+
 
 
 ## Legende
@@ -24,22 +25,25 @@ Es ist am Anfang nicht immer leicht, den Überblick über die Terminologie in de
 :link: Verweis auf eine externe Ressource
 
 
-----------------------------------
 
 
 ## A
 
+### Algorithmus
+Menge von aufeinanderfolgenden Einzelschritten zur Lösung eines Problems; siehe auch :link: [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus).
+
 ### Anweisung
-Auch: :point_right: [Statement](#statement) (eng.) oder Instruktion (unüblich)
+:point_right: [Statement](#statement) (eng.) oder Instruktion (unüblich)
 
 ### Argument
-Auch: :point_right: [Parameter](#parameter)
+:point_right: [Parameter](#parameter)
 
 ### Ausdruck
 Eine Kombination aus Variablen, Literals, Konstanten, Operatoren und Rückgabewerten von Methoden. Ein Ausdruck ergibt als ganzes einen Wert. Z.B. hat der Ausdruck `2 < 9` den Wert `true` und der Ausdruck `(4 - Math.max(15, 46)) * ( 1 + 1 == 1 ? 1 : -1)` den Wert `42`.
 
 ### Aussage
 :point_right: [Ausdruck](#ausdruck) mit einem :point_right: [Wahrheitswert](#wahrheitswert), etwa `2 == 7` (hat üblicherweise den Wert `false`).
+
 
 ## B
 
@@ -53,7 +57,7 @@ Von dem/der Programmierer*in frei (aber gut) gewählter Name für eine :telescop
 Englisch für :point_right: [Quelltext](#quelltext); auch: Ein System zum Umwandeln von Informationen.
 
 ### Control flow
-Englisch für :point_right: [Kontrollfluss](#kontrollfluss)
+Englisch für :point_right: [Kontrollfluss](#kontrollfluss).
 
 
 ## D
@@ -64,13 +68,17 @@ Die _Deklaration_ einer :telescope: [articles/Variable](Variablen.md) besteht au
 
 ## E
 
+### Exit-Code
+Auch: _Exit-Status_, _Return Code_ oder _Rückgabestatus_. Ein numerischer Wert, den ein Programm zurückgibt, wenn es sich beendet (oder beendet wird). Dabei steht `0` üblicherweise für ein reguläres (fehlerfreies) Programm-Ende, andere Werte für unterschiedliche Programm-Abbrüche durch Fehler. Siehe auch :link: [Return Code](https://de.wikipedia.org/wiki/Return_Code)
+
 ### Expression
-Englisch für :point_right: [Ausdruck](#ausdruck)
+Englisch für :point_right: [Ausdruck](#ausdruck).
 
 
 ## F
 
-...
+### Funktion
+Ein :point_right: [Code](#code)-Block, der über einen Namen (:point_right: [Bezeichner](#bezeichner)) angesprochen und ausgeführt werden kann. Es ist ggf. möglich/nötig, der Funktion :point_right: [Parameter](#parameter) zu übergeben. Außerdem _können_ Funktionen am Ende ihrer Ausführung Daten :link: [zurückgeben](https://de.wikipedia.org/wiki/Funktion_(Programmierung)#Direktes_Verwenden_des_Ergebnisses). Siehe auch: :telescope: [Methode](articles/Methoden.md).
 
 
 ## G
@@ -90,13 +98,13 @@ Der Gültigkeitsbereich eines :point_right: [Bezeichners](#bezeichner) (Methoden
 Ein :telescope: [Integer](articles/Datentypen.md) größer oder gleich `0`, der auf ein Element in einem :telescope: [Array](articles/Arrays.md) oder einer ähnlichen linearen :telescope: [Datenstruktur](articles/DIY-Datenstrukturen.md) verweist; auch: Eine :link: [spezielle Datenstruktur zur Nutzung in einer Suchmaschine](https://de.wikipedia.org/wiki/Suchmaschine).
 
 ### Instanz
-Siehe :telescope: [OOP-Einführung](articles/OOP-Einfuehrung.md) bzw. :telescope: [Klassen und Objekte](articles/Klassen-und-Objekte.md)
+Siehe :telescope: [OOP-Einführung](articles/OOP-Einfuehrung.md) bzw. :telescope: [Klassen und Objekte](articles/Klassen-und-Objekte.md).
 
 ### Instanzvariable
-Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variablen)
+Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variablen).
 
 ### Instruktion
-Auch: :point_right: [Statement](#statement) oder Anweisung; englisch.: _instruction_
+:point_right: [Statement](#statement) oder Anweisung; englisch.: _instruction_.
 
 
 ## J
@@ -107,23 +115,31 @@ Auch: :point_right: [Statement](#statement) oder Anweisung; englisch.: _instruct
 ## K
 
 ### Klasse
-Siehe :telescope: [OOP-Einführung](articles/OOP-Einfuehrung.md) bzw. :telescope: [Klassen und Objekte](articles/Klassen-und-Objekte.md)
+Siehe :telescope: [OOP-Einführung](articles/OOP-Einfuehrung.md) bzw. :telescope: [Klassen und Objekte](articles/Klassen-und-Objekte.md).
 
 ### Klassenvariable
-Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variablen)
+Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variablen).
 
 ### Kontrollfluss
 Die Steuerung des Ablaufs eine Programmes. Für den Kontrollfluss werden :telescope: [Konditionale](articles/Konditionale.md) und :telescope: [Schleifen](articles/Schleifen.md) genutzt, die das Programm abhängig von festgelegten :point_right: [Bedingungen](#bedingung) steuern.
 
+
 ## L
 
+### Laufzeit
+(1.) Zeitraum, in dem ein Programm läuft bzw. ausgeführt wird; (2.) :point_right: [Performanz](#performanz) eines :point_right: [Algorithmus](#algorithmus) oder sonstigen Programmteils. Siehe auch :link: [Laufzeit (Informatik)](https://de.wikipedia.org/wiki/Laufzeit_(Informatik)).
+
 ### Lokale Variable
-Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variablen)
+Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variablen).
 
 
 ## M
 
-...
+### Member
+Englisch für _Mitglied_; :point_right: [Attribut](#attribut) (Eigenschaft) oder :point_right: [Methode](#methode) (Fähigkeit) einer :point_right: [Klasse](#klasse).
+
+### Methode
+Eine :point_right: [Funktion](#funktion), die ein :point_right: [Member](#member) einer :point_right: [Klasse](#klasse) ist. Siehe auch: :telescope: [Methoden](articles/Methoden.md).
 
 
 ## N
@@ -142,6 +158,12 @@ Eine :point_right: [Instanz](#instanz) einer :telescope: [Klasse](articles/OOP-E
 ### Parameter
 Bei der Ausführung an ein Programm oder eine :telescope: [Methode](articles/Methoden.md) übergebene Daten; auch: :point_right: [Argument](#argument).
 
+### Performance
+Englisch für :point_right: [Performanz](#performanz).
+
+### Performanz
+Eigenschaft eines Programmes oder Programmteils, viel oder wenig Rechenzeit in Anspruch zu nehmen (seltener benutzt im Kontext von Speicherbedarf). Siehe auch :point_right: [teuer](#teuer).
+
 
 ## Q
 
@@ -151,13 +173,17 @@ Das, was ein/e Programmierer\*in schreibt, um eine Software zu programmieren; au
 
 ## R
 
+### Referenz
 Verweis auf einen Wert (:telescope: [primitiver Wert](articles/Datentypen.md) oder :telescope: [Pointer](articles/Methoden.md#java-ist-immer--pass-by-value) auf ein :telescope: [Objekt](articles/OOP-Einfuehrung.md)), etwa eine :telescope: [Variable](articles/Variablen.md), oder ein :point_right: [Index](#index) eines :telescope: [Arrays](articles/Arrays.md).
+
+### Runtime
+Englisch für :point_right: [Laufzeit](#laufzeit).
 
 
 ## S
 
 ### Scope
-Auch: :point_right: [Gültigkeitsbereich](#gültigkeitsbereich)
+:point_right: [Gültigkeitsbereich](#gültigkeitsbereich)
 
 ### Statement
 Eigentlich englisch für "Aussage", im Programmier-Kontext ist aber **_Anweisung_** gemeint. In Java gibt es **drei verschiedene** Arten von Statements: _Expression Statements_ (siehe :point_right: [Ausdruck](#ausdruck)), _Declaration Statements_ (siehe :point_right: [Deklaration](#deklaration)) und _Control-flow statements_ (siehe :point_right: [Kontrollfluss](#kontrollfluss)).
@@ -165,12 +191,22 @@ Eigentlich englisch für "Aussage", im Programmier-Kontext ist aber **_Anweisung
 
 ## T
 
-...
+### teuer
+Als "teuer" wird umgangssprachlich eine Operation bezeichnet, die vergleichsweise viel Rechenleistung und/oder Speicher kostet. Siehe auch :point_right: [Laufzeit](#laufzeit) und :point_right: [Performanz](#performanz).
 
 
 ## U
 
 ...
+
+
+## Ü
+
+### Überladen
+Siehe :telescope: [Methoden &Rarr; Überladen von Methoden](articles/Methoden.md#%C3%BCberladen-von-methoden).
+
+### Überschreiben
+Siehe :telescope: [Vererbung-I-Grundlagen &Rarr; Überschreiben von Methoden](articles/Vererbung-I-Grundlagen.md#%C3%BCberschreiben-von-methoden).
 
 
 ## V
