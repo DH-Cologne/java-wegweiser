@@ -125,6 +125,23 @@ Zum Ausführen eines Projektes führt der "expliziteste" Weg über einen Rechtsk
 > :point_right: **Eine Abkürzung** ist der Play-Button oben in der Toolbar. Aber **Achtung**: Dieser führt immer das zuletzt ausgeführte Programm noch einmal aus - nicht etwa das gerade geöffnete! Über den kleinen Pfeil daneben öffnet sich ein Dropdown-Menü mit den zuletzt ausgeführten Programmen.
 
 
+## Automatisch generierte Code-Schnipsel
+
+> :warning: Die folgenden Funktionen sind zwar sehr hilfreich, aber du solltest natürlich trotzdem lernen, wie du deinen Code komplett selbst schreibst! Erst wenn du das beherrschst, solltest du dir von deiner IDE Code generieren lassen!
+
+Eclipse bietet sehr viele Funktionen zur Code-Generierung (_Content Assist / Code Proposals_). Einige sind direkt im Editor als Auto-Vervollständigung eingerichtet. Wenn du ein bestimmtes Schlüsselwort eingibst und dann `Strg`+`Space` drückst, bietet dir Eclipse an, den gewünschten Code automatisch einzufügen. Hier einige Beispiele:
+
+| Schlüsselwort | `Strg`+`Space` generiert ... |
+| --- | --- |
+| `syso` | `System.out.println()` |
+| `for` | `for (int i = 0; i < array.length; i++){ ... }` |
+| `main` | Eine `main`-Methode |
+
+Andere sind über das Kontextmenü (Rechtsklick) &rArr; `Source` im Editor zu finden: Dort lassen sich z.B. automatisch [Getter und Setter](Objekte-I-Members-Sichtbarkeit-und-Zugriff.md#getter--setter) oder [Konstruktoren](Objekte-I-Members-Sichtbarkeit-und-Zugriff.md#konstruktoren) unter Verwendung der bereits angelegten [Members](../Coding-Lingo.md#m) generieren!
+
+
+
+
 <!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
 <div class="top-link">
     <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
