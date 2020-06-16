@@ -2,20 +2,29 @@
 
 **Allgemeine Terminologie der Programmierung**
 
-> :construction: :snail: Dieses Verzeichnis wird wohl für immer **_work in progress_** sein!
-
-> :milky_way: **TODO:** Referenz, Quelltext, Code, Bezeichner
-
 Es ist am Anfang nicht immer leicht, den Überblick über die Terminologie in der (objektorientierten) Programmierung zu behalten. Dies ist aber extrem wichtig für das Verständnis von Erläuterungen, Dokumentationen etc.! Im Folgenden werden solche Begriffe alphabetisch sortiert aufgelistet und miteinander verknüpft.
 
-> :warning: **Achtung:** Hier sind die Java-spezifischen Themen aus dem eigentlichen [Java-Wegweiser](https://dh-cologne.github.io/java-wegweiser) **nicht noch einmal aufgeführt**.
 
-> :speech_balloon: In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
+> :construction: :snail:
+> Dieses Verzeichnis wird wohl für immer **_work in progress_** sein!
+
+> :warning:
+> **Achtung:** Hier sind die Java-spezifischen Themen aus dem eigentlichen [Java-Wegweiser](https://dh-cologne.github.io/java-wegweiser) **nicht noch einmal aufgeführt**.
+
+> :speech_balloon:
+> In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
+
+> :milky_way:
+> **TODO:** ...
+
 
 ## Legende
 :point_right: Verweis auf einen anderen Begriff in diesem Verzeichnis  
-:telescope: Verweis auf einen Artikel / Abschnitt im [Java-Wegweiser](https://dh-cologne.github.io/java-wegweiser)
+:telescope: Verweis auf einen Artikel / Abschnitt im [Java-Wegweiser](https://dh-cologne.github.io/java-wegweiser)  
+:link: Verweis auf eine externe Ressource
 
+
+----------------------------------
 
 
 ## A
@@ -30,14 +39,18 @@ Auch: :point_right: [Parameter](#parameter)
 Eine Kombination aus Variablen, Literals, Konstanten, Operatoren und Rückgabewerten von Methoden. Ein Ausdruck ergibt als ganzes einen Wert. Z.B. hat der Ausdruck `2 < 9` den Wert `true` und der Ausdruck `(4 - Math.max(15, 46)) * ( 1 + 1 == 1 ? 1 : -1)` den Wert `42`.
 
 ### Aussage
-:point_right: [Ausdruck](#ausdruck) mit einem :point_right: [Wahrheitswert](#wahrheitswert), etwa `2 == 7` (hat üblicherweise den Wert `false`)
+:point_right: [Ausdruck](#ausdruck) mit einem :point_right: [Wahrheitswert](#wahrheitswert), etwa `2 == 7` (hat üblicherweise den Wert `false`).
 
 ## B
 
-...
+### Bezeichner
+Von dem/der Programmierer*in frei (aber gut) gewählter Name für eine :telescope: [Klasse](articles/Klassen-und-Objekte.md), eine :telescope: [Methode](articles/Methoden.md) oder eine :telescope: [Variable](articles/Variablen.md).
 
 
 ## C
+
+### Code
+Englisch für :point_right: [Quelltext](#quelltext); auch: Ein System zum Umwandeln von Informationen.
 
 ### Control flow
 Englisch für :point_right: [Kontrollfluss](#kontrollfluss)
@@ -63,7 +76,7 @@ Englisch für :point_right: [Ausdruck](#ausdruck)
 ## G
 
 ### Gültigkeitsbereich
-Der Gültigkeitsbereich eines :point_right: [Bezeichners](#bezeichner) (Methodenname, Variablenname, etc.) ist der Bereich im :point_right: [Quelltext](#quelltext), von dem aus der Zugriff auf diesen Bezeichner möglich ist; auch: :point_right: [Scope](#scope)
+Der Gültigkeitsbereich eines :point_right: [Bezeichners](#bezeichner) (Methodenname, Variablenname, etc.) ist der Bereich im :point_right: [Quelltext](#quelltext), von dem aus der Zugriff auf diesen Bezeichner möglich ist; auch: :point_right: [Scope](#scope).
 
 
 ## H
@@ -72,6 +85,9 @@ Der Gültigkeitsbereich eines :point_right: [Bezeichners](#bezeichner) (Methoden
 
 
 ## I
+
+### Index
+Ein :telescope: [Integer](articles/Datentypen.md) größer oder gleich `0`, der auf ein Element in einem :telescope: [Array](articles/Arrays.md) oder einer ähnlichen linearen :telescope: [Datenstruktur](articles/DIY-Datenstrukturen.md) verweist; auch: Eine :link: [spezielle Datenstruktur zur Nutzung in einer Suchmaschine](https://de.wikipedia.org/wiki/Suchmaschine).
 
 ### Instanz
 Siehe :telescope: [OOP-Einführung](articles/OOP-Einfuehrung.md) bzw. :telescope: [Klassen und Objekte](articles/Klassen-und-Objekte.md)
@@ -118,23 +134,24 @@ Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variable
 ## O
 
 ### Objekt
-Eine :point_right: [Instanz](#instanz) einer :telescope: [Klasse](articles/OOP-Einfuehrung.md), siehe auch :telescope: [Klassen und Objekte](articles/Klassen-und-Objekte.md)
+Eine :point_right: [Instanz](#instanz) einer :telescope: [Klasse](articles/OOP-Einfuehrung.md); siehe auch :telescope: [Klassen und Objekte](articles/Klassen-und-Objekte.md).
 
 
 ## P
 
 ### Parameter
-Bei der Ausführung an ein Programm oder eine :telescope: [Methode](articles/Methoden.md) übergebene Daten; auch: :point_right: [Argument](#argument)
+Bei der Ausführung an ein Programm oder eine :telescope: [Methode](articles/Methoden.md) übergebene Daten; auch: :point_right: [Argument](#argument).
 
 
 ## Q
 
-...
+### Quelltext
+Das, was ein/e Programmierer\*in schreibt, um eine Software zu programmieren; auch: :point_right: [Code](#code).
 
 
 ## R
 
-...
+Verweis auf einen Wert (:telescope: [primitiver Wert](articles/Datentypen.md) oder :telescope: [Pointer](articles/Methoden.md#java-ist-immer--pass-by-value) auf ein :telescope: [Objekt](articles/OOP-Einfuehrung.md)), etwa eine :telescope: [Variable](articles/Variablen.md), oder ein :point_right: [Index](#index) eines :telescope: [Arrays](articles/Arrays.md).
 
 
 ## S
@@ -143,7 +160,7 @@ Bei der Ausführung an ein Programm oder eine :telescope: [Methode](articles/Met
 Auch: :point_right: [Gültigkeitsbereich](#gültigkeitsbereich)
 
 ### Statement
-Eigentlich englisch für "Aussage", im Programmier-Kontext ist aber **_Anweisung_** gemeint. In Java gibt es **drei verschiedene** Arten von Statements: _Expression Statements_ (siehe :point_right: [Ausdruck](#ausdruck)), _Declaration Statements_ (siehe :point_right: [Deklaration](#deklaration)) und _Control-flow statements_ (siehe :point_right: [Kontrollfluss](#kontrollfluss))
+Eigentlich englisch für "Aussage", im Programmier-Kontext ist aber **_Anweisung_** gemeint. In Java gibt es **drei verschiedene** Arten von Statements: _Expression Statements_ (siehe :point_right: [Ausdruck](#ausdruck)), _Declaration Statements_ (siehe :point_right: [Deklaration](#deklaration)) und _Control-flow statements_ (siehe :point_right: [Kontrollfluss](#kontrollfluss)).
 
 
 ## T
@@ -180,4 +197,4 @@ Wert einer :point_right:[Aussage](#aussage). Kann (im Programmier-Kontext) `true
 ## Z
 
 ### Zuweisung
-Operation, bei der einer :telescope: [Variable](articles/Variablen.md) mittels des _Zuweisungsoperators_ (`=`) ein Wert zugewiesen wird.
+Operation, bei der einer :telescope: [Variable](articles/Variablen.md) ein Wert zugewiesen wird (mittels des _Zuweisungsoperators_ `=`).
