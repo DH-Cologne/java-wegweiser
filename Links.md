@@ -2,6 +2,7 @@
 
 > Kategorisierte Links zu allgemeinen, Modul-relevanten Ressourcen, die begleitend genutzt werden können
 
+
 ## Java Lernen :books:
 
 -   [WikiBooks: Java Programming](https://en.wikibooks.org/wiki/Java_Programming) - Eine ganz ähnliche Ressource wie dieses Repository, aber auf Englisch. Sehr gut und auf den Punkt, sehr empfehlenswert!
@@ -9,6 +10,7 @@
 -   [Oracle Java Tutorial](https://docs.oracle.com/javase/tutorial/java/) - Etwas trocken und angestaubt, aber bewährt
 -   [Java ist auch eine Insel](http://openbook.rheinwerk-verlag.de/javainsel/) - Solides Lehrbuch, kostenlos online
 -   [Operators in Java](https://www.codejava.net/java-core/the-java-language/summary-of-operators-in-java-with-examples) - Übersicht über jegliche Operatoren in Java
+
 
 ## Java Üben :man_technologist:
 
@@ -22,10 +24,12 @@
 -   [Project Euler](https://projecteuler.net/) - Programmier-Probleme (hauptsächlich mathematische); unabhängig von der Programmiersprache; relativ fortgeschritten
 -   [/r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer/) - Ein Subreddit (reddit-Themenseite) zu täglichen Programmier-Herausforderungen
 
+
 ## Anleitungen :woman_teacher:
 
 -   [Einstieg in Eclipse](http://www.java-programmieren.com/eclipse-erste-schritte.php) - "In diesem Eclipse Tutorial werden die erste Schritte in Eclipse aufgezeit, beispielsweie wie man ein Projekt anlegt und in diesem dann die erste Klasse samt Java-Code erstellt."
 -   [Java Debugging with Eclipse](https://www.vogella.com/tutorials/EclipseDebugging/article.html) - Wie funktioniert der debugger in Eclipse?
+
 
 ## Downloads :floppy_disk:
 
@@ -34,14 +38,23 @@
 -   [Git](https://git-scm.com/downloads) - Quellcode-Versionsierung für Profis
 -   [Git for Windows](https://gitforwindows.org/) - Enthält sogar einen Bash-Emulator (Unix-Terminal) für Windows!
 
-## Sonstiges :green_salad:
 
--   [StackOverflow](https://stackoverflow.com/) - Nur für den Fall, dass es jemand noch nicht kennt
--   [DEV.to](https://dev.to/) - Freundliche Community, die sich gut gelaunt mit Themen zur Software-Entwicklung im Allgemeinen auseinandersetzt (Englisch)
+## Git 
+
 -   [Git Book](https://git-scm.com/book/de/v2) - Lernen, mit Git umzugehen
 -   [Git einfach erklärt](https://rogerdudler.github.io/git-guide/index.de.html) - Eine sehr einfache, gut verständliche, dafür aber auch nicht ganz vollständige Anleitung zu Git. Gut für den Einstieg!
+-   [Interactive Git Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html) - Sehr gute Übersicht über die meisten Git-Befehle (mit visueller Einordnung in Anwendungsbereiche!)
+-   [Git Cheat Sheet PDF](assets/documents/Git-Cheat-Sheet.pdf) - Die allerwichtigsten Git-Befehle auf einer überlichtlichen Seite!
 -   [CS visualized: Useful Git commands](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1) - Sehr gut geeignet, um einige komplexere Vorgänge in Git zu verstehen
+-   
+
+## Sonstiges :green_salad:
+
+-   [StackOverflow](https://stackoverflow.com/) - Nur für den Fall, dass es jemand noch nicht kennt (Englisch)
+-   [DEV.to](https://dev.to/) - Freundliche Community, die sich gut gelaunt mit Themen zur Software-Entwicklung im Allgemeinen auseinandersetzt (Englisch)
 -   [Visualisierte Sortier-Algorithmen](https://www.toptal.com/developers/sorting-algorithms) - Für wenn man's mal braucht
+
+
 
 
 
