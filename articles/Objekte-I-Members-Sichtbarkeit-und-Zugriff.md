@@ -10,18 +10,14 @@
 
 > :speech_balloon: Engl.: _instance variables / (non-static) member variables_
 
--   sind Variablen, die ihren Gültigkeitsbereich in der gesamten Klasse haben
--   können **nicht** aus einem statischen Kontext heraus angesprochen werden
--   werden im Klassenkörper deklariert
--   per Konvention _ganz oben_ im Klassenkörper
--   werden auch _Felder_ oder (engl.) _member variables_ genannt
+Siehe [Variablen &rArr; Arten von Variablen &rArr; Instanzvariablen](Variablen.md#instanzvariablen)
 
 
 ## Instanzmethoden
 
 > :speech_balloon: Engl.: _instance methods / non-static methods_
 
-> :construction: **TODO**
+Siehe [Methoden &rArr; ]
 
 
 ## Sichtbarkeits-/Zugriffsmodifizierer
