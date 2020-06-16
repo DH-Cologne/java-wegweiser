@@ -89,11 +89,8 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 
 ### Objektorientierte Programmierung (OOP)
 
-#### [OOP: Einführung](articles/OOP-Einfuehrung.md)
-> `Definition`, `Nutzen`, `Beispiele`, ...
-
-#### [Klassen und Objekte](articles/Klassen-und-Objekte.md)
-> `Klasse`, `Objekt`, `new-Operator`, `Kuchen`, ...
+#### [OOP, Klassen und Objekte](articles/OOP-Klassen-und-Objekte.md)
+> `Definition`, `Nutzen`, `Beispiele`, `Klasse`, `Objekt`, `new-Operator`, `Kuchen`, ...
 
 #### [Objekte I: Members, Sichtbarkeit und Zugriff](articles/Objekte-I-Members-Sichtbarkeit-und-Zugriff.md)
 > `Instanzvariablen`, `Instanzmethoden`, `Sichtbarkeits-/Zugriffsmodifizierer`, `private`, `(default)`, `protected`, `public`, `this`, `Getter`, `Setter`, `Konstruktoren`, ...

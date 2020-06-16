@@ -1,8 +1,14 @@
-# OOP: Eine Einführung
+# OOP, Klassen und Objekte :building_construction:
 
 > :construction: **TODO:** Eine **kurze** Einführung in OOP (das eigentliche Kapitel über Objekte/Klassen/usw. soll dadurch nicht überflüssig werden!)
 
-## Was ist OOP?
+
+## Was ist objektorientierte Programmierung?
+
+...
+
+
+## Das Konzept hinter den Begriffen "Klasse" und "Objekt"
 
 > siehe z.B. [hier](https://de.wikibooks.org/wiki/Java_Standard:_Objektorientierung_Sinn_und_Zweck)
 
@@ -11,6 +17,27 @@
 
 ![Mitarbeiter-Klasse](../assets/images/Employee-Class.png)  
 Quelle: [_Wikimedia: Von Binz - Own Creation, CC BY-SA 4.0_](https://commons.wikimedia.org/w/index.php?curid=62707688)
+
+
+## Was ist eine Klasse?
+
+-   Woraus besteht eine **Klasse** mindestens?
+-   ...
+
+
+## Was ist ein Objekt?
+
+...
+
+
+## Initialisierung: Der `new`-Operator
+
+...
+
+
+
+
+
 
 
 <!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
