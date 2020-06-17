@@ -117,7 +117,7 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 > `Interfaces`, `Erweiterung von Interfaces`, `default-Methoden` ...
 
 
-### Fortgeschrittenes
+### Abstrakte Konzepte und Fortgeschrittenes
 
 #### [Rekursion](articles/Rekursion.md)
 > `Um Rekursion zu verstehen, muss man zunächst Rekursion verstehen.`
