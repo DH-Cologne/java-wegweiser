@@ -192,7 +192,7 @@ Englisch für :point_right: [Laufzeit](#laufzeit).
 Siehe :telescope: [Getter und Setter](articles/Objekte-I-Members-Sichtbarkeit-und-Zugriff.md)
 
 ### Statement
-Eigentlich englisch für "Aussage", im Programmier-Kontext ist aber **_Anweisung_** gemeint. In Java gibt es **drei verschiedene** Arten von Statements: _Expression Statements_ (siehe :point_right: [Ausdruck](#ausdruck)), _Declaration Statements_ (siehe :point_right: [Deklaration](#deklaration)) und _Control-flow statements_ (siehe :point_right: [Kontrollfluss](#kontrollfluss)).
+Eigentlich englisch für "Aussage", im Programmier-Kontext sind aber unterschiedliche Dinge damit gemeint. In Java gibt es **drei verschiedene** Arten von Statements: _Expression Statements_ (siehe :point_right: [Ausdruck](#ausdruck)), _Declaration Statements_ (siehe :point_right: [Deklaration](#deklaration)) und _Control-flow statements_ (siehe :point_right: [Kontrollfluss](#kontrollfluss)).
 
 
 ## T
