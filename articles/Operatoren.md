@@ -107,7 +107,9 @@ Der Wert des Ausdrucks `2 >= 6` wäre dann folgerichtig `false`, usw.
 > Die Gleichheit von Objekten wird deshalb anders überprüft, nämlich mit Hilfe der `equals()`-Methode! Mehr dazu [hier](Objekte-II-Repraesentation-Identitaet-Gleichheit.md).
 
 
-## Boolsche / Logische Operatoren
+## Logische Operatoren
+
+> :speech_balloon: Auch: _Boolsche Operatoren_
 
 -   `&&` und `||`
 -   Negation: `!` (invertiert einen Ausdruck)
