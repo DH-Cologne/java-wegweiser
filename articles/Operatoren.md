@@ -53,17 +53,38 @@ Geschafft: 100 von 100
 ```
 
 
-## Post- / Preinkrement
+## Post-/Pre-Increment und Post-/Pre-Decrement
 
--   Ausdruck und Operation mittels: `++` / `--`
+Diese beiden Operatoren erhöhen (`++`) oder verringern (`--`) einen numerischen Wert um `1`. Dabei spielt die Position des Operators eine Rolle: Angenommen die Variable `i` hat den Wert `2`. Während der Ausdruck `i++` zuerst nach `2` aufgelöst wird **und erst dann** um eins erhöht wird, wird der Ausdruck `++i` zuerst erhöht und dann aufgelöst, nämlich nach `3`.
+
+Ein praktisches Beispiel (Post-Increment):
 
 ```java
-// Unterschied Post-/Preinkrement:
-int i = 5;
-int x = ++i; // i = 6 und x = 6 (hochzählen, dann zuweisen)
+int i = 2;
+System.out.println(i++);
+System.out.println(i);
+```
 
-int i = 5;
-int x = i++; // i = 6 und x = 5 (zuweisen, dann hochzählen)
+Da der Wert des Ausdrucks `i++` zuerst "abgefragt" und **dann erhöht** wird, lautet die Ausgabe:
+
+```java
+2
+3
+```
+
+Anders ist das beim Ausdruck `++i` (Pre-Increment):
+
+```java
+int i = 2;
+System.out.println(++i);
+System.out.println(i);
+```
+
+Da der Wert des Ausdrucks `i++` **zuerst um `1` erhöht** und dann "abgefragt":
+
+```java
+3
+3
 ```
 
 
