@@ -113,9 +113,56 @@ Der Wert des Ausdrucks `2 >= 6` wäre dann folgerichtig `false`, usw.
 
 > :speech_balloon: Auch: _Boolsche Operatoren_
 
--   `&&` und `||`
--   Negation: `!` (invertiert einen Ausdruck)
--   Exklusives ODER: `!=` (wenn nur 1 Operand `true` ist)
+Logische Operatoren verknüpfen mehrere Aussagen (also Ausdrücke, die `true` oder `false` sind) zu größeren, komplexeren Aussagen. So ist etwa die Aussage
+
+    i < 10
+
+nur dann wahr, wenn `i` kleiner als `10` ist, die Aussage
+
+    i > 5
+
+nur dann wahr, wenn `i` größer als `5` ist.
+
+### UND `&&`
+
+Ausgehend vom obigen Beispiel ist nun aber die Aussage
+
+    i < 10 && i > 5
+
+nur dann wahr, wenn **beides** der Fall ist. In diesem Beispiel werden die beiden Aussagen durch ein logisches **UND**, nämlich `&&` verknüpft.
+
+### ODER `||`
+
+Mit einem logischen **ODER** `||` wäre der ganze Ausdruck eben auch dann wahr, wenn nur eine der Teil-Aussagen wahr ist:
+
+    i < 10 || i > 5
+
+> :woman_teacher: Natürlich ist dieses letzte Beispiel völliger Unsinn, denn jede Zahl ist entweder kleiner als `10` oder größer als `5`.
+
+### Exklusives ODER `!=`
+
+Das als Vergleichsoperator bekannte `!=` (dort: _ungleich_) ist gleichzeitig auch ein logischer Operator. Er sorgt dafür, dass der Gesamtausdruck nur dann `true` ist, wenn **nur genau eine** der Teil-Aussagen wahr ist!
+
+Bei genauerem Hinsehen ist hier aber nicht etwa das selbe Symbol - also `!=` - für zwei verschiedene Dinge verwendet worden. Vielmehr ist der Vergleichsoperator ganz automatisch auch ein logischer Operator, denn
+
+    true != false
+
+ließe sich sowohl als _"wahr ist ungleich unwahr"_, als auch als _"Einer der Ausdrücke **wahr** oder **unwahr** ist wahr_ lesen. Somit handelt es sich hier nicht wirklich um zwei verschiedene, sondern ein und denselben Operator - nur eben in leicht unterschiedlichen Kontexten.
+
+### NEGATION `!`
+
+Um eine Aussage zu _negieren_ (also sie zu verneinen oder logisch zu invertieren) nutzt man den Negations-Operator `!` (NOT). Er sorgt dafür, dass der wahre (`true`) Ausdruck
+
+    (2 + 2 == 4)
+
+unwahr (`false`) wird:
+
+    !(2 + 2 == 4)
+
+Gelesen: _NOT..._
+
+> :man_teacher: Es können mit Hilfe der beschriebenen logischen Operatoren beliebig lange und komplexe logische Ausdrücke gebildet werden, wie etwa  
+> `!((a > b) && (x == y)) || z`
 
 
 ## Operatoren zur Bit-Manipulation
