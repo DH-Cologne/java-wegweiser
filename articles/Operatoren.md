@@ -90,8 +90,21 @@ Da der Wert des Ausdrucks `i++` **zuerst um `1` erhöht** und dann "abgefragt":
 
 ## Vergleichsoperatoren
 
--   Ergebnis von Vergleichsoperationen ist **immer** `true` oder `false`!
--   `==`, `!=`, `>`, `<`, `>=`, `<=`
+Ausdrücke mit Vergleichsoperatoren haben **immer** den Wert `true` oder `false`, sind also _boolsche_ Ausdrücke. Die meisten dieser Operatoren sollten aus dem Mathematikunterricht bekannt sein:
+
+| Vergleichsoperator | Erläuterung |
+| -- | -- |
+| `==` | ist gleich |
+| `!=` | ist ungleich |
+| `>` | ist größer als |
+| `<` | ist kleiner als |
+| `>=` | ist größer oder gleich |
+| `<=` | ist kleiner oder gleich |
+
+Der Wert des Ausdrucks `2 >= 6` wäre dann folgerichtig `false`, usw.
+
+> :warning: **Achtung:** Wenn der Vergleichsoperator `==` zum Vergleichen von Objekten (oder besser: Objekt-Referenzen) genutzt wird **nicht** die semantische _Gleichheit_ der Objekte, sondern tatsächlich die Gleichheit der Referezen überprüft. D.h. der Vergleich ist nur dann `true`, wenn es sich **um das selbe Objekt an der selben Speicherstelle** handelt!  
+> Die Gleichheit von Objekten wird deshalb anders überprüft, nämlich mit Hilfe der `equals()`-Methode! Mehr dazu [hier](Objekte-II-Repraesentation-Identitaet-Gleichheit.md).
 
 
 ## Boolsche / Logische Operatoren
