@@ -84,7 +84,7 @@ Ein :point_right: [Code](#code)-Block, der über einen Namen (:point_right: [Bez
 ## G
 
 ### Getter
-Siehe :telescope: [Getter und Setter](articles/Objekte-I-Members-Sichtbarkeit-und-Zugriff.md)
+Siehe :telescope: [Getter und Setter](articles/Objekte-I-Initialisierung-Members-Zugriff.md)
 
 ### Gültigkeitsbereich
 Der Gültigkeitsbereich eines :point_right: [Bezeichners](#bezeichner) (Methodenname, Variablenname, etc.) ist der Bereich im :point_right: [Quelltext](#quelltext), von dem aus der Zugriff auf diesen Bezeichner möglich ist; auch: :point_right: [Scope](#scope).
@@ -189,7 +189,7 @@ Englisch für :point_right: [Laufzeit](#laufzeit).
 :point_right: [Gültigkeitsbereich](#gültigkeitsbereich)
 
 ### Setter
-Siehe :telescope: [Getter und Setter](articles/Objekte-I-Members-Sichtbarkeit-und-Zugriff.md)
+Siehe :telescope: [Getter und Setter](articles/Objekte-I-Initialisierung-Members-Zugriff.md)
 
 ### Statement
 Eigentlich englisch für "Aussage", im Programmier-Kontext sind aber unterschiedliche Dinge damit gemeint. In Java gibt es **drei verschiedene** Arten von Statements: _Expression Statements_ (siehe :point_right: [Ausdruck](#ausdruck)), _Declaration Statements_ (siehe :point_right: [Deklaration](#deklaration)) und _Control-flow statements_ (siehe :point_right: [Kontrollfluss](#kontrollfluss)).

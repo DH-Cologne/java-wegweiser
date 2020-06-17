@@ -137,7 +137,7 @@ Eclipse bietet sehr viele Funktionen zur Code-Generierung (_Content Assist / Cod
 | `for` | `for (int i = 0; i < array.length; i++){ ... }` |
 | `main` | Eine `main`-Methode |
 
-Andere sind über das Kontextmenü (Rechtsklick) &rArr; `Source` im Editor zu finden: Dort lassen sich z.B. automatisch [Getter und Setter](Objekte-I-Members-Sichtbarkeit-und-Zugriff.md#getter--setter) oder [Konstruktoren](Objekte-I-Members-Sichtbarkeit-und-Zugriff.md#konstruktoren) unter Verwendung der bereits angelegten [Members](../Coding-Lingo.md#m) generieren!
+Andere sind über das Kontextmenü (Rechtsklick) &rArr; `Source` im Editor zu finden: Dort lassen sich z.B. automatisch [Getter und Setter](Objekte-I-Initialisierung-Members-Zugriff.md#getter--setter) oder [Konstruktoren](Objekte-I-Initialisierung-Members-Zugriff.md#konstruktoren) unter Verwendung der bereits angelegten [Members](../Coding-Lingo.md#m) generieren!
 
 
 

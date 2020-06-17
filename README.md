@@ -92,7 +92,7 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 #### [OOP, Klassen und Objekte](articles/OOP-Klassen-und-Objekte.md)
 > `Definition`, `Nutzen`, `Beispiele`, `Klasse`, `Objekt`, `Kuchen`, ...
 
-#### [Objekte I: Members, Sichtbarkeit und Zugriff](articles/Objekte-I-Members-Sichtbarkeit-und-Zugriff.md)
+#### [Objekte I: Initialisierung, Members, Zugriff](articles/Objekte-I-Initialisierung-Members-Zugriff.md)
 > `new-Operator`, `Instanzvariablen`, `Instanzmethoden`, `Sichtbarkeits-/Zugriffsmodifizierer`, `private`, `(default)`, `protected`, `public`, `this`, `Getter`, `Setter`, `Konstruktoren`, ...
 
 #### [Objekte II: Repräsentation, Identität, Gleichheit](articles/Objekte-II-Repraesentation-Identitaet-Gleichheit.md)
