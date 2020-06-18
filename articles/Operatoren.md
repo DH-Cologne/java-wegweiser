@@ -123,6 +123,7 @@ nur dann wahr, wenn `i` kleiner als `10` ist, die Aussage
 
 nur dann wahr, wenn `i` größer als `5` ist.
 
+
 ### UND `&&`
 
 Ausgehend vom obigen Beispiel ist nun aber die Aussage
@@ -131,6 +132,7 @@ Ausgehend vom obigen Beispiel ist nun aber die Aussage
 
 nur dann wahr, wenn **beides** der Fall ist. In diesem Beispiel werden die beiden Aussagen durch ein logisches **UND**, nämlich `&&` verknüpft.
 
+
 ### ODER `||`
 
 Mit einem logischen **ODER** `||` wäre der ganze Ausdruck eben auch dann wahr, wenn nur eine der Teil-Aussagen wahr ist:
@@ -138,6 +140,14 @@ Mit einem logischen **ODER** `||` wäre der ganze Ausdruck eben auch dann wahr, 
     i < 10 || i > 5
 
 > :woman_teacher: Natürlich ist dieses letzte Beispiel völliger Unsinn, denn jede Zahl ist entweder kleiner als `10` oder größer als `5`.
+
+
+### :warning: `&&` und `||` und der Kurzschluss
+
+Die logischen Operatoren `&&` und `||` sind _short-circuiting_, d.h. der rechte Teil des Ausdrucks wird nur dann aufgelöst, wenn dies nötig ist! In `2 > 17 && 1 == 1` wird z.B. `1 == 1` nicht überprüft, da der Ausdruck nach der Auswertung von `2 > 17` bereits nur noch `false` sein kann!
+
+In fast allen Fällen ist dies gewünscht, denn es spart Rechenzeit. Manchmal ist es aber wichtig, dass beide Seiten eines logischen Ausdrucks aufgelöst werden. Siehe dazu den Abschnitt zum bitweisen UND bzw. ODER (unten!).
+
 
 ### Exklusives ODER `!=`
 
@@ -148,6 +158,7 @@ Bei genauerem Hinsehen ist hier aber nicht etwa das selbe Symbol - also `!=` - f
     true != false
 
 ließe sich sowohl als _"wahr ist ungleich unwahr"_, als auch als _"Einer der Ausdrücke **wahr** oder **unwahr** ist wahr_ lesen. Somit handelt es sich hier nicht wirklich um zwei verschiedene, sondern ein und denselben Operator - nur eben in leicht unterschiedlichen Kontexten.
+
 
 ### NEGATION `!`
 
@@ -165,12 +176,33 @@ Gelesen: _NOT..._
 > `!((a > b) && (x == y)) || z`
 
 
+### Bitweise UND `&` und ODER `|`
+
+> eng.: _bit-wise and_; _bit-wise or_
+
+Die Operatoren `&` und `|` sind zwei der Operatoren in Java, die auf Bit-Ebene arbeiten. Zwar sollen Bit-Operatoren an dieser Stelle als solche keine Rolle spielen, aber gerade bei diesen beiden lohnt es sich doch, sie sich genauer anzusehen. Denn eigentlich sind bitweise Operatoren zur Verwendung mit Zahlen gedacht, aber sie funktionieren auch mit Boolean-Werten. Immerhin ist ein `boolean` auch nur eine Zahl (`0` oder `1` im binären System).
+
+Sehen wir uns zunächst die Funktion von `&` und `|` zur Manipulation von Integern auf Bit-Ebene an: Der Ausdruck `42 & 11` hat den Wert `10`. Dazu kommt es so:
+
+`42` hat im Binärsystem den Wert `00101010`  
+`11` hat im Binärsystem den Wert `00001011`  
+(jeweils aufgefüllt auf 8 Stellen, also 1 Byte)  
+
+Der `&`-Operator vergleicht nun paarweise nacheinander alle Stellen dieser beiden Zahlen daraufhin, ob die Paare beide `1` sind (UND-Operation):
+
+        00101010
+        00001011
+    ------------
+    &   00001010
+
+Da dies nur bei zwei Stellen der Fall ist, ist das Ergebnis `00001010`, was im Dezimalsystem wiederum `10` ist.
+
+Aber warum interessiert uns das für logische Operationen? Ganz einfach: Man kann `&` und `|` auch als logische Operatoren verwenden. Der Unterschied zu den eigentlichen logischen Operatoren `&&` und `||` ist, dass `&` und `|` **nicht kurzschließen**, d.h. es werden **immer beide Seiten des logischen Ausdrucks aufgelöst** (siehe Abschnitt zum Kurzschluss bei `&` und `|` oben!). Das ist dann nützlich, wenn die rechte Seite eines logischen Ausdrucks unbedingt aufgelöst werden muss, weil sie eine Operation enthält, die in jedem Fall ausgeführt werden soll:
+
+
 ## Operatoren zur Bit-Manipulation
 
-> :question: **Fraglich:** Lieber erstmal weglassen?
-
--   `~`, `&`, `|`, `^`
--   `>>`, `>>>`, `<<`
+(Die weiteren) Operatoren zur Bit-Manipulation werden hier bewusst ausgelassen. Wer sich dennoch für `~`, `&`, `|`, `^`, `>>`, `>>>` und `<<` interessiert, kann z.B. [hier](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op3.html) oder [hier](https://www.baeldung.com/java-bitwise-operators) nachlesen.
 
 
 ## Zuweisungsoperatoren
