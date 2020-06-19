@@ -180,6 +180,8 @@ Gelesen: _NOT..._
 
 > eng.: _bit-wise and_; _bit-wise or_
 
+> :warning: Dieser Abschnitt ist recht komplex und evtl. nicht gut für den Einstieg geeignet. Wenn du gerade erst die Operatoren in Java kennenlernst, dann ignoriere diesen Abschnitt lieber vorerst.
+
 Die Operatoren `&` und `|` sind zwei der Operatoren in Java, die auf Bit-Ebene arbeiten. Zwar sollen Bit-Operatoren an dieser Stelle als solche keine Rolle spielen, aber gerade bei diesen beiden lohnt es sich doch, sie sich genauer anzusehen. Denn eigentlich sind bitweise Operatoren zur Verwendung mit Zahlen gedacht, aber sie funktionieren auch mit Boolean-Werten. Immerhin ist ein `boolean` auch nur eine Zahl (`0` oder `1` im binären System).
 
 Sehen wir uns zunächst die Funktion von `&` und `|` zur Manipulation von Integern auf Bit-Ebene an: Der Ausdruck `42 & 11` hat den Wert `10`. Dazu kommt es so:
