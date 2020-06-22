@@ -70,9 +70,21 @@ Die Umwandlung von Superklassen zu Subklassen muss explizit geschehen (ausgehend
 SpecialUser specialUser = (SpecialUser) user;
 ```
 
-> :warning: Natürlich geschieht das Downcasting bei komplexen Typen "auf eigene Gefahr": Man sollte sich sehr sicher sein, dass das Objekt wirklich vom höheren Typ ist! Dafür kann der [`instanceof`-Operator](Vererbung-I-Grundlagen.md) nützlich sein!
+Oder, wenn nur einmalig eine Methode des höherwertigen Typs (Subklasse) genutzt werden soll:
 
-> :man_teacher: Im Falle einer ungültigen Typumwandlung wirft der beftreffende Code eine [**ClassCastException**](https://stackoverflow.com/questions/907360/explanation-of-classcastexception-in-java).
+```java
+((SpecialUser) user).specialUserMethod("I need this method once!");
+```
+
+Natürlich geschieht das Downcasting bei komplexen Typen "auf eigene Gefahr": Man sollte sich sehr sicher sein, dass das Objekt wirklich vom höheren Typ ist! Dafür kann der [`instanceof`-Operator](Vererbung-I-Grundlagen.md) nützlich sein:
+
+```java
+if (user instanceof SpecialUser){
+    ((SpecialUser) user).specialUserMethod("I need this method once!");
+}
+```
+
+> :man_teacher: Im Falle einer ungültigen Typumwandlung wirft der betreffende Code eine [**ClassCastException**](https://stackoverflow.com/questions/907360/explanation-of-classcastexception-in-java).
 
 
 
