@@ -6,7 +6,7 @@ Diese Seite erläutert die ersten Grundlagen zum Umgang mit der Entwicklungsumge
   - [Was ist eine IDE?](#was-ist-eine-ide)
   - [Warum Eclipse?](#warum-eclipse)
   - [Workspaces](#workspaces)
-  - [Views](#views)
+  - [Die wichtigsten Views](#die-wichtigsten-views)
     - [Editor](#editor)
       - [Zusatzfunktionen](#zusatzfunktionen)
       - [Keyboard-Shortcuts im Editor](#keyboard-shortcuts-im-editor)
@@ -48,7 +48,7 @@ Als _Workspace_ wird in Eclipse (und anderen IDEs) ein Ordner (z.B. auf der loka
 Beim ersten Start von Eclipse wird nach dem zu öffnenden Workspace gefragt (oder es wird einer angelegt). Möchte man später zu einem anderen Workspace wechseln oder einen neuen anlegen, geht das über das Menü `File` &rarr; `Switch Workspace` (hier kann über `Other...` ein neuer Ordner zum Workspace gemacht werden!)
 
 
-## Views
+## Die wichtigsten Views
 
 Das Hauptfenster von Eclipse ist in verschiedene Bereiche aufgeteilt, in denen sogenannte _Views_ eingeblendet werden können. Es handelt sich dabei um kleinere "Unterfenster", die auf die Darstellung verschiedener Inhalte spezialisiert sind.  
 Der eigentliche Editor ist immer groß in der Fenstermitte zu sehen, die anderen Views verteilen sich am Rand. Einige Views sind sehr wichtig und deshalb standardmäßig aktiviert (Package Manager, Outline, ...), andere können bei Bedarf über das Menü `Window` &rarr; `Show View` &rarr; `...` dazugeschaltet werden.
