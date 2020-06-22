@@ -209,16 +209,36 @@ Aber warum interessiert uns das für logische Operationen? Ganz einfach: Man kan
 
 ## Zuweisungsoperatoren
 
--   Einfache: `=`
--   Arithmetische: `+=`, `-=`, `/=`, `*=`, `%=`
--   Logische: `&=`, `|=`, ...
+Zuweisungsoperatoren dienen dazu, [Variablen](Variablen.md) Werte zuzuweisen. Es gibt hiervon unterschiedliche Arten...
+
+### Explizite Zuweisung `=`
+
+Der einfache, explizite Zuweisungsoperator `=` weist den Wert des Ausdrucks **rechts** vom `=` der Variable **links** vom `=` zu:
 
 ```java
-// Logische Zuweisungsoperatoren
-boolean t = true;
-boolean f = false;
-t &= f; // hiernach: t = false, weil nicht beide true
+String answerToEverything = "42";
 ```
+
+### Kombinierte Zuweisungsoperatoren
+
+Die arithmetischen und bitweisen Operatoren lassen sich mit dem Zuweisungsoperator `=` kombinieren, um eine verkürzte Syntax zu erzielen:
+
+```java
+x = x + 2;
+```
+
+entspricht
+
+```java
+x += 2;
+```
+
+In beiden Fällen nimmt die Variable `x` als Wert das Ergebnis der Addition des vorherigen Wertes und `2` an.
+
+Auf dieselbe Weise lässt sich der Zuweisungsoperator `=` mit den weiteren arithmetischen und bitweisen Operatoren verbinden:
+
+`+=`, `-=`, `/=`, `*=`, `%=`, `&=`, `|=`, ...
+
 
 
 
