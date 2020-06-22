@@ -26,6 +26,7 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 > :point_right: Die einzelnen Themenbereiche sind hier mit `Schlagworten` kurz zusammengefasst. Die jeweilige Überschrift verlinkt auf das Dokument mit allen Inhalten zum entsprechenden Thema.
 
 
+
 ### Einstieg
 
 #### [Benötigte Software](articles/Benoetigte-Software.md)
@@ -36,6 +37,7 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 
 #### [Eclipse IDE](articles/Eclipse-IDE.md)
 > `IDE`, `Warum Eclipse?`, `Workspaces`, `Views`, `Editor`, `Die wichtigsten Funktionen`, `Import`, `Export`, `Console`, `Ausführen von Programmen`, ...
+
 
 
 ### Grundlagen
@@ -79,12 +81,12 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 #### [Arrays](articles/Arrays.md)
 > `Datenstrukturen`, `Deklaration`, `Typisierung`, `Initialisierung`, `Array Literals`, `Zugriff`, `Mehrdimensionale Arrays`, ...
 
-
 #### [Enums](articles/Enums.md)
 > `Enums`, ...
 
 #### [Fehlerbehandlung](articles/Fehlerbehandlung.md)
 > `Error`, `Exception`, `try`, `catch`, `finally`, `try-with-resources`, `throws`, ...
+
 
 
 ### Objektorientierte Programmierung (OOP)
@@ -117,6 +119,7 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 > `Interfaces`, `Erweiterung von Interfaces`, `default-Methoden` ...
 
 
+
 ### Abstrakte Konzepte und Fortgeschrittenes
 
 #### [Rekursion](articles/Rekursion.md)
@@ -147,6 +150,7 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 > `Wozu?`, `Schreiben von Unit-Tests`, `Test-driven-development`, `JUnit`, ...
 
 
+
 ### Allgemeines / Sonstiges
 
 #### [Naming Conventions](articles/Naming-Conventions.md)
@@ -154,6 +158,7 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 
 #### [Dokumentation mit JavaDoc](articles/JavaDoc.md)
 > `Wozu?`, `/**`, `@param`, `@return`, `<code></code>`, `best practices`, ...
+
 
 
 ## Contributors ✨
