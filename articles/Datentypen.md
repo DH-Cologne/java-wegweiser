@@ -8,6 +8,10 @@
 
 ## Primitive Datentypen
 
+Die primitiven Datentypen sind das einzige, was Java davon abhält, eine vollkommen objektorientierte Programmiersprache zu sein. Java ist deshalb streng genommen eine _hybride Programmiersprache_.
+
+Durch die Verwendung primitiver Datentypen kann man immer dann Ressourcen (Rechenleistung, Arbeitsspeicher) sparen, wenn man den äquivalenten komplexen Datentyp nicht unbedingt benötigt.
+
 | Datentyp | Größe | Default-Wert | Beschreibung |
 | --- | --- | --- | --- |
 | **`byte`** | 1 Byte | `0` | Speichert ganze Zahlen zwischen `-128` und `127` |
