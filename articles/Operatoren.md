@@ -4,6 +4,24 @@
 
 > :speech_balloon: Die auf dieser Seite erläuterten Operatoren sind tatsächlich noch nicht alle, die es in Java gibt. Andere Operatoren wie [`new`](Objekte-I-Initialisierung-Members-Zugriff.md), [`instanceof`](Vererbung-I-Grundlagen.md) oder der [Ternary-Operator](Konditionale.md) passen aber viel besser in den Kontext anderer Seiten, weshalb sie dort und nicht auf dieser Seite hier zu finden sind.
 
+- [Operatoren :symbols:](#operatoren-)
+  - [Arithmetische- / Rechenoperatoren](#arithmetische---rechenoperatoren)
+    - [Grundrechenarten `+`, `-`, `*`, `/`](#grundrechenarten-----)
+    - [Modulo `%`](#modulo-)
+  - [Post-/Pre-Increment und Post-/Pre-Decrement](#post-pre-increment-und-post-pre-decrement)
+  - [Vergleichsoperatoren](#vergleichsoperatoren)
+  - [Logische Operatoren](#logische-operatoren)
+    - [UND `&&`](#und-)
+    - [ODER `||`](#oder-)
+    - [:warning: `&&` und `||` und der Kurzschluss](#️--und--und-der-kurzschluss)
+    - [Exklusives ODER `!=`](#exklusives-oder-)
+    - [NEGATION `!`](#negation-)
+    - [Bitweise UND `&` und ODER `|`](#bitweise-und--und-oder-)
+  - [Operatoren zur Bit-Manipulation](#operatoren-zur-bit-manipulation)
+  - [Zuweisungsoperatoren](#zuweisungsoperatoren)
+    - [Explizite Zuweisung `=`](#explizite-zuweisung-)
+    - [Kombinierte Zuweisungsoperatoren](#kombinierte-zuweisungsoperatoren)
+
 
 ## Arithmetische- / Rechenoperatoren
 
