@@ -5,9 +5,8 @@
   - [Komplexe Datentypen](#komplexe-datentypen)
   - [Wrapper-Klassen](#wrapper-klassen)
 
-## Primitive Datentypen
 
-> :construction: **TODO:** Erläuterungen
+## Primitive Datentypen
 
 | Datentyp | Größe | Default-Wert | Beschreibung |
 | --- | --- | --- | --- |
@@ -23,8 +22,9 @@
 
 ## Komplexe Datentypen
 
-- Alle Klassen sind komplexe Datentypen
-- Arrays sind komplexe Datentypen
+Dieser Abschnitt kann sehr kurz gehalten werden: [Klassen](OOP-Klassen-und-Objekte.md) sind komplexe Datentypen, **alle** Klassen. Da [abstrakte Klassen](Vererbung-II-Abstrakte-Klassen-und-Methoden.md) und [Interfaces](Vererbung-III-Interfaces.md) letztendlich auch Typen sind, die nur von Instanzen echter Klassen angenommen werden, sind auch sie komplexe Datentypen.
+
+> :speech_balloon: Arrays spielen in Java eine Sonderrolle - auch sie sind ein komplexer Datentyp.
 
 
 ## Wrapper-Klassen
@@ -46,6 +46,9 @@ Ausgabe:
 i hat den Wert 42.
 Der Maximal-Wert für einen Integer ist: 2147483647
 ```
+
+
+
 
 
 <!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
