@@ -82,7 +82,7 @@ System.out.println(++i);
 System.out.println(i);
 ```
 
-Da der Wert des Ausdrucks `i++` **zuerst um `1` erhöht** und dann "abgefragt":
+Da der Wert des Ausdrucks `i++` **zuerst um `1` erhöht** und dann "aufgelöst" wird:
 
 ```java
 3
