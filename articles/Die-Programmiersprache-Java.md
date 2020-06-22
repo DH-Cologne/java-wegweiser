@@ -2,6 +2,16 @@
 
 Java ist eine _C-artige_, [universelle](https://de.wikipedia.org/wiki/Turing-Vollst%C3%A4ndigkeit) Programmiersprache. Das bedeutet, dass die [Syntax](https://de.wikipedia.org/wiki/Syntax) derer der Programmiersprache _C_ ähnelt. Das Einsatzgebiet von Java ist nicht auf einen bestimmten Bereich der IT beschränkt. Es gibt aber noch viel mehr zu wissen...
 
+- [Die Programmiersprache Java :coffee:](#die-programmiersprache-java-️)
+  - [Besonderheiten](#besonderheiten)
+    - [Objektorientierung](#objektorientierung)
+    - [Bytecode in der virtuellen Maschine](#bytecode-in-der-virtuellen-maschine)
+    - [Garbage Collector](#garbage-collector)
+  - [Java-Platform](#java-platform)
+    - [JRE](#jre)
+    - [JDK](#jdk)
+    - [JVM und Bytecode](#jvm-und-bytecode)
+    - [Java Class Library](#java-class-library)
 
 ## Besonderheiten
 

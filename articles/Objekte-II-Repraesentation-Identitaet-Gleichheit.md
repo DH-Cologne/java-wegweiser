@@ -4,6 +4,13 @@
 > - gründlichere Formulierungen in ganzen Sätzen
 > - weitere Inhalte aus der Übersicht in der README!
 
+- [Objekte II: Repräsentation, Identität, Gleichheit](#objekte-ii-repräsentation-identität-gleichheit)
+	- [toString()](#tostring)
+	- [Objekt-Identität](#objekt-identität)
+	- [Objekt-Gleichheit](#objekt-gleichheit)
+	- [`equals(...)`](#equals)
+	- [`hashCode()`](#hashcode)
+	- [Der Vertrag zwischen `equals(...)` und `hashCode()`](#der-vertrag-zwischen-equals-und-hashcode)
 
 ## toString()
 

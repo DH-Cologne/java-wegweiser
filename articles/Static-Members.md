@@ -4,6 +4,10 @@
 > - gründlichere Formulierungen in ganzen Sätzen
 > - weitere Inhalte aus der Übersicht in der README!
 
+- [Static Members](#static-members)
+  - [`static`](#static)
+  - [Klassenvariablen](#klassenvariablen)
+  - [Statische Methoden](#statische-methoden)
 
 ## `static`
 

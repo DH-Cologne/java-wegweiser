@@ -1,5 +1,14 @@
 # Contribution: Wie kann ich mitwirken? :woman_technologist:
 
+- [Contribution: Wie kann ich mitwirken? :woman_technologist:](#contribution-wie-kann-ich-mitwirken-)
+  - [Wer wird hier angesprochen?](#wer-wird-hier-angesprochen)
+  - [Warum sollte ich? :man_shrugging:](#warum-sollte-ich-)
+  - [Wie weise ich auf Fehler, fehlende Inhalte etc. hin?](#wie-weise-ich-auf-fehler-fehlende-inhalte-etc-hin)
+  - [Was kann ich verbessern?](#was-kann-ich-verbessern)
+  - [Wie bearbeite ich die Inhalte?](#wie-bearbeite-ich-die-inhalte)
+    - [Ablauf einer "Contribution"](#ablauf-einer-contribution)
+    - [Markdown](#markdown)
+    - [Leitfaden für dieses Repository](#leitfaden-für-dieses-repository)
 
 ## Wer wird hier angesprochen?
 

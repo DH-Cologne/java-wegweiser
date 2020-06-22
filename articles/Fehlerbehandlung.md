@@ -1,5 +1,11 @@
 # Fehlerbehandlung :x: 
 
+- [Fehlerbehandlung :x:](#fehlerbehandlung-)
+  - [Exceptions und Errors](#exceptions-und-errors)
+  - [try-catch-finally](#try-catch-finally)
+  - [try-with-resources](#try-with-resources)
+  - [throws](#throws)
+
 ## Exceptions und Errors
 
 -   In Programmen können Fehler (**Exceptions** und **Errors**) auftreten (man sagt auch, es wird ein Fehler _"geworfen"_)

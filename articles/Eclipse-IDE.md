@@ -2,6 +2,22 @@
 
 Diese Seite erläutert die ersten Grundlagen zum Umgang mit der Entwicklungsumgebung _Eclipse_. Hier werden ausdrücklich **nicht alle Funktionen** von Eclipse erläutert, sondern nur diejenigen, die man für das anfängliche Arbeiten benötigt. Ein vollständiges Eclipse-Handbuch findet sich [hier](https://help.eclipse.org/2020-03/topic/org.eclipse.platform.doc.user/gettingStarted/qs-02a.htm?cp=0_1_0_0).
 
+- [Die IDE Eclipse :waning_crescent_moon:](#die-ide-eclipse-)
+  - [Was ist eine IDE?](#was-ist-eine-ide)
+  - [Warum Eclipse?](#warum-eclipse)
+  - [Workspaces](#workspaces)
+  - [Views](#views)
+    - [Editor](#editor)
+      - [Zusatzfunktionen](#zusatzfunktionen)
+      - [Keyboard-Shortcuts im Editor](#keyboard-shortcuts-im-editor)
+    - [Package Explorer](#package-explorer)
+    - [Outline](#outline)
+    - [Console](#console)
+  - [Ein neues Projekt anlegen](#ein-neues-projekt-anlegen)
+  - [Eine neue Klasse erzeugen](#eine-neue-klasse-erzeugen)
+  - [Import und Export von Projekten](#import-und-export-von-projekten)
+  - [Programme ausführen](#programme-ausführen)
+  - [Automatisch generierte Code-Schnipsel](#automatisch-generierte-code-schnipsel)
 
 ## Was ist eine IDE?
 

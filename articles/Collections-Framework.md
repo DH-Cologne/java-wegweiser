@@ -1,5 +1,14 @@
 # Collections Framework :card_index_dividers:
 
+- [Collections Framework :card_index_dividers:](#collections-framework-)
+  - [_Collection_-Interface und Implementationen](#collection-interface-und-implementationen)
+    - [Listen und Implementationen von `List`](#listen-und-implementationen-von-list)
+      - [Beispiel](#beispiel)
+    - [Sets und Implementationen von `Set`](#sets-und-implementationen-von-set)
+      - [Beispiel](#beispiel-1)
+  - [Maps und Implementationen von `Map`](#maps-und-implementationen-von-map)
+  - [Objekt-Identität und -Gleichheit bei Sets und Maps](#objekt-identität-und--gleichheit-bei-sets-und-maps)
+
 Das _Java Collections Framework_ stellt zahlreiche verschiedene [Datenstrukturen](https://de.wikipedia.org/wiki/Datenstruktur), aber auch nützliche Hilfswerkzeuge zur Verfügung. Die Interfaces und Klassen des Collections Framework sind alle Teil der [_Java Class Library_](https://en.wikipedia.org/wiki/Java_Class_Library) (auch: _Java Standard Library_) und somit in der [JRE](https://de.wikipedia.org/wiki/Java_Runtime_Environment) verfügbar.
 
 Was alle Datenstrukturen im _Collections Framework_ von den primitiveren _Arrays_ unterscheidet, ist die Tatsache, dass die Anzahl der gespeicherten Elemente nicht bei der Instanziierung festgelegt werden muss. Es halndelt sich um dynamische Datenstrukturen, denen immer weitere Elemente hinzugefügt und wieder entzogen werden können.

@@ -3,6 +3,12 @@
 > :construction: **TODO:**  
 > - gründlichere Formulierungen in ganzen Sätzen
 
+- [`final`](#final)
+  - [Finale Variablen](#finale-variablen)
+  - [Finale Methoden](#finale-methoden)
+  - [Finale Klassen](#finale-klassen)
+  - [Konstanten in Java](#konstanten-in-java)
+
 
 Das Schlüsselwort `final` markiert eine (benannte) Einheit (Variable, Methode oder Klasse), der nur ein einziges mal ein Wert (o.ä.) zugewiesen werden kann. Dies hat in unterschiedlichen Kontexten unterschiedliche Bedeutungen ...
 

@@ -2,9 +2,17 @@
 
 Eine Variable dient dazu, Werte oder Objekte zu speichern und sie über einen _Bezeichner_, den _Variablennamen_ referenzierbar (oder auch: _ansprechbar_) zu machen. Technisch gesehen hat eine Variable in Java entweder einen [primitiven Wert](Datentypen.md#primitive-datentypen) oder hält die Adresse eines [Objektes](OOP-Einfuehrung.md) bereit.
 
+- [Variablen :label:](#variablen-)
+  - [Typsicherheit](#typsicherheit)
+  - [Deklaration und Zuweisung](#deklaration-und-zuweisung)
+  - [Arten von Variablen](#arten-von-variablen)
+    - [Instanzvariablen](#instanzvariablen)
+    - [Klassenvariablen](#klassenvariablen)
+    - [Parameter / Argumente](#parameter--argumente)
+    - [Lokale Variablen](#lokale-variablen)
+
+
 > :warning: _Variablennamen_ werden in Java [per Konvention](Naming-Conventions.md) immer im [lowerCamelCase](Naming-Conventions.md#variablen) geschrieben!
-
-
 ## Typsicherheit
 
 > :speech_balloon: **eng.:** type safety

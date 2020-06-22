@@ -2,6 +2,13 @@
 
 > Kategorisierte Links zu allgemeinen, Modul-relevanten Ressourcen, die begleitend genutzt werden können
 
+- [Link-Liste :link:](#link-liste-)
+  - [Java Lernen :books:](#java-lernen-)
+  - [Java Üben :man_technologist:](#java-üben-)
+  - [Anleitungen :woman_teacher:](#anleitungen-)
+  - [Downloads :floppy_disk:](#downloads-)
+  - [Git](#git)
+  - [Sonstiges :green_salad:](#sonstiges-)
 
 ## Java Lernen :books:
 

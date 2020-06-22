@@ -2,6 +2,13 @@
 
 Klassen können Eigenschaften (Klassenattribute / _features_) und Fähigkeiten (Methoden / _behavior_) von anderen Klassen _erben_.
 
+- [Vererbung I: Grundlagen :family:](#vererbung-i-grundlagen-)
+  - [Wozu Vererbung?](#wozu-vererbung)
+  - [Terminologie](#terminologie)
+  - [`extends`](#extends)
+  - [`super`](#super)
+  - [`instanceof`](#instanceof)
+  - [Überschreiben von Methoden](#überschreiben-von-methoden)
 
 ## Wozu Vererbung?
 

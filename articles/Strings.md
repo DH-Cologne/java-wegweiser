@@ -4,6 +4,14 @@
 
 `String` ist eine Klasse in Java. Ein Objekt vom Typ `String` repräsentiert eine Zeichenkette - also eine Sequenz von Symbolen.
 
+- [Strings :ab:](#strings-)
+  - [Erzeugen von Strings ...](#erzeugen-von-strings-)
+    - [... mit dem `new`-Operator](#-mit-dem-new-operator)
+    - [... mit String-Literals](#-mit-string-literals)
+  - [Verkettung von Strings](#verkettung-von-strings)
+  - [Unveränderlichkeit von Strings](#unveränderlichkeit-von-strings)
+  - [Zugriff auf einzelne Zeichen und andere Tokens](#zugriff-auf-einzelne-zeichen-und-andere-tokens)
+  - [Spezial-Zeichen](#spezial-zeichen)
 
 ## Erzeugen von Strings ...
 

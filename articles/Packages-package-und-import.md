@@ -1,6 +1,12 @@
 
 # Packages, `package` und `import` :package:
 
+- [Packages, `package` und `import` :package:](#packages-package-und-import-)
+  - [Was sind Packages?](#was-sind-packages)
+  - [Wie sehen Packages auf meiner Festplatte aus?](#wie-sehen-packages-auf-meiner-festplatte-aus)
+  - [Auszeichnen des Paket-Pfades einer Klasse mit `package`](#auszeichnen-des-paket-pfades-einer-klasse-mit-package)
+  - [Importieren von Paketen und Klassen mit `import`](#importieren-von-paketen-und-klassen-mit-import)
+
 ## Was sind Packages?
 
 **Packages** (oder dt.: _Pakete_) sind ein einfaches System, in dem zusammengehörende Java-Klassen*** organisiert sind. So lässt sich an einem **Paket-Pfad** üblicherweise ablesen, zu welcher Software eine Klasse gehört und ggf. von welchem Anbieter sie stammt. Auf diese Weise dienen Packages dazu, jede Klasse (also den Code eines Programms) eindeutig identifizierbar zu machen, sodass es in den Unmengen von verfügbaren Programmbibliotheken nicht zu Verwechslungen kommt. So lässt sich im Quellcode jede Klasse eindeutig ansprechen oder importieren!  

@@ -4,6 +4,12 @@
 
 Konditionale steuern den Ablauf eines Programmes in Abhängigkeit von Bedingungen.
 
+- [Konditionale :railway_track:](#konditionale-)
+  - [`if`, `else if`, `else`](#if-else-if-else)
+  - [Ternary-Operator](#ternary-operator)
+  - [switch](#switch)
+
+
 
 ## `if`, `else if`, `else`
 

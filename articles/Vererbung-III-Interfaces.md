@@ -1,12 +1,17 @@
 # Vererbung III: Interfaces 
 
--   werden mit `interface` eingeleitet (nicht mit `class`, siehe Beispiel unten)
--   werden von Klassen _implementiert_ (nicht erweitert) mit dem Schlüsselwort `implements`, oder von anderen Interfaces erweitert (in diesem Fall mit `extends`)
--   sind (wörtlich) eine **Schnittstelle** zu anderen Programmteilen
--   können nicht instanziiert werden
--   enthalten **keinerlei** Implementationen von Methoden, sondern nur abstrakte Methoden
-    -   **Ausnahme:** Seit Java 8 gibt es [default methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
--   Methoden sind hier automatisch `abstract` und `public`, wobei `public` meist trotzdem mit angegeben wird.
+- [Vererbung III: Interfaces](#vererbung-iii-interfaces)
+  - [Erweitern von Interfaces](#erweitern-von-interfaces)
+  - [`default`-Methoden](#default-methoden)
+
+
+- werden mit `interface` eingeleitet (nicht mit `class`, siehe Beispiel unten)
+- werden von Klassen _implementiert_ (nicht erweitert) mit dem Schlüsselwort `implements`, oder von anderen Interfaces erweitert (in diesem Fall mit `extends`)
+- sind (wörtlich) eine **Schnittstelle** zu anderen Programmteilen
+- können nicht instanziiert werden
+- enthalten **keinerlei** Implementationen von Methoden, sondern nur abstrakte Methoden
+  -   **Ausnahme:** Seit Java 8 gibt es [default methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
+- Methoden sind hier automatisch `abstract` und `public`, wobei `public` meist trotzdem mit angegeben wird.
 
 **Ein (minimales) Anwendungsbeispiel zu Interfaces:**  
 Mit einem Interface `TextProcessor`, welches die Fähigkeiten von Text-Prozessoren beschreibt (nämlich das Prozessieren von Text, was auch immer das bedeutet) ...
