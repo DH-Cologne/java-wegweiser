@@ -30,7 +30,7 @@ Es ist am Anfang nicht immer leicht, den Überblick über die Terminologie in de
 ## A
 
 ### Algorithmus
-Menge von aufeinanderfolgenden Einzelschritten zur Lösung eines Problems; siehe auch :link: [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus).
+Abfolge von aufeinanderfolgenden Einzelschritten zur Lösung eines Problems; siehe auch :link: [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus).
 
 ### Anweisung
 :point_right: [Statement](#statement) (eng.) oder Instruktion (unüblich)
