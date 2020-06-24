@@ -53,7 +53,7 @@
 -   [Interactive Git Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html) - Sehr gute Übersicht über die meisten Git-Befehle (mit visueller Einordnung in Anwendungsbereiche!)
 -   [Git Cheat Sheet PDF](assets/documents/Git-Cheat-Sheet.pdf) - Die allerwichtigsten Git-Befehle auf einer überlichtlichen Seite!
 -   [CS visualized: Useful Git commands](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1) - Sehr gut geeignet, um einige komplexere Vorgänge in Git zu verstehen
--   
+-   [Visualizing Git](https://github.com/git-school/visualizing-git) - eine Visualisierung der üblichsten Git-Befehle (zum Verständnis)
 
 ## Sonstiges :green_salad:
 
