@@ -144,6 +144,14 @@ Englisch für _Mitglied_; :point_right: [Attribut](#attribut) (Eigenschaft) oder
 ### Methode
 Eine :point_right: [Funktion](#funktion), die ein :point_right: [Member](#member) einer :point_right: [Klasse](#klasse) ist. Siehe auch: :telescope: [Methoden](articles/Methoden.md).
 
+### Multiprocessing
+:point_right: [Multitasking](#multitasking) auf mehreren :link: [CPUs](https://de.wikipedia.org/wiki/Prozessor).
+
+### Multitasking
+Die Fähigkeit einer einzelnen :link: [CPU](https://de.wikipedia.org/wiki/Prozessor), mehr als eine Aufgabe gleichzeitig zu bearbeiten. Dies funktioniert, indem das Betriebssystem verschiedenen Tasks nach und nach Rechenzeit zuteilt.
+
+### Multithreading
+Das Ausführen mehrerer :point_right: [Threads](#thread) in einem :point_right: [Prozess](#prozess).
 
 ## N
 
@@ -166,6 +174,9 @@ Englisch für :point_right: [Performanz](#performanz).
 
 ### Performanz
 Eigenschaft eines Programmes oder Programmteils, viel oder wenig Rechenzeit in Anspruch zu nehmen (seltener benutzt im Kontext von Speicherbedarf). Siehe auch :point_right: [teuer](#teuer).
+
+### Prozess
+Ein laufendes Programm im Kontext eines Computersystems. Siehe auch: :point_right: [Thread](#thread).
 
 
 ## Q
@@ -200,6 +211,8 @@ Eigentlich englisch für "Aussage", im Programmier-Kontext sind aber unterschied
 ### teuer
 Als "teuer" wird umgangssprachlich eine Operation bezeichnet, die vergleichsweise viel Rechenleistung und/oder Speicher kostet. Siehe auch :point_right: [Laufzeit](#laufzeit) und :point_right: [Performanz](#performanz).
 
+### Thread
+Ein _Ausführungsstrang_ in einem Computerprogramm. Threads sind Teil eines :point_right: [Prozesses](#prozess). Auch: _Leichtgewichtiger Prozess_; siehe auch: :link: [Thread](https://de.wikipedia.org/wiki/Thread_(Informatik)).
 
 ## U
 
