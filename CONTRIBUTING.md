@@ -1,6 +1,6 @@
-# Contribution: Wie kann ich mitwirken? :woman_technologist:
+# Contributing: Wie kann ich mitwirken? :woman_technologist:
 
-- [Contribution: Wie kann ich mitwirken? :woman_technologist:](#contribution-wie-kann-ich-mitwirken-)
+- [Contributing: Wie kann ich mitwirken? :woman_technologist:](#contributing-wie-kann-ich-mitwirken-)
   - [Wer wird hier angesprochen?](#wer-wird-hier-angesprochen)
   - [Warum sollte ich? :man_shrugging:](#warum-sollte-ich-)
   - [Wie weise ich auf Fehler, fehlende Inhalte etc. hin?](#wie-weise-ich-auf-fehler-fehlende-inhalte-etc-hin)
