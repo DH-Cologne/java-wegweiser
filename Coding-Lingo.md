@@ -15,7 +15,7 @@ Es ist am Anfang nicht immer leicht, den Überblick über die Terminologie in de
 > In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
 
 > :milky_way:
-> **TODO:** Komplexität, Abstraktion, low-level, Wrapper, Schnittstelle, Literal, Attribut, Deployment, Compiler, Test, Unit Test, Datenklasse, POJO, Polymorphie, Race Condition ...
+> **TODO:** Literal, Attribut, Deployment, Compiler, Test, Unit Test, Datenklasse, POJO, Polymorphie, Race Condition, Implementation ...
 
 
 
@@ -28,6 +28,9 @@ Es ist am Anfang nicht immer leicht, den Überblick über die Terminologie in de
 
 
 ## A
+
+### Abstraktion
+Trennung von Konzept und Umsetzung (:point_right: [Implementation](#implementation)). 
 
 ### Algorithmus
 Abfolge von aufeinanderfolgenden Einzelschritten zur Lösung eines Problems; siehe auch :link: [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus).
@@ -123,6 +126,9 @@ Siehe :telescope: [OOP-Einführung](articles/OOP-Einfuehrung.md) bzw. :telescope
 ### Klassenvariable
 Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variablen).
 
+### Komplexität
+> Konzept zur Abschätzung des Ressourcenaufwandes zur :point_right: [algorithmischen](#algorithmus) Behandlung bestimmter Probleme. — :link: [Wikipedia](https://de.wikipedia.org/wiki/Komplexit%C3%A4t#Informatik)
+
 ### Kontrollfluss
 Die Steuerung des Ablaufs eine Programmes. Für den Kontrollfluss werden :telescope: [Konditionale](articles/Konditionale.md) und :telescope: [Schleifen](articles/Schleifen.md) genutzt, die das Programm abhängig von festgelegten :point_right: [Bedingungen](#bedingung) steuern.
 
@@ -134,6 +140,9 @@ Die Steuerung des Ablaufs eine Programmes. Für den Kontrollfluss werden :telesc
 
 ### Lokale Variable
 Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variablen).
+
+### low-level
+Sich auf einer niedrigen (:point_right: [Abstraktions](#abstraktion)-) Ebene befindend. Beschreibt z.B. Code, der ohne den Einsatz von Frameworks o.ä. arbeitet oder maschinennahe Programme wie Treiber.
 
 
 ## M
@@ -196,6 +205,9 @@ Englisch für :point_right: [Laufzeit](#laufzeit).
 
 ## S
 
+### Schnittstelle
+Genormte oder mindestens genau beschriebene logische Berührungspunkte von (Software-) Systemen. Siehe auch :telescope: [Interfaces](articles/Vererbung-III-Interfaces.md).
+
 ### Scope
 :point_right: [Gültigkeitsbereich](#gültigkeitsbereich)
 
@@ -237,6 +249,9 @@ Siehe :telescope: [Vererbung-I-Grundlagen &rArr; Überschreiben von Methoden](ar
 
 ### Wahrheitswert
 Wert einer :point_right:[Aussage](#aussage). Kann (im Programmier-Kontext) `true` oder `false` sein und ist somit vom :telescope: [Datentyp](articles/Datentypen.md) `boolean` (bzw. `Boolean`).
+
+### Wrapper
+Programm-Einheit (z.B. eine Klasse oder eine ganze Library), die als :point_right: [abstrahierende](#abstraktion) Zwischenschicht um eine komplexere Logik (:point_right: [low-level](#low-level)) gebaut ist. In Java auch: Die Klassen `Boolean`, `Integer`, `Double`, [...], die als komplexe "Verpackung" um die primitiven Datentypen fungieren.
 
 
 ## X
