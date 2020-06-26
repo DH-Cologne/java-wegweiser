@@ -17,7 +17,7 @@ Diese Seite erläutert die ersten Grundlagen zum Umgang mit der Entwicklungsumge
   - [Eine neue Klasse erzeugen](#eine-neue-klasse-erzeugen)
   - [Import und Export von Projekten](#import-und-export-von-projekten)
   - [Programme ausführen](#programme-ausführen)
-  - [Automatisch generierte Code-Schnipsel](#automatisch-generierte-code-schnipsel)
+  - [Automatisch generierter Code](#automatisch-generierter-code)
 
 ## Was ist eine IDE?
 
@@ -141,7 +141,7 @@ Zum Ausführen eines Projektes führt der "expliziteste" Weg über einen Rechtsk
 > :point_right: **Eine Abkürzung** ist der Play-Button oben in der Toolbar. Aber **Achtung**: Dieser führt immer das zuletzt ausgeführte Programm noch einmal aus - nicht etwa das gerade geöffnete! Über den kleinen Pfeil daneben öffnet sich ein Dropdown-Menü mit den zuletzt ausgeführten Programmen.
 
 
-## Automatisch generierte Code-Schnipsel
+## Automatisch generierter Code
 
 > :warning: Die folgenden Funktionen sind zwar sehr hilfreich, aber du solltest natürlich trotzdem lernen, wie du deinen Code komplett selbst schreibst! Erst wenn du das beherrschst, solltest du dir von deiner IDE Code generieren lassen!
 
