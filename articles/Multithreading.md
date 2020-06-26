@@ -2,7 +2,7 @@
 
 > :point_right: Siehe Definitionen für [Multitasking](../Coding-Lingo.md#multitasking), [Multiprocessing](../Coding-Lingo.md#multiprocessing) und [Multithreading](../Coding-Lingo.md#multithreading)!
 
-> :warning: Diese Seite deckt (ganz bewusst) bei weitem nicht alles ab, was es zu Multithreading in Java zu sagen gäbe! Zu diesem Thema [wurden ganze Bücher geschrieben](http://jcip.net/). Hier wird nur das allgemeine Konzept mit den dazugehörigen Sprach-Features beschrieben. Die im Text verteilten Verweise auf externe Ressourcen bieten weitere Informationen zum Thema.
+> :warning: Diese Seite deckt (ganz bewusst) bei weitem nicht alles ab, was es zu Multithreading in Java zu sagen gäbe! Zu diesem Thema [wurden ganze Bücher geschrieben](http://jcip.net/). Hier wird nur sehr oberflächlich das allgemeine Konzept mit den dazugehörigen Sprach-Features beschrieben. Die im Text verteilten Verweise auf externe Ressourcen bieten weitere Informationen zum Thema.
 
 > :link: Für einen tieferen Einstieg in das Thema können außerdem [dieser](https://docs.oracle.com/javase/tutorial/essential/concurrency/procthread.html), [dieser](https://www.vogella.com/tutorials/JavaConcurrency/article.html), oder [dieser](https://www.callicoder.com/java-multithreading-thread-and-runnable-tutorial/) Link nützlich sein!
 
