@@ -7,13 +7,13 @@
 Ein Wegweiser zur Java-Programmierung, der mit seinen Aufgaben wächst. Für die Teilnehmer*innen des Moduls **"Softwaretechnologie: Java"** der Studiengänge **Informationsverarbeitung** und **Medieninformatik** am **IDH** (**I**nstitut für **D**igital **H**umanities, Universität zu Köln) und alle Interessierten! :open_hands:
 
 > **Work in progress.** :construction: :snail:  
-Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt oder unzureichend erläutert ist, dann [eröffne ein Issue](https://github.com/dh-cologne/java-wegweiser/issues) oder [trage eigene Änderungen bei](CONTRIBUTING.md)!
+Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt oder unzureichend erläutert ist, dann [eröffne ein Issue](https://github.com/dh-cologne/java-wegweiser/issues) oder [trage eigene Änderungen bei](Mitwirken.md)!
 
 
 ## Übrigens :speech_balloon:
 :book: &nbsp; [**Inhalt**](#inhalt-book) &mdash; Zum Inhaltsverzeichnis springen!  
 :thinking: &nbsp; [**Was ist das hier**](Was-Ist-Das.md) &mdash; Bzw. was ist es nicht?  
-:woman_technologist: &nbsp; [**Contribution**](CONTRIBUTING.md) &mdash; Oder: Wie kann ich hier mitwirken?  
+:woman_technologist: &nbsp; [**Contributing**](Mitwirken.md) &mdash; Oder: Wie kann ich hier mitwirken?  
 :couch_and_lamp: &nbsp; [**Lese-Ansicht**](https://dh-cologne.github.io/java-wegweiser) &mdash; Wenn du aus Versehen im Repository gelandet bist!  
 :closed_book: &nbsp; [**Glossar**](Glossar.md) &mdash; Allgemeine Terminologie der Programmierung (wichtig)!  
 :link: &nbsp; [**Link-Liste**](Links.md) &mdash; Weitere empfehlenswerte (online-) Ressourcen!  
@@ -163,7 +163,7 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 
 ## Contributors ✨
 
-Das ist alles. **Bis jetzt!** Wie wäre es mit [**deinem Beitrag**](CONTRIBUTING.md)?  
+Das ist alles. **Bis jetzt!** Wie wäre es mit [**deinem Beitrag**](Mitwirken.md)?  
 
 Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen Mitwirkenden ([emoji legende](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -186,7 +186,7 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 > :point_right: **Dieses Projekt hält sich an die [all-contributors](https://github.com/all-contributors/all-contributors)-Spezifikation.**  
-> Contributions (Beiträge) jeder Art [sind willkommen](CONTRIBUTING.md) und werden an dieser Stelle wie oben zu sehen aufgeführt!
+> Contributions (Beiträge) jeder Art [sind willkommen](Mitwirken.md) und werden an dieser Stelle wie oben zu sehen aufgeführt!
 
 
 
