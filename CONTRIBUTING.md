@@ -10,6 +10,7 @@
     - [Markdown](#markdown)
     - [Leitfaden für dieses Repository](#leitfaden-für-dieses-repository)
 
+
 ## Wer wird hier angesprochen?
 
 In guter Open Source-Manier ist jede\*r Teilnehmer\*in des Softwaretechnologie-Moduls (und jede\*r Interessierte) dazu eingeladen, dieses Repository mitzugestalten, inhaltlich zu erweitern, Erläuterungen zu verbessern oder auch einfach nur eventuelle Fehler zu korrigieren.
