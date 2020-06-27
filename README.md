@@ -12,10 +12,10 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 
 ## Übrigens :speech_balloon:
 :book: &nbsp; [**Inhalt**](#inhalt-book) &mdash; Zum Inhaltsverzeichnis springen!  
-:bulb: &nbsp; [**Was ist das hier**](Was-Ist-Das.md) &mdash; Bzw. was ist es nicht?  
-:speaking_head: &nbsp; [**Coding Lingo**](Coding-Lingo.md) &mdash; Allgemeine Terminologie der Programmierung (wichtig)!  
+:thinking: &nbsp; [**Was ist das hier**](Was-Ist-Das.md) &mdash; Bzw. was ist es nicht?  
 :woman_technologist: &nbsp; [**Contribution**](CONTRIBUTING.md) &mdash; Oder: Wie kann ich hier mitwirken?  
-:closed_book: &nbsp; [**Lese-Ansicht**](https://dh-cologne.github.io/java-wegweiser) &mdash; Wenn du aus Versehen im Repository gelandet bist!  
+:couch_and_lamp: &nbsp; [**Lese-Ansicht**](https://dh-cologne.github.io/java-wegweiser) &mdash; Wenn du aus Versehen im Repository gelandet bist!  
+:closed_book: &nbsp; [**Glossar**](Glossar.md) &mdash; Allgemeine Terminologie der Programmierung (wichtig)!  
 :link: &nbsp; [**Link-Liste**](Links.md) &mdash; Weitere empfehlenswerte (online-) Ressourcen!  
 
 

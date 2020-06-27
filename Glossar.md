@@ -1,6 +1,6 @@
-# Coding Lingo :speaking_head:
+# Glossar :closed_book:
 
-**Allgemeine Terminologie der Programmierung**
+**Allgemeine Terminologie der Softwaretechnologie**
 
 Es ist am Anfang nicht immer leicht, den Überblick über die Terminologie in der (objektorientierten) Programmierung zu behalten. Dies ist aber extrem wichtig für das Verständnis von Erläuterungen, Dokumentationen etc.! Im Folgenden werden solche Begriffe alphabetisch sortiert aufgelistet und miteinander verknüpft.
 
