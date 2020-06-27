@@ -15,7 +15,7 @@ Es ist am Anfang nicht immer leicht, den Überblick über die Terminologie in de
 > In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
 
 > :milky_way:
-> **TODO:** Literal, Attribut, Deployment, Compiler, Test, Unit Test, Datenklasse, POJO, Polymorphie, Race Condition, Implementation ...
+> **TODO:** `Attribut`, `Test`, `Unit Test`, `Datenklasse`, `POJO`, `Polymorphie`, `Race Condition`, `Implementation` ...
 
 
 
@@ -59,6 +59,9 @@ Von dem/der Programmierer*in frei (aber gut) gewählter Name für eine :telescop
 ### Code
 Englisch für :point_right: [Quelltext](#quelltext); auch: Ein System zum Umwandeln von Informationen.
 
+### Compiler
+Computerprogramm, das den Quelltext einer Programmiersprache in Maschinencode übersetzt, der von einem Computer ausgeführt werden kann. Im Falle von Java ist das :telescope: [Bytecode](articles/Die-Programmiersprache-Java.md), der von der :telescope: [JVM](articles/Die-Programmiersprache-Java.md) ausgeführt werden kann. Siehe auch: :link: [Compiler](https://de.wikipedia.org/wiki/Compiler).
+
 ### Control flow
 Englisch für :point_right: [Kontrollfluss](#kontrollfluss).
 
@@ -67,6 +70,9 @@ Englisch für :point_right: [Kontrollfluss](#kontrollfluss).
 
 ### Deklaration
 Die _Deklaration_ einer :telescope: [articles/Variable](Variablen.md) besteht aus der Angabe ihres :telescope: [Datentyps](articles/Datentypen.md) und ihres Namens (_Variablenname_), etwa `int thisIsAnInteger`.
+
+### Deployment
+Der Vorgang des Installierens einer Software auf dem Zielsystem. Auch: _Auslieferung_ oder :link: [_Softwareverteilung_](https://de.wikipedia.org/wiki/Softwareverteilung).
 
 
 ## E
@@ -95,7 +101,8 @@ Der Gültigkeitsbereich eines :point_right: [Bezeichners](#bezeichner) (Methoden
 
 ## H
 
-...
+### Hard Coding
+Das Verwenden von expliziten Werten (mittels :point_right: [Literals](#literal)) direkt im Quelltext. Von Hard Coding (auch: etwas ist _hard-coded_) sprcht man etwa, wenn der Pfad zu einer Datei, die Zugangsdaten zu einer Datenbank o.ä. direkt in den Quelltext geschrieben werden statt sie z.B: aus einer Konfigurationsdatei zu laden, sie von User abzufragen oder aus einer sonstigen externen Quelle abzuleiten. Siehe auch: :link: [Hard Coding](https://en.wikipedia.org/wiki/Hard_coding). 
 
 
 ## I
@@ -137,6 +144,9 @@ Die Steuerung des Ablaufs eine Programmes. Für den Kontrollfluss werden :telesc
 
 ### Laufzeit
 (1.) Zeitraum, in dem ein Programm läuft bzw. ausgeführt wird; (2.) :point_right: [Performanz](#performanz) eines :point_right: [Algorithmus](#algorithmus) oder sonstigen Programmteils. Siehe auch :link: [Laufzeit (Informatik)](https://de.wikipedia.org/wiki/Laufzeit_(Informatik)).
+
+### Literal
+Ausdruck, der zur direkten Darstellung eines Wertes (numerischer Wert, String, Array, ...) genutzt wird. Mit Literals werden Werte :point_right: "[hard coded](#hard-coding)" in den Quelltext geschrieben. Siehe auch: :link: [Literal](https://de.wikipedia.org/wiki/Literal).
 
 ### Lokale Variable
 Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variablen).
