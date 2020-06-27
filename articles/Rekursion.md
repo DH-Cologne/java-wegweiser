@@ -34,9 +34,9 @@ Die Funktionsweise von rekursiven Methoden zu verstehen ist anfangs nicht ganz e
 ![Rekursion](../assets/images/recursion.gif)  
 > _Quelle: [#](https://commons.wikimedia.org/wiki/File:Recursion6.gif), Unknown author / [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0)_
 
-
-
 > :link: Sehr gute Informationen zum Thema Rekursion findest du [hier](Rekursion.md)!
+
+
 
 
 
