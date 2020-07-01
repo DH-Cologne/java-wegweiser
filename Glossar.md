@@ -15,7 +15,7 @@ Es ist am Anfang nicht immer leicht, den Überblick über die Terminologie in de
 > In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
 
 > :milky_way:
-> **TODO:** `Attribut`, `Test`, `Unit Test`, `Datenklasse`, `POJO`, `Polymorphie`, `Race Condition`, `Implementation` ...
+> **TODO:** `Implementation`, `Operation` ...
 
 
 
@@ -41,6 +41,9 @@ Abfolge von aufeinanderfolgenden Einzelschritten zur Lösung eines Problems; sie
 ### Argument
 :point_right: [Parameter](#parameter)
 
+### Attribut
+Ein einem Objekt zugeordnetes Merkmal bzw. Eigenschaft. Wird oft als anderes Wort für :point_right: [Instanszvariable](#instanzvariable) genutzt.
+
 ### Ausdruck
 Eine Kombination aus Variablen, Literals, Konstanten, Operatoren und Rückgabewerten von Methoden. Ein Ausdruck ergibt als ganzes einen Wert. Z.B. hat der Ausdruck `2 < 9` den Wert `true` und der Ausdruck `(4 - Math.max(15, 46)) * ( 1 + 1 == 1 ? 1 : -1)` den Wert `42`.
 
@@ -52,6 +55,9 @@ Eine Kombination aus Variablen, Literals, Konstanten, Operatoren und Rückgabewe
 
 ### Bezeichner
 Von dem/der Programmierer*in frei (aber gut) gewählter Name für eine :telescope: [Klasse](articles/Klassen-und-Objekte.md), eine :telescope: [Methode](articles/Methoden.md) oder eine :telescope: [Variable](articles/Variablen.md).
+
+### Bug
+Fehler in einem Computerprogramm.
 
 
 ## C
@@ -67,6 +73,18 @@ Englisch für :point_right: [Kontrollfluss](#kontrollfluss).
 
 
 ## D
+
+### Datenklasse
+Eine Klasse ohne eigene Logik / Funktionalität. Für gewöhnlich umfasst eine Datenklasse nur :point_right: [Instanzvariablen](#instanzvariable) und ggf. :telescope: [Getter und Setter](articles/Objekte-I-Initialisierung-Members-Zugriff.md). Auch: _POJO_.
+
+### Datentyp
+Siehe :telescope: [Datentypen](articles/Datentypen.md).
+
+### Debugger
+Eine Software (oft eine Komponente einer :point_right: [IDE](#ide)), die als Werkzeug für das :point_right: [Debugging](#debugging) verwendet wird.
+
+### Debugging
+Das Auffinden und Beheben von :point_right: [Bugs](#bug). Dazu _kann_ ein :point_right: [Debugger](#debugger) genutzt werden, muss aber nicht.
 
 ### Deklaration
 Die _Deklaration_ einer :telescope: [articles/Variable](Variablen.md) besteht aus der Angabe ihres :telescope: [Datentyps](articles/Datentypen.md) und ihres Namens (_Variablenname_), etwa `int thisIsAnInteger`.
@@ -106,6 +124,9 @@ Das Verwenden von expliziten Werten (mittels :point_right: [Literals](#literal))
 
 
 ## I
+
+### IDE
+**I**ntegrated **D**evelopment **E**nvironment (dt.: _Integrierte Entwicklungsumgebung_). Siehe auch :telescope: [Eclipse IDE](articles/Eclipse-IDE.md).
 
 ### Index
 Ein :telescope: [Integer](articles/Datentypen.md) größer oder gleich `0`, der auf ein Element in einem :telescope: [Array](articles/Arrays.md) oder einer ähnlichen linearen :telescope: [Datenstruktur](articles/DIY-Datenstrukturen.md) verweist; auch: Eine :link: [spezielle Datenstruktur zur Nutzung in einer Suchmaschine](https://de.wikipedia.org/wiki/Suchmaschine).
@@ -194,6 +215,12 @@ Englisch für :point_right: [Performanz](#performanz).
 ### Performanz
 Eigenschaft eines Programmes oder Programmteils, viel oder wenig Rechenzeit in Anspruch zu nehmen (seltener benutzt im Kontext von Speicherbedarf). Siehe auch :point_right: [teuer](#teuer).
 
+### POJO
+**P**lain **O**ld **J**ava **O**bject - oft umgangssprachlich für eine :point_right: [Datenklasse](#datenklasse) in Java.
+
+### Polymorphie
+Konzept in der objektorientierten Programmierung: Ein :point_right: [Bezeichner](#bezeichner) (:telescope: [Variable](articles/Variablen.md)) kann Objekte unterschiedlichen :point_right: [Datentyps](#datentyp) referenzieren. Dabei hat der Bezeichner einen gleichen oder höherwertigen Datentyp, als das referenzierte Objekt. Beispiel: `SpecialUser su = new SpecialUser(); User u = su;` Siehe auch :link: [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)).
+
 ### Prozess
 Ein laufendes Programm im Kontext eines Computersystems. Siehe auch: :point_right: [Thread](#thread).
 
@@ -205,6 +232,9 @@ Das, was ein/e Programmierer\*in schreibt, um eine Software zu programmieren; au
 
 
 ## R
+
+### Race Condition
+Ursache für sehr schwer auffindbare :point_right: [Bugs](#bug). Entsteht, wenn das Ergebnis einer :point_right: [Operation](#operation) vom zeitlichen Ablauf zweier einzelner anderer Operationen abhängt (z.B. zwei :telescope: [Threads](articles/Multithreading.md), die auf die selbe Variable zugreifen). Siehe auch :link: [Wettlaufsituation](https://de.wikipedia.org/wiki/Wettlaufsituation).
 
 ### Referenz
 Verweis auf einen Wert (:telescope: [primitiver Wert](articles/Datentypen.md) oder :telescope: [Pointer](articles/Methoden.md#java-ist-immer--pass-by-value) auf ein :telescope: [Objekt](articles/OOP-Einfuehrung.md)), etwa eine :telescope: [Variable](articles/Variablen.md), oder ein :point_right: [Index](#index) eines :telescope: [Arrays](articles/Arrays.md).
@@ -230,15 +260,20 @@ Eigentlich englisch für "Aussage", im Programmier-Kontext sind aber unterschied
 
 ## T
 
+### Test
+Im Kontext der Softwaretechnologie: Testet eine Software auf Funktionalität und Qualität. Niedrigste Stufe sind :point_right: [Unit Tests](#unit-test) (oder: _Komponententests_), die einzelne Komponenten / Einheiten der Software testen. Für Erläuterungen zu weiteren Arten von Tests auf höheren Ebenen siehe auch :link: [Softwaretest](https://de.wikipedia.org/wiki/Softwaretest).
+
 ### teuer
 Als "teuer" wird umgangssprachlich eine Operation bezeichnet, die vergleichsweise viel Rechenleistung und/oder Speicher kostet. Siehe auch :point_right: [Laufzeit](#laufzeit) und :point_right: [Performanz](#performanz).
 
 ### Thread
 Ein _Ausführungsstrang_ in einem Computerprogramm. Threads sind Teil eines :point_right: [Prozesses](#prozess). Auch: _Leichtgewichtiger Prozess_; siehe auch: :link: [Thread](https://de.wikipedia.org/wiki/Thread_(Informatik)).
 
+
 ## U
 
-...
+### Unit Test
+:point_right: Software-[Test](#test) zum testen einzelner Programm-Komponenten.
 
 
 ## Ü
