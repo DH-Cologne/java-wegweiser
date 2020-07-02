@@ -12,6 +12,8 @@ In Java gibt es mehrere Möglichkeiten einen neuen Thread (auch: _leichtgewichti
 
 > :speech_balloon: Man kann auch die Klasse `Thread` erweitern und die `run()`-Methode überschreiben, allerdings ergibt dieses Vorgehen nur dann Sinn, wenn man wirklich das Verhalten von `Thread` erweitern möchte - wenn es nur um das Erzeugen und Ausführen eines Code-Blocks in einem eigenen Thread geht, ist das Übergeben eines `Runnable`s an eine Instanz von `Thread` [die semantisch und logistisch bessere Variante](https://stackoverflow.com/questions/541487/implements-runnable-vs-extends-thread-in-java).
 
+Die folgende Grafik illustriert das Verhältnis zwischen den Konzepten :point_right: [Prozess](../Glossar.md#prozess) und :point_right: [Thread](../Glossar.md#thread). Es werden hier zwei Threads gezeigt, die Teile eines Prozesses sind, der offensichtlich auf einer einzelnen :point_right: [CPU](../Glossar.md#cpu) (mit einem Kern) ausgeführt wird, denn die Threads laufen nicht wirklich _gleichzeitig_, sondern wechseln sich ab:
+
 ![Multithreaded Process](../assets/images/Multithreaded_process.png)
 > _Quelle: [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Multithreaded_process.svg); I, Cburnett / [CC BY-SA](http://creativecommons.org/licenses/by-sa/3.0/)_
 
