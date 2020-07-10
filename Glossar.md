@@ -1,9 +1,8 @@
 # Glossar :closed_book:
 
-**Allgemeine Terminologie der Softwaretechnologie**
+**Erläuterung und Verknüpfung von Begriffen rund um Softwaretechnologie**
 
-Es ist am Anfang nicht immer leicht, den Überblick über die Terminologie in der (objektorientierten) Programmierung zu behalten. Dies ist aber extrem wichtig für das Verständnis von Erläuterungen, Dokumentationen etc.! Im Folgenden werden solche Begriffe alphabetisch sortiert aufgelistet und miteinander verknüpft.
-
+Es ist für Anfänger nicht immer leicht, den Überblick über all die Fachbegriffe zur Softwaretechnologie zu behalten. Genau das ist aber sehr wichtig für das Verständnis von Erläuterungen in Lehrveranstaltungen, Büchern, Dokumentationen etc.! Im Folgenden die wichtigsten (nicht Java-spezifischen!) Begriffe alphabetisch sortiert aufgelistet, kurz erläutert und miteinander verknüpft.
 
 > :construction: :snail:
 > Dieses Verzeichnis wird wohl für immer **_work in progress_** sein!
