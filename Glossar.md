@@ -14,7 +14,7 @@ Es ist für Anfänger nicht immer leicht, den Überblick über all die Fachbegri
 > In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
 
 > :milky_way:
-> **TODO:** `Implementation`, `Operation`, `CPU`, `Prozessor` ...
+> **TODO:** `...`, ...
 
 
 
@@ -69,6 +69,9 @@ Computerprogramm, das den Quelltext einer Programmiersprache in Maschinencode ü
 
 ### Control flow
 Englisch für :point_right: [Kontrollfluss](#kontrollfluss).
+
+### CPU
+**C**entral **P**rocessing **U**nit. Siehe auch :link: [Prozessor](https://de.wikipedia.org/wiki/Prozessor)
 
 
 ## D
@@ -127,6 +130,9 @@ Das Verwenden von expliziten Werten (mittels :point_right: [Literals](#literal))
 ### IDE
 **I**ntegrated **D**evelopment **E**nvironment (dt.: _Integrierte Entwicklungsumgebung_). Siehe auch :telescope: [Eclipse IDE](articles/Eclipse-IDE.md).
 
+### Implementierung
+Das Umsetzen (oder "Einbauen") eines geplanten Konzeptes oder einer Spezifikation als Software (also in Quellcode). Beispiel: Implementieren eines :point_right: [Interfaces](#interface) oder eines neuen Programm-Features. Siehe auch :link: [Implementierung](https://de.wikipedia.org/wiki/Implementierung#Softwaretechnik).
+
 ### Index
 Ein :telescope: [Integer](articles/Datentypen.md) größer oder gleich `0`, der auf ein Element in einem :telescope: [Array](articles/Arrays.md) oder einer ähnlichen linearen :telescope: [Datenstruktur](articles/DIY-Datenstrukturen.md) verweist; auch: Eine :link: [spezielle Datenstruktur zur Nutzung in einer Suchmaschine](https://de.wikipedia.org/wiki/Suchmaschine).
 
@@ -138,6 +144,9 @@ Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variable
 
 ### Instruktion
 :point_right: [Statement](#statement) oder Anweisung; englisch.: _instruction_.
+
+### Interface
+:point_right: [Schnittstelle](#schnittstelle)
 
 
 ## J
@@ -201,6 +210,9 @@ Das Ausführen mehrerer :point_right: [Threads](#thread) in einem :point_right: 
 
 ### Objekt
 Eine :point_right: [Instanz](#instanz) einer :telescope: [Klasse](articles/OOP-Einfuehrung.md); siehe auch :telescope: [Klassen und Objekte](articles/Klassen-und-Objekte.md).
+
+### Operation
+Verarbeitungsschritt in einem Software-Programm. Siehe auch :link:[Operation](https://de.wikipedia.org/wiki/Operation_(Informatik)).
 
 
 ## P
@@ -311,7 +323,7 @@ Programm-Einheit (z.B. eine Klasse oder eine ganze Library), die als :point_righ
 ## Z
 
 ### Zuweisung
-Operation, bei der einer :telescope: [Variable](articles/Variablen.md) ein Wert zugewiesen wird (mittels des _Zuweisungsoperators_ `=`).
+:point_right: [Operation](#operation), bei der einer :telescope: [Variable](articles/Variablen.md) (oder einer Speicherstelle eines :telescope: [Arrays](articles/Arrays.md)) ein Wert zugewiesen wird (mittels des _Zuweisungsoperators_ `=`).
 
 
 
