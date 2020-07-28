@@ -5,18 +5,18 @@ Für die Arbeit im Seminar und in den Übungen benötigen wir ein [JDK](Die-Prog
 
 ## Java Development Kit (JDK) :coffee:
 
-Wir benötigen ein JDK der Version 11, passend für dein Betriebssystem. Wegen der [Umstellung des Lizenzmodells von Oracle im Jahr 2019](https://www.oracle.com/technetwork/java/javase/overview/oracle-jdk-faqs.html) sollten wir **unbedingt** ein **OpenJDK** benutzen:
+Wir benötigen ein JDK der Version 11, passend für dein Betriebssystem. Wegen der [Umstellung des Lizenzmodells von Oracle im Jahr 2019](https://www.oracle.com/technetwork/java/javase/overview/oracle-jdk-faqs.html) sollten wir **unbedingt** ein **OpenJDK** (und nicht das volle JDK von der Oracle-Seite) benutzen:
 
 | Betriebssystem | Download OpenJDK 11 |
 | --- | --- |
-| Windows | Für Windows empfiehlt sich der Download des OpenJDK 11 (LTS) des Projektes [AdoptOpenJDK](https://adoptopenjdk.net), je nach OS-Architektur in der 64-bit oder 32-bit-Variante (x86). :warning: Bitte darauf achten, nicht die **JRE**, sondern tatsächlich das **JDK** herunterzuladen! |
-| MacOS | Hier gilt das selbe wie bei Windows: Das Projekt [AdoptOpenJDK](https://adoptopenjdk.net) stellt für MacOS ein OpenJDK 11 (LTS) bereit. :warning: Bitte darauf achten, nicht die **JRE**, sondern tatsächlich das **JDK** herunterzuladen! |
-| Linux | Falls du ein aktuelles Ubuntu-System (>=18.04) benutzt, kannst du das OpenJDK 11 einfach über folgenden Terminalbefehl installieren: `sudo apt install openjdk-11-jdk openjdk-11-doc openjdk-11-jre-headless openjdk-11-source`. Ansonsten gilt (wie auch bei Windows oder MacOS) die Empfehlung der Seite von [AdoptOpenJDK](https://adoptopenjdk.net) |
+| Windows | Für Windows empfiehlt sich der Download des **OpenJDK 11 (LTS)** des Projektes [AdoptOpenJDK](https://adoptopenjdk.net), je nach OS-Architektur in der 64-bit oder 32-bit-Variante (x86). :warning: Bitte darauf achten, nicht die **JRE**, sondern tatsächlich das **JDK** herunterzuladen! |
+| MacOS | Hier gilt das selbe wie bei Windows: Das Projekt [AdoptOpenJDK](https://adoptopenjdk.net) stellt für MacOS ein **OpenJDK 11 (LTS)** bereit. :warning: Bitte darauf achten, nicht die **JRE**, sondern tatsächlich das **JDK** herunterzuladen! |
+| Linux | Falls du ein aktuelles Ubuntu-System (>=18.04) benutzt, kannst du das OpenJDK 11 einfach über folgenden Terminalbefehl installieren: `sudo apt install openjdk-11-jdk openjdk-11-doc openjdk-11-jre-headless openjdk-11-source`. Für andere Linux-Distributionen könnte es ähnliche fertige Pakete geben. Ansonsten gilt (wie auch bei Windows oder MacOS) die Empfehlung der Seite von [AdoptOpenJDK](https://adoptopenjdk.net) |
 
 
 ## Eclipse IDE :waning_crescent_moon:
 
-Für den Download der Entwicklungsumgebung _Eclipse_ (die wir im Seminar nutzen) enutzt man am besten die aktuelle Version der **Eclipse IDE for Java Developers** von [dieser Seite](https://www.eclipse.org/downloads/packages/).
+Für den Download der Entwicklungsumgebung _Eclipse_ (die wir im Seminar nutzen) benutzt man am besten die aktuelle Version der **Eclipse IDE for Java Developers** von [dieser Seite](https://www.eclipse.org/downloads/packages/).
 
 > :speech_balloon: **Natürlich ist die Wahl der IDE freigestellt.** Es kann gerne auch mit _IntelliJ IDEA_, _Netbeans_, dem _Windows Notepad_ oder _vim_ programmiert werden - allerdings werden sich die Beispiele im Seminar immer auf Eclipse beziehen.
 
