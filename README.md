@@ -69,10 +69,10 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 #### [Operatoren](articles/Operatoren.md)
 > `Rechenoperatoren`, `Vergleichsoperatoren`, `logische Operatoren`, `Zuweisungsoperatoren`, `+`, `-`, `*`, `/`, `%`, `++`, `--`, `==`, `!=`, `>`, `<`, `>=`, `<=`, `&&`, `||`, `=`, `+=`, `-=`, `/=`, `*=`, `%=`, `&=`, `|=`, ...
 
-#### [Strings](articles/Strings.md)
+#### [Strings / Zeichenketten](articles/Strings.md)
 > `die Klasse "String"`, `Literals`, `special characters`, `Unveränderbarkeit von Strings`, `UTF-16`, ...
 
-#### [Konditionale / Conditional statements](articles/Konditionale.md)
+#### [Conditional statements / Konditionale](articles/Konditionale.md)
 > `if`, `else`, `:? (Ternary-Operator)`, `switch`
 
 #### [Schleifen](articles/Schleifen.md)
