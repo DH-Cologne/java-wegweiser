@@ -1,3 +1,1 @@
-assets/css/* linguist-vendored
-*.md linguist-language=Markdown
-*.pdf linguist-language=Java
+assets/* linguist-vendored
