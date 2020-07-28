@@ -268,6 +268,8 @@ Siehe :telescope: [Getter und Setter](articles/Objekte-I-Initialisierung-Members
 ### Statement
 Eigentlich englisch für "Aussage", im Programmier-Kontext sind aber unterschiedliche Dinge damit gemeint. In Java gibt es **drei verschiedene** Arten von Statements: _Expression Statements_ (siehe :point_right: [Ausdruck](#ausdruck)), _Declaration Statements_ (siehe :point_right: [Deklaration](#deklaration)) und _Control-flow statements_ (siehe :point_right: [Kontrollfluss](#kontrollfluss)).
 
+### Syntactic sugar
+Syntax-Feature einer Programmierprache, mit dem eine bestimmte Anweisung (ö.ä.) einfacher oder leichter lesbar formuliert werden kann. Siehe auch :link: [Syntactic sugar](http://en.wikipedia.org/wiki/Syntactic_sugar).
 
 ## T
 
