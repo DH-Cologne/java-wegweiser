@@ -1,7 +1,5 @@
 # Operatoren :symbols:
 
-> :construction: **TODO:** Alles. Bisher sind hier nur die zu besprechenden Inhalte aufgelistet. Es fehlen Erläuterungen.
-
 > :speech_balloon: Die auf dieser Seite erläuterten Operatoren sind tatsächlich noch nicht alle, die es in Java gibt. Andere Operatoren wie [`new`](Objekte-I-Initialisierung-Members-Zugriff.md), [`instanceof`](Vererbung-I-Grundlagen.md) oder der [Ternary-Operator](Konditionale.md) passen aber viel besser in den Kontext anderer Seiten, weshalb sie dort und nicht auf dieser Seite hier zu finden sind.
 
 - [Operatoren :symbols:](#operatoren-)
