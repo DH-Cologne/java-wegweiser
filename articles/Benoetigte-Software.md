@@ -1,6 +1,6 @@
 # Benötigte Software :woman_technologist:
 
-Für die Arbeit im Seminar und in den Übungen benötigen wir ein [JDK](Die-Programmiersprache-Java.md#jdk) und eine [IDE](Eclipse-IDE.md#was-ist-eine-ide). Was das genau ist, wird in den verlinkten Artikeln erklärt. Hier geht es zunähst nur darum, den richtigen Download zu finden und die Programme zu installieren!
+Für die Arbeit im Seminar und in den Übungen benötigen wir ein [JDK](Die-Programmiersprache-Java.md#jdk) und eine [IDE](Eclipse-IDE.md#was-ist-eine-ide). Was das genau ist, wird in den verlinkten Artikeln erklärt. Hier geht es zunächst nur darum, den richtigen Download zu finden und die Programme zu installieren!
 
 
 ## Java Development Kit (JDK) :coffee:
