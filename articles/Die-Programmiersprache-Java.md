@@ -1,6 +1,6 @@
 # Die Programmiersprache Java :coffee:
 
-Java ist eine _C-artige_, [universelle](https://de.wikipedia.org/wiki/Turing-Vollst%C3%A4ndigkeit) Programmiersprache. Das bedeutet, dass die [Syntax](https://de.wikipedia.org/wiki/Syntax) derer der Programmiersprache _C_ ähnelt. Das Einsatzgebiet von Java ist nicht auf einen bestimmten Bereich der IT beschränkt. Es gibt aber noch viel mehr zu wissen...
+Java ist eine _C-artige_, [universelle](https://de.wikipedia.org/wiki/Turing-Vollst%C3%A4ndigkeit) Programmiersprache. Das bedeutet, dass die [Syntax](https://de.wikipedia.org/wiki/Syntax) derer der Programmiersprache _C_ ähnelt. Java ist sehr [vielseitig](https://blogs.oracle.com/javamagazine/the-top-25-greatest-java-apps-ever-written) - das Einsatzgebiet von Java ist nicht auf einen bestimmten Bereich der Softwareentwicklung spezialisiert. Es gibt aber noch viel mehr zu wissen...
 
 - [Die Programmiersprache Java :coffee:](#die-programmiersprache-java-️)
   - [Besonderheiten](#besonderheiten)
