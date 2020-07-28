@@ -2,7 +2,7 @@
 
 Schleifen wiederholen die Ausführung eines Blockes von Anweisungen in Abhängigkeit von bestimmten Voraussetzungen. In Java gibt es vier verschiedene Formen von Schleifen.
 
-- [Schleifen :ribbon:](#schleifen-ribbon)
+- [Schleifen :ribbon:](#schleifen-)
   - [`while`-Schleife](#while-schleife)
   - [`do-while`-Schleife](#do-while-schleife)
   - [`for`-Schleife](#for-schleife)
@@ -10,7 +10,7 @@ Schleifen wiederholen die Ausführung eines Blockes von Anweisungen in Abhängig
   - [Unterbrechen von Schleifen](#unterbrechen-von-schleifen)
     - [`continue`-Statement](#continue-statement)
     - [`break`-Statement](#break-statement)
-  - [Endlosschleifen :boom:](#endlosschleifen-boom)
+  - [Endlosschleifen :boom:](#endlosschleifen-)
 
 
 
@@ -125,11 +125,11 @@ Das ist aber wirklich nur dann sinnvoll, wenn es einen Mehrwert bietet (etwa wen
 
 ## for-each-Schleife
 
-Eine for-each-Schleife ist eine Spezialform der `for`-Schleife. Sie bietet eine noch klarere und reduziertere Syntax, denn es wird auf eine Zählvariable verzichtet. Stattdessen ist die for-each-Schleife speziell dazu gedacht, über jedes Element einer Datenstruktur zu iterieren.
+Eine for-each-Schleife ist eine Spezialform der `for`-Schleife. Sie bietet eine noch klarere und reduziertere Syntax, denn es wird auf eine Zählvariable verzichtet. Stattdessen ist die for-each-Schleife speziell dazu gedacht, über jedes Element einer Datenstruktur (genauer: eines `Iterable` oder eines Arrays) zu iterieren.
 
 Damit über eine Datenstruktur mit einer for-each-Schleife iteriert werden kann, **muss** sie das Interface `Iterable` implementieren (das trifft z.B. auf alle _Collections_ aus dem [Collections Framework](Collections-Framework.md) zu). Eine Ausnahme stellen **Arrays** dar - auch diese sind mit der for-each-Schleife iterierbar.
 
-Die Syntax der for-each-Schleife liest sich fast wie natürliche Sprache: _Für jedes Element `e` aus der Datenstruktur `data`, führe folgendes aus..._
+Die Syntax der for-each-Schleife (die eigentlich nur :point_right: [Syntactic sugar](../Glossar.md#syntactic-sugar) ist), liest sich fast wie natürliche Sprache: _Für jedes Element `e` aus der Datenstruktur `data`, führe folgendes aus..._
 
 ```java
 for(Typ e : data ) {
