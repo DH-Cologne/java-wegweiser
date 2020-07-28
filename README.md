@@ -76,13 +76,10 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 > `if`, `else`, `:? (Ternary-Operator)`, `switch`
 
 #### [Schleifen](articles/Schleifen.md)
-> `while`, `do-while`, `for`, `for-each`, :ribbon:
+> `while`, `do-while`, `for`, `for-each`
 
 #### [Arrays](articles/Arrays.md)
 > `Datenstrukturen`, `Deklaration`, `Typisierung`, `Initialisierung`, `Array Literals`, `Zugriff`, `Mehrdimensionale Arrays`, ...
-
-#### [Enums](articles/Enums.md)
-> `Enums`, ...
 
 #### [Fehlerbehandlung](articles/Fehlerbehandlung.md)
 > `Error`, `Exception`, `try`, `catch`, `finally`, `try-with-resources`, `throws`, ...
@@ -121,6 +118,9 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 
 
 ### Abstrakte Konzepte und Fortgeschrittenes
+
+#### [Enums](articles/Enums.md)
+> `Enums`, ...
 
 #### [Rekursion](articles/Rekursion.md)
 > `Um Rekursion zu verstehen, muss man zunächst Rekursion verstehen.`
