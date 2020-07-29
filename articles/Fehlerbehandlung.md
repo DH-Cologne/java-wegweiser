@@ -132,7 +132,7 @@ try {
 System.out.println("...aber das Leben geht weiter!");
 ```
 
-Dieser Code würde für nun so etwas wie...
+Dieser Code würde nun so etwas wie...
 
 ```
 0
