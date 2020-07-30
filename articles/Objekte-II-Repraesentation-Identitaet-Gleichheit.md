@@ -10,7 +10,7 @@
 	- [Objekt-Gleichheit](#objekt-gleichheit)
 	- [`equals()`](#equals)
 	- [`hashCode()`](#hashcode)
-	- [Der Vertrag zwischen `equals(...)` und `hashCode()`](#der-vertrag-zwischen-equals-und-hashcode)
+	- [Der Vertrag zwischen `equals()` und `hashCode()`](#der-vertrag-zwischen-equals-und-hashcode)
 
 ## toString()
 
@@ -144,7 +144,7 @@ Es sollte dabei nach Möglichkeit keine "Kollisionen" geben, d.h. zwei unterschi
 > :speech_balloon: Welcher Hashing-Algorithmus in der Software-Entwicklung wofür genutzt wird, hängt vom Verwendungszweck und somit davon ab, wie groß der Schaden einer Hash-Kollision wäre. Besonders sicher Algorithmen (mit wenigen Kollisionen) sind langsam. Wenn Geschwindigkeit wichtiger ist, nutzt man eher einen schnellen, dafür aber etwas unsaubereren Algorithmus. Javas `hashCode()`-Algorithmus der Klasse `String` nutzt z.B. diese simple Formel: `s[0]*31^(n-1) + s[1]*31^(n-2) + ... + s[n-1]`. Das geht recht schnell, Kollisionen kommen aber durchaus vor - so haben z.B. die Strings `"Aa"` und `"BB"` den gleichen Hashcode. 🤷
 
 
-## Der Vertrag zwischen `equals(...)` und `hashCode()`
+## Der Vertrag zwischen `equals()` und `hashCode()`
 
 Weil die Seminatk dieser beiden Methoden es gebietet und weil `equals()` und `hashCode()` in Java unter anderem von bestimmten Datenstrukturen dazu genutzt wird, um Duplikate zu erkennen, besteht ein "Vertrag" zwischen `equals()` und `hashCode()`. Diesen Vertrag **muss die programmierende Person einhalten**.
 
