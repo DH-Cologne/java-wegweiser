@@ -12,7 +12,9 @@ Eine Variable dient dazu, Werte oder Objekte zu speichern und sie über einen _B
     - [Lokale Variablen](#lokale-variablen)
 
 
-> :warning: _Variablennamen_ werden in Java [per Konvention](Naming-Conventions.md) immer im [lowerCamelCase](Naming-Conventions.md#variablen) geschrieben!
+> :warning: _Variablennamen_ werden in Java [per Konvention](Naming-Conventions.md) immer im [_lowerCamelCase_](Naming-Conventions.md#variablen) geschrieben (es sei denn es handelt sich um [Konstanten](Final.md), dann werden sie im [UPPERCASE_MIT_UNTERSTRICHEN](Naming-Conventions.md#variablen) geschrieben)!
+
+
 ## Typsicherheit
 
 > :speech_balloon: **eng.:** type safety
