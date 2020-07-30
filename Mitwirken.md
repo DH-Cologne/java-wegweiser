@@ -18,7 +18,7 @@ In guter Open Source-Manier ist jede\*r Teilnehmer\*in des Softwaretechnologie-M
 
 ## Warum sollte ich? :man_shrugging:
 
-Du hilfst dabei, eine Ressource zu verbessern, von der du selbst profitierst. Du nimmst Open Source-Kultur teil und tust damit etwas Gutes. Davon abgesehen kannst du nebenbei lernen, wie man mit [Git](https://git-scm.com/) und [GitHub](https://github.com) umgeht und sich mit Hilfe dieser Werkzeuge an offenen Projekten beteiligt. :raised_hands:   
+Du hilfst dabei, eine Ressource zu verbessern, von der du selbst profitierst. Du nimmst an Open Source-Kultur teil und tust damit etwas Gutes. Davon abgesehen kannst du nebenbei lernen, wie man mit [Git](https://git-scm.com/) und [GitHub](https://github.com) umgeht und sich mit Hilfe dieser Werkzeuge an offenen Projekten beteiligt. :raised_hands:   
 Übrigens: Bei einer Bewerbung sehen Beteiligungen an Open Source-Projekten sicherlich auch nicht schlecht aus!
 
 Falls dir das nicht reicht, findest du [hier](https://www.makeuseof.com/tag/people-contribute-open-source-projects/), [hier](https://opensource.com/life/15/12/why-open-source) oder zur Not sogar [hier](https://opensource.google/docs/why/) weitere Gründe.
