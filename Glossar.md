@@ -187,7 +187,7 @@ Sich auf einer niedrigen (:point_right: [Abstraktions](#abstraktion)-) Ebene bef
 ## M
 
 ### Member
-Englisch für _Mitglied_; :point_right: [Attribut](#attribut) (Eigenschaft) oder :point_right: [Methode](#methode) (Fähigkeit) einer :point_right: [Klasse](#klasse).
+Englisch für _Mitglied_; Überbegriff für :point_right: [Attribute](#attribut) und :point_right: [Methoden](#methode) einer :point_right: [Klasse](#klasse).
 
 ### Methode
 Eine :point_right: [Funktion](#funktion), die ein :point_right: [Member](#member) einer :point_right: [Klasse](#klasse) ist. Siehe auch: :telescope: [Methoden](articles/Methoden.md).
