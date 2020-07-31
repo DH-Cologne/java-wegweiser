@@ -1,9 +1,5 @@
 # Objekte II: Repräsentation, Identität, Gleichheit
 
-> :construction: **TODO:**  
-> - gründlichere Formulierungen in ganzen Sätzen
-> - weitere Inhalte aus der Übersicht in der README!
-
 - [Objekte II: Repräsentation, Identität, Gleichheit](#objekte-ii-repräsentation-identität-gleichheit)
 	- [toString()](#tostring)
 	- [Objekt-Identität](#objekt-identität)
@@ -13,6 +9,8 @@
 	- [Der Vertrag zwischen `equals()` und `hashCode()`](#der-vertrag-zwischen-equals-und-hashcode)
 
 ## toString()
+
+> :warning: Hier geht es zum Teil um das Überschreiben von Methoden. Um dieses Kapitel gänzlich zu verstehen, solltest du die [Grundlagen der Vererbung](Vererbung-I-Grundlagen.md) bereits kennen!
 
 Die `toString()`-Methode gibt eine möglichst sinnvolle textuelle (_String_-) Repräsentation des Objektes zurück, für das es aufgerufen wird. Sie sollte in eigenen Klassen generell überschrieben werden, mindestens aber in [Datenklassen / POJOs](../Coding-Lingo.md#datenklasse).
 
@@ -69,7 +67,9 @@ Mehr dazu unten, im Abschnitt zu `equals(...)`!
 
 ## `equals()`
 
-Die Gleichheit von Objekten wird **nicht** mit `==` verglichen, sondern mit `equals()`, denn `==` überprüft nicht die semantische Gleichheit von zwei Objekten, sondern bildet lediglich einen _wahren_ Ausdruck, wenn es sich um zwei Referenzen _auf das selbe Objekt_ handelt (Objekt-Identität)!  
+> :warning: Hier geht es zum Teil um das Überschreiben von Methoden. Um dieses Kapitel gänzlich zu verstehen, solltest du die [Grundlagen der Vererbung](Vererbung-I-Grundlagen.md) bereits kennen!
+
+Die :point_right: [Gleichheit](../Glossar.md#objekt-gleichheit) von Objekten wird **nicht** mit `==` verglichen, sondern mit der `equals()`-Methode (ursprünglich aus `Object`, sollte aber ggf. überschrieben werden!), denn `==` überprüft nicht die semantische Gleichheit von zwei Objekten, sondern bildet lediglich einen _wahren_ Ausdruck, wenn es sich um zwei Referenzen _auf das selbe Objekt_ handelt (:point_right: [Objekt-Identität](../Glossar.md#objekt-identität))!  
 
 Genau wie `toString()`, sollte `equals()` in allen Klassen, von denen es tendenziell viele Instanzen () geben wird, grundsätzlich überschrieben werden (mindestens aber in [Datenklassen / POJOs](../Coding-Lingo.md#datenklasse)).
 
@@ -116,6 +116,8 @@ Im Beispiel oben gibt die `equals()`-Methode der Klasse `User` nur dann `true` z
 
 
 ## `hashCode()`
+
+> :warning: Hier geht es zum Teil um das Überschreiben von Methoden. Um dieses Kapitel gänzlich zu verstehen, solltest du die [Grundlagen der Vererbung](Vererbung-I-Grundlagen.md) bereits kennen!
 
 Die Methode `hashCode()` der Klasse `Object` ist eine weitere Methode, die häufig in eigenen Klassen überschrieben werden sollte. Sie gibt einen Hashcode (vom Typ `int`) zurück, der das Objekt repräsentiert, für das `hashCode()` aufgerufen wurde.
 

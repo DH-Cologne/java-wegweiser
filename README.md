@@ -94,9 +94,6 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 #### [Objekte I: Initialisierung, Members, Zugriff](articles/Objekte-I-Initialisierung-Members-Zugriff.md)
 > `new-Operator`, `Instanzvariablen`, `Instanzmethoden`, `Sichtbarkeits-/Zugriffsmodifizierer`, `private`, `(default)`, `protected`, `public`, `this`, `Getter`, `Setter`, `Konstruktoren`, ...
 
-#### [Objekte II: Repräsentation, Identität, Gleichheit](articles/Objekte-II-Repraesentation-Identitaet-Gleichheit.md)
-> `toString()`, `Objekt-Identität`, `Objekt-Gleichheit`, `equals()`, `hashCode()`, `Der Vertrag zwischen equals() und hashCode()`, ...
-
 #### [Static Members](articles/Static-Members.md)
 > `static`, `Klassenvariablen`, `statische Methoden`, ...
 
@@ -108,6 +105,9 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 
 #### [Vererbung I: Grundlagen](articles/Vererbung-I-Grundlagen.md)
 > `Wozu?`, `Terminologie`, `extends`, `super`, `instanceof-Operator`, `Überschreiben von Methoden`, ...
+
+#### [Objekte II: Repräsentation, Identität, Gleichheit](articles/Objekte-II-Repraesentation-Identitaet-Gleichheit.md)
+> `toString()`, `Objekt-Identität`, `Objekt-Gleichheit`, `equals()`, `hashCode()`, `Der Vertrag zwischen equals() und hashCode()`, ...
 
 #### [Vererbung II: Abstrakte Klassen und Methoden](articles/Vererbung-II-Abstrakte-Klassen-und-Methoden.md)
 > `abstrakte Klassen`, `abstrakte Methoden`, `abstract`, ...
