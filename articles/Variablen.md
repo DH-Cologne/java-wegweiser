@@ -108,7 +108,7 @@ public class User {
 
 > :speech_balloon: engl.: _class variables_
 
-Klassenvariablen (oder: _statische Variablen_) sind an die Klasse gebunden, in der sie deklariert werden. Sie werden mit dem Schlüsselwort `static` als "statisch" markiert, d.h. dass ihr Wert in allen Instanzen der Klasse **immer der selbe** ist und dass auf sie **ohne eine Instanz der Klasse zugegriffen werden kann** (sofern dies nicht durch den [Sichtbarkeitsmodfizierer](Objekte-I-Initialisierung-Members-Zugriff.md#sichtbarkeits-zugriffsmodifizierer) verhindert wird).
+Klassenvariablen (oder: _statische Variablen_) sind an die Klasse gebunden, in der sie deklariert werden. Sie werden mit dem Schlüsselwort `static` als "statisch" markiert, d.h. dass ihr Wert in allen Instanzen der Klasse **immer der selbe** ist und dass auf sie **ohne eine Instanz der Klasse zugegriffen werden kann** (sofern dies nicht durch den [Zugriffsmodfizierer](Objekte-I-Initialisierung-Members-Zugriff.md#sichtbarkeits-zugriffsmodifizierer) verhindert wird).
 
 ``` java
 public class ImageLoader {
