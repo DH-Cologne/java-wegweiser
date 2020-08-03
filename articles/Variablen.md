@@ -6,10 +6,10 @@ Eine Variable dient dazu, Werte oder Objekte zu speichern und sie über einen _B
   - [Typsicherheit](#typsicherheit)
   - [Deklaration und Zuweisung](#deklaration-und-zuweisung)
   - [Arten von Variablen](#arten-von-variablen)
+    - [Lokale Variablen](#lokale-variablen)
+    - [Parameter / Argumente](#parameter--argumente)
     - [Instanzvariablen](#instanzvariablen)
     - [Klassenvariablen](#klassenvariablen)
-    - [Parameter / Argumente](#parameter--argumente)
-    - [Lokale Variablen](#lokale-variablen)
 
 
 > :warning: _Variablennamen_ werden in Java [per Konvention](Naming-Conventions.md) immer im [_lowerCamelCase_](Naming-Conventions.md#variablen) geschrieben (es sei denn es handelt sich um [Konstanten](Final.md), dann werden sie im [UPPERCASE_MIT_UNTERSTRICHEN](Naming-Conventions.md#variablen) geschrieben)!
@@ -58,9 +58,38 @@ Eine Variable kann allerdings auch auf anderem Wege einen Wert erhalten (siehe [
 ## Arten von Variablen
 
 
+### Lokale Variablen
+
+Als lokale Variablen werden Variablen bezeichnet, die innerhalb eines Methodenkörpers deklariert werden. Genau wie bei Parametern / Argumenten entspricht ihr [Gültigkeitsbereich](https://de.wikipedia.org/wiki/Variable_(Programmierung)#Scope) dem Methodenkörper und sie existieren nur während der Ausführung der Methode. Im folgenden Beispiel ist `fullName` eine lokale Variable:
+
+``` java
+public void combineNames(String firstName, String lastName){
+    String fullName = firstName + " " + lastName;
+    System.out.println("The full name is " + fullName);
+}
+```
+
+> :speech_balloon: In diesem Beispiel besteht von außerhalb der Methode `combineNames()` kein Zugriff auf die Variable `fullName`! Diese Variable existiert nur während der Ausführung der Methode!
+
+
+### Parameter / Argumente
+
+Ein Methoden-Parameter oder -Argument ist eine Variable, die einen an eine Methode übergebenen Wert referenziert. Ihr [Gültigkeitsbereich](https://de.wikipedia.org/wiki/Variable_(Programmierung)#Scope) ist der gesamte Methodenkörper. Im folgenden Beispiel ist `name` ein Parameter bzw. Argument:
+
+``` java
+public void sayName(String name){
+    System.out.println("The name is " + name);
+}
+```
+
+> :speech_balloon: In diesem Beispiel besteht von außerhalb der Methode `sayName()` kein Zugriff auf die Variable `name`, die ein Parameter dieser Methode ist. Diese Variablen existieren nur während der Ausführung der Methode!
+
+
 ### Instanzvariablen
 
-> :speech_balloon: Engl.: _instance variables / (non-static) member variables_
+> :warning: Dieser Abschnitt setzt Kenntnisse zu [objektorientierter Programmierung](../README.md#objektorientierte-programmierung-oop) voraus.
+
+> :speech_balloon: engl.: _instance variables / (non-static) member variables_
 
 Instanzvariablen sind mit einem Objekt (also einer Instanz einer Klasse) verknüpft. Sie werden im Klassenkörper deklariert und sind nicht statisch, also nicht mit `static` markiert und können auch nicht aus einem statischen Kontext heraus angesprochen werden. Der [Gültigkeitsbereich](https://de.wikipedia.org/wiki/Variable_(Programmierung)#Scope) einer Instanzvariable entspricht dem gesamten Klassenkörper, bzw. (bei Verwendung außerhalb der Klasse bei Instanzvariablen die nicht `private` sind) dem Gültigkeitsbereich der Referenz auf die Instanz.
 
@@ -75,7 +104,11 @@ public class User {
 
 ### Klassenvariablen
 
-Klassenvariablen (oder: _statische Variablen_) sind an die Klasse geknüpft, in der sie deklariert werden. Sie werden mit dem Schlüsselwort `static` als "statisch" markiert, d.h. dass ihr Wert in allen Instanzen der Klasse **immer der selbe** ist und dass auf sie **ohne eine Instanz der Klasse zugegriffen werden kann** (sofern dies nicht durch den [Sichtbarkeitsmodfizierer](Objekte-I-Initialisierung-Members-Zugriff.md#sichtbarkeits-zugriffsmodifizierer) verhindert wird).
+> :warning: Dieser Abschnitt setzt Kenntnisse zu [objektorientierter Programmierung](../README.md#objektorientierte-programmierung-oop) voraus.
+
+> :speech_balloon: engl.: _class variables_
+
+Klassenvariablen (oder: _statische Variablen_) sind an die Klasse gebunden, in der sie deklariert werden. Sie werden mit dem Schlüsselwort `static` als "statisch" markiert, d.h. dass ihr Wert in allen Instanzen der Klasse **immer der selbe** ist und dass auf sie **ohne eine Instanz der Klasse zugegriffen werden kann** (sofern dies nicht durch den [Sichtbarkeitsmodfizierer](Objekte-I-Initialisierung-Members-Zugriff.md#sichtbarkeits-zugriffsmodifizierer) verhindert wird).
 
 ``` java
 public class ImageLoader {
@@ -85,29 +118,10 @@ public class ImageLoader {
 }
 ```
 
-
-### Parameter / Argumente
-
-Ein Methoden-Parameter oder -Argument ist eine Variable, die einen an eine Methode übergebenen Wert referenziert. Der Gültigkeitsbereich ist der gesamte Methodenkörper:
+Das folgende Beispiel zeigt den Zugriff auf die oben definierte statische Variable `imagesPath`. Wichtig: Die Variable muss dafür natürlich vom aufrufenden Code aus [sichtbar](Objekte-I-Initialisierung-Members-Zugriff.md#zugriffs-sichtbarkeitsmodifizierer) sein (hier: `public`):
 
 ``` java
-public void sayName(String name){
-    System.out.println("The name is " + name);
-}
-```
-
-In diesem Beispiel besteht von außerhalb der Methode `sayName()` kein Zugriff auf die Variable `name`, die ein Parameter dieser Methode ist. Diese Variablen existieren nur während der Ausführung der Methode!
-
-
-### Lokale Variablen
-
-Als lokale Variablen werden Variablen bezeichnet, die innerhalb eines Methodenkörpers deklariert werden. Genau wie bei Parametern / Argumenten entspricht ihr Gültigkeitsbereich dem Methodenkörper und sie existieren nur während der Ausführung der Methode.
-
-``` java
-public void combineNames(String firstName, String lastName){
-    String fullName = firstName + " " + lastName;
-    System.out.println("The full name is " + fullName);
-}
+String imgPath = ImageLoader.imagesPath;
 ```
 
 
