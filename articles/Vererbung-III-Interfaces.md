@@ -1,20 +1,38 @@
-# Vererbung III: Interfaces 
+# Vererbung III: Interfaces :electric_plug:
 
-- [Vererbung III: Interfaces](#vererbung-iii-interfaces)
-  - [Erweitern von Interfaces](#erweitern-von-interfaces)
+> :speech_balloon: _deu.: Schnittstelle_
+
+- [Vererbung III: Interfaces :electric_plug:](#vererbung-iii-interfaces-)
+  - [Zum Nutzen von Interfaces :thinking:](#zum-nutzen-von-interfaces-)
+  - [Funktionsweise](#funktionsweise)
   - [`default`-Methoden](#default-methoden)
 
 
-- werden mit `interface` eingeleitet (nicht mit `class`, siehe Beispiel unten)
-- werden von Klassen _implementiert_ (nicht erweitert) mit dem Schlüsselwort `implements`, oder von anderen Interfaces erweitert (in diesem Fall mit `extends`)
-- sind (wörtlich) eine **Schnittstelle** zu anderen Programmteilen
-- können nicht instanziiert werden
-- enthalten **keinerlei** Implementationen von Methoden, sondern nur abstrakte Methoden
-  -   **Ausnahme:** Seit Java 8 gibt es [default methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
-- Methoden sind hier automatisch `abstract` und `public`, wobei `public` meist trotzdem mit angegeben wird.
+Bei Interfaces handelt es sich (ganz wörtlich) um **Schnittstellen** zu anderen Programmteilen. Schnittstellen bedeuten immer eine festgelegte Art der Interaktion bzw. Kommunikation - und genau das ist es, was _Interfaces_ in der OOP leisten.
 
-**Ein (minimales) Anwendungsbeispiel zu Interfaces:**  
-Mit einem Interface `TextProcessor`, welches die Fähigkeiten von Text-Prozessoren beschreibt (nämlich das Prozessieren von Text, was auch immer das bedeutet) ...
+
+## Zum Nutzen von Interfaces :thinking:
+
+Die Frage, wozu Interfaces eigentlich gut sind, kommt den meisten, die objektorientierte Programmierung erlernen. Am besten lässt sie sich wohl mit einem Anwendungsbeispiel beantworten:
+
+Stellen wir uns einmal vor, es gäbe in Java keine eingebaute Möglichkeit, die Elemente einer Datenstruktur zu sortieren. Wir entscheiden uns deshalb dazu, diese Funktionalität zu implementieren und zur offiziellen Java Standard Library beizutragen (easy), damit jede\*r Programmierer\*in auf der Welt diese Sortierfunktion nutzen kann.
+
+Dabei gibt es aber ein Problem: Wir wissen nicht, welche Datentypen die zukünftigen Anwender*innen damit sortieren wollen. Und um irgendwelche Dinge sortieren zu können, **müssen** diese untereinander vergleichbar sein! Wie also sollen wir z.B. eine Klasse schreiben, die den Inhalt von Datenstrukturen sortieren kann, ohne dass wir im Voraus wissen, was dieser Inhalt sein wird?
+
+Die Antwort: Ein _Interface_ muss her! Eine _Schnittstelle_ zwischen unserer Sortier-Klasse und den Datentypen, die damit sortiert werden können. Diese Schnittstelle sollte alle Eigenschaften festlegen, die ein _sortierbarer_ Datentyp mitbringen muss, damit er zu unserer Klasse kompatibel ist. Und diese Eigenschaft haben wir oben bereits gefunden: Die Instanzen des Datentyps **müssen untereinander vergleichbar sein**!
+
+Weil wir gute Programmierer*innen sind, geben wir unserem Interface einen sprechenden Namen, der das abbildet, was das Interface beschreibt: `Comparable` (_deu.: vergleichbar_). Alle Klassen, die das _Interface_ `Comparable` implementieren (so heißt das bei Interfaces - **nicht** "erweitern"), sollten eine Methode `compareTo()` besitzen, die das jeweilige Objekt mit einem übergebenen Objekt vergleicht und je nach Ergebnis `true` oder `false` (also ein `boolean`-Wert) zurückgibt. Dass diese Methode vorhanden sein muss, legen wir in unserem Interface `Comparable` fest. Fertig.
+
+Jetzt programmieren wir also unsere Sortier-Klasse so, dass sie Datenstrukturen sortieren kann, die `Comparable`s enthalten - ganz egal, was für Datentypen das nun eigentlich sind. Uns interessiert nur die Vergleichbareit - die Rückgabe der Methode `compareTo()`!
+
+> :speech_balloon: Das Interface `Comparable` gibt es übrigens wirklich. Dieses Beispiel ist nicht ausgedacht - im Gegenteil: Genau so funktioniert das Zusammenspiel von [`Comparable`](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html) und [`Collections.sort()`](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html#sort(java.util.List)).
+
+
+## Funktionsweise
+
+Interfaces werden mit `interface` eingeleitet (nicht mit `class`, siehe Beispiel unten). Sie enthalten **keinerlei** Implementationen von Methoden, sondern nur abstrakte Methoden (Ausnahme: Seit Java 8 gibt es [default methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)).
+
+Die in Interfaces durch bloße Signaturen definierten Methoden sind automatisch `abstract` und `public`, wobei `public` meist trotzdem mit angegeben wird.
 
 ```java
 public interface TextProcessor {
@@ -24,7 +42,26 @@ public interface TextProcessor {
 }
 ```
 
-... lässt sich ein Programm entwickeln, welches Text-Prozessoren einsetzt, ohne jemals zu wissen, um was für Text-Prozessoren es sich genau handelt:
+Interfaces werden von Klassen _implementiert_ (nicht erweitert), wobei eine Klasse beliebig viele Interfaces implementieren kann. Dies geschieht mit dem Schlüsselwort `implements`. Die Klasse **muss** dann alle im Interface vorgeschriebenen Methoden implementieren:
+
+```java
+public class TextToUpperCase implements TextProcessor {
+
+  @Override
+  public String process(String text){
+    return text.toUpperCase();
+  }
+
+}
+```
+
+Ein Interface **kann nicht direkt instanziiert werden**, d.h. es kann von einem Interface `TextProcessor` (siehe Beispiel oben) keine Instanz mittels `new TextProcessor()` erzeugt werden*. Eine Instanz eines Interface kann nur dadurch erzeugt werden, dass eine Instanz einer Klasse erzeugt wird, die dieses Interface implementiert**.
+
+> \* _Das stimmt so nicht ganz: Siehe [Anonyme Klassen](Innere-und-anonyme-Klassen.md)!_
+
+> \*\* _Das hingegen stimmt so und steht **nicht** im Widerspruch zu [Anonymen Klassen](Innere-und-anonyme-Klassen.md)!_
+
+Hier wird einer Methode eine Instanz von `TextProcessor` übergeben (es ist unbekannt - und unwichtig - das das genau für ein `Textprocessor` ist!):
 
 ```java
 public class TextEditor {
@@ -38,33 +75,22 @@ public class TextEditor {
 }
 ```
 
-So kann das Entwickeln von Text-Prozessoren anderen Personen überlassen werden oder man fügt selbst später weitere mögliche Text-Prozessoren hinzu - und das alles ohne dass die Klasse `TextEditor` verändert werden müsste:
+Interfaces können von anderen Interfaces erweitert werden! Dies geschieht wie beim Erweitern von Klassen - mit dem Schlüsselwort `extends`.
 
 ```java
-public class TextToUpperCase implements TextProcessor {
+public interface SpecialTextProcessor extends TextProcessor {
 
-  @Override
-  public String process(String text){
-    return text.toUpperCase();
-  }
+  //Dieses Interface "erbt" alle Methoden von "TextProcessor"
+  //und fügt eigene hinzu:
+
+  public String specialProcess(String input);
 
 }
 ```
 
-Da die Methode `applyTextProcessor()` der Klasse `TextEditor` gegen das Interface `TextProcessor` entwickelt wurde, funktioniert sie mit **jeder** ordentlichen Implementation von `TextProcessor`.
+So ließe sich ein Programm entwickeln, welches Text-Prozessoren einsetzt, ohne jemals zu wissen, um was für Text-Prozessoren es sich genau handelt. Auf diese Weise kann das Entwickeln von Text-Prozessoren anderen Personen überlassen werden oder man fügt selbst später weitere mögliche Text-Prozessoren hinzu - und das alles ohne dass die Klasse `TextEditor` verändert werden müsste!
 
-
-## Erweitern von Interfaces
-
-Ein Interface kann ein anderes Interface erweitern:
-
-```java
-public interface Bar extends Foo {
-    // ...
-}
-```
-
-Die entsprechenden Methoden von `Foo` müssen dann von Klassen, die `Bar` implementieren, ebenfalls implementiert werden.
+Da die Methode `applyTextProcessor()` der Klasse `TextEditor` gegen das Interface `TextProcessor` entwickelt wurde, funktioniert sie mit **jeder** "ordentlichen" Implementation von `TextProcessor`.
 
 
 ## `default`-Methoden
