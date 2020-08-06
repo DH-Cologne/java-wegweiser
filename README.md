@@ -3,7 +3,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->
 &nbsp;
-[![GitHub forks](https://img.shields.io/github/forks/DH-Cologne/java-wegweiser.svg?label=Forks&maxAge=2592000&style=flat-square)](https://GitHub.com/DH-Cologne/java-wegweiser/network/)
+[![GitHub forks](https://img.shields.io/github/forks/DH-Cologne/java-wegweiser.svg?label=Forks&maxAge=2592000&style=flat-square)](https://GitHub.com/DH-Cologne/java-wegweiser/network/members)
 &nbsp;
 [![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/DH-Cologne/java-wegweiser.svg?style=flat-square)](https://GitHub.com/DH-Cologne/java-wegweiser/pull/)
 &nbsp;
