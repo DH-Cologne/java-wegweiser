@@ -5,6 +5,8 @@
 &nbsp;
 [![GitHub forks](https://img.shields.io/github/forks/DH-Cologne/java-wegweiser.svg?label=Forks&maxAge=2592000&style=flat-square)](https://GitHub.com/DH-Cologne/java-wegweiser/network/members)
 &nbsp;
+[![GitHub issues](https://img.shields.io/github/issues/DH-Cologne/java-wegweiser.svg?style=flat-square)](https://GitHub.com/DH-Cologne/java-wegweiser/issues/)
+&nbsp;
 [![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/DH-Cologne/java-wegweiser.svg?style=flat-square)](https://GitHub.com/DH-Cologne/java-wegweiser/pull/)
 &nbsp;
 [![Website dh-cologne.github.io/java-wegweiser](https://img.shields.io/website-up-down-green-red/https/dh-cologne.github.io/java-wegweiser.svg?style=flat-square)](https://dh-cologne.github.io/java-wegweiser)
