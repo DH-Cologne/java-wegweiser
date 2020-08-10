@@ -14,7 +14,7 @@ Es ist für Anfänger nicht immer leicht, den Überblick über all die Fachbegri
 > In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
 
 > :milky_way:
-> **TODO:** `Stdin`, `Stdout`, `Stderr`, `Objekt-Identität`, `Objekt-Gleichheit`, `API` ...
+> **TODO:** `Objekt-Identität`, `Objekt-Gleichheit`, `API` ...
 
 
 
@@ -265,8 +265,20 @@ Genormte oder mindestens genau beschriebene logische Berührungspunkte von (Soft
 ### Setter
 Siehe :telescope: [Getter und Setter](articles/Objekte-I-Initialisierung-Members-Zugriff.md)
 
+### Standard-Datenströme
+Drei Datenströme (:point_right: [Stdout](#stdout), :point_right: [Stdin](#stdin) und :point_right: [Stderr](#stderr)) zur Daten Ein-/Ausgabe zwischen einem Programm und dem Betriebssystem bzw. der Umgebung, in der das Programm ausgeführt wird. Siehe auch :link: [Standard-Datenströme]([Standard-Datenströme](https://de.wikipedia.org/wiki/Standard-Datenstr%C3%B6me)).
+
 ### Statement
 Eigentlich englisch für "Aussage", im Programmier-Kontext sind aber unterschiedliche Dinge damit gemeint. In Java gibt es **drei verschiedene** Arten von Statements: _Expression Statements_ (siehe :point_right: [Ausdruck](#ausdruck)), _Declaration Statements_ (siehe :point_right: [Deklaration](#deklaration)) und _Control-flow statements_ (siehe :point_right: [Kontrollfluss](#kontrollfluss)).
+
+### Stderr
+Error-Datenstrom der :point_right: [Standard-Datenströme](#standard-datenströme). Kurz für _Standard Error_.
+
+### Stdin
+Eingabe-Datenstrom der :point_right: [Standard-Datenströme](#standard-datenströme). Kurz für _Standard Input_.
+
+### Stdout
+Ausgabe-Datenstrom der :point_right: [Standard-Datenströme](#standard-datenströme). Kurz für _Standard Output_.
 
 ### Syntactic sugar
 Syntax-Feature einer Programmierprache, mit dem eine bestimmte Anweisung (ö.ä.) einfacher oder leichter lesbar formuliert werden kann. Siehe auch :link: [Syntactic sugar](http://en.wikipedia.org/wiki/Syntactic_sugar).
