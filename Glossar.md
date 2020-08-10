@@ -14,7 +14,7 @@ Es ist für Anfänger nicht immer leicht, den Überblick über all die Fachbegri
 > In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
 
 > :milky_way:
-> **TODO:** `Objekt-Identität`, `Objekt-Gleichheit`, `API` ...
+> **TODO:** `Arbeitsspeicher`, `Hauptspeicher`, `Memory`, ...
 
 
 
@@ -36,6 +36,9 @@ Abfolge von aufeinanderfolgenden Einzelschritten zur Lösung eines Problems; sie
 
 ### Anweisung
 :point_right: [Statement](#statement) (eng.) oder Instruktion (unüblich)
+
+### API
+Kurz für _**A**pplication **P**rogramming **I**nterface_ (deu.: _Anwendungs­programmier­schnittstelle_). Eine Schnittstelle zur Anbindung an Anwendungen auf Quelltext-Ebene (nicht Binärcode). Siehe auch :link: [Programmierschnittstelle](https://de.wikipedia.org/wiki/Programmierschnittstelle).
 
 ### Argument
 :point_right: [Parameter](#parameter)
@@ -210,6 +213,12 @@ Das Ausführen mehrerer :point_right: [Threads](#thread) in einem :point_right: 
 
 ### Objekt
 Eine :point_right: [Instanz](#instanz) einer :telescope: [Klasse](articles/OOP-Einfuehrung.md); siehe auch :telescope: [Klassen und Objekte](articles/Klassen-und-Objekte.md).
+
+### Objekt-Gleichheit
+Die _Gleichheit_ (eng. _equality_) zweier :point_right: [Objekte](#objekt) ist gegeben, wenn diese sich in Hinsicht auf alle (oder bestimmte festgelegte) :point_right: [Eigenschaften](#attribut) gleichen.
+
+### Objekt-Identität
+Die _Identität_ (eng. _identity_) zweier :point_right: [Objekte](#objekt) ist gegeben, wenn diese überhaupt nicht zwei Objekte sind, sondern nur eines. Und zwar _das selbe_ (an der selben Stelle im :point_right: [Arbeitsspeicher](#arbeitsspeicher)).
 
 ### Operation
 Verarbeitungsschritt in einem Software-Programm. Siehe auch :link:[Operation](https://de.wikipedia.org/wiki/Operation_(Informatik)).
