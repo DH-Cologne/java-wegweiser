@@ -14,7 +14,7 @@ Es ist für Anfänger nicht immer leicht, den Überblick über all die Fachbegri
 > In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
 
 > :milky_way:
-> **TODO:** `Arbeitsspeicher`, `Hauptspeicher`, `Memory`, ...
+> **TODO:** `...`, ...
 
 
 
@@ -35,13 +35,17 @@ Trennung von Konzept und Umsetzung (:point_right: [Implementation](#implementati
 Abfolge von aufeinanderfolgenden Einzelschritten zur Lösung eines Problems; siehe auch :link: [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus).
 
 ### Anweisung
-:point_right: [Statement](#statement) (eng.) oder Instruktion (unüblich)
+Siehe :point_right: [Statement](#statement) (eng.) oder Instruktion (unüblich)
 
 ### API
 Kurz für _**A**pplication **P**rogramming **I**nterface_ (deu.: _Anwendungs­programmier­schnittstelle_). Eine Schnittstelle zur Anbindung an Anwendungen auf Quelltext-Ebene (nicht Binärcode). Siehe auch :link: [Programmierschnittstelle](https://de.wikipedia.org/wiki/Programmierschnittstelle).
 
+### Arbeitsspeicher
+
+Der Speicher eines Computers, der die gerade laufenden Programme und verwendeten Daten enthält. Auch: _Hauptspeicher_ bzw. eng. _(main) memory_ oder _RAM (Random Access Memory)_.
+
 ### Argument
-:point_right: [Parameter](#parameter)
+Siehe :point_right: [Parameter](#parameter)
 
 ### Attribut
 Ein einem Objekt zugeordnetes Merkmal bzw. Eigenschaft. Wird oft als anderes Wort für :point_right: [Instanszvariable](#instanzvariable) genutzt.
@@ -50,7 +54,7 @@ Ein einem Objekt zugeordnetes Merkmal bzw. Eigenschaft. Wird oft als anderes Wor
 Eine Kombination aus Variablen, Literals, Konstanten, Operatoren und Rückgabewerten von Methoden. Ein Ausdruck ergibt als ganzes einen Wert. Z.B. hat der Ausdruck `2 < 9` den Wert `true` und der Ausdruck `(4 - Math.max(15, 46)) * ( 1 + 1 == 1 ? 1 : -1)` den Wert `42`.
 
 ### Aussage
-:point_right: [Ausdruck](#ausdruck) mit einem :point_right: [Wahrheitswert](#wahrheitswert), etwa `2 == 7` (hat üblicherweise den Wert `false`).
+:point_right: [Ausdruck](#ausdruck) mit einem :point_right: [Wahrheitswert](#wahrheitswert), etwa `2 == 7` (hat üblicherweise den Wert `false`). Auch: Englisch für :point_right: [Statement](#statement) (aber als deutsche Entsprechung dafür eher unüblich im Programmier-Kontext).
 
 
 ## B
@@ -116,7 +120,7 @@ Ein :point_right: [Code](#code)-Block, der über einen Namen (:point_right: [Bez
 ## G
 
 ### Getter
-Siehe :telescope: [Getter und Setter](articles/Objekte-I-Initialisierung-Members-Zugriff.md)
+Siehe :telescope: [Getter und Setter](articles/Objekte-I-Initialisierung-Members-Zugriff.md).
 
 ### Gültigkeitsbereich
 Der Gültigkeitsbereich eines :point_right: [Bezeichners](#bezeichner) (Methodenname, Variablenname, etc.) ist der Bereich im :point_right: [Quelltext](#quelltext), von dem aus der Zugriff auf diesen Bezeichner möglich ist; auch: :point_right: [Scope](#scope).
@@ -127,6 +131,8 @@ Der Gültigkeitsbereich eines :point_right: [Bezeichners](#bezeichner) (Methoden
 ### Hard Coding
 Das Verwenden von expliziten Werten (mittels :point_right: [Literals](#literal)) direkt im Quelltext. Von Hard Coding (auch: etwas ist _hard-coded_) sprcht man etwa, wenn der Pfad zu einer Datei, die Zugangsdaten zu einer Datenbank o.ä. direkt in den Quelltext geschrieben werden statt sie z.B: aus einer Konfigurationsdatei zu laden, sie von User abzufragen oder aus einer sonstigen externen Quelle abzuleiten. Siehe auch: :link: [Hard Coding](https://en.wikipedia.org/wiki/Hard_coding). 
 
+### Hauptspeicher
+Siehe :point_right: [Arbeitsspeicher](#arbeitsspeicher).
 
 ## I
 
@@ -149,7 +155,7 @@ Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variable
 :point_right: [Statement](#statement) oder Anweisung; englisch.: _instruction_.
 
 ### Interface
-:point_right: [Schnittstelle](#schnittstelle)
+Englisch für :point_right: [Schnittstelle](#schnittstelle). Im Kontext von OOP siehe auch :telescope: [Interfaces](articles/Vererbung-III-Interfaces.md).
 
 
 ## J
@@ -191,6 +197,9 @@ Sich auf einer niedrigen (:point_right: [Abstraktions](#abstraktion)-) Ebene bef
 
 ### Member
 Englisch für _Mitglied_; Überbegriff für :point_right: [Attribute](#attribut) und :point_right: [Methoden](#methode) einer :point_right: [Klasse](#klasse).
+
+### Memory
+Meist kurz für _main memory_ (Englisch für :point_right: [Arbeitsspeicher](#arbeitsspeicher)).
 
 ### Methode
 Eine :point_right: [Funktion](#funktion), die ein :point_right: [Member](#member) einer :point_right: [Klasse](#klasse) ist. Siehe auch: :telescope: [Methoden](articles/Methoden.md).
@@ -269,10 +278,10 @@ Englisch für :point_right: [Laufzeit](#laufzeit).
 Genormte oder mindestens genau beschriebene logische Berührungspunkte von (Software-) Systemen. Siehe auch :telescope: [Interfaces](articles/Vererbung-III-Interfaces.md).
 
 ### Scope
-:point_right: [Gültigkeitsbereich](#gültigkeitsbereich)
+Englisch für :point_right: [Gültigkeitsbereich](#gültigkeitsbereich).
 
 ### Setter
-Siehe :telescope: [Getter und Setter](articles/Objekte-I-Initialisierung-Members-Zugriff.md)
+Siehe :telescope: [Getter und Setter](articles/Objekte-I-Initialisierung-Members-Zugriff.md).
 
 ### Standard-Datenströme
 Drei Datenströme (:point_right: [Stdout](#stdout), :point_right: [Stdin](#stdin) und :point_right: [Stderr](#stderr)) zur Daten Ein-/Ausgabe zwischen einem Programm und dem Betriebssystem bzw. der Umgebung, in der das Programm ausgeführt wird. Siehe auch :link: [Standard-Datenströme]([Standard-Datenströme](https://de.wikipedia.org/wiki/Standard-Datenstr%C3%B6me)).
