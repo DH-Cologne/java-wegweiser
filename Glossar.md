@@ -2,7 +2,7 @@
 
 **Erläuterung und Verknüpfung von Begriffen rund um Softwaretechnologie**
 
-Es ist für Anfänger nicht immer leicht, den Überblick über all die Fachbegriffe zur Softwaretechnologie zu behalten. Genau das ist aber sehr wichtig für das Verständnis von Erläuterungen in Lehrveranstaltungen, Büchern, Dokumentationen etc.! Im Folgenden die wichtigsten (nicht Java-spezifischen!) Begriffe alphabetisch sortiert aufgelistet, kurz erläutert und miteinander verknüpft.
+Es ist für Anfänger nicht immer leicht den Überblick über all die relevanten (Fach-)begriffe zur Softwaretechnologie zu behalten. Genau das ist aber sehr wichtig für das Verständnis von Lehrveranstaltungen, Büchern, Dokumentationen etc.! Im Folgenden sind die wichtigsten (nicht Java-spezifischen!) Begriffe alphabetisch sortiert aufgelistet, kurz erläutert und miteinander verknüpft.
 
 > :construction: :snail:
 > Dieses Verzeichnis wird wohl für immer **_work in progress_** sein!
@@ -14,7 +14,7 @@ Es ist für Anfänger nicht immer leicht, den Überblick über all die Fachbegri
 > In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
 
 > :milky_way:
-> **TODO:** `...`, ...
+> **TODO:** `Programmbibliothek`, `Library`, `Kapselung` ...
 
 
 
@@ -134,6 +134,9 @@ Das Verwenden von expliziten Werten (mittels :point_right: [Literals](#literal))
 ### Hauptspeicher
 Siehe :point_right: [Arbeitsspeicher](#arbeitsspeicher).
 
+### high-level
+Sich auf einer hohen (:point_right: [Abstraktions](#abstraktion)-)Ebene befindend. Beschreibt z.B. Code, der durch die Verwendung einer entsprechenden :point_right: [Programmbibliothek](#programmbibliothek), die technische Details :point_right: [kapselt](#kapselung), sehr einfach lesbar und semantisch verständlich ist. Gegenteil von :point_right: [low-level](#low-level).
+
 ## I
 
 ### IDE
@@ -190,7 +193,7 @@ Ausdruck, der zur direkten Darstellung eines Wertes (numerischer Wert, String, A
 Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variablen).
 
 ### low-level
-Sich auf einer niedrigen (:point_right: [Abstraktions](#abstraktion)-) Ebene befindend. Beschreibt z.B. Code, der ohne den Einsatz von Frameworks o.ä. arbeitet oder maschinennahe Programme wie Treiber.
+Sich auf einer niedrigen (:point_right: [Abstraktions](#abstraktion)-) Ebene befindend. Beschreibt z.B. Code, der ohne den Einsatz von Frameworks o.ä. arbeitet oder maschinennahe Programme wie Treiber. Gegenteil von :point_right: [high-level](#high-level).
 
 
 ## M
