@@ -14,7 +14,7 @@ Es ist für Anfänger nicht immer leicht den Überblick über all die relevanten
 > In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
 
 > :milky_way:
-> **TODO:** `Programmbibliothek`, `Library`, `Kapselung` ...
+> **TODO:** `Kapselung`, ...
 
 
 
@@ -186,6 +186,9 @@ Die Steuerung des Ablaufs eine Programmes. Für den Kontrollfluss werden :telesc
 ### Laufzeit
 (1.) Zeitraum, in dem ein Programm läuft bzw. ausgeführt wird; (2.) :point_right: [Performanz](#performanz) eines :point_right: [Algorithmus](#algorithmus) oder sonstigen Programmteils. Siehe auch :link: [Laufzeit (Informatik)](https://de.wikipedia.org/wiki/Laufzeit_(Informatik)).
 
+### Library
+Kurz und Englisch für :point_right: [Programmbibliothek](#programmbibliothek).
+
 ### Literal
 Ausdruck, der zur direkten Darstellung eines Wertes (numerischer Wert, String, Array, ...) genutzt wird. Mit Literals werden Werte :point_right: "[hard coded](#hard-coding)" in den Quelltext geschrieben. Siehe auch: :link: [Literal](https://de.wikipedia.org/wiki/Literal).
 
@@ -252,6 +255,9 @@ Eigenschaft eines Programmes oder Programmteils, viel oder wenig Rechenzeit in A
 
 ### Polymorphie
 Konzept in der objektorientierten Programmierung: Ein :point_right: [Bezeichner](#bezeichner) (:telescope: [Variable](articles/Variablen.md)) kann Objekte unterschiedlichen :point_right: [Datentyps](#datentyp) referenzieren. Dabei hat der Bezeichner einen gleichen oder höherwertigen Datentyp, als das referenzierte Objekt. Beispiel: `SpecialUser su = new SpecialUser(); User u = su;` Siehe auch :link: [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung)).
+
+### Programmbibliothek
+Sammlung von Programmbestandteilen, die in anderen Programmen verwendet werden können. Dies geschieht über die Benutzung der :point_right: [API](#api) der entsprechenden Bibliothek. Siehe auch :link: [Programmbibliothek](https://de.wikipedia.org/wiki/Programmbibliothek).
 
 ### Prozess
 Ein laufendes Programm im Kontext eines Computersystems. Siehe auch: :point_right: [Thread](#thread).
