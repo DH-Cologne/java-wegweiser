@@ -1,20 +1,28 @@
 
 # Hello World! :rocket:
 
-Zum Erlernen einer Programmiersprache gehört immer auch ein **_"Hello World"_**-Beispiel, das den Quelltext eines minimalen Programms zeigt, welches einfach nur die Worte `Hello World!` auf der Konsole ausgibt. Mit dieser Tradition wollen wir hier - Gott bewahre - nicht brechen!
+Zum Erlernen einer Programmiersprache gehört immer auch ein **_"Hello World"_**-Beispiel, das den Quelltext eines minimalen Programms zeigt, welches einfach nur die Worte `Hello World!` auf der Konsole ausgibt. Mit dieser Tradition wollen wir hier - Gott bewahre! - nicht brechen.
 
 Das folgende Java-Programm wäre lauffähig und würde die Zeichenkette `Hello World!` auf der Konsole ausgeben:
 
 ```java
-public class HelloWorld {
-      public static void main(String[] args) {
-          System.out.println("Hello World!");
-      }
-}
+1   public class HelloWorld {
+2         public static void main(String[] args) {
+3             System.out.println("Hello World!");
+4         }
+5   }
 ```
 
+Da du vermutlich gerade erst anfängst Java zu lernen, musst du diesen Quellcode noch nicht im Detail verstehen. Es reichen zunächst folgende Dinge:
 
-> :warning: **Wenn du Java nicht schon beherrschst**, siehst du in diesem winzigen Beispiel bereits viele Dinge, die dir jetzt noch nichts sagen. **Das ist in Ordnung!** Nimm den Code einfach so hin, wie er ist. Später kannst du hierher zurückkehren und prüfen, ob du schon alle in diesem Beispiel vorkommenden Konzepte kennst. Im Folgenden sollen dazu die einzelnen Bestandteile des Beispiel-Codes benannt (**nicht** erklärt) werden, damit du weißt, wonach du in den weiteren Kapiteln suchen musst...
+Java-Programme sind aus sogenannten [_Klassen_](OOP-Klassen-und-Objekte.md) aufgebaut (dazu später mehr!). In Zeile `1` wird eine neue Klasse definiert (sie heißt `HelloWorld`). Die darauf folgende geschweifte Klammer `{` (auch in Zeile `1`) markiert den Anfang des _Gültigkeitsbereichs_ dieser Klasse - d.h. wo die Klasse anfängt und wo sie endet. Der Gültigkeitsbereich der Klasse `HelloWorld` endet mit der schließenden Klammer `}` in Zeile `5`. Damit das auch auf einen Blick erkennbar ist, wird **alles** was sich **innerhalb** dieses Gültigkeitsbereichs befindet, **eingerückt** (`TAB`-Taste). Diese Regel für die Code-Formatierung gilt übrigens **für alle Gültigkeitsbereiche `{ ... }`!**
+
+Der einzige Inhalt der Klasse `HelloWorld` ist eine [_Methode_](Methoden.md) mit dem Namen `main` (Zeile 2). Was genau eine Methode ist und was die ganzen anderen Schlüsselwörter in Zeile `2` bedeuten, wird ebenfalls später erklärt. Wichtig ist im Moment nur eines: Die `main`-Methode ist der Einstiegspunkt eines Java-Programms - hier beginnt die Ausführung des Programms. Wenn dein Programm keine `main`-Methode hat, in der etwas passiert, dann tut das Programm auch nichts. Auch Methoden haben (offensichtlich) einen Gültigkeitsbereichs - wieder markiert durch `{` und `}`.
+
+Zuletzt sehen wir uns noch Zeile `3` an: Der Inhalt der `main`-Methode ist eine einzige Anweisung - nämlich ein Ausdruck, in dem die Methode `println` aufgerufen wird. Diese Methode gehört zu einer anderen Klasse, auf die wir von hier aus zugreifen können. `System.out.println()` ist also ein Methoden-Aufruf. Die Methode `println` gibt das auf der Konsole aus, was ihr in den runden Klammern `(...)` übergeben wurde. In diesem Fall `"Hello World!"`. Am Ende von Zeile `3` steht ein Semikolon `;`. In Java müssen viele Anweisungen mit `;` abgeschlossen werden - welche das sind, wird später klarer.s
+
+
+> :warning: **Nochmal: Wenn du Java nicht schon beherrschst**, siehst du in diesem winzigen Beispiel bereits viele Dinge, die dir jetzt noch nichts sagen. **Das ist in Ordnung!** Nimm den Code einfach so hin, wie er ist. Später kannst du hierher zurückkehren und prüfen, ob du schon alle in diesem Beispiel vorkommenden Konzepte kennst. Im Folgenden sollen dazu die einzelnen Bestandteile des Beispiel-Codes noch einmal genau benannt (**nicht** erklärt) werden, damit du weißt, wonach du in den weiteren Kapiteln suchen musst...
 
 
 Code | Was ist das?
