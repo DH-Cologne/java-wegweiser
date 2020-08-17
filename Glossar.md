@@ -168,6 +168,9 @@ Englisch für :point_right: [Schnittstelle](#schnittstelle). Im Kontext von OOP 
 
 ## K
 
+### Kapselung
+Verbergen von Daten, Informationen oder Programmlogik vor (ungeregeltem) Zugriff von "außen". Auch wichtiges Mittel zur Erstellung von aufgeräumtem, wartbarem Quellcode. Siehe auch :link: [Datenkapselung (Programmierung)](https://de.wikipedia.org/wiki/Datenkapselung_(Programmierung)#Herleitung) und (speziell mit Bezug auf :telescope: [OOP](articles/OOP-Klassen-und-Objekte.md)) :link: [Datenkapselung im objektorientierten Paradigma](https://de.wikipedia.org/wiki/Datenkapselung_(Programmierung)#Datenkapselung_im_objektorientierten_Paradigma).
+
 ### Klasse
 Siehe :telescope: [OOP-Einführung](articles/OOP-Einfuehrung.md) bzw. :telescope: [Klassen und Objekte](articles/Klassen-und-Objekte.md).
 
