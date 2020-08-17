@@ -14,7 +14,7 @@ Es ist für Anfänger nicht immer leicht den Überblick über all die relevanten
 > In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
 
 > :milky_way:
-> **TODO:** `Kapselung`, ...
+> **TODO:** `...`, ...
 
 
 
@@ -224,7 +224,8 @@ Das Ausführen mehrerer :point_right: [Threads](#thread) in einem :point_right: 
 
 ## N
 
-...
+### Nullwert
+Auch **NULL** oder **NIL**. Ein Zustandswert, der die Abwesenheit eines Wertes kennzeichnet. Es wird mit diesem Wert also ausgedrückt, dass kein Wert vorhanden ist. In Java: `null`.
 
 
 ## O
