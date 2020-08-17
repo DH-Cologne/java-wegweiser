@@ -13,7 +13,7 @@ Ein sehr häufiges (weil nachvollziehbares) Beispiel für die Anwendung von Enum
 
 ## Grundlegender Aufbau
 
-Da Enums Klassen sind, die von `java.lang.Enum` erben, ähneln sie gewöhnlichen Klassen: Sie können Felder, Methoden und sogar einen Konstruktor besitzen. Aber sie besitzen eine spezielle Syntax, mit der sich "Aufzählungen" von vordefinierten Werten umsetzen lassen.
+Da Enums Klassen sind, die von `java.lang.Enum` erben, ähneln sie gewöhnlichen Klassen: Sie können Felder, Methoden und sogar einen Konstruktor besitzen. Aber sie besitzen eine spezielle :point_right: [Syntax](../Glossar.md#syntax), mit der sich "Aufzählungen" von vordefinierten Werten umsetzen lassen.
 
 Der Unterschied zu einer gewöhnlichen Klassendefinition ist zunächst genau diese Aufzählung. Nehmen wir eine Datei `Weekday.java` mit folgendem Inhalt an:
 

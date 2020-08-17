@@ -125,7 +125,7 @@ Das ist aber wirklich nur dann sinnvoll, wenn es einen Mehrwert bietet (etwa wen
 
 ## for-each-Schleife
 
-Eine for-each-Schleife ist eine Spezialform der `for`-Schleife. Sie bietet eine noch klarere und reduziertere Syntax, denn es wird auf eine Zählvariable verzichtet. Stattdessen ist die for-each-Schleife speziell dazu gedacht, über jedes Element einer Datenstruktur (genauer: eines `Iterable` oder eines Arrays) zu iterieren.
+Eine for-each-Schleife ist eine Spezialform der `for`-Schleife. Sie bietet eine noch klarere und reduziertere :point_right: [Syntax](../Glossar.md#syntax), denn es wird auf eine Zählvariable verzichtet. Stattdessen ist die for-each-Schleife speziell dazu gedacht, über jedes Element einer Datenstruktur (genauer: eines `Iterable` oder eines Arrays) zu iterieren.
 
 Damit über eine Datenstruktur mit einer for-each-Schleife iteriert werden kann, **muss** sie das Interface `Iterable` implementieren (das trifft z.B. auf alle _Collections_ aus dem [Collections Framework](Collections-Framework.md) zu). Eine Ausnahme stellen **Arrays** dar - auch diese sind mit der for-each-Schleife iterierbar.
 

@@ -308,7 +308,10 @@ Eingabe-Datenstrom der :point_right: [Standard-Datenströme](#standard-datenstr�
 Ausgabe-Datenstrom der :point_right: [Standard-Datenströme](#standard-datenströme). Kurz für _Standard Output_.
 
 ### Syntactic sugar
-Syntax-Feature einer Programmierprache, mit dem eine bestimmte Anweisung (ö.ä.) einfacher oder leichter lesbar formuliert werden kann. Siehe auch :link: [Syntactic sugar](http://en.wikipedia.org/wiki/Syntactic_sugar).
+:point_right: [Syntax](#syntax)-Feature einer Programmierprache, mit dem eine bestimmte Anweisung (ö.ä.) einfacher oder leichter lesbar formuliert werden kann. Siehe auch :link: [Syntactic sugar](http://en.wikipedia.org/wiki/Syntactic_sugar).
+
+### Syntax
+System zur Formung gültiger ([Quell-](#quelltext))Texte aus dem Zeichenvorrat einer Sprache. Siehe auch :link: [Syntax](https://de.wikipedia.org/wiki/Syntax#Syntax_formaler_Sprachen).
 
 ## T
 

@@ -32,7 +32,7 @@ In Java muss jedes Array typisiert sein, d.h. es muss festgelegt werden, von wel
 
 ## Erzeugen eines Arrays
 
-Die Größe und der Datentyp eines Arrays **müssen** bei der Initialisierung festgelegt werden. Die Syntax für ein Array für Elemente mit einem bestimmten Datentyp ist `Typ[]`, wobei `Typ` den Datentyp angibt und die Klammern `[]` anzeigen, dass es sich um ein Array handelt bzw. wie groß dieses ist oder auf welches Element zugegriffen wird (das alles wird im Folgenden gezeigt).
+Die Größe und der Datentyp eines Arrays **müssen** bei der Initialisierung festgelegt werden. Die :point_right: [Syntax](../Glossar.md#syntax) für ein Array für Elemente mit einem bestimmten Datentyp ist `Typ[]`, wobei `Typ` den Datentyp angibt und die Klammern `[]` anzeigen, dass es sich um ein Array handelt bzw. wie groß dieses ist oder auf welches Element zugegriffen wird (das alles wird im Folgenden gezeigt).
 
 Ein Array kan auf zwei verschiedene Weisen erzeugt werden ...
 
@@ -68,7 +68,7 @@ In der zweiten Zeile geschieht das selbe für ein Array mit drei Strings.
 
 Eine explizite Angabe der Größe des erzeugten Arrays ist hier nicht nötig, denn diese ist durch die Anzahl der definierten Elemente bereits implizit festgelegt.
 
-Soll eine Array-Variable deklariert, das Array aber erst an späterer Stelle initialisiert werden, ist folgende Syntax nötig:
+Soll eine Array-Variable deklariert, das Array aber erst an späterer Stelle initialisiert werden, ist folgende :point_right: [Syntax](../Glossar.md#syntax) nötig:
 
 ``` java
 String[] words;

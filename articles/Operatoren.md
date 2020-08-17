@@ -237,7 +237,7 @@ String answerToEverything = "42";
 
 ### Kombinierte Zuweisungsoperatoren
 
-Die arithmetischen und bitweisen Operatoren lassen sich mit dem Zuweisungsoperator `=` kombinieren, um eine verkürzte Syntax zu erzielen:
+Die arithmetischen und bitweisen Operatoren lassen sich mit dem Zuweisungsoperator `=` kombinieren, um eine verkürzte :point_right: [Syntax](../Glossar.md#syntax) zu erzielen:
 
 ```java
 x = x + 2;

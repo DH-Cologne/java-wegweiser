@@ -105,7 +105,7 @@ Ergibt folgende Ausgabe:
 
 (oder: _special characters_)
 
-Es gibt einige Zeichen, die sich ohne eine spezielle Syntax nicht in String-Literals unterbringen ließen, wie etwa Zeilenumbrüche oder die doppelten Anführungszeichen (die ja dazu da sind, ein String-Literal zu begrezen!). Um diese Zeichen doch benutzen zu können, müssen sie mit einem vorangestellten `\` maskiert (in diesem Fall engl: _escaped_) werden.  
+Es gibt einige Zeichen, die sich ohne eine spezielle :point_right: [Syntax](../Glossar.md#syntax) nicht in String-Literals unterbringen ließen, wie etwa Zeilenumbrüche oder die doppelten Anführungszeichen (die ja dazu da sind, ein String-Literal zu begrezen!). Um diese Zeichen doch benutzen zu können, müssen sie mit einem vorangestellten `\` maskiert (in diesem Fall engl: _escaped_) werden.  
 Es folgt eine Liste dieser Spezial-Zeichen:
 
 Zeichen | Bedeutung

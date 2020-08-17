@@ -15,7 +15,7 @@ Konditionale steuern den Ablauf eines Programmes in Abhängigkeit von Bedingunge
 
 Ein `if/else`-Statement führt Code in Abhängigkeit vom Wahrheitsgehalt (`true`/`false`) einer Aussage bzw. eines boolschen Ausdrucks aus. Es besteht mindestens aus **einem** `if`-Block (_wenn, dann..._), einer **beliebigen Anzahl von** `else if`-Blöcken (_sonst wenn, dann..._) und **maximal einem** `else`-Block (_sonst..._). 
 
-**Syntax-Beispiel:**
+**:point_right: [Syntax](../Glossar.md#syntax)-Beispiel:**
 
 ```java
 int i = 4;
