@@ -14,7 +14,7 @@ Es ist für Anfänger nicht immer leicht den Überblick über all die relevanten
 > In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
 
 > :milky_way:
-> **TODO:** `...`, ...
+> **TODO:** `Design Pattern`, `Entwurfsmuster`, `Listener`, `GUI`, ...
 
 
 
