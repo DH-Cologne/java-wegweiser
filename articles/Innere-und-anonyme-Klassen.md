@@ -24,6 +24,8 @@ class {
 }
 ```
 
+> :speech_balloon: In diesem Beispiel geht es nur um die Semantik der verwendeten Attribute. In der Realität bräuchte man für die Adresse natürlich nicht unbedingt eine eigene Klasse!
+
 In diesem Beispiel wird die Klasse `Address` eventuell sogar niemals außerhalb der Klasse `Customer` genutzt. Das wäre dann eigentlich ein Fall für eine `private` innere Klasse, denn innere Klassen können (anders als normale Klassen) `private` oder auch `protected` sein (siehe auch [Sichtbarkeitsmodifizierer](Objekte-I-Initialisierung-Members-Zugriff.md#zugriffs-sichetbarkeitsmodifizierer)).
 
 Innere Klassen können aber auch "von außerhalb" genutzt werden:
