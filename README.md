@@ -119,6 +119,7 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 
 #### [Vererbung II: Abstrakte Klassen und Methoden](articles/Vererbung-II-Abstrakte-Klassen-und-Methoden.md)
 > `abstrakte Klassen`, `abstrakte Methoden`, `abstract`, ...
+
 #### [Vererbung III: Interfaces](articles/Vererbung-III-Interfaces.md)
 > `Interfaces`, `Erweiterung von Interfaces`, `default-Methoden` ...
 
