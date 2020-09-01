@@ -111,9 +111,6 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 #### [`final`](articles/Final.md)
 > `final`, `finale Variablen`, `finale Klassen`, `finale Methoden`, `Konstanten in Java`, ...
 
-#### [Innere und anonyme Klassen](articles/Innere-und-anonyme-Klassen.md)
-> `Anonyme Klassen`, `Innere Klassen`, ...
-
 #### [Vererbung I: Grundlagen](articles/Vererbung-I-Grundlagen.md)
 > `Wozu?`, `Terminologie`, `extends`, `super`, `instanceof-Operator`, `Überschreiben von Methoden`, ...
 
@@ -125,6 +122,9 @@ Dieses Repository ist weit davon entfernt, vollständig zu sein. Aber das ist ok
 
 #### [Vererbung III: Interfaces](articles/Vererbung-III-Interfaces.md)
 > `Interfaces`, `Erweiterung von Interfaces`, `default-Methoden` ...
+
+#### [Innere und anonyme Klassen](articles/Innere-und-anonyme-Klassen.md)
+> `Anonyme Klassen`, `Innere Klassen`, ...
 
 
 
