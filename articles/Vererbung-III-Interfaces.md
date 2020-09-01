@@ -5,7 +5,7 @@
 - [Vererbung III: Interfaces :electric_plug:](#vererbung-iii-interfaces-)
   - [Zum Nutzen von Interfaces :thinking:](#zum-nutzen-von-interfaces-)
   - [Funktionsweise](#funktionsweise)
-  - [`default`-Methoden](#default-methoden)
+  - [Default-Methoden](#default-methoden)
 
 
 Bei Interfaces handelt es sich (ganz wörtlich) um **Schnittstellen** zu anderen Programmteilen. Schnittstellen bedeuten immer eine festgelegte Art der Interaktion bzw. Kommunikation - und genau das ist es, was _Interfaces_ in der OOP leisten.
@@ -93,9 +93,31 @@ So ließe sich ein Programm entwickeln, welches Text-Prozessoren einsetzt, ohne 
 Da die Methode `applyTextProcessor()` der Klasse `TextEditor` gegen das Interface `TextProcessor` entwickelt wurde, funktioniert sie mit **jeder** "ordentlichen" Implementation von `TextProcessor`.
 
 
-## `default`-Methoden
+## Default-Methoden
 
-> :construction: **TODO:** Abschnitt über [`default`-Methoden](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
+Seit Java 8 können Interfaces sogenannte Default-Methoden (markiert mit dem Schlüsselwort `default`) besitzen. Diese Methoden sind, wie alle Methoden-Signaturen in Interfaces, weiterhin dazu gedacht, in Klassen implementiert zu werden, die das jeweilige Interface implementieren. Das Besondere an Default-Methoden ist aber, dass sie eine Standard-Implementation ihrer selbst zur Verfügung stellen, falls sie in der implementierenden Klasse nicht berücksichtigt werden.
+
+```java
+public interface ExampleInterface {
+	// normale Methoden Signatur
+	String why();
+	
+	// Default-Methode
+	default String because() {
+		return "I can.";
+	}
+}
+```
+
+Es drängt sich natürlich die Frage auf, wozu es diese Methoden denn dann gibt, wenn sie nicht mehr implementiert werden müssen - immerhin ist das ja Sinn und Zweck von Interfaces!
+
+Der Grund für Default-Methoden liegt in der langfristigen Wartbarkeit und Kompatibilität größerer, evtl. weit verbreiteter Programme- und Bibliotheken. Bevor es die Default-Methoden gab, konnte nämlich zu einem Interface keine zusätzliche Methode(-ensignatur) hinzugefügt werden, ohne dass alle implementierenden Klassen angepasst werden mussten. Jetzt geht das - mit einer default-Implementation der neuen Methode!
+
+> :link: Einen weiterführenden Artikel zum Thema findest du [hier](https://www.baeldung.com/java-static-default-methods).
+
+
+
+
 
 
 <!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
