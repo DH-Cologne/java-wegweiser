@@ -6,6 +6,7 @@
   - [Zum Nutzen von Interfaces :thinking:](#zum-nutzen-von-interfaces-)
   - [Funktionsweise](#funktionsweise)
   - [Default-Methoden](#default-methoden)
+  - [Statische Methoden in Interfaces](#statische-methoden-in-interfaces)
 
 
 Bei Interfaces handelt es sich (ganz wörtlich) um **Schnittstellen** zu anderen Programmteilen. Schnittstellen bedeuten immer eine festgelegte Art der Interaktion bzw. Kommunikation - und genau das ist es, was _Interfaces_ in der OOP leisten.
@@ -112,6 +113,51 @@ public interface ExampleInterface {
 Es drängt sich natürlich die Frage auf, wozu es diese Methoden denn dann gibt, wenn sie nicht mehr implementiert werden müssen - immerhin ist das ja Sinn und Zweck von Interfaces!
 
 Der Grund für Default-Methoden liegt in der langfristigen Wartbarkeit und Kompatibilität größerer, evtl. weit verbreiteter Programme- und Bibliotheken. Bevor es die Default-Methoden gab, konnte nämlich zu einem Interface keine zusätzliche Methode(-ensignatur) hinzugefügt werden, ohne dass alle implementierenden Klassen angepasst werden mussten. Jetzt geht das - mit einer default-Implementation der neuen Methode!
+
+> :link: Einen weiterführenden Artikel zum Thema findest du [hier](https://www.baeldung.com/java-static-default-methods).
+
+
+## Statische Methoden in Interfaces
+
+Ebenfalls seit Java 8 ist es möglich Interfaces mit statischen Methoden auszustatten. Der Hintergedanke hierzu ist, dass bisher sehr häufig sogenannte "Helferklassen" (oder auch "helper classes" oder "utility classes") geschrieben wurden, die ausschließlich statische Methoden enthalten, die vollkommen zustandslos sind. Ein (bewusst simpel gehaltenes) Beispiel wäre diese Klasse:
+
+```java
+public class StringHelper {
+	
+	public static int vowelsCount(String s) {
+		return s.replaceAll("(?i)[^aeiou]", "").length();
+	}
+	
+	public static String reverse(String s) {
+		return new StringBuilder(s).reverse().toString();
+	}
+	
+}
+```
+
+Hier werden zwei einfache Methoden angeboten, die irgendetwas mit Strings tun. Sie benutzen keine Klassenvariablen und stehen einfach so für sich.
+
+Nun sind Klassen in der objektorientierten Programmierung aber dazu da, Objekte mit Eigenschaften und Fähigkeiten zu beschreiben. Die Klasse `StringHelper` tut das nicht: Es wäre sinnlos, ein Objekt vom Typ `StringHelper` zu erzeugen.
+
+Aus diesem Grund kann man nun Interfaces mit statischen Methoden Schreiben:
+
+```java
+public interface StringHelper {
+	
+	public static int vowelsCount(String s) {
+		return s.replaceAll("(?i)[^aeiou]", "").length();
+	}
+	
+	public static String reverse(String s) {
+		return new StringBuilder(s).reverse().toString();
+	}
+	
+}
+```
+
+> :speech_balloon: Hier hat sich zum Beispiel oben nur `class` in `interface` geändert!
+
+Der Unterschied ist natürlich marginal, aber es ist semantisch viel sauberer, denn Interfaces können ohnehin nicht instanziiert werden. Man ruft diese Methoden (als wären sie statische Methoden in einer Klasse) in der Form `StringHelper.reverse("Hello")` auf. Anders geht es auch nicht - denn ein Objekt einer implementierenden Klasse würde diese Methode überhaupt nicht anbieten!
 
 > :link: Einen weiterführenden Artikel zum Thema findest du [hier](https://www.baeldung.com/java-static-default-methods).
 
