@@ -155,7 +155,7 @@ public interface StringHelper {
 }
 ```
 
-> :speech_balloon: Hier hat sich zum Beispiel oben nur `class` in `interface` geändert!
+> :speech_balloon: Hier hat sich nur `class` in `interface` geändert!
 
 Der Unterschied ist natürlich marginal, aber es ist semantisch viel sauberer, denn Interfaces können ohnehin nicht instanziiert werden. Man ruft diese Methoden (als wären sie statische Methoden in einer Klasse) in der Form `StringHelper.reverse("Hello")` auf. Anders geht es auch nicht - denn ein Objekt einer implementierenden Klasse würde diese Methode überhaupt nicht anbieten!
 
