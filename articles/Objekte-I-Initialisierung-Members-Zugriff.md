@@ -162,40 +162,88 @@ public class User {
 
 ## Getter & Setter
 
-Bei Gettern und Settern handelt es sich um einfache Methoden zum Lesen und Setzen von Instanzvariablen (s.o.). Sie bieten Kontrolle über die Werte, die gesetzt werden und können ggf. Fehler ausgeben oder Werte vorher manipulieren.
+Bei Gettern und Settern handelt es sich um Methoden zum Lesen bzw. Schreiben von Instanzvariablen (s.o.) oder ähnlichen Werten, die den Zustand eines Objektes beschreiben.
 
-Die entsprechenden Klassenattribute werden für gewöhnlich `private` gesetzt, damit sie nur über die _Getter_ bzw. _Setter_ zugänglich sind ([_Datenkapselung / Geheimnisprinzip_](https://de.wikipedia.org/wiki/Datenkapselung_(Programmierung))).
+Getter geben entweder einfach den Wert einer Instanzvariable zurück, oder generieren den gewünschten Wert aus anderen Werten:
+
+```java
+public class User {
+
+  private String firstName;
+  private String lastName;
+  // ...
+
+  public String getFirstName(){
+    return firstName;
+  }
+
+  public String getLastName(){
+    return firstName;
+  }
+
+  public String getFullName(){
+    return firstName + " " + lastName;
+  }
+
+  // ...
+
+}
+```
+
+Setter hingegen bieten Kontrolle über die Werte, die für Instanzvariablen gesetzt werden können. Sie geben ggf. Fehler aus wenn ein ungültiger Wert übergeben wird oder manipulieren diesen vor der Zuweisung:
+
+```java
+public class User {
+
+  private String firstName;
+  // ...
+
+  public void setFirstName(String firstName){
+    if (firstName.length() > 64){
+      System.err.println("First name too long. Trimming.");
+      firstName = firstName.substring(0, 63);
+    }
+    this.firstName = firstName;
+  }
+
+  // ...
+
+}
+```
+
+Klassenattribute werden für gewöhnlich `private` gesetzt, damit sie von außerhalb entweder **nicht** (weil nicht nötig) oder eben **nur über die _Getter_ bzw. _Setter_** zugänglich sind ([_Datenkapselung / Geheimnisprinzip_](https://de.wikipedia.org/wiki/Datenkapselung_(Programmierung))).
 
 Getter und Setter können sehr gut in Konstruktoren wiederverwendet werden, damit die Logik zum Setzen von Werten an einem Ort zentralisiert ist:
 
 ```java
 public class User {
 
-  private String name;
+  private String firstName;
+  // ...
 
-  public User(String name){
-    setName(name); // Setter in Konstruktor nutzen
+  public User(String firstName){
+    setFirstName(firstName); // Setter in Konstruktor nutzen
   }
 
-  public String getName(){
-    return name;
-  }
+  // ...
 
-  public void setName(String name){
+  public void setFirstName(String firstName){
     // Logik zum Setzen der name-Klassenattribut
     // Beispiel: Wert darf nicht null sein
-    if (name == null) {
+    if (firstName == null) {
       // Oder wie auch immer man reagieren möchte...
-      System.err.println("So heißt doch niemand!");
+      System.err.println("That's not a real name!");
     } else {
-      this.name = name;
+      this.firstName = firstName;
     }
   }
+
+  // ...
 
 }
 ```
 
-
+> :link: **Tipp:** Zum Thema Getter und Setter sind [diese Frage](https://softwareengineering.stackexchange.com/questions/416386/i-still-don-t-fully-understand-getters-setters) aus dem StackExchange-Netzwerk (zu Softwareengineering) und ihre akzeptierte Antwort _sehr lesenswert_!
 
 
 
