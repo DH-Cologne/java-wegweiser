@@ -82,7 +82,7 @@ public class User {
 
 > :speech_balloon: `name` ist in diesem Beispiel eine Instanzvariable (siehe unten!).
 
-Es sollte bei der Initialisierung ein Aufruf eines Konstruktors der Superklasse erfolgen. Falls diese keinen Konstruktor mit Parametern besitzt, wird mit `super()` ihr default-Konstruktor aufgerufen. Falls doch, **muss** jeder Konstruktor jeder Subklasse als erstes (!) diesen (oder einen) Konstruktor der Superklasse aufrufen: `super(param1, param2);`
+Es sollte bei der Initialisierung ein Aufruf eines Konstruktors der Superklasse erfolgen. Falls diese keinen Konstruktor mit Parametern besitzt, wird mit `super()` ihr default-Konstruktor aufgerufen. Falls doch, **muss** jeder Konstruktor jeder Subklasse als erstes (!) diesen (oder einen anderen) Konstruktor der Superklasse aufrufen: `super(param1, param2);`
 
 > :speech_balloon: Mehr zum Schlüsselwort `super` erfährst du auf der Seite [Vererbung I: Grundlagen](Vererbung-I-Grundlagen.md)
 
