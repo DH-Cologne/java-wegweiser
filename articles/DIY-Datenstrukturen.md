@@ -2,19 +2,19 @@
 
 > :warning: **Wichtig:** Dies ist ein Kapitel über verschiedene Arten von Datenstrukturen und wie sie in Java implementiert sind bzw. werden können. Die Liste ist aber natürlich [**keineswegs vollständig**](https://en.wikipedia.org/wiki/List_of_data_structures)! Es soll hier wirklich nur um jene Datenstrukturen gehen, die häufig im normalen, alltäglichen Gebrauch sind bzw. um "Klassiker", die sich gut zum Lernen einer Programmiersprache selbst implementieren lassen. Ebenfalls enorm wichtige Datenstrukturen (wie etwa [_Heap_](https://de.wikipedia.org/wiki/Heap_(Datenstruktur)) oder [_Stack_](https://de.wikipedia.org/wiki/Stapelspeicher) zur Speicherverwaltung) werden hier bewusst ausgespart, weil sie eher zu den IT-Grundlagen gehören, als in einen Java-Wegweiser.
 
-- [DIY-Datenstrukturen :file_cabinet:](#diy-datenstrukturen-filecabinet)
+- [DIY-Datenstrukturen :file_cabinet:](#diy-datenstrukturen-)
   - [Listen](#listen)
     - [(Einfach) Verkettete Listen](#einfach-verkettete-listen)
     - [Zweifach verkettete Listen](#zweifach-verkettete-listen)
-  - [Bäume](#b%c3%a4ume)
-    - [Binäre Suchbäume](#bin%c3%a4re-suchb%c3%a4ume)
+  - [Bäume](#bäume)
+    - [Binäre Suchbäume](#binäre-suchbäume)
   - [`Iterable` und `Iterator`](#iterable-und-iterator)
 
 
 ## Listen
 
 Eine Liste ist ein abstraktes Konzept einer Datenstruktur, deren Elemente eine stabile Reihenfolge besitzen, mehrfach vorkommen können und keine durch die Definition der Liste beschränkte Anzahl haben.  
-Es sollen hier als Beispiel für selbst implementierte Listen-Strukturen die verketteten Listen vorgestellt werden - für die in der _Java Class Library_ verfügbaren Implementationen von Listen, :point_right: siehe Artikel zum [Collections Framework](Collections-Framework.md)!
+Es sollen hier als Beispiel für selbst implementierte Listen-Strukturen die verketteten Listen vorgestellt werden - für die in der _Java Class Library_ verfügbaren Implementationen von Listen, siehe Artikel zum :telescope: [Collections Framework](Collections-Framework.md)!
 
 
 ### (Einfach) Verkettete Listen
