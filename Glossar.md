@@ -14,7 +14,7 @@ Es ist für Anfänger nicht immer leicht den Überblick über all die relevanten
 > In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
 
 > :milky_way:
-> **TODO:** `Design Pattern`, `Entwurfsmuster`, `Listener`, `GUI`, ...
+> **TODO:** `Design Pattern`, `Entwurfsmuster`, `Listener`, `Kommandozeile`, `Konsole`, `Terminal` ...
 
 
 
@@ -124,6 +124,9 @@ Ein :point_right: [Code](#code)-Block, der über einen Namen (:point_right: [Bez
 
 ### Getter
 Siehe :telescope: [Getter und Setter](articles/Objekte-I-Initialisierung-Members-Zugriff.md).
+
+### GUI
+**G**raphical **U**ser **I**nterface (_deu.: grafische Benutzeroberfläche_); eine grafische, nicht :point_right: [Kommandozeilen](#kommandozeile)-basierte Benutzerschnittstelle eines Programmes.
 
 ### Gültigkeitsbereich
 Der Gültigkeitsbereich eines :point_right: [Bezeichners](#bezeichner) (Methodenname, Variablenname, etc.) ist der Bereich im :point_right: [Quelltext](#quelltext), von dem aus der Zugriff auf diesen Bezeichner möglich ist; auch: :point_right: [Scope](#scope).
@@ -280,6 +283,9 @@ Das, was ein/e Programmierer\*in schreibt, um eine Software zu programmieren; au
 
 ### Race Condition
 Ursache für sehr schwer auffindbare :point_right: [Bugs](#bug). Entsteht, wenn das Ergebnis einer :point_right: [Operation](#operation) vom zeitlichen Ablauf zweier einzelner anderer Operationen abhängt (z.B. zwei :telescope: [Threads](articles/Multithreading.md), die auf die selbe Variable zugreifen). Siehe auch :link: [Wettlaufsituation](https://de.wikipedia.org/wiki/Wettlaufsituation).
+
+### Refactoring
+Verbesserung der Struktur des :point_right: [Quelltextes](#quelltext) eines Programms, ohne dessen Verhalten zu verändern.
 
 ### Referenz
 Verweis auf einen Wert (:telescope: [primitiver Wert](articles/Datentypen.md) oder :telescope: [Pointer](articles/Methoden.md#java-ist-immer--pass-by-value) auf ein :telescope: [Objekt](articles/OOP-Einfuehrung.md)), etwa eine :telescope: [Variable](articles/Variablen.md), oder ein :point_right: [Index](#index) eines :telescope: [Arrays](articles/Arrays.md).
