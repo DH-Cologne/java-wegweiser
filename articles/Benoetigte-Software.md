@@ -18,6 +18,9 @@ Wir benötigen ein JDK der Version 11, passend für dein Betriebssystem. Wegen d
 
 Für den Download der Entwicklungsumgebung _Eclipse_ (die wir im Seminar nutzen) benutzt man am besten die aktuelle Version der **Eclipse IDE for Java Developers** von [dieser Seite](https://www.eclipse.org/downloads/packages/).
 
+> :warning: Bitte beachte, dass die Eclipse IDE zunächst mal ein "portables" Programm ist, d.h. der Download ist ein Archiv, welches das fertig ausführbare Programm enthält. Es gibt keine Installation - du musst dich selbst entscheiden, wohin du das Programm entpackst und musst selbst (falls gewünscht) Verknüpfungen anlegen.  
+> Fall du lieber einen Installer hättest, der das alles für dich erledigt, kein Problem: Nutze den Link von oben, dort gibt es ganz oben auf der Seite auch einen Installer zum Download, der dann während der Installation das von dir gewünschte Paket herunterlädt (hier bitte wiederum _Eclipse IDE for Java Developers_ auswählen!).
+
 > :speech_balloon: **Natürlich ist die Wahl der IDE freigestellt.** Es kann gerne auch mit _IntelliJ IDEA_, _Netbeans_, dem _Windows Notepad_ oder _vim_ programmiert werden - allerdings werden sich die Beispiele im Seminar immer auf Eclipse beziehen.
 
 > :speech_balloon: **Einzelheiten** zur Unterscheidung der IDEs und den Funktionen von Eclipse sind außerdem im Artikel zur [Eclipse IDE](Eclipse-IDE.md) zu finden!

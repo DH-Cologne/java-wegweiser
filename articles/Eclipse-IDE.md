@@ -34,7 +34,7 @@ _Netbeans_ ist eine sehr etablierte Open-Source IDE. Es steht Eclipse im Prinzip
 
 _Eclipse_ wurde gezielt als IDE für Java entwickelt (auch wenn es genau wie die anderen beiden inzwischen auch andere Sprachen beherrscht). Es handelt sich um eine sehr umfangreiche IDE mit Werkzeugen für [Modelling](https://de.wikipedia.org/wiki/Unified_Modeling_Language), [Testing](https://de.wikipedia.org/wiki/Modultest) und [Debugging](https://de.wikipedia.org/wiki/Debugger).
 
-Da _Eclipse_ die meistgenutzte (kostenlose) Java-IDE ist, wird diese IDE auch im Java-Seminar genutzt und alle vermittelten Tipps und Tricks beziehen sich auf Eclipse. Natürlich ist darüber hinaus die persönliche Wahl der IDE jede*r/m freigestellt.
+Da _Eclipse_ die meistgenutzte (kostenlose) Java-IDE ist, wird diese IDE auch im Java-Seminar genutzt und alle vermittelten Tipps und Tricks beziehen sich auf Eclipse. Natürlich ist darüber hinaus die persönliche Wahl der IDE freigestellt.
 
 ![Java IDE shares 2018](https://programmer9.com/assets/images/largest-java-survey-ever/which_IDE_developers_use.png)
 > _Stand: 2018; Grafik: [#]([../assets/images/Java-Platform-Diagram.png](https://programmer9.com/assets/images/largest-java-survey-ever/which_IDE_developers_use.png));
