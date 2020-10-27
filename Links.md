@@ -30,6 +30,7 @@
 -   [w3resource Java Programming Exercises and Solutions](https://www.w3resource.com/java-exercises/) - Sehr viele Übungen (mit Lösungen) zu bestimmten Konzepten
 -   [Project Euler](https://projecteuler.net/) - Programmier-Probleme (hauptsächlich mathematische); unabhängig von der Programmiersprache; relativ fortgeschritten
 -   [/r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer/) - Ein Subreddit (reddit-Themenseite) zu täglichen Programmier-Herausforderungen
+-   [Weitere Ideen für Übungsaufgaben](https://duckduckgo.com/?q=java+programming+ideas+exercise) - Ja, der Link führt zu einem Suchmaschinen-Ergebnis. Das Internet ist eben voll von Problemen ...
 
 
 ## Anleitungen :woman_teacher:
