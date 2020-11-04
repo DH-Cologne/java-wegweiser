@@ -24,4 +24,4 @@
 hs_err_pid*
 
 # drafts
-_draft/
+.DS_Store
