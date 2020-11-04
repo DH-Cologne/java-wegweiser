@@ -21,7 +21,7 @@ Diese Seite erläutert die ersten Grundlagen zum Umgang mit der Entwicklungsumge
 
 ## Was ist eine IDE?
 
-Bei einer [IDE](https://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung) (**I**ntegrated **D**evelopment **I**nvironment - oder dt.: _Integrierte Entwicklungsumgebung_) handelt es sich um ein Programm (oder ggf. mehrere), das das Entwickeln von Software erleichtern soll, indem es alle nötigen Funtionalitäten in einer "Entwicklungsumgebung" vereint. Für eine _noch_ genauere Definition muss der oben verlinkte Wikipedia-Artikel herhalten.
+Bei einer [IDE](https://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung) (**I**ntegrated **D**evelopment **E**nvironment - oder dt.: _Integrierte Entwicklungsumgebung_) handelt es sich um ein Programm (oder ggf. mehrere), das das Entwickeln von Software erleichtern soll, indem es alle nötigen Funtionalitäten in einer "Entwicklungsumgebung" vereint. Für eine _noch_ genauere Definition muss der oben verlinkte Wikipedia-Artikel herhalten.
 
 
 ## Warum Eclipse?
