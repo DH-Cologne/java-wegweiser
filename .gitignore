@@ -24,4 +24,7 @@
 hs_err_pid*
 
 # drafts
+_draft/
+
+# local os related files
 .DS_Store
