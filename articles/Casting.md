@@ -16,9 +16,8 @@ Beim Casting wird ein Wert eines bestimmten [Datentyps](Datentypen.md) in einen 
 Bei der _impliziten Typumwandlung_ wird ein "niederwertiger" Typ einem "höherwertigen" Typ zugewiesen (die Umwandlung geschieht automatisch, oder eben "implizit"):
 
 ```java
-double d;
 int i = 2;
-d = i;
+double d = i;
 ```
 
 ![upcast](../assets/images/typecast_1.jpg)  
@@ -31,8 +30,7 @@ Bei der _expliziten Typumwandlung_ wird ein "höherwertiger" Typ in "niederwerti
 
 ```java
 double d = 2.2d;
-int i;
-i = (int) d;
+int i = (int) d;
 ```
 
 ![downcast](../assets/images/typecast_2.jpg)  
