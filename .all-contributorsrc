@@ -74,6 +74,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "vgavrilova",
+      "name": "Valeria Gavrilova",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/63244952?v=4",
+      "profile": "https://github.com/vgavrilova",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 5,
