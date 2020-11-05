@@ -3,16 +3,13 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->
 &nbsp;
+![Visits](https://badges.pufler.dev/visits/dh-cologne/java-wegweiser?style=flat-square)
+&nbsp;
 [![GitHub forks](https://img.shields.io/github/forks/DH-Cologne/java-wegweiser.svg?label=Forks&maxAge=2592000&style=flat-square)](https://GitHub.com/DH-Cologne/java-wegweiser/network/members)
 &nbsp;
 [![GitHub issues](https://img.shields.io/github/issues/DH-Cologne/java-wegweiser.svg?style=flat-square)](https://GitHub.com/DH-Cologne/java-wegweiser/issues/)
 &nbsp;
-[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/DH-Cologne/java-wegweiser.svg?style=flat-square)](https://GitHub.com/DH-Cologne/java-wegweiser/pull/)
-&nbsp;
-[![Website dh-cologne.github.io/java-wegweiser](https://img.shields.io/website-up-down-green-red/https/dh-cologne.github.io/java-wegweiser.svg?style=flat-square)](https://dh-cologne.github.io/java-wegweiser)
-&nbsp;
 [![Repo Size](https://img.shields.io/github/repo-size/DH-Cologne/java-wegweiser.svg?label=Repo%20size&style=flat-square)](https://github.com/DH-Cologne/java-wegweiser)
-
 
 
 Ein Wegweiser zur Java-Programmierung, der mit seinen Aufgaben wächst. Für die Teilnehmer*innen des Moduls **"Softwaretechnologie: Java"** der Studiengänge **Informationsverarbeitung** und **Medieninformatik** am **IDH** (**I**nstitut für **D**igital **H**umanities, Universität zu Köln) und alle Interessierten! :open_hands:
