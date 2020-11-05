@@ -35,21 +35,21 @@ String userName
 Das Beispiel zeigt die Deklaration einer String-Variable mit dem Namen `userName`. Als alleinstehende Anweisung etwa würde sie (wie jede Anweisung) mit einem `;` abschließen:
 
 ```java
-String userName;
+int age;
 ```
 Die Deklaration einer Variable kann aber in unterschiedlichen Kontexten stattfinden (siehe [Arten von Variablen](#arten-von-variablen)).
 
 Die explizite **Zuweisung** eines Wertes zu einer Variablen geschieht grundsätzlich mit dem _Zuweisungsoperator_: `=`
 
 ```java
-String userName;
-userName = "melanie_1959";
+int age;
+age = 21;
 ```
 
 Oder als **ein** Statement / Anweisung:
 
 ```java
-String userName = "melanie_1959";
+int age = 21;
 ```
 
 Eine Variable kann allerdings auch auf anderem Wege einen Wert erhalten (siehe [Arten von Variablen](#arten-von-variablen)).
