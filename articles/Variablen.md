@@ -32,7 +32,7 @@ Als **Deklaration** einer Variable bezeichnet man den Vorgang des Festlegens von
 String userName
 ```
 
-Das Beispiel zeigt die Deklaration einer String-Variable mit dem Namen `userName`. Als alleinstehende Anweisung etwa würde sie (wie jede Anweisung) mit einem `;` abschließen:
+Das Beispiel zeigt die Deklaration einer `int`-Variable mit dem Namen `age`. Als alleinstehende Anweisung etwa würde sie (wie jede Anweisung) mit einem `;` abschließen:
 
 ```java
 int age;
