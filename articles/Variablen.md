@@ -52,6 +52,13 @@ Oder als **ein** Statement / Anweisung:
 int age = 21;
 ```
 
+Die Variable repräsentiert dann (innerhalb ihres Gültigkeitsbereiches) stets ihren Wert:
+
+```java
+int age = 21;
+int sameAge = age; // ist nun auch 21
+```
+
 Eine Variable kann allerdings auch auf anderem Wege einen Wert erhalten (siehe [Arten von Variablen](#arten-von-variablen)).
 
 
