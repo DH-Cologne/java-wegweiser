@@ -13,8 +13,8 @@ $body-link-color: #0366d6;
 $blockquote-text-color: #6a737d;
 
 // Code
-$code-bg-color: rgba(27,31,35,.05);
-$code-text-color: #30353a;
+$code-bg-color: rgba(27,31,35,.02);
+$code-text-color: #2a2e31;
 
 // Borders
 $border-color: #dfe2e5;
@@ -88,10 +88,6 @@ img.emoji {
 .main-content .highlight pre {
     margin-bottom: 0;
     word-break: normal;
-}
-
-.highlight {
-    background-color: rgba(27,31,35,0.05);
 }
 
 .main-content pre {
