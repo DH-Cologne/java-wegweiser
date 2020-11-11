@@ -71,14 +71,14 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 #### [Casting](articles/Casting.md)
 > `Typumwandlung`, `implizit`, `explizit`, `upcast`, `downcast`, `cast-Operator`, `Casting bei komplexen Datentypen`, ...
 
-#### [Methoden](articles/Methoden.md)
-> `Rückgabewerte`, `Parameter/Argumente`, `return`, `Überlagerung`, `Java ist immer pass-by-value` ...
-
 #### [Operatoren](articles/Operatoren.md)
 > `Rechenoperatoren`, `Vergleichsoperatoren`, `logische Operatoren`, `Zuweisungsoperatoren`, `+`, `-`, `*`, `/`, `%`, `++`, `--`, `==`, `!=`, `>`, `<`, `>=`, `<=`, `&&`, `||`, `=`, `+=`, `-=`, `/=`, `*=`, `%=`, `&=`, `|=`, ...
 
 #### [Strings / Zeichenketten](articles/Strings.md)
 > `die Klasse "String"`, `Literals`, `special characters`, `Unveränderbarkeit von Strings`, `UTF-16`, ...
+
+#### [Methoden](articles/Methoden.md)
+> `Rückgabewerte`, `Parameter/Argumente`, `return`, `Überlagerung`, `Java ist immer pass-by-value` ...
 
 #### [Conditional statements / Konditionale](articles/Konditionale.md)
 > `if`, `else`, `:? (Ternary-Operator)`, `switch`
