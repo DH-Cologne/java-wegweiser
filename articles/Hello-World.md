@@ -1,5 +1,5 @@
 
-# Hello World! :rocket:
+# Hello World! :rocket:<!-- omit in toc -->
 
 Zum Erlernen einer Programmiersprache gehört immer auch ein **_"Hello World"_**-Beispiel, das den Quelltext eines minimalen Programms zeigt, welches einfach nur die Worte `Hello World!` auf der Konsole ausgibt. Mit dieser Tradition wollen wir hier - Gott bewahre! - nicht brechen.
 

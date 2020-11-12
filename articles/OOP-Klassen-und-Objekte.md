@@ -1,6 +1,9 @@
-# OOP, Klassen und Objekte :building_construction:
+# OOP, Klassen und Objekte :building_construction:<!-- omit in toc -->
 
 > :speech_balloon: **OOP** = **O**bjekt**o**rientierte **P**rogrammierung; oder engl.: **O**bject **O**riented **P**rogramming
+
+- [Was ist objektorientierte Programmierung?](#was-ist-objektorientierte-programmierung)
+- [Die Konzepte "Klasse" und "Objekt" in der OOP](#die-konzepte-klasse-und-objekt-in-der-oop)
 
 
 ## Was ist objektorientierte Programmierung?

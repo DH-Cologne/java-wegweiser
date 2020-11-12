@@ -1,4 +1,4 @@
-# Generics :pushpin:
+# Generics :pushpin:<!-- omit in toc -->
 
 > :construction: **TODO:**  
 > - Was sind Generics und wozu? We funktionieren sie?

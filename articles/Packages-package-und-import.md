@@ -1,11 +1,10 @@
 
-# Packages, `package` und `import` :package:
+# Packages, `package` und `import` :package:<!-- omit in toc -->
 
-- [Packages, `package` und `import` :package:](#packages-package-und-import-)
-  - [Was sind Packages?](#was-sind-packages)
-  - [Wie sehen Packages auf meiner Festplatte aus?](#wie-sehen-packages-auf-meiner-festplatte-aus)
-  - [Auszeichnen des Paket-Pfades einer Klasse mit `package`](#auszeichnen-des-paket-pfades-einer-klasse-mit-package)
-  - [Importieren von Paketen und Klassen mit `import`](#importieren-von-paketen-und-klassen-mit-import)
+- [Was sind Packages?](#was-sind-packages)
+- [Wie sehen Packages auf meiner Festplatte aus?](#wie-sehen-packages-auf-meiner-festplatte-aus)
+- [Auszeichnen des Paket-Pfades einer Klasse mit `package`](#auszeichnen-des-paket-pfades-einer-klasse-mit-package)
+- [Importieren von Paketen und Klassen mit `import`](#importieren-von-paketen-und-klassen-mit-import)
 
 ## Was sind Packages?
 

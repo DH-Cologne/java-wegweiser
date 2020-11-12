@@ -1,4 +1,4 @@
-# `main`-Methode
+# `main`-Methode<!-- omit in toc -->
 
 Jede Java-Anwendung, die lauffähig sein soll (also keine Library o.ä. ist), muss eine main-Methode besitzen. Sie ist der Einstiegspunkt für die Ausführung des Java-Programmes. Von hier aus wird - durch das Erzeugen von Objekten und Aufrufen von Methoden - die Funktionalität des gesamten Programmes in Gang gesetzt. Ein Java-Programm _kann_ auch mehrere `main`-Methoden haben, allerdings muss dann bei der Ausführung des Programms die gewünschte `main`-Methode angegeben werden.
 

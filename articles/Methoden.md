@@ -1,11 +1,10 @@
-# Methoden :clamp:
+# Methoden :clamp:<!-- omit in toc -->
 
-- [Methoden :clamp:](#methoden-)
-  - [Definition](#definition)
-  - [Aufbau](#aufbau)
-  - [`return`](#return)
-  - [Überladen von Methoden](#überladen-von-methoden)
-  - [Java ist immer (!) pass by value](#java-ist-immer--pass-by-value)
+- [Definition](#definition)
+- [Aufbau](#aufbau)
+- [`return`](#return)
+- [Überladen von Methoden](#überladen-von-methoden)
+- [Java ist immer (!) pass by value](#java-ist-immer--pass-by-value)
 
 
 ## Definition

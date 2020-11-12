@@ -1,12 +1,11 @@
-# Casting :currency_exchange:
+# Casting :currency_exchange:<!-- omit in toc -->
 
 (auch: *Typumwandlung*)
 
 Beim Casting wird ein Wert eines bestimmten [Datentyps](Datentypen.md) in einen anderen Datentyp umgewandelt
 
-- [Casting :currency_exchange:](#casting-)
-  - [... bei primitiven Datentypen](#-bei-primitiven-datentypen)
-  - [... bei komplexen Datentypen](#-bei-komplexen-datentypen)
+- [... bei primitiven Datentypen](#-bei-primitiven-datentypen)
+- [... bei komplexen Datentypen](#-bei-komplexen-datentypen)
 
 
 ## ... bei primitiven Datentypen

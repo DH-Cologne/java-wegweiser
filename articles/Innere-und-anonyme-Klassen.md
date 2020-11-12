@@ -1,5 +1,7 @@
-# Innere und anonyme Klassen
+# Innere und anonyme Klassen<!-- omit in toc -->
 
+- [Innere Klassen](#innere-klassen)
+- [Anonyme Klassen](#anonyme-klassen)
 
 ## Innere Klassen
 

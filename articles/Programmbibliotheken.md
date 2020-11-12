@@ -1,4 +1,4 @@
-# Programmbibliotheken
+# Programmbibliotheken<!-- omit in toc -->
 
 > :construction: **TODO:** Alles.
 > - JCL schon drin

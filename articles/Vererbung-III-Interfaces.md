@@ -1,12 +1,11 @@
-# Vererbung III: Interfaces :electric_plug:
+# Vererbung III: Interfaces :electric_plug:<!-- omit in toc -->
 
 > :speech_balloon: _deu.: Schnittstelle_
 
-- [Vererbung III: Interfaces :electric_plug:](#vererbung-iii-interfaces-)
-  - [Zum Nutzen von Interfaces :thinking:](#zum-nutzen-von-interfaces-)
-  - [Funktionsweise](#funktionsweise)
-  - [Default-Methoden](#default-methoden)
-  - [Statische Methoden in Interfaces](#statische-methoden-in-interfaces)
+- [Zum Nutzen von Interfaces :thinking:](#zum-nutzen-von-interfaces-)
+- [Funktionsweise](#funktionsweise)
+- [Default-Methoden](#default-methoden)
+- [Statische Methoden in Interfaces](#statische-methoden-in-interfaces)
 
 
 Bei Interfaces handelt es sich (ganz wörtlich) um **Schnittstellen** zu anderen Programmteilen. Schnittstellen bedeuten immer eine festgelegte Art der Interaktion bzw. Kommunikation - und genau das ist es, was _Interfaces_ in der OOP leisten.

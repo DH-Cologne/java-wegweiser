@@ -1,13 +1,12 @@
-# Konditionale :railway_track:
+# Konditionale :railway_track:<!-- omit in toc -->
 
 > (engl.: _conditional statements_)
 
 Konditionale steuern den Ablauf eines Programmes in Abhängigkeit von Bedingungen.
 
-- [Konditionale :railway_track:](#konditionale-)
-  - [`if`, `else if`, `else`](#if-else-if-else)
-  - [Ternary-Operator](#ternary-operator)
-  - [switch](#switch)
+- [`if`, `else if`, `else`](#if-else-if-else)
+- [Ternary-Operator](#ternary-operator)
+- [switch](#switch)
 
 
 

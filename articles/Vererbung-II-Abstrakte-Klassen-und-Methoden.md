@@ -1,4 +1,4 @@
-# Vererbung II: Abstrakte Klassen und Methoden
+# Vererbung II: Abstrakte Klassen und Methoden<!-- omit in toc -->
 
 -   Abstrakte Klassen können und sollen nicht direkt instanziiert werden, da sie lediglich (teilweise implementierte) Vorlagen für ihre Subklassen sind.
 -   Das Schlüsselwort `abstract` macht eine Klasse zu einer abstrakten Klasse.

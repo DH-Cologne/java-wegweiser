@@ -1,7 +1,10 @@
-# Kommentare :speech_balloon:
+# Kommentare :speech_balloon:<!-- omit in toc -->
 
 Kommentare ermöglichen es, Text in den Quellcode zu schreiben, der vom Compiler ignoriert wird.
 Sie können dazu benutzt werden, Code übersichtlicher zu gestalten und ihn zu erläutern. Das ist besonders hilfreich für andere Personen, die den Code lesen möchten. Es hilft aber auch dabei, zu einem späteren Zeitpunkt schnell wieder den Überblick über den eigenen Code zu erlangen.
+
+- [Inline-Kommentare](#inline-kommentare)
+- [Mehrzeilige Kommentare](#mehrzeilige-kommentare)
 
 
 ## Inline-Kommentare

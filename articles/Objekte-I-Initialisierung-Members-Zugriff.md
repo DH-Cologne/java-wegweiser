@@ -1,13 +1,12 @@
-# Objekte I: Initialisierung, Members, Zugriff
+# Objekte I: Initialisierung, Members, Zugriff<!-- omit in toc -->
 
-- [Objekte I: Initialisierung, Members, Zugriff](#objekte-i-initialisierung-members-zugriff)
-  - [Initialisierung von Objekten: Der `new`-Operator](#initialisierung-von-objekten-der-new-operator)
-  - [`this`](#this)
-  - [Konstruktoren](#konstruktoren)
-  - [Instanzvariablen](#instanzvariablen)
-  - [Instanzmethoden](#instanzmethoden)
-  - [Zugriffs-/Sichtbarkeitsmodifizierer](#zugriffs-sichtbarkeitsmodifizierer)
-  - [Getter & Setter](#getter--setter)
+- [Initialisierung von Objekten: Der `new`-Operator](#initialisierung-von-objekten-der-new-operator)
+- [`this`](#this)
+- [Konstruktoren](#konstruktoren)
+- [Instanzvariablen](#instanzvariablen)
+- [Instanzmethoden](#instanzmethoden)
+- [Zugriffs-/Sichtbarkeitsmodifizierer](#zugriffs-sichtbarkeitsmodifizierer)
+- [Getter & Setter](#getter--setter)
 
 ## Initialisierung von Objekten: Der `new`-Operator
 

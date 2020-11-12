@@ -1,12 +1,11 @@
-# Objekte II: Repräsentation, Identität, Gleichheit
+# Objekte II: Repräsentation, Identität, Gleichheit<!-- omit in toc -->
 
-- [Objekte II: Repräsentation, Identität, Gleichheit](#objekte-ii-repräsentation-identität-gleichheit)
-	- [toString()](#tostring)
-	- [Objekt-Identität](#objekt-identität)
-	- [Objekt-Gleichheit](#objekt-gleichheit)
-	- [`equals()`](#equals)
-	- [`hashCode()`](#hashcode)
-	- [Der Vertrag zwischen `equals()` und `hashCode()`](#der-vertrag-zwischen-equals-und-hashcode)
+- [toString()](#tostring)
+- [Objekt-Identität](#objekt-identität)
+- [Objekt-Gleichheit](#objekt-gleichheit)
+- [`equals()`](#equals)
+- [`hashCode()`](#hashcode)
+- [Der Vertrag zwischen `equals()` und `hashCode()`](#der-vertrag-zwischen-equals-und-hashcode)
 
 ## toString()
 

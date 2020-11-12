@@ -1,13 +1,12 @@
-# Fehlerbehandlung :x: 
+# Fehlerbehandlung :x:<!-- omit in toc -->
 
-- [Fehlerbehandlung :x:](#fehlerbehandlung-)
-  - [Throwable](#throwable)
-  - [Errors](#errors)
-  - [Exceptions](#exceptions)
-  - [try-catch-finally](#try-catch-finally)
-  - [throws](#throws)
-  - [try-with-resources](#try-with-resources)
-  - [Weiterführende Links](#weiterführende-links)
+- [Throwable](#throwable)
+- [Errors](#errors)
+- [Exceptions](#exceptions)
+- [try-catch-finally](#try-catch-finally)
+- [throws](#throws)
+- [try-with-resources](#try-with-resources)
+- [Weiterführende Links](#weiterführende-links)
 
 
 ## Throwable

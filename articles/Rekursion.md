@@ -1,4 +1,4 @@
-# Rekursion :dizzy_face:
+# Rekursion :dizzy_face:<!-- omit in toc -->
 
 Besser als bei Wikipedia wird die Definition nicht - deshalb an dieser Stelle ein Zitat:
 

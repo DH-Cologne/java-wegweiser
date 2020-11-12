@@ -1,4 +1,4 @@
-# Enums :abacus:
+# Enums :abacus:<!-- omit in toc -->
 
 > :speech_balloon: auch: _Enum types_
 

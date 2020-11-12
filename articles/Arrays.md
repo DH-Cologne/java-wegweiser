@@ -1,17 +1,16 @@
-# Arrays
+# Arrays<!-- omit in toc -->
 
 Ein [Array](https://de.wikipedia.org/wiki/Feld_(Datentyp)) ist eine lineare [Datenstruktur](https://de.wikipedia.org/wiki/Datenstruktur), das heißt, ein Array organisiert Daten (_"Elemente"_) in sequentieller Form. Oder einfacher: Die Daten/Objekte, die in einem Array organisiert sind, haben eine Reihenfolge.  
 
-- [Arrays](#arrays)
-  - [Funktionsweise](#funktionsweise)
-    - [Indizierung](#indizierung)
-    - [Feste Größe](#feste-größe)
-    - [Typisierung](#typisierung)
-  - [Erzeugen eines Arrays](#erzeugen-eines-arrays)
-    - [... mit dem `new`-Operator](#-mit-dem-new-operator)
-    - [... mit Array-Literals](#-mit-array-literals)
-  - [Zugriff und Manipulation](#zugriff-und-manipulation)
-  - [Mehrdimensionale Arrays](#mehrdimensionale-arrays)
+- [Funktionsweise](#funktionsweise)
+  - [Indizierung](#indizierung)
+  - [Feste Größe](#feste-größe)
+  - [Typisierung](#typisierung)
+- [Erzeugen eines Arrays](#erzeugen-eines-arrays)
+  - [... mit dem `new`-Operator](#-mit-dem-new-operator)
+  - [... mit Array-Literals](#-mit-array-literals)
+- [Zugriff und Manipulation](#zugriff-und-manipulation)
+- [Mehrdimensionale Arrays](#mehrdimensionale-arrays)
 
 ## Funktionsweise
 

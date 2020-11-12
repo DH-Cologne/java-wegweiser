@@ -1,10 +1,15 @@
-# Multithreading :thread: 
+# Multithreading :thread:<!-- omit in toc -->
 
 > :point_right: Siehe Definitionen für [Multitasking](../Coding-Lingo.md#multitasking), [Multiprocessing](../Coding-Lingo.md#multiprocessing) und [Multithreading](../Coding-Lingo.md#multithreading)!
 
 > :warning: Diese Seite deckt (ganz bewusst) bei weitem nicht alles ab, was es zu Multithreading in Java zu sagen gäbe! Zu diesem Thema [wurden ganze Bücher geschrieben](http://jcip.net/). Hier wird nur sehr oberflächlich das allgemeine Konzept mit den dazugehörigen Sprach-Features beschrieben. Die im Text verteilten Verweise auf externe Ressourcen bieten weitere Informationen zum Thema.
 
 > :link: Für einen tieferen Einstieg in das Thema können außerdem [dieser](https://docs.oracle.com/javase/tutorial/essential/concurrency/procthread.html), [dieser](https://www.vogella.com/tutorials/JavaConcurrency/article.html), oder [dieser](https://www.callicoder.com/java-multithreading-thread-and-runnable-tutorial/) Link nützlich sein!
+
+- [Implementieren von `Runnable`](#implementieren-von-runnable)
+- [Das Package `java.util.concurrent`](#das-package-javautilconcurrent)
+- [`synchronized`](#synchronized)
+- [`volatile`](#volatile)
 
 Ein Java-Programm läuft in einem eigenen Thread (in diesem wird die `main`-Methode ausgeführt). Durch das Ausführen von Teilen des Programmes in zusätzlich erzeugten Threads lassen sich Vorgänge parallelisieren (dieses Konzept wird _Concurrency_ genannt).
 

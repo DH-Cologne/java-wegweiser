@@ -1,10 +1,9 @@
-# Vergleichen und Sortieren :bento:
+# Vergleichen und Sortieren :bento:<!-- omit in toc -->
 
-- [Vergleichen und Sortieren :bento:](#vergleichen-und-sortieren-)
-	- [Sortier-Algorithmen](#sortier-algorithmen)
-	- [Sortieren mit Mitteln des Collections Framework](#sortieren-mit-mitteln-des-collections-framework)
-	- [Das Interface `Comparable`](#das-interface-comparable)
-	- [Das Interface `Comparator`](#das-interface-comparator)
+- [Sortier-Algorithmen](#sortier-algorithmen)
+- [Sortieren mit Mitteln des Collections Framework](#sortieren-mit-mitteln-des-collections-framework)
+- [Das Interface `Comparable`](#das-interface-comparable)
+- [Das Interface `Comparator`](#das-interface-comparator)
 
 ## Sortier-Algorithmen
 

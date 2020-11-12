@@ -1,9 +1,8 @@
-# Datentypen :1234:
+# Datentypen :1234:<!-- omit in toc -->
 
-- [Datentypen :1234:](#datentypen-)
-  - [Primitive Datentypen](#primitive-datentypen)
-  - [Komplexe Datentypen](#komplexe-datentypen)
-  - [Wrapper-Klassen](#wrapper-klassen)
+- [Primitive Datentypen](#primitive-datentypen)
+- [Komplexe Datentypen](#komplexe-datentypen)
+- [Wrapper-Klassen](#wrapper-klassen)
 
 
 ## Primitive Datentypen

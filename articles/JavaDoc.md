@@ -1,6 +1,9 @@
-# Dokumentation mit JavaDoc :clipboard:
+# Dokumentation mit JavaDoc :clipboard:<!-- omit in toc -->
 
 > :construction: **TODO:** Alles.
+
+
+
 
 
 <!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->

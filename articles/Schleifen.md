@@ -1,16 +1,15 @@
-# Schleifen :ribbon:
+# Schleifen :ribbon:<!-- omit in toc -->
 
 Schleifen wiederholen die Ausführung eines Blockes von Anweisungen in Abhängigkeit von bestimmten Voraussetzungen. In Java gibt es vier verschiedene Formen von Schleifen.
 
-- [Schleifen :ribbon:](#schleifen-)
-  - [`while`-Schleife](#while-schleife)
-  - [`do-while`-Schleife](#do-while-schleife)
-  - [`for`-Schleife](#for-schleife)
-  - [for-each-Schleife](#for-each-schleife)
-  - [Unterbrechen von Schleifen](#unterbrechen-von-schleifen)
-    - [`continue`-Statement](#continue-statement)
-    - [`break`-Statement](#break-statement)
-  - [Endlosschleifen :boom:](#endlosschleifen-)
+- [`while`-Schleife](#while-schleife)
+- [`do-while`-Schleife](#do-while-schleife)
+- [`for`-Schleife](#for-schleife)
+- [for-each-Schleife](#for-each-schleife)
+- [Unterbrechen von Schleifen](#unterbrechen-von-schleifen)
+  - [`continue`-Statement](#continue-statement)
+  - [`break`-Statement](#break-statement)
+- [Endlosschleifen :boom:](#endlosschleifen-)
 
 
 

@@ -1,17 +1,16 @@
-# Die Programmiersprache Java :coffee:
+# Die Programmiersprache Java :coffee:<!-- omit in toc -->
 
 Java ist eine _C-artige_, [universelle](https://de.wikipedia.org/wiki/Turing-Vollst%C3%A4ndigkeit) Programmiersprache. Das bedeutet, dass die :point_right: [Syntax](../Glossar.md#syntax) derer der Programmiersprache _C_ ähnelt. Java ist sehr [vielseitig](https://blogs.oracle.com/javamagazine/the-top-25-greatest-java-apps-ever-written) - das Einsatzgebiet von Java ist nicht auf einen bestimmten Bereich der Softwareentwicklung spezialisiert. Es gibt aber noch viel mehr zu wissen...
 
-- [Die Programmiersprache Java :coffee:](#die-programmiersprache-java-️)
-  - [Besonderheiten](#besonderheiten)
-    - [Objektorientierung](#objektorientierung)
-    - [Bytecode in der virtuellen Maschine](#bytecode-in-der-virtuellen-maschine)
-    - [Garbage Collector](#garbage-collector)
-  - [Java-Platform](#java-platform)
-    - [JRE](#jre)
-    - [JDK](#jdk)
-    - [JVM und Bytecode](#jvm-und-bytecode)
-    - [Java Class Library](#java-class-library)
+- [Besonderheiten](#besonderheiten)
+  - [Objektorientierung](#objektorientierung)
+  - [Bytecode in der virtuellen Maschine](#bytecode-in-der-virtuellen-maschine)
+  - [Garbage Collector](#garbage-collector)
+- [Java-Platform](#java-platform)
+  - [JRE](#jre)
+  - [JDK](#jdk)
+  - [JVM und Bytecode](#jvm-und-bytecode)
+  - [Java Class Library](#java-class-library)
 
 ## Besonderheiten
 

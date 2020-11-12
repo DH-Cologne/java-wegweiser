@@ -1,9 +1,8 @@
-# Static Members
+# Static Members<!-- omit in toc -->
 
-- [Static Members](#static-members)
-  - [`static`](#static)
-  - [Klassenvariablen](#klassenvariablen)
-  - [Statische Methoden](#statische-methoden)
+- [`static`](#static)
+- [Klassenvariablen](#klassenvariablen)
+- [Statische Methoden](#statische-methoden)
 
 > :speech_balloon: **static** &mdash; _deu.: statisch_
 

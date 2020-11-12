@@ -1,18 +1,17 @@
-# Leitfaden für Contributions / Beiträge :loudspeaker:
+# Leitfaden für Contributions / Beiträge :loudspeaker:<!-- omit in toc -->
 
 > :construction: **TODO:** Noch unvollständig...
 
-- [Leitfaden für Contributions / Beiträge :loudspeaker:](#leitfaden-für-contributions--beiträge-)
-  - [Lizenzen von eingefügten Grafiken u.ä. :balance_scale:](#lizenzen-von-eingefügten-grafiken-uä-️)
-  - [Emojis :confused:](#emojis-)
-  - [Das Inhaltsverzeichnis :book:](#das-inhaltsverzeichnis-)
-  - [Verweise / Links :link:](#verweise--links-)
-    - [Pfade und Veknüpfungen innerhalb des Repositories](#pfade-und-veknüpfungen-innerhalb-des-repositories)
-    - [... als vertiefende Ressource](#-als-vertiefende-ressource)
-    - [... als Quellen-Angabe](#-als-quellen-angabe)
-    - [... auf Github-URLs unter diesem Repository](#-auf-github-urls-unter-diesem-repository)
-  - [Hinweise und Bemerkungen](#hinweise-und-bemerkungen)
-  - [Links zum Seitenanfang](#links-zum-seitenanfang)
+- [Lizenzen von eingefügten Grafiken u.ä. :balance_scale:](#lizenzen-von-eingefügten-grafiken-uä-️)
+- [Emojis :confused:](#emojis-)
+- [Das Inhaltsverzeichnis :book:](#das-inhaltsverzeichnis-)
+- [Verweise / Links :link:](#verweise--links-)
+  - [Pfade und Veknüpfungen innerhalb des Repositories](#pfade-und-veknüpfungen-innerhalb-des-repositories)
+  - [... als vertiefende Ressource](#-als-vertiefende-ressource)
+  - [... als Quellen-Angabe](#-als-quellen-angabe)
+  - [... auf Github-URLs unter diesem Repository](#-auf-github-urls-unter-diesem-repository)
+- [Hinweise und Bemerkungen](#hinweise-und-bemerkungen)
+- [Links zum Seitenanfang](#links-zum-seitenanfang)
 
 Es gibt eine Liste von Konventionen, die dabei helfen sollen, die Formatierung der Beiträge und den Einsatz von Markdown überall in diesem Repository einheitlich zu halten. Du findest sie gleich dort unten :point_down:
 
