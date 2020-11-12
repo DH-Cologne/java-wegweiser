@@ -168,11 +168,7 @@ In fast allen Fällen ist dies gewünscht, denn es spart Rechenzeit. Manchmal is
 
 Das als Vergleichsoperator bekannte `!=` (dort: _ungleich_) ist gleichzeitig auch ein logischer Operator. Er sorgt dafür, dass der Gesamtausdruck nur dann `true` ist, wenn **nur genau eine** der Teil-Aussagen wahr ist!
 
-Bei genauerem Hinsehen ist hier aber nicht etwa das selbe Symbol - also `!=` - für zwei verschiedene Dinge verwendet worden. Vielmehr ist der Vergleichsoperator ganz automatisch auch ein logischer Operator, denn
-
-    true != false
-
-ließe sich sowohl als _"wahr ist ungleich unwahr"_, als auch als _"Einer der Ausdrücke **wahr** oder **unwahr** ist wahr_ lesen. Somit handelt es sich hier nicht wirklich um zwei verschiedene, sondern ein und denselben Operator - nur eben in leicht unterschiedlichen Kontexten.
+> :speech_balloon: Bei genauerem Hinsehen ist hier aber nicht etwa das selbe Symbol - also `!=` - für zwei verschiedene Dinge verwendet worden. Vielmehr ist der Vergleichsoperator ganz automatisch auch ein logischer Operator, denn `true != false` ließe sich sowohl als _"wahr ist ungleich unwahr"_, als auch als _"Einer der Ausdrücke **wahr** oder **unwahr** ist wahr_ lesen. Somit handelt es sich hier nicht wirklich um zwei verschiedene, sondern ein und denselben Operator - nur eben in leicht unterschiedlichen Kontexten.
 
 
 ### NEGATION `!`
