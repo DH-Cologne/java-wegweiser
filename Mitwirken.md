@@ -1,4 +1,4 @@
-# Contributing: Wie kann ich mitwirken? :woman_technologist: <!-- omit in toc -->
+# Contributing: Wie kann ich mitwirken? :woman_technologist:<!-- omit in toc -->
 
 - [Wer wird hier angesprochen?](#wer-wird-hier-angesprochen)
 - [Warum sollte ich? :man_shrugging:](#warum-sollte-ich-)
