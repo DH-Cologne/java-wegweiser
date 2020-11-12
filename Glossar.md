@@ -17,13 +17,14 @@ Es ist für Anfänger nicht immer leicht den Überblick über all die relevanten
 > **TODO:** `Design Pattern`, `Entwurfsmuster`, `Listener`, `Kommandozeile`, `Konsole`, `Terminal` ...
 
 
-
 ## Legende
 :point_right: Verweis auf einen anderen Begriff in diesem Verzeichnis  
 :telescope: Verweis auf einen Artikel / Abschnitt im [Java-Wegweiser](https://dh-cologne.github.io/java-wegweiser)  
 :link: Verweis auf eine externe Ressource (meist Wikipedia)
 
 
+## Verzeichnis
+[A](#a), [Ä](#ä), [B](#b), [C](#c), [D](#d), [E](#e), [F](#f), [G](#g), [H](#h), [I](#i), [J](#j), [K](#k), [L](#l), [M](#m), [N](#n), [O](#o), [Ö](#ö), [P](#p), [Q](#q), [R](#r), [S](#s), [T](#t), [U](#u), [Ü](#ü), [V](#v), [W](#w), [X](#x), [Y](#y), [Z](#z)
 
 
 ## A
@@ -55,6 +56,11 @@ Eine Kombination aus Variablen, Literals, Konstanten, Operatoren und Rückgabewe
 
 ### Aussage
 :point_right: [Ausdruck](#ausdruck) mit einem :point_right: [Wahrheitswert](#wahrheitswert), etwa `2 == 7` (hat üblicherweise den Wert `false`). Auch: Englisch für :point_right: [Statement](#statement) (aber als deutsche Entsprechung dafür eher unüblich im Programmier-Kontext).
+
+
+## Ä
+
+...
 
 
 ## B
@@ -247,6 +253,11 @@ Die _Identität_ (eng. _identity_) zweier :point_right: [Objekte](#objekt) ist g
 
 ### Operation
 Verarbeitungsschritt in einem Software-Programm. Siehe auch :link:[Operation](https://de.wikipedia.org/wiki/Operation_(Informatik)).
+
+
+## Ö
+
+...
 
 
 ## P
