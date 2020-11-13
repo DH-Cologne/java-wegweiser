@@ -3,15 +3,13 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->
 &nbsp;
-[![Last 14 day visits](https://badges.pufler.dev/visits/dh-cologne/java-wegweiser?style=flat-square&label=visitors%2F14d)](https://github.com/DH-Cologne/java-wegweiser/graphs/traffic "Unique visitors within the last 14 days")
-&nbsp;
 [![Updated](https://badges.pufler.dev/updated/dh-cologne/java-wegweiser?style=flat-square)](https://github.com/DH-Cologne/java-wegweiser/commits/ "Last updated")
-&nbsp;
-[![Created](https://badges.pufler.dev/created/dh-cologne/java-wegweiser?style=flat-square)](https://github.com/DH-Cologne/java-wegweiser/commits/master?after=9e6a5c3cf46f2d9681c00bcdab6cd471661803a4+489&branch=master)
 &nbsp;
 [![GitHub forks](https://img.shields.io/github/forks/DH-Cologne/java-wegweiser.svg?label=Forks&maxAge=2592000&style=flat-square)](https://GitHub.com/DH-Cologne/java-wegweiser/network/members)
 &nbsp;
 [![GitHub issues](https://img.shields.io/github/issues/DH-Cologne/java-wegweiser.svg?style=flat-square)](https://GitHub.com/DH-Cologne/java-wegweiser/issues/)
+&nbsp;
+[![Last 14 day visits](https://badges.pufler.dev/visits/dh-cologne/java-wegweiser?style=flat-square&label=visitors%2F14d)](https://github.com/DH-Cologne/java-wegweiser/graphs/traffic "Unique visitors within the last 14 days")
 <!-- &nbsp;
 [![Repo Size](https://img.shields.io/github/repo-size/DH-Cologne/java-wegweiser.svg?label=Repo%20size&style=flat-square)](https://github.com/DH-Cologne/java-wegweiser) -->
 
