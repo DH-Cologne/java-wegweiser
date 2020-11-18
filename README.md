@@ -9,7 +9,7 @@
 &nbsp;
 [![GitHub issues](https://img.shields.io/github/issues/DH-Cologne/java-wegweiser.svg?style=flat-square&label=issues)](https://GitHub.com/DH-Cologne/java-wegweiser/issues/ "There are this many open issues!")
 &nbsp;
-[![Unique Visitors](https://badges.pufler.dev/visits/dh-cologne/java-wegweiser?style=flat-square&label=visitors)](https://github.com/DH-Cologne/java-wegweiser/graphs/traffic "Unique visitors since 2020/11/05")
+[![Visitors](https://hits.webklex.com/svg/dh-cologne/java-wegweiser-index)](https://github.com/DH-Cologne/java-wegweiser/graphs/traffic "Visitors since 2020/11/18")
 <!-- &nbsp;
 [![Repo Size](https://img.shields.io/github/repo-size/DH-Cologne/java-wegweiser.svg?label=Repo%20size&style=flat-square)](https://github.com/DH-Cologne/java-wegweiser) -->
 
