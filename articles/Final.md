@@ -44,7 +44,7 @@ public class User {
 
 ## Finale Methoden
 
-> :warning: Dieser Abschnitt setzt Kenntnisse zu [objektorientierter Programmierung](../README.md#objektorientierte-programmierung-oop) voraus.
+> :warning: Dieser Abschnitt setzt Kenntnisse zu [Vererbung](../README.md#vererbung-i-grundlagen) voraus.
 
 Auf Methoden hat die Verwendung von `final` eine etwas andere Wirkung, die sich semantsch aber gut anschließt: Finale [Methoden](Methoden.md) können **nicht** [überschrieben](Vererbung-I-Grundlagen.md#überschreiben-von-methoden) werden.
 
@@ -62,7 +62,7 @@ Das ist dann eine gute Idee, wenn die konkrete Implementation dieser Methode wic
 
 ## Finale Klassen
 
-> :warning: Dieser Abschnitt setzt Kenntnisse zu [objektorientierter Programmierung](../README.md#objektorientierte-programmierung-oop) voraus.
+> :warning: Dieser Abschnitt setzt Kenntnisse zu [Vererbung](../README.md#vererbung-i-grundlagen) voraus.
 
 Sehr ähnlich wie bei Methoden wirkt sich `final` bei [Klassen](OOP-Klassen-und-Objekte.md) aus: Finale Klassen können **nicht** [erweitert](Vererbung-I-Grundlagen.md) werden.
 
