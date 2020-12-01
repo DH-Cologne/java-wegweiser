@@ -31,8 +31,8 @@ Dieses Beispiel zeigt auf sehr einfache Weise, worum es geht: Die Methode ruft s
 Andere typische Anwendungsbeispiele für Rekursion sind die Errechnung der [Fibonacci-Zahlen](https://de.wikipedia.org/wiki/Fibonacci-Folge) oder das Durchsuchen (o.ä.) von Ordnern, deren Unterordnern, deren Unterordnern usw.  
 Die Funktionsweise von rekursiven Methoden zu verstehen ist anfangs nicht ganz einfach. Eine sehr gute Übung es, eine Methode zu implementieren, die alle Dateien eines Ordners auflistet (auch jene aus allen Unterordnern) und den Ablauf dieser Methode genau nachzuvollziehen.
 
-![Rekursion](../assets/images/recursion.gif)  
-> _Quelle: [#](https://commons.wikimedia.org/wiki/File:Recursion6.gif), Unknown author / [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0)_
+![Rekursion](../assets/images/recursion.webp)  
+> _Quelle: [#](https://konczakowski.tumblr.com/post/170961987185), konczakowski_
 
 > :link: Sehr gute Informationen zum Thema Rekursion findest du [hier](Rekursion.md)!
 
