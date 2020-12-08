@@ -166,7 +166,7 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 #### [Naming Conventions](articles/Naming-Conventions.md)
 > `Konventionen für Bezeichner in Java`, `Groß-/Kleinschreibung`, ...
 
-#### [Dokumentation mit JavaDoc](articles/JavaDoc.md)
+#### [Dokumentation mit Javadoc](articles/Javadoc.md)
 > `Wozu?`, `/**`, `@param`, `@return`, `<code></code>`, `best practices`, ...
 
 
