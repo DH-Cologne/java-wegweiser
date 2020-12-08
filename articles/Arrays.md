@@ -55,7 +55,7 @@ Nach der initialisierung eines Arrays mit dem `new`-Operator haben alle Elemente
 
 Eine andere Variante der Initialisierung von Arrays sind Array-Literals. Ähnlich den String-Literals handelt es sich hierbei um eine spezielle Notation, die ein Objekt erzeugt und gleichzeitig seinen Inhalt festlegt.
 
-Angelehnt an die beiden Beispiele mit dem `new`-Operator sehen wir hier, wie `ìnt`- bzw. `String`-Arrays über Array-Literals erzeugt werden:
+Angelehnt an die beiden Beispiele mit dem `new`-Operator sehen wir hier, wie `int`- bzw. `String`-Arrays über Array-Literals erzeugt werden:
 
 ```java
 int[] numbers = {3, 6, 345, 1, 0, 4};
