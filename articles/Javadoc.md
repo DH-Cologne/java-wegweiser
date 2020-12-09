@@ -5,6 +5,7 @@ Javadoc ist ein Dokumentationswerkzeug (und -Generator), der schon sehr lange Te
 - [Nutzen](#nutzen)
 - [Funktionsweise](#funktionsweise)
 - [Syntax](#syntax)
+- [Eclipse IDE Content Assist für Javadoc](#eclipse-ide-content-assist-für-javadoc)
 
 
 ## Nutzen
@@ -103,6 +104,13 @@ Natürlich gibt es noch viele weitere Javadoc-Annotationen:
 |`{@literal}`|Kennzeichnet buchstabengetreuen Text und unterdrückt die Interpretierung von beinhalteten HTML oder Javadoc-Tags.|Klasse, Interface, Instanzvariable, Methode|5.0|
 
 Quelle: :link: [Wikipedia](https://de.wikipedia.org/wiki/Javadoc#%C3%9Cbersicht_der_Javadoc-Tags)
+
+
+## Eclipse IDE Content Assist für Javadoc
+
+Die Eclipse IDE bietet (neben vielen anderen) eine nette Funktion zur automatischen Vervollständigung von Javadoc-Kommentaren: Wenn man etwa die Zeichenkette `/**` in die Zeile vor eine Methode schreibt und dann mit ENTER die Zeile umbricht, erstellt Eclipse automatisch eine Vorlage für einen Javadoc-Kommentar mit passenden `@param` und `@return` Annotationen. Das funktioniert natürlich nicht nur bei Methoden.
+
+![Eclipse Content Assist für Javadoc](../assets/images/javadoc-eclipse-completion.gif)
 
 
 > :link: Ein vollständige Dokumentation von Javadoc findet ihr [hier](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html) (extrem lang)
