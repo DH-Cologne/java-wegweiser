@@ -9,6 +9,7 @@
   - [... mit String-Literals](#-mit-string-literals)
 - [Verkettung von Strings](#verkettung-von-strings)
 - [Unveränderlichkeit von Strings](#unveränderlichkeit-von-strings)
+- [Vergleichen von Strings](#vergleichen-von-strings)
 - [Zugriff auf einzelne Zeichen und andere Tokens](#zugriff-auf-einzelne-zeichen-und-andere-tokens)
 - [Spezial-Zeichen](#spezial-zeichen)
 
@@ -69,6 +70,35 @@ name = name + " Duke";
 ```
 
 ... sorgt in Wirklichkeit dafür dass ein **neues** `String`-Objekt erzeugt und der Variable `name` zugewiesen wird! Diese Operation kostet relativ viel Rechenleistung. Es mag bei einer einzelnen String-Verkettung noch nicht auffallen, aber es ist nicht zu empfehlen (und wirklich *bad practice*), String-Verkettungen in Schleifen vorzunehmen - etwa beim zeilenweise Einlesen einer Datei. Um dieses Problem zu lösen, gibt es die Klasse `StringBuilder`, die mittels Pufferung die Verkettung von Strings enorm beschleunigt!
+
+
+## Vergleichen von Strings
+
+Äußerste Vorsicht ist beim Vergleichen von Strings geboten! Dieser Code hier ...
+
+```
+String s1 = "Hallo";
+String s2 = "Hallo";
+
+if (s1 == s2){
+  System.out.println("s1 und s2 sind gleich!");
+}
+```
+
+... sieht zwar so aus, als würde er überprüfen, ob beide Strings `"Hallo"` sind, aber das stimmt nicht! Strings sind Objekte. Und wenn Objekte mit `==` verglichen werden, wird **nicht** überprüft, ob irgendwelche Eigenschaften gleich sind, sondern ob es sich um _**das selbe Objekt**_ handelt!
+
+> :warning: Dass dieser Code _trotzdem_ funktioniert, liegt in diesem Fall am [String interning](https://en.wikipedia.org/wiki/String_interning) von Java und bedeutet **nicht**, dass die hier getroffene Aussage falsch ist!
+
+Meistens möchte man aber etwas ganz anderes wissen: Nämlich ob die Strings den gleichen (lexikalischen) Inhalt haben! Dies **muss** stattdessen mit Hilfe der [`.equals()` Methode](Objekte-II-Repraesentation-Identitaet-Gleichheit.md#equals) geschehen:
+
+```
+String s1 = "Hallo";
+String s2 = "Hallo";
+
+if (s1.equals(s2)){
+  System.out.println("s1 und s2 sind gleich!");
+}
+```
 
 
 ## Zugriff auf einzelne Zeichen und andere Tokens
