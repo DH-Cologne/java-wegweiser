@@ -2,15 +2,16 @@
 
 > Kategorisierte Links zu allgemeinen, Modul-relevanten Ressourcen, die begleitend genutzt werden können
 
-- [Java Lernen :books:](#java-lernen-)
-- [Java Üben :man_technologist:](#java-üben-)
-- [Anleitungen :woman_teacher:](#anleitungen-)
-- [Downloads :floppy_disk:](#downloads-)
+- [Java Lernen :books:](#java-lernen-books)
+- [Java Üben :man_technologist:](#java-üben-man_technologist)
+- [Anleitungen :woman_teacher:](#anleitungen-woman_teacher)
+- [Downloads :floppy_disk:](#downloads-floppy_disk)
 - [Git](#git)
-- [Sonstiges :green_salad:](#sonstiges-)
+- [Sonstiges :green_salad:](#sonstiges-green_salad)
 
 ## Java Lernen :books:
 
+-   [Programmieren in Java: Einführung](http://www.highscore.de/java/einfuehrung/) - Eine nüchterne, aber informative Einführung zum Durchlesen (weniger zum Nachschlagen)
 -   [WikiBooks: Java Programming](https://en.wikibooks.org/wiki/Java_Programming) - Eine ganz ähnliche Ressource wie dieses Repository, aber auf Englisch. Sehr gut und auf den Punkt, sehr empfehlenswert!
 -   [WikiBooks: Java Standard](https://de.wikibooks.org/wiki/Java_Standard) - Ein offenes Lehrbuch für Java (auf Deutsch); nicht so gut aufgearbeitet wie die englische Variante (siehe oben)
 -   [Oracle Java Tutorial](https://docs.oracle.com/javase/tutorial/java/) - Etwas trocken und angestaubt, aber bewährt
