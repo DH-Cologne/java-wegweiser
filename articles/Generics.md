@@ -1,5 +1,11 @@
 # Generics :pushpin:<!-- omit in toc -->
 
+- [Das Problem](#das-problem)
+- [Die Lösung: Generics](#die-lösung-generics)
+- [Type Erasure](#type-erasure)
+- [Type Wildcards](#type-wildcards)
+- [Generische Methodendefinitionen](#generische-methodendefinitionen)
+
 Generics in Java ermöglichen es einer Klasse oder Methode mit Objekten arbiträrer Datentypen zu arbeiten und dennoch Typsicherheit (zur :telescope: [compile-time](../Glossar.md#compile-time)) beizubehalten. Das bringt es auf den Punkt, ist aber nicht gleich einleuchtend. Versuchen wir es mit einem Beispiel ...
 
 
