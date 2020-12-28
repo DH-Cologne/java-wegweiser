@@ -6,7 +6,7 @@
 - [Type Wildcards](#type-wildcards)
 - [Generische Methodendefinitionen](#generische-methodendefinitionen)
 
-Generics in Java ermöglichen es einer Klasse oder Methode mit Objekten arbiträrer Datentypen zu arbeiten und dennoch Typsicherheit (zur :telescope: [compile-time](../Glossar.md#compile-time)) beizubehalten. Das bringt es auf den Punkt, ist aber nicht gleich einleuchtend. Versuchen wir es mit einem Beispiel ...
+Generics in Java ermöglichen es einer Klasse oder Methode mit Objekten arbiträrer Datentypen zu arbeiten und dennoch Typsicherheit (zur :telescope: [compile-time](../Glossar.md#compile-time)) zu gewährleisten. Das bringt es auf den Punkt, ist aber nicht gleich einleuchtend. Versuchen wir es mit einem Beispielszenario ...
 
 
 ## Das Problem
@@ -22,7 +22,7 @@ public class BadList {
 }
 ```
 
-Wie genau die Liste intern funktioniert, soll und hier egal sein. Aber der skizzierte Ansatz stellt uns bereits vor ein Problem: Wenn wir von dieser Liste dann ein Objekt zurückbekommen wollen, etwa mit einem Aufruf wie `list.get(0)` dann bekommen wir natürlich ein `Object` zurück. Wir müssten dieses dann casten, um Zugriff auf die Methoden des konkreten Datentyps zu erhalten. Aber welcher ist das?
+Wie genau die Liste intern funktioniert, soll uns hier egal sein. Aber der skizzierte Ansatz stellt uns bereits vor ein Problem: Wenn wir von dieser Liste später ein Objekt abrufen wollen - etwa mit einem Aufruf wie `list.get(0)` - dann bekommen wir natürlich ein `Object` zurück. Wir müssten dieses dann [casten](Casting.md), um Zugriff auf die Methoden des konkreten Datentyps zu erhalten. Aber welcher ist das?
 
 Jede Instanz unserer Liste sollte also nur Objekte eines bestimmten Datentyps aufnehmen können. Aber wie soll das gehen? Wenn wir statt `Object` den konkreten Datentyp - z.B. `Student` - einsetzen, funktioniert unsere Liste ausschließlich mit `Student`-Objekten. Wir müssten für jeden zu verwaltenden Datentyp eine neue Liste programmieren.
 
@@ -31,7 +31,7 @@ Jede Instanz unserer Liste sollte also nur Objekte eines bestimmten Datentyps au
 
 > Hier am Beispiel generischer Klassendefinitionen
 
-Eine Lösung für solche Situationen bieten Generics: Mit ihnen kann der Datentyp, mit dem eine Klasse oder Methode arbeiten soll, an mehreren Stellen im Code "gleichgeschaltet" werden, ohne diesen direkt festzulegen. Dafür werden Platzhalter benutzt, die den später eingesetzten Datentyp markieren (hier `T`):
+Eine Lösung für solche Situationen bieten Generics: Mit ihnen kann der Datentyp, mit dem eine Klasse oder Methode arbeiten soll, an mehreren Stellen im Code "gleichgeschaltet" werden, ohne diesen direkt festzulegen (eben ein _generischer_ Typ). Dafür werden Platzhalter benutzt, die den später eingesetzten Datentyp markieren (hier `T`):
 
 ```java
 public class GoodList<T> {
@@ -41,7 +41,7 @@ public class GoodList<T> {
 }
 ```
 
-Die Syntax für die Definition des Platzhalters ist also `<T>` (der Platzhalter in spitzen Klammern). In der restlichen Klasse/Methode ist `T` dann als Typ verfügbar (siehe Parameter `T o` oben!).
+Die Syntax für die Definition des Platzhalters ist also `<T>` (der Platzhalter in spitzen Klammern). In der restlichen Klasse (bzw. Methode, siehe unten!) ist `T` dann als Typ verfügbar (siehe Parameter `T o` in der Methode oben!).
 
 Um diese Liste zu benutzen, wird nun bei ihrer Initialisierung der zu verwaltende Datentyp festgelegt:
 
