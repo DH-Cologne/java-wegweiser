@@ -16,6 +16,7 @@ Um neue Objekte in die Liste aufzunehmen, besitzt `BadList` eine Methode `add(Ob
 
 ```java
 public class BadList {
+    // ...
     public void add(Object o){
         // ...
     }
@@ -35,6 +36,7 @@ Eine Lösung für solche Situationen bieten Generics: Mit ihnen kann der Datenty
 
 ```java
 public class GoodList<T> {
+    // ...
     public void add(T o){
         // ...
     }
