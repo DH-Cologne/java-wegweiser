@@ -14,7 +14,7 @@ Es ist für Anfänger nicht immer leicht den Überblick über all die relevanten
 > In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
 
 > :milky_way:
-> **TODO:** `Listener`, `Kommandozeile`, `Konsole`, `Terminal`, `compile-time`, `run-time` ...
+> **TODO:** `...`, ...
 
 
 ## Legende
@@ -76,6 +76,9 @@ Fehler in einem Computerprogramm.
 
 ### Code
 Englisch für :point_right: [Quelltext](#quelltext); auch: Ein System zum Umwandeln von Informationen.
+
+### compile-time
+(Zum) Zeitpunkt der Kompilierung des Quellcodes. Siehe zum Vergleich: :point_right: [run-time](#run-time).
 
 ### Compiler
 Computerprogramm, das den Quelltext einer Programmiersprache in Maschinencode übersetzt, der von einem Computer ausgeführt werden kann. Im Falle von Java ist das :telescope: [Bytecode](articles/Die-Programmiersprache-Java.md), der von der :telescope: [JVM](articles/Die-Programmiersprache-Java.md) ausgeführt werden kann. Siehe auch: :link: [Compiler](https://de.wikipedia.org/wiki/Compiler).
@@ -196,8 +199,14 @@ Siehe :telescope: [OOP-Einführung](articles/OOP-Einfuehrung.md) bzw. :telescope
 ### Klassenvariable
 Siehe :telescope: [Arten von Variablen](articles/Variablen.md#arten-von-variablen).
 
+### Kommandozeile
+Siehe :link: [hier](https://fossbytes.com/difference-between-shell-console-terminal/) und :link: [hier](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line).
+
 ### Komplexität
-> Konzept zur Abschätzung des Ressourcenaufwandes zur :point_right: [algorithmischen](#algorithmus) Behandlung bestimmter Probleme. — :link: [Wikipedia](https://de.wikipedia.org/wiki/Komplexit%C3%A4t#Informatik)
+Konzept zur Abschätzung des Ressourcenaufwandes zur :point_right: [algorithmischen](#algorithmus) Behandlung bestimmter Probleme. — :link: [Wikipedia](https://de.wikipedia.org/wiki/Komplexit%C3%A4t#Informatik)
+
+### Konsole
+Siehe :link: [hier](https://fossbytes.com/difference-between-shell-console-terminal/) und :link: [hier](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line).
 
 ### Kontrollfluss
 Die Steuerung des Ablaufs eine Programmes. Für den Kontrollfluss werden :telescope: [Konditionale](articles/Konditionale.md) und :telescope: [Schleifen](articles/Schleifen.md) genutzt, die das Programm abhängig von festgelegten :point_right: [Bedingungen](#bedingung) steuern.
@@ -210,6 +219,9 @@ Die Steuerung des Ablaufs eine Programmes. Für den Kontrollfluss werden :telesc
 
 ### Library
 Kurz und Englisch für :point_right: [Programmbibliothek](#programmbibliothek).
+
+### Listener
+Begriff aus dem Kontext des :link: [Listener](https://docs.oracle.com/javase/tutorial/uiswing/events/intro.html) - :point_right: [Entwurfsmusters](#entwurfsmuster), der ein Objekt beschreibt, das auf bestimmte Ereignisse reagiert. 
 
 ### Literal
 Ausdruck, der zur direkten Darstellung eines Wertes (numerischer Wert, String, Array, ...) genutzt wird. Mit Literals werden Werte :point_right: "[hard coded](#hard-coding)" in den Quelltext geschrieben. Siehe auch: :link: [Literal](https://de.wikipedia.org/wiki/Literal).
@@ -308,6 +320,9 @@ Verbesserung der Struktur des :point_right: [Quelltextes](#quelltext) eines Prog
 ### Referenz
 Verweis auf einen Wert (:telescope: [primitiver Wert](articles/Datentypen.md) oder :telescope: [Pointer](articles/Methoden.md#java-ist-immer--pass-by-value) auf ein :telescope: [Objekt](articles/OOP-Einfuehrung.md)), etwa eine :telescope: [Variable](articles/Variablen.md), oder ein :point_right: [Index](#index) eines :telescope: [Arrays](articles/Arrays.md).
 
+### run-time
+(Während der) Ausführung eines Programmes (also während der :point_right: [Runtime](#runtime)). Siehe zum Vergleich: :point_right: [compile-time](#compile-time).
+
 ### Runtime
 Englisch für :point_right: [Laufzeit](#laufzeit).
 
@@ -345,6 +360,9 @@ Ausgabe-Datenstrom der :point_right: [Standard-Datenströme](#standard-datenstr�
 System zur Formung gültiger ([Quell-](#quelltext))Texte aus dem Zeichenvorrat einer Sprache. Siehe auch :link: [Syntax](https://de.wikipedia.org/wiki/Syntax#Syntax_formaler_Sprachen).
 
 ## T
+
+### Terminal
+Siehe :link: [hier](https://fossbytes.com/difference-between-shell-console-terminal/) und :link: [hier](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line).
 
 ### Test
 Im Kontext der Softwaretechnologie: Testet eine Software auf Funktionalität und Qualität. Niedrigste Stufe sind :point_right: [Unit Tests](#unit-test) (oder: _Komponententests_), die einzelne Komponenten / Einheiten der Software testen. Für Erläuterungen zu weiteren Arten von Tests auf höheren Ebenen siehe auch :link: [Softwaretest](https://de.wikipedia.org/wiki/Softwaretest).
