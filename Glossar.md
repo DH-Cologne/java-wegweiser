@@ -14,7 +14,7 @@ Es ist für Anfänger nicht immer leicht den Überblick über all die relevanten
 > In diesem Stichwort-Verzeichnis geht es außerdem **nicht** um [ulkige Bezeichnungen für Dinge aus der Welt des Programmierens](https://blog.codinghorror.com/new-programming-jargon/) (schade!), sondern um allgemeine Begriffe, die zur Kommunikation über das Programmieren und Quelltext genutzt werden.
 
 > :milky_way:
-> **TODO:** `Design Pattern`, `Entwurfsmuster`, `Listener`, `Kommandozeile`, `Konsole`, `Terminal`, `compile-time`, `run-time` ...
+> **TODO:** `Listener`, `Kommandozeile`, `Konsole`, `Terminal`, `compile-time`, `run-time` ...
 
 
 ## Legende
@@ -107,11 +107,18 @@ Die _Deklaration_ einer :telescope: [articles/Variable](Variablen.md) besteht au
 ### Deployment
 Der Vorgang des Installierens einer Software auf dem Zielsystem. Auch: _Auslieferung_ oder :link: [_Softwareverteilung_](https://de.wikipedia.org/wiki/Softwareverteilung).
 
+### Design Pattern
+Englisch für :point_right: [Entwurfsmuster](#entwurfsmuster).
+
 
 ## E
 
 ### Endlosschleife
 :telescope: [Schleife](articles/Schleifen.md) oder :telescope: [Rekursion](articles/Rekursion.md), die durch fehlende oder nicht erreichbare Abbruchbedingung (oder immer wahre Ausführungsbedingung) nie beendet wird und letztendlich zu einem Programmabsturz führt. Siehe auch :link: [Endlosschleife](https://de.wikipedia.org/wiki/Endlosschleife).
+
+### Entwurfsmuster
+Wiederverwendbare, bewährte (Architektur-)Vorlagen zur Lösung üblicher Probleme. Siehe auch :link: [Entwurfsmuster](https://de.wikipedia.org/wiki/Entwurfsmuster).
+
 
 ### Exit-Code
 Auch: _Exit-Status_, _Return Code_ oder _Rückgabestatus_. Ein numerischer Wert, den ein Programm zurückgibt, wenn es sich beendet (oder beendet wird). Dabei steht `0` üblicherweise für ein reguläres (fehlerfreies) Programm-Ende, andere Werte für unterschiedliche Programm-Abbrüche durch Fehler. Siehe auch :link: [Return Code](https://de.wikipedia.org/wiki/Return_Code)
