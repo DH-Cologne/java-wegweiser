@@ -201,8 +201,3 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
 > :point_right: **Dieses Projekt folgt der [all-contributors](https://github.com/all-contributors/all-contributors)-Spezifikation.**  
 > Contributions (Beiträge) jeder Art [sind willkommen](Mitwirken.md) und werden an dieser Stelle wie oben zu sehen aufgeführt!
 
-
-
-<div class="top-link">
-    <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
-</div>
