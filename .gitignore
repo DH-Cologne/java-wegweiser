@@ -28,3 +28,5 @@ _draft/
 
 # local os related files
 .DS_Store
+
+.vscode
