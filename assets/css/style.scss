@@ -37,8 +37,19 @@ $hr-border-color: #eff0f1;
     opacity: 1;
 }
 
-a.btn {
-    border-radius: 3px;
+.btn {
+    margin: 0px;
+    color: rgba(255,255,255,0.7);
+    background-color: transparent;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0px;
+    border-radius: initial;
+    padding: 0px !important;
+}
+
+.btn:hover {
+    background-color: transparent;
 }
 
 a code {
