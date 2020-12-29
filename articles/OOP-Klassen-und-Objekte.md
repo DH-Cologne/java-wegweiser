@@ -50,5 +50,7 @@ Quelle: [_Wikimedia: Von Binz - Own Creation, CC BY-SA 4.0_](https://commons.wik
 
 Was aber nun alles zu einer Klasse gehört und wie man Objekte (also Instanzen von Klassen) erzeugt, ist in den folgenden Kapiteln beschrieben. Natürlich sind auch "Klasse" und "Objekt" nicht die einzigen Konzepte, die in der objektorientierten Programmierung eine wichtige Rolle spielen. Inhalte zu Vererbung, Polymorphie usw. befinden sich ebenfalls in den folgenden Kapiteln.
 
+> :link: Siehe auch [hier](https://www.w3schools.com/java/java_classes.asp).
+
 
 
