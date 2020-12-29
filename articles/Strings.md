@@ -166,9 +166,3 @@ Welt!
 > :warning: Da der Backslash `\` die Funktion der Maskierung erfüllt, muss er selbst maskiert werden, wenn er als Zeichen im String auftauchen soll. Also so: `"\\"`. Wenn nun aber der String selbst `"\\"` lauten soll, dann wäre das String-Literal dazu `"\\\\"`, usw. 
 
 
-<!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
-<div class="top-link">
-    <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
-    <br/>
-    <a href="https://dh-cologne.github.io/java-wegweiser#inhalt-book" title="Zurück zur Übersicht!">Inhalt :book:</a>
-</div>

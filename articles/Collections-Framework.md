@@ -230,9 +230,3 @@ Sets lassen, wie erwähnt, [keine Duplikate zu](https://docs.oracle.com/javase/8
 Bei der Benutzung von `HashSet` oder `HashMap`, also jenen Implementationen von `Set` und `Map`, welche die Hash-Werte von Objekten nutzen, fällt dem [Vertrag zwischen `equals()` und `hashCode()`](https://www.programcreek.com/2011/07/java-equals-and-hashcode-contract/) eine besondere Bedeutung zu: Diese Datenstrukturen organisieren ihre Elemente zunächst nach deren Hash-Werten. Nur wenn zufällig ein angefordertes Element (etwa via `contains()` oder `get()`) den selben Hash-Wert besitzt, wie ein Element in der Datenstruktur, wird von einer "Gleichheit" ausgegangen. Wenn also eine Klasse zwar `equals()` korrekt implementiert, nicht aber `hashCode()`, dann ist der Vertrag gebrochen und es kann zu Komplikationen kommen, da dann zwei Objekte, die nach `equals()` gleich wären von `HashSet` und `HashMap` dennoch nicht als gleich angesehen werden.
 
 
-<!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
-<div class="top-link">
-    <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
-    <br/>
-    <a href="https://dh-cologne.github.io/java-wegweiser#inhalt-book" title="Zurück zur Übersicht!">Inhalt :book:</a>
-</div>

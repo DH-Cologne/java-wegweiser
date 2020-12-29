@@ -91,9 +91,3 @@ public class IrgendwasMitAudio {
 > :point_right: Mit dem Tastatur-Shortcut `Strg`+`Shift`+`O` fügt Eclipse automatisch alle fehlenden Imports ein. Falls es Uneindeutigkeiten gibt, wird man nach dem richtigen Import gefragt.
 
 
-<!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
-<div class="top-link">
-    <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
-    <br/>
-    <a href="https://dh-cologne.github.io/java-wegweiser#inhalt-book" title="Zurück zur Übersicht!">Inhalt :book:</a>
-</div>

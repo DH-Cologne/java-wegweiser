@@ -2,16 +2,15 @@
 
 > :construction: **TODO:** Noch unvollständig...
 
-- [Lizenzen von eingefügten Grafiken u.ä. :balance_scale:](#lizenzen-von-eingefügten-grafiken-uä-️)
-- [Emojis :confused:](#emojis-)
-- [Das Inhaltsverzeichnis :book:](#das-inhaltsverzeichnis-)
-- [Verweise / Links :link:](#verweise--links-)
+- [Lizenzen von eingefügten Grafiken u.ä. :balance_scale:](#lizenzen-von-eingefügten-grafiken-uä-balance_scale)
+- [Emojis :confused:](#emojis-confused)
+- [Das Inhaltsverzeichnis :book:](#das-inhaltsverzeichnis-book)
+- [Verweise / Links :link:](#verweise--links-link)
   - [Pfade und Veknüpfungen innerhalb des Repositories](#pfade-und-veknüpfungen-innerhalb-des-repositories)
   - [... als vertiefende Ressource](#-als-vertiefende-ressource)
   - [... als Quellen-Angabe](#-als-quellen-angabe)
   - [... auf Github-URLs unter diesem Repository](#-auf-github-urls-unter-diesem-repository)
 - [Hinweise und Bemerkungen](#hinweise-und-bemerkungen)
-- [Links zum Seitenanfang](#links-zum-seitenanfang)
 
 Es gibt eine Liste von Konventionen, die dabei helfen sollen, die Formatierung der Beiträge und den Einsatz von Markdown überall in diesem Repository einheitlich zu halten. Du findest sie gleich dort unten :point_down:
 
@@ -54,32 +53,3 @@ An den entsprechenden Stellen sollten Hinweise und Bemerkungen unterschiedlicher
 > :construction: **TODO:** An dieser Stelle fehlt Inhalt XY. Wichtig wäre die Erwähnung von Blah Blah und Dings. Das muss noch gemacht werden!
 
 > :question: **Fraglich:** Lieber erstmal weglassen?
-
-
-## Links zum Seitenanfang
-Jeweils **am Ende jeder `.md`-Datei** sollte folgender Code für einen Link zum Seitenanfang stehen:
-
-```html
-<!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
-<div class="top-link">
-    <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
-    <br/>
-    <a href="https://dh-cologne.github.io/java-wegweiser#inhalt-book" title="Zurück zur Übersicht!">Inhalt :book:</a>
-</div>
-```
-
-Auf der Github-Pages-Seite wird dieser Link dann automatisch mit CSS in der rechten unteren Fenster-Ecke fixiert.
-
-
-
-
-
-
-
-
-<!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
-<div class="top-link">
-    <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
-    <br/>
-    <a href="https://dh-cologne.github.io/java-wegweiser#inhalt-book" title="Zurück zur Übersicht!">Inhalt :book:</a>
-</div>

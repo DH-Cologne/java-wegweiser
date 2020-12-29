@@ -65,9 +65,3 @@ Es handelt sich bei den Dokumenten in diesem Repository um [Markdown](https://de
 :warning: Bitte beachte den [**Leitfaden für Beiträge / Contributions**](Leitfaden.md) !!!
 
 
-<!-- Dieses HTML-Snippet sollte am Ende jeder Seite stehen! -->
-<div class="top-link">
-    <a href="#" title="Zum Anfang scrollen!">Top :balloon:</a>
-    <br/>
-    <a href="https://dh-cologne.github.io/java-wegweiser#inhalt-book" title="Zurück zur Übersicht!">Inhalt :book:</a>
-</div>
