@@ -1,12 +1,18 @@
 
-# Python3 script to replace all :emoji_names: with actual emoji characters
+# Python3 script to replace all :emoji_codes: with actual emoji characters
 # in all files ending with ".md" throughout the whole project
 
 import io
 import json
 import os
+import sys
 from pathlib import Path
 
+if len(sys.argv) != 1 or not sys.argv[0] in ["emoji2code", "code2emoji"]:
+	print("Please provide 'emoji2code' or 'code2emoji' as an argument for operating mode selection.")
+	exit(1)
+ 
+to_emoji = sys.argv[0] == "code2emoji"
 parent_dir = Path(__file__).parent
 root_dir = (parent_dir / "../../").resolve()
 emojis_data = (parent_dir / "emojis.json").resolve()
@@ -28,6 +34,9 @@ for subdir, dirs, files in os.walk(root_dir):
 		for e in emojis:
 			if len(e["shortname"]) < 3:
 				continue
-			text = text.replace(e["shortname"], e["emoji"])
+			if to_emoji:
+				text = text.replace(e["shortname"], e["emoji"])
+			else:
+				text = text.replace(e["emoji"], e["shortname"])
 		with open(f_path, "w") as f:
 			f.write(text)
