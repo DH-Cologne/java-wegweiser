@@ -46,7 +46,7 @@ Die folgende Grafik veranschaulicht das Verhältnis zwischen "Klasse" und "Objek
 ![Mitarbeiter-Klasse](../assets/images/Employee-Class.png)  
 Quelle: [_Wikimedia: Von Binz - Own Creation, CC BY-SA 4.0_](https://commons.wikimedia.org/w/index.php?curid=62707688)
 
-> :speech_balloon: Leider hält sich die Grafik oben nicht an die [Java Naming Conventions](Naming-Conventions.md). Eigentlich müssten die Methodennamen `setName()` und `setGehalt()` lauten 🤦
+> :speech_balloon: Leider hält sich die Grafik oben nicht an die [Java Naming Conventions](Naming-Conventions.md). Eigentlich müssten die Methodennamen `setName()` und `setGehalt()` lauten :person_facepalming:
 
 Was aber nun alles zu einer Klasse gehört und wie man Objekte (also Instanzen von Klassen) erzeugt, ist in den folgenden Kapiteln beschrieben. Natürlich sind auch "Klasse" und "Objekt" nicht die einzigen Konzepte, die in der objektorientierten Programmierung eine wichtige Rolle spielen. Inhalte zu Vererbung, Polymorphie usw. befinden sich ebenfalls in den folgenden Kapiteln.
 
