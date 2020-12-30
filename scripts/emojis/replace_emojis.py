@@ -19,9 +19,12 @@ emojis_data = (parent_dir / "emojis.json").resolve()
 emojis = None
 text = None
 
+# load emoji data and sort by string length of emoji
 with open(emojis_data, "r") as f:
 	emojis = json.load(f)["emojis"]
+	emojis = sorted(emojis, key=lambda k: len(k["emoji"]), reverse=True)
 
+# iterate files of project recursively
 for subdir, dirs, files in os.walk(root_dir):
 	for f_name in files:
 		f_path = os.path.join(subdir, f_name)
