@@ -1,4 +1,4 @@
-# Variablen :label:<!-- omit in toc -->
+# Variablen 🏷️<!-- omit in toc -->
 
 Eine Variable dient dazu, Werte oder Objekte zu speichern und sie über einen _Bezeichner_, den _Variablennamen_ referenzierbar (oder auch: _ansprechbar_) zu machen. Technisch gesehen hat eine Variable in Java entweder einen [primitiven Wert](Datentypen.md#primitive-datentypen) oder hält die Adresse eines [Objektes](OOP-Einfuehrung.md) bereit.
 
@@ -11,16 +11,16 @@ Eine Variable dient dazu, Werte oder Objekte zu speichern und sie über einen _B
   - [Klassenvariablen](#klassenvariablen)
 
 
-> :warning: _Variablennamen_ werden in Java [per Konvention](Naming-Conventions.md) immer im [_lowerCamelCase_](Naming-Conventions.md#variablen) geschrieben (es sei denn es handelt sich um [Konstanten](Final.md), dann werden sie im [UPPERCASE_MIT_UNTERSTRICHEN](Naming-Conventions.md#variablen) geschrieben)!
+> ⚠️ _Variablennamen_ werden in Java [per Konvention](Naming-Conventions.md) immer im [_lowerCamelCase_](Naming-Conventions.md#variablen) geschrieben (es sei denn es handelt sich um [Konstanten](Final.md), dann werden sie im [UPPERCASE_MIT_UNTERSTRICHEN](Naming-Conventions.md#variablen) geschrieben)!
 
 
 ## Typsicherheit
 
-> :speech_balloon: **eng.:** type safety
+> 💬 **eng.:** type safety
 
 Java ist eine _stark typisierte_ (oder auch _streng typisierte_) Sprache. Das bedeutet, dass alle Variablen in Java **einen bestimmten Datentyp** haben und sich dieser **nicht ändern** kann. Dieser Umstand gewährleistet _Typsicherheit_, d.h. man kann sich darauf verlassen, dass das Objekt (oder der Wert), auf den eine Variable verweist, den Datentyp der entsprechenden Variable besitzt.
 
-> :speech_balloon: Das geht auch anders: Sprachen wie Python, JavaScript oder PHP sind nicht- oder lose typisiert - der Datentyp einer Variable kann sich dort ändern bzw. ist nicht festgelegt.
+> 💬 Das geht auch anders: Sprachen wie Python, JavaScript oder PHP sind nicht- oder lose typisiert - der Datentyp einer Variable kann sich dort ändern bzw. ist nicht festgelegt.
 
 
 ## Deklaration und Zuweisung
@@ -75,7 +75,7 @@ public void combineNames(String firstName, String lastName){
 }
 ```
 
-> :speech_balloon: In diesem Beispiel besteht von außerhalb der Methode `combineNames()` kein Zugriff auf die Variable `fullName`! Diese Variable existiert nur während der Ausführung der Methode!
+> 💬 In diesem Beispiel besteht von außerhalb der Methode `combineNames()` kein Zugriff auf die Variable `fullName`! Diese Variable existiert nur während der Ausführung der Methode!
 
 
 ### Parameter / Argumente
@@ -88,14 +88,14 @@ public void sayName(String name){
 }
 ```
 
-> :speech_balloon: In diesem Beispiel besteht von außerhalb der Methode `sayName()` kein Zugriff auf die Variable `name`, die ein Parameter dieser Methode ist. Diese Variablen existieren nur während der Ausführung der Methode!
+> 💬 In diesem Beispiel besteht von außerhalb der Methode `sayName()` kein Zugriff auf die Variable `name`, die ein Parameter dieser Methode ist. Diese Variablen existieren nur während der Ausführung der Methode!
 
 
 ### Instanzvariablen
 
-> :warning: Dieser Abschnitt setzt Kenntnisse zu [objektorientierter Programmierung](../README.md#objektorientierte-programmierung-oop) voraus.
+> ⚠️ Dieser Abschnitt setzt Kenntnisse zu [objektorientierter Programmierung](../README.md#objektorientierte-programmierung-oop) voraus.
 
-> :speech_balloon: engl.: _instance variables / (non-static) member variables_
+> 💬 engl.: _instance variables / (non-static) member variables_
 
 Instanzvariablen sind mit einem Objekt (also einer Instanz einer Klasse) verknüpft. Sie werden im Klassenkörper deklariert und sind nicht statisch, also nicht mit `static` markiert und können auch nicht aus einem statischen Kontext heraus angesprochen werden. Der [Gültigkeitsbereich](https://de.wikipedia.org/wiki/Variable_(Programmierung)#Scope) einer Instanzvariable entspricht dem gesamten Klassenkörper, bzw. (bei Verwendung außerhalb der Klasse bei Instanzvariablen die nicht `private` sind) dem Gültigkeitsbereich der Referenz auf die Instanz.
 
@@ -110,9 +110,9 @@ public class User {
 
 ### Klassenvariablen
 
-> :warning: Dieser Abschnitt setzt Kenntnisse zu [objektorientierter Programmierung](../README.md#objektorientierte-programmierung-oop) voraus.
+> ⚠️ Dieser Abschnitt setzt Kenntnisse zu [objektorientierter Programmierung](../README.md#objektorientierte-programmierung-oop) voraus.
 
-> :speech_balloon: engl.: _class variables_
+> 💬 engl.: _class variables_
 
 Klassenvariablen (oder: _statische Variablen_) sind an die Klasse gebunden, in der sie deklariert werden. Sie werden mit dem Schlüsselwort `static` als "statisch" markiert, d.h. dass ihr Wert in allen Instanzen der Klasse **immer der selbe** ist und dass auf sie **ohne eine Instanz der Klasse zugegriffen werden kann** (sofern dies nicht durch den [Zugriffsmodfizierer](Objekte-I-Initialisierung-Members-Zugriff.md#sichtbarkeits-zugriffsmodifizierer) verhindert wird).
 

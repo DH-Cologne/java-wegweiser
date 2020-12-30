@@ -1,6 +1,6 @@
-# Operatoren :symbols:<!-- omit in toc -->
+# Operatoren 🔣<!-- omit in toc -->
 
-> :speech_balloon: Die auf dieser Seite erläuterten Operatoren sind tatsächlich noch nicht alle, die es in Java gibt. Andere Operatoren wie [`new`](Objekte-I-Initialisierung-Members-Zugriff.md), [`instanceof`](Vererbung-I-Grundlagen.md) oder der [Ternary-Operator](Konditionale.md) passen aber viel besser in den Kontext anderer Seiten, weshalb sie dort und nicht auf dieser Seite hier zu finden sind.
+> 💬 Die auf dieser Seite erläuterten Operatoren sind tatsächlich noch nicht alle, die es in Java gibt. Andere Operatoren wie [`new`](Objekte-I-Initialisierung-Members-Zugriff.md), [`instanceof`](Vererbung-I-Grundlagen.md) oder der [Ternary-Operator](Konditionale.md) passen aber viel besser in den Kontext anderer Seiten, weshalb sie dort und nicht auf dieser Seite hier zu finden sind.
 
 - [Arithmetische- / Rechenoperatoren](#arithmetische---rechenoperatoren)
   - [Grundrechenarten `+`, `-`, `*`, `/`](#grundrechenarten-----)
@@ -10,7 +10,7 @@
 - [Logische Operatoren](#logische-operatoren)
   - [UND `&&`](#und-)
   - [ODER `||`](#oder-)
-  - [:warning: `&&` und `||` und der Kurzschluss](#️--und--und-der-kurzschluss)
+  - [⚠️ `&&` und `||` und der Kurzschluss](#️--und--und-der-kurzschluss)
   - [Exklusives ODER `!=`](#exklusives-oder-)
   - [NEGATION `!`](#negation-)
   - [Bitweise UND `&` und ODER `|`](#bitweise-und--und-oder-)
@@ -120,13 +120,13 @@ Ausdrücke mit Vergleichsoperatoren haben **immer** den Wert `true` oder `false`
 
 Der Wert des Ausdrucks `2 >= 6` wäre dann folgerichtig `false`, usw.
 
-> :warning: **Achtung:** Wenn der Vergleichsoperator `==` zum Vergleichen von Objekten (oder besser: Objekt-Referenzen) genutzt wird **nicht** die semantische _Gleichheit_ der Objekte, sondern tatsächlich die Gleichheit der Referezen überprüft. D.h. der Vergleich ist nur dann `true`, wenn es sich **um das selbe Objekt an der selben Speicherstelle** handelt!  
+> ⚠️ **Achtung:** Wenn der Vergleichsoperator `==` zum Vergleichen von Objekten (oder besser: Objekt-Referenzen) genutzt wird **nicht** die semantische _Gleichheit_ der Objekte, sondern tatsächlich die Gleichheit der Referezen überprüft. D.h. der Vergleich ist nur dann `true`, wenn es sich **um das selbe Objekt an der selben Speicherstelle** handelt!  
 > Die Gleichheit von Objekten wird deshalb anders überprüft, nämlich mit Hilfe der `equals()`-Methode! Mehr dazu [hier](Objekte-II-Repraesentation-Identitaet-Gleichheit.md).
 
 
 ## Logische Operatoren
 
-> :speech_balloon: Auch: _Boolsche Operatoren_
+> 💬 Auch: _Boolsche Operatoren_
 
 Logische Operatoren verknüpfen mehrere Aussagen (also Ausdrücke, die `true` oder `false` sind) zu größeren, komplexeren Aussagen. So ist etwa die Aussage
 
@@ -154,10 +154,10 @@ Mit einem logischen **ODER** `||` wäre der ganze Ausdruck eben auch dann wahr, 
 
     i < 10 || i > 5
 
-> :woman_teacher: Natürlich ist dieses letzte Beispiel völliger Unsinn, denn jede Zahl ist entweder kleiner als `10` oder größer als `5`.
+> 👩‍🏫 Natürlich ist dieses letzte Beispiel völliger Unsinn, denn jede Zahl ist entweder kleiner als `10` oder größer als `5`.
 
 
-### :warning: `&&` und `||` und der Kurzschluss
+### ⚠️ `&&` und `||` und der Kurzschluss
 
 Die logischen Operatoren `&&` und `||` sind _short-circuiting_, d.h. der rechte Teil des Ausdrucks wird nur dann aufgelöst, wenn dies nötig ist! In `2 > 17 && 1 == 1` wird z.B. `1 == 1` nicht überprüft, da der Ausdruck nach der Auswertung von `2 > 17` bereits nur noch `false` sein kann!
 
@@ -168,7 +168,7 @@ In fast allen Fällen ist dies gewünscht, denn es spart Rechenzeit. Manchmal is
 
 Das als Vergleichsoperator bekannte `!=` (dort: _ungleich_) ist gleichzeitig auch ein logischer Operator. Er sorgt dafür, dass der Gesamtausdruck nur dann `true` ist, wenn **nur genau eine** der Teil-Aussagen wahr ist!
 
-> :speech_balloon: Bei genauerem Hinsehen ist hier aber nicht etwa das selbe Symbol - also `!=` - für zwei verschiedene Dinge verwendet worden. Vielmehr ist der Vergleichsoperator ganz automatisch auch ein logischer Operator, denn `true != false` ließe sich sowohl als _"wahr ist ungleich unwahr"_, als auch als _"Einer der Ausdrücke **wahr** oder **unwahr** ist wahr_ lesen. Somit handelt es sich hier nicht wirklich um zwei verschiedene, sondern ein und denselben Operator - nur eben in leicht unterschiedlichen Kontexten.
+> 💬 Bei genauerem Hinsehen ist hier aber nicht etwa das selbe Symbol - also `!=` - für zwei verschiedene Dinge verwendet worden. Vielmehr ist der Vergleichsoperator ganz automatisch auch ein logischer Operator, denn `true != false` ließe sich sowohl als _"wahr ist ungleich unwahr"_, als auch als _"Einer der Ausdrücke **wahr** oder **unwahr** ist wahr_ lesen. Somit handelt es sich hier nicht wirklich um zwei verschiedene, sondern ein und denselben Operator - nur eben in leicht unterschiedlichen Kontexten.
 
 
 ### NEGATION `!`
@@ -183,7 +183,7 @@ unwahr (`false`) wird:
 
 Gelesen: _NOT..._
 
-> :man_teacher: Es können mit Hilfe der beschriebenen logischen Operatoren beliebig lange und komplexe logische Ausdrücke gebildet werden, wie etwa  
+> 👨‍🏫 Es können mit Hilfe der beschriebenen logischen Operatoren beliebig lange und komplexe logische Ausdrücke gebildet werden, wie etwa  
 > `!((a > b) && (x == y)) || z`
 
 
@@ -191,7 +191,7 @@ Gelesen: _NOT..._
 
 > eng.: _bit-wise and_; _bit-wise or_
 
-> :warning: Dieser Abschnitt ist recht komplex und evtl. nicht gut für den Einstieg geeignet. Wenn du gerade erst die Operatoren in Java kennenlernst, dann ignoriere diesen Abschnitt lieber vorerst.
+> ⚠️ Dieser Abschnitt ist recht komplex und evtl. nicht gut für den Einstieg geeignet. Wenn du gerade erst die Operatoren in Java kennenlernst, dann ignoriere diesen Abschnitt lieber vorerst.
 
 Die Operatoren `&` und `|` sind zwei der Operatoren in Java, die auf Bit-Ebene arbeiten. Zwar sollen Bit-Operatoren an dieser Stelle als solche keine Rolle spielen, aber gerade bei diesen beiden lohnt es sich doch, sie sich genauer anzusehen. Denn eigentlich sind bitweise Operatoren zur Verwendung mit Zahlen gedacht, aber sie funktionieren auch mit Boolean-Werten. Immerhin ist ein `boolean` auch nur eine Zahl (`0` oder `1` im binären System).
 
@@ -232,7 +232,7 @@ String answerToEverything = "42";
 
 ### Kombinierte Zuweisungsoperatoren
 
-Die arithmetischen und bitweisen Operatoren lassen sich mit dem Zuweisungsoperator `=` kombinieren, um eine verkürzte :point_right: [Syntax](../Glossar.md#syntax) zu erzielen:
+Die arithmetischen und bitweisen Operatoren lassen sich mit dem Zuweisungsoperator `=` kombinieren, um eine verkürzte 👉 [Syntax](../Glossar.md#syntax) zu erzielen:
 
 ```java
 x = x + 2;

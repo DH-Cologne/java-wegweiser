@@ -13,7 +13,7 @@ public static void main( String[] args){
 
 Bedeutung der einzelnen Schlüsselwörter:
 
-> :warning: Wenn du gerade erst lernst, was eine `main`-Methode ist, dann nimm das Beispiel oben lieber erstmal so hin, wie es ist. Du wirst die Einzelheiten später noch nachvollziehen!
+> ⚠️ Wenn du gerade erst lernst, was eine `main`-Methode ist, dann nimm das Beispiel oben lieber erstmal so hin, wie es ist. Du wirst die Einzelheiten später noch nachvollziehen!
 
 -  **`public`**: Die Methode ist öffentlich, damit von außerhalb der Klasse auf sie zugegriffen werden kann.
 -  **`static`**: Es handelt sich um eine statische Methode - es muss keine Instanz der Klasse erzeugt werden, um sie aufzurufen.

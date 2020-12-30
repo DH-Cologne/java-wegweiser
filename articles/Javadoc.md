@@ -1,4 +1,4 @@
-# Dokumentation mit Javadoc :clipboard:<!-- omit in toc -->
+# Dokumentation mit Javadoc 📋<!-- omit in toc -->
 
 Javadoc ist ein Dokumentationswerkzeug (und -Generator), der schon sehr lange Teil des Java-Ökosystems ist. Es ist der De-Dacto-Standard zur Dokumentation von Java-Quelltext.
 
@@ -103,7 +103,7 @@ Natürlich gibt es noch viele weitere Javadoc-Annotationen:
 |`{@code}`|Formatiert Text buchstabengetreu mit dem Quelltextzeichensatz (entsprechend `<code>`) und unterdrückt die Interpretierung von beinhalteten HTML oder Javadoc-Tags.|Klasse, Interface, Instanzvariable, Methode|5.0|
 |`{@literal}`|Kennzeichnet buchstabengetreuen Text und unterdrückt die Interpretierung von beinhalteten HTML oder Javadoc-Tags.|Klasse, Interface, Instanzvariable, Methode|5.0|
 
-Quelle: :link: [Wikipedia](https://de.wikipedia.org/wiki/Javadoc#%C3%9Cbersicht_der_Javadoc-Tags)
+Quelle: 🔗 [Wikipedia](https://de.wikipedia.org/wiki/Javadoc#%C3%9Cbersicht_der_Javadoc-Tags)
 
 
 ## Eclipse IDE Content Assist für Javadoc
@@ -113,9 +113,9 @@ Die Eclipse IDE bietet (neben vielen anderen) eine nette Funktion zur automatisc
 ![Eclipse Content Assist für Javadoc](../assets/images/javadoc-eclipse-completion.gif)
 
 
-> :link: Ein vollständige Dokumentation von Javadoc findet ihr [hier](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html) (extrem lang)
+> 🔗 Ein vollständige Dokumentation von Javadoc findet ihr [hier](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html) (extrem lang)
 
-> :link: Eine weitere Anleitung zu Javadoc findet ihr z.B. [hier](https://www.baeldung.com/javadoc) (schon besser)
+> 🔗 Eine weitere Anleitung zu Javadoc findet ihr z.B. [hier](https://www.baeldung.com/javadoc) (schon besser)
 
 
 

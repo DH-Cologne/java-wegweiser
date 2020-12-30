@@ -1,4 +1,4 @@
-# Kommentare :speech_balloon:<!-- omit in toc -->
+# Kommentare 💬<!-- omit in toc -->
 
 Kommentare ermöglichen es, Text in den Quellcode zu schreiben, der vom Compiler ignoriert wird.
 Sie können dazu benutzt werden, Code übersichtlicher zu gestalten und ihn zu erläutern. Das ist besonders hilfreich für andere Personen, die den Code lesen möchten. Es hilft aber auch dabei, zu einem späteren Zeitpunkt schnell wieder den Überblick über den eigenen Code zu erlangen.
@@ -28,7 +28,7 @@ Es wird aber nur das auskommentiert, was in Zeile `10` hinter `//` geschrieben w
 
 Man kann Kommentare auch dazu benutzen, Code z.B. zu Testzwecken nicht auszuführen. Der Methoden-Aufruf in Zeile `14` etwa wird vom Compiler ignoriert.
 
-> :point_right: In Eclipse werden mit `Strg + Shift + 7` oder `Strg + Shift + C` alle markierten Zeilen mit einem Inline-Kommentar versehen.
+> 👉 In Eclipse werden mit `Strg + Shift + 7` oder `Strg + Shift + C` alle markierten Zeilen mit einem Inline-Kommentar versehen.
 
 
 ## Mehrzeilige Kommentare

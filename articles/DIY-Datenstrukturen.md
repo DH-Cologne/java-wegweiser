@@ -1,6 +1,6 @@
-# DIY-Datenstrukturen :file_cabinet:<!-- omit in toc -->
+# DIY-Datenstrukturen 🗄️<!-- omit in toc -->
 
-> :warning: **Wichtig:** Dies ist ein Kapitel über verschiedene Arten von Datenstrukturen und wie sie in Java implementiert sind bzw. werden können. Die Liste ist aber natürlich [**keineswegs vollständig**](https://en.wikipedia.org/wiki/List_of_data_structures)! Es soll hier wirklich nur um jene Datenstrukturen gehen, die häufig im normalen, alltäglichen Gebrauch sind bzw. um "Klassiker", die sich gut zum Lernen einer Programmiersprache selbst implementieren lassen. Ebenfalls enorm wichtige Datenstrukturen (wie etwa [_Heap_](https://de.wikipedia.org/wiki/Heap_(Datenstruktur)) oder [_Stack_](https://de.wikipedia.org/wiki/Stapelspeicher) zur Speicherverwaltung) werden hier bewusst ausgespart, weil sie eher zu den IT-Grundlagen gehören, als in einen Java-Wegweiser.
+> ⚠️ **Wichtig:** Dies ist ein Kapitel über verschiedene Arten von Datenstrukturen und wie sie in Java implementiert sind bzw. werden können. Die Liste ist aber natürlich [**keineswegs vollständig**](https://en.wikipedia.org/wiki/List_of_data_structures)! Es soll hier wirklich nur um jene Datenstrukturen gehen, die häufig im normalen, alltäglichen Gebrauch sind bzw. um "Klassiker", die sich gut zum Lernen einer Programmiersprache selbst implementieren lassen. Ebenfalls enorm wichtige Datenstrukturen (wie etwa [_Heap_](https://de.wikipedia.org/wiki/Heap_(Datenstruktur)) oder [_Stack_](https://de.wikipedia.org/wiki/Stapelspeicher) zur Speicherverwaltung) werden hier bewusst ausgespart, weil sie eher zu den IT-Grundlagen gehören, als in einen Java-Wegweiser.
 
 - [Listen](#listen)
   - [(Einfach) Verkettete Listen](#einfach-verkettete-listen)
@@ -13,12 +13,12 @@
 ## Listen
 
 Eine Liste ist ein abstraktes Konzept einer Datenstruktur, deren Elemente eine stabile Reihenfolge besitzen, mehrfach vorkommen können und keine durch die Definition der Liste beschränkte Anzahl haben.  
-Es sollen hier als Beispiel für selbst implementierte Listen-Strukturen die verketteten Listen vorgestellt werden - für die in der _Java Class Library_ verfügbaren Implementationen von Listen, siehe Artikel zum :telescope: [Collections Framework](Collections-Framework.md)!
+Es sollen hier als Beispiel für selbst implementierte Listen-Strukturen die verketteten Listen vorgestellt werden - für die in der _Java Class Library_ verfügbaren Implementationen von Listen, siehe Artikel zum 🔭 [Collections Framework](Collections-Framework.md)!
 
 
 ### (Einfach) Verkettete Listen
 
-> :speech_balloon: Es ist hier die Rede von _einfach verketteten Listen_. Im nächsten Abschnitt werden (darauf aufbauend) _zweifach verkettete Listen_ besprochen.
+> 💬 Es ist hier die Rede von _einfach verketteten Listen_. Im nächsten Abschnitt werden (darauf aufbauend) _zweifach verkettete Listen_ besprochen.
 
 Bei einer verketteten Liste handelt es sich um eine sehr einfache Datenstruktur, bei der die Daten sogenannten _Knoten_ (engl.: _nodes_) zugeordnet sind. Diese Knoten bilden die eigentliche verkettete Liste (zusammen mit einem Start-Verweis auf den ersten Knoten!).  
 
@@ -44,7 +44,7 @@ public class Node {
 }
 ```
 
-> :speech_balloon: Auf private Klassenattribute sowie Getter und Setter wurde zugunsten der Übersichtlichkeit hier verzichtet. _Eigentlich_ sollte natürlich beides vorhanden sein!
+> 💬 Auf private Klassenattribute sowie Getter und Setter wurde zugunsten der Übersichtlichkeit hier verzichtet. _Eigentlich_ sollte natürlich beides vorhanden sein!
 
 Aus Instanzen dieser simplen Klasse lässt sich bereits eine verkettete Liste konstruieren:
 
@@ -97,13 +97,13 @@ Ein [Baum](https://de.wikipedia.org/wiki/Baum_(Datenstruktur)) ist (u.a.) eine h
 ![Baum](../assets/images/baum.png)  
 > _Quelle: [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Allgemeiner-baum.png); Matthias Kleine / [CC BY-SA](http://creativecommons.org/licenses/by-sa/3.0/)_
 
-Es existieren viele Arten von spezialisierten Baumstrukturen - an dieser Stelle wollen wir aber nur auf die binären Suchbäume hinaus, da sich mit ihnen sehr gut weitere interessante Konzepte veranschaulichen und üben lassen (:point_right: [Rekursion](Rekursion.md)). 
+Es existieren viele Arten von spezialisierten Baumstrukturen - an dieser Stelle wollen wir aber nur auf die binären Suchbäume hinaus, da sich mit ihnen sehr gut weitere interessante Konzepte veranschaulichen und üben lassen (👉 [Rekursion](Rekursion.md)). 
 
 ### Binäre Suchbäume
 
 Ein [_Binärbaum_](https://de.wikipedia.org/wiki/Bin%C3%A4rbaum) ist ganz einfach ein Baum, dessen Wurzel und Knoten **maximal zwei Kind-Knoten** (also zwei Referenzen auf darunterliegende Knoten / Nachkommen) besitzen.
 
-Eine spezialform von Binärbäumen sind [_binäre Suchbäume_](https://de.wikipedia.org/wiki/Bin%C3%A4rer_Suchbaum). Diese werden bereits sortiert befüllt, d.h. es gibt eine Regel zum Einfügen von neuen Knoten, die jedem neu einzufügenden Knoten genau seinen Platz zuweisen. Nach dieser Regel ist die Baumstruktur anschließend sehr effizient durchsuchbar (:point_right: [divide and conquer](https://de.wikipedia.org/wiki/Teile_und_herrsche_(Informatik)); [Rekursion](Rekursion.md)). Diese Regel besagt, dass der linke Nachkomme (linke Referenz auf Kind-Knoten) einen kleineren oder gleichen Wert enthalten muss und jeder rechte Nachkomme (rechte Referenz...) einen größeren oder gleichen Wert enthalten muss:
+Eine spezialform von Binärbäumen sind [_binäre Suchbäume_](https://de.wikipedia.org/wiki/Bin%C3%A4rer_Suchbaum). Diese werden bereits sortiert befüllt, d.h. es gibt eine Regel zum Einfügen von neuen Knoten, die jedem neu einzufügenden Knoten genau seinen Platz zuweisen. Nach dieser Regel ist die Baumstruktur anschließend sehr effizient durchsuchbar (👉 [divide and conquer](https://de.wikipedia.org/wiki/Teile_und_herrsche_(Informatik)); [Rekursion](Rekursion.md)). Diese Regel besagt, dass der linke Nachkomme (linke Referenz auf Kind-Knoten) einen kleineren oder gleichen Wert enthalten muss und jeder rechte Nachkomme (rechte Referenz...) einen größeren oder gleichen Wert enthalten muss:
 
 ![Binärer Suchbaum](../assets/images/BinärBaum_Suchbaum.jpg)  
 > _Quelle: [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Bin%C3%A4rBaum_Suchbaum.jpg); Mhombach / [CC BY-SA](https://creativecommons.org/licenses/by-sa/3.0)_ 
@@ -116,14 +116,14 @@ Wenn ein Binärbaum nach dieser Regel aufgebaut ist, dann halndelt es sich um ei
 2. Ist der gesuchte Wert größer als `n`?
    - Wenn **ja**: Weiter zum _linken_ Teilbaum mit Schritt 1.
    - Wenn **nein**: Weiter zum _rechten_ Teilbaum mit Schritt 1.
-3. Der gesuchte Wert ist nicht im Baum enthalten :unamused:
+3. Der gesuchte Wert ist nicht im Baum enthalten 😒
 
 Dieser Vorgang eignet sich natürlich hervorragend für eine [rekursive Implementierung](Rekursion.md)!
 
 
 ## `Iterable` und `Iterator`
 
-> :construction: **TODO:** `Iterable` und `Iterator`
+> 🚧 **TODO:** `Iterable` und `Iterator`
 
 
 

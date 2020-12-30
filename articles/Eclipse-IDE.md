@@ -1,4 +1,4 @@
-# Die IDE Eclipse :waning_crescent_moon:<!-- omit in toc -->
+# Die IDE Eclipse 🌘<!-- omit in toc -->
 
 Diese Seite erläutert die ersten Grundlagen zum Umgang mit der Entwicklungsumgebung _Eclipse_. Hier werden ausdrücklich **nicht alle Funktionen** von Eclipse erläutert, sondern nur diejenigen, die man für das anfängliche Arbeiten benötigt. Ein vollständiges Eclipse-Handbuch findet sich [hier](https://help.eclipse.org/2020-03/topic/org.eclipse.platform.doc.user/gettingStarted/qs-02a.htm?cp=0_1_0_0).
 
@@ -66,7 +66,7 @@ In diesem View, einem leistungsfähigen Text-Editor mit jeder Menge Zusatzfunkti
 
 
 #### Keyboard-Shortcuts im Editor
-> :warning: Bis auf den ersten brauchst du diese Shortcuts am Anfang noch nicht unbedingt!
+> ⚠️ Bis auf den ersten brauchst du diese Shortcuts am Anfang noch nicht unbedingt!
 
 Der Editor bietet unzählige nützliche Keyboard-Shortcuts. Einige Beispiele sind sind...
 
@@ -115,16 +115,16 @@ Auch hier sind außer dem Klassen-Namen alle anderen Einstellungen für gewöhnl
 
 ## Import und Export von Projekten
 
-> :point_right: **Hinweis:** Dieser Punkt ist **sehr wichtig für die Hausaufgaben** im Java-Seminar!
+> 👉 **Hinweis:** Dieser Punkt ist **sehr wichtig für die Hausaufgaben** im Java-Seminar!
 
-**Projekt Exportieren** :arrow_up:
+**Projekt Exportieren** ⬆️
 1. Rechtsklick **auf den Projekt-Ordner im _Package Explorer_** &rarr; `Export` &rarr; `General` &rarr; `Archive File`
 2. Jetzt lässt sich der Pfad und Name des zu exportierenden `.zip`-Archivs festlegen!
 3. `Finish`
 
-**Projekt Importieren** :arrow_down:
+**Projekt Importieren** ⬇️
 1. Im Menü `File` &rarr; `Import` **oder** Rechtsklick im _Package Explorer_ &rarr; `Import`
-2. :x: Hier **NICHT** `General` &rarr; `Archive File` auswählen (auch wenn ein `.zip`-Archiv importiert werden soll!), **sondern:**
+2. ❌ Hier **NICHT** `General` &rarr; `Archive File` auswählen (auch wenn ein `.zip`-Archiv importiert werden soll!), **sondern:**
 3. :+1: `General` &rarr; `Existing Projects into Workspace` auswählen
 4. Oben entweder `Select root directory` (falls das Archiv schon entpackt wurde) oder (wahrscheinlicher) `Select archive file` auswählen
 5. Den entsprechenden Pfad anwählen
@@ -135,14 +135,14 @@ Auch hier sind außer dem Klassen-Namen alle anderen Einstellungen für gewöhnl
 
 Zum Ausführen eines Projektes führt der "expliziteste" Weg über einen Rechtsklick auf das Projekt &rarr; `Run As` &rarr; `Java Application`. Sollte das Projekt mehrere Klassen mit `main`-Methoden enthalten (was durchaus möglich ist), dann fragt Eclipse nach, welche ausgeführt werden soll.
 
-> :speech_balloon: Es lässt sich auch direkt eine Klasse mit `main`-Methode über einen Rechtsklick auf die Klasse (und dann wie oben beschrieben) ausführen.
+> 💬 Es lässt sich auch direkt eine Klasse mit `main`-Methode über einen Rechtsklick auf die Klasse (und dann wie oben beschrieben) ausführen.
 
-> :point_right: **Eine Abkürzung** ist der Play-Button oben in der Toolbar. Aber **Achtung**: Dieser führt immer das zuletzt ausgeführte Programm noch einmal aus - nicht etwa das gerade geöffnete! Über den kleinen Pfeil daneben öffnet sich ein Dropdown-Menü mit den zuletzt ausgeführten Programmen.
+> 👉 **Eine Abkürzung** ist der Play-Button oben in der Toolbar. Aber **Achtung**: Dieser führt immer das zuletzt ausgeführte Programm noch einmal aus - nicht etwa das gerade geöffnete! Über den kleinen Pfeil daneben öffnet sich ein Dropdown-Menü mit den zuletzt ausgeführten Programmen.
 
 
 ## Automatisch generierter Code
 
-> :warning: Die folgenden Funktionen sind zwar sehr hilfreich, aber du solltest natürlich trotzdem lernen, wie du deinen Code komplett selbst schreibst! Erst wenn du das beherrschst, solltest du dir von deiner IDE Code generieren lassen!
+> ⚠️ Die folgenden Funktionen sind zwar sehr hilfreich, aber du solltest natürlich trotzdem lernen, wie du deinen Code komplett selbst schreibst! Erst wenn du das beherrschst, solltest du dir von deiner IDE Code generieren lassen!
 
 Eclipse bietet sehr viele Funktionen zur Code-Generierung (_Content Assist / Code Proposals_). Einige sind direkt im Editor als Auto-Vervollständigung eingerichtet. Wenn du ein bestimmtes Schlüsselwort eingibst und dann `Strg`+`Space` drückst, bietet dir Eclipse an, den gewünschten Code automatisch einzufügen. Hier einige Beispiele:
 

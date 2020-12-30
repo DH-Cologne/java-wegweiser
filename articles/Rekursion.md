@@ -1,10 +1,10 @@
-# Rekursion :dizzy_face:<!-- omit in toc -->
+# Rekursion 😵<!-- omit in toc -->
 
 Besser als bei Wikipedia wird die Definition nicht - deshalb an dieser Stelle ein Zitat:
 
 > _Als **Rekursion** (lateinisch recurrere ‚zurücklaufen‘) bezeichnet man den abstrakten Vorgang, dass Regeln auf ein Produkt, das sie selbst erzeugt haben, von neuem angewandt werden._ &mdash; [Wikipedia](https://de.wikipedia.org/wiki/Rekursion)
 
-Beim Programmieren findet Rekursion zum Beispiel dann statt, wenn eine Methode sich selbst aufruft. Vorsichtig sollte man natürlich mit potenziellen :point_right: [Endlosschleifen](../Glossar.md#endlosschleife) sein - es muss immer irgendwann einen Zustand geben, in dem die Rekursion "fertig" ist.
+Beim Programmieren findet Rekursion zum Beispiel dann statt, wenn eine Methode sich selbst aufruft. Vorsichtig sollte man natürlich mit potenziellen 👉 [Endlosschleifen](../Glossar.md#endlosschleife) sein - es muss immer irgendwann einen Zustand geben, in dem die Rekursion "fertig" ist.
 
 Ein klassisches Standard-Beispiel ist eine Methode zur Errechnung der [Fakultät](https://de.wikipedia.org/wiki/Fakult%C3%A4t_(Mathematik)) einer Zahl. Mathematisch definiert sich die Fakultät einer (natürlichen) Zahl _n_ (also `n!`) als das Produkt _aller_ natürlichen Zahlen von `1` bis `n` (also der Zahl selbst):
 
@@ -34,7 +34,7 @@ Die Funktionsweise von rekursiven Methoden zu verstehen ist anfangs nicht ganz e
 ![Rekursion](../assets/images/recursion.webp)  
 > _Quelle: [#](https://konczakowski.tumblr.com/post/170961987185), konczakowski_
 
-> :link: Sehr gute Informationen zum Thema Rekursion findest du [hier](Rekursion.md)!
+> 🔗 Sehr gute Informationen zum Thema Rekursion findest du [hier](Rekursion.md)!
 
 
 

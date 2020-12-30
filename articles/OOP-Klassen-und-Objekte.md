@@ -1,6 +1,6 @@
-# OOP, Klassen und Objekte :building_construction:<!-- omit in toc -->
+# OOP, Klassen und Objekte 🏗️<!-- omit in toc -->
 
-> :speech_balloon: **OOP** = **O**bjekt**o**rientierte **P**rogrammierung; oder engl.: **O**bject **O**riented **P**rogramming
+> 💬 **OOP** = **O**bjekt**o**rientierte **P**rogrammierung; oder engl.: **O**bject **O**riented **P**rogramming
 
 - [Was ist objektorientierte Programmierung?](#was-ist-objektorientierte-programmierung)
 - [Die Konzepte "Klasse" und "Objekt" in der OOP](#die-konzepte-klasse-und-objekt-in-der-oop)
@@ -8,11 +8,11 @@
 
 ## Was ist objektorientierte Programmierung?
 
-:link: [Objektorientierung](https://de.wikipedia.org/wiki/Objektorientierung) bedeutet, ein System als ein Zusammenspiel von Objekten zu beschreiben. Ein Objekt besteht dabei aus seinen Eigenschaften und Fähigkeiten.
+🔗 [Objektorientierung](https://de.wikipedia.org/wiki/Objektorientierung) bedeutet, ein System als ein Zusammenspiel von Objekten zu beschreiben. Ein Objekt besteht dabei aus seinen Eigenschaften und Fähigkeiten.
 
-In der :link: [objektorientierten Programmierung](https://de.wikipedia.org/wiki/Objektorientierte_Programmierung) wird diese Sicht auf Systeme als :link: [Programmierparadigma](https://de.wikipedia.org/wiki/Programmierparadigma) angewandt, d.h. ein Programm wird als ein System aus solchen Objekten mit Eigenschaften (:point_right: [Attributen](../Glossar.md#attribut), siehe auch [Variablen](Variablen.md)) und Fähigkeiten ([Methoden](Methoden.md)) modelliert.
+In der 🔗 [objektorientierten Programmierung](https://de.wikipedia.org/wiki/Objektorientierte_Programmierung) wird diese Sicht auf Systeme als 🔗 [Programmierparadigma](https://de.wikipedia.org/wiki/Programmierparadigma) angewandt, d.h. ein Programm wird als ein System aus solchen Objekten mit Eigenschaften (👉 [Attributen](../Glossar.md#attribut), siehe auch [Variablen](Variablen.md)) und Fähigkeiten ([Methoden](Methoden.md)) modelliert.
 
-Diese Art und Weise ein System zu erfassen ist :link: [gar nicht weit](https://de.wikibooks.org/wiki/Java_Standard:_Objektorientierung_Sinn_und_Zweck) von unserer natürlichen Wahrnehmung der Welt und der Dinge um uns herum entfernt (abgesehen davon, dass ein Computer nie die :link: [Bedeutung](https://de.wikipedia.org/wiki/Sinn_(Philosophie)) eines Objektes verstehen wird).
+Diese Art und Weise ein System zu erfassen ist 🔗 [gar nicht weit](https://de.wikibooks.org/wiki/Java_Standard:_Objektorientierung_Sinn_und_Zweck) von unserer natürlichen Wahrnehmung der Welt und der Dinge um uns herum entfernt (abgesehen davon, dass ein Computer nie die 🔗 [Bedeutung](https://de.wikipedia.org/wiki/Sinn_(Philosophie)) eines Objektes verstehen wird).
 
 
 ## Die Konzepte "Klasse" und "Objekt" in der OOP
@@ -33,7 +33,7 @@ Zubereitung:
 2) Nach belieben mit Nüssen, Zuckerguss oder beidem dekorieren
 ```
 
-> :birthday: Bitte nicht nachbacken! Es handelt sich hier um ein ausgedachtes, möglichst kurzes Beispiel. Es wird _kein leckerer Kuchen daraus_ (es fehlt vielleicht etwas Backpulver)!
+> 🎂 Bitte nicht nachbacken! Es handelt sich hier um ein ausgedachtes, möglichst kurzes Beispiel. Es wird _kein leckerer Kuchen daraus_ (es fehlt vielleicht etwas Backpulver)!
 
 Da eine größere Festlichkeit ansteht (der Hamster hat Geburtstag o.ä.), müssen wir gleich drei von diesen Kuchen backen. Zum Glück lässt uns das Rezept ein wenig Spielraum bei der Dekoration der Kuchen. Deshalb backen wir das Grundrezept drei mal und dekorieren den ersten Kuchen mit Nüssen, den zweiten mit Zuckerguss und den dritten mit beidem.
 
@@ -46,11 +46,11 @@ Die folgende Grafik veranschaulicht das Verhältnis zwischen "Klasse" und "Objek
 ![Mitarbeiter-Klasse](../assets/images/Employee-Class.png)  
 Quelle: [_Wikimedia: Von Binz - Own Creation, CC BY-SA 4.0_](https://commons.wikimedia.org/w/index.php?curid=62707688)
 
-> :speech_balloon: Leider hält sich die Grafik oben nicht an die [Java Naming Conventions](Naming-Conventions.md). Eigentlich müssten die Methodennamen `setName()` und `setGehalt()` lauten :person_facepalming:
+> 💬 Leider hält sich die Grafik oben nicht an die [Java Naming Conventions](Naming-Conventions.md). Eigentlich müssten die Methodennamen `setName()` und `setGehalt()` lauten 🤦
 
 Was aber nun alles zu einer Klasse gehört und wie man Objekte (also Instanzen von Klassen) erzeugt, ist in den folgenden Kapiteln beschrieben. Natürlich sind auch "Klasse" und "Objekt" nicht die einzigen Konzepte, die in der objektorientierten Programmierung eine wichtige Rolle spielen. Inhalte zu Vererbung, Polymorphie usw. befinden sich ebenfalls in den folgenden Kapiteln.
 
-> :link: Siehe auch [hier](https://www.w3schools.com/java/java_classes.asp).
+> 🔗 Siehe auch [hier](https://www.w3schools.com/java/java_classes.asp).
 
 
 

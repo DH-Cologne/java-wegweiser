@@ -1,6 +1,6 @@
-# Die Programmiersprache Java :coffee:<!-- omit in toc -->
+# Die Programmiersprache Java ☕<!-- omit in toc -->
 
-Java ist eine _C-artige_, [universelle](https://de.wikipedia.org/wiki/Turing-Vollst%C3%A4ndigkeit) Programmiersprache. Das bedeutet, dass die :point_right: [Syntax](../Glossar.md#syntax) derer der Programmiersprache _C_ ähnelt. Java ist sehr [vielseitig](https://blogs.oracle.com/javamagazine/the-top-25-greatest-java-apps-ever-written) - das Einsatzgebiet von Java ist nicht auf einen bestimmten Bereich der Softwareentwicklung spezialisiert. Es gibt aber noch viel mehr zu wissen...
+Java ist eine _C-artige_, [universelle](https://de.wikipedia.org/wiki/Turing-Vollst%C3%A4ndigkeit) Programmiersprache. Das bedeutet, dass die 👉 [Syntax](../Glossar.md#syntax) derer der Programmiersprache _C_ ähnelt. Java ist sehr [vielseitig](https://blogs.oracle.com/javamagazine/the-top-25-greatest-java-apps-ever-written) - das Einsatzgebiet von Java ist nicht auf einen bestimmten Bereich der Softwareentwicklung spezialisiert. Es gibt aber noch viel mehr zu wissen...
 
 - [Besonderheiten](#besonderheiten)
   - [Objektorientierung](#objektorientierung)
@@ -36,7 +36,7 @@ Die **J**ava **R**untime **E**nvironment (dt. _Java Laufzeitumgebung_) bezeichne
 Sie umfasst (unter anderem) die benötigten **Java-Programmbibliotheken** (_siehe unten!_) und die **JVM** (_siehe unten!_).
 
 ### JDK
-Das **J**ava **D**evelopment **K**it (dt. _Java-Entwicklungspaket_ :thinking:) umfasst die oben erwähnte **JRE** sowie den Quellcode der Java Class Library (_siehe unten!_) und die Entwicklungswerkzeuge zum Entwickeln von Java-Programmen ([Compiler](https://de.wikipedia.org/wiki/Compiler), etc.).
+Das **J**ava **D**evelopment **K**it (dt. _Java-Entwicklungspaket_ 🤔) umfasst die oben erwähnte **JRE** sowie den Quellcode der Java Class Library (_siehe unten!_) und die Entwicklungswerkzeuge zum Entwickeln von Java-Programmen ([Compiler](https://de.wikipedia.org/wiki/Compiler), etc.).
 
 ### JVM und Bytecode
 Java-Programme laufen in einer [virtuellen Maschine](https://de.wikipedia.org/wiki/Virtuelle_Maschine), der _JVM ([Java Virtual Machine](https://de.wikipedia.org/wiki/Java_Virtual_Machine))_. Dies ist eine Software, die auf dem Zielsystem installiert sein muss. Da die JVM für alle gängigen Betriebssysteme (und von ganz [unterschiedlichen Anbietern](https://en.wikipedia.org/wiki/List_of_Java_virtual_machines)) verfügbar ist, sind Java-Programme theoretisch Betriebssystem-unabhängig - solange nicht auf plattformspezifische Funktionen zugegriffen wird. Es ist jedoch auch möglich, Java-Programme direkt für die Ausführung auf einem [bestimmten Betriebssystem zu kompilieren](https://de.wikipedia.org/wiki/Java_(Programmiersprache)#Native_Compiler) - natürlich aber nur auf Kosten der Plattform-Unabhängigkeit der kompilierten Programme.
@@ -48,6 +48,6 @@ Eine rohe, unkompilierte Java-Quelltextdatei hat die Endung `.java` - nach dem K
 ### Java Class Library
 Als [_Java Class Library_](https://en.wikipedia.org/wiki/Java_Class_Library) (auch: _Java Standard Library_) bezeichnet man die sehr umfangreiche Programmbibliothek, die fester Teil der Java-Plattform und somit in jeder JRE verfügbar ist.
 
-> :speech_balloon: Siehe Grafik zur [Java Platform](#java-platform)
+> 💬 Siehe Grafik zur [Java Platform](#java-platform)
 
 

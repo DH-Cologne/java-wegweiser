@@ -14,26 +14,26 @@
 [![Repo Size](https://img.shields.io/github/repo-size/DH-Cologne/java-wegweiser.svg?label=Repo%20size&style=flat-square)](https://github.com/DH-Cologne/java-wegweiser) -->
 
 
-Ein Wegweiser zur Java-Programmierung, der mit seinen Aufgaben wächst. Für die Teilnehmer*innen des Moduls **"Softwaretechnologie: Java"** der Studiengänge **Informationsverarbeitung** und **Medieninformatik** am **IDH** (**I**nstitut für **D**igital **H**umanities, Universität zu Köln) und für alle Interessierten! :open_hands:
+Ein Wegweiser zur Java-Programmierung, der mit seinen Aufgaben wächst. Für die Teilnehmer*innen des Moduls **"Softwaretechnologie: Java"** der Studiengänge **Informationsverarbeitung** und **Medieninformatik** am **IDH** (**I**nstitut für **D**igital **H**umanities, Universität zu Köln) und für alle Interessierten! 👐
 
-> **Work in progress.** :construction: :snail:  
+> **Work in progress.** 🚧 🐌  
 Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt oder unzureichend erläutert ist, dann [eröffne ein Issue](https://github.com/dh-cologne/java-wegweiser/issues) oder [trage eigene Änderungen bei](Mitwirken.md)!
 
 
-## Übrigens :speech_balloon:
-:book: &nbsp; [**Inhalt**](#inhalt-book) &mdash; Zum Inhaltsverzeichnis springen!  
-:thinking: &nbsp; [**Was ist das hier**](Was-Ist-Das.md) &mdash; Bzw. was ist es nicht?  
-:woman_technologist: &nbsp; [**Contributing**](Mitwirken.md) &mdash; Oder: Wie kann ich hier mitwirken?  
-:couch_and_lamp: &nbsp; [**Lese-Ansicht**](https://dh-cologne.github.io/java-wegweiser) &mdash; Wenn du aus Versehen im Repository gelandet bist!  
-:closed_book: &nbsp; [**Glossar**](Glossar.md) &mdash; Allgemeine Terminologie der Programmierung (wichtig)!  
-:link: &nbsp; [**Link-Liste**](Links.md) &mdash; Weitere empfehlenswerte (online-) Ressourcen!  
+## Übrigens 💬
+📖 &nbsp; [**Inhalt**](#inhalt-book) &mdash; Zum Inhaltsverzeichnis springen!  
+🤔 &nbsp; [**Was ist das hier**](Was-Ist-Das.md) &mdash; Bzw. was ist es nicht?  
+👩‍💻 &nbsp; [**Contributing**](Mitwirken.md) &mdash; Oder: Wie kann ich hier mitwirken?  
+🛋️ &nbsp; [**Lese-Ansicht**](https://dh-cologne.github.io/java-wegweiser) &mdash; Wenn du aus Versehen im Repository gelandet bist!  
+📕 &nbsp; [**Glossar**](Glossar.md) &mdash; Allgemeine Terminologie der Programmierung (wichtig)!  
+🔗 &nbsp; [**Link-Liste**](Links.md) &mdash; Weitere empfehlenswerte (online-) Ressourcen!  
 
 
 
 
-## Inhalt :book:
+## Inhalt 📖
 
-> :point_right: Die einzelnen Themenbereiche sind hier mit `Schlagworten` kurz zusammengefasst. Die jeweilige Überschrift verlinkt auf das Dokument mit allen Inhalten zum entsprechenden Thema.
+> 👉 Die einzelnen Themenbereiche sind hier mit `Schlagworten` kurz zusammengefasst. Die jeweilige Überschrift verlinkt auf das Dokument mit allen Inhalten zum entsprechenden Thema.
 
 
 
@@ -171,7 +171,7 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 
 
 
-## Contributors :sparkles:
+## Contributors ✨
 
 Das ist alles. **Bis jetzt!** Wie wäre es mit [**deinem Beitrag**](Mitwirken.md)?  
 
@@ -182,15 +182,15 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/bkis"><img src="https://avatars0.githubusercontent.com/u/9215743?v=4" width="64px;" alt=""/><br /><sub><b>bkis</b></sub></a><br /><a href="#content-bkis" title="Content">:fountain_pen:</a> <a href="#example-bkis" title="Examples">:bulb:</a> <a href="#ideas-bkis" title="Ideas, Planning, & Feedback">:thinking:</a> <a href="#maintenance-bkis" title="Maintenance">:construction:</a></td>
-    <td align="center"><a href="https://github.com/hntFulvan"><img src="https://avatars3.githubusercontent.com/u/64469511?v=4" width="64px;" alt=""/><br /><sub><b>Nicolas David Werner</b></sub></a><br /><a href="#content-hntFulvan" title="Content">:fountain_pen:</a> <a href="#example-hntFulvan" title="Examples">:bulb:</a></td>
-    <td align="center"><a href="https://github.com/Lelalue"><img src="https://avatars1.githubusercontent.com/u/34158237?v=4" width="64px;" alt=""/><br /><sub><b>Lelalue</b></sub></a><br /><a href="#content-Lelalue" title="Content">:fountain_pen:</a> <a href="#example-Lelalue" title="Examples">:bulb:</a></td>
-    <td align="center"><a href="https://github.com/mkamphausen"><img src="https://avatars2.githubusercontent.com/u/43293625?v=4" width="64px;" alt=""/><br /><sub><b>mkamphausen</b></sub></a><br /><a href="#content-mkamphausen" title="Content">:fountain_pen:</a> <a href="#example-mkamphausen" title="Examples">:bulb:</a></td>
+    <td align="center"><a href="https://github.com/bkis"><img src="https://avatars0.githubusercontent.com/u/9215743?v=4" width="64px;" alt=""/><br /><sub><b>bkis</b></sub></a><br /><a href="#content-bkis" title="Content">🖋️</a> <a href="#example-bkis" title="Examples">💡</a> <a href="#ideas-bkis" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-bkis" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/hntFulvan"><img src="https://avatars3.githubusercontent.com/u/64469511?v=4" width="64px;" alt=""/><br /><sub><b>Nicolas David Werner</b></sub></a><br /><a href="#content-hntFulvan" title="Content">🖋️</a> <a href="#example-hntFulvan" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/Lelalue"><img src="https://avatars1.githubusercontent.com/u/34158237?v=4" width="64px;" alt=""/><br /><sub><b>Lelalue</b></sub></a><br /><a href="#content-Lelalue" title="Content">🖋️</a> <a href="#example-Lelalue" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/mkamphausen"><img src="https://avatars2.githubusercontent.com/u/43293625?v=4" width="64px;" alt=""/><br /><sub><b>mkamphausen</b></sub></a><br /><a href="#content-mkamphausen" title="Content">🖋️</a> <a href="#example-mkamphausen" title="Examples">💡</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="http://#"><img src="https://avatars2.githubusercontent.com/u/29183752?v=4" width="64px;" alt=""/><br /><sub><b>Julian Kamphausen</b></sub></a><br /><a href="#content-jkamphausen" title="Content">:fountain_pen:</a> <a href="#example-jkamphausen" title="Examples">:bulb:</a></td>
-    <td align="center"><a href="https://github.com/Demirro"><img src="https://avatars3.githubusercontent.com/u/44236116?v=4" width="64px;" alt=""/><br /><sub><b>Demirro</b></sub></a><br /><a href="#ideas-Demirro" title="Ideas, Planning, & Feedback">:thinking:</a></td>
-    <td align="center"><a href="https://github.com/vgavrilova"><img src="https://avatars2.githubusercontent.com/u/63244952?v=4" width="64px;" alt=""/><br /><sub><b>Valeria Gavrilova</b></sub></a><br /><a href="https://github.com/DH-Cologne/java-wegweiser/issues?q=author%3Avgavrilova" title="Bug reports">:bug:</a></td>
+    <td align="center"><a href="http://#"><img src="https://avatars2.githubusercontent.com/u/29183752?v=4" width="64px;" alt=""/><br /><sub><b>Julian Kamphausen</b></sub></a><br /><a href="#content-jkamphausen" title="Content">🖋️</a> <a href="#example-jkamphausen" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/Demirro"><img src="https://avatars3.githubusercontent.com/u/44236116?v=4" width="64px;" alt=""/><br /><sub><b>Demirro</b></sub></a><br /><a href="#ideas-Demirro" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/vgavrilova"><img src="https://avatars2.githubusercontent.com/u/63244952?v=4" width="64px;" alt=""/><br /><sub><b>Valeria Gavrilova</b></sub></a><br /><a href="https://github.com/DH-Cologne/java-wegweiser/issues?q=author%3Avgavrilova" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
@@ -198,6 +198,6 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-> :point_right: **Dieses Projekt folgt der [all-contributors](https://github.com/all-contributors/all-contributors)-Spezifikation.**  
+> 👉 **Dieses Projekt folgt der [all-contributors](https://github.com/all-contributors/all-contributors)-Spezifikation.**  
 > Contributions (Beiträge) jeder Art [sind willkommen](Mitwirken.md) und werden an dieser Stelle wie oben zu sehen aufgeführt!
 

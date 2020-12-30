@@ -1,4 +1,4 @@
-# Vererbung I: Grundlagen :family:<!-- omit in toc -->
+# Vererbung I: Grundlagen 👪<!-- omit in toc -->
 
 Klassen können Eigenschaften (Klassenattribute / _features_) und Fähigkeiten (Methoden / _behavior_) von anderen Klassen _erben_.
 

@@ -9,7 +9,7 @@
 
 ## toString()
 
-> :warning: Hier geht es zum Teil um das Überschreiben von Methoden. Um dieses Kapitel gänzlich zu verstehen, solltest du die [Grundlagen der Vererbung](Vererbung-I-Grundlagen.md) bereits kennen!
+> ⚠️ Hier geht es zum Teil um das Überschreiben von Methoden. Um dieses Kapitel gänzlich zu verstehen, solltest du die [Grundlagen der Vererbung](Vererbung-I-Grundlagen.md) bereits kennen!
 
 Die `toString()`-Methode gibt eine möglichst sinnvolle textuelle (_String_-) Repräsentation des Objektes zurück, für das es aufgerufen wird. Sie sollte in eigenen Klassen generell überschrieben werden, mindestens aber in [Datenklassen / POJOs](../Coding-Lingo.md#datenklasse).
 
@@ -54,7 +54,7 @@ public class Program {
 
 Objekt-Identität lässt sich mit dem Vergleichsoperator `==` überprüfen. Das bedeutet, dass der Ausdruck `object1 == object2` dann `true` ist, wenn `object1` und `object2` Referenzen auf **das selbe** Objekt mit **der selben** Speicheradresse sind.
 
-> :warning: **ACHTUNG:** Objekt-Identität ist extrem selten das, was man feststellen möchte! _Fast immer_ ist eine Überprüfung auf Objekt-Gleichheit (siehe unten) der richtige Weg!
+> ⚠️ **ACHTUNG:** Objekt-Identität ist extrem selten das, was man feststellen möchte! _Fast immer_ ist eine Überprüfung auf Objekt-Gleichheit (siehe unten) der richtige Weg!
 
 
 ## Objekt-Gleichheit
@@ -66,9 +66,9 @@ Mehr dazu unten, im Abschnitt zu `equals(...)`!
 
 ## `equals()`
 
-> :warning: Hier geht es zum Teil um das Überschreiben von Methoden. Um dieses Kapitel gänzlich zu verstehen, solltest du die [Grundlagen der Vererbung](Vererbung-I-Grundlagen.md) bereits kennen!
+> ⚠️ Hier geht es zum Teil um das Überschreiben von Methoden. Um dieses Kapitel gänzlich zu verstehen, solltest du die [Grundlagen der Vererbung](Vererbung-I-Grundlagen.md) bereits kennen!
 
-Die :point_right: [Gleichheit](../Glossar.md#objekt-gleichheit) von Objekten wird **nicht** mit `==` verglichen, sondern mit der `equals()`-Methode (ursprünglich aus `Object`, sollte aber ggf. überschrieben werden!), denn `==` überprüft nicht die semantische Gleichheit von zwei Objekten, sondern bildet lediglich einen _wahren_ Ausdruck, wenn es sich um zwei Referenzen _auf das selbe Objekt_ handelt (:point_right: [Objekt-Identität](../Glossar.md#objekt-identität))!  
+Die 👉 [Gleichheit](../Glossar.md#objekt-gleichheit) von Objekten wird **nicht** mit `==` verglichen, sondern mit der `equals()`-Methode (ursprünglich aus `Object`, sollte aber ggf. überschrieben werden!), denn `==` überprüft nicht die semantische Gleichheit von zwei Objekten, sondern bildet lediglich einen _wahren_ Ausdruck, wenn es sich um zwei Referenzen _auf das selbe Objekt_ handelt (👉 [Objekt-Identität](../Glossar.md#objekt-identität))!  
 
 Genau wie `toString()`, sollte `equals()` in allen Klassen, von denen es tendenziell viele Instanzen () geben wird, grundsätzlich überschrieben werden (mindestens aber in [Datenklassen / POJOs](../Coding-Lingo.md#datenklasse)).
 
@@ -111,18 +111,18 @@ Im Beispiel oben gibt die `equals()`-Methode der Klasse `User` nur dann `true` z
 3) ... der Wert des Feldes `eMail` dem des aufgerufenen Objektes gleicht (dazu wird einfach die `equals()`-Methode von `String` genutzt!)
 
 
-> :speech_balloon: **Übrigens:** Man versucht gern mit `"hallo" == "hallo"` zu beweisen, dass sich Strings in Java so nicht vergleichen lassen (aus oben genannten Gründen) und steht dann ziemlich dumm da, wenn der Ausdruck plötzlich doch `true` ergibt. Das liegt an Javas _[string interning](https://stackoverflow.com/questions/10578984/what-is-java-string-interning)_, wodurch "gleiche" Strings intern auf das selbe Objekt (und somit die selbe Speicher-Referenz) reduziert werden, um Arbeitsspeicher zu sparen!
+> 💬 **Übrigens:** Man versucht gern mit `"hallo" == "hallo"` zu beweisen, dass sich Strings in Java so nicht vergleichen lassen (aus oben genannten Gründen) und steht dann ziemlich dumm da, wenn der Ausdruck plötzlich doch `true` ergibt. Das liegt an Javas _[string interning](https://stackoverflow.com/questions/10578984/what-is-java-string-interning)_, wodurch "gleiche" Strings intern auf das selbe Objekt (und somit die selbe Speicher-Referenz) reduziert werden, um Arbeitsspeicher zu sparen!
 
 
 ## `hashCode()`
 
-> :warning: Hier geht es zum Teil um das Überschreiben von Methoden. Um dieses Kapitel gänzlich zu verstehen, solltest du die [Grundlagen der Vererbung](Vererbung-I-Grundlagen.md) bereits kennen!
+> ⚠️ Hier geht es zum Teil um das Überschreiben von Methoden. Um dieses Kapitel gänzlich zu verstehen, solltest du die [Grundlagen der Vererbung](Vererbung-I-Grundlagen.md) bereits kennen!
 
 Die Methode `hashCode()` der Klasse `Object` ist eine weitere Methode, die häufig in eigenen Klassen überschrieben werden sollte. Sie gibt einen Hashcode (vom Typ `int`) zurück, der das Objekt repräsentiert, für das `hashCode()` aufgerufen wurde.
 
 Ein Hashcode ist das Ergebnis eines sog. Hashing-Algorithmus und hat das Ziel, Daten oder eben ein Objekt eindeutig zu repräsentieren, d.h. zwei unterschiedliche Objekte solleten auf jeden Fall auch unterschiedliche Hashcodes erzeugen. Diese Hashcodes lassen sich nun miteinander vergleichen, ohne dass man die eigentlichen Daten (oder Objekte) miteinander vergleichen müsste. Das geht im Zweifel viel schneller, da z.B. der Hashcode eines 10 Mio. Zeichen langen Strings genauso kurz ist, wie der eines 10 Zeichen langen Strings - es ist eben ein Integer-Wert!
 
-> :speech_balloon: In Java wird die Methode `hashCode()` vor allem von bestimmten Datenstrukturen (Hashtables wie etwa `HashMap`) dazu genutzt, ein in der Datenstruktur enthaltenes Element besonders schnell zu finden, indem die Hashcodes alles Elemente in einer Art sortiertem Inhaltsverzeichnis angelegt werden.
+> 💬 In Java wird die Methode `hashCode()` vor allem von bestimmten Datenstrukturen (Hashtables wie etwa `HashMap`) dazu genutzt, ein in der Datenstruktur enthaltenes Element besonders schnell zu finden, indem die Hashcodes alles Elemente in einer Art sortiertem Inhaltsverzeichnis angelegt werden.
 
 **Beispiel:** Der folgende Code...
 
@@ -138,11 +138,11 @@ System.out.println("Welt!".hashCode());
 83462635
 ```
 
-Es existieren sehr viele verschiedene :link: [Hashing-Algorithmen](https://de.wikipedia.org/wiki/Hashfunktion) - und nicht alle geben einen Integer aus. Aber sie alle haben das selbe Ziel: Einen relativ kurzen aber eindeutigen Code zu erzeugen (Output), der die übergebenen Daten (Input) repräsentiert.
+Es existieren sehr viele verschiedene 🔗 [Hashing-Algorithmen](https://de.wikipedia.org/wiki/Hashfunktion) - und nicht alle geben einen Integer aus. Aber sie alle haben das selbe Ziel: Einen relativ kurzen aber eindeutigen Code zu erzeugen (Output), der die übergebenen Daten (Input) repräsentiert.
 
-Es sollte dabei nach Möglichkeit keine "Kollisionen" geben, d.h. zwei unterschiedliche Objekte dürfen nicht den selben Hashcode produzieren. In der Praxis funktioniert das (je nach Algorithmus) besser oder schlechter, aber eine :link: [Kollision](https://en.wikipedia.org/wiki/Collision_(computer_science)) ist **nie** 100%ig ausgeschlossen. Trotzdem kommen Kollisionen bei guten Hashing-Algorithem recht selten vor.
+Es sollte dabei nach Möglichkeit keine "Kollisionen" geben, d.h. zwei unterschiedliche Objekte dürfen nicht den selben Hashcode produzieren. In der Praxis funktioniert das (je nach Algorithmus) besser oder schlechter, aber eine 🔗 [Kollision](https://en.wikipedia.org/wiki/Collision_(computer_science)) ist **nie** 100%ig ausgeschlossen. Trotzdem kommen Kollisionen bei guten Hashing-Algorithem recht selten vor.
 
-> :speech_balloon: Welcher Hashing-Algorithmus in der Software-Entwicklung wofür genutzt wird, hängt vom Verwendungszweck und somit davon ab, wie groß der Schaden einer Hash-Kollision wäre. Besonders sicher Algorithmen (mit wenigen Kollisionen) sind langsam. Wenn Geschwindigkeit wichtiger ist, nutzt man eher einen schnellen, dafür aber etwas unsaubereren Algorithmus. Javas `hashCode()`-Algorithmus der Klasse `String` nutzt z.B. diese simple Formel: `s[0]*31^(n-1) + s[1]*31^(n-2) + ... + s[n-1]`. Das geht recht schnell, Kollisionen kommen aber durchaus vor - so haben z.B. die Strings `"Aa"` und `"BB"` den gleichen Hashcode. :person_shrugging:
+> 💬 Welcher Hashing-Algorithmus in der Software-Entwicklung wofür genutzt wird, hängt vom Verwendungszweck und somit davon ab, wie groß der Schaden einer Hash-Kollision wäre. Besonders sicher Algorithmen (mit wenigen Kollisionen) sind langsam. Wenn Geschwindigkeit wichtiger ist, nutzt man eher einen schnellen, dafür aber etwas unsaubereren Algorithmus. Javas `hashCode()`-Algorithmus der Klasse `String` nutzt z.B. diese simple Formel: `s[0]*31^(n-1) + s[1]*31^(n-2) + ... + s[n-1]`. Das geht recht schnell, Kollisionen kommen aber durchaus vor - so haben z.B. die Strings `"Aa"` und `"BB"` den gleichen Hashcode. 🤷
 
 
 ## Der Vertrag zwischen `equals()` und `hashCode()`

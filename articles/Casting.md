@@ -1,4 +1,4 @@
-# Casting :currency_exchange:<!-- omit in toc -->
+# Casting 💱<!-- omit in toc -->
 
 (auch: *Typumwandlung*)
 
@@ -38,15 +38,15 @@ int i = (int) d;
 
 ## ... bei komplexen Datentypen
 
-> :speech_balloon: engl.: _Reference Casting_
+> 💬 engl.: _Reference Casting_
 
-> **:warning: Achtung!** Der folgende Abschnitt ist erst relevant, wenn du bereits mit Vererbung und Klassenhierarchien vertraut bist!
+> **⚠️ Achtung!** Der folgende Abschnitt ist erst relevant, wenn du bereits mit Vererbung und Klassenhierarchien vertraut bist!
 
 Beim Casting von komplexen Datentypen gibt es ebenfalls _implizite_ und _explizite_ Umwandlung - genau wie bei den primitiven Datentypen.
 
 **Implizite Typumwandlung** (_upcasting_)
 
-> :link: Siehe [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung))
+> 🔗 Siehe [Polymorphie](https://de.wikipedia.org/wiki/Polymorphie_(Programmierung))
 
 Die _implizite Typumwandlung_ bei komplexen Datentypen ist eine Umwandlung von einer Subklasse (Spezialisierung oder Erweiterung) zu  einer ihrer Superklassen (Abstraktion der Subklasse). Es wird hierbei nicht wirklich der Datentyp des Objektes umgewandelt, sondern lediglich ein Bezeichner mit einem "niederwertigen" Datentyp verwendet:
 
@@ -55,9 +55,9 @@ SpecialUser specialUser = new SpecialUser();
 User user = specialUser; // implizite Typumwandlung (Polymorphie)
 ```
 
-> :warning: Da im obigen Beispiel die Variable `user` den Datentyp `User` besitzt, kann diese Referenz auf das Objekt (das ja eigentlich vom Typ `SpecialUser` ist) **ausschließlich** auf die Eigenschaften der Klasse `User` zurückgreifen. Alle Erweiterungen, die in `SpecialUser` definiert sind, sind durch die Verwendung des niederen Typs nicht zugänglich!  
+> ⚠️ Da im obigen Beispiel die Variable `user` den Datentyp `User` besitzt, kann diese Referenz auf das Objekt (das ja eigentlich vom Typ `SpecialUser` ist) **ausschließlich** auf die Eigenschaften der Klasse `User` zurückgreifen. Alle Erweiterungen, die in `SpecialUser` definiert sind, sind durch die Verwendung des niederen Typs nicht zugänglich!  
 
-> :woman_teacher: Falls die Klasse `SpecialUser` eine Methode der Klasse `User` überschreibt (_Overriding_) und diese Methode über einen Bezeichner mit Typ `User` aufgerufen wird, wird **trotzdem die Methode aus `SpecialUser` aufgerufen**!
+> 👩‍🏫 Falls die Klasse `SpecialUser` eine Methode der Klasse `User` überschreibt (_Overriding_) und diese Methode über einen Bezeichner mit Typ `User` aufgerufen wird, wird **trotzdem die Methode aus `SpecialUser` aufgerufen**!
 
 **Explizite Typumwandlung** (_downcasting_)
 
@@ -81,7 +81,7 @@ if (user instanceof SpecialUser){
 }
 ```
 
-> :man_teacher: Im Falle einer ungültigen Typumwandlung wirft der betreffende Code eine [**ClassCastException**](https://stackoverflow.com/questions/907360/explanation-of-classcastexception-in-java).
+> 👨‍🏫 Im Falle einer ungültigen Typumwandlung wirft der betreffende Code eine [**ClassCastException**](https://stackoverflow.com/questions/907360/explanation-of-classcastexception-in-java).
 
 
 

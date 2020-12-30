@@ -1,4 +1,4 @@
-# Generics :pushpin:<!-- omit in toc -->
+# Generics 📌<!-- omit in toc -->
 
 - [Das Problem](#das-problem)
 - [Die Lösung: Generics](#die-lösung-generics)
@@ -6,7 +6,7 @@
 - [Type Wildcards](#type-wildcards)
 - [Generische Methodendefinitionen](#generische-methodendefinitionen)
 
-Generics in Java ermöglichen es einer Klasse oder Methode mit Objekten arbiträrer Datentypen zu arbeiten und dennoch Typsicherheit (zur :telescope: [compile-time](../Glossar.md#compile-time)) zu gewährleisten. Das bringt es auf den Punkt, ist aber nicht gleich einleuchtend. Versuchen wir es mit einem Beispielszenario ...
+Generics in Java ermöglichen es einer Klasse oder Methode mit Objekten arbiträrer Datentypen zu arbeiten und dennoch Typsicherheit (zur 🔭 [compile-time](../Glossar.md#compile-time)) zu gewährleisten. Das bringt es auf den Punkt, ist aber nicht gleich einleuchtend. Versuchen wir es mit einem Beispielszenario ...
 
 
 ## Das Problem
@@ -55,7 +55,7 @@ Student s = students.get(0); // abrufen (Beispiel!)
 
 Es muss hier keine Typumwandlung (casting) mehr stattfinden. Wir haben nun eine echte _generische_ Datenstruktur, die für den Typen-Platzhalter `T` den Typ `Student` verwendet!
 
-> :warning: Generics in Java funktionieren [nur mit komplexen Datentypen](https://www.baeldung.com/java-generics#generics-primitive-data-types)!
+> ⚠️ Generics in Java funktionieren [nur mit komplexen Datentypen](https://www.baeldung.com/java-generics#generics-primitive-data-types)!
 
 Bei der Initialisierung der generischen Klasse kann der Datentyp auch weggelassen werden, wenn er in der Deklaration der zugehörigen Variable angegeben wurde (sog. _diamond operator_):
 
@@ -73,7 +73,7 @@ public class Something<X, Y> {
 
 Natürlich sollte gut [dokumentiert](Javadoc.md) sein, wofür welcher Typ genutzt wird.
 
-> :speech_balloon: Wann nutze ich welchen Platzhalter? Hier eine [Antwort](https://stackoverflow.com/questions/6008241/what-is-the-difference-between-e-t-and-for-java-generics)!
+> 💬 Wann nutze ich welchen Platzhalter? Hier eine [Antwort](https://stackoverflow.com/questions/6008241/what-is-the-difference-between-e-t-and-for-java-generics)!
 
 
 ## Type Erasure
@@ -119,11 +119,11 @@ foo.bar(y); // Rückgabe ist ein Whoop<Yeah, Yeah>
 ```
 
 
-> :link: Siehe auch [hier](https://www.baeldung.com/java-generics).
+> 🔗 Siehe auch [hier](https://www.baeldung.com/java-generics).
 
-> :link: ... und natürlich [hier](https://docs.oracle.com/javase/tutorial/java/generics/index.html) und [hier](https://docs.oracle.com/javase/tutorial/extra/generics/).
+> 🔗 ... und natürlich [hier](https://docs.oracle.com/javase/tutorial/java/generics/index.html) und [hier](https://docs.oracle.com/javase/tutorial/extra/generics/).
 
-> :link: Java Generics [FAQ](http://www.angelikalanger.com/GenericsFAQ/JavaGenericsFAQ.html)
+> 🔗 Java Generics [FAQ](http://www.angelikalanger.com/GenericsFAQ/JavaGenericsFAQ.html)
 
 
 

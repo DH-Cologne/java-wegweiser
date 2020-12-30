@@ -1,5 +1,5 @@
 
-# Hello World! :rocket:<!-- omit in toc -->
+# Hello World! 🚀<!-- omit in toc -->
 
 Zum Erlernen einer Programmiersprache gehört immer auch ein **_"Hello World"_**-Beispiel, das den Quelltext eines minimalen Programms zeigt, welches einfach nur die Worte `Hello World!` auf der Konsole ausgibt. Mit dieser Tradition wollen wir hier - Gott bewahre! - nicht brechen.
 
@@ -15,7 +15,7 @@ Das folgende Java-Programm wäre lauffähig und würde die Zeichenkette `Hello W
 5   }
 ```
 
-> :warning: **Wenn du Java nicht schon beherrschst**, siehst du in diesem winzigen Beispiel bereits viele Dinge, die dir jetzt noch nichts sagen. **Das ist in Ordnung!** Nimm den Code einfach so hin, wie er ist. Später kannst du hierher zurückkehren und prüfen, ob du schon alle in diesem Beispiel vorkommenden Konzepte kennst. Im Folgenden wird der Code zunächst mit sehr viel Abstand zu den Details erläutert - es geht dabei explizit _nicht_ darum, jeden Aspekt des Codes zu verstehen, sondern nur darum, einen Überblick über dessen Funktion zu erhalten! In der Tabelle **ganz unten** werden dann alle einzelnen Bestandteile des Beispiel-Codes genau benannt (**nicht** erklärt), damit du weißt, wonach du in den weiteren Kapiteln suchen kannst, falls du weiter ins Detail gehen möchtest.
+> ⚠️ **Wenn du Java nicht schon beherrschst**, siehst du in diesem winzigen Beispiel bereits viele Dinge, die dir jetzt noch nichts sagen. **Das ist in Ordnung!** Nimm den Code einfach so hin, wie er ist. Später kannst du hierher zurückkehren und prüfen, ob du schon alle in diesem Beispiel vorkommenden Konzepte kennst. Im Folgenden wird der Code zunächst mit sehr viel Abstand zu den Details erläutert - es geht dabei explizit _nicht_ darum, jeden Aspekt des Codes zu verstehen, sondern nur darum, einen Überblick über dessen Funktion zu erhalten! In der Tabelle **ganz unten** werden dann alle einzelnen Bestandteile des Beispiel-Codes genau benannt (**nicht** erklärt), damit du weißt, wonach du in den weiteren Kapiteln suchen kannst, falls du weiter ins Detail gehen möchtest.
 
 ## Oberflächliche Erläuterung
 
@@ -25,7 +25,7 @@ Der einzige Inhalt der Klasse `HelloWorld` ist eine [_Methode_](Methoden.md) mit
 
 Zuletzt sehen wir uns noch Zeile `3` an: Der Inhalt der `main`-Methode ist eine einzige Anweisung - in diesem Fall ein Ausdruck, in dem die Methode `println` aufgerufen wird. Diese Methode gehört zu einer anderen Klasse, auf die wir von hier aus zugreifen können. `System.out.println()` ist eine Methode, die als Text auf der Konsole ausgibt, was ihr in den runden Klammern `(...)` übergeben wurde. In diesem Fall `"Hello World!"`.
 
-Am Ende von Zeile `3` steht ein Semikolon `;`, das die Anweisung abschließt. Das Seminkolon am Ende ist für alle Anweisungen (_Statements_) in Java nötig, die keinen Gültigkeitsbereich besitzen und damit nicht :point_right: [syntaktisch](../Glossar.md#syntax) durch ein `}` abgeschlossen sind. Durch `;` bzw. `}` sind alle Anweisungen (und anderen Sprachkonstrukte) voneinander getrennt. In Java sind nämlich Zeilenumbrüche **nicht** Teil der Sprach-Syntax (wie z.B. in Python). Man _könnte_ deshalb ein Java-Programm auch in einer einzigen, langen Zeile schreiben. Aber das sollte man natürlich nicht - wer soll sowas lesen?
+Am Ende von Zeile `3` steht ein Semikolon `;`, das die Anweisung abschließt. Das Seminkolon am Ende ist für alle Anweisungen (_Statements_) in Java nötig, die keinen Gültigkeitsbereich besitzen und damit nicht 👉 [syntaktisch](../Glossar.md#syntax) durch ein `}` abgeschlossen sind. Durch `;` bzw. `}` sind alle Anweisungen (und anderen Sprachkonstrukte) voneinander getrennt. In Java sind nämlich Zeilenumbrüche **nicht** Teil der Sprach-Syntax (wie z.B. in Python). Man _könnte_ deshalb ein Java-Programm auch in einer einzigen, langen Zeile schreiben. Aber das sollte man natürlich nicht - wer soll sowas lesen?
 
 ## Benennung der einzelnen Bestandteile des Hello-World-Beispiels
 

@@ -1,8 +1,8 @@
-# Vererbung III: Interfaces :electric_plug:<!-- omit in toc -->
+# Vererbung III: Interfaces 🔌<!-- omit in toc -->
 
-> :speech_balloon: _deu.: Schnittstelle_
+> 💬 _deu.: Schnittstelle_
 
-- [Zum Nutzen von Interfaces :thinking:](#zum-nutzen-von-interfaces-)
+- [Zum Nutzen von Interfaces 🤔](#zum-nutzen-von-interfaces-)
 - [Funktionsweise](#funktionsweise)
 - [Default-Methoden](#default-methoden)
 - [Statische Methoden in Interfaces](#statische-methoden-in-interfaces)
@@ -11,7 +11,7 @@
 Bei Interfaces handelt es sich (ganz wörtlich) um **Schnittstellen** zu anderen Programmteilen. Schnittstellen bedeuten immer eine festgelegte Art der Interaktion bzw. Kommunikation - und genau das ist es, was _Interfaces_ in der OOP leisten.
 
 
-## Zum Nutzen von Interfaces :thinking:
+## Zum Nutzen von Interfaces 🤔
 
 Die Frage, wozu Interfaces eigentlich gut sind, kommt den meisten, die objektorientierte Programmierung erlernen. Am besten lässt sie sich wohl mit einem Anwendungsbeispiel beantworten:
 
@@ -25,7 +25,7 @@ Weil wir gute Programmierer*innen sind, geben wir unserem Interface einen sprech
 
 Jetzt programmieren wir also unsere Sortier-Klasse so, dass sie Datenstrukturen sortieren kann, die `Comparable`s enthalten - ganz egal, was für Datentypen das nun eigentlich sind. Uns interessiert nur die Vergleichbareit - die Rückgabe der Methode `compareTo()`!
 
-> :speech_balloon: Das Interface `Comparable` gibt es übrigens wirklich. Dieses Beispiel ist nicht ausgedacht - im Gegenteil: Genau so funktioniert das Zusammenspiel von [`Comparable`](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html) und [`Collections.sort()`](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html#sort(java.util.List)).
+> 💬 Das Interface `Comparable` gibt es übrigens wirklich. Dieses Beispiel ist nicht ausgedacht - im Gegenteil: Genau so funktioniert das Zusammenspiel von [`Comparable`](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html) und [`Collections.sort()`](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html#sort(java.util.List)).
 
 
 ## Funktionsweise
@@ -113,7 +113,7 @@ Es drängt sich natürlich die Frage auf, wozu es diese Methoden denn dann gibt,
 
 Der Grund für Default-Methoden liegt in der langfristigen Wartbarkeit und Kompatibilität größerer, evtl. weit verbreiteter Programme- und Bibliotheken. Bevor es die Default-Methoden gab, konnte nämlich zu einem Interface keine zusätzliche Methode(-ensignatur) hinzugefügt werden, ohne dass alle implementierenden Klassen angepasst werden mussten. Jetzt geht das - mit einer default-Implementation der neuen Methode!
 
-> :link: Einen weiterführenden Artikel zum Thema findest du [hier](https://www.baeldung.com/java-static-default-methods).
+> 🔗 Einen weiterführenden Artikel zum Thema findest du [hier](https://www.baeldung.com/java-static-default-methods).
 
 
 ## Statische Methoden in Interfaces
@@ -154,11 +154,11 @@ public interface StringHelper {
 }
 ```
 
-> :speech_balloon: Hier hat sich nur `class` in `interface` geändert!
+> 💬 Hier hat sich nur `class` in `interface` geändert!
 
 Der Unterschied ist natürlich marginal, aber es ist semantisch viel sauberer, denn Interfaces können ohnehin nicht instanziiert werden. Man ruft diese Methoden (als wären sie statische Methoden in einer Klasse) in der Form `StringHelper.reverse("Hello")` auf. Anders geht es auch nicht - denn ein Objekt einer implementierenden Klasse würde diese Methode überhaupt nicht anbieten!
 
-> :link: Einen weiterführenden Artikel zum Thema findest du [hier](https://www.baeldung.com/java-static-default-methods).
+> 🔗 Einen weiterführenden Artikel zum Thema findest du [hier](https://www.baeldung.com/java-static-default-methods).
 
 
 

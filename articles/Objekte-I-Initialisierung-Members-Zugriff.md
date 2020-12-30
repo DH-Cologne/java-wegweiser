@@ -27,11 +27,11 @@ Mit dem Schlüsselwort `this` wird das aktuelle Objekt (Instanz der Klasse) refe
 
 ## Konstruktoren
 
-> :speech_balloon: Engl.: _constructors_
+> 💬 Engl.: _constructors_
 
 Konstruktoren bieten die Möglichkeit, die Initialisierung von Objekten zu kontrollieren und dafür benötigte Daten über Parameter "einzufordern". Man könnte sagen, dass Konstruktoren spezielle Methoden sind, die beim Initialisieren von Objekten ausgeführt werden, aber darüber wird gestritten.
 
-> :woman_teacher: Bei der Initialisierung eines Objektes wird **immer genau ein** Konstruktor ausgeführt!
+> 👩‍🏫 Bei der Initialisierung eines Objektes wird **immer genau ein** Konstruktor ausgeführt!
 
 Jede Klasse hat, wenn sie keine anderen Konstruktoren besitzt, automatisch mindestens den default-Konstruktor (oder auch _no-argument-constructor_) ihrer Superklasse (falls ein solcher vorhanden ist!). Der default-Konstruktor ist, wenn er nicht explizit in den Programmcode geschrieben wird, nicht sichtbar und wird später einfach vom Compiler hinzugefügt. Er sieht wie folgt aus ...
 
@@ -79,11 +79,11 @@ public class User {
 }
 ```
 
-> :speech_balloon: `name` ist in diesem Beispiel eine Instanzvariable (siehe unten!).
+> 💬 `name` ist in diesem Beispiel eine Instanzvariable (siehe unten!).
 
 Es sollte bei der Initialisierung ein Aufruf eines Konstruktors der Superklasse erfolgen. Falls diese keinen Konstruktor mit Parametern besitzt, wird mit `super()` ihr default-Konstruktor aufgerufen. Falls doch, **muss** jeder Konstruktor jeder Subklasse als erstes (!) diesen (oder einen anderen) Konstruktor der Superklasse aufrufen: `super(param1, param2);`
 
-> :speech_balloon: Mehr zum Schlüsselwort `super` erfährst du auf der Seite [Vererbung I: Grundlagen](Vererbung-I-Grundlagen.md)
+> 💬 Mehr zum Schlüsselwort `super` erfährst du auf der Seite [Vererbung I: Grundlagen](Vererbung-I-Grundlagen.md)
 
 ```java
 public class User {
@@ -115,14 +115,14 @@ public class SpecialUser extends User {
 
 ## Instanzvariablen
 
-> :speech_balloon: Engl.: _instance variables / (non-static) member variables_
+> 💬 Engl.: _instance variables / (non-static) member variables_
 
 Siehe [Variablen &rArr; Arten von Variablen &rArr; Instanzvariablen](Variablen.md#instanzvariablen)
 
 
 ## Instanzmethoden
 
-> :speech_balloon: Engl.: _instance methods / non-static methods_
+> 💬 Engl.: _instance methods / non-static methods_
 
 Als Instanzmethoden bezeichnet man in Java alle Methoden, die nicht statisch (`static`) sind. Diese Methoden sind _an das Objekt_ (also eine Instanz der Klasse) gebunden und können nicht aus einem statischen Kontext heraus aufgerufen werden.
 
@@ -242,7 +242,7 @@ public class User {
 }
 ```
 
-> :link: **Tipp:** Zum Thema Getter und Setter sind [diese Frage](https://softwareengineering.stackexchange.com/questions/416386/i-still-don-t-fully-understand-getters-setters) aus dem StackExchange-Netzwerk (zu Softwareengineering) und ihre akzeptierte Antwort _sehr lesenswert_!
+> 🔗 **Tipp:** Zum Thema Getter und Setter sind [diese Frage](https://softwareengineering.stackexchange.com/questions/416386/i-still-don-t-fully-understand-getters-setters) aus dem StackExchange-Netzwerk (zu Softwareengineering) und ihre akzeptierte Antwort _sehr lesenswert_!
 
 
 

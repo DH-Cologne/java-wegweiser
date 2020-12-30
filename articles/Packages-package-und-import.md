@@ -1,5 +1,5 @@
 
-# Packages, `package` und `import` :package:<!-- omit in toc -->
+# Packages, `package` und `import` 📦<!-- omit in toc -->
 
 - [Was sind Packages?](#was-sind-packages)
 - [Wie sehen Packages auf meiner Festplatte aus?](#wie-sehen-packages-auf-meiner-festplatte-aus)
@@ -11,7 +11,7 @@
 **Packages** (oder dt.: _Pakete_) sind ein einfaches System, in dem zusammengehörende Java-Klassen*** organisiert sind. So lässt sich an einem **Paket-Pfad** üblicherweise ablesen, zu welcher Software eine Klasse gehört und ggf. von welchem Anbieter sie stammt. Auf diese Weise dienen Packages dazu, jede Klasse (also den Code eines Programms) eindeutig identifizierbar zu machen, sodass es in den Unmengen von verfügbaren Programmbibliotheken nicht zu Verwechslungen kommt. So lässt sich im Quellcode jede Klasse eindeutig ansprechen oder importieren!  
 Die Art und Weise, wie Klassen in Packages organisiert sind, wird übrigens als _Paket-Struktur_ bezeichnet.
 
-> :speech_balloon: **\*\*\*** Klassen sind die Einheiten, aus denen der Code eines Java-Programms besteht. Mehr dazu im Kapitel zu Objektorientierung!
+> 💬 **\*\*\*** Klassen sind die Einheiten, aus denen der Code eines Java-Programms besteht. Mehr dazu im Kapitel zu Objektorientierung!
 
 **Beispiel:** Eine Klasse `AudioPlayer`, die Audio-Dateien abspielen kann, gehört zu einer Open-Source-Software namens _MediaGenius_ (frei erfunden). _MediaGenius_ kann, sagen wir mal, Medien-Dateien abspielen und wird über die Website _mediagenius.org_ angeboten. Sehr wahrscheinlich würde der Paket-Pfad unserer Klasse `AudioPlayer` dann folgendermaßen lauten: `org.mediagenius.audio.AudioPlayer`  
 Somit wäre klar zu erkennen, zu welchem Projekt diese Klasse gehört und zu welcher "Unterkategorie" innerhalb des Projektes sie zugewiesen ist.
@@ -88,6 +88,6 @@ public class IrgendwasMitAudio {
 }
 ```
 
-> :point_right: Mit dem Tastatur-Shortcut `Strg`+`Shift`+`O` fügt Eclipse automatisch alle fehlenden Imports ein. Falls es Uneindeutigkeiten gibt, wird man nach dem richtigen Import gefragt.
+> 👉 Mit dem Tastatur-Shortcut `Strg`+`Shift`+`O` fügt Eclipse automatisch alle fehlenden Imports ein. Falls es Uneindeutigkeiten gibt, wird man nach dem richtigen Import gefragt.
 
 

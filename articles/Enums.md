@@ -1,10 +1,10 @@
-# Enums :abacus:<!-- omit in toc -->
+# Enums 🧮<!-- omit in toc -->
 
-> :speech_balloon: auch: _Enum types_
+> 💬 auch: _Enum types_
 
 Ein _Enum_ (kurz für _Enumeration_ - das englische Wort für _Aufzählung_), ist ein spezieller Datentyp, der eine Aufzählung konstanter Werte repräsentiert. Eine Variable vom Typ eines Enum muss als Wert einen der möglichen fordefinierten Werte annehmen, die Teil des Enums sind.
 
-> :speech_balloon: Technisch gesehen ist jeder Enum type eine Erweiterung von `java.lang.Enum`. Enums sind also Klassen, die implizit von `Enum` erben!
+> 💬 Technisch gesehen ist jeder Enum type eine Erweiterung von `java.lang.Enum`. Enums sind also Klassen, die implizit von `Enum` erben!
 
 ## Anwendungsfälle
 
@@ -13,7 +13,7 @@ Ein sehr häufiges (weil nachvollziehbares) Beispiel für die Anwendung von Enum
 
 ## Grundlegender Aufbau
 
-Da Enums Klassen sind, die von `java.lang.Enum` erben, ähneln sie gewöhnlichen Klassen: Sie können Felder, Methoden und sogar einen Konstruktor besitzen. Aber sie besitzen eine spezielle :point_right: [Syntax](../Glossar.md#syntax), mit der sich "Aufzählungen" von vordefinierten Werten umsetzen lassen.
+Da Enums Klassen sind, die von `java.lang.Enum` erben, ähneln sie gewöhnlichen Klassen: Sie können Felder, Methoden und sogar einen Konstruktor besitzen. Aber sie besitzen eine spezielle 👉 [Syntax](../Glossar.md#syntax), mit der sich "Aufzählungen" von vordefinierten Werten umsetzen lassen.
 
 Der Unterschied zu einer gewöhnlichen Klassendefinition ist zunächst genau diese Aufzählung. Nehmen wir eine Datei `Weekday.java` mit folgendem Inhalt an:
 
@@ -63,7 +63,7 @@ public enum Weekday {
 }
 ```
 
-> :speech_balloon: Dieses Beispiel geht von den deutschen Wochentagen aus, bei denen Montag als der erste gilt.
+> 💬 Dieses Beispiel geht von den deutschen Wochentagen aus, bei denen Montag als der erste gilt.
 
 So hat jeder `Weekday` einen zugeteilten numerischen Wert. Mit diesem können wir nun genau so umgehen, wie wir es von Instanzvariablen gewohnt sind. Implementieren wir z.B. `toString()` und eine Methode `getWeekDay()`:
 
@@ -112,4 +112,4 @@ Und so gibt `Weekday.FRI.daysUntil(Weekday.MON)` den Wert `3` zurück, usw.
 
 
 
-> :link: Siehe auch [Enum Types](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)
+> 🔗 Siehe auch [Enum Types](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)

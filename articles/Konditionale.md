@@ -1,4 +1,4 @@
-# Konditionale :railway_track:<!-- omit in toc -->
+# Konditionale 🛤️<!-- omit in toc -->
 
 > (engl.: _conditional statements_)
 
@@ -14,7 +14,7 @@ Konditionale steuern den Ablauf eines Programmes in Abhängigkeit von Bedingunge
 
 Ein `if/else`-Statement führt Code in Abhängigkeit vom Wahrheitsgehalt (`true`/`false`) einer Aussage bzw. eines boolschen Ausdrucks aus. Es besteht mindestens aus **einem** `if`-Block (_wenn, dann..._), einer **beliebigen Anzahl von** `else if`-Blöcken (_sonst wenn, dann..._) und **maximal einem** `else`-Block (_sonst..._). 
 
-**:point_right: [Syntax](../Glossar.md#syntax)-Beispiel:**
+**👉 [Syntax](../Glossar.md#syntax)-Beispiel:**
 
 ```java
 int i = 4;
@@ -43,9 +43,9 @@ System.out.println(i + " ist " + gt + " als fünf!")
 
 ...erzeugt die Ausgabe `4 ist nicht größer als fünf!`
 
-> :speech_balloon: **Elvis-Operator:** Der Ternary-Operator wird "umgangssprachlich" auch als _Elvis-Operator_ bezeichnet, weil die Symbole in seiner Syntax, also `?` und `:` dem Elvis-Smiley* ähneln, bei dem das `?` die typische Elvis-Locke darstellen soll: `?:)`
+> 💬 **Elvis-Operator:** Der Ternary-Operator wird "umgangssprachlich" auch als _Elvis-Operator_ bezeichnet, weil die Symbole in seiner Syntax, also `?` und `:` dem Elvis-Smiley* ähneln, bei dem das `?` die typische Elvis-Locke darstellen soll: `?:)`
 
-> :speech_balloon: **\* Smileys** sind Gesichter aus Sonderzeichen, die man benutzt hat, als es noch keine Emojis gab :older_woman: :older_man: 
+> 💬 **\* Smileys** sind Gesichter aus Sonderzeichen, die man benutzt hat, als es noch keine Emojis gab 👵 👴 
 
 
 ## switch

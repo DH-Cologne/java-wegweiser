@@ -1,15 +1,15 @@
-# Link-Liste :link:<!-- omit in toc -->
+# Link-Liste 🔗<!-- omit in toc -->
 
 > Kategorisierte Links zu allgemeinen, Modul-relevanten Ressourcen, die begleitend genutzt werden können
 
-- [Java Lernen :books:](#java-lernen-books)
-- [Java Üben :man_technologist:](#java-üben-man_technologist)
-- [Anleitungen :woman_teacher:](#anleitungen-woman_teacher)
-- [Downloads :floppy_disk:](#downloads-floppy_disk)
+- [Java Lernen 📚](#java-lernen-books)
+- [Java Üben 👨‍💻](#java-üben-man_technologist)
+- [Anleitungen 👩‍🏫](#anleitungen-woman_teacher)
+- [Downloads 💾](#downloads-floppy_disk)
 - [Git](#git)
-- [Sonstiges :green_salad:](#sonstiges-green_salad)
+- [Sonstiges 🥗](#sonstiges-green_salad)
 
-## Java Lernen :books:
+## Java Lernen 📚
 
 -   [Programmieren in Java: Einführung](http://www.highscore.de/java/einfuehrung/) - Eine nüchterne, aber informative Einführung zum Durchlesen (weniger zum Nachschlagen)
 -   [WikiBooks: Java Programming](https://en.wikibooks.org/wiki/Java_Programming) - Eine ganz ähnliche Ressource wie dieses Repository, aber auf Englisch. Sehr gut und auf den Punkt, sehr empfehlenswert!
@@ -19,7 +19,7 @@
 -   [Operators in Java](https://www.codejava.net/java-core/the-java-language/summary-of-operators-in-java-with-examples) - Übersicht über jegliche Operatoren in Java
 
 
-## Java Üben :man_technologist:
+## Java Üben 👨‍💻
 
 -   [w3schools Java Exercises](https://www.w3schools.com/java/java_exercises.asp) - Eine Art Quiz, das die Grundlagen abfragt
 -   [Core Java Quiz](https://www.javatpoint.com/core-java-quiz) - Noch eine Sammlung von Quiz-Fragen zum Üben der Grundlagen
@@ -33,13 +33,13 @@
 -   [Weitere Ideen für Übungsaufgaben](https://duckduckgo.com/?q=java+programming+ideas+exercise) - Ja, der Link führt zu einem Suchmaschinen-Ergebnis. Das Internet ist eben voll von Problemen ...
 
 
-## Anleitungen :woman_teacher:
+## Anleitungen 👩‍🏫
 
 -   [Einstieg in Eclipse](http://www.java-programmieren.com/eclipse-erste-schritte.php) - "In diesem Eclipse Tutorial werden die erste Schritte in Eclipse aufgezeit, beispielsweie wie man ein Projekt anlegt und in diesem dann die erste Klasse samt Java-Code erstellt."
 -   [Java Debugging with Eclipse](https://www.vogella.com/tutorials/EclipseDebugging/article.html) - Wie funktioniert der debugger in Eclipse?
 
 
-## Downloads :floppy_disk:
+## Downloads 💾
 
 -   [Eclipse IDE](https://www.eclipse.org/downloads/packages/release/2020-03/r/eclipse-ide-java-developers) - Die Entwicklungsumgebung Eclipse für verschiedene Plattformen
 -   [AdoptOpenJDK](https://adoptopenjdk.net/releases.html) - Eine Quelle für ein OpenJDK mit Downloads für viele Betriebssysteme
@@ -56,7 +56,7 @@
 -   [CS visualized: Useful Git commands](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1) - Sehr gut geeignet, um einige komplexere Vorgänge in Git zu verstehen
 -   [Visualizing Git](https://github.com/git-school/visualizing-git) - eine Visualisierung der üblichsten Git-Befehle (zum Verständnis)
 
-## Sonstiges :green_salad:
+## Sonstiges 🥗
 
 -   [StackOverflow](https://stackoverflow.com/) - Nur für den Fall, dass es jemand noch nicht kennt (Englisch)
 -   [DEV.to](https://dev.to/) - Freundliche Community, die sich gut gelaunt mit Themen zur Software-Entwicklung im Allgemeinen auseinandersetzt (Englisch)

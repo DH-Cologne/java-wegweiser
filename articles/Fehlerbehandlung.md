@@ -1,4 +1,4 @@
-# Fehlerbehandlung :x:<!-- omit in toc -->
+# Fehlerbehandlung ❌<!-- omit in toc -->
 
 - [Throwable](#throwable)
 - [Errors](#errors)
@@ -18,7 +18,7 @@ In Programmen können verschiedene Fehler auftreten. All diese Fehler sind (auf 
 
 ## Errors
 
-**Errors** sind Fehler, die _nicht aufgefangen werden können_ (_catch_), d.h. das Programm kann nicht konstruktiv auf sie reagieren. Sie bringen das Programm unweigerlich zum Absturz. Sie entstehen etwa durch fehlende Systemressourcen. Beispiele hierfür sind `OutOfMemoryError` (mehr :link: [hier](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/memleaks002.html)) oder `StackOverflowError` (mehr :link: [hier](https://dzone.com/articles/stackoverflowerror-causes-amp-solutions)).
+**Errors** sind Fehler, die _nicht aufgefangen werden können_ (_catch_), d.h. das Programm kann nicht konstruktiv auf sie reagieren. Sie bringen das Programm unweigerlich zum Absturz. Sie entstehen etwa durch fehlende Systemressourcen. Beispiele hierfür sind `OutOfMemoryError` (mehr 🔗 [hier](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/memleaks002.html)) oder `StackOverflowError` (mehr 🔗 [hier](https://dzone.com/articles/stackoverflowerror-causes-amp-solutions)).
 
 ```java
 // dieser Code führt zu einem OutOfMemoryError
@@ -40,7 +40,7 @@ public static void stackOverflow() {
 
 Exceptions sind Fehler, die durch eine korrekte Fehlerbehandlung "_aufgefangen_" werden können (eng. _catch_). In diesem Fall weiß das Programm mit einem Fehler umzugehen und kann weiter ausgeführt werden. 
 
-Es werden "_checked_" und "_unchecked_" Exceptions unterschieden: _Checked_ Exceptions sind solche Exceptions, deren mögliches Auftreten (und fehlendes Auffangen!) bereits vom :point_right: [Compiler](../Glossar.md#compiler) überprüft wird. Beispiele sind die `ClassNotFoundException` oder die `IOException`. _Unchecked_ Exceptions hingegen treten während der Laufzeit des Programmes auf (siehe `RuntimeException` in der Grafik oben!) - sie können nicht vorhergesagt werden und lassen sich nur durch das schreiben von gutem, fehlerfreiem Code verhindern.
+Es werden "_checked_" und "_unchecked_" Exceptions unterschieden: _Checked_ Exceptions sind solche Exceptions, deren mögliches Auftreten (und fehlendes Auffangen!) bereits vom 👉 [Compiler](../Glossar.md#compiler) überprüft wird. Beispiele sind die `ClassNotFoundException` oder die `IOException`. _Unchecked_ Exceptions hingegen treten während der Laufzeit des Programmes auf (siehe `RuntimeException` in der Grafik oben!) - sie können nicht vorhergesagt werden und lassen sich nur durch das schreiben von gutem, fehlerfreiem Code verhindern.
 
 ```java
 // dieser Code erzeugt eine NullPointerException,
@@ -77,7 +77,7 @@ Der `try`-Block enthält den Code, der eine Exception verursachen könnte. Minde
 ![try-catch-finally-flow](../assets/images/java-try-catch-finally-flow.jpg)  
 > _Quelle: [howtodoinjava.com](https://howtodoinjava.com/java/exception-handling/try-catch-finally/)_
 
-Nach dem _try-catch(-finally)_-Statement wird der darauf folgende Programm-Code weiter ausgeführt. Falls im `try`-Block kein Fehler auftritt, werden alle `catch`-Blöcke ignoriert; ein etwaiges `finally` wird aber generell ausgeführt. Falls keiner der definierten `catch`-Blöcke die geworfene Exception abfängt, wird trotzdem ein evtl. vorhandener `finally`-Block ausgeführt, bevor die Exception dann von der default-Fehlerbehandlung verarbeitet wird (:link: [StackTrace](https://en.wikipedia.org/wiki/Stack_trace) über den :link: [Stderr](https://en.wikipedia.org/wiki/Standard_streams#Standard_error_(stderr)) auf der Konsole ausgeben).
+Nach dem _try-catch(-finally)_-Statement wird der darauf folgende Programm-Code weiter ausgeführt. Falls im `try`-Block kein Fehler auftritt, werden alle `catch`-Blöcke ignoriert; ein etwaiges `finally` wird aber generell ausgeführt. Falls keiner der definierten `catch`-Blöcke die geworfene Exception abfängt, wird trotzdem ein evtl. vorhandener `finally`-Block ausgeführt, bevor die Exception dann von der default-Fehlerbehandlung verarbeitet wird (🔗 [StackTrace](https://en.wikipedia.org/wiki/Stack_trace) über den 🔗 [Stderr](https://en.wikipedia.org/wiki/Standard_streams#Standard_error_(stderr)) auf der Konsole ausgeben).
 
 
 **Syntax und Beispiel:**
@@ -158,7 +158,7 @@ public String thisWillFail() throws IOException {
 
 ## try-with-resources
 
-> :warning: Die Lektüre dieses Kapitels empfiehlt sich erst, wenn die Inhalte zu [Input / Output (I/O)](IO.md) bereits bekannt sind!
+> ⚠️ Die Lektüre dieses Kapitels empfiehlt sich erst, wenn die Inhalte zu [Input / Output (I/O)](IO.md) bereits bekannt sind!
 
 Eine Spezialform der Fehlerbehandlung für im `try`-Block verwendete Ressourcen, die nach ihrer Verwendung wieder geschlossen werden müssen (etwa beim Arbeiten mit Datenströmen) ist das sog. _try-with-resources_-Statement.
 

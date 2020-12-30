@@ -25,11 +25,11 @@ Durch die Verwendung primitiver Datentypen kann man immer dann Ressourcen (Reche
 
 ## Komplexe Datentypen
 
-> :warning: Dieser Absatz greift inhaltlich vor, falls du dich noch nicht mit Klassen und Objekten beschäftigt hast!
+> ⚠️ Dieser Absatz greift inhaltlich vor, falls du dich noch nicht mit Klassen und Objekten beschäftigt hast!
 
 Dieser Abschnitt kann sehr kurz gehalten werden: [Klassen](OOP-Klassen-und-Objekte.md) sind komplexe Datentypen - **alle** Klassen. Da [abstrakte Klassen](Vererbung-II-Abstrakte-Klassen-und-Methoden.md) und [Interfaces](Vererbung-III-Interfaces.md) letztendlich auch Typen sind, die nur von Instanzen echter Klassen angenommen werden, sind auch sie komplexe Datentypen.
 
-> :speech_balloon: Arrays spielen in Java eine Sonderrolle - auch sie sind ein komplexer Datentyp.
+> 💬 Arrays spielen in Java eine Sonderrolle - auch sie sind ein komplexer Datentyp.
 
 
 ## Wrapper-Klassen
@@ -56,7 +56,7 @@ Der Maximal-Wert für einen Integer ist: 2147483647
 2
 ```
 
-Diese Wrapper-Klassen benutzt man nur dann, wenn man sie benötigt (wegen der extra Fähigkeiten) oder es muss (siehe :telescope: [Generics](Generics.md)).
+Diese Wrapper-Klassen benutzt man nur dann, wenn man sie benötigt (wegen der extra Fähigkeiten) oder es muss (siehe 🔭 [Generics](Generics.md)).
 
 
 

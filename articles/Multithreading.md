@@ -1,10 +1,10 @@
-# Multithreading :thread:<!-- omit in toc -->
+# Multithreading 🧵<!-- omit in toc -->
 
-> :point_right: Siehe Definitionen für [Multitasking](../Coding-Lingo.md#multitasking), [Multiprocessing](../Coding-Lingo.md#multiprocessing) und [Multithreading](../Coding-Lingo.md#multithreading)!
+> 👉 Siehe Definitionen für [Multitasking](../Coding-Lingo.md#multitasking), [Multiprocessing](../Coding-Lingo.md#multiprocessing) und [Multithreading](../Coding-Lingo.md#multithreading)!
 
-> :warning: Diese Seite deckt (ganz bewusst) bei weitem nicht alles ab, was es zu Multithreading in Java zu sagen gäbe! Zu diesem Thema [wurden ganze Bücher geschrieben](http://jcip.net/). Hier wird nur sehr oberflächlich das allgemeine Konzept mit den dazugehörigen Sprach-Features beschrieben. Die im Text verteilten Verweise auf externe Ressourcen bieten weitere Informationen zum Thema.
+> ⚠️ Diese Seite deckt (ganz bewusst) bei weitem nicht alles ab, was es zu Multithreading in Java zu sagen gäbe! Zu diesem Thema [wurden ganze Bücher geschrieben](http://jcip.net/). Hier wird nur sehr oberflächlich das allgemeine Konzept mit den dazugehörigen Sprach-Features beschrieben. Die im Text verteilten Verweise auf externe Ressourcen bieten weitere Informationen zum Thema.
 
-> :link: Für einen tieferen Einstieg in das Thema können außerdem [dieser](https://docs.oracle.com/javase/tutorial/essential/concurrency/procthread.html), [dieser](https://www.vogella.com/tutorials/JavaConcurrency/article.html), oder [dieser](https://www.callicoder.com/java-multithreading-thread-and-runnable-tutorial/) Link nützlich sein!
+> 🔗 Für einen tieferen Einstieg in das Thema können außerdem [dieser](https://docs.oracle.com/javase/tutorial/essential/concurrency/procthread.html), [dieser](https://www.vogella.com/tutorials/JavaConcurrency/article.html), oder [dieser](https://www.callicoder.com/java-multithreading-thread-and-runnable-tutorial/) Link nützlich sein!
 
 - [Implementieren von `Runnable`](#implementieren-von-runnable)
 - [Das Package `java.util.concurrent`](#das-package-javautilconcurrent)
@@ -15,9 +15,9 @@ Ein Java-Programm läuft in einem eigenen Thread (in diesem wird die `main`-Meth
 
 In Java gibt es mehrere Möglichkeiten einen neuen Thread (auch: _leichtgewichtiger Prozess_ oder _sub-process_) zu erzeugen. Die in den meisten Fällen "richtige" ist das Implementieren des Interfaces `Runnable` (siehe unten).
 
-> :speech_balloon: Man kann auch die Klasse `Thread` erweitern und die `run()`-Methode überschreiben, allerdings ergibt dieses Vorgehen nur dann Sinn, wenn man wirklich das Verhalten von `Thread` erweitern möchte - wenn es nur um das Erzeugen und Ausführen eines Code-Blocks in einem eigenen Thread geht, ist das Übergeben eines `Runnable`s an eine Instanz von `Thread` [die semantisch und logistisch bessere Variante](https://stackoverflow.com/questions/541487/implements-runnable-vs-extends-thread-in-java).
+> 💬 Man kann auch die Klasse `Thread` erweitern und die `run()`-Methode überschreiben, allerdings ergibt dieses Vorgehen nur dann Sinn, wenn man wirklich das Verhalten von `Thread` erweitern möchte - wenn es nur um das Erzeugen und Ausführen eines Code-Blocks in einem eigenen Thread geht, ist das Übergeben eines `Runnable`s an eine Instanz von `Thread` [die semantisch und logistisch bessere Variante](https://stackoverflow.com/questions/541487/implements-runnable-vs-extends-thread-in-java).
 
-Die folgende Grafik illustriert das Verhältnis zwischen den Konzepten :point_right: [Prozess](../Glossar.md#prozess) und :point_right: [Thread](../Glossar.md#thread). Es werden hier zwei Threads gezeigt, die Teile eines Prozesses sind, der offensichtlich auf einer einzelnen :point_right: [CPU](../Glossar.md#cpu) (mit einem Kern) ausgeführt wird, denn die Threads laufen nicht wirklich _gleichzeitig_, sondern wechseln sich ab:
+Die folgende Grafik illustriert das Verhältnis zwischen den Konzepten 👉 [Prozess](../Glossar.md#prozess) und 👉 [Thread](../Glossar.md#thread). Es werden hier zwei Threads gezeigt, die Teile eines Prozesses sind, der offensichtlich auf einer einzelnen 👉 [CPU](../Glossar.md#cpu) (mit einem Kern) ausgeführt wird, denn die Threads laufen nicht wirklich _gleichzeitig_, sondern wechseln sich ab:
 
 ![Multithreaded Process](../assets/images/Multithreaded_process.png)
 > _Quelle: [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Multithreaded_process.svg); I, Cburnett / [CC BY-SA](http://creativecommons.org/licenses/by-sa/3.0/)_
@@ -96,7 +96,7 @@ Die folgenden Abschnitte zu `synchronized` und `volatile` umreißen kurz die Bed
 
 ## `synchronized`
 
-Das Schlüsselwort `synchronized` hat hauptsächlich die Aufgabe eine Methode oder Variable vor dem gleichzeitigen Zugriff durch mehrere Threads zu schützen. So lässt sich unvorhergesehenes Programm-Verhalten, das durch :point_right: [Race Conditions](../Coding-Lingo.md#race-condition) verursacht wird, verhindern.
+Das Schlüsselwort `synchronized` hat hauptsächlich die Aufgabe eine Methode oder Variable vor dem gleichzeitigen Zugriff durch mehrere Threads zu schützen. So lässt sich unvorhergesehenes Programm-Verhalten, das durch 👉 [Race Conditions](../Coding-Lingo.md#race-condition) verursacht wird, verhindern.
 
 Im folgenden Beispiel trägt die Methode `printThreadNameFiveTimes()`, die in `run()` aufgerufen wird, das Schlüsselwort `synchrionized`:
 
@@ -179,16 +179,16 @@ synchronized (this) {
 }
 ```
 
-> :link: Weiteres zu `synchronized` findet sich [hier](https://docs.oracle.com/javase/tutorial/essential/concurrency/sync.html) und [hier](http://tutorials.jenkov.com/java-concurrency/synchronized.html)!
+> 🔗 Weiteres zu `synchronized` findet sich [hier](https://docs.oracle.com/javase/tutorial/essential/concurrency/sync.html) und [hier](http://tutorials.jenkov.com/java-concurrency/synchronized.html)!
 
 
 ## `volatile`
 
-> :speech_balloon: Dieser Abschnitt ist (und bleibt) nur eine kurze Beschreibung - vollständige Erläuterungen gibt es z.B. am Ende der untenstehenden Links!
+> 💬 Dieser Abschnitt ist (und bleibt) nur eine kurze Beschreibung - vollständige Erläuterungen gibt es z.B. am Ende der untenstehenden Links!
 
 Dieses Schlüsselwort ist speziell dazu gedacht, den Zugriff auf (Instanz- oder Klassen-) Variablen zu synchronisieren. Im Gegensatz zu `synchronized` ist der Gleichzeitige Zugriff durch mehrere Threads dann möglich. Die Threads blockieren sich also nicht gegenseitig. Ist eine Variable als `volatile` deklariert, müssen alle zugreifenden Threads ihre Werte für diese Variable aktualisieren, sobald die Variable geändert wird. Dieser Vorgang kostet natürlich seinerseits auch wieder Rechenleistung.
 
-> :link: Mehr dazu [hier](https://www.baeldung.com/java-volatile), [hier](http://tutorials.jenkov.com/java-concurrency/volatile.html) oder [hier](https://stackoverflow.com/questions/106591/what-is-the-volatile-keyword-useful-for)!
+> 🔗 Mehr dazu [hier](https://www.baeldung.com/java-volatile), [hier](http://tutorials.jenkov.com/java-concurrency/volatile.html) oder [hier](https://stackoverflow.com/questions/106591/what-is-the-volatile-keyword-useful-for)!
 
 
 

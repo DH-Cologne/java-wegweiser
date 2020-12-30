@@ -1,4 +1,4 @@
-# Strings :ab:<!-- omit in toc -->
+# Strings 🆎<!-- omit in toc -->
 
 (auch: *Zeichenketten*)
 
@@ -87,7 +87,7 @@ if (s1 == s2){
 
 ... sieht zwar so aus, als würde er überprüfen, ob beide Strings `"Hallo"` sind, aber das stimmt nicht! Strings sind Objekte. Und wenn Objekte mit `==` verglichen werden, wird **nicht** überprüft, ob irgendwelche Eigenschaften gleich sind, sondern ob es sich um _**das selbe Objekt**_ handelt!
 
-> :warning: Dass dieser Code _trotzdem_ funktioniert, liegt in diesem Fall am [String interning](https://en.wikipedia.org/wiki/String_interning) von Java und bedeutet **nicht**, dass die hier getroffene Aussage falsch ist!
+> ⚠️ Dass dieser Code _trotzdem_ funktioniert, liegt in diesem Fall am [String interning](https://en.wikipedia.org/wiki/String_interning) von Java und bedeutet **nicht**, dass die hier getroffene Aussage falsch ist!
 
 Meistens möchte man aber etwas ganz anderes wissen: Nämlich ob die Strings den gleichen (lexikalischen) Inhalt haben! Dies **muss** stattdessen mit Hilfe der [`.equals()` Methode](Objekte-II-Repraesentation-Identitaet-Gleichheit.md#equals) geschehen:
 
@@ -134,7 +134,7 @@ Ergibt folgende Ausgabe:
 
 (oder: _special characters_)
 
-Es gibt einige Zeichen, die sich ohne eine spezielle :point_right: [Syntax](../Glossar.md#syntax) nicht in String-Literals unterbringen ließen, wie etwa Zeilenumbrüche oder die doppelten Anführungszeichen (die ja dazu da sind, ein String-Literal zu begrezen!). Um diese Zeichen doch benutzen zu können, müssen sie mit einem vorangestellten `\` maskiert (in diesem Fall engl: _escaped_) werden.  
+Es gibt einige Zeichen, die sich ohne eine spezielle 👉 [Syntax](../Glossar.md#syntax) nicht in String-Literals unterbringen ließen, wie etwa Zeilenumbrüche oder die doppelten Anführungszeichen (die ja dazu da sind, ein String-Literal zu begrezen!). Um diese Zeichen doch benutzen zu können, müssen sie mit einem vorangestellten `\` maskiert (in diesem Fall engl: _escaped_) werden.  
 Es folgt eine Liste dieser Spezial-Zeichen:
 
 Zeichen | Bedeutung
@@ -163,6 +163,6 @@ Hallo,
 Welt!
 ```
 
-> :warning: Da der Backslash `\` die Funktion der Maskierung erfüllt, muss er selbst maskiert werden, wenn er als Zeichen im String auftauchen soll. Also so: `"\\"`. Wenn nun aber der String selbst `"\\"` lauten soll, dann wäre das String-Literal dazu `"\\\\"`, usw. 
+> ⚠️ Da der Backslash `\` die Funktion der Maskierung erfüllt, muss er selbst maskiert werden, wenn er als Zeichen im String auftauchen soll. Also so: `"\\"`. Wenn nun aber der String selbst `"\\"` lauten soll, dann wäre das String-Literal dazu `"\\\\"`, usw. 
 
 

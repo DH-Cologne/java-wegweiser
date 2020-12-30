@@ -5,7 +5,7 @@
 
 ## Innere Klassen
 
-> :speech_balloon: eng.: _inner class_ oder auch _nested class_
+> 💬 eng.: _inner class_ oder auch _nested class_
 
 Als innere Klassen werden Klassen bezeichnet, die innerhalb anderer Klassen definiert sind. Dies wird u.a. dazu genutzt, den Coder besser zu strukturieren: Manchmal ist eine Klasse semantisch so sehr einer anderen Klasse untergeordnet und wäre alleine unbrauchbar, dass sie am besten nicht in einer eigenen Datei steht:
 
@@ -26,7 +26,7 @@ class {
 }
 ```
 
-> :speech_balloon: In diesem Beispiel geht es nur um die Semantik der verwendeten Attribute. In der Realität bräuchte man für die Adresse natürlich nicht unbedingt eine eigene Klasse!
+> 💬 In diesem Beispiel geht es nur um die Semantik der verwendeten Attribute. In der Realität bräuchte man für die Adresse natürlich nicht unbedingt eine eigene Klasse!
 
 In diesem Beispiel wird die Klasse `Address` eventuell sogar niemals außerhalb der Klasse `Customer` genutzt. Das wäre dann eigentlich ein Fall für eine `private` innere Klasse, denn innere Klassen können (anders als normale Klassen) `private` oder auch `protected` sein (siehe auch [Sichtbarkeitsmodifizierer](Objekte-I-Initialisierung-Members-Zugriff.md#zugriffs-sichetbarkeitsmodifizierer)).
 
@@ -74,9 +74,9 @@ class Outer {
 Outer.Inner inner = new Outer.Inner();
 ```
 
-> :warning: Natürlich kann eine statische innere Klasse auch nur auf statische :point_right: [Member](../Glossar.md#member) der äußeren Klasse zugreifen!
+> ⚠️ Natürlich kann eine statische innere Klasse auch nur auf statische 👉 [Member](../Glossar.md#member) der äußeren Klasse zugreifen!
 
-> :link: Eine hübsche Übersicht zu inneren Klassen (mit praktischen Beispielen und Code zum Ausführen) findet man in [diesem W3Schools-Artikel](https://www.w3schools.com/java/java_inner_classes.asp).
+> 🔗 Eine hübsche Übersicht zu inneren Klassen (mit praktischen Beispielen und Code zum Ausführen) findet man in [diesem W3Schools-Artikel](https://www.w3schools.com/java/java_inner_classes.asp).
 
 
 ## Anonyme Klassen
@@ -120,9 +120,9 @@ bar
 
 Diese anonyme Klasse lässt sich (durch den fehlenden Namen) nur ein einziges mal instanziieren. Es sei denn, die Methode, in der das geschieht, wird mehrmals aufgerufen - aber in diesem Fall ließe sich wohl darüber diskutieren, ob es sich dann nicht eigentlich um einmalige Instanzen unterschiedlicher Klassen mit identischer Deklaration handelt.
 
-> :warning: Wäre `Foo` in diesem Beispiel ein Interface, sähe der Code zur Deklaration der anonymen Klasse (die `Foo` _implementiert_) exakt genauso aus! Anonyme Klassen _erweitern_ oder _implementieren_ Klassen oder Interfaces also **implizit** - je nach dem, worum es sich im Einzelfall handelt.
+> ⚠️ Wäre `Foo` in diesem Beispiel ein Interface, sähe der Code zur Deklaration der anonymen Klasse (die `Foo` _implementiert_) exakt genauso aus! Anonyme Klassen _erweitern_ oder _implementieren_ Klassen oder Interfaces also **implizit** - je nach dem, worum es sich im Einzelfall handelt.
 
-Ein sehr häufiger Anwendungsfall für anonyme Klassen in Java sind :link: [Listener](https://de.wikipedia.org/wiki/Beobachter_(Entwurfsmuster)) für Buttons (o.ä.) in :point_right: [GUI](../Glossar.md#gui)s, bei denen zum Zeitpunkt der Initialisierung noch schnell die Methode überschrieben werden soll, die ausgeführt wird, wenn das jeweilige Ereignis (Klick o.ä.) eingetreten ist. Das sieht dann z.B. so aus:
+Ein sehr häufiger Anwendungsfall für anonyme Klassen in Java sind 🔗 [Listener](https://de.wikipedia.org/wiki/Beobachter_(Entwurfsmuster)) für Buttons (o.ä.) in 👉 [GUI](../Glossar.md#gui)s, bei denen zum Zeitpunkt der Initialisierung noch schnell die Methode überschrieben werden soll, die ausgeführt wird, wenn das jeweilige Ereignis (Klick o.ä.) eingetreten ist. Das sieht dann z.B. so aus:
 
 ```java
 button.addActionListener(new ActionListener() {
@@ -133,7 +133,7 @@ button.addActionListener(new ActionListener() {
 });
 ```
 
-> :link: Eine gute weiterführende Ressource (in englischer Sprache) ist [dieser Artikel](https://www.baeldung.com/java-anonymous-classes).
+> 🔗 Eine gute weiterführende Ressource (in englischer Sprache) ist [dieser Artikel](https://www.baeldung.com/java-anonymous-classes).
 
 
 

@@ -1,6 +1,6 @@
-# Input / Output (I/O) :fast_forward:<!-- omit in toc -->
+# Input / Output (I/O) ⏩<!-- omit in toc -->
 
-> :construction: **TODO:** Alles...
+> 🚧 **TODO:** Alles...
 
 - [Streams](#streams)
 - [Buffering](#buffering)
@@ -32,7 +32,7 @@
 
 ## User-Input über Stdin via Scanner
 
-Die Klasse `Scanner` kann außerdem dazu genutzt werden, um auf einfache Weise User-Input über :point_right: [Stdin](../Glossar.md#stdin) zu erhalten:
+Die Klasse `Scanner` kann außerdem dazu genutzt werden, um auf einfache Weise User-Input über 👉 [Stdin](../Glossar.md#stdin) zu erhalten:
 
 ```java
 import java.util.Scanner;

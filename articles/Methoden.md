@@ -1,4 +1,4 @@
-# Methoden :clamp:<!-- omit in toc -->
+# Methoden 🗜️<!-- omit in toc -->
 
 - [Definition](#definition)
 - [Aufbau](#aufbau)
@@ -14,7 +14,7 @@ Zunächst muss an dieser Stelle geklärt werden, was _Funktionen_ sind: _Funktio
 Eine **Methode** ist eine _Funktion_, die an ein Objekt (nicht-statisch) oder eine Klasse (statisch) gebunden ist. Dadurch hat eine Methode Zugriff auf die Eigenschaften und Fähigkeiten eines Objektes (nicht-statisch) oder einer Klasse (statisch).  
 Da in Java **alles** in Klassen passiert - Java ist [fast](https://de.wikipedia.org/wiki/Java_(Programmiersprache)#Objektorientierung) völlig objektorientiert - gibt es in Java **nur Methoden** bzw. alle Funktionen in Java **sind Methoden**.
 
-> :speech_balloon: Eine gute Diskussion dieser Unterscheidung findet sich in dieser [SO-Frage](https://de.wikipedia.org/wiki/Java_(Programmiersprache)#Objektorientierung)!
+> 💬 Eine gute Diskussion dieser Unterscheidung findet sich in dieser [SO-Frage](https://de.wikipedia.org/wiki/Java_(Programmiersprache)#Objektorientierung)!
 
 
 ## Aufbau
@@ -78,14 +78,14 @@ public void something(int number1, int number2){
 
 Dies wird vor allem dann genutzt, wenn eine (eigentlich einzelne) Methode Parameter unterschiedlichen Typs verarbeiten können soll. Meist ruft dann (nach einer Umwandlung oder Verarbeitung der Parameter) die eine Methode eine andere gleichnamige Methode auf.
 
-> :speech_balloon: Das Überladen ist auch bei [Konstruktoren](Konstruktoren.md) möglich (und sogar sehr üblich!).
+> 💬 Das Überladen ist auch bei [Konstruktoren](Konstruktoren.md) möglich (und sogar sehr üblich!).
 
 
 ## Java ist immer (!) pass by value
 
-> :warning: Dieser Abschnitt ist wahrscheinlich noch etwas überfordernd, wenn du gerade erst lernst, wie Methoden funktionieren. Lass dich davon nicht einschüchtern! Die beschriebenen Konzepte sind anfangs nicht ganz leicht zu verstehen, aber sie werden dir bald einleuchten :bulb: :muscle:
+> ⚠️ Dieser Abschnitt ist wahrscheinlich noch etwas überfordernd, wenn du gerade erst lernst, wie Methoden funktionieren. Lass dich davon nicht einschüchtern! Die beschriebenen Konzepte sind anfangs nicht ganz leicht zu verstehen, aber sie werden dir bald einleuchten 💡 💪
 
-> :link: Diese [Antwort auf StackOverflow](https://stackoverflow.com/a/40523/7399631) erklärt das Problem ebenfalls sehr schön!
+> 🔗 Diese [Antwort auf StackOverflow](https://stackoverflow.com/a/40523/7399631) erklärt das Problem ebenfalls sehr schön!
 
 Es gibt in verschiedenen Programmiersprachen unterschiedliche Ansätze, wie Parameter an Methoden übergeben werden. Man unterscheidet hier [**_pass by value_**]([sdasd](https://de.wikipedia.org/wiki/Wertparameter)) (oder auch _"call by value"_, dt.: Übergabe/Aufruf mittels Wert) und [**_pass by reference_**]([dsfsdf](https://de.wikipedia.org/wiki/Referenzparameter)) (oder auch _"call by reference"_, dt.: Übergabe/Aufruf mittels Referenz).
 
@@ -118,7 +118,7 @@ y == 7
 
 Würde es sich bei der Übergabe von Methodenparametern in Java nun um **_pass by reference_** handeln (zur Erinnerung: Das tut es nicht!), dann hätte `x` nach dem Aufruf `addFive(x)` den Wert `7`, denn innerhalb der Methode würde die Referenz auf ein und die selbe Speicherstelle verwendet werden.
 
-:exclamation: :exclamation: :exclamation:  **SO WEIT, SO WENIG ÜBERRASCHEND! ABER...** :exclamation: :exclamation: :exclamation:
+❗ ❗ ❗  **SO WEIT, SO WENIG ÜBERRASCHEND! ABER...** ❗ ❗ ❗
 
 Der oben beschriebene Sachverhalt ist einleuchtend, aber dennoch kommt gerade bei **Java** immer sehr viel **Verwirrung** um _pass by value_ oder _pass by reference_ auf, wenn es nicht um **primitive**, sondern **komplexe** Methodenparameter geht. Denn wenn die Methode ...
 
@@ -151,11 +151,11 @@ Es wurde hier anscheinend also wirklich das von der Variable `marble1` referenzi
 
 **Ja, es wurde genau dieses Objekt verändert, aber** das bedeutet **nicht**, dass Java bei komplexen Methodenparametern plötzlich _pass by reference_ verwendet!
 
-> :woman_teacher: Die Übergabe von Methodenparametern in Java erfolgt **immer mittels _pass by value_** (oder, wenn man unbedingt will, mittels [call by sharing](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_sharing))!
+> 👩‍🏫 Die Übergabe von Methodenparametern in Java erfolgt **immer mittels _pass by value_** (oder, wenn man unbedingt will, mittels [call by sharing](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_sharing))!
 
 Aber wie kommt es dann zur oben beschriebenen Ausgabe? Das liegt daran, dass in Java eine **Referenz** auf ein Objekt **ein Wert ist**, nämlich die Adresse des Objektes im Arbeitsspeicher. Diese Adresse ist der **Wert**, der als Methodenparameter mittels **_pass by value_** übergeben wird!
 
-:point_right: Und das lässt sich auch beweisen: Verändert man die Methode `changeColorToRed()` von oben so, dass innerhalb der Methode der Variable des Methodenparameters **ein neues Objekt zugewiesen wird** ...
+👉 Und das lässt sich auch beweisen: Verändert man die Methode `changeColorToRed()` von oben so, dass innerhalb der Methode der Variable des Methodenparameters **ein neues Objekt zugewiesen wird** ...
 
 ```java
 private Marble changeColorToRed(Marble m) {
