@@ -26,7 +26,7 @@ for subdir, dirs, files in os.walk(root_dir):
 	for f_name in files:
 		f_path = os.path.join(subdir, f_name)
 		if not f_path.endswith(".md"):
-			print("Not a Markdown file: " + f_path)
+			# print("Not a Markdown file: " + f_path) # annoying!
 			continue
 		print(f_path)
 		with open(f_path, "r") as f:
