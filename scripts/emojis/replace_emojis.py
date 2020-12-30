@@ -8,7 +8,7 @@ import os
 import sys
 from pathlib import Path
 
-if len(sys.argv) != 1 or not sys.argv[0] in ["emoji2code", "code2emoji"]:
+if len(sys.argv) != 2 or not sys.argv[1] in ["emoji2code", "code2emoji"]:
 	print("Please provide 'emoji2code' or 'code2emoji' as an argument for operating mode selection.")
 	exit(1)
  
