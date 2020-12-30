@@ -33,7 +33,7 @@ Zubereitung:
 2) Nach belieben mit Nüssen, Zuckerguss oder beidem dekorieren
 ```
 
-> :warning:🎂 Bitte nicht nachbacken! Es handelt sich hier um ein ausgedachtes, möglichst kurzes Beispiel. Es wird _kein leckerer Kuchen daraus_ (es fehlt vielleicht etwas Backpulver)!
+> :birthday: Bitte nicht nachbacken! Es handelt sich hier um ein ausgedachtes, möglichst kurzes Beispiel. Es wird _kein leckerer Kuchen daraus_ (es fehlt vielleicht etwas Backpulver)!
 
 Da eine größere Festlichkeit ansteht (der Hamster hat Geburtstag o.ä.), müssen wir gleich drei von diesen Kuchen backen. Zum Glück lässt uns das Rezept ein wenig Spielraum bei der Dekoration der Kuchen. Deshalb backen wir das Grundrezept drei mal und dekorieren den ersten Kuchen mit Nüssen, den zweiten mit Zuckerguss und den dritten mit beidem.
 
