@@ -3,8 +3,8 @@
 
 // Headers
 $header-heading-color: #fff;
-$header-bg-color: #18416a;
-$header-bg-color-secondary: #1e3346;
+$header-bg-color: #3F4C77;
+$header-bg-color-secondary: #202639;
 
 // Text
 $section-headings-color: #24292e;
@@ -23,32 +23,35 @@ $hr-border-color: #eff0f1;
 @import "{{ site.theme }}";
 
 .page-header {
-    padding: 2.25rem 1rem;
+    padding: 1.5rem 1rem;
 }
 
 .project-name {
     font-weight: normal;
+    font-size: 2em !important;
 }
 
 .project-tagline {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: 3.25rem;
+    margin-top: .5rem;
+    margin-bottom: 0;
+    font-size: 2.25rem;
     opacity: 1;
 }
 
 .btn {
     margin: 0px;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255,255,255,0.9);
     background-color: transparent;
     border-color: transparent;
     border-style: none;
     border-width: 0px;
     border-radius: initial;
     padding: 0px !important;
+    font-size: .9em;
 }
 
 .btn:hover {
+    color: rgba(255,255,255,1.0);
     background-color: transparent;
 }
 
