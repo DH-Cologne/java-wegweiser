@@ -93,7 +93,10 @@ Englisch für 👉 [Kontrollfluss](#kontrollfluss).
 ## D
 
 ### Datenklasse
-Eine Klasse ohne eigene Logik / Funktionalität. Für gewöhnlich umfasst eine Datenklasse nur 👉 [Instanzvariablen](#instanzvariable) und ggf. 🔭 [Getter und Setter](articles/Objekte-I-Initialisierung-Members-Zugriff.md). Auch: _POJO_.
+Eine Klasse ohne eigene Logik / Funktionalität. Für gewöhnlich umfasst eine Datenklasse nur 👉[Instanzvariablen](#instanzvariable) und ggf. 🔭 [Getter und Setter](articles/Objekte-I-Initialisierung-Members-Zugriff.md). Auch: _POJO_.
+
+### Datenstruktur
+Objekt zur Speicherung und Verwaltung von Daten bzw. Referenzen auf Daten oder weitere Objekte. Siehe auch 🔗 [hier](https://de.wikipedia.org/wiki/Datenstruktur) und 🔭 [hier](articles/DIY-Datenstrukturen.md).
 
 ### Datentyp
 Siehe 🔭 [Datentypen](articles/Datentypen.md).
