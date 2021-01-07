@@ -46,6 +46,8 @@ public class B extends A {
 
 Klasse `B` erbt somit von Klasse `A` (und deren Superklassen, also mindestens auch von `Object`!)
 
+> 💬 Wenn man aus irgendeinem Grund der Meinung ist, dass eine Klasse **nicht** erweitert werden sollte, dann kann man dies übrigens verhindern, indem man sie mit dem Schlüsselwort `final` zu einer "finalen" Klasse macht : `public final class NoChildrenPlease { ... }`
+
 
 ## Die Klasse `Object`
 
@@ -143,10 +145,10 @@ public class User extends Person {
 
 Eine überscheibende Methode wird im Quelltext per Konvention markiert durch die `@Override`-Annotation. Diese ist im Prinzip nur eine "Anmerkung", die darauf hinweist, dass es sich um eine überschreibende Methode handelt. Sie ist aber durchaus wichtig, denn diese Anmerkung wird vom 👉[Compiler](../Glossar.md#compiler) überprüft:
 
-> **📚 Aus den docs zu** [`@Override`](https://docs.oracle.com/javase/8/docs/api/java/lang/Override.html):  
+**📚 Aus den docs zu** [`@Override`](https://docs.oracle.com/javase/8/docs/api/java/lang/Override.html):  
 > _Indicates that a method declaration is intended to override a method declaration in a supertype. If a method is annotated with this annotation type compilers are required to generate an error message unless at least one of the following conditions hold:_
 >
 > -   _The method does override or implement a method declared in a supertype._
 > -   _The method has a signature that is override-equivalent to that of any public method declared in Object._
->
-> 👉 `@Override` ist also _nicht nötig_, macht aber den Code lesbarer und veranlasst den Compiler dazu, hilfreiche Fehlermeldungen zu liefern!
+
+👉 `@Override` ist also _nicht nötig_, macht aber den Code lesbarer und veranlasst den Compiler dazu, hilfreiche Fehlermeldungen zu liefern. Es ist deshalb Konvention, diese Annotation zu verwenden!
