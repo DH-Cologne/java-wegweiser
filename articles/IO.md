@@ -32,7 +32,16 @@
 
 ## User-Input über Stdin via Scanner
 
-Die Klasse `Scanner` kann außerdem dazu genutzt werden, um auf einfache Weise User-Input über 👉 [Stdin](../Glossar.md#stdin) zu erhalten:
+Die Klasse `Scanner` kann außerdem dazu genutzt werden, um auf einfache Weise User-Input über 👉 [Stdin](../Glossar.md#stdin) (_Standard Input_) zu erhalten. Dazu wird das Java-Objekt, das diesen Datenstrom repräsentiert (`System.in`) als Parameter an den Konstruktor der `Scanner`-Klasse übergeben. Diese bietet eine sehr komfortable Abstraktion für solche textbasierten Datenströme:
+
+```java
+Scanner in = new Scanner(System.in);
+String input = in.nextLine();
+System.out.println("User hat eingegeben: " + input);
+in.close();
+```
+
+In einem größeren Zusammenhang könnte das etwa so aussehen:
 
 ```java
 import java.util.Scanner;
