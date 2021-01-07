@@ -152,3 +152,10 @@ Eine überscheibende Methode wird im Quelltext per Konvention markiert durch die
 > -   _The method has a signature that is override-equivalent to that of any public method declared in Object._
 
 👉 `@Override` ist also _nicht nötig_, macht aber den Code lesbarer und veranlasst den Compiler dazu, hilfreiche Fehlermeldungen zu liefern. Es ist deshalb Konvention, diese Annotation zu verwenden!
+
+
+---
+
+> 🔗 Ein [Artikel zu Vererbung in Java](https://dev-supp.de/codes/java/vererbung) mit einem umfangreicheren Beispiel
+
+> 🔗 [w3schools](https://www.w3schools.com/java/java_inheritance.asp) zu Vererbung in Java
