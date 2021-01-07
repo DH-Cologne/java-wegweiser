@@ -96,7 +96,7 @@ Englisch für 👉 [Kontrollfluss](#kontrollfluss).
 Eine Klasse ohne eigene Logik / Funktionalität. Für gewöhnlich umfasst eine Datenklasse nur 👉[Instanzvariablen](#instanzvariable) und ggf. 🔭 [Getter und Setter](articles/Objekte-I-Initialisierung-Members-Zugriff.md). Auch: _POJO_.
 
 ### Datenstruktur
-Objekt zur Speicherung und Verwaltung von Daten bzw. Referenzen auf Daten oder weitere Objekte. Siehe auch 🔗 [hier](https://de.wikipedia.org/wiki/Datenstruktur) und 🔭 [hier](articles/DIY-Datenstrukturen.md).
+Objekt zur Speicherung und Verwaltung von Daten bzw. Referenzen auf Daten oder weitere Objekte. Siehe auch 🔗 [hier](https://de.wikipedia.org/wiki/Datenstruktur) und 🔭 [hier](articles/Datenstrukturen.md).
 
 ### Datentyp
 Siehe 🔭 [Datentypen](articles/Datentypen.md).
@@ -171,7 +171,7 @@ Sich auf einer hohen (👉 [Abstraktions](#abstraktion)-)Ebene befindend. Beschr
 Das Umsetzen (oder "Einbauen") eines geplanten Konzeptes oder einer Spezifikation als Software (also in Quellcode). Beispiel: Implementieren eines 👉 [Interfaces](#interface) oder eines neuen Programm-Features. Siehe auch 🔗 [Implementierung](https://de.wikipedia.org/wiki/Implementierung#Softwaretechnik).
 
 ### Index
-Ein 🔭 [Integer](articles/Datentypen.md) größer oder gleich `0`, der auf ein Element in einem 🔭 [Array](articles/Arrays.md) oder einer ähnlichen linearen 🔭 [Datenstruktur](articles/DIY-Datenstrukturen.md) verweist; auch: Eine 🔗 [spezielle Datenstruktur zur Nutzung in einer Suchmaschine](https://de.wikipedia.org/wiki/Suchmaschine).
+Ein 🔭 [Integer](articles/Datentypen.md) größer oder gleich `0`, der auf ein Element in einem 🔭 [Array](articles/Arrays.md) oder einer ähnlichen linearen 🔭 [Datenstruktur](articles/Datenstrukturen.md) verweist; auch: Eine 🔗 [spezielle Datenstruktur zur Nutzung in einer Suchmaschine](https://de.wikipedia.org/wiki/Suchmaschine).
 
 ### Instanz
 Siehe 🔭 [OOP-Einführung](articles/OOP-Einfuehrung.md) bzw. 🔭 [Klassen und Objekte](articles/Klassen-und-Objekte.md).

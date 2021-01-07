@@ -138,7 +138,7 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 #### [Input / Output (I/O)](articles/IO.md)
 > `Streams`, `Buffering`, `Reader`, `Writer`, `Objektserialisierung`, `User-Input über Stdin` ...
 
-#### [DIY-Datenstrukturen](articles/DIY-Datenstrukturen.md)
+#### [Datenstrukturen](articles/Datenstrukturen.md)
 > `verkettete Listen`, `zweifach verkettete Listen`, `Binärbäume`, `binäre Suchbäume`, `Iterable`, `Iterator`, `siehe auch "Collections Framework"!` ...
 
 #### [Generics](articles/Generics.md)

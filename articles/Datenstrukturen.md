@@ -1,6 +1,10 @@
-# DIY-Datenstrukturen 🗄️<!-- omit in toc -->
+# Datenstrukturen 🗄️<!-- omit in toc -->
 
-> ⚠️ **Wichtig:** Dies ist ein Kapitel über verschiedene Arten von Datenstrukturen und wie sie in Java implementiert sind bzw. werden können. Die Liste ist aber natürlich [**keineswegs vollständig**](https://en.wikipedia.org/wiki/List_of_data_structures)! Es soll hier wirklich nur um jene Datenstrukturen gehen, die häufig im normalen, alltäglichen Gebrauch sind bzw. um "Klassiker", die sich gut zum Lernen einer Programmiersprache selbst implementieren lassen. Ebenfalls enorm wichtige Datenstrukturen (wie etwa [_Heap_](https://de.wikipedia.org/wiki/Heap_(Datenstruktur)) oder [_Stack_](https://de.wikipedia.org/wiki/Stapelspeicher) zur Speicherverwaltung) werden hier bewusst ausgespart, weil sie eher zu den IT-Grundlagen gehören, als in einen Java-Wegweiser.
+> ⚠️ **Wichtig:** Dies ist ein Kapitel über verschiedene Arten von Datenstrukturen (_nicht_ Daten**typen**!) und wie sie in Java implementiert sind bzw. werden können. Die Liste ist aber natürlich [**keineswegs vollständig**](https://en.wikipedia.org/wiki/List_of_data_structures)! Es soll hier wirklich nur um jene Datenstrukturen gehen, die häufig im normalen, alltäglichen Gebrauch sind bzw. um "Klassiker", die sich gut zum Lernen einer Programmiersprache selbst implementieren lassen. Ebenfalls enorm wichtige Datenstrukturen (wie etwa [_Heap_](https://de.wikipedia.org/wiki/Heap_(Datenstruktur)) oder [_Stack_](https://de.wikipedia.org/wiki/Stapelspeicher) zur Speicherverwaltung) werden hier bewusst ausgespart, weil sie eher zu den IT-Grundlagen gehören, als in einen Java-Wegweiser.
+
+Eine 👉 [Datenstruktur](../Glossar.md#datenstruktur) ist ein Objekt, das Daten oder andere Objekte speichert bzw. referenziert. Es gibt zahlreiche Arten von Datenstrukturen, die sich jeweils in Aufbau und Funktionsweise (und somit in Vor- und Nachteilen) stark unterscheiden. Dieser Artikel thematisiert nur einige grundlegende Datenstrukturen, die sich sehr schön selbst in Java implementieren lassen.
+
+> 💬 Für eine **umfangreiche Übersicht** über viele verschiedene Datenstrukturen sei 🔗[auf diese Seite verwiesen](https://www.geeksforgeeks.org/data-structures/)!
 
 - [Listen](#listen)
   - [(Einfach) Verkettete Listen](#einfach-verkettete-listen)

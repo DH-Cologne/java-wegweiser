@@ -128,7 +128,7 @@ Eine for-each-Schleife ist eine Spezialform der `for`-Schleife. Sie bietet eine 
 
 Damit über eine Datenstruktur mit einer for-each-Schleife iteriert werden kann, **muss** sie das Interface `Iterable` implementieren (das trifft z.B. auf alle _Collections_ aus dem [Collections Framework](Collections-Framework.md) zu). Eine Ausnahme stellen **Arrays** dar - auch diese sind mit der for-each-Schleife kompatibel.
 
-> 👉 Näheres zu `Iterable` findest du im Artikel über [Datenstrukturen](DIY-Datenstrukturen.md).
+> 👉 Näheres zu `Iterable` findest du im Artikel über [Datenstrukturen](Datenstrukturen.md).
 
 Die Syntax der for-each-Schleife (die eigentlich nur 👉 [Syntactic sugar](../Glossar.md#syntactic-sugar) ist), liest sich fast wie natürliche Sprache: _Für jedes Element `e` aus der Datenstruktur `data`, führe folgendes aus..._
 
