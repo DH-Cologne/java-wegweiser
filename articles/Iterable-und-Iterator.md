@@ -161,17 +161,17 @@ public class List<T> implements Iterable<T> {
 				}
 				
 				// temporäres "neues" Array anlegen
-		        final Object[] temp = new Object[elements.length];
-		        
-		        // Elemente kopieren (außer das gelöschte)
-		        for (int i = 0; i < temp.length; i++)
+				final Object[] temp = new Object[elements.length];
+
+				// Elemente kopieren (außer das gelöschte)
+				for (int i = 0; i < temp.length; i++)
 					temp[i] = elements[i >= pos ? i + 1 : i];
-		        
-		        // neues Array zuweisen
-		        elements = (T[]) temp;
-		        
-		        // merken, dass wir etwas entfernt haben
-		        elementRemoved = true;
+
+				// neues Array zuweisen
+				elements = (T[]) temp;
+
+				// merken, dass wir etwas entfernt haben
+				elementRemoved = true;
 			}
 		};
 	}
