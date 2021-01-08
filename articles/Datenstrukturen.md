@@ -11,7 +11,6 @@ Eine 👉 [Datenstruktur](../Glossar.md#datenstruktur) ist ein Objekt, das Daten
   - [Zweifach verkettete Listen](#zweifach-verkettete-listen)
 - [Bäume](#bäume)
   - [Binäre Suchbäume](#binäre-suchbäume)
-- [`Iterable` und `Iterator`](#iterable-und-iterator)
 
 
 ## Listen
@@ -123,12 +122,6 @@ Wenn ein Binärbaum nach dieser Regel aufgebaut ist, dann halndelt es sich um ei
 3. Der gesuchte Wert ist nicht im Baum enthalten 😒
 
 Dieser Vorgang eignet sich natürlich hervorragend für eine [rekursive Implementierung](Rekursion.md)!
-
-
-## `Iterable` und `Iterator`
-
-> 🚧 **TODO:** `Iterable` und `Iterator`
-
 
 
 

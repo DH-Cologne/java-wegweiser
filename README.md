@@ -144,6 +144,9 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 #### [Generics](articles/Generics.md)
 > `Was?`, `Wozu?`, `<Syntax>`, `Typsicherheit trotz generischer Programmierung`, `Gültigkeit bei Kompilierung und zur Laufzeit`, ...
 
+#### [`Iterable` und `Iterator`](articles/Iterable-und-Iterator.md)
+> `Iterable`, `Iterator`, `Bezug zu for-each`, `Implementierung`, ...
+
 #### [Collections Framework](articles/Collections-Framework.md)
 > `Aufbau`, `List`, `Set`, `Map`, `Objekt-Identität im Kontext von HashMaps/HashSets`, ...
 
