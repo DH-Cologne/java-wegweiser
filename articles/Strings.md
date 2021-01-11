@@ -61,7 +61,7 @@ Die Zahl ist 5
 ```
 
 ## Unveränderlichkeit von Strings
-Die Klasse `String` ist eine Abstraktion dessen, was in Java wirklich hinter einer Zeichenkette steckt: Ein Array aus `char`-Werten. Und weil Arrays in ihrer Größe unveränderlich sind, sind auch Strings unveränderlich.  
+Die Klasse `String` ist ein 👉 [Wrapper](../Glossar.md#wrapper) um das, was in Java wirklich hinter einer Zeichenkette steckt: Ein Array aus `char`-Werten. Und weil Arrays in ihrer Größe unveränderlich sind, sind auch Strings unveränderlich.  
 Was im Code wie das Ändern eines bestehenden Strings aussieht ...
 
 ``` java
