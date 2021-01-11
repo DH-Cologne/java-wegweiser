@@ -95,6 +95,9 @@ Englisch für 👉 [Kontrollfluss](#kontrollfluss).
 ### Datenklasse
 Eine Klasse ohne eigene Logik / Funktionalität. Für gewöhnlich umfasst eine Datenklasse nur 👉[Instanzvariablen](#instanzvariable) und ggf. 🔭 [Getter und Setter](articles/Objekte-I-Initialisierung-Members-Zugriff.md). Auch: _POJO_.
 
+### Datenstrom
+Fortlaufender "Fluss" von Daten, der geschrieben, gelesen, umgelenkt und be-/verarbeitet werden kann. Datensätze in einem Datenstrom werden einer nach dem anderen verarbeitet - es ist kein freier Zugriff auf beliebige Datensätze möglich. Eng.: _(data)stream_. Siehe auch 👉 [Standard-Datenströme](#standard-datenströme) und 🔗 [Datenstrom](https://de.wikipedia.org/wiki/Datenstrom).
+
 ### Datenstruktur
 Objekt zur Speicherung und Verwaltung von Daten bzw. Referenzen auf Daten oder weitere Objekte. Siehe auch 🔗 [hier](https://de.wikipedia.org/wiki/Datenstruktur) und 🔭 [hier](articles/Datenstrukturen.md).
 
@@ -355,6 +358,9 @@ Eingabe-Datenstrom der 👉 [Standard-Datenströme](#standard-datenströme). Kur
 
 ### Stdout
 Ausgabe-Datenstrom der 👉 [Standard-Datenströme](#standard-datenströme). Kurz für _Standard Output_.
+
+### Stream
+Englisch für 👉 [Datenstrom](#datenstrom).
 
 ### Syntactic sugar
 👉 [Syntax](#syntax)-Feature einer Programmierprache, mit dem eine bestimmte Anweisung (ö.ä.) einfacher oder leichter lesbar formuliert werden kann. Siehe auch 🔗 [Syntactic sugar](http://en.wikipedia.org/wiki/Syntactic_sugar).
