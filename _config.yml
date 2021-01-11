@@ -1,7 +1,6 @@
 theme: jekyll-theme-cayman
 title: 'Java-Wegweiser'
-#description: ':telescope:'
-description: ':christmas_tree: :snowman_with_snow:'
+description: ':telescope:'
 show_downloads: false
 plugins:
   - jemoji
