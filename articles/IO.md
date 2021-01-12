@@ -15,17 +15,20 @@
 
 > eng.: _streams_
 
-> ⚠ Dieser Abschnitt setzt voraus, dass du bereits weißt, was ein [Datenstrom](https://de.wikipedia.org/wiki/Datenstrom) ist. Hier geht es dann um den Umgang mit Datenströmen in Java!
+> ⚠ Dieser Abschnitt setzt voraus, dass du bereits weißt, was ein [Datenstrom](https://de.wikipedia.org/wiki/Datenstrom) ist. Hier geht es dann um den _Umgang mit Datenströmen in Java_!
 
-> ⚠ Hier geht es _**nicht**_ um die [Java](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html) [Stream](https://www.baeldung.com/java-8-streams) [API](https://stackoverflow.com/questions/44180101/in-java-what-are-the-advantages-of-streams-over-loops), sondern um Input/Output-Streams, also **Datenströme**!
+> ⚠ Hier geht es übrigens _**nicht**_ um die [Java](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html) [Stream](https://www.baeldung.com/java-8-streams) [API](https://stackoverflow.com/questions/44180101/in-java-what-are-the-advantages-of-streams-over-loops), sondern um Input/Output-Streams, also **Datenströme**!
 
-Die Java Standard-Library bietet zahlreiche Klassen für den Umgang mit Datenströmen an. Diese lassen sich aufteilen in sog. _Byte Streams_ (transportieren Daten in "Portionen" von aufeinander folgenden Bytes, also 8-Bit-Blöcken 🤓) und _Character Streams_ (für textbasierte Daten, transportieren Daten Zeichen für Zeichen).
+Die Java Standard-Library bietet zahlreiche Klassen für den Umgang mit Datenströmen. Diese lassen sich aufteilen in sog. _Byte Streams_ (transportieren Daten in "Portionen" von aufeinander folgenden Bytes, also 8-Bit-Blöcken 🤓) und _Character Streams_ (für textbasierte Daten, transportieren Daten Zeichen für Zeichen unter berücksichtigung lokaler Zeichensätze).
+
+> 💬 Wir schauen uns hier die Klassen aus dem Paket `java.io` an, weil sich an diesen das Zusammenspiel von Datenströmen und Pufferung sehr schön demonstrieren lässt. Eine alternative (und etwas schlankere) Schnittstelle zur Arbeit mit Dateien, Pfaden und Datenströmen bietet übrigens das Paket 🔗 [`java.nio`](https://jaxenter.de/java-nio-file-zeitgemases-arbeiten-mit-dateien-2581). Die Klasse 🔗 [`Files`](https://www.journaldev.com/17794/java-files-nio-files-class) etwa besitzt einige statische Methoden wie `Files.write(...)`, die man sich ebenfalls ansehen sollte!
+
 
 ### Byte Streams
 
-Alle 🔗 [_Byte Stream_](https://docs.oracle.com/javase/tutorial/essential/io/bytestreams.html)-Klassen erweitern die Klassen `InputStream` (Datenströme, die "von außen kommen" und von der Anwendung gelesen werden) oder `OutputStream` (Datenströme, in die von der Anwendung geschrieben wird).
+Alle 🔗 [_Byte Stream_](https://docs.oracle.com/javase/tutorial/essential/io/bytestreams.html)-Klassen erweitern die (abstrakten) Klassen `InputStream` (Datenströme, die "von außen" kommen und von der Anwendung _gelesen_ bzw. _verarbeitet_ werden) oder `OutputStream` (Datenströme, in die von der Anwendung Daten _geschrieben_ werden).
 
-Diese abstrakten Klassen `InputStream` und `OutputStream` werden erweitert von unterschiedlichen Spezialisierungen für zahlreiche Daten-Quellen bzw. -Ziele:
+`InputStream` und `OutputStream` werden (weil sie [abstrakte Klassen](Vererbung-II-Abstrakte-Klassen-und-Methoden.md#abstrakte-klassen) sind) nicht direkt instanziiert, sondern von unterschiedlichen auf bestimmte Daten-Quellen bzw. -Ziele spezialisierte Klassen erweitert. Zwei Beispiele sind ...
 
 - `FileInputStream`/`FileOutputStream` zum Lesen/Schreiben von Dateien
 - `ObjectInputStream`/`ObjectOutputStream` für [Objektserialisierung](#objekt-serialisierung)
@@ -41,7 +44,7 @@ fos.write(s.getBytes());
 fos.close();
 ```
 
-> ⚠ **Anmerkung:** Der Code in diesem Beispiel wirft möglicherweise eine `FileNotFoundException` oder (allgemeiner) eine andere `IOException`. Zugunsten der Übersichtlichkeit ist die [Fehlerbehandlung](Fehlerbehandlung.md) in diesem Beispiel ignoriert worden - natürlich ist diese für solche Operation aber sehr wichtig!
+> ⚠ **Anmerkung:** Der Code in diesem Beispiel wirft möglicherweise eine `FileNotFoundException` oder (allgemeiner) irgendeine andere `IOException`. Zugunsten der Übersichtlichkeit ist die [Fehlerbehandlung](Fehlerbehandlung.md) in diesem Beispiel ignoriert worden - natürlich ist diese für solche Operationen aber notwendig!
 
 Sehen wir uns die fünf Zeilen Code genauer an:
 
@@ -51,11 +54,11 @@ Sehen wir uns die fünf Zeilen Code genauer an:
 4. Den String `s` (als Array `byte[]`) in den Datenstrom `fos`, unseren `FileOutputStream`, schreiben
 5. Den Datenstrom wieder schließen
 
-Nun sollte auf der Festplatte im Arbeitsverzeichnis des gerade ausgeführten Programmes eine Datei _test.txt_ mit dem Inhalt "_Ich hab 'ne Schlange im Stiefel!_" liegen.
+Nun sollte auf der Festplatte im Arbeitsverzeichnis des gerade ausgeführten Programmes eine Datei `test.txt` mit dem Inhalt _"Ich hab 'ne Schlange im Stiefel!"_ liegen.
 
 Analog zu diesem Beispiel funktionieren auch andere _Byte Streams_ in Java!
 
-Eigentlich werden _Byte Streams_ eher dazu verwendet, Daten an andere Programmteile weiterzureichen. Wenn es sich um textuelle Daten (wie in unserem Beispiel) handelt, die als Text im Programm verarbeitet wurden oder werden sollen, sollte man gleich die passendere Stream-Variante wählen: _Character Streams_ (siehe unten)!
+Eigentlich werden _Byte Streams_ eher dazu verwendet, um Daten an andere Programmteile weiterzureichen. Wenn es sich um textuelle Daten (wie in unserem Beispiel) handelt, die auch als Text im Programm verarbeitet wurden oder werden sollen, sollte man besser gleich die passendere Stream-Variante wählen, nämlich _Character Streams_ (siehe unten)!
 
 
 ### Character Streams
@@ -72,9 +75,15 @@ writer.write(s);
 writer.close();
 ```
 
-Man beachte, wie in der vierten Zeile die Methode `write()` direkt einen `String` annimmt! Die 👉 [API](../Glossar.md#api) unterscheidet sich hier nicht weiter vom Beispiel oben.
+Man beachte, wie in der vierten Zeile die Methode `write()` direkt einen `String` annimmt! Die 👉 [API](../Glossar.md#api) unterscheidet sich darüber hinaus nicht zwangsläufig vom Beispiel oben. Aber wie gesagt: Der `FileWriter` schreibt diese Text-Daten unter Verwendung des im Betriebssystem festgelegten Zeichensatzes!
 
-> 💬 Eine schlankere Schnittstelle zur Arbeit mit Dateien bietet übrigens die Klasse 🔗 [`Files`](https://www.journaldev.com/17794/java-files-nio-files-class) aus dem Paket 🔗 [`java.nio`](https://jaxenter.de/java-nio-file-zeitgemases-arbeiten-mit-dateien-2581)!
+> 💬 Das wäre dann unter **Windows** (auf Deutsch) etwa [CP 1252](https://de.wikipedia.org/wiki/Windows-1252), unter **Linux** (und inzwischen auch unter **Mac OS X**) eher [UTF-8](https://de.wikipedia.org/wiki/UTF-8).
+
+Möchte man den verwendeten Zeichensatz ändern, übergibt man dem `FileWriter` (bzw. `FileReader` - je nach dem) diese Information einfach im Konstruktor. Die Java-Klasse `StandardCharsets` bietet komfortablen, statischen Zugang zu den üblichsten Charsets:
+
+```java
+new FileWriter(file, StandardCharsets.UTF_8);
+```
 
 
 ## Pufferung / Buffering
