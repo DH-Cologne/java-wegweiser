@@ -104,6 +104,22 @@ public class User extends Person {
 }
 ```
 
+Natürlich lassen sich auch Konstruktoren der Superklasse aufrufen, wenn diese Parameter entgegennehmen:
+
+```java
+public class User extends Person {
+
+  private String mail;
+
+  public User(String name, String mail){
+    super(name); // Konstruktor von "Person"
+    this.mail = mail;
+  }
+
+  // ...
+}
+```
+
 
 ## `instanceof`
 
