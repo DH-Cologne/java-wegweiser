@@ -5,7 +5,7 @@
 - [Datenströme](#datenströme)
   - [Byte Streams](#byte-streams)
   - [Character Streams](#character-streams)
-- [Pufferung / Buffering](#pufferung--buffering)
+- [Buffering](#buffering)
 - [Objekt-Serialisierung](#objekt-serialisierung)
 - [Scanner](#scanner)
 - [User-Input über Stdin via Scanner](#user-input-über-stdin-via-scanner)
@@ -19,12 +19,15 @@
 
 > ⚠ Hier geht es übrigens _**nicht**_ um die [Java](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html) [Stream](https://www.baeldung.com/java-8-streams) [API](https://stackoverflow.com/questions/44180101/in-java-what-are-the-advantages-of-streams-over-loops), sondern um Input/Output-Streams, also **Datenströme**!
 
+![data stream](../assets/images/data-stream.jpg)
+Quelle: [java-latte.blogspot.com](http://java-latte.blogspot.com/2014/10/nio-tutorial-in-java-with-example-and-nio2-feature.html)
+
 Die Java Standard-Library bietet zahlreiche Klassen für den Umgang mit Datenströmen. Diese lassen sich in zwei Gruppen aufteilen:
 
 1. **Streams:** Hierbei handelt es sich um sog. _Byte Streams_. Sie transportieren Daten in "Portionen" von aufeinander folgenden Bytes, also 8-Bit-Blöcken 🤓
 2. **Readers / Writers:** Dies sind sog. _Character Streams_. Sie sind speziell für textbasierte Daten gedacht, die Zeichen für Zeichen unter berücksichtigung lokaler Zeichensätze verarbeitet werden.
 
-> 💬 Wir schauen uns hier die Klassen aus dem Paket `java.io` an, weil sich an diesen das Zusammenspiel von Datenströmen und Pufferung sehr schön demonstrieren lässt. Eine alternative (und etwas schlankere) Schnittstelle zur Arbeit mit Dateien, Pfaden und Datenströmen bietet übrigens das Paket 🔗 [`java.nio`](https://jaxenter.de/java-nio-file-zeitgemases-arbeiten-mit-dateien-2581). Die Klasse 🔗 [`Files`](https://www.journaldev.com/17794/java-files-nio-files-class) etwa besitzt einige statische Methoden wie `Files.write(...)`, die man sich ebenfalls ansehen sollte!
+> 💬 Wir schauen uns hier die Klassen aus dem älteren Paket `java.io` an, weil diese (1.) ihren Dienst tun und (2.) alles bieten, was man für einfache Operationen mit Datenströmen und Puffern benötigt. Eine neuere (aber als Ergänzug gedachte) Schnittstelle zur Arbeit mit Dateien, Pfaden und Datenströmen bietet übrigens das Paket 🔗 [`java.nio`](https://en.wikipedia.org/wiki/Non-blocking_I/O_%28Java%29). Die Klasse 🔗 [`Files`](https://www.journaldev.com/17794/java-files-nio-files-class) etwa besitzt einige statische Methoden wie `Files.write(...)`, die man sich ebenfalls ansehen sollte!
 
 
 ### Byte Streams
@@ -89,13 +92,13 @@ new FileWriter(file, StandardCharsets.UTF_8);
 ```
 
 
-## Pufferung / Buffering
+## Buffering
 
-> eng.: _buffering_
+> deu.: _Pufferung_
 
-Ohne eine 🔗 [Pufferung](https://de.wikipedia.org/wiki/Puffer_(Informatik)) wird jeder Schreibvorgang eines Datenstroms einzeln abgearbeitet. Dadurch werden viele unnötige Ressourcen (Dateizugriffe, Netzwerkanfragen, etc.) mobilisiert, wodurch der jeweilige Vorgang stark verlangsamt werden kann.
+Ohne eine 🔗 [Pufferung](https://de.wikipedia.org/wiki/Puffer_(Informatik)) wird jeder Schreibvorgang eines Datenstroms einzeln abgearbeitet. Dadurch werden viele unnötige Ressourcen (Dateizugriffe, Netzwerkanfragen, etc.) mobilisiert, wodurch wiederum der jeweilige Vorgang stark verlangsamt werden kann.
 
-Deshalb verwendet man besonders für Datenströme, die größere Datenmengen transportieren\* und dabei nicht etwa regelmäßig auf das nächste Datenpaket warten\*, einen Puffer, der größere Mengen von Datenblöcken **zwischenspeichert**, die dann am Stück verarbeitet werden können. Dadurch können Vorgänge, an denen Datenströme beteiligt sind, enorm beschleunigt werden.
+Um dies zu verhindern verwendet man besonders für Datenströme, die größere Datenmengen transportieren\* und dabei nicht etwa ohnehin regelmäßig auf das nächste Datenpaket warten\*, einen **Puffer**, der größere Mengen von Datenblöcken **zwischenspeichert**, die dann am Stück verarbeitet werden können. Dadurch können Vorgänge, an denen Datenströme beteiligt sind, enorm _beschleunigt_ werden.
 
 > **\* Also etwa:** _"der gesamte Text der Bibel wird von der Festplatte gelesen"_ und **nicht** _"ein User gibt Zeile für Zeile Befehle auf der Kommandozeile ein"_ (dafür wäre keine Pufferung notwendig)
 
@@ -104,7 +107,7 @@ Die Puffer-Klassen für Datenströme in Java heißen ...
 - `BufferedInputStream` bzw. `BufferedOutputStream` für _Binary Streams_ (siehe oben) und
 - `BufferedReader` bzw. `BufferedWriter` für _Character Streams_ (siehe ebenfalls oben)
 
-Die 👉 [API](../Glossar.md#api) für diese Puffer-Klassen ist so gestaltet, dass einfach der passende Puffer als 👉 [Wrapper](../Glossar.md#wrapper) für den genutzten Datenstrom verwendet wird. Dazu wird das Datenstrom-Objekt dem Puffer-Objekt im Konstruktor übergeben. Von da an nutzt man nur noch das Puffer-Objekt für den Zugriff auf den Datenstrom.
+Die 👉 [API](../Glossar.md#api) für diese Puffer-Klassen ist so gestaltet, dass einfach der passende Puffer als 👉 [Wrapper](../Glossar.md#wrapper) für den genutzten Datenstrom verwendet wird. Dazu wird das Datenstrom-Objekt dem Puffer-Objekt im Konstruktor übergeben. Von da an nutzt man nur noch das Puffer-Objekt für den Zugriff auf den Datenstrom, denn dieses Verwaltet den "verpackten" Datenstrom.
 
 In Anlehnung an das Beispiel von oben puffern wir doch einfach mal das Schreiben von Text in eine Datei:
 
