@@ -7,6 +7,9 @@
   - [Character Streams](#character-streams)
 - [Buffering](#buffering)
 - [Objekt-Serialisierung](#objekt-serialisierung)
+  - [`ObjectInputStream` und `ObjectOutputStream`](#objectinputstream-und-objectoutputstream)
+  - [Das Interface `Serializable`](#das-interface-serializable)
+  - [Beispiel](#beispiel)
 - [Scanner](#scanner)
 - [User-Input über Stdin via Scanner](#user-input-über-stdin-via-scanner)
 
@@ -129,7 +132,36 @@ Die anderen Puffer-Klassen funktionieren nach dem selben Prinzip.
 
 ## Objekt-Serialisierung
 
-... `Serializable` ...  
+Mit Objekt-[Serialisierung](https://de.wikipedia.org/wiki/Serialisierung) ist das Überführen von Objekten und deren Zustand in eine sequenzielle Datenstruktur (_Datenstrom!_) gemeint - meist zum Zweck der Speicherung von Objektzuständen in einer Datenbank oder als Datei.
+
+> 👩‍🏫 Die **De**serialisierung beschreibt dementsprechend den umgekehrten Prozess!
+
+### `ObjectInputStream` und `ObjectOutputStream`
+
+Java hält für die Objekt-Serialisierung die beiden genau darauf spezialisierten Klassen `ObjectInputStream` und `ObjectOutputStream` bereit. Sie lesen bzw. schreiben einen Datenstrom, der Objekte und ihre Zustände in sequentieller Form (Byte für Byte) transportiert.
+
+Ob dieser Datenstrom dann in eine Datei oder ein anderes Ziel "gelenkt" wird, hängt wieder davon ab, welchen weiteren Datenstrom wir "anschließen" (z.B: einen `FileOutputStream` zum Schreiben in eine Datei).
+
+**Wichtig:** Es lassen sich generell nur Objekte serialisieren, deren zugrundeliegende Klasse das Interface `Serializable` implementiert (siehe nächster Abschnitt).
+
+
+### Das Interface `Serializable`
+
+Es handelt sich bei `Serializable` um ein reines _Markierungs-Interface_ (oder eng.: _marker interface_). Das bedeutet, dass es keine (!) Methoden definiert, die von einer Klasse implementiert werden müssten, sondern lediglich eine Art Versicherung der programmierenden Person darstellt, dass Instanzen dieser Klasse "serialisierbar" sein sollen.
+
+Es gibt hinsichtlich der "Serialisierbarkeit" einer Klasse [keine technischen Einschränkungen](https://stackoverflow.com/a/16851174/7399631). Ob eine Klasse das Interface `Serializable` implementieren kann (oder _sollte_), hängt einzig davon ab, ob dies Sinn ergibt: Eine Klasse `User`, die Daten zu einem User speichert, könnte durchaus serialisierbar sein. Hingegen sollte man Instanzen einer Klasse `File` oder `Connection`, deren Zustand aus Daten zu einem Plattform- bzw. Zeit-abhängigen Sachverhalt besteht, nicht als `Serializable` markieren. Und zwar einfach, weil es nicht sinnvoll wäre.
+
+> ⚠ Alle _Unterklassen_ einer Klasse, die `Serializable` implementert, sind automatisch ebenfalls als `Serializable` markiert (logisch, denn sie erben ja diese Eigenschaft!). Allerdings sind Klassen, die als Typ von Instanzvariablen oder als Typ von Elementen einer Datenstruktur dienen **nicht** automatisch auch `Serializable`. In diesem Fall muss `Serializable` in diesen betreffenden Klassen ebenfalls "implementiert" sein!
+
+
+### Beispiel
+
+Nehmen wir einmal an, wir haben eine Klasse `User`:
+
+```java
+
+```
+ 
 ... TODO
 
 
