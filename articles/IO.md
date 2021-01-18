@@ -164,6 +164,8 @@ Nehmen wir einmal an, wir haben eine Klasse `User`:
  
 ... TODO
 
+> 🔗 Als weitere Lektüre eignet sich u.a. [dieser](https://www.baeldung.com/java-serialization) Artikel!
+
 
 ## Scanner
 
