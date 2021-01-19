@@ -354,3 +354,4 @@ You just typed: "World"
 Type something here: █
 ```
 
+> 🔗 Weitere gute Quellen zum Thema I/O (Input/Output) in Java findest du (im Allgemeinen) [hier](https://duckduckgo.com/?q=java+io) und (im Speziellen) [hier](https://docs.oracle.com/javase/tutorial/essential/io/).
