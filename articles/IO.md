@@ -11,7 +11,7 @@
   - [Das Interface `Serializable`](#das-interface-serializable)
   - [Beispiel](#beispiel)
 - [Scanner](#scanner)
-- [User-Input über Stdin via Scanner](#user-input-über-stdin-via-scanner)
+- [User-Input über _Stdin_ mit `Scanner`](#user-input-über-stdin-mit-scanner)
 
 
 ## Datenströme
@@ -224,10 +224,64 @@ Dieser Code würde tatsächlich `MaxiMustermann` auf der Konsole ausgeben - der 
 
 ## Scanner
 
-... TODO
+Die Klasse `Scanner` (Paketpfad `java.util.Scanner`) bietet eine sehr komfortable Schnittstelle zum "scannen" von Textdaten. Einem `Scanner` kann eine Vielzahl von Datenquellen im Konstruktor übergeben werden, die dann Stück für Stück [geparst](https://de.wikipedia.org/wiki/Parser) werden.
 
+![Konstruktoren der Klasse Scanner](../assets/images/scanner-constructors.png)
 
-## User-Input über Stdin via Scanner
+Wonach der Text aufgetrennt wird, also an welchem Trennzeichen ([Delimiter](https://de.wikipedia.org/wiki/Trennzeichen)), lässt sich beliebig festlegen. Nehmen wir als Beispiel den folgenden Text, der in einer Datei `nicht-rilke.txt` im Arbeitsverzeichnis unseres Programmes gespeichert ist:
+
+> _Ein Raabe geht im Feld spazieren. Da fällt der Weizen um!_
+
+Wir können dann eine Referenz auf diese Datei als `File`-Objekt an einen `Scanner` übergeben ...
+
+```java
+File f = new File("nicht-rilke.txt");
+Scanner s = new Scanner(f);
+```
+
+... und festlegen, an welchen Stellen der Text zerlegt werden soll ...
+
+```
+s.useDelimiter(" ");
+```
+
+... die Methode `useDelimiter()` nimmt einen [Regulären Ausdruck](https://de.wikipedia.org/wiki/Regul%C3%A4rer_Ausdruck) entgegen - hier verwenden wir einfach einen "literal" Whitespace, also ein Leerzeichen.
+
+Und nun lesen wir unseren Text Stück für Stück:
+
+```java
+while(s.hasNext()) {
+  System.out.println(s.next());
+}
+```
+
+Der Ergebnis:
+
+```
+Ein
+Raabe
+geht
+im
+Feld
+spazieren.
+Da
+fällt
+der
+Weizen
+um!
+```
+
+Mit dem _Delimiter_ `a` würden wir (unsinnigerweise) nach den kleinen Buchstaben "_a_" als Trennzeichen festlegen:
+
+```
+Ein R
+
+be geht im Feld sp
+zieren. D
+ fällt der Weizen um!
+```
+
+## User-Input über _Stdin_ mit `Scanner`
 
 Die Klasse `Scanner` kann außerdem dazu genutzt werden, um auf einfache Weise User-Input über 👉 [Stdin](../Glossar.md#stdin) (_Standard Input_) zu erhalten. Dazu wird das Java-Objekt, das diesen Datenstrom repräsentiert (`System.in`) als Parameter an den Konstruktor der `Scanner`-Klasse übergeben. Diese bietet eine sehr komfortable Schnittstelle für solche textbasierten Datenströme:
 
