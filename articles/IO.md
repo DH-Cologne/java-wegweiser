@@ -156,13 +156,68 @@ Es gibt hinsichtlich der "Serialisierbarkeit" einer Klasse [keine technischen Ei
 
 ### Beispiel
 
-Nehmen wir einmal an, wir haben eine Klasse `User`:
+Nehmen wir einmal eine Klasse `User` an:
 
 ```java
+import java.io.Serializable;
 
+public class User implements Serializable {
+	
+	private static final long serialVersionUID = 4057375706308532141L;
+	
+	private String userName;
+	private String mail;
+	
+	public User(String userName, String mail) {
+		super();
+		this.userName = userName;
+		this.mail = mail;
+	}
+	
+	// ... Getter, Setter, ...
+
+}
 ```
+
+> 💬 Die Konstante `serialVersionUID` ist eine Zahlenfolge, die die Version dieser Klasse repräsentiert. Denn ein Objekt vom Typ `User`, das aus einer _älteren_ Version der Klasse `User` erstellt und dann serialisiert wurde, kann u.U. nicht unter Verwendung einer _neueren_ Version von `User` wieder deserialisiert werden (siehe unten!)!
+> Die Eclipse IDE erzeugt bei Bedarf z.B. unter Einbeziehung des Klassennamens, der Attribute usw. automatisch so eine `serialVersionUID`.
  
-... TODO
+Diese Klasse implementiert `Serializable` (ohne dafür Methoden implementieren zu müssen) und ist somit als "serialisierbar" markiert.
+
+Nun können wir ein Objekt vom Typ `User` mit all den Daten, die seinen Zustand ausmachen, in eine Datei speichern:
+
+```java
+// User-Objekt erzeugen
+User u = new User("MaxiMustermann", "mmust@lycos.com");
+// der Name der Datei ist frei gewählt
+File f = new File("user.obj");
+// Stream zum Schreiben der Datei
+FileOutputStream fos = new FileOutputStream(f);
+// Stream zum Serialisieren des Objektes
+ObjectOutputStream oos = new ObjectOutputStream(fos);
+// User-Objekt serialisieren und in Datei schreiben
+oos.writeObject(u);
+// Stream am Ende schließen!
+oos.close();
+```
+
+> ⚠ Auch hier wurde zugunsten der Übersichtlichkeit auf die richtige (und nötige!) [Fehlerbehandlung](Fehlerbehandlung.md) verzichtet!
+
+Um das Objekt, das wir nun in eine Datei gespeichert haben, wieder zu lesen und zu _deserialisieren_, kehren wir diesen Prozess einfach um. Wir verwenden dazu satt der `OutputStream`s einfach `InputStream`s.
+
+```java
+User u;
+File f = new File("user.obj");
+FileInputStream fis = new FileInputStream(f);
+ObjectInputStream ois = new ObjectInputStream(fis);
+u = (User) ois.readObject(); // Casting zu User!!!
+ois.close();
+System.out.println(u.getUserName());
+```
+
+Dieser Code würde tatsächlich `MaxiMustermann` auf der Konsole ausgeben - der Zustand des Objektes ist wiederhergestellt!
+
+**Wichtig:** Es ist eine [Typumwandlung (casting)](Casting.md) zum entsprechenden Datentyp nötig, denn die Objektserialisierung weiß lediglich, dass es ist um ein `Object` handeln muss - alles Weitere liegt in unserer Verantwortung!
 
 > 🔗 Als weitere Lektüre eignet sich u.a. [dieser](https://www.baeldung.com/java-serialization) Artikel!
 
