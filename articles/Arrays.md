@@ -11,6 +11,7 @@ Ein [Array](https://de.wikipedia.org/wiki/Feld_(Datentyp)) ist eine lineare [Dat
   - [... mit Array-Literals](#-mit-array-literals)
 - [Zugriff und Manipulation](#zugriff-und-manipulation)
 - [Mehrdimensionale Arrays](#mehrdimensionale-arrays)
+- [Variable Argumentlisten](#variable-argumentlisten)
 
 ## Funktionsweise
 
@@ -171,6 +172,79 @@ Der Aufruf `multiplicationTable(1, 10, 10)`, also eine Multiplikationstabelle mi
 ```
 
 
+## Variable Argumentlisten
 
+Variable Argumentlisten, auch kurz als _varargs_ bezeichnet, stellen eine spezielle Art des Übergebens von Parametern an Methoden dar.
 
+Benötigt man nämlich eine Methode, der man eine arbiträre Anzahl von Objekten (oder _primitives_) _gleichen Typs_ als Parameter übergeben kann, so blieben **ohne varargs** nur die folgenden zwei Möglichkeiten (die beide sehr unschön und _falsch_ sind).
 
+**(Falsche) Variante 1:**
+
+```java
+public void printName(String name1) {
+  System.out.println(name1);
+}
+
+public void printName(String name1, String name2) {
+  System.out.println(name1);
+  System.out.println(name2);
+}
+
+//...
+```
+
+Dieser Ansatz würde eine Menge Arbeit und redundanten Code bedeuten: Für jede Anzahl von zu übergebenen `String`s muss eine eigene Methode implementiert werden. **_GAR NICHT GUT!_**
+
+**(Falsche) Variante 2:**
+
+```java
+public void printName(String[] names) {
+  for (String name : names) {
+    System.out.println(name);
+  }
+}
+```
+
+Dieser Ansatz sieht schon besser aus: Mit Hilfe eines Arrays kann eine beliebige Anzahl `String`s übergeben werden. **Aber:** Was, wenn nur ein einziger `String` übergeben werden soll? Dann müsste dieser zunächst ünnötigerweise in ein Array "verpackt" werden, damit er der Methode übergeben werden kann:
+
+```java
+String[] names = new String[1];
+names[0] = "Jeffrey Lebowsky";
+printNames(names);
+```
+
+Diese Lösung ist also **_AUCH NICHT WIRKLICH GUT!_**
+
+**(Richtige) Variante 3:**
+
+Mit Hilfe von _Varargs_ lässt sich eine schönere Lösung umsetzen. Dieses Sprach-Feature hat eine eigene Syntax: Es werden drei Punkte (`...`) an den Datentyp der zu übergebenen Parameter angehängt:
+
+```java
+public void printName(String... names) {
+  for (String name : names) {
+    System.out.println(name);
+  }
+}
+```
+
+Zunächst sieht dies der Variante mit dem Array (2) sehr ähnlich, es besteht aber ein großer Unterschied beim Aufruf der Methode, denn es kann nun eine **beliebige Anzahl einzelner `String`-Parameter** übergeben werden:
+
+```java
+printNames("Rick");
+```
+
+...oder:
+
+```java
+printNames("Rick", "Morty");
+```
+
+...oder:
+
+```java
+printNames("Rick", "Morty", "Bird Person");
+```
+
+Innerhalb der Methode sind diese Parameter dann als ein Array in der entsprechenden Größe verfügbar (siehe Beispiel oben!).
+
+> 💬 Es ist übrigens auch möglich, eine variable Argumentenliste (_Varargs_) mit anderen Argumenten/Parametern zu kombinieren. Allerdings müssen dazu die _Varargs_ **als letztes** in der Liste der Methodenparameter stehen!
