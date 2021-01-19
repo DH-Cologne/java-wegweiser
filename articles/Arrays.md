@@ -248,3 +248,5 @@ printNames("Rick", "Morty", "Bird Person");
 Innerhalb der Methode sind diese Parameter dann als ein Array in der entsprechenden Größe verfügbar (siehe Beispiel oben!).
 
 > 💬 Es ist übrigens auch möglich, eine variable Argumentenliste (_Varargs_) mit anderen Argumenten/Parametern zu kombinieren. Allerdings müssen dazu die _Varargs_ **als letztes** in der Liste der Methodenparameter stehen!
+
+> 🔗 Weitere Informationen zu Java _varargs_ finden sich in [diesem](https://www.baeldung.com/java-varargs) Artikel oder in der [offiziellen Dokumentation](https://docs.oracle.com/javase/8/docs/technotes/guides/language/varargs.html).
