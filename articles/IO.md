@@ -201,7 +201,23 @@ oos.writeObject(u);
 oos.close();
 ```
 
-> ⚠ Auch hier wurde zugunsten der Übersichtlichkeit auf die richtige (und nötige!) [Fehlerbehandlung](Fehlerbehandlung.md) verzichtet!
+> ⚠ Auch hier wurde (wie in den Beispielen oben) zugunsten der Übersichtlichkeit auf die richtige (und nötige!) [Fehlerbehandlung](Fehlerbehandlung.md) verzichtet.
+
+Mit einer hübschen Fehlerbehandlung (unter Verwendung von [try-with-resources](Fehlerbehandlung.md#try-with-resources)) könnte dieser Code so aussehen:
+
+```java
+User u = new User("MaxiMustermann", "mmust@lycos.com");
+		
+try(ObjectOutputStream oos = new ObjectOutputStream(
+    new FileOutputStream(new File("user.obj")))){
+  oos.writeObject(u); // Objekt serialisieren + schreiben
+  oos.close(); // Streams schließen
+} catch (FileNotFoundException e) {
+  e.printStackTrace(); // ...
+} catch (IOException e) {
+  e.printStackTrace(); // ...
+}
+```
 
 Um das Objekt, das wir nun in eine Datei gespeichert haben, wieder zu lesen und zu _deserialisieren_, kehren wir diesen Prozess einfach um. Wir verwenden dazu satt der `OutputStream`s einfach `InputStream`s.
 
@@ -214,6 +230,8 @@ u = (User) ois.readObject(); // Casting zu User!!!
 ois.close();
 System.out.println(u.getUserName());
 ```
+
+> ⚠ ...wieder _ohne_ Fehlerbehandlung!
 
 Dieser Code würde tatsächlich `MaxiMustermann` auf der Konsole ausgeben - der Zustand des Objektes ist wiederhergestellt!
 
