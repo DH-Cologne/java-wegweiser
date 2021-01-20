@@ -38,7 +38,7 @@ Direkte Instanzen von `Vehicle` wären unsinnig (zu unspezifisch). In diesem Bei
 
 ## Abstrakte Methoden
 
-Eine abstrakte Methode ist ist eine **nicht-implementierte** Methode. Sie wird nur in Form einer Methoden-Signatur mit dem Schlüsselwort `abstract` markiert (das Statement muss mit `;` abgeschlossen werden!):
+Eine abstrakte Methode ist eine **nicht-implementierte** Methode. Sie wird nur in Form einer Methoden-Signatur mit dem Schlüsselwort `abstract` markiert (das Statement muss mit `;` abgeschlossen werden!):
 
 ```java
 public abstract class Vehicle {
