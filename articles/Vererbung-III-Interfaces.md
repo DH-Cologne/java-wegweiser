@@ -115,6 +115,8 @@ Der Grund für Default-Methoden liegt in der langfristigen Wartbarkeit und Kompa
 
 > 🔗 Einen weiterführenden Artikel zum Thema findest du [hier](https://www.baeldung.com/java-static-default-methods).
 
+> 💬 Ein schönes Beispiel für den Einsatz von `default`-Methoden in Interfaces ist auch die [Methode `remove()` des Interfaces `Iterator`](https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html): Seit Java 8 ist diese eine `default`-Methode und _muss nicht mehr zwingend implementiert werden_. Die `default`-Implementation wirft einfach eine `UnsupportedOperationException`. Siehe auch [_Iterable und Iterator_](Iterable-und-Iterator.md).
+
 
 ## Statische Methoden in Interfaces
 
@@ -156,7 +158,7 @@ public interface StringHelper {
 
 > 💬 Hier hat sich nur `class` in `interface` geändert!
 
-Der Unterschied ist natürlich marginal, aber es ist semantisch viel sauberer, denn Interfaces können ohnehin nicht instanziiert werden. Man ruft diese Methoden (als wären sie statische Methoden in einer Klasse) in der Form `StringHelper.reverse("Hello")` auf. Anders geht es auch nicht - denn ein Objekt einer implementierenden Klasse würde diese Methode überhaupt nicht anbieten!
+Der Unterschied ist natürlich marginal, aber es ist semantisch viel sauberer, denn Interfaces können ohnehin nicht instanziiert werden. Man ruft diese Methoden wie alle anderen statischen Methoden in der Form `StringHelper.reverse("Hello")` auf. Anders geht es auch nicht - denn es gibt ja keine Instanz von `StringHelper`!
 
 > 🔗 Einen weiterführenden Artikel zum Thema findest du [hier](https://www.baeldung.com/java-static-default-methods).
 
