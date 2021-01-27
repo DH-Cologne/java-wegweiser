@@ -6,6 +6,7 @@
 - [Funktionsweise](#funktionsweise)
 - [Default-Methoden](#default-methoden)
 - [Statische Methoden in Interfaces](#statische-methoden-in-interfaces)
+- [Functional Interfaces](#functional-interfaces)
 
 
 Bei Interfaces handelt es sich (ganz wörtlich) um **Schnittstellen** zu anderen Programmteilen. Schnittstellen bedeuten immer eine festgelegte Art der Interaktion bzw. Kommunikation - und genau das ist es, was _Interfaces_ in der OOP leisten.
@@ -30,7 +31,7 @@ Jetzt programmieren wir also unsere Sortier-Klasse so, dass sie Datenstrukturen 
 
 ## Funktionsweise
 
-Interfaces werden mit `interface` eingeleitet (nicht mit `class`, siehe Beispiel unten). Sie enthalten **keinerlei** Implementationen von Methoden, sondern nur abstrakte Methoden (Ausnahme: Seit Java 8 gibt es [default methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)).
+Interfaces werden mit `interface` eingeleitet (nicht mit `class`, siehe Beispiel unten). Sie enthalten **im Normalfall** Implementationen von Methoden, sondern nur abstrakte Methoden (Ausnahme: Seit Java 8 gibt es [default methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)).
 
 Die in Interfaces durch bloße Signaturen definierten Methoden sind automatisch `abstract` und `public`, wobei `public` meist trotzdem mit angegeben wird.
 
@@ -163,7 +164,9 @@ Der Unterschied ist natürlich marginal, aber es ist semantisch viel sauberer, d
 > 🔗 Einen weiterführenden Artikel zum Thema findest du [hier](https://www.baeldung.com/java-static-default-methods).
 
 
+## Functional Interfaces
 
+_Functional Interfaces_ sind ein Feature, das seit Java 8 existiert. Es ist nicht fester Teil des Lehrplans für das Seminar - deshalb sei an dieser Stelle auf folgende weiterführenden Seiten verwiesen:
 
-
-
+- [Functional Interfaces in Java 8](https://www.baeldung.com/java-8-functional-interfaces) (baeldung.com)
+- [Functional Interfaces In Java](https://www.geeksforgeeks.org/functional-interfaces-java/) (geeksforgeeks.org)
