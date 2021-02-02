@@ -70,7 +70,9 @@ Exceptions können durch den Code bewusst "_geworfen_" (eng. _throw_), also ausg
 ## try-catch-finally
 
 Mit einem Statement aus `try`, `catch` und `finally` wird der Umgang mit potentiellen Exceptions definiert. Ein solches Statement (siehe Beispiel unten!) wird immer dann verwendet, wenn es aufgrund einer checked Exception vom Compiler verlangt wird, oder wenn der/die Programmierer*in
-damit rechnet, dass ein Code unter bestimmten Bedingungen eine Exception werden könnte.
+damit rechnet, dass ein Code unter bestimmten Bedingungen eine Exception werfen könnte.
+
+> 👨‍🏫 Es sollten generell **keine Runtime Exceptions** mit `try`/`catch` behandelt werden, denn diese sollten eigentlich gar nicht auftreten! Programmierfehler, die so schwerwiegend sind, dass sie das Auftreten von Runtime Exceptions zulassen, _sollten sogar zum Absturz des Programmes führen_. Diese Fehler müssen **korrigiert und vermieden** werden anstatt sie zu **behandeln**.
 
 Der `try`-Block enthält den Code, der eine Exception verursachen könnte. Mindestens ein `catch`-Block enthält den Code, der im Falle einer bestimmten Exception ausgeführt werden soll. Ein `catch`-Block wird nur dann ausgeführt, wenn die geworfene Exception innerhalb des `try`-Blocks geworfen wird und die Art der Exception der im Kopf des `catch`-Blocks angegebenen Exception entspricht (siehe Beipspiel unten!). Der `finally`-Block (falls vorhanden, er ist optional!) enthält Code, der unabhängig von einem ausgelösten `catch`-Block **am Ende der Fehlerbehandlung** auf jeden Fall ausgeführt werden soll. Dabei spielt es keine Rolle, ob ein Fehler aufgetreten ist!
 
