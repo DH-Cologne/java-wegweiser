@@ -10,7 +10,7 @@
 Als innere Klassen werden Klassen bezeichnet, die innerhalb anderer Klassen definiert sind. Dies wird u.a. dazu genutzt, den Coder besser zu strukturieren: Manchmal ist eine Klasse semantisch so sehr einer anderen Klasse untergeordnet und wäre alleine unbrauchbar, dass sie am besten nicht in einer eigenen Datei steht:
 
 ```java
-class {
+class ContactData {
     private String firstName;
     private String lastName;
     private Address address;
