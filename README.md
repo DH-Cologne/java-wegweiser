@@ -129,26 +129,26 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 
 ### Abstrakte Konzepte und Fortgeschrittenes
 
-#### [Enums](articles/Enums.md)
-> `Enums` ...
-
-#### [Rekursion](articles/Rekursion.md)
-> `Um Rekursion zu verstehen, muss man zunächst Rekursion verstehen.`
-
 #### [Input / Output (I/O)](articles/IO.md)
 > `Streams` `Buffering` `Reader` `Writer` `Objektserialisierung` `User-Input über Stdin` ...
 
 #### [Datenstrukturen](articles/Datenstrukturen.md)
 > `verkettete Listen` `zweifach verkettete Listen` `Binärbäume` `binäre Suchbäume` `siehe auch "Collections Framework"!` ...
 
-#### [Generics](articles/Generics.md)
-> `Was?` `Wozu?` `<Syntax>` `Typsicherheit trotz generischer Programmierung` `Gültigkeit bei Kompilierung und zur Laufzeit` ...
-
 #### [`Iterable` und `Iterator`](articles/Iterable-und-Iterator.md)
 > `Iterable` `Iterator` `Bezug zu for-each` `Implementierung` ...
 
+#### [Generics](articles/Generics.md)
+> `Was?` `Wozu?` `<Syntax>` `Typsicherheit trotz generischer Programmierung` `Gültigkeit bei Kompilierung und zur Laufzeit` ...
+
 #### [Collections Framework](articles/Collections-Framework.md)
 > `Aufbau` `List` `Set` `Map` `Objekt-Identität im Kontext von HashMaps/HashSets` ...
+
+#### [Enums](articles/Enums.md)
+> `Enums` ...
+
+#### [Rekursion](articles/Rekursion.md)
+> `Um Rekursion zu verstehen, muss man zunächst Rekursion verstehen.`
 
 #### [Vergleichen und Sortieren](articles/Vergleichen-Sortieren.md)
 > `Comparable` `Comparator` `Collections.sort()` `Sortieralgorithmen` ...
