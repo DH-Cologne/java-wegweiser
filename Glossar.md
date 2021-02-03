@@ -345,7 +345,7 @@ Englisch für 👉 [Gültigkeitsbereich](#gültigkeitsbereich).
 Siehe 🔭 [Getter und Setter](articles/Objekte-I-Initialisierung-Members-Zugriff.md).
 
 ### Standard-Datenströme
-Drei Datenströme (👉 [Stdout](#stdout), 👉 [Stdin](#stdin) und 👉 [Stderr](#stderr)) zur Daten Ein-/Ausgabe zwischen einem Programm und dem Betriebssystem bzw. der Umgebung, in der das Programm ausgeführt wird. Siehe auch 🔗 [Standard-Datenströme]([Standard-Datenströme](https://de.wikipedia.org/wiki/Standard-Datenstr%C3%B6me)).
+Drei Datenströme (👉 [Stdout](#stdout), 👉 [Stdin](#stdin) und 👉 [Stderr](#stderr)) zur Daten Ein-/Ausgabe zwischen einem Programm und dem Betriebssystem bzw. der Umgebung, in der das Programm ausgeführt wird. Siehe auch 🔗 [Standard-Datenströme](https://de.wikipedia.org/wiki/Standard-Datenstr%C3%B6me).
 
 ### Statement
 Eigentlich englisch für "Aussage", im Programmier-Kontext sind aber unterschiedliche Dinge damit gemeint. In Java gibt es **drei verschiedene** Arten von Statements: _Expression Statements_ (siehe 👉 [Ausdruck](#ausdruck)), _Declaration Statements_ (siehe 👉 [Deklaration](#deklaration)) und _Control-flow statements_ (siehe 👉 [Kontrollfluss](#kontrollfluss)).
