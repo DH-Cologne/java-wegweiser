@@ -40,7 +40,7 @@ public static void stackOverflow() {
 
 Exceptions sind Fehler, die durch eine korrekte Fehlerbehandlung "_aufgefangen_" werden können (eng. _catch_). In diesem Fall weiß das Programm mit einem Fehler umzugehen und kann weiter ausgeführt werden. 
 
-Es werden "_checked_" und "_unchecked_" Exceptions unterschieden: _Checked_ Exceptions sind solche Exceptions, deren mögliches Auftreten (und fehlendes Auffangen!) bereits vom 👉 [Compiler](../Glossar.md#compiler) überprüft wird. Beispiele sind die `ClassNotFoundException` oder die `IOException`. _Unchecked_ Exceptions hingegen treten während der Laufzeit des Programmes auf (siehe `RuntimeException` in der Grafik oben!) - sie können nicht vorhergesagt werden und lassen sich nur durch das schreiben von gutem, fehlerfreiem Code verhindern.
+Es werden "_checked_" und "_unchecked_" Exceptions unterschieden: _Checked_ Exceptions sind solche Exceptions, deren mögliches Auftreten außerhalb der Kontrolle des Programmes liegen. Beispiele sind die `IllegalArgumentException` oder alle Spezialisierungen von `IOException` (siehe Grafik oben!). _Unchecked_ Exceptions hingegen ergeben sich zur Laufzeit des Programmes durch fehlerhaften oder unsauberen Code und sollten im Idealfall gar nicht erst auftreten (siehe `NullPointerException`, `IllegalArgumentException`, `ArrayIndexOutOfBoundsException`, usw. in der Grafik oben!). Sie können nicht vorhergesagt werden und lassen sich nur durch das schreiben von gutem, fehlerfreiem Code verhindern! Deshalb ist es (bis auf einige Ausnahmen) auch nicht ratsam, für _Unchecked Exceptions_ eine Fehlerbehandlung durchzuführen.
 
 ```java
 // dieser Code erzeugt eine NullPointerException,
@@ -66,6 +66,9 @@ for (int i = 5; i >= -5; i--) {
 
 Exceptions können durch den Code bewusst "_geworfen_" (eng. _throw_), also ausgelöst, oder - um mit ihnen umzugehen - "_aufgefangen_" werden (eng. _catch_). Genau damit beschäftigen sich die folgenden Kapitel.
 
+> 🔗 Vertiefender Artikel: [Checked and Unchecked Exceptions](https://www.baeldung.com/java-checked-unchecked-exceptions)
+
+> 🔗 Vertiefender Artikel: [Common Java Exceptions](https://www.baeldung.com/java-common-exceptions)
 
 ## try-catch-finally
 
@@ -84,66 +87,30 @@ Nach dem _try-catch(-finally)_-Statement wird der darauf folgende Programm-Code 
 
 **Syntax und Beispiel:**
 
-Nehmen wir eine Methode `schroedingersArray()` an, die (völlig unberechenbar) entweder eine `ArrayIndexOutOfBoundsException` oder eine `ArithmeticException` verursacht:
+Nehmen wir den folgenden kurzen Code an, der eine neue, leere Datei erstellen soll. Die aufgerufene Methode `createNewFile()` wirft ggf. eine `IOException` (_checked_!) oder auch eine `SecurityException` (_unchecked_!):
 
 ```java
-public static void schroedingersArray() {
-    	// Zufallszahlen-Generator erzeugen
-    	Random rnd = new Random();
-    	
-    	// Array zufälliger Größe zwischen 1 und 10 erzeugen
-    	int[] numbers = new int[rnd.nextInt(10) + 1];
-    	
-    	// alle Stellen des Arrays mit zufälligen Zahlen zwischen 0 und 4 füllen
-    	for (int i = 0; i < numbers.length; i++) {
-			numbers[i] = rnd.nextInt(5);
-		}
-    	
-    	/*
-    	 * Auf die Indizes 0 bis 9 des Arrays zugreifen und i durch den Wert
-    	 * des aktuellen Elementes teilen. Dabei ist nicht sicher, ob zuerst
-    	 * eine ArrayIndexOutOfBoundsException oder eine ArithmeticException
-    	 * auftritt:
-    	 */
-    	for (int i = 0; i < 10; i++) {
-			System.out.println(i / numbers[i]);
-		}
-}
+File f = new File("datei.txt");
+f.createNewFile();
 ```
 
-Um nun mit diesen möglichen Exceptions umzugehen, damit sie unser Programm nicht vorzeitig beenden, nehmen wir den Aufruf von `schroedingersArray()` im `try`-Block einer entsprechenden Fehlerbehandlung vor:
+Um nun mit diesen möglichen Exceptions umzugehen, damit sie unser Programm nicht vorzeitig beenden, nehmen wir für diesen Aufruf in einem `try`/`catch`-Block eine entsprechende Fehlerbehandlung vor:
 
 ```java
+File f = new File("datei.txt");
+		
 try {
-  schroedingersArray();
-} catch (ArithmeticException e1) {
-  //auf diesen speziellen Fehler reagieren
-  System.out.println("Hier wurde wohl durch 0 geteilt :(");
-} catch (ArrayIndexOutOfBoundsException e2) {
-  //auf diesen speziellen Fehler reagieren
-  System.out.println("Dieser Index existiert nicht!");
-} catch (Exception e3) {
-  //auf alle sonstigen Fehler reagieren
-  System.out.println("Unbekannter Fehler aufgetreten!");
-} finally {
-  //dieser Code wird in jedem Fall ausgeführt
-  System.out.println("Das alles war von Anfang an keine gute Idee!");
+	f.createNewFile();
+} catch (IOException e) {
+	System.err.println("Datei konnte nicht erstellt werden!");
+} catch (Exception e2) {
+	System.err.println("Unbekannter Fehler aufgetreten!");
 }
     	
-System.out.println("...aber das Leben geht weiter!");
+System.out.println("...das Leben geht weiter!");
 ```
 
-Dieser Code würde nun so etwas wie...
-
-```
-0
-0
-Dieser Index existiert nicht!
-Das alles war von Anfang an keine gute Idee!
-...aber das Leben geht weiter!
-```
-
-...ausgeben. Das Programm läuft also _nach_ dem Fehler weiter!
+Das Programm läuft also _nach_ einer etwaigen Exception weiter! Natürlich sollte man sich in der Fehlerbehandlung genau überlegen, wie man auf den entsprechenden Fehler wirklich reagieren möchte. Statt nur eine Meldung auf der Konsole auszugeben, könnte hier z.B. ggf. vom User ein anderer Dateipfad erfragt werden (o.ä.).
 
 
 ## throws
