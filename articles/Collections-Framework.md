@@ -80,7 +80,10 @@ List<String> words = new LinkedList<String>();
 
 Aber wann benutzt man die eine und wann die andere Liste? Das kommt ganz darauf an, _was man mit der Liste vor hat_: Eine `ArrayList` benutzt, wie oben erwähnt, intern ein Array zur Verwaltung ihrer Elemente. Dadurch hat sie bestimmte Stärken und Schwächen: Ein Array ist sehr schnell darin, ein Element an einem bestimmten Index zurückzugeben. Eine verkettete Liste überhaupt nicht. Ein Aufruf von z.B. `list.get(3023)` würde bei einer `LinkedList` also bedeutend länger dauern! Auf der anderen Seite hat ein Array eine feste Größe, wodurch das interne Array einer `ArrayList` ständig durch ein größeres ersetzt werden muss, wenn viele Elemente hinzugefügt werden. Das Hinzufügen vieler Elemente geht bei einer verketteten Liste (`LinkedList`) also viel schneller, denn hier muss einfach das neue Element hinten angehängt werden.
 
-> Eine gute Ausführung dieses Unterschieds findet sich auch [hier](https://stackoverflow.com/a/322742/7399631)!
+> 🔗 Eine gute Ausführung dieses Unterschieds findet sich auch [hier](https://stackoverflow.com/a/322742/7399631)!
+
+> 🔗 [Guide to the Java ArrayList](https://www.baeldung.com/java-arraylist)
+
 
 ### Sets und Implementationen von `Set`
 
@@ -229,4 +232,7 @@ Sets lassen, wie erwähnt, [keine Duplikate zu](https://docs.oracle.com/javase/8
 
 Bei der Benutzung von `HashSet` oder `HashMap`, also jenen Implementationen von `Set` und `Map`, welche die Hash-Werte von Objekten nutzen, fällt dem [Vertrag zwischen `equals()` und `hashCode()`](https://www.programcreek.com/2011/07/java-equals-and-hashcode-contract/) eine besondere Bedeutung zu: Diese Datenstrukturen organisieren ihre Elemente zunächst nach deren Hash-Werten. Nur wenn zufällig ein angefordertes Element (etwa via `contains()` oder `get()`) den selben Hash-Wert besitzt, wie ein Element in der Datenstruktur, wird von einer "Gleichheit" ausgegangen. Wenn also eine Klasse zwar `equals()` korrekt implementiert, nicht aber `hashCode()`, dann ist der Vertrag gebrochen und es kann zu Komplikationen kommen, da dann zwei Objekte, die nach `equals()` gleich wären von `HashSet` und `HashMap` dennoch nicht als gleich angesehen werden.
 
+__________
 
+
+> 🔗 [Java Convenience Factory Methods for Collections](https://www.baeldung.com/java-9-collections-factory-methods)
