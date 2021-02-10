@@ -6,7 +6,7 @@
 - [Type Wildcards](#type-wildcards)
 - [Generische Methodendefinitionen](#generische-methodendefinitionen)
 
-Generics in Java ermöglichen es einer Klasse oder Methode mit Objekten arbiträrer Datentypen zu arbeiten und dennoch Typsicherheit (zur 🔭 [compile-time](../Glossar.md#compile-time)) zu gewährleisten. Das bringt es auf den Punkt, ist aber nicht gleich einleuchtend. Versuchen wir es mit einem Beispielszenario ...
+Generics in Java ermöglichen es einer Klasse oder Methode mit Objekten arbiträrer Datentypen zu arbeiten und dennoch Typsicherheit (zur 👉 [compile-time](../Glossar.md#compile-time)) zu gewährleisten. Das bringt es auf den Punkt, ist aber nicht gleich einleuchtend. Versuchen wir es mit einem Beispielszenario ...
 
 
 ## Das Problem
@@ -78,7 +78,7 @@ Natürlich sollte gut [dokumentiert](Javadoc.md) sein, wofür welcher Typ genutz
 
 ## Type Erasure
 
-Generics existieren nur zur _compile time_, d.h. **vor** dem Kompilieren des Codes. Dadurch kann der Kompiler auf einen falsch verwendeten Datentyp (`Teacher`-Objekt wird einer Liste für `Student`-Objekte hinzugefügt o.ä.) bei der Kompilierung des Programmes reagieren und einen Fehler erzeugen. _Nach_ der Kompilierung steht die Information des festgelegten Datentyps allerdings nicht mehr zu Verfügung, weil dieser währenddessen durch ein Verfahren namens [type erasure](https://en.wikipedia.org/wiki/Generics_in_Java#Problems_with_type_erasure) entfernt wurde.  
+Generics existieren nur zur _compile time_, d.h. **vor** dem Kompilieren des Codes. Dadurch kann der 👉 [Compiler](../Glossar.md#compiler) auf einen falsch verwendeten Datentyp (`Teacher`-Objekt wird einer Liste für `Student`-Objekte hinzugefügt o.ä.) bei der Kompilierung des Programmes reagieren und einen Fehler erzeugen. _Nach_ der Kompilierung steht die Information des festgelegten Datentyps allerdings nicht mehr zu Verfügung, weil dieser währenddessen durch ein Verfahren namens [type erasure](https://en.wikipedia.org/wiki/Generics_in_Java#Problems_with_type_erasure) entfernt wurde.  
 Unsere Liste aus dem Beispiel oben verwaltet nach der Kompilierung also tatsächlich wieder `Object`-Instanzen!
 
 
