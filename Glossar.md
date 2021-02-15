@@ -108,7 +108,7 @@ Siehe 🔭 [Datentypen](articles/Datentypen.md).
 Eine Software (oft eine Komponente einer 👉 [IDE](#ide)), die als Werkzeug für das 👉 [Debugging](#debugging) verwendet wird.
 
 ### Debugging
-Das Auffinden und Beheben von 👉 [Bugs](#bug). Dazu _kann_ ein 👉 [Debugger](#debugger) genutzt werden, muss aber nicht.
+Das Auffinden und Beheben von 👉 [Bugs](#bug). Dazu _kann_ ein 👉 [Debugger](#debugger) genutzt werden, muss aber nicht. Siehe auch 🔗[hier](https://de.wikipedia.org/wiki/Debugger).
 
 ### Deklaration
 Die _Deklaration_ einer 🔭 [articles/Variable](Variablen.md) besteht aus der Angabe ihres 🔭 [Datentyps](articles/Datentypen.md) und ihres Namens (_Variablenname_), etwa `int thisIsAnInteger`.
