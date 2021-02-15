@@ -3,7 +3,7 @@
 > 🚧 **TODO:** Alles.
 > - JCL schon drin
 > - Einbinden von externen Bibliotheken
-> - Maven et al.
+> - Maven
 > - siehe README!
 
 ...
