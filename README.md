@@ -27,6 +27,7 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 🛋️ &nbsp; [**Lese-Ansicht**](https://dh-cologne.github.io/java-wegweiser) &mdash; Wenn du aus Versehen im Repository gelandet bist!  
 📕 &nbsp; [**Glossar**](Glossar.md) &mdash; Allgemeine Terminologie der Programmierung (wichtig)!  
 🔗 &nbsp; [**Link-Liste**](Links.md) &mdash; Weitere empfehlenswerte (online-) Ressourcen!  
+🏷 &nbsp; [**Java Naming Conventions**](articles/Naming-Conventions.md) ...wollen befolgt werden!
 
 
 
@@ -37,7 +38,9 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 
 
 
+
 ### Einstieg
+
 
 #### [Benötigte Software](articles/Benoetigte-Software.md)
 > `JDK` `Eclipse IDE` `Download` `Installation` ...
@@ -94,9 +97,14 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 #### [Fehlerbehandlung](articles/Fehlerbehandlung.md)
 > `Error` `Exception` `try` `catch` `finally` `try-with-resources` `throws` ...
 
+#### [Dokumentation mit Javadoc](articles/Javadoc.md)
+> `Wozu?` `/**` `@param` `@return` `<code></code>` `best practices` ...
+
+
 
 
 ### Objektorientierte Programmierung (OOP)
+
 
 #### [OOP, Klassen und Objekte](articles/OOP-Klassen-und-Objekte.md)
 > `Definition` `Nutzen` `Beispiele` `Klasse` `Objekt` `Kuchen` ...
@@ -127,7 +135,9 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 
 
 
+
 ### Abstrakte Konzepte und Fortgeschrittenes
+
 
 #### [Input / Output (I/O)](articles/IO.md)
 > `Streams` `Buffering` `Reader` `Writer` `Objektserialisierung` `User-Input über Stdin` ...
@@ -163,14 +173,6 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 > `Wozu?` `Schreiben von Unit-Tests` `Test-driven-development` `JUnit` ...
 
 
-
-### Allgemeines / Sonstiges
-
-#### [Naming Conventions](articles/Naming-Conventions.md)
-> `Konventionen für Bezeichner in Java` `Groß-/Kleinschreibung` ...
-
-#### [Dokumentation mit Javadoc](articles/Javadoc.md)
-> `Wozu?` `/**` `@param` `@return` `<code></code>` `best practices` ...
 
 
 
