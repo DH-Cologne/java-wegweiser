@@ -113,11 +113,8 @@ Im vorherigen Abschnitt wurde bereits erwähnt, dass das manuelle Einbinden von 
 
 Genau darum kümmern sich _build management tools_ (oder auch _build automation tools_) - sie umfassen nicht nur die Funktionen eines _build tools_ (wie Apache Ant, siehe oben), sondern verwalten den gesamten Lebenszyklus eines Software-Projektes von der Projektstruktur über das Herunterladen oder Aktualisieren der Abhängigkeiten bis hin zum Auführen von Unit Tests und dem eigentlichen Bauen der Anwendung mit allen verwendeten Ressourcen.
 
-Die im Java-Kontext am meisten verbreiteten _build management tools_ sind [Maven](https://maven.apache.org/) (genau wie Ant ebenfalls von der [Apache Foundation](https://apache.org/)) und [Gradle](https://gradle.org/).
+Die im Java-Kontext am meisten verbreiteten _build management tools_ sind [Maven](https://maven.apache.org/) (genau wie Ant ebenfalls von der [Apache Foundation](https://apache.org/)) und [Gradle](https://gradle.org/) (wird vor allem - aber nicht nur - in der Entwicklung von Anwendungen für die Android-Plattform genutzt).
 
-Eine [detaillierte Abgrenzung der genannten Tools](https://www.baeldung.com/ant-maven-gradle) wird an dieser Stelle nicht geschehen, im Folgenden ist aber die Funktionsweise von _Maven_ exemplarisch erläutert.
+> 🔗 Eine [detaillierte Abgrenzung der genannten Tools](https://www.baeldung.com/ant-maven-gradle) wird an dieser Stelle nicht geschehen, ist aber unter dem o.g. Link verfügbar.
 
-
-### Maven
-
-> 🚧 **TODO**
+> 🔗 Eine brauchbare Einführungen in _Maven_ (vor allem in Hinsicht auf die Integration in die Eclipse IDE) findet man [hier](https://www.vogella.com/tutorials/EclipseMaven/article.html).
