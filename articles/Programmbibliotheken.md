@@ -103,9 +103,19 @@ System.out.println(heading);
 **Fazit: Es lohnt sich, nach guten Programmbibliotheken Ausschau zu halten!**
 
 
-## Build (Management) Tools
+## Build Management Tools
 
-> 🚧 **TODO**
+Build tools haben die Aufgabe, das "Bauen" einer Anwendung zu koordinieren. Dies umfasst z.B. das Verwalten von Ressourcen, das [Kompilieren](../Glossar.md#compiler) des [Quellcodes](../Glossar.md#quellcode) (ggf. nur von geänderten Dateien) und das automatische Ausführen von [Unit Tests](JUnit.md). Ein bekanntes und altbewährtes Java Build Tool ist [Apache Ant](https://ant.apache.org/).
+
+Meist wird neben den oben erläuterten Funktionen aber eine umfassendere Verwaltung des Projektes benötigt. Besonders eine automatische Verwaltung von Abhängigkeiten (eng.: _dependency management_), also von eingebundenen Programmbibliotheken, deren eigenen Abhängigkeiten usw.
+
+Im vorherigen Abschnitt wurde bereits erwähnt, dass das manuelle Einbinden von Programmbibliotheken etwas unelegant ist. Man müsste, wollte man das Projekt mit anderen Entwickler*innen teilen, immer alle verwendeten Bibliotheken mitliefern - obwohl diese ja gar nicht Teil des eigentlichen Programmcodes sind. Oder noch schlimmer: Andere Personen müssten sich selbst auf die Suche nach den verwendeten Bibliotheken machen und diese herunterladen. Das Projekt wäre nicht portabel oder unnötig einfach aufgebläht.
+
+Genau darum kümmern sich _build management tools_ (oder auch _build automation tools_) - sie umfassen nicht nur die Funktionen eines _build tools_ (wie Apache Ant, siehe oben), sondern verwalten den gesamten Lebenszyklus eines Software-Projektes von der Projektstruktur über das Herunterladen oder Aktualisieren der Abhängigkeiten bis hin zum Auführen von Unit Tests und dem eigentlichen Bauen der Anwendung mit allen verwendeten Ressourcen.
+
+Die im Java-Kontext am meisten verbreiteten _build management tools_ sind [Maven](https://maven.apache.org/) (genau wie Ant ebenfalls von der [Apache Foundation](https://apache.org/)) und [Gradle](https://gradle.org/).
+
+Eine [detaillierte Abgrenzung der genannten Tools](https://www.baeldung.com/ant-maven-gradle) wird an dieser Stelle nicht geschehen, im Folgenden ist aber die Funktionsweise von _Maven_ exemplarisch erläutert.
 
 
 ### Maven
