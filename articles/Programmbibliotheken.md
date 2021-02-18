@@ -29,7 +29,7 @@ Alle weiteren Bestandteile der _JCL_ stehen nach Bedarf zur Verfügung, müssen 
 
 ## Externe Programmbibliotheken
 
-Natürlich kommt es vor, dass die Java Class Library nicht alles anbietet, was man braucht. Und gerade für komplexere Probleme, die nicht einzigartig sind, sollte man - wie bereits erwähnt - lieber keine eigenen Lösungen entwickeln. Stattdessen empfiehlt es sich, auf das riesige Angebot frei verfügbarer (im Sinne von [Open Source](https://opensource.org/osd)) Programmbibliotheken zurück zu greifen.
+Natürlich kommt es vor, dass die Java Class Library nicht ausreicht. Und gerade für komplexere Probleme, die von anderen Menschen längst gelöst wurden, sollte man - wie bereits erwähnt - lieber keine eigenen Lösungen entwickeln. Stattdessen empfiehlt es sich, auf das riesige Angebot frei verfügbarer (im Sinne von [Open Source](https://opensource.org/osd)) Programmbibliotheken zurück zu greifen.
 
 Es gibt elegantere (und nachhaltigere) Methoden, eine externe Programmbibliothek zu verwenden, als sich diese manuell herunterzuladen und einzubinden (die Möglichkeiten hierfür werden im nächsten Abschnitt kurz erläutert). Aber auch das ist möglich und reicht manchmal völlig aus.
 
@@ -72,9 +72,11 @@ Immerhin, die Ausgabe auf der Konsole lautet:
 Sonnenscheinrekord im ersten COVID-19 Lockdown durch ungewöhnliches Wetter
 ```
 
-**ABER** das ist eine Menge Code - und er ist auch noch alles andere als robust! Viele ungeschriebene Gesetze wurden verletzt. Es ist außerdem nicht auf den ersten Blick ersichtlich, was hier genau passieren soll. Eine schlechte, sperrige Lösung!
+Na, wenigstens ist das Wetter gut!
 
-Entscheiden wir uns also doch lieber dazu, eine externe Bibliothek zu nutzen, die auf das Lesen und Parsen von HTML-Seiten spezialisiert ist! Eine (zu Recht!) sehr prominente Kandidatin ist [jsoup](https://jsoup.org/).
+**ABER** das ist eine Menge Code - und er ist auch noch alles andere als robust! Viele ungeschriebene Gesetze wurden verletzt (siehe oben). Es ist außerdem nicht auf den ersten Blick ersichtlich, was hier genau passieren soll. Eine schlechte, sperrige Lösung!
+
+Entscheiden wir uns also doch lieber dazu, eine externe Bibliothek zu nutzen, die auf das Lesen und Parsen von HTML-Dokumenten spezialisiert ist! Eine (zu Recht!) sehr prominente Kandidatin ist [jsoup](https://jsoup.org/).
 
 Wir laden uns also die neueste Version von _jsoup_ als `.jar` Datei (Java Archive) herunter und platzieren sie in einem eigens angelegten Ordner `lib` (_libraries_) in unseren Projekt (der Name das Ordners ist beliebig):
 
@@ -86,7 +88,7 @@ Jetzt ist die Bibliothek schon mal vorhanden - aber unser Programm weiß noch ni
 
 Ab jetzt sind die Klassen (...), die Teil der _jsoup_-Bibliothek sind, für unser Programm verfügbar. Wir müssen sie einfach nur mittels `import` importieren!
 
-Sehen wir uns also die (sehr gute) [Dokumentation von jsoup](https://jsoup.org/cookbook/) an und machen uns ein Bild davon, wie uns die Bibiothek bei unserem Problem helfen kann (dieser Prozess wird hier nicht erläutert)! Der Code aus dem Beispiel oben lässt sich unter Verwendung der [API](../Glossar.md#api) von _jsoup_ nicht nur schöner und lesbarer, sondern auch in jeder anderen Hinsicht besser umsetzen (auch hier verzichten wird der Übersichtlichkeit halber auf die Fehlerbehandlung):
+Sehen wir uns also die (sehr gute) [Dokumentation von jsoup](https://jsoup.org/cookbook/) an und machen uns ein Bild davon, wie uns die Bibiothek bei unserem Problem helfen kann (dieser Prozess wird hier nicht erläutert)! Der Code aus dem Beispiel oben lässt sich unter Verwendung der [API](../Glossar.md#api) von _jsoup_ nicht nur schöner und lesbarer, sondern auch viel kürzer umsetzen (auch hier verzichten wird der Übersichtlichkeit halber auf die Fehlerbehandlung):
 
 ```java
 String urlString = "https://portal.uni-koeln.de/"
@@ -96,7 +98,7 @@ String heading = doc.selectFirst("article h2").text();
 System.out.println(heading);
 ```
 
-... und das war's auch schon! Wir sehen ganz deutlich: Die Java Class Library ist zwar extrem umfangreich, aber die Bordmittel reichen eben nicht immer aus.
+... und das war's auch schon! Plötzlich spricht jede Zeile des Codes für sich - alles ist sehr eindeutig. Wir sehen: Die Java Class Library ist zwar extrem umfangreich, aber reicht eben nicht immer aus.
 
 **Fazit: Es lohnt sich, nach guten Programmbibliotheken Ausschau zu halten!**
 
