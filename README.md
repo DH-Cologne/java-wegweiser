@@ -172,6 +172,24 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 #### [Unit-Tests](articles/JUnit.md)
 > `Wozu?` `Schreiben von Unit-Tests` `Test-driven-development` `JUnit` ...
 
+### Über den Seminarinhalt hinaus ...
+... gehen die folgenden Themen. Das heißt jedoch nicht, dass sie nicht wichtig wären. Wer das Gelernte noch weiter vertiefen oder ergänzen möchte, kann sich von diesen Empfehlungen leiten lassen:
+
+#### Java Stream API
+🔗 [Introduction to Java 8 Streams](https://www.baeldung.com/java-8-streams-introduction) (baeldung.com)  
+🔗 [The Java 8 Stream API Tutorial](https://www.baeldung.com/java-8-streams) (baeldung.com)  
+🔗 [String Operations with Java Streams](https://www.baeldung.com/java-stream-operations-on-strings) (baeldung.com)  
+🔗 [Java Stream API](http://tutorials.jenkov.com/java-functional-programming/streams.html) (tutorials.jenkov.com)  
+
+#### Lambda Expressions und Functional Interfaces
+🔗 [Lambda Expressions](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html) (docs.oracle.com)  
+🔗 [Java Functional Interfaces](https://beginnersbook.com/2017/10/java-functional-interfaces/) (beginnersbook.com)  
+🔗 [Lambda Expressions and Functional Interfaces: Tips and Best Practices](https://www.baeldung.com/java-8-lambda-expressions-tips) (baeldung.com)  
+
+#### Statische Methoden in Interfaces
+🔗 [Static and Default Methods in Interfaces in Java](https://www.baeldung.com/java-static-default-methods) (baeldung.com)  
+🔗 [Default and Static Methods in Interfaces in Java 8](https://codenuclear.com/default-and-static-methods-in-interfaces/) (codenuclear.com)  
+
 
 
 
