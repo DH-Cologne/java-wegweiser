@@ -1,14 +1,15 @@
 # Vergleichen und Sortieren 🍱<!-- omit in toc -->
 
-- [Sortier-Algorithmen](#sortier-algorithmen)
+- [Sortieralgorithmen](#sortieralgorithmen)
 - [Sortieren mit Mitteln des Collections Framework](#sortieren-mit-mitteln-des-collections-framework)
 - [Das Interface `Comparable`](#das-interface-comparable)
 - [Das Interface `Comparator`](#das-interface-comparator)
 
-## Sortier-Algorithmen
+## Sortieralgorithmen
 
-> 🚧 **TODO:**
-> Es sollen hier keine Sortier-Algorithmen im Detail besprochen werden. Aber es soll klar werden, was ein Sortieralgorithmus ist und dass es unterschiedliche (und unterschiedlich leistungsfähige) Algorithmen gibt.
+Ein Sortieralgorithmus ist ein 👉 [Algorithmus](../Glossar.md#algorithmus), dessen Aufgabe es ist, Daten bzw. Objekte zu sortieren. Es sollen hier keine konkreten Sortier-Algorithmen im Detail besprochen werden, denn dazu findet man im Internet [ausreichend viel Material](https://startpage.com/do/metasearch.pl?query=sortieralgorithmen) (siehe auch die Links unten!).
+
+Es lohnt sich aber zu wissen, dass es unterschiedliche Sortieralgorithmen mit unterschiedlichen Vor- und Nachteilen gibt. Manche sind sehr langsam, dafür aber leicht zu verstehen; manche sind unglaublich effektiv und sehr kompliziert, stellen sich aber in ganz bestimmten Szenarien doch als langsam heraus. Ein Besuch auf den folgenden Seiten ist zur Vertiefung des Themas empfehlenswert:
 
 > 🔗 Einige sehr gute Erläuterungen zu einzelnen Sortieralgorithmen findest du [hier](https://stackabuse.com/sorting-algorithms-in-java).
 
