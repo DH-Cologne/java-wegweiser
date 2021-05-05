@@ -95,7 +95,7 @@ Dadurch lassen sich bestimmte Operationen einfacher ausführen - etwa das Entfer
 
 ## Bäume
 
-Ein [Baum](https://de.wikipedia.org/wiki/Baum_(Datenstruktur)) ist (u.a.) eine hierarchische Datenstruktur, die (ähnlich wie die verkettete Liste) Daten in Knoten speichert. Ein Knoten speichert außerdem Verweise auf die Knoten, die in der Baumstruktur direkt unter ihm liegen. Diese Verweise werden auch _Kanten_ genannt. Ein Baum besitzt außerdem eine _Wurzel_ (oder: _Wurzelknoten), die ganz oben in der Hierarche steht.
+Ein [Baum](https://de.wikipedia.org/wiki/Baum_(Datenstruktur)) ist (u.a.) eine hierarchische Datenstruktur, die (ähnlich wie die verkettete Liste) Daten in Knoten speichert. Ein Knoten speichert außerdem Verweise auf die Knoten, die in der Baumstruktur direkt unter ihm liegen. Diese Verweise werden auch _Kanten_ genannt. Ein Baum besitzt außerdem eine _Wurzel_ (oder: _Wurzelknoten_), die ganz oben in der Hierarche steht.
 
 ![Baum](../assets/images/baum.png)  
 > _Quelle: [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Allgemeiner-baum.png); Matthias Kleine / [CC BY-SA](http://creativecommons.org/licenses/by-sa/3.0/)_
