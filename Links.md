@@ -49,7 +49,8 @@
 
 ## Git 
 
--   [Git Book](https://git-scm.com/book/de/v2) - Lernen, mit Git umzugehen
+-   [Git Book](https://git-scm.com/book/de/v2) - Offizielle Ressource: Lernen, mit Git zu arbeiten
+-   [Git Community Book](https://shafiul.github.io/gitbook/) - Ressource aus der Community: Wie "Git Book", nur vielleicht sogar besser
 -   [Git einfach erklärt](https://rogerdudler.github.io/git-guide/index.de.html) - Eine sehr einfache, gut verständliche, dafür aber auch nicht ganz vollständige Anleitung zu Git. Gut für den Einstieg!
 -   [Interactive Git Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html) - Sehr gute Übersicht über die meisten Git-Befehle (mit visueller Einordnung in Anwendungsbereiche!)
 -   [Git Cheat Sheet PDF](assets/documents/Git-Cheat-Sheet.pdf) - Die allerwichtigsten Git-Befehle auf einer überlichtlichen Seite!
