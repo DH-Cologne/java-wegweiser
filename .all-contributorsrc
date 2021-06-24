@@ -74,6 +74,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "jspringe-stu",
+      "name": "jspringe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74214197?v=4",
+      "profile": "https://github.com/jspringe-stu",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 6,
