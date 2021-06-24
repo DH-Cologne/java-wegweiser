@@ -1,7 +1,8 @@
 # Softwaretechnologie: Java
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 &nbsp;
 [![Updated](https://badges.pufler.dev/updated/dh-cologne/java-wegweiser?style=flat-square&label=updated)](https://github.com/DH-Cologne/java-wegweiser/commits/ "Last updated")
 &nbsp;
@@ -205,20 +206,22 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/bkis"><img src="https://avatars0.githubusercontent.com/u/9215743?v=4" width="64px;" alt=""/><br /><sub><b>bkis</b></sub></a><br /><a href="#content-bkis" title="Content">🖋️</a> <a href="#example-bkis" title="Examples">💡</a> <a href="#ideas-bkis" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-bkis" title="Maintenance">🚧</a></td>
-    <td align="center"><a href="https://github.com/hntFulvan"><img src="https://avatars3.githubusercontent.com/u/64469511?v=4" width="64px;" alt=""/><br /><sub><b>Nicolas David Werner</b></sub></a><br /><a href="#content-hntFulvan" title="Content">🖋️</a> <a href="#example-hntFulvan" title="Examples">💡</a></td>
-    <td align="center"><a href="https://github.com/Lelalue"><img src="https://avatars1.githubusercontent.com/u/34158237?v=4" width="64px;" alt=""/><br /><sub><b>Lelalue</b></sub></a><br /><a href="#content-Lelalue" title="Content">🖋️</a> <a href="#example-Lelalue" title="Examples">💡</a></td>
-    <td align="center"><a href="https://github.com/mkamphausen"><img src="https://avatars2.githubusercontent.com/u/43293625?v=4" width="64px;" alt=""/><br /><sub><b>mkamphausen</b></sub></a><br /><a href="#content-mkamphausen" title="Content">🖋️</a> <a href="#example-mkamphausen" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/bkis"><img src="https://avatars0.githubusercontent.com/u/9215743?v=4?s=80" width="80px;" alt=""/><br /><sub><b>bkis</b></sub></a><br /><a href="#content-bkis" title="Content">🖋</a> <a href="#example-bkis" title="Examples">💡</a> <a href="#ideas-bkis" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-bkis" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/hntFulvan"><img src="https://avatars3.githubusercontent.com/u/64469511?v=4?s=80" width="80px;" alt=""/><br /><sub><b>Nicolas David Werner</b></sub></a><br /><a href="#content-hntFulvan" title="Content">🖋</a> <a href="#example-hntFulvan" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/Lelalue"><img src="https://avatars1.githubusercontent.com/u/34158237?v=4?s=80" width="80px;" alt=""/><br /><sub><b>Lelalue</b></sub></a><br /><a href="#content-Lelalue" title="Content">🖋</a> <a href="#example-Lelalue" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/mkamphausen"><img src="https://avatars2.githubusercontent.com/u/43293625?v=4?s=80" width="80px;" alt=""/><br /><sub><b>mkamphausen</b></sub></a><br /><a href="#content-mkamphausen" title="Content">🖋</a> <a href="#example-mkamphausen" title="Examples">💡</a></td>
+    <td align="center"><a href="http://#"><img src="https://avatars2.githubusercontent.com/u/29183752?v=4?s=80" width="80px;" alt=""/><br /><sub><b>Julian Kamphausen</b></sub></a><br /><a href="#content-jkamphausen" title="Content">🖋</a> <a href="#example-jkamphausen" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/Demirro"><img src="https://avatars3.githubusercontent.com/u/44236116?v=4?s=80" width="80px;" alt=""/><br /><sub><b>Demirro</b></sub></a><br /><a href="#ideas-Demirro" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="http://#"><img src="https://avatars2.githubusercontent.com/u/29183752?v=4" width="64px;" alt=""/><br /><sub><b>Julian Kamphausen</b></sub></a><br /><a href="#content-jkamphausen" title="Content">🖋️</a> <a href="#example-jkamphausen" title="Examples">💡</a></td>
-    <td align="center"><a href="https://github.com/Demirro"><img src="https://avatars3.githubusercontent.com/u/44236116?v=4" width="64px;" alt=""/><br /><sub><b>Demirro</b></sub></a><br /><a href="#ideas-Demirro" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/vgavrilova"><img src="https://avatars2.githubusercontent.com/u/63244952?v=4" width="64px;" alt=""/><br /><sub><b>Valeria Gavrilova</b></sub></a><br /><a href="https://github.com/DH-Cologne/java-wegweiser/issues?q=author%3Avgavrilova" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/vgavrilova"><img src="https://avatars2.githubusercontent.com/u/63244952?v=4?s=80" width="80px;" alt=""/><br /><sub><b>Valeria Gavrilova</b></sub></a><br /><a href="https://github.com/DH-Cologne/java-wegweiser/issues?q=author%3Avgavrilova" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/jspringe-stu"><img src="https://avatars.githubusercontent.com/u/74214197?v=4?s=80" width="80px;" alt=""/><br /><sub><b>jspringe</b></sub></a><br /><a href="#content-jspringe-stu" title="Content">🖋</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 > 👉 **Dieses Projekt folgt der [all-contributors](https://github.com/all-contributors/all-contributors)-Spezifikation.**  
