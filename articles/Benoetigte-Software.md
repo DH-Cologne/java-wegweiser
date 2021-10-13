@@ -7,7 +7,7 @@ Für die Arbeit im Seminar und in den Übungen benötigen wir ein [JDK](Die-Prog
 
 Wir benötigen ein JDK der Version 11, passend für dein Betriebssystem. Wegen der [Umstellung des Lizenzmodells von Oracle im Jahr 2019](https://www.oracle.com/technetwork/java/javase/overview/oracle-jdk-faqs.html) sollten wir **unbedingt** ein **OpenJDK** (und nicht das volle JDK von der Oracle-Seite) benutzen.
 
-> Übrigens: Seit September 2021 gibt es eine neue [LTS]()-Version des JDK (Version 17). Wir werden aber vorerst weiter mit dem JDK 11 arbeiten (die vorherige LTS-Verion), weil wir (1.) die neuen Features von Java 17 nicht besprechen werden und (2.) das JDK 17 noch zu jung ist, um im Internet wirklich viele und gute Ressourcen dazu zu finden.
+> Übrigens: Seit September 2021 gibt es eine neue [LTS](https://de.wikipedia.org/wiki/Support_(Dienstleistung)#Long_Term_Support)-Version des JDK (Version 17). Wir werden aber vorerst weiter mit dem JDK 11 arbeiten (die vorherige LTS-Verion), weil wir (1.) die neuen Features von Java 17 nicht besprechen werden und (2.) das JDK 17 noch zu jung ist, um im Internet wirklich viele und gute Ressourcen dazu zu finden.
 
 | Betriebssystem | Download OpenJDK 11 |
 | --- | --- |
