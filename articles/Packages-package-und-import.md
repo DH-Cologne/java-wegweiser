@@ -8,7 +8,7 @@
 
 ## Was sind Packages?
 
-**Packages** (oder dt.: _Pakete_) sind ein einfaches System, in dem zusammengehörende Java-Klassen*** organisiert sind. So lässt sich an einem **Paket-Pfad** üblicherweise ablesen, zu welcher Software eine Klasse gehört und ggf. von welchem Anbieter sie stammt. Auf diese Weise dienen Packages dazu, jede Klasse (also den Code eines Programms) eindeutig identifizierbar zu machen, sodass es in den Unmengen von verfügbaren Programmbibliotheken nicht zu Verwechslungen kommt. So lässt sich im Quellcode jede Klasse eindeutig ansprechen oder importieren!  
+**Packages** (oder dt.: _Pakete_) sind ein einfaches System, in dem zusammengehörende Java-Klassen\*\*\* organisiert sind. So lässt sich an einem **Paket-Pfad** üblicherweise ablesen, zu welcher Software eine Klasse gehört und ggf. von welchem Anbieter sie stammt. Auf diese Weise dienen Packages dazu, jede Klasse (also den Code eines Programms) eindeutig identifizierbar zu machen, sodass es in den Unmengen von verfügbaren Programmbibliotheken nicht zu Verwechslungen kommt. So lässt sich im Quellcode jede Klasse eindeutig ansprechen oder importieren!  
 Die Art und Weise, wie Klassen in Packages organisiert sind, wird übrigens als _Paket-Struktur_ bezeichnet.
 
 > 💬 **\*\*\*** Klassen sind die Einheiten, aus denen der Code eines Java-Programms besteht. Mehr dazu im Kapitel zu Objektorientierung!
