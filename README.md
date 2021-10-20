@@ -56,14 +56,11 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 
 ### Grundlagen
 
-#### [Hello World](articles/Hello-World.md)
-> `Das erste Programm` `Was ist das alles?`
+#### ["Hello World!" und die `main`-Methode](articles/Hello-World.md)
+> `Das erste Programm` `Was ist das alles?` `main`
 
 #### [Packages, `package` und `import`](articles/Packages-package-und-import.md)
 > `Packages` `Pakete` `Paket-Pfade` `package` `import`
-
-#### [`main`-Methode](articles/Main-Methode.md)
-> `main`
 
 #### [Kommentare](articles/Kommentare.md)
 > `// inline` `/* multi-line */`
