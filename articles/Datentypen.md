@@ -1,4 +1,4 @@
-# Datentypen :1234:<!-- omit in toc -->
+# Datentypen 🔢<!-- omit in toc -->
 
 - [Primitive Datentypen](#primitive-datentypen)
 - [Komplexe Datentypen](#komplexe-datentypen)
