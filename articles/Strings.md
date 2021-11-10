@@ -2,7 +2,7 @@
 
 (auch: *Zeichenketten*)
 
-`String` ist eine Klasse in Java. Ein Objekt vom Typ `String` repräsentiert eine Zeichenkette - also eine Sequenz von Symbolen.
+`String` ist eine Klasse in Java. Ein Objekt vom Typ `String` repräsentiert eine Zeichenkette - also eine Sequenz von Symbolen (characters / `char`s).
 
 - [Erzeugen von Strings ...](#erzeugen-von-strings-)
   - [... mit dem `new`-Operator](#-mit-dem-new-operator)
@@ -12,6 +12,8 @@
 - [Vergleichen von Strings](#vergleichen-von-strings)
 - [Zugriff auf einzelne Zeichen und andere Tokens](#zugriff-auf-einzelne-zeichen-und-andere-tokens)
 - [Spezial-Zeichen](#spezial-zeichen)
+- [String-Formatierung](#string-formatierung)
+
 
 ## Erzeugen von Strings ...
 
@@ -165,4 +167,14 @@ Welt!
 
 > ⚠️ Da der Backslash `\` die Funktion der Maskierung erfüllt, muss er selbst maskiert werden, wenn er als Zeichen im String auftauchen soll. Also so: `"\\"`. Wenn nun aber der String selbst `"\\"` lauten soll, dann wäre das String-Literal dazu `"\\\\"`, usw. 
 
+
+## String-Formatierung
+
+Da es häufig vorkommt, dass Daten verschiedener Art als Teil eines Strings dargestellt (oder gespeichert) werden sollen, bietet Java (wie die meisten anderen Programmiersprachen auch) umfangreiche Möglichkeiten zur Formatierung von Strings an.
+
+Das Internet ist voll von guten, übersichtlichen Ressourcen zu diesem Thema. Deshalb sei an dieser Stelle beispielhaft auf zwei Artikel zu diesem Thema verwiesen:
+
+👉 [How to format a string in Java (attacomsian.com)](https://attacomsian.com/blog/java-string-format)
+
+👉 [Java String format() (programiz.com)](https://www.programiz.com/java-programming/library/string/format)
 
