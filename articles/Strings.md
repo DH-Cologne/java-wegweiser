@@ -170,7 +170,7 @@ Welt!
 
 ## String-Formatierung
 
-Da es häufig vorkommt, dass Daten verschiedener Art als Teil eines Strings dargestellt (oder gespeichert) werden sollen, bietet Java (wie die meisten anderen Programmiersprachen auch) umfangreiche Möglichkeiten zur Formatierung von Strings an.
+Da es häufig vorkommt, dass Daten verschiedener Art als Teil eines Strings dargestellt (oder gespeichert) werden sollen, bietet Java (wie die meisten anderen Programmiersprachen auch) umfangreiche Möglichkeiten zur Formatierung von Strings an. Die offensichtlichste ist die Methode `String.format(...)`. Dies führt nicht nur zu saubererem Code, weil es lange Verkettungen von Strings mit anderen Datentypen wie z.B. `String s = "The number " + x + " is greater than " + y + ".";` o.ä. vermeidet, sondern ermöglicht auch _Padding_ (z.B. `42` mit führenden Nullen: `"0004"`) und vieles mehr.  
 
 Das Internet ist voll von guten, übersichtlichen Ressourcen zu diesem Thema. Deshalb sei an dieser Stelle beispielhaft auf zwei Artikel zu diesem Thema verwiesen:
 
