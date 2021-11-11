@@ -76,7 +76,7 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 
 #### [Operatoren](articles/Operatoren.md)
 > `Rechenoperatoren` `Vergleichsoperatoren` `logische Operatoren` `Zuweisungsoperatoren` `+` `-` `*` `/` `%` `++` `--` `==` `!=` `>` `<` `>=` `<=` `&&` `||` `=` `+=` `-=` `/=` `*=` `%=` `&=` `|=` ...
-
+ 
 #### [Strings / Zeichenketten](articles/Strings.md)
 > `die Klasse "String"` `Literals` `special characters` `Unveränderbarkeit von Strings` `UTF-16` `String Formatting` ...
 
