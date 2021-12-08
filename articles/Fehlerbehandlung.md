@@ -18,7 +18,7 @@ In Programmen können verschiedene Fehler auftreten. All diese Fehler sind (auf 
 
 ## Errors
 
-**Errors** sind Fehler, die _nicht aufgefangen werden können_ (_catch_), d.h. das Programm kann nicht konstruktiv auf sie reagieren. Sie bringen das Programm unweigerlich zum Absturz. Sie entstehen etwa durch fehlende Systemressourcen. Beispiele hierfür sind `OutOfMemoryError` (mehr 🔗 [hier](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/memleaks002.html)) oder `StackOverflowError` (mehr 🔗 [hier](https://dzone.com/articles/stackoverflowerror-causes-amp-solutions)).
+**Errors** sind Fehler, die _nicht aufgefangen werden können_ (_catch_), d.h. das Programm kann nicht auf sie reagieren. Sie bringen das Programm (bzw. die ganze VM) unweigerlich zum Absturz. Sie entstehen etwa durch fehlende Systemressourcen. Beispiele hierfür sind `OutOfMemoryError` (mehr 🔗 [hier](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/memleaks002.html)) oder `StackOverflowError` (mehr 🔗 [hier](https://dzone.com/articles/stackoverflowerror-causes-amp-solutions)).
 
 ```java
 // dieser Code führt zu einem OutOfMemoryError
@@ -38,9 +38,9 @@ public static void stackOverflow() {
 
 ## Exceptions
 
-Exceptions sind Fehler, die durch eine korrekte Fehlerbehandlung "_aufgefangen_" werden können (eng. _catch_). In diesem Fall weiß das Programm mit einem Fehler umzugehen und kann weiter ausgeführt werden. 
+Exceptions sind Fehler, die _theoretisch_ durch eine korrekte Fehlerbehandlung "_aufgefangen_" werden können (eng. _catch_). In diesem Fall weiß das Programm mit einem Fehler umzugehen und kann weiter ausgeführt werden. Dies ist jedoch nicht für alle Arten von Exceptions sinnvoll. Warum das so ist, wird im Folgenden erklärt...
 
-Es werden "_checked_" und "_unchecked_" Exceptions unterschieden: _Checked_ Exceptions sind solche Exceptions, deren mögliches Auftreten außerhalb der Kontrolle des Programmes liegen. Beispiele sind die `IllegalArgumentException` oder alle Spezialisierungen von `IOException` (siehe Grafik oben!). _Unchecked_ Exceptions hingegen ergeben sich zur Laufzeit des Programmes durch fehlerhaften oder unsauberen Code und sollten im Idealfall gar nicht erst auftreten (siehe `NullPointerException`, `IllegalArgumentException`, `ArrayIndexOutOfBoundsException`, usw. in der Grafik oben!). Sie können nicht vorhergesagt werden und lassen sich nur durch das schreiben von gutem, fehlerfreiem Code verhindern! Deshalb ist es (bis auf einige Ausnahmen) auch nicht ratsam, für _Unchecked Exceptions_ eine Fehlerbehandlung durchzuführen.
+Es werden "_checked_" und "_unchecked_" Exceptions unterschieden: _Checked_ Exceptions sind solche Exceptions, deren mögliches Auftreten außerhalb der Kontrolle des Programmes liegen. Beispiele sind etwa alle Arten der `IOException` (siehe Grafik oben!). _Unchecked_ Exceptions hingegen ergeben sich zur Laufzeit des Programmes durch fehlerhaften oder unsauberen Code und sollten im Idealfall gar nicht erst auftreten (siehe `NullPointerException`, `IllegalArgumentException`, `ArrayIndexOutOfBoundsException`, usw. in der Grafik oben!). Sie können nicht vorhergesagt werden und lassen sich nur durch das schreiben von gutem, fehlerfreiem Code verhindern! Deshalb ist es (bis auf einige Ausnahmen) auch nicht ratsam, für _Unchecked Exceptions_ eine Fehlerbehandlung durchzuführen.
 
 ```java
 // dieser Code erzeugt eine NullPointerException,
