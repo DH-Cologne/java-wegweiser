@@ -24,14 +24,14 @@ In Programmen können verschiedene Fehler auftreten. All diese Fehler sind (auf 
 // dieser Code führt zu einem OutOfMemoryError
 String s = "ThisWillThrowAnError";
 while(true) {
-  s += s;
+	s += s;
 }
 ```
 
 ```java
 // das Aufrufen dieser Methode führt zu einem StackOverflowError
 public static void stackOverflow() {
-  stackOverflow();
+	stackOverflow();
 }
 ```
 
@@ -60,7 +60,7 @@ System.out.println(s[7]);
 // dieser Code erzeugt eine ArithmeticException: / by zero,
 // weil durch die Zählvariable i (mit dem Wert 0) geteilt wird.
 for (int i = 5; i >= -5; i--) {
-		System.out.println(5 / i);
+	System.out.println(5 / i);
 }
 ```
 
@@ -98,15 +98,15 @@ Um nun mit diesen möglichen Exceptions umzugehen, damit sie unser Programm nich
 
 ```java
 File f = new File("datei.txt");
-		
+
 try {
-	f.createNewFile();
+    f.createNewFile();
 } catch (IOException e) {
-	System.err.println("Datei konnte nicht erstellt werden!");
+    System.err.println("Datei konnte nicht erstellt werden!");
 } catch (Exception e2) {
-	System.err.println("Unbekannter Fehler aufgetreten!");
+    System.err.println("Unbekannter Fehler aufgetreten!");
 }
-    	
+        
 System.out.println("...das Leben geht weiter!");
 ```
 
@@ -119,8 +119,8 @@ Eine Methode kann explizit dazu in der Lage sein, eine bestimmte Exception zu "_
 
 ```java
 public String thisWillFail() throws IOException {
-  return Files.readString(
-      new File("this_file_doesnt_exist.haha").toPath());
+    return Files.readString(
+        new File("this_file_doesnt_exist.haha").toPath());
 }
 ```
 
@@ -136,41 +136,41 @@ Der `try`-Block deklariert die entsprechende(n) Ressource(n) (mehrere Ressourcen
 **Beispiel Datei einlesen OHNE try-with-resources**
 
 ```java
-  BufferedReader br = null;
-  String line;
+BufferedReader br = null;
+String line;
 
-  try {
-    br = new BufferedReader(new FileReader("text.txt"));
-    while ((line = br.readLine()) != null) {
-      System.out.println("Zeile gelesen: " + line);
-    }
-  } catch (IOException e) {
-    System.out.println("IOException im try-Block: " + e.getMessage());
-  } finally {
-    System.out.println("Ausführung finally-Block...");
-    //so müsste man den Reader eigentlich schließen:
-    try {
-      if (br != null) {
-        br.close();
-      }
-    } catch (IOException e) {
-      System.out.println("IOException im finally-Block: " + e.getMessage());
-    }
-  }
+try {
+	br = new BufferedReader(new FileReader("text.txt"));
+	while ((line = br.readLine()) != null) {
+		System.out.println("Zeile gelesen: " + line);
+	}
+} catch (IOException e) {
+	System.out.println("IOException im try-Block: " + e.getMessage());
+} finally {
+	System.out.println("Ausführung finally-Block...");
+	//so müsste man den Reader eigentlich schließen:
+	try {
+		if (br != null) {
+			br.close();
+		}
+	} catch (IOException e) {
+		System.out.println("IOException im finally-Block: " + e.getMessage());
+	}
+}
 ```
 
 **Beispiel Datei einlesen MIT try-with-resources**
 
 ```java
-  String line;
+String line;
 
-  try (BufferedReader br = new BufferedReader(new FileReader("text.txt"))) {
-    while ((line = br.readLine()) != null) {
-      System.out.println("Zeile gelesen: " + line);
-    }
-  } catch (IOException e) {
-    System.out.println("IOException im try-Block: " + e.getMessage());
-  }
+try (BufferedReader br = new BufferedReader(new FileReader("text.txt"))) {
+	while ((line = br.readLine()) != null) {
+		System.out.println("Zeile gelesen: " + line);
+	}
+} catch (IOException e) {
+	System.out.println("IOException im try-Block: " + e.getMessage());
+}
 ```
 
 
