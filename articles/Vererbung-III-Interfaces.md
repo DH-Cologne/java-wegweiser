@@ -170,3 +170,4 @@ _Functional Interfaces_ sind ein Feature, das seit Java 8 existiert. Es ist nich
 
 - [Functional Interfaces in Java 8](https://www.baeldung.com/java-8-functional-interfaces) (baeldung.com)
 - [Functional Interfaces In Java](https://www.geeksforgeeks.org/functional-interfaces-java/) (geeksforgeeks.org)
+- [Functional Interfaces in Java - Examples](https://www.scaler.com/topics/functional-interface-in-java/) (scaler.com)
