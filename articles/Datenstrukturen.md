@@ -90,7 +90,7 @@ public class Node {
 }
 ```
 
-Dadurch lassen sich bestimmte Operationen einfacher ausführen - etwa das Entfernen eines Knotens mit einem bestimmten Wert, denn der zu entfernende Knoten referenziert selbst die beiden Nachbarknoten, deren Referenzen (auf den zu löschenden Knoten) geändert werden müssen!
+Dadurch lassen sich bestimmte Operationen einfacher ausführen - etwa das Entfernen eines Knotens mit einem bestimmten Wert, denn der zu entfernende Knoten referenziert selbst die beiden Nachbarknoten, deren Referenzen (auf den zu löschenden Knoten) geändert werden müssen! Lesen Sie diesen [Artikel](https://www.scaler.com/topics/data-structures/doubly-linked-list/), um mehr über die doppelt verknüpfte Liste zu erfahren.
 
 
 ## Bäume
