@@ -1,7 +1,7 @@
 # Softwaretechnologie: Java
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 &nbsp;
 [![Updated](https://badges.pufler.dev/updated/dh-cologne/java-wegweiser?style=flat-square&label=updated)](https://github.com/DH-Cologne/java-wegweiser/commits/ "Last updated")
@@ -213,6 +213,7 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
   <tr>
     <td align="center"><a href="https://github.com/vgavrilova"><img src="https://avatars2.githubusercontent.com/u/63244952?v=4?s=80" width="80px;" alt=""/><br /><sub><b>Valeria Gavrilova</b></sub></a><br /><a href="https://github.com/DH-Cologne/java-wegweiser/issues?q=author%3Avgavrilova" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/jspringe-stu"><img src="https://avatars.githubusercontent.com/u/74214197?v=4?s=80" width="80px;" alt=""/><br /><sub><b>jspringe</b></sub></a><br /><a href="#content-jspringe-stu" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/sandeepmishratech"><img src="https://avatars.githubusercontent.com/u/87706790?v=4?s=80" width="80px;" alt=""/><br /><sub><b>Sandeep Mishra</b></sub></a><br /><a href="#content-sandeepmishratech" title="Content">🖋</a></td>
   </tr>
 </table>
 
