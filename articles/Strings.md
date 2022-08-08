@@ -178,3 +178,5 @@ Das Internet ist voll von guten, übersichtlichen Ressourcen zu diesem Thema. De
 
 👉 [Java String format() (programiz.com)](https://www.programiz.com/java-programming/library/string/format)
 
+👉 [Java String format() Method - (Scaler Topics)](https://www.scaler.com/topics/java-string-format/)
+
