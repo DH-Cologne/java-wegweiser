@@ -14,7 +14,7 @@ Java ist eine _C-artige_, [universelle](https://de.wikipedia.org/wiki/Turing-Vol
 ## Besonderheiten
 
 ### Objektorientierung
-Java ist eine ([beinahe](https://de.wikipedia.org/wiki/Java_(Programmiersprache)#Objektorientierung)) völlig [objektorientierte Programmiersprache](https://de.wikipedia.org/wiki/Objektorientierte_Programmierung). Mehr dazu erfährst du in den entsprechenden Kapiteln zur [_Objektorientierung_](/README.md#objektorientierte-programmierung-oop).
+Java ist eine ([beinahe](https://de.wikipedia.org/wiki/Java_(Programmiersprache)#Objektorientierung)) völlig [objektorientierte Programmiersprache](https://de.wikipedia.org/wiki/Objektorientierte_Programmierung). Mehr dazu erfährst du in den entsprechenden Kapiteln zur [_Objektorientierung_](../README.md#objektorientierte-programmierung-oop).
 
 ### Garbage Collector
 Eine JVM verfügt über einen [Garbage Collector](https://de.wikipedia.org/wiki/Garbage_Collection), also eine automatische Speicherbereinigung. In Java müssen deshalb vom Code nicht mehr verwendete (referenzierte) Daten und Objekte nicht "händisch" aus dem Speicher gelöscht werden - dies geschieht automatisch.
@@ -28,7 +28,7 @@ Quelle: [oracle.com](https://www.oracle.com/technetwork/java/javase/tech/index.h
 Mehr dazu: [Wikipedia](https://de.wikipedia.org/wiki/Java_Platform,_Standard_Edition)_
 
 ### JRE
-Die **J**ava **R**untime **E**nvironment (dt. _Java Laufzeitumgebung_) bezeichnet all das, was ein fertig [kompiliertes](https://de.wikipedia.org/wiki/Compiler) Java-Programm braucht, um ausgeführt werden zu können.  
+Die **J**ava **R**untime **E**nvironment (dt. _Java Laufzeitumgebung_) bezeichnet all das, was ein fertig [kompiliertes](https://de.wikipedia.org/wiki/Compiler) Java-Programm braucht, um ausgeführt werden zu können.
 Sie umfasst (unter anderem) die benötigten **Java-Programmbibliotheken** (_siehe unten!_) und die **JVM** (_siehe unten!_).
 
 ### JDK
@@ -45,5 +45,3 @@ Eine rohe, unkompilierte Java-Quelltextdatei hat die Endung `.java` - nach dem K
 Als [_Java Class Library_](https://en.wikipedia.org/wiki/Java_Class_Library) (auch: _Java Standard Library_) bezeichnet man die sehr umfangreiche Programmbibliothek, die fester Teil der Java-Plattform und somit in jeder JRE verfügbar ist.
 
 > 💬 Siehe Grafik zur [Java Platform](#java-platform)
-
-
