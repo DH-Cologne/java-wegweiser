@@ -4,8 +4,6 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 &nbsp;
-[![Updated](https://badges.pufler.dev/updated/dh-cologne/java-wegweiser?style=flat-square&label=updated)](https://github.com/DH-Cologne/java-wegweiser/commits/ "Last updated")
-&nbsp;
 [![GitHub forks](https://img.shields.io/github/forks/DH-Cologne/java-wegweiser.svg?label=forks&maxAge=2592000&style=flat-square)](https://GitHub.com/DH-Cologne/java-wegweiser/network/members "Make your own fork today!")
 &nbsp;
 [![GitHub issues](https://img.shields.io/github/issues/DH-Cologne/java-wegweiser.svg?style=flat-square&label=issues)](https://GitHub.com/DH-Cologne/java-wegweiser/issues/ "There are this many open issues!")
@@ -17,17 +15,17 @@
 
 Ein Wegweiser zur Java-Programmierung, der mit seinen Aufgaben wächst. Für die Teilnehmer*innen des Moduls **"Softwaretechnologie: Java"** der Studiengänge **Informationsverarbeitung** und **Medieninformatik** am **IDH** (**I**nstitut für **D**igital **H**umanities, Universität zu Köln) und für alle Interessierten! 👐
 
-> **Work in progress.** 🚧 🐌  
+> **Work in progress.** 🚧 🐌
 Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu sein. Aber das ist okay. Wenn dir auffällt, dass etwas Wichtiges fehlt oder unzureichend erläutert ist, dann [eröffne ein Issue](https://github.com/dh-cologne/java-wegweiser/issues) oder [trage eigene Änderungen bei](Mitwirken.md)!
 
 
 ## Übrigens 💬
-📖 &nbsp; [**Inhalt**](#inhalt-book) &mdash; Zum Inhaltsverzeichnis springen!  
-🤔 &nbsp; [**Was ist das hier**](Was-Ist-Das.md) &mdash; Bzw. was ist es nicht?  
-👩‍💻 &nbsp; [**Contributing**](Mitwirken.md) &mdash; Oder: Wie kann ich hier mitwirken?  
-🛋️ &nbsp; [**Lese-Ansicht**](https://dh-cologne.github.io/java-wegweiser) &mdash; Wenn du aus Versehen im Repository gelandet bist!  
-📕 &nbsp; [**Glossar**](Glossar.md) &mdash; Allgemeine Terminologie der Programmierung (wichtig)!  
-🔗 &nbsp; [**Link-Liste**](Links.md) &mdash; Weitere empfehlenswerte (online-) Ressourcen!  
+📖 &nbsp; [**Inhalt**](#inhalt-book) &mdash; Zum Inhaltsverzeichnis springen!
+🤔 &nbsp; [**Was ist das hier**](Was-Ist-Das.md) &mdash; Bzw. was ist es nicht?
+👩‍💻 &nbsp; [**Contributing**](Mitwirken.md) &mdash; Oder: Wie kann ich hier mitwirken?
+🛋️ &nbsp; [**Lese-Ansicht**](https://dh-cologne.github.io/java-wegweiser) &mdash; Wenn du aus Versehen im Repository gelandet bist!
+📕 &nbsp; [**Glossar**](Glossar.md) &mdash; Allgemeine Terminologie der Programmierung (wichtig)!
+🔗 &nbsp; [**Link-Liste**](Links.md) &mdash; Weitere empfehlenswerte (online-) Ressourcen!
 🏷 &nbsp; [**Java Naming Conventions**](articles/Naming-Conventions.md) ...wollen befolgt werden!
 
 
@@ -76,7 +74,7 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 
 #### [Operatoren](articles/Operatoren.md)
 > `Rechenoperatoren` `Vergleichsoperatoren` `logische Operatoren` `Zuweisungsoperatoren` `+` `-` `*` `/` `%` `++` `--` `==` `!=` `>` `<` `>=` `<=` `&&` `||` `=` `+=` `-=` `/=` `*=` `%=` `&=` `|=` ...
- 
+
 #### [Strings / Zeichenketten](articles/Strings.md)
 > `die Klasse "String"` `Literals` `special characters` `Unveränderbarkeit von Strings` `UTF-16` `String Formatting` ...
 
@@ -174,19 +172,19 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 ... gehen die folgenden Themen. Das heißt jedoch nicht, dass sie nicht wichtig wären. Wer das Gelernte noch weiter vertiefen oder ergänzen möchte, kann sich von diesen Empfehlungen leiten lassen:
 
 #### Java Stream API
-🔗 [Introduction to Java 8 Streams](https://www.baeldung.com/java-8-streams-introduction) (baeldung.com)  
-🔗 [The Java 8 Stream API Tutorial](https://www.baeldung.com/java-8-streams) (baeldung.com)  
-🔗 [String Operations with Java Streams](https://www.baeldung.com/java-stream-operations-on-strings) (baeldung.com)  
-🔗 [Java Stream API](http://tutorials.jenkov.com/java-functional-programming/streams.html) (tutorials.jenkov.com)  
+🔗 [Introduction to Java 8 Streams](https://www.baeldung.com/java-8-streams-introduction) (baeldung.com)
+🔗 [The Java 8 Stream API Tutorial](https://www.baeldung.com/java-8-streams) (baeldung.com)
+🔗 [String Operations with Java Streams](https://www.baeldung.com/java-stream-operations-on-strings) (baeldung.com)
+🔗 [Java Stream API](http://tutorials.jenkov.com/java-functional-programming/streams.html) (tutorials.jenkov.com)
 
 #### Lambda Expressions und Functional Interfaces
-🔗 [Lambda Expressions](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html) (docs.oracle.com)  
-🔗 [Java Functional Interfaces](https://beginnersbook.com/2017/10/java-functional-interfaces/) (beginnersbook.com)  
-🔗 [Lambda Expressions and Functional Interfaces: Tips and Best Practices](https://www.baeldung.com/java-8-lambda-expressions-tips) (baeldung.com)  
+🔗 [Lambda Expressions](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html) (docs.oracle.com)
+🔗 [Java Functional Interfaces](https://beginnersbook.com/2017/10/java-functional-interfaces/) (beginnersbook.com)
+🔗 [Lambda Expressions and Functional Interfaces: Tips and Best Practices](https://www.baeldung.com/java-8-lambda-expressions-tips) (baeldung.com)
 
 #### Statische Methoden in Interfaces
-🔗 [Static and Default Methods in Interfaces in Java](https://www.baeldung.com/java-static-default-methods) (baeldung.com)  
-🔗 [Default and Static Methods in Interfaces in Java 8](https://codenuclear.com/default-and-static-methods-in-interfaces/) (codenuclear.com)  
+🔗 [Static and Default Methods in Interfaces in Java](https://www.baeldung.com/java-static-default-methods) (baeldung.com)
+🔗 [Default and Static Methods in Interfaces in Java 8](https://codenuclear.com/default-and-static-methods-in-interfaces/) (codenuclear.com)
 
 
 
@@ -194,7 +192,7 @@ Diese Lern- und Orientierungs-Ressource ist weit davon entfernt, vollständig zu
 
 ## Contributors ✨
 
-Das ist alles. **Bis jetzt!** Wie wäre es mit [**deinem Beitrag**](Mitwirken.md)?  
+Das ist alles. **Bis jetzt!** Wie wäre es mit [**deinem Beitrag**](Mitwirken.md)?
 
 Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen Mitwirkenden ([emoji legende](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -222,6 +220,5 @@ Dank für die Mitarbeit an diesem Repository gebührt den folgenden fleißigen M
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-> 👉 **Dieses Projekt folgt der [all-contributors](https://github.com/all-contributors/all-contributors)-Spezifikation.**  
+> 👉 **Dieses Projekt folgt der [all-contributors](https://github.com/all-contributors/all-contributors)-Spezifikation.**
 > Contributions (Beiträge) jeder Art [sind willkommen](Mitwirken.md) und werden an dieser Stelle wie oben zu sehen aufgeführt!
-
